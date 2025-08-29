@@ -1,43 +1,34 @@
-# Reference Library
+# Reading Notes
 
-[![Deploy Reference Library Site](https://github.com/MunoMono/reference-library/actions/workflows/deploy.yml/badge.svg)](https://github.com/MunoMono/reference-library/actions/workflows/deploy.yml)
+A live, browsable **reading notes library** powered by **React, Vite, and IBM Carbon Design System**.  
+It renders Markdown notes (one per paper), grouped A–Z by author, with search, filtering, and light/dark theming.
 
-A live, browsable **reference library** powered by the **Zotero API**, built with **React, Vite, and IBM Carbon Design System**.  
-It renders Zotero collections as interactive pills, visualises counts in a chart, and provides live search across both collections and entries.
-
-Live version: [https://munomono.github.io/reference-library/](https://munomono.github.io/reference-library/)
+Live version: [https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
 
 ---
 
 ## 📚 About
 
-This repository connects directly to my Zotero library and publishes an **interactive reference library site** via GitHub Pages.
+This repository contains my **PhD reading notes**, exported from Zotero’s `library.bib` and managed as Markdown files.  
+Each note contains structured prompts (purpose, methodology, findings, etc.) and is browsable through a Carbon-based React app.
 
-- **Data source**: Zotero API (collections + items)  
+- **Data source**: `refs/library.bib` (Better BibTeX export from Zotero)  
 - **Framework**: React + Vite  
 - **UI**: IBM Carbon Design System (`@carbon/react`, `@carbon/styles`)  
-- **Features**:
-  - Pills navigation with numeric ordering (`0 Backlog` → `12 Not applicable`)  
-  - Parent > Child breadcrumbs in pill labels  
-  - Clean entry rendering (title, authors, year, venue)  
-  - Search/filter across both collection titles *and* entries (with keyword highlighting)  
-  - Interactive bar chart (clickable → activates pill)  
-  - Light/dark theme toggle (Carbon g90 + white theme override)  
-  - Responsive Carbon grid layout with proper margins  
-  - Footer with auto-updating “Last updated dd mmm yyyy”  
+- **Content**: Markdown notes in `public/docs/A-Z/`  
 
 ---
 
 ## 🚀 Usage
 
 - **View online**:  
-  [https://munomono.github.io/reference-library/](https://munomono.github.io/reference-library/)
+  [https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
 
 - **Run locally**:
 
 ```bash
-git clone https://github.com/MunoMono/reference-library.git
-cd reference-library
+git clone https://github.com/MunoMono/reading-notes.git
+cd reading-notes
 npm install
 npm run dev
 ```
@@ -49,35 +40,62 @@ npm run build
 npm run preview
 ```
 
-Deployment is automated via GitHub Actions → GitHub Pages.
+- **Deploy manually to GitHub Pages**:
+
+```bash
+npm run push:deploy -- "commit message"
+```
+
+Deployment pushes to the `gh-pages` branch and is hosted via GitHub Pages.
 
 ---
 
 ## 🧩 Features
 
-- **Pills navigation**  
-  Zotero child collections appear as pills, ordered numerically by prefix (e.g. `0 Backlog` → `12 Not applicable`).
+- **A–Z navigation**  
+  Notes are grouped by first author’s surname initial (folders `public/docs/A … Z`).
 
-- **Breadcrumbs**  
-  Pills show their full collection hierarchy (`5 Theoretical framework → Critical theory`).
+- **Bibliographic metadata**  
+  Each note has YAML frontmatter (title, authors, year, journal, DOI, etc.) pulled automatically from `refs/library.bib`.
 
-- **Entries view**  
-  Clicking a pill displays the cleaned Zotero items (ignores placeholders like `PDF`, `Untitled`).  
+- **Homepage**  
+  Search box + pills for filtering by letter. Entries listed with *Author (Year) Title — Journal*.
 
-- **Search & Highlight**  
-  Filter pills *and* entries by keywords. Matches inside entries are highlighted (e.g., author surname).
-
-- **Interactive chart**  
-  A horizontal bar chart visualises entry counts per sub-collection. Clicking a bar activates the corresponding pill.
+- **Note view**  
+  Individual note pages show:
+  - Metadata (title, authors, year, journal, DOI)
+  - Markdown body (Purpose, Methodology, Findings, etc.)
+  - Carbon-styled headings and lists
+  - Breadcrumbs for easy navigation
 
 - **Theme toggle**  
-  Light/dark mode switch (Carbon g90 theme vs light).
+  Switch between Carbon **g10** (light) and **g90** (dark).
 
-- **Responsive grid**  
-  All content sits within a Carbon grid, giving consistent margins like the IBM Design System site.
+---
 
-- **Footer**  
-  Shows a small “Last updated” date stamp at bottom-right.
+## ✍️ Creating a new note
+
+1. Make sure `refs/library.bib` is up to date (exported via Better BibTeX from Zotero).  
+2. Run the helper script:
+
+```bash
+./scripts/newnote.sh <citekey|doi|url> [--build]
+```
+
+Examples:
+
+```bash
+# Using a Zotero citekey
+./scripts/newnote.sh Valtonen2020ApproachingChangeDesign --build
+
+# Using a DOI
+./scripts/newnote.sh 10.1016/j.sheji.2020.08.004 --build
+```
+
+- This creates a new Markdown file in the correct A–Z folder under `public/docs/`.  
+- The `--build` flag will automatically refresh `public/docs/index.json`.  
+- Each note includes a **structured template** for Purpose, Methodology, Findings, etc.  
+- You can then edit the Markdown directly to add your notes.
 
 ---
 
@@ -85,9 +103,11 @@ Deployment is automated via GitHub Actions → GitHub Pages.
 
 Key source files:
 
-- `src/App.jsx` — main application logic  
-- `src/components/` — modular components (HeaderBar, PillRow, SearchBox, EntriesChart, Footer, etc.)  
-- `src/index.scss` — Carbon theme overrides + custom styling  
+- `src/App.jsx` — app shell, routing, theme toggle  
+- `src/pages/Home.jsx` — grouped A–Z listing + search  
+- `src/pages/Doc.jsx` — renders a single note with metadata + Markdown  
+- `src/styles/` — Carbon overrides (`index.scss`, `_carbon-markdown.scss`)  
+- `scripts/newnote.sh` — CLI helper to generate notes from `refs/library.bib`  
 
 Run locally with:
 
@@ -99,5 +119,5 @@ npm run dev
 
 ## 🔖 License
 
-- Bibliographic **data** is licensed under [CC BY 4.0](./LICENSE-CC-BY-4.0.txt).  
-- Application code, configuration, and documentation are licensed under [MIT](./LICENSE).  
+- Notes and bibliographic **content**: [CC BY 4.0](./LICENSE-CC-BY-4.0.txt)  
+- Application code and configuration: [MIT](./LICENSE)

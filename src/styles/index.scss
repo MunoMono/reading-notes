@@ -1,7 +1,11 @@
+/* 1) All @use first */
 @use '@carbon/styles'; /* pull in Carbon’s base styles */
 @use '@carbon/styles/scss/type' as type;
 /* Bring in your markdown + global overrides */
 @use './components/carbon-markdown';
+
+/* 2) Then CSS @import(s) */
+@import '@ibm/plex/css/ibm-plex.css';
 
 /* Force light (g10) and dark (g90) theme tokens */
 :root[data-theme="g10"] {
