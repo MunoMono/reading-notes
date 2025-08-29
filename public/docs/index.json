@@ -1,0 +1,79 @@
+{
+  "updatedAt": "2025-08-29T04:14:51.479Z",
+  "entries": [
+    {
+      "letter": "D",
+      "slug": "drabinskiWhatCriticalCritical2019",
+      "path": "/docs/D/drabinskiWhatCriticalCritical2019.md",
+      "title": "What is critical about critical librarianship?",
+      "authors": "Drabinski, Emily",
+      "year": "2019",
+      "venue": "Art Libraries Journal 44(2): 49–57",
+      "doi": "10.1017/alj.2019.3",
+      "url": "https://doi.org/10.1017/alj.2019.3"
+    },
+    {
+      "letter": "J",
+      "slug": "jaillantUsersDigitalArchives2024",
+      "path": "/docs/J/jaillantUsersDigitalArchives2024.md",
+      "title": "Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities",
+      "authors": "Jaillant, Lise; Aske, Katherine",
+      "year": "2024",
+      "venue": "ACM Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3631125",
+      "url": "https://doi.org/10.1145/3631125"
+    },
+    {
+      "letter": "M",
+      "slug": "mortatiNewDesignKnowledge2022",
+      "path": "/docs/M/mortatiNewDesignKnowledge2022.md",
+      "title": "New design knowledge and the Fifth Order of design",
+      "authors": "Mortati, Marzia",
+      "year": "2022",
+      "venue": "Design Issues",
+      "doi": "10.1162/desi_a_00695",
+      "url": "https://doi.org/10.1162/desi_a_00695"
+    }
+  ],
+  "grouped": {
+    "D": [
+      {
+        "letter": "D",
+        "slug": "drabinskiWhatCriticalCritical2019",
+        "path": "/docs/D/drabinskiWhatCriticalCritical2019.md",
+        "title": "What is critical about critical librarianship?",
+        "authors": "Drabinski, Emily",
+        "year": "2019",
+        "venue": "Art Libraries Journal 44(2): 49–57",
+        "doi": "10.1017/alj.2019.3",
+        "url": "https://doi.org/10.1017/alj.2019.3"
+      }
+    ],
+    "J": [
+      {
+        "letter": "J",
+        "slug": "jaillantUsersDigitalArchives2024",
+        "path": "/docs/J/jaillantUsersDigitalArchives2024.md",
+        "title": "Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities",
+        "authors": "Jaillant, Lise; Aske, Katherine",
+        "year": "2024",
+        "venue": "ACM Journal on Computing and Cultural Heritage",
+        "doi": "10.1145/3631125",
+        "url": "https://doi.org/10.1145/3631125"
+      }
+    ],
+    "M": [
+      {
+        "letter": "M",
+        "slug": "mortatiNewDesignKnowledge2022",
+        "path": "/docs/M/mortatiNewDesignKnowledge2022.md",
+        "title": "New design knowledge and the Fifth Order of design",
+        "authors": "Mortati, Marzia",
+        "year": "2022",
+        "venue": "Design Issues",
+        "doi": "10.1162/desi_a_00695",
+        "url": "https://doi.org/10.1162/desi_a_00695"
+      }
+    ]
+  }
+}
