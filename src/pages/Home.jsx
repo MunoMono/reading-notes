@@ -1,3 +1,4 @@
+// src/pages/Home.jsx
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Grid, Column, Tag } from "@carbon/react";
@@ -8,7 +9,8 @@ export default function Home() {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("/reading-notes/docs/index.json") // respects basename in dev/prod
+    const base = import.meta.env.BASE_URL || "/";
+    fetch(`${base}docs/index.json`)
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((json) => setData(json))
       .catch((e) => console.error("Failed to load /docs/index.json", e));
@@ -16,12 +18,12 @@ export default function Home() {
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  // filter entries by query
+  // filter entries by query (use displayTitle + fields)
   const filteredEntries = useMemo(() => {
     if (!query.trim()) return data.entries || [];
     const q = query.toLowerCase();
     return (data.entries || []).filter((e) =>
-      [e.title, e.authors, e.venue, e.year, e.doi]
+      [e.displayTitle, e.title, e.authors, e.journal, e.year, e.doi, e.citation_key]
         .filter(Boolean)
         .join(" ")
         .toLowerCase()
@@ -75,9 +77,10 @@ export default function Home() {
                 {items.map((e) => (
                   <li key={`${e.letter}/${e.slug}`}>
                     <Link to={`/docs/${e.letter}/${e.slug}`}>
-                      <strong>{e.authors}</strong>
-                      {e.year ? ` (${e.year})` : ""}. {e.title}
-                      {e.venue ? <em> — {e.venue}</em> : null}
+                      {e.authors && <strong>{e.authors}</strong>}
+                      {e.year ? ` (${e.year})` : ""}
+                      {e.title ? `. ${e.title}` : ""}
+                      {e.journal ? <> — <em>{e.journal}</em></> : null}
                     </Link>
                   </li>
                 ))}
