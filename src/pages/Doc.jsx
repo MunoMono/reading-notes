@@ -12,12 +12,10 @@ function stripFrontmatter(s) {
 }
 function stripLeadingH1(s, title) {
   if (!s) return s;
-  // If we know the title, remove an exact-matching top-level H1
   if (title) {
     const re = new RegExp(`^\\s*#\\s+${escapeRegExp(title)}\\s*\\n+`, "i");
     if (re.test(s)) return s.replace(re, "");
   }
-  // Otherwise, conservatively remove just the very first H1 if present
   return s.replace(/^\s*#\s+.+\n+/, "");
 }
 
@@ -26,25 +24,32 @@ export default function Doc() {
   const [md, setMd] = useState("# Loading…");
   const [meta, setMeta] = useState(null);
 
-  // Use Vite base so it works under /reading-notes in dev & prod
+  // Works under /reading-notes/ in both dev & prod
   const base = import.meta.env.BASE_URL || "/";
 
   useEffect(() => {
-    // Load meta first so we can match/remove duplicate H1 accurately
-    fetch(`${base}docs/index.json`)
-      .then((r) => r.json())
-      .then((idx) => idx.entries.find((e) => e.letter === letter && e.slug === slug))
+    let titleFromMeta = "";
+
+    // 1) Load meta first (for breadcrumbs + title matching)
+    fetch(`${base}docs/index.json`, { cache: "no-cache" })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`index ${r.status}`))))
+      .then((idx) => idx?.entries?.find((e) => e.letter === letter && e.slug === slug))
       .then((m) => {
         setMeta(m || null);
-        return fetch(`${base}docs/${letter}/${slug}.md`);
+        titleFromMeta = m?.title || "";
+        // 2) Fetch the raw markdown; guard against GH Pages 404 HTML
+        return fetch(`${base}docs/${letter}/${slug}.md`, { cache: "no-cache" });
       })
-      .then((r) => r.text())
+      .then((r) => (r.ok ? r.text() : Promise.reject(new Error(`md ${r.status}`))))
       .then((raw) => {
         const withoutFM = stripFrontmatter(raw);
-        const cleaned = stripLeadingH1(withoutFM, meta?.title);
-        setMd(cleaned);
+        const cleaned = stripLeadingH1(withoutFM, titleFromMeta);
+        setMd(cleaned || "# Not found");
       })
-      .catch(() => setMd("# Not found"));
+      .catch((err) => {
+        console.error("Doc load failed:", err);
+        setMd("# Not found");
+      });
   }, [letter, slug, base]);
 
   return (
@@ -62,14 +67,14 @@ export default function Doc() {
 
         <div className="doc-header">
           <h2>{meta?.title || slug}</h2>
-          {meta?.authors || meta?.year ? (
+          {(meta?.authors || meta?.year || meta?.venue || meta?.doi) && (
             <p className="doc-meta">
               {meta?.authors}
               {meta?.year ? ` (${meta.year})` : ""}
               {meta?.venue ? ` — ${meta.venue}` : ""}
               {meta?.doi ? ` · DOI: ${meta.doi}` : ""}
             </p>
-          ) : null}
+          )}
           <hr className="doc-separator" />
         </div>
 
