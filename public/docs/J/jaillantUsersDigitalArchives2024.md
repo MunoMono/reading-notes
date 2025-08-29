@@ -9,7 +9,7 @@ url: "https://doi.org/10.1145/3631125"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Aug 29, 2025, 08:00 AM"---
+last_updated: "Aug 29, 2025, 08:40 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Investigates whether scholars and users of digital archives are ready to adopt AI and computational research methods.  

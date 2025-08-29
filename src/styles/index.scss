@@ -166,23 +166,6 @@ li {
 }
 
 .pill-row {
-  margin: 1rem 0; /* already defined but ensures vertical spacing */
-}
-
-/* Home page layout adjustments */
-.home-heading {
-  margin-bottom: 0.25rem;
-}
-
-.home-meta {
-  margin-bottom: 1.5rem;
-}
-
-.home-search {
-  margin-bottom: 1.5rem;
-}
-
-.pill-row {
   margin: 1rem 0;
 }
 
@@ -223,4 +206,52 @@ li {
 .doc-revision {
   margin-top: 2rem !important;
   margin-bottom: 2rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* 🟢 Mobile safety & wrapping tweaks */
+/* Prevent horizontal scrolling */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Long-text wrapping */
+.doc-header,
+.doc-header h2,
+.cds--breadcrumb,
+.cds--breadcrumb a,
+.carbon-markdown,
+.entry-list li,
+.entry-list li a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Breadcrumb links wrap instead of forcing one line */
+.cds--breadcrumb a {
+  white-space: normal;
+  display: inline;
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .doc-header h2 {
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  .carbon-markdown pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+}
+
+/* Images + tables inside markdown scale down */
+.carbon-markdown table,
+.carbon-markdown img {
+  max-width: 100%;
+  width: 100%;
 }
