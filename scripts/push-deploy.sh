@@ -1,16 +1,43 @@
 #!/usr/bin/env bash
-# Push changes to main and deploy to GitHub Pages
+# scripts/push-deploy.sh
 set -euo pipefail
+umask 022
 
-# Stage everything
+# Optional commit message (default if omitted)
+MSG="${1:-chore: deploy latest changes}"
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT_DIR"
+
+echo "==> Git add/commit/push (branch: main)"
 git add .
-
-# Commit with a default message or allow override
-MSG=${1:-"chore: update and deploy site"}
-git commit -m "$MSG" || echo "Nothing to commit, skipping commit step."
-
-# Push to main
+if git diff --cached --quiet; then
+  echo "==> No staged changes to commit."
+else
+  git commit -m "$MSG" || true
+fi
 git push origin main
 
-# Deploy to gh-pages
-npm run deploy
+echo "==> Ensure public/.nojekyll exists (disables Jekyll on GH Pages)"
+touch public/.nojekyll
+
+echo "==> Install gh-pages if missing"
+if ! npx --yes gh-pages --version >/dev/null 2>&1; then
+  npm i -D gh-pages
+fi
+
+echo "==> Clean previous gh-pages cache"
+npx gh-pages-clean || true
+
+echo "==> Build docs index + site"
+npm run build:docs-index
+npm run build
+
+echo "==> Copy .nojekyll into dist/"
+cp -f public/.nojekyll dist/.nojekyll
+
+echo "==> Publish dist/ to gh-pages (with dotfiles, force)"
+npx gh-pages -d dist -b gh-pages -f --dotfiles -m "deploy: publish dist with md + .nojekyll"
+
+echo "==> Done. Visit:"
+echo "    https://munomono.github.io/reading-notes/"
