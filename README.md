@@ -1,7 +1,7 @@
 # Reading Notes
 
-A live, browsable **reading notes library** powered by **React, Vite, and IBM Carbon Design System**.  
-It renders Markdown notes (one per paper), grouped A–Z by author, with search, filtering, and light/dark theming.
+A live, browsable **reading notes site** powered by **React, Vite, and IBM Carbon Design System**.  
+Notes are generated from a BibTeX library, organised A–Z by author, and rendered as Markdown with metadata.
 
 Live version: [https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
 
@@ -9,93 +9,81 @@ Live version: [https://munomono.github.io/reading-notes/](https://munomono.githu
 
 ## 📚 About
 
-This repository contains my **PhD reading notes**, exported from Zotero’s `library.bib` and managed as Markdown files.  
-Each note contains structured prompts (purpose, methodology, findings, etc.) and is browsable through a Carbon-based React app.
+This repository turns my Zotero-exported **BibTeX library** into a set of structured Markdown notes, grouped A–Z.  
+Each note carries frontmatter metadata (`title`, `authors`, `year`, `doi`, etc.) and a `last_updated` timestamp.
 
 - **Data source**: `refs/library.bib` (Better BibTeX export from Zotero)  
 - **Framework**: React + Vite  
 - **UI**: IBM Carbon Design System (`@carbon/react`, `@carbon/styles`)  
-- **Content**: Markdown notes in `public/docs/A-Z/`  
+- **Features**:
+  - A–Z navigation pills with counts
+  - Clean entry list (authors, year, title, venue)
+  - Search & filter across all metadata
+  - Breadcrumb navigation in each note
+  - Auto-stamped **last revision date** per note
+  - Light/dark theme toggle
+  - Deployable on GitHub Pages
 
 ---
 
 ## 🚀 Usage
 
-- **View online**:  
-  [https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
+### View online
+[https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
 
-- **Run locally**:
+### Run locally
 
 ```bash
 git clone https://github.com/MunoMono/reading-notes.git
 cd reading-notes
 npm install
-npm run dev
+npm run dev:all
 ```
 
-- **Build for production**:
+This runs both:
+- the Vite dev server (`vite`)
+- the watcher that **auto-updates `last_updated`** whenever you save a Markdown note.
+
+### Build for production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-- **Deploy manually to GitHub Pages**:
-
-```bash
-npm run push:deploy -- "commit message"
-```
-
-Deployment pushes to the `gh-pages` branch and is hosted via GitHub Pages.
-
 ---
 
-## 🧩 Features
+## 📝 Workflow Cheatsheet
 
-- **A–Z navigation**  
-  Notes are grouped by first author’s surname initial (folders `public/docs/A … Z`).
-
-- **Bibliographic metadata**  
-  Each note has YAML frontmatter (title, authors, year, journal, DOI, etc.) pulled automatically from `refs/library.bib`.
-
-- **Homepage**  
-  Search box + pills for filtering by letter. Entries listed with *Author (Year) Title — Journal*.
-
-- **Note view**  
-  Individual note pages show:
-  - Metadata (title, authors, year, journal, DOI)
-  - Markdown body (Purpose, Methodology, Findings, etc.)
-  - Carbon-styled headings and lists
-  - Breadcrumbs for easy navigation
-
-- **Theme toggle**  
-  Switch between Carbon **g10** (light) and **g90** (dark).
-
----
-
-## ✍️ Creating a new note
-
-1. Make sure `refs/library.bib` is up to date (exported via Better BibTeX from Zotero).  
-2. Run the helper script:
+### 1. Create a new note
 
 ```bash
-./scripts/newnote.sh <citekey|doi|url> [--build]
+./scripts/newnote.sh <citekey|doi|url>
 ```
 
-Examples:
+- Creates a new Markdown file in the correct A–Z folder.  
+- Auto-fills frontmatter from `refs/library.bib`.  
+- Immediately stamps `last_updated`.  
+
+### 2. Develop locally (with live stamping)
 
 ```bash
-# Using a Zotero citekey
-./scripts/newnote.sh Valtonen2020ApproachingChangeDesign --build
-
-# Using a DOI
-./scripts/newnote.sh 10.1016/j.sheji.2020.08.004 --build
+npm run dev:all
 ```
 
-- This creates a new Markdown file in the correct A–Z folder under `public/docs/`.  
-- The `--build` flag will automatically refresh `public/docs/index.json`.  
-- Each note includes a **structured template** for Purpose, Methodology, Findings, etc.  
-- You can then edit the Markdown directly to add your notes.
+- Starts dev server **and** auto-stamps on save.  
+- Open [http://localhost:5173/reading-notes/](http://localhost:5173/reading-notes/)  
+
+### 3. Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+- Stamps all notes  
+- Rebuilds `index.json`  
+- Builds site into `dist/`  
+- Publishes with `.nojekyll` to `gh-pages`
 
 ---
 
@@ -103,21 +91,17 @@ Examples:
 
 Key source files:
 
-- `src/App.jsx` — app shell, routing, theme toggle  
-- `src/pages/Home.jsx` — grouped A–Z listing + search  
-- `src/pages/Doc.jsx` — renders a single note with metadata + Markdown  
-- `src/styles/` — Carbon overrides (`index.scss`, `_carbon-markdown.scss`)  
-- `scripts/newnote.sh` — CLI helper to generate notes from `refs/library.bib`  
-
-Run locally with:
-
-```bash
-npm run dev
-```
+- `src/App.jsx` — main app & router
+- `src/pages/Home.jsx` — A–Z entry list & search
+- `src/pages/Doc.jsx` — renders individual notes
+- `scripts/newnote.sh` — creates new notes from `refs/library.bib`
+- `scripts/stamp-notes.mjs` — manages `last_updated` stamping
+- `scripts/build-docs-index.mjs` — rebuilds `public/docs/index.json`
+- `src/styles/index.scss` — Carbon + global overrides
 
 ---
 
 ## 🔖 License
 
-- Notes and bibliographic **content**: [CC BY 4.0](./LICENSE-CC-BY-4.0.txt)  
-- Application code and configuration: [MIT](./LICENSE)
+- Bibliographic **data**: [CC BY 4.0](./LICENSE-CC-BY-4.0.txt)  
+- Application code + configs: [MIT](./LICENSE)  

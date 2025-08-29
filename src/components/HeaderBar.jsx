@@ -1,3 +1,4 @@
+// src/components/HeaderBar.jsx
 import React from "react";
 import {
   Header,
@@ -9,20 +10,22 @@ import { Moon, Sun } from "@carbon/icons-react";
 
 function HeaderBar({ theme, toggleTheme }) {
   const isDark = theme === "g90";
+  const base = import.meta.env.BASE_URL || "/"; // ensures the name links home in dev & GH Pages
 
   return (
-    <Header aria-label="Reference Library">
-      <HeaderName href="#" prefix="">
+    <Header aria-label="Reading notes">
+      <HeaderName href={base} prefix="">
         Graham Newman reading notes
       </HeaderName>
 
       <HeaderGlobalBar>
         <HeaderGlobalAction
-          aria-label="Toggle theme"
+          aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
           onClick={toggleTheme}
           tooltipAlignment="end"
+          title={isDark ? "Light mode" : "Dark mode"}
         >
-          {isDark ? <Sun size={20} /> : <Moon size={20} />}
+          {isDark ? <Sun size={20} aria-hidden="true" /> : <Moon size={20} aria-hidden="true" />}
         </HeaderGlobalAction>
       </HeaderGlobalBar>
     </Header>

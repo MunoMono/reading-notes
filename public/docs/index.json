@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T06:38:12.503Z",
+  "updatedAt": "2025-08-29T07:40:13.571Z",
   "entries": [
     {
       "letter": "D",
@@ -13,7 +13,7 @@
       "url": "https://doi.org/10.1017/alj.2019.3",
       "citation_key": "drabinskiWhatCriticalCritical2019",
       "displayTitle": "Drabinski, Emily (2019). What is critical about critical librarianship? — Art Libraries Journal 44(2): 49–57",
-      "mtimeMs": 1756397906977.1926
+      "mtimeMs": 1756453213454.941
     },
     {
       "letter": "J",
@@ -27,7 +27,7 @@
       "url": "https://doi.org/10.1145/3631125",
       "citation_key": "jaillantAreUsersDigital2024",
       "displayTitle": "Jaillant, Lise; Aske, Katherine (2024). Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities — ACM Journal on Computing and Cultural Heritage",
-      "mtimeMs": 1756397906977.4304
+      "mtimeMs": 1756453213457.516
     },
     {
       "letter": "M",
@@ -41,7 +41,7 @@
       "url": "https://doi.org/10.1162/desi_a_00695",
       "citation_key": "mortatiNewDesignKnowledge2022",
       "displayTitle": "Mortati, Marzia (2022). New design knowledge and the Fifth Order of design — Design Issues",
-      "mtimeMs": 1756397906977.598
+      "mtimeMs": 1756453213458.1626
     },
     {
       "letter": "V",
@@ -55,7 +55,7 @@
       "url": "https://doi.org/10.1016/j.sheji.2020.08.004",
       "citation_key": "Valtonen2020ApproachingChangeDesign",
       "displayTitle": "Valtonen, Anna (2020). Approaching Change with and in Design — She ji: the journal of design, economics, and innovation",
-      "mtimeMs": 1756445023046.081
+      "mtimeMs": 1756453213459.156
     }
   ],
   "grouped": {
@@ -72,7 +72,7 @@
         "url": "https://doi.org/10.1017/alj.2019.3",
         "citation_key": "drabinskiWhatCriticalCritical2019",
         "displayTitle": "Drabinski, Emily (2019). What is critical about critical librarianship? — Art Libraries Journal 44(2): 49–57",
-        "mtimeMs": 1756397906977.1926
+        "mtimeMs": 1756453213454.941
       }
     ],
     "J": [
@@ -88,7 +88,7 @@
         "url": "https://doi.org/10.1145/3631125",
         "citation_key": "jaillantAreUsersDigital2024",
         "displayTitle": "Jaillant, Lise; Aske, Katherine (2024). Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities — ACM Journal on Computing and Cultural Heritage",
-        "mtimeMs": 1756397906977.4304
+        "mtimeMs": 1756453213457.516
       }
     ],
     "M": [
@@ -104,7 +104,7 @@
         "url": "https://doi.org/10.1162/desi_a_00695",
         "citation_key": "mortatiNewDesignKnowledge2022",
         "displayTitle": "Mortati, Marzia (2022). New design knowledge and the Fifth Order of design — Design Issues",
-        "mtimeMs": 1756397906977.598
+        "mtimeMs": 1756453213458.1626
       }
     ],
     "V": [
@@ -120,7 +120,7 @@
         "url": "https://doi.org/10.1016/j.sheji.2020.08.004",
         "citation_key": "Valtonen2020ApproachingChangeDesign",
         "displayTitle": "Valtonen, Anna (2020). Approaching Change with and in Design — She ji: the journal of design, economics, and innovation",
-        "mtimeMs": 1756445023046.081
+        "mtimeMs": 1756453213459.156
       }
     ]
   }

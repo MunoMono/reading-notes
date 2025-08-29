@@ -194,3 +194,33 @@ li {
 .alpha-section h3 {
   margin-bottom: 0.5rem; /* space below the letter heading */
 }
+
+/* Make Home list links look like prod */
+.entry-list a {
+  color: var(--cds-link-primary) !important;
+  text-decoration: none;
+}
+.entry-list a:hover {
+  text-decoration: underline;
+}
+
+/* Venue styling inside the link */
+.entry-list em {
+  font-style: italic;
+  color: var(--cds-text-secondary);
+}
+
+/* Document metadata styling */
+.doc-header {
+  margin-bottom: 2rem;
+}
+
+.doc-meta {
+  font-size: 0.9rem;
+  color: var(--cds-text-secondary);
+}
+
+.doc-revision {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem;
+}

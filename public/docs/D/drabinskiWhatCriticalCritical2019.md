@@ -9,8 +9,7 @@ url: "https://doi.org/10.1017/alj.2019.3"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
----
-
+last_updated: "Aug 29, 2025, 08:00 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 To articulate what makes *critical librarianship* ‘critical’ and show how library work—classification, cataloguing, discovery, policies and teaching—materially structures knowledge and power; then to outline principles for changing those structures towards social justice.
