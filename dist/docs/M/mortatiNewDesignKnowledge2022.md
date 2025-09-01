@@ -9,7 +9,7 @@ url: "https://doi.org/10.1162/desi_a_00695"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Aug 29, 2025, 08:00 AM"---
+last_updated: "Aug 29, 2025, 08:40 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Proposes the idea of a *fifth order of design*—a shift beyond product, service, system and meta-design—to describe how design knowledge is produced, institutionalised and mobilised across contexts.  

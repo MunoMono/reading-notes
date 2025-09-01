@@ -25,14 +25,15 @@ command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found"; exit 1;
 
 # Run the Python generator and CAPTURE the output path
 NEWFILE=$(python3 - "$BIB_PATH" "$NOTES_DIR" "$IDENT" "$CSL_STYLE" <<'PY'
-import re, sys, pathlib, textwrap, os
+import re, sys, pathlib
 
 bib_path = pathlib.Path(sys.argv[1])
 notes_dir = pathlib.Path(sys.argv[2])
 ident     = sys.argv[3]
 csl_style = sys.argv[4]
 
-def norm(s): return re.sub(r'[^a-z0-9]+','', (s or '').lower())
+def norm(s): 
+    return re.sub(r'[^a-z0-9]+','', (s or '').lower())
 
 def load_bib_entries(path):
     txt = path.read_text(encoding='utf-8', errors='ignore')
@@ -40,13 +41,25 @@ def load_bib_entries(path):
     entries=[]
     for ch in chunks:
         m = re.match(r'@\s*([^{(]+)\s*[\{\(]\s*([^,\s]+)', ch)
-        if not m: continue
+        if not m: 
+            continue
         key = m.group(2).strip()
         fields={}
-        for fm in re.finditer(r'([a-zA-Z]+)\s*=\s*({([^{}]*|{[^}]*})*}|"([^"]*)")\s*,?', ch, re.S):
-            name=fm.group(1).lower()
-            val = fm.group(3) if fm.group(3) is not None else (fm.group(4) or "")
-            fields[name]=val.strip()
+        for fm in re.finditer(
+            r'([a-zA-Z]+)\s*=\s*'
+            r'(?:'
+            r'({(?:[^{}]|{[^}]*})*})'   # braced
+            r'|("([^"]*)")'             # quoted
+            r'|([^\s,]+)'               # bare
+            r')\s*,?', ch, re.S):
+            name = fm.group(1).lower()
+            if fm.group(2):
+                raw = fm.group(2)[1:-1]
+            elif fm.group(3):
+                raw = fm.group(4) or ""
+            else:
+                raw = fm.group(5) or ""
+            fields[name] = raw.strip()
         entries.append((key, fields))
     return entries
 
@@ -79,6 +92,10 @@ else:
     doi     = ident if ident.startswith('10.') else ""
     url     = ident if ident.startswith('http') else ""
 
+def yaml_str(s): 
+    s = (s or "").replace('"', '\\"')
+    return f'"{s}"'
+
 # Determine letter subfolder (first author surname initial if available)
 letter = (authors.split(',')[0].strip()[:1].upper() or citekey[:1].upper() or 'Z')
 if not letter.isalpha(): letter = 'Z'
@@ -90,15 +107,15 @@ fname = re.sub(r'[^A-Za-z0-9._-]+', '-', citekey) + ".md"
 out = outdir / fname
 if not out.exists():
     tpl = f"""---
-title: "{title}"
-authors: "{authors}"
-year: {year}
-journal: "{journal}"
+title: {yaml_str(title)}
+authors: {yaml_str(authors)}
+year: {year or ''}
+journal: {yaml_str(journal)}
 citation_key: {citekey}
-doi: {doi if doi else ''}
-url: "{url}"
+doi: {yaml_str(doi)}
+url: {yaml_str(url)}
 bibliography: ../../refs/library.bib
-csl: "https://www.zotero.org/styles/harvard-cite-them-right"
+csl: "{csl_style}"
 link-citations: true
 ---
 
