@@ -21,14 +21,14 @@ The purpose is to map the historical arc of the design methods movement and to a
 ## Methodology
 ### Describe the research design, methods and sample size.
 This is a **historical–reflective editorial**, not empirical research. Cross draws on:  
-- Archival accounts of conferences (eg 1962 London, 1965 Birmingham, 1967 Portsmouth).  
+- Archival accounts of conferences (e.g., 1962 London, 1965 Birmingham, 1967 Portsmouth).  
 - Publications of the 1960s–80s (Asimow, Alexander, Archer, Jones, Rittel, Schön).  
 - Personal scholarly involvement in the development of design methods.  
 It is qualitative, interpretivist and synthetic in nature, aiming to narrate and periodise forty years of developments in design research rather than generate new empirical data.
 
 ## Key findings and arguments
 ### Summarise the main results and conclusions.
-1. **Origins (1960s).** Design methods arose from postwar operational research, management science and creativity techniques (eg Osborn, Gordon). Archer’s 1965 statement captured the ambition: systematic, computer- and management-inspired problem-solving for design [p. 1]. Simon’s *Sciences of the Artificial* (1969) positioned design as potentially scientific.  
+1. **Origins (1960s).** Design methods arose from postwar operational research, management science and creativity techniques (e.g., Osborn, Gordon). Archer’s 1965 statement captured the ambition: systematic, computer- and management-inspired problem-solving for design [p. 1]. Simon’s *Sciences of the Artificial* (1969) positioned design as potentially scientific.  
 2. **Crisis (1970s).** Key pioneers repudiated design methods. Alexander (1971) declared disengagement, criticising irrelevance to practice. Jones (1977) denounced behaviourism and 'fixing life into a logical framework.' Rittel and Webber (1973) reframed design/planning as 'wicked problems,' resisting 'tame' scientific techniques [pp. 1–2].  
 3. **Reframing (1980s).** Rittel’s idea of 'generations' of methods salvaged the field, opening the way to second-generation participatory, argumentative methods. Schön’s *Reflective Practitioner* (1983) gave epistemological weight to practice and intuition. Archer (1979) reframed design as possessing its own way of knowing [p. 3].  
 4. **Consolidation.** The 1980s saw emergence of dedicated journals (*Design Studies*, *Design Issues*, *Research in Engineering Design*), international conferences (ICED, EDRA, ASME) and growing interest in design cognition (Lawson, Rowe). Cross positioned 'designerly ways of knowing' as the touchstone of the discipline (1982, 2006).  
@@ -37,10 +37,10 @@ It is qualitative, interpretivist and synthetic in nature, aiming to narrate and
 
 ## Relevance
 ### How does it link to the research questions or framework?
-- Provides historical validation for the project’s **critical reinterpretation of DDR systematic methods** [70].  
+- Provides historical validation for the project’s **critical reinterpretation of DDR systematic methods**.  
 - Confirms that **linear, scientistic logics broke down** under wicked complexity, requiring pluralistic, participatory approaches.  
-- Supports the project’s theoretical framework: **interpretivism + critical theory** [72].  
-- Underscores the importance of **taxonomy**: first- vs second-generation methods reflect classificatory work that naturalised stages in design history [73].
+- Supports the project’s theoretical framework: **interpretivism + critical theory**.  
+- Underscores the importance of **taxonomy**: first- vs second-generation methods reflect classificatory work that naturalised stages in design history.
 
 ## Project integration
 ### Why it helps the project (evidence-linked)

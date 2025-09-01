@@ -17,7 +17,7 @@ Boyd Davis and Gristwood investigate how Bruce Archer’s 1968 RCA doctoral thes
 - Which practical pressures (volatile requirements, incomplete data, commercial constraints) destabilised those ambitions?  
 - How did Archer’s model evolve into a cyclic 'dialogue between the real-world and the operational model'?  
 
-The purpose is not only to historicise Archer’s doctoral work but also to re-situate it in the broader narrative of design methods, exposing its fragilities and enduring insights. This directly supports the project’s compressed paraphrasing of the overarching inquiry: *How can systematic models of design be reconciled with the messy, emergent realities of socio-technical systems?* [@BoydDavis2017DialogueRealworldOperational, pp. 185–186].
+The purpose is not only to historicise Archer’s doctoral work but also to re-situate it in the broader narrative of design methods, exposing its fragilities and enduring insights. This directly supports the project’s compressed paraphrasing of the overarching inquiry: *How can systematic models of design be reconciled with the messy, emergent realities of socio-technical systems?* (@BoydDavis2017DialogueRealworldOperational, pp. 185–186).
 
 ## Methodology
 ### Describe the research design, methods and sample size.
@@ -25,17 +25,17 @@ The authors use **archival-historical analysis**. Their primary object is Archer
 - **Design:** Interpretivist reconstruction with critical-theory sensitivity, exposing the assumptions behind Archer’s classifications.  
 - **Methods:** Documentary analysis, discourse analysis of diagrams and language, triangulation with related literature in or, cybernetics and systems thinking.  
 - **Sample:** Not statistical but corpus-based, focusing on one thesis and a curated body of supplementary documents.  
-This mirrors the **archival foundation** of the integrated research spine [DDR → comparative cases → modelling → synthesis].
+This mirrors the **archival foundation** of the integrated research spine (DDR → comparative cases → modelling → synthesis).
 
 ## Key findings and arguments
 ### Summarise the main results and conclusions.
-1. **Prescriptive origins.** Archer initially presented design as a rational, prescriptive activity that must be logically ordered before making. He insisted that 'a hypothetical design shall first be laid down before analysis can begin' [p. 188]. This separated intuitive invention from scientific evaluation.  
-2. **Commercial imperative.** Archer framed design as survival–and success-driven in international competition, emphasising efficiency and rationality in engineering contexts [p. 190].  
-3. **Collapse of linearity.** In projects like the hospital bed, requirements shifted mid-project; interdependence between factors meant fixing one issue created others; and data was often incomplete, unreliable or absent. Archer admitted he lacked 'a corpus of knowledge or techniques capable of providing rational aesthetic decisions' [p. 196].  
-4. **Known vs not known.** Archer reframed the problem of data not as qualitative vs quantitative but as known vs not known [p. 196]. This prefigures contemporary debates about incomplete or missing data.  
-5. **From operational research to action research.** Archer confessed to 'wasting a lot of time' trying to weld management science and design purposes together [p. 198]. This failure pushed him toward iterative, practice-based engagement.  
-6. **Late-career reframing.** By 1979, Archer articulated design as a 'third area of human knowing, additional to numeracy and literacy' [p. 198]. His late reflections widened design beyond systematic logic to encompass embodied, tacit and normative knowledge.  
-7. **Theorist–practitioner tension.** Archer’s thesis ultimately revealed the 'conflict and pain' of theorists and practitioners struggling to reconcile models with practice [p. 200].  
+1. **Prescriptive origins.** Archer initially presented design as a rational, prescriptive activity that must be logically ordered before making. He insisted that 'a hypothetical design shall first be laid down before analysis can begin' (p. 188). This separated intuitive invention from scientific evaluation.  
+2. **Commercial imperative.** Archer framed design as survival–and success-driven in international competition, emphasising efficiency and rationality in engineering contexts (p. 190).  
+3. **Collapse of linearity.** In projects like the hospital bed, requirements shifted mid-project; interdependence between factors meant fixing one issue created others; and data was often incomplete, unreliable or absent. Archer admitted he lacked 'a corpus of knowledge or techniques capable of providing rational aesthetic decisions' (p. 196).  
+4. **Known vs not known.** Archer reframed the problem of data not as qualitative vs quantitative but as known vs not known (p. 196). This prefigures contemporary debates about incomplete or missing data.  
+5. **From operational research to action research.** Archer confessed to 'wasting a lot of time' trying to weld management science and design purposes together (p. 198). This failure pushed him toward iterative, practice-based engagement.  
+6. **Late-career reframing.** By 1979, Archer articulated design as a 'third area of human knowing, additional to numeracy and literacy' (p. 198). His late reflections widened design beyond systematic logic to encompass embodied, tacit and normative knowledge.  
+7. **Theorist–practitioner tension.** Archer’s thesis ultimately revealed the 'conflict and pain' of theorists and practitioners struggling to reconcile models with practice (p. 200).  
 
 In sum, Archer’s thesis embodies both the high ambition of a universal science of design and its breakdown in practice, leaving a hybrid legacy: systematic logics (solution spaces, constraints, operational models) remain valuable, but only if embedded in reflexive, cyclic, socio-technical contexts.
 
@@ -48,10 +48,10 @@ In sum, Archer’s thesis embodies both the high ambition of a universal science
 
 ## Project integration
 ### Why it helps the project (evidence-linked)
-- Confirms that **requirements reform mid-project**: 'new objectives may tend to form and reform' [@BoydDavis2017DialogueRealworldOperational, p. 193].  
-- Validates project’s **incomplete data strand**: 'data is difficult to find… often contains redundancies, errors and omissions' [pp. 196–197].  
+- Confirms that **requirements reform mid-project**: 'new objectives may tend to form and reform' (@BoydDavis2017DialogueRealworldOperational, p. 193).  
+- Validates project’s **incomplete data strand**: 'data is difficult to find… often contains redundancies, errors and omissions' (pp. 196–197).  
 - Anticipates **computational modelling**: Archer defined 'realms of feasibility' and 'domains of acceptability,' precursors to solution-space simulation.  
-- Strengthens **action research positioning**: Archer abandoned detached OR modelling for reflexive, practice-led methods [p. 198].  
+- Strengthens **action research positioning**: Archer abandoned detached OR modelling for reflexive, practice-led methods (p. 198).  
 - Anchors **critical taxonomy**: Archer’s diagrams classified design into fixed linear stages, an operation that itself carried ideological weight.  
 
 ### Hooks into the project

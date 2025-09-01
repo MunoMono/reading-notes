@@ -27,13 +27,13 @@ For the project, this maps to a **critical‑interpretivist approach**, where th
 
 ## Key findings and arguments
 ### Summarise the main results and conclusions.
-- **Banking education as oppression.** Freire argues that mainstream schooling mirrors oppressive society: teachers narrate and deposit knowledge, students receive and repeat. This 'narration sickness' alienates learners and positions them as passive objects [pp. 70–72].  
-- **Problem‑posing as liberation.** Dialogical pedagogy abolishes the teacher–student contradiction: both become co‑learners and co‑investigators of reality [p. 82]. This pedagogy generates *conscientização* (critical consciousness) and capacity for action.  
-- **Praxis as essence of liberation.** Liberation is not abstract but the unity of reflection and action: 'the action and reflection of men and women upon their world in order to transform it' [p. 79].  
-- **Ethics of dialogue.** Dialogue requires humility, love, faith in humanity and rejection of paternalistic 'false generosity' [pp. 53–54, 89].  
-- **Oppression dehumanises all.** Humanisation is the ontological vocation of people; oppression distorts this, harming both oppressed and oppressor [pp. 44–45].  
-- **Generative themes and codification.** Teachers must investigate the generative themes of learners’ reality, codify them (into images, stories, artefacts) and decodify them together with learners [pp. 103–122].  
-- **Cultural invasion vs cultural synthesis.** Anti‑dialogical action invades and silences; dialogical action fosters cultural synthesis, enabling communities to author their own reality [p. 92].
+- **Banking education as oppression.** Freire argues that mainstream schooling mirrors oppressive society: teachers narrate and deposit knowledge, students receive and repeat. This 'narration sickness' alienates learners and positions them as passive objects (pp. 70–72).  
+- **Problem‑posing as liberation.** Dialogical pedagogy abolishes the teacher–student contradiction: both become co‑learners and co‑investigators of reality (p. 82). This pedagogy generates *conscientização* (critical consciousness) and capacity for action.  
+- **Praxis as essence of liberation.** Liberation is not abstract but the unity of reflection and action: 'the action and reflection of men and women upon their world in order to transform it' (p. 79).  
+- **Ethics of dialogue.** Dialogue requires humility, love, faith in humanity and rejection of paternalistic 'false generosity' (pp. 53–54, 89).  
+- **Oppression dehumanises all.** Humanisation is the ontological vocation of people; oppression distorts this, harming both oppressed and oppressor (pp. 44–45).  
+- **Generative themes and codification.** Teachers must investigate the generative themes of learners’ reality, codify them (into images, stories, artefacts) and decodify them together with learners (pp. 103–122)].  
+- **Cultural invasion vs cultural synthesis.** Anti‑dialogical action invades and silences; dialogical action fosters cultural synthesis, enabling communities to author their own reality (p. 92).
 
 For design research, these conclusions resonate with Archer’s recognition that requirements reform mid‑project, and with Rittel’s wicked problems: both require iterative, dialogic approaches rather than fixed prescriptions.
 
@@ -47,9 +47,9 @@ The **project’s taxonomy of methods** is illuminated by Freire’s binary of b
 
 ## Project integration
 ### Why it helps the project (evidence-linked)
-- Anchors **ethical evaluation**: does a method enable dialogical co‑creation or reproduce banking oppression? [pp. 70–72].  
-- Strengthens the project’s **reflexive brief strand**: 'new objectives may reform' (Archer) parallels Freire’s thematic investigation, where briefs (themes) emerge and reform in dialogue [pp. 103–110].  
-- Validates project’s concern with **incomplete/qualitative data**: Freire stresses working with codified fragments of experience, decodified collaboratively [pp. 113–121].  
+- Anchors **ethical evaluation**: does a method enable dialogical co‑creation or reproduce banking oppression? (pp. 70–72).  
+- Strengthens the project’s **reflexive brief strand**: 'new objectives may reform' (Archer) parallels Freire’s thematic investigation, where briefs (themes) emerge and reform in dialogue (pp. 103–110).  
+- Validates project’s concern with **incomplete/qualitative data**: Freire stresses working with codified fragments of experience, decodified collaboratively (pp. 113–121).  
 - Justifies project’s **critical taxonomy**: Freire’s sharp categories show how classificatory distinctions are political tools that must themselves be scrutinised.  
 - Provides a **praxis lens** for evaluating computational models: models must support action and reflection, not reduce users to passive consumers.  
 
