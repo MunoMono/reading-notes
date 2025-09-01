@@ -165,7 +165,7 @@ link-citations: true
 - How does it align or conflict with other studies?
 
 ## Interpretation
-### Your own insights
+### Analysis and insights
 - Alternative explanations?
 - Implications for practice, policy or theory?
 - How does it shape your thinking?
