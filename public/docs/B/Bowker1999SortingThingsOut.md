@@ -16,7 +16,7 @@ Bowker and Star aim to interrogate classification as both a social and technical
 
 ## Methodology
 ### Describe the research design, methods and sample size.
-The book employs a historical-comparative and ethnographic approach, drawing on case studies of international classification systems (notably the International Classification of Diseases, nursing interventions, race classification under apartheid and tuberculosis diagnosis). Sources include archival materials from the WHO and UN, published standards, ethnographic interviews with nurses and health professionals and textual analyses of bureaucratic and political documents [@Bowker1999SortingThingsOut, pp. ix–xii]. The methodology is deliberately eclectic: the authors foreground the invisibility of infrastructure and use thick description to reveal how categories operate as 'boundary infrastructures' and 'boundary objects'.
+The book employs a historical-comparative and ethnographic approach, drawing on case studies of international classification systems (notably the International Classification of Diseases, nursing interventions, race classification under apartheid and tuberculosis diagnosis). Sources include archival materials from the WHO and UN, published standards, ethnographic interviews with nurses and health professionals and textual analyses of bureaucratic and political documents [@Bowker1999SortingThingsOut, pp. ix–xii]. The methodology is deliberately eclectic: the authors foreground the invisibility of infrastructure and use rich description to reveal how categories operate as 'boundary infrastructures' and 'boundary objects'.
 
 ## Key findings and arguments
 ### Summarise the main results and conclusions.
@@ -80,7 +80,7 @@ This work is foundational for a critical taxonomic theory. It provides both the 
 ## Interpretation
 ### Analysis and insights
 - Classifications are not passive backdrops but **constitutive design processes**, shaping the very objects and subjects of research.  
-- For this project, Bowker and Star justify a **reflexive taxonomy** that foregrounds exclusions and residuals rather than seeking closure.  
+- For the research project, Bowker and Star justify a **reflexive taxonomy** that foregrounds exclusions and residuals rather than seeking closure.  
 - Alternative explanation: what looks like infrastructural determinism could be read as an emergent property of distributed categorical work; agency lies not only in designers but in users negotiating categories.  
 - Implications: design research must not only study classifications but actively intervene in them, ensuring retrievability of voices and openness to reconfiguration [pp. 324–326].  
 
@@ -101,4 +101,4 @@ This work is foundational for a critical taxonomic theory. It provides both the 
 - How might boundary infrastructures be designed explicitly for inclusivity and transparency?  
 - Can classifications be made 'living' within AI/ML systems, resisting closure and retrievability loss?  
 - What design practices allow residual categories to become generative rather than marginalised?  
-- How does categorical work scale in contemporary digital platforms (eg social media, algorithmic recommender systems)?  
+- How does categorical work scale in contemporary digital platforms (e.g., social media, algorithmic recommender systems)?  

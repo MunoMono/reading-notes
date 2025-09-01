@@ -1,5 +1,5 @@
 ---
-title: "Pedagogy of the oppressed (30th anniversary edition}"
+title: "Pedagogy of the oppressed (30th anniversary edition)"
 authors: "Freire, Paulo and Macedo, Donaldo P."
 year: 2014
 journal: "Bloomsbury Publishing"
@@ -12,18 +12,18 @@ link-citations: true
 last_updated: "Sep 01, 2025, 12:14 PM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
-Freire asks a radical question: **how can oppressed people liberate themselves through education that rejects domination and fosters critical consciousness?** The central objective is to reframe education from a vertical, 'banking' mode to a horizontal, dialogical praxis that positions learners as co‑creators of knowledge and agents of transformation. For Freire, the aim is not to neutralise contradiction but to **embrace and work through it**, using pedagogy to mediate the dialectic between oppression an...
+Freire asks a radical question: **how can oppressed people liberate themselves through education that rejects domination and fosters critical consciousness?** The central objective is to reframe education from a vertical, 'banking' mode to a horizontal, dialogical praxis that positions learners as co‑creators of knowledge and agents of transformation. For Freire, the aim is not to neutralise contradiction but to **embrace and work through it**, using pedagogy to mediate the dialectic between oppression and liberation.
 
-This orientation resonates with the project’s aim of reconciling **systematic design methods with socio‑technical complexity**: in both cases, the problem is not merely technical but political—whose voice counts, whose categories frame action and how knowledge is structured and deployed [172].
+This orientation resonates with the project’s aim of reconciling **systematic design methods with socio‑technical complexity**: in both cases, the problem is not merely technical but political—whose voice counts, whose categories frame action and how knowledge is structured and deployed.
 
 ## Methodology
 ### Describe the research design, methods and sample size.
 The text is not empirical but **theoretical‑praxis oriented**. Freire draws primarily on his field experience in adult literacy campaigns in Brazil and Chile during the 1960s, where he developed 'culture circles' as alternatives to traditional schooling.  
-- **Method:** Theoretical exposition interwoven with programmatic guidance (eg thematic investigation, codification/decodification, dialogical facilitation).  
+- **Method:** Theoretical exposition interwoven with programmatic guidance (e.g., thematic investigation, codification/decodification, dialogical facilitation).  
 - **Evidence base:** Praxis with illiterate adults, experience under authoritarian regimes and philosophical engagement with Marx, Hegel, existentialism and liberation theology.  
 - **Nature:** A critical treatise that oscillates between conceptual analysis (oppressor–oppressed contradiction, humanisation/dehumanisation) and practical pedagogy (steps of culture circles).  
 
-For the project, this maps to a **critical‑interpretivist approach** [174], where the goal is not to prove a universal law but to generate meaning and praxis through reflexive engagement. It also aligns with the project’s use of **critical taxonomy** [175]: Freire’s opposition between banking and problem‑posing is itself a classificatory move that foregrounds the politics of categories.
+For the project, this maps to a **critical‑interpretivist approach**, where the goal is not to prove a universal law but to generate meaning and praxis through reflexive engagement. It also aligns with the project’s use of **critical taxonomy**: Freire’s opposition between banking and problem‑posing is itself a classificatory move that foregrounds the politics of categories.
 
 ## Key findings and arguments
 ### Summarise the main results and conclusions.
@@ -39,18 +39,18 @@ For design research, these conclusions resonate with Archer’s recognition that
 
 ## Relevance
 ### How does it link to the research questions or framework?
-Freire’s pedagogy underpins the project’s **interpretivist–critical paradigm** [174]:  
+Freire’s pedagogy underpins the project’s **interpretivist–critical paradigm**:  
 - Interpretivism: meaning‑making through situated dialogue.  
 - Critical theory: exposing domination in banking models and reclaiming education as political action.  
 
-The **project’s taxonomy of methods** [175] is illuminated by Freire’s binary of banking vs problem‑posing—an example of classificatory labour that foregrounds political stakes. His praxis orientation also resonates with the project’s **practice‑based spine** [172]: archival analysis ↔ intervention ↔ comparative case ↔ modelling ↔ synthesis.
+The **project’s taxonomy of methods** is illuminated by Freire’s binary of banking vs problem‑posing—an example of classificatory labour that foregrounds political stakes. His praxis orientation also resonates with the project’s **practice‑based spine**: archival analysis → intervention → comparative case → modelling → synthesis.
 
 ## Project integration
 ### Why it helps the project (evidence-linked)
 - Anchors **ethical evaluation**: does a method enable dialogical co‑creation or reproduce banking oppression? [pp. 70–72].  
 - Strengthens the project’s **reflexive brief strand**: 'new objectives may reform' (Archer) parallels Freire’s thematic investigation, where briefs (themes) emerge and reform in dialogue [pp. 103–110].  
 - Validates project’s concern with **incomplete/qualitative data**: Freire stresses working with codified fragments of experience, decodified collaboratively [pp. 113–121].  
-- Justifies project’s **critical taxonomy**: Freire’s sharp categories show how classificatory distinctions are political tools that must themselves be scrutinised [175].  
+- Justifies project’s **critical taxonomy**: Freire’s sharp categories show how classificatory distinctions are political tools that must themselves be scrutinised.  
 - Provides a **praxis lens** for evaluating computational models: models must support action and reflection, not reduce users to passive consumers.  
 
 ### Hooks into the project
@@ -93,7 +93,7 @@ Principles of dialogue, praxis and critical consciousness generalise widely, but
 ### Analysis and insights
 - Freire provides a **normative compass** for method choice: enable humanisation and praxis or risk reproducing oppression.  
 - His pedagogy extends Archer’s recognition of iteration and reform into an explicitly **ethical-political frame**.  
-- In design, **culture circles = co‑framing workshops; codifications = boundary objects** (storyboards, prototypes) that can be decodified in stakeholder dialogue.  
+- In design, **culture circles → co‑framing workshops; codifications  → boundary objects** (storyboards, prototypes) that can be decodified in stakeholder dialogue.  
 - Implication: evaluation should privilege **praxis outcomes** (capability expansion, transformed relations) over output metrics.  
 
 ## Evidence to quote or paraphrase
@@ -105,16 +105,13 @@ Principles of dialogue, praxis and critical consciousness generalise widely, but
 - 'Teacher‑student and students‑teachers' reflect together. (p. 82).  
 
 ## Related works
-- Freire (1970/2000), *Pedagogy of the Oppressed*.  
 - Freire (1973), *Education for Critical Consciousness*.  
 - Schön (1983), *The Reflective Practitioner*.  
 - Rittel & Webber (1973).  
-- hooks (1994), *Teaching to Transgress*.  
 - Giroux (1988), *Teachers as Intellectuals*.  
-- Buchanan (2019), Kimbell (2012), van Uffelen et al. (2024) [172].  
 
 ## Questions for further research
 - How can Freire’s **dialogical pedagogy** be translated into **AI‑mediated design research** without reproducing banking logics of data extraction?  
-- What metrics can assess **praxis outcomes** beyond knowledge transfer (eg empowerment, capability shifts)?  
+- What metrics can assess **praxis outcomes** beyond knowledge transfer (e.g., empowerment, capability shifts)?  
 - How can **codification/decodification** techniques be re‑imagined for digital artefacts, data visualisations and simulations?  
 - In what ways do **critical taxonomies** of design methods reproduce or resist 'banking' classification logics?  
