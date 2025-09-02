@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T10:58:52.025Z",
+  "updatedAt": "2025-09-02T11:26:44.280Z",
   "entries": [
     {
       "letter": "A",
@@ -13,7 +13,7 @@
       "url": "",
       "citation_key": "Archer1968StructureDesignProcesses",
       "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-      "mtimeMs": 1756810731905.4653
+      "mtimeMs": 1756812404160.4604
     },
     {
       "letter": "B",
@@ -27,7 +27,7 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: Classification and its consequences — MIT Press",
-      "mtimeMs": 1756810731907.8452
+      "mtimeMs": 1756812404162.5332
     },
     {
       "letter": "B",
@@ -41,7 +41,7 @@
       "url": "",
       "citation_key": "BoydDavis2017DialogueRealworldOperational",
       "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model–The realities of design in Bruce Archer's 1968 doctoral thesis — Design Studies",
-      "mtimeMs": 1756810731908.4233
+      "mtimeMs": 1756812404163.066
     },
     {
       "letter": "C",
@@ -55,7 +55,7 @@
       "url": "",
       "citation_key": "Cross2007FortyYearsDesign",
       "displayTitle": "Cross, Nigel (2007). Forty years of design research — Design Studies",
-      "mtimeMs": 1756810731909.3066
+      "mtimeMs": 1756812404163.93
     },
     {
       "letter": "F",
@@ -69,7 +69,7 @@
       "url": "",
       "citation_key": "Freire2014PedagogyOppressed30th",
       "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed (30th anniversary edition) — Bloomsbury Publishing",
-      "mtimeMs": 1756810731910.0144
+      "mtimeMs": 1756812404164.671
     },
     {
       "letter": "G",
@@ -83,7 +83,21 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
       "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
       "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
-      "mtimeMs": 1756810731910.5264
+      "mtimeMs": 1756812404165.2405
+    },
+    {
+      "letter": "K",
+      "slug": "King1994DesigningSocialInquiry",
+      "path": "/docs/K/King1994DesigningSocialInquiry.md",
+      "title": "Designing Social Inquiry: scientific inference in qualitative research",
+      "authors": "King, Gary; Keohane, Robert O.; Verba, Sidney",
+      "year": "1994",
+      "journal": "Princeton University Press",
+      "doi": "",
+      "url": "",
+      "citation_key": "King1994DesigningSocialInquiry",
+      "displayTitle": "King, Gary; Keohane, Robert O.; Verba, Sidney (1994). Designing Social Inquiry: scientific inference in qualitative research — Princeton University Press",
+      "mtimeMs": 1756812404165.9512
     },
     {
       "letter": "W",
@@ -97,7 +111,7 @@
       "url": "",
       "citation_key": "Williamson2018ResearchConcepts",
       "displayTitle": "Williamson, Kirsty (2018). Research concepts — Research Methods: Information, Systems, and Contexts",
-      "mtimeMs": 1756810731911.5732
+      "mtimeMs": 1756812404166.8955
     }
   ],
   "grouped": {
@@ -114,7 +128,7 @@
         "url": "",
         "citation_key": "Archer1968StructureDesignProcesses",
         "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-        "mtimeMs": 1756810731905.4653
+        "mtimeMs": 1756812404160.4604
       }
     ],
     "B": [
@@ -130,7 +144,7 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: Classification and its consequences — MIT Press",
-        "mtimeMs": 1756810731907.8452
+        "mtimeMs": 1756812404162.5332
       },
       {
         "letter": "B",
@@ -144,7 +158,7 @@
         "url": "",
         "citation_key": "BoydDavis2017DialogueRealworldOperational",
         "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model–The realities of design in Bruce Archer's 1968 doctoral thesis — Design Studies",
-        "mtimeMs": 1756810731908.4233
+        "mtimeMs": 1756812404163.066
       }
     ],
     "C": [
@@ -160,7 +174,7 @@
         "url": "",
         "citation_key": "Cross2007FortyYearsDesign",
         "displayTitle": "Cross, Nigel (2007). Forty years of design research — Design Studies",
-        "mtimeMs": 1756810731909.3066
+        "mtimeMs": 1756812404163.93
       }
     ],
     "F": [
@@ -176,7 +190,7 @@
         "url": "",
         "citation_key": "Freire2014PedagogyOppressed30th",
         "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed (30th anniversary edition) — Bloomsbury Publishing",
-        "mtimeMs": 1756810731910.0144
+        "mtimeMs": 1756812404164.671
       }
     ],
     "G": [
@@ -192,7 +206,23 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
         "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
         "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
-        "mtimeMs": 1756810731910.5264
+        "mtimeMs": 1756812404165.2405
+      }
+    ],
+    "K": [
+      {
+        "letter": "K",
+        "slug": "King1994DesigningSocialInquiry",
+        "path": "/docs/K/King1994DesigningSocialInquiry.md",
+        "title": "Designing Social Inquiry: scientific inference in qualitative research",
+        "authors": "King, Gary; Keohane, Robert O.; Verba, Sidney",
+        "year": "1994",
+        "journal": "Princeton University Press",
+        "doi": "",
+        "url": "",
+        "citation_key": "King1994DesigningSocialInquiry",
+        "displayTitle": "King, Gary; Keohane, Robert O.; Verba, Sidney (1994). Designing Social Inquiry: scientific inference in qualitative research — Princeton University Press",
+        "mtimeMs": 1756812404165.9512
       }
     ],
     "W": [
@@ -208,7 +238,7 @@
         "url": "",
         "citation_key": "Williamson2018ResearchConcepts",
         "displayTitle": "Williamson, Kirsty (2018). Research concepts — Research Methods: Information, Systems, and Contexts",
-        "mtimeMs": 1756810731911.5732
+        "mtimeMs": 1756812404166.8955
       }
     ]
   }

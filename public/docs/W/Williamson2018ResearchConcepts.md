@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 02, 2025, 11:51 AM"---
+last_updated: "Sep 02, 2025, 11:58 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Williamson introduces research paradigms to clarify how philosophy shapes methodology. The focus here is on **interpretivism** and **critical theory**. The guiding questions are:  
