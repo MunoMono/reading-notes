@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Grid, Column, Breadcrumb, BreadcrumbItem } from "@carbon/react";
+import SearchBox from "../components/SearchBox";
 
 function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+// --- frontmatter helpers ---
 function parseFrontmatter(raw) {
   const m = raw.match(/^---\s*([\s\S]*?)\s*---/);
   if (!m) return {};
@@ -23,11 +25,9 @@ function parseFrontmatter(raw) {
   });
   return out;
 }
-
 function stripFrontmatter(raw) {
   return raw.replace(/^---[\s\S]*?---\s*/, "");
 }
-
 function stripLeadingH1(s, title) {
   if (!s) return s;
   if (title) {
@@ -36,7 +36,6 @@ function stripLeadingH1(s, title) {
   }
   return s.replace(/^\s*#\s+.+\n+/, "");
 }
-
 function formatUpdated(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -49,16 +48,55 @@ function formatUpdated(iso) {
   return `${day} ${month} ${year}, ${hh}:${mm}`;
 }
 
+// --- lightweight rehype plugin to highlight text nodes ---
+function rehypeHighlight(query) {
+  const q = query?.trim();
+  if (!q) return () => () => {};
+  const re = new RegExp(`(${escapeRegExp(q)})`, "gi");
+
+  return () => (tree) => {
+    function visit(node) {
+      if (!node) return;
+      if (node.type === "text") {
+        const parts = String(node.value).split(re);
+        if (parts.length > 1) {
+          node.type = "element";
+          node.tagName = "span";
+          node.properties = node.properties || {};
+          node.children = parts
+            .filter((p) => p !== "")
+            .map((part) =>
+              re.test(part)
+                ? {
+                    type: "element",
+                    tagName: "mark",
+                    properties: { className: ["doc-highlight"] },
+                    children: [{ type: "text", value: part }],
+                  }
+                : { type: "text", value: part }
+            );
+          delete node.value;
+        }
+      } else if (node.children && Array.isArray(node.children)) {
+        node.children.forEach(visit);
+      }
+    }
+    visit(tree);
+  };
+}
+
 export default function Doc() {
   const { letter, slug } = useParams();
   const [md, setMd] = useState("# Loading…");
   const [meta, setMeta] = useState(null);
   const [updatedFromMd, setUpdatedFromMd] = useState("");
+  const [query, setQuery] = useState("");
 
   const base = import.meta.env.BASE_URL || "/";
 
   useEffect(() => {
     let titleFromMeta = "";
+    setQuery(""); // reset per document
 
     fetch(`${base}docs/index.json`, { cache: "no-cache" })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`index ${r.status}`))))
@@ -87,6 +125,11 @@ export default function Doc() {
   const updatedPretty =
     formatUpdated(updatedFromMd) || formatUpdated(meta?.last_updated);
 
+  // Build the plugin list; include highlighter only when query present
+  const rehypePlugins = useMemo(() => {
+    return query.trim() ? [rehypeHighlight(query)] : [];
+  }, [query]);
+
   return (
     <Grid className="cds--grid cds--grid--narrow">
       <Column lg={12} md={8} sm={4}>
@@ -113,16 +156,21 @@ export default function Doc() {
           )}
 
           {updatedPretty && (
-            <p className="doc-meta doc-revision">
-              Last revision: {updatedPretty}
-            </p>
+            <p className="doc-meta doc-revision">Last revision: {updatedPretty}</p>
           )}
+
+          {/* Inline search for this document */}
+          <div style={{ margin: "1rem 0" }}>
+            <SearchBox query={query} setQuery={setQuery} />
+          </div>
 
           <hr className="doc-separator" />
         </div>
 
         <div className="carbon-markdown">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{md}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={rehypePlugins}>
+            {md}
+          </ReactMarkdown>
         </div>
       </Column>
     </Grid>

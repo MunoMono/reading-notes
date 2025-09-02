@@ -12,21 +12,21 @@ link-citations: true
 last_updated: "Sep 01, 2025, 12:19 PM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
-Bowker and Star aim to interrogate classification as both a social and technical practice and to demonstrate how classification systems shape the moral, political and epistemological order of societies. Their guiding question is: how do classifications, standards and infrastructures come to constitute everyday life, shaping both organisational practices and personal identities? The work challenges the assumption that categories are neutral or merely descriptive, showing instead that they are historically situated, contested and consequential for knowledge production and governance [@Bowker1999SortingThingsOut, pp. 285–290].
+Bowker and Star aim to interrogate classification as both a social and technical practice and to demonstrate how classification systems shape the moral, political and epistemological order of societies. Their guiding question is: how do classifications, standards and infrastructures come to constitute everyday life, shaping both organisational practices and personal identities? The work challenges the assumption that categories are neutral or merely descriptive, showing instead that they are historically situated, contested and consequential for knowledge production and governance (@Bowker1999SortingThingsOut, pp. 285–290).
 
 ## Methodology
 ### Describe the research design, methods and sample size.
-The book employs a historical-comparative and ethnographic approach, drawing on case studies of international classification systems (notably the International Classification of Diseases, nursing interventions, race classification under apartheid and tuberculosis diagnosis). Sources include archival materials from the WHO and UN, published standards, ethnographic interviews with nurses and health professionals and textual analyses of bureaucratic and political documents [@Bowker1999SortingThingsOut, pp. ix–xii]. The methodology is deliberately eclectic: the authors foreground the invisibility of infrastructure and use rich description to reveal how categories operate as 'boundary infrastructures' and 'boundary objects'.
+The book employs a historical-comparative and ethnographic approach, drawing on case studies of international classification systems (notably the International Classification of Diseases, nursing interventions, race classification under apartheid and tuberculosis diagnosis). Sources include archival materials from the WHO and UN, published standards, ethnographic interviews with nurses and health professionals and textual analyses of bureaucratic and political documents (@Bowker1999SortingThingsOut, pp. ix–xii). The methodology is deliberately eclectic: the authors foreground the invisibility of infrastructure and use rich description to reveal how categories operate as 'boundary infrastructures' and 'boundary objects'.
 
 ## Key findings and arguments
 ### Summarise the main results and conclusions.
-- Classifications are not merely technical schemas but **moral and political infrastructures** that profoundly shape social order [pp. 319–324].  
-- Categories emerge through **categorical work**: the situated negotiation of anomalies, exceptions and multiplicity [pp. 285–287, 310–312].  
-- Boundary objects allow different communities of practice to cooperate without full agreement but their durability depends on situated use [pp. 297–298].  
-- Residual categories (the 'other') are not peripheral but constitutive of classification systems; exclusion defines the boundaries of normality [pp. 300–301].  
-- Infrastructures naturalise categories by embedding them in routines, technologies and bureaucratic procedures, making them invisible yet powerful [pp. 320–325].  
-- Classifications are historically contingent but achieve global authority by scaling up through standards, translation and institutionalisation [pp. 312–314].  
-- Ethical consequences include the reproduction of inequalities, suppression of voice and foreclosure of alternative forms of knowledge [pp. 324–326].  
+- Classifications are not merely technical schemas but **moral and political infrastructures** that profoundly shape social order (pp. 319–324).  
+- Categories emerge through **categorical work**: the situated negotiation of anomalies, exceptions and multiplicity (pp. 285–287, 310–312).  
+- Boundary objects allow different communities of practice to cooperate without full agreement but their durability depends on situated use (pp. 297–298).  
+- Residual categories (the 'other') are not peripheral but constitutive of classification systems; exclusion defines the boundaries of normality (pp. 300–301).  
+- Infrastructures naturalise categories by embedding them in routines, technologies and bureaucratic procedures, making them invisible yet powerful (pp. 320–325).  
+- Classifications are historically contingent but achieve global authority by scaling up through standards, translation and institutionalisation (pp. 312–314).  
+- Ethical consequences include the reproduction of inequalities, suppression of voice and foreclosure of alternative forms of knowledge (pp. 324–326).  
 
 ## Relevance
 ### How does it link to the research questions or framework?
@@ -34,10 +34,10 @@ This work is foundational for a critical taxonomic theory. It provides both the 
 
 ## Project integration
 ### Why it helps the project (evidence-linked)
-- Demonstrates that **taxonomies are infrastructures** that carry moral weight, making them central to any design research that engages with archives or systems [@Bowker1999SortingThingsOut, pp. 319–321].  
-- The concept of **boundary objects** provides a methodological bridge for integrating heterogeneous design practices and stakeholder perspectives [pp. 297–298].  
-- Analysis of **residual categories** offers an explicit mechanism for addressing exclusion and misfit within classification, resonating with the project’s intent to handle **incomplete or anomalous data** [pp. 300–301].  
-- The notion of **categorical work** maps closely onto project workstreams around **wrighting, reflexive briefing and cross-case synthesis** [pp. 310–312].  
+- Demonstrates that **taxonomies are infrastructures** that carry moral weight, making them central to any design research that engages with archives or systems (@Bowker1999SortingThingsOut, pp. 319–321).  
+- The concept of **boundary objects** provides a methodological bridge for integrating heterogeneous design practices and stakeholder perspectives (pp. 297–298).  
+- Analysis of **residual categories** offers an explicit mechanism for addressing exclusion and misfit within classification, resonating with the project’s intent to handle **incomplete or anomalous data** (pp. 300–301).  
+- The notion of **categorical work** maps closely onto project workstreams around **wrighting, reflexive briefing and cross-case synthesis** (pp. 310–312).  
 
 ### Hooks into the project
 - **Workstream:** Archival analysis of classification systems.  
@@ -82,7 +82,7 @@ This work is foundational for a critical taxonomic theory. It provides both the 
 - Classifications are not passive backdrops but **constitutive design processes**, shaping the very objects and subjects of research.  
 - For the research project, Bowker and Star justify a **reflexive taxonomy** that foregrounds exclusions and residuals rather than seeking closure.  
 - Alternative explanation: what looks like infrastructural determinism could be read as an emergent property of distributed categorical work; agency lies not only in designers but in users negotiating categories.  
-- Implications: design research must not only study classifications but actively intervene in them, ensuring retrievability of voices and openness to reconfiguration [pp. 324–326].  
+- Implications: design research must not only study classifications but actively intervene in them, ensuring retrievability of voices and openness to reconfiguration (pp. 324–326).  
 
 ## Evidence to quote or paraphrase
 - 'Classification is a core topic within anthropology, especially cognitive anthropology, and within computer science… solving a mathematical problem… is a process of assembling materials close to hand and using them with others in specific contexts' (p. 288).  

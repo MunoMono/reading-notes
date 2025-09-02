@@ -3,12 +3,25 @@ import { Link } from "react-router-dom";
 import { Grid, Column, Tag } from "@carbon/react";
 import SearchBox from "../components/SearchBox";
 
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function highlight(text, query) {
+  if (!query?.trim() || !text) return text;
+  const re = new RegExp(`(${escapeRegExp(query.trim())})`, "gi");
+  const parts = String(text).split(re);
+  return parts.map((part, i) =>
+    re.test(part) ? <mark key={i}>{part}</mark> : <React.Fragment key={i}>{part}</React.Fragment>
+  );
+}
+
 export default function Home() {
   const [data, setData] = useState({ entries: [], grouped: {}, updatedAt: null });
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("/reading-notes/docs/index.json") // respects basename in dev/prod
+    fetch("/reading-notes/docs/index.json")
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((json) => setData(json))
       .catch((e) => console.error("Failed to load /docs/index.json", e));
@@ -16,7 +29,6 @@ export default function Home() {
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  // filter entries by query
   const filteredEntries = useMemo(() => {
     if (!query.trim()) return data.entries || [];
     const q = query.toLowerCase();
@@ -29,7 +41,6 @@ export default function Home() {
     );
   }, [data.entries, query]);
 
-  // regroup after filtering
   const filteredGrouped = useMemo(() => {
     return filteredEntries.reduce((acc, e) => {
       (acc[e.letter] ||= []).push(e);
@@ -77,9 +88,10 @@ export default function Home() {
                 {items.map((e) => (
                   <li key={`${e.letter}/${e.slug}`}>
                     <Link to={`/docs/${e.letter}/${e.slug}`}>
-                      <strong>{e.authors}</strong>
-                      {e.year ? ` (${e.year})` : ""}. {e.title}
-                      {e.venue ? <em> — {e.venue}</em> : null}
+                      <strong>{highlight(e.authors, query)}</strong>
+                      {e.year ? <> ({highlight(e.year, query)})</> : null}.{" "}
+                      {highlight(e.title, query)}
+                      {e.venue ? <em> — {highlight(e.venue, query)}</em> : null}
                     </Link>
                   </li>
                 ))}
