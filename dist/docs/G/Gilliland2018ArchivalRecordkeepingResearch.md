@@ -1,5 +1,5 @@
 ---
-title: "Archival and Recordkeeping Research"
+title: "Archival and recordkeeping research"
 authors: "Gilliland, Anne J. and McKemmish, Sue"
 year: 2018
 journal: "Research {{Methods}"
@@ -9,8 +9,7 @@ url: "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 02, 2025, 10:14 AM"
----
+last_updated: "Sep 02, 2025, 10:21 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Gilliland and McKemmish aim to map the **past, present and future** of archival and recordkeeping research, tracing how the field has diversified beyond bureaucratic traditions into what they call the **archival multiverse**. Their guiding questions are:  
@@ -44,10 +43,10 @@ No statistical sample is involved; instead, the ‘data’ are the research prog
 
 ## Relevance
 ### How does it link to the research questions or framework?
-- Provides a **meta-map of methods** directly supporting the project’s research-methods spine [207].  
-- Confirms the necessity of **critical taxonomy** [211]: archival methods are classificatory artefacts that naturalise worldviews.  
-- Aligns with the **interpretivist–critical framework** [210]: positivist residues coexist with reflexive, critical approaches.  
-- Validates the project’s **statements of intent** [208]: archival science faces the same tension between systematisation and reflexive practice as design research.  
+- Provides a **meta-map of methods** directly supporting the project’s research-methods spine.  
+- Confirms the necessity of **critical taxonomy**: archival methods are classificatory artefacts that naturalise worldviews.  
+- Aligns with the **interpretivist–critical framework**: positivist residues coexist with reflexive, critical approaches.  
+- Validates the project’s **statements of intent**: archival science faces the same tension between systematisation and reflexive practice as design research.  
 
 ## Project integration
 ### Why it helps the project (evidence-linked)

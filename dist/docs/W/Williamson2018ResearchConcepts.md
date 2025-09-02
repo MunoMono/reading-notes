@@ -9,9 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 02, 2025, 10:36 AM"
----
-
+last_updated: "Sep 02, 2025, 10:45 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Williamson introduces research paradigms to clarify how philosophy shapes methodology. The focus here is on **interpretivism** and **critical theory**. The guiding questions are:  
@@ -34,9 +32,9 @@ A key artefact is **Figure 1.2: The interpretivist research process** (p. 14), w
 
 ## Relevance
 ### How does it link to the research questions or framework?
-- Anchors the project’s **interpretivist–critical framework** [210]: interpretivism legitimises reflexive briefs and co-constructed meaning, while critical theory requires embedding analysis of power, exclusion and ideology.  
-- Validates the **statements of intent** [208]: systematic models must be re-contextualised through interpretivist sensitivity and critical vigilance.  
-- Strengthens the **taxonomy strand** [211]: classifications are never neutral, reflecting interpretive choices and critical stakes.  
+- Anchors the project’s **interpretivist–critical framework**: interpretivism legitimises reflexive briefs and co-constructed meaning, while critical theory requires embedding analysis of power, exclusion and ideology.  
+- Validates the **statements of intent**: systematic models must be re-contextualised through interpretivist sensitivity and critical vigilance.  
+- Strengthens the **taxonomy strand**: classifications are never neutral, reflecting interpretive choices and critical stakes.  
 
 ## Project integration
 ### Why it helps the project (evidence-linked)

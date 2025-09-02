@@ -1,5 +1,5 @@
 /* 1) All @use first */
-@use '@carbon/styles'; /* pull in Carbon’s base styles */
+@use '@carbon/styles';
 @use '@carbon/styles/scss/type' as type;
 /* Bring in your markdown + global overrides */
 @use './components/carbon-markdown';
@@ -36,23 +36,15 @@ body {
   color: var(--cds-text-primary);
 }
 
-h1, h2 {
-  color: var(--cds-text-primary);
-}
+h1, h2 { color: var(--cds-text-primary); }
 
 a {
   color: var(--cds-link-primary);
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  &:hover { text-decoration: underline; }
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
+ul { list-style: none; padding: 0; }
 
 li {
   margin: 0.25rem 0;
@@ -62,17 +54,9 @@ li {
 }
 
 /* Search input contrast fix (light + dark) */
-.cds--search .cds--text-input {
-  background: var(--cds-layer);
-  color: var(--cds-text-primary);
-}
-.cds--search .cds--text-input::placeholder {
-  color: var(--cds-text-secondary);
-  opacity: 1; /* Safari */
-}
-.cds--search .cds--search-close {
-  color: var(--cds-text-secondary);
-}
+.cds--search .cds--text-input { background: var(--cds-layer); color: var(--cds-text-primary); }
+.cds--search .cds--text-input::placeholder { color: var(--cds-text-secondary); opacity: 1; }
+.cds--search .cds--search-close { color: var(--cds-text-secondary); }
 
 /* Pills */
 .pill-row {
@@ -81,7 +65,6 @@ li {
   flex-wrap: wrap;
   gap: 0.5rem;
 }
-
 .pill {
   padding: 0.5rem 1rem;
   border: 1px solid var(--cds-layer);
@@ -91,11 +74,7 @@ li {
   color: var(--cds-text-primary);
   font-size: 0.875rem;
   transition: background 0.2s, color 0.2s;
-
-  &:hover {
-    background: var(--cds-layer-hover);
-  }
-
+  &:hover { background: var(--cds-layer-hover); }
   &.active {
     background: var(--cds-interactive);
     border-color: var(--cds-interactive);
@@ -104,25 +83,17 @@ li {
 }
 
 /* Chart */
-.chart-scroll {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.chart-container {
-  min-width: 600px;
-  height: 500px;
-}
+.chart-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.chart-container { min-width: 600px; height: 500px; }
 
 /* Footer */
 .app-footer {
   text-align: left;
   padding: 1rem 2rem;
   color: var(--cds-text-secondary);
-
   small {
-    @include type.type-style('helper-text-01'); // ~11–12px
-    font-size: 0.75rem; // backup
+    @include type.type-style('helper-text-01');
+    font-size: 0.75rem; /* backup */
     line-height: 1.2;
     display: block;
   }
@@ -133,18 +104,15 @@ li {
   list-style: none;
   margin: 1rem 0;
   padding: 0;
-
   li {
     position: relative;
-    margin: 0.5rem 0; /* half rem vertical spacing */
-    padding-left: 1.25rem; /* space for hanging dash */
-    line-height: 1.5; /* better readability */
+    margin: 0.5rem 0;
+    padding-left: 1.25rem;
+    line-height: 1.5;
     font-size: 0.95rem;
     color: var(--cds-text-primary);
-
-    /* Hanging dash bullet */
     &::before {
-      content: "–"; /* en dash */
+      content: "–";
       position: absolute;
       left: 0;
       color: var(--cds-text-secondary);
@@ -153,70 +121,30 @@ li {
 }
 
 /* Home page layout adjustments */
-.home-heading {
-  margin-bottom: 0.25rem;
-}
-
-.home-meta {
-  margin-bottom: 1.5rem;
-}
-
-.home-search {
-  margin-bottom: 1.5rem;
-}
-
-.pill-row {
-  margin: 1rem 0;
-}
+.home-heading { margin-bottom: 0.25rem; }
+.home-meta { margin-bottom: 1.5rem; }
+.home-search { margin-bottom: 1.5rem; }
+.pill-row { margin: 1rem 0; }
 
 /* A–Z section headings on home page */
-.alpha-section {
-  margin-top: 2rem; /* breathing space above each letter section */
-}
-
-.alpha-section h3 {
-  margin-bottom: 0.5rem; /* space below the letter heading */
-}
+.alpha-section { margin-top: 2rem; }
+.alpha-section h3 { margin-bottom: 0.5rem; }
 
 /* Make Home list links look like prod */
-.entry-list a {
-  color: var(--cds-link-primary) !important;
-  text-decoration: none;
-}
-.entry-list a:hover {
-  text-decoration: underline;
-}
+.entry-list a { color: var(--cds-link-primary) !important; text-decoration: none; }
+.entry-list a:hover { text-decoration: underline; }
 
 /* Venue styling inside the link */
-.entry-list em {
-  font-style: italic;
-  color: var(--cds-text-secondary);
-}
+.entry-list em { font-style: italic; color: var(--cds-text-secondary); }
 
 /* Document metadata styling */
-.doc-header {
-  margin-bottom: 2rem;
-}
-
-.doc-meta {
-  font-size: 0.9rem;
-  color: var(--cds-text-secondary);
-}
-
-.doc-revision {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem;
-}
+.doc-header { margin-bottom: 2rem; }
+.doc-meta { font-size: 0.9rem; color: var(--cds-text-secondary); }
+.doc-revision { margin-top: 2rem !important; margin-bottom: 2rem; }
 
 /* ------------------------------------------------------------------ */
 /* 🟢 Mobile safety & wrapping tweaks */
-/* Prevent horizontal scrolling */
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-/* Long-text wrapping */
+html, body { max-width: 100%; overflow-x: hidden; }
 .doc-header,
 .doc-header h2,
 .cds--breadcrumb,
@@ -228,30 +156,52 @@ html, body {
   word-break: break-word;
   hyphens: auto;
 }
-
-/* Breadcrumb links wrap instead of forcing one line */
-.cds--breadcrumb a {
-  white-space: normal;
-  display: inline;
-}
-
-/* Mobile tweaks */
+.cds--breadcrumb a { white-space: normal; display: inline; }
 @media (max-width: 640px) {
-  .doc-header h2 {
-    line-height: 1.2;
-    overflow-wrap: anywhere;
-    hyphens: auto;
-  }
-
-  .carbon-markdown pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
+  .doc-header h2 { line-height: 1.2; overflow-wrap: anywhere; hyphens: auto; }
+  .carbon-markdown pre { white-space: pre-wrap; word-wrap: break-word; }
 }
 
 /* Images + tables inside markdown scale down */
 .carbon-markdown table,
-.carbon-markdown img {
-  max-width: 100%;
-  width: 100%;
+.carbon-markdown img { max-width: 100%; width: 100%; }
+
+/* ---- Print / PDF polish ---- */
+@media print {
+  @page { size: A4; margin: 16mm; }
+
+  /* Hide chrome that shouldn't appear in PDF */
+  .cds--breadcrumb,
+  .home-search,
+  .pill-row,
+  .doc-separator,
+  .doc-actions,       /* hides the Download buttons */
+  .app-footer,
+  .cds--btn,          /* any Carbon button (fallback) */
+  .cds--search {      /* any Carbon search (fallback) */
+    display: none !important;
+  }
+
+  /* Keep Carbon colors in print */
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Expand content width for PDF */
+  .carbon-markdown { max-width: 100% !important; }
+
+  /* Show link targets in print */
+  .carbon-markdown a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    word-break: break-all;
+  }
+
+  /* Keep highlight visible */
+  mark { background: yellow; padding: 0 .08em; }
+
+  /* Avoid awkward page breaks */
+  h1, h2, h3 { break-after: avoid; }
+  p, ul, ol, table, blockquote { break-inside: avoid; }
+
+  /* No shadows/borders that look odd in print */
+  * { box-shadow: none !important; }
 }

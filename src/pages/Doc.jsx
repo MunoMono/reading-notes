@@ -2,8 +2,17 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Grid, Column, Breadcrumb, BreadcrumbItem } from "@carbon/react";
+import {
+  Grid,
+  Column,
+  Breadcrumb,
+  BreadcrumbItem,
+  Button,
+  ButtonSet,
+} from "@carbon/react";
+import { Download, Document } from "@carbon/icons-react";
 import SearchBox from "../components/SearchBox";
+import { convertMarkdownToDocx, downloadDocx } from "@mohtasham/md-to-docx";
 
 function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -99,14 +108,22 @@ export default function Doc() {
     setQuery(""); // reset per document
 
     fetch(`${base}docs/index.json`, { cache: "no-cache" })
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`index ${r.status}`))))
-      .then((idx) => idx?.entries?.find((e) => e.letter === letter && e.slug === slug))
+      .then((r) =>
+        r.ok ? r.json() : Promise.reject(new Error(`index ${r.status}`))
+      )
+      .then((idx) =>
+        idx?.entries?.find((e) => e.letter === letter && e.slug === slug)
+      )
       .then((m) => {
         setMeta(m || null);
         titleFromMeta = m?.title || "";
-        return fetch(`${base}docs/${letter}/${slug}.md`, { cache: "no-cache" });
+        return fetch(`${base}docs/${letter}/${slug}.md`, {
+          cache: "no-cache",
+        });
       })
-      .then((r) => (r.ok ? r.text() : Promise.reject(new Error(`md ${r.status}`))))
+      .then((r) =>
+        r.ok ? r.text() : Promise.reject(new Error(`md ${r.status}`))
+      )
       .then((raw) => {
         const fm = parseFrontmatter(raw);
         const ts = fm.last_updated || fm.lastUpdated || "";
@@ -129,6 +146,38 @@ export default function Doc() {
   const rehypePlugins = useMemo(() => {
     return query.trim() ? [rehypeHighlight(query)] : [];
   }, [query]);
+
+  // --- PDF download handler ---
+  function handleDownloadPdf() {
+    window.print();
+  }
+
+  // --- DOCX download handler (Markdown → DOCX, client-side) ---
+  async function handleDownloadDocx() {
+    try {
+      const titleLine = meta?.title ? `# ${meta.title}\n\n` : "";
+      const headerMeta =
+        meta?.authors || meta?.year || meta?.venue
+          ? `_${[
+              meta?.authors,
+              meta?.year ? `(${meta.year})` : null,
+              meta?.venue ? `— ${meta.venue}` : null,
+            ]
+              .filter(Boolean)
+              .join(" ")}_\n\n`
+          : "";
+      const markdown = `${titleLine}${headerMeta}${md}`;
+
+      const blob = await convertMarkdownToDocx(markdown);
+      const fnameBase = `${(meta?.authors || slug)
+        .replace(/\s+/g, "_")
+        .replace(/[^\w\-]+/g, "")}${meta?.year ? `_${meta.year}` : ""}`;
+      downloadDocx(blob, `${fnameBase || slug}.docx`);
+    } catch (err) {
+      console.error("DOCX export failed:", err);
+      alert("Sorry — DOCX export failed. See console for details.");
+    }
+  }
 
   return (
     <Grid className="cds--grid cds--grid--narrow">
@@ -163,6 +212,16 @@ export default function Doc() {
           <div style={{ margin: "1rem 0" }}>
             <SearchBox query={query} setQuery={setQuery} />
           </div>
+
+          {/* Export actions */}
+          <ButtonSet className="doc-actions" style={{ margin: "0.5rem 0 1rem" }}>
+            <Button kind="tertiary" renderIcon={Download} onClick={handleDownloadPdf}>
+              Download PDF
+            </Button>
+            <Button kind="tertiary" renderIcon={Document} onClick={handleDownloadDocx}>
+              Download DOCX
+            </Button>
+          </ButtonSet>
 
           <hr className="doc-separator" />
         </div>

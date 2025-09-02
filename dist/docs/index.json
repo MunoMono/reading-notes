@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T08:01:22.399Z",
+  "updatedAt": "2025-09-02T10:29:26.688Z",
   "entries": [
     {
       "letter": "A",
@@ -13,7 +13,7 @@
       "url": "",
       "citation_key": "Archer1968StructureDesignProcesses",
       "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-      "mtimeMs": 1756731786149.724
+      "mtimeMs": 1756806704677.1575
     },
     {
       "letter": "B",
@@ -27,7 +27,7 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: Classification and its consequences — MIT Press",
-      "mtimeMs": 1756738098417.6062
+      "mtimeMs": 1756806704679.5505
     },
     {
       "letter": "B",
@@ -41,7 +41,7 @@
       "url": "",
       "citation_key": "BoydDavis2017DialogueRealworldOperational",
       "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model–The realities of design in Bruce Archer's 1968 doctoral thesis — Design Studies",
-      "mtimeMs": 1756738299261.329
+      "mtimeMs": 1756806704680.2341
     },
     {
       "letter": "C",
@@ -55,7 +55,7 @@
       "url": "",
       "citation_key": "Cross2007FortyYearsDesign",
       "displayTitle": "Cross, Nigel (2007). Forty years of design research — Design Studies",
-      "mtimeMs": 1756738449020.7751
+      "mtimeMs": 1756806704681.006
     },
     {
       "letter": "F",
@@ -69,7 +69,35 @@
       "url": "",
       "citation_key": "Freire2014PedagogyOppressed30th",
       "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed (30th anniversary edition) — Bloomsbury Publishing",
-      "mtimeMs": 1756738593102.8142
+      "mtimeMs": 1756806704681.8955
+    },
+    {
+      "letter": "G",
+      "slug": "Gilliland2018ArchivalRecordkeepingResearch",
+      "path": "/docs/G/Gilliland2018ArchivalRecordkeepingResearch.md",
+      "title": "Archival and recordkeeping research",
+      "authors": "Gilliland, Anne J. and McKemmish, Sue",
+      "year": "2018",
+      "journal": "Research {{Methods}",
+      "doi": "10.1016/B978-0-08-102220-7.00004-2",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
+      "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
+      "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
+      "mtimeMs": 1756808725887.8723
+    },
+    {
+      "letter": "W",
+      "slug": "Williamson2018ResearchConcepts",
+      "path": "/docs/W/Williamson2018ResearchConcepts.md",
+      "title": "Research concepts",
+      "authors": "Williamson, Kirsty",
+      "year": "2018",
+      "journal": "Research Methods: Information, Systems, and Contexts",
+      "doi": "10.1016/B978-0-08-102220-7.00001-7",
+      "url": "",
+      "citation_key": "Williamson2018ResearchConcepts",
+      "displayTitle": "Williamson, Kirsty (2018). Research concepts — Research Methods: Information, Systems, and Contexts",
+      "mtimeMs": 1756808886872.026
     }
   ],
   "grouped": {
@@ -86,7 +114,7 @@
         "url": "",
         "citation_key": "Archer1968StructureDesignProcesses",
         "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-        "mtimeMs": 1756731786149.724
+        "mtimeMs": 1756806704677.1575
       }
     ],
     "B": [
@@ -102,7 +130,7 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: Classification and its consequences — MIT Press",
-        "mtimeMs": 1756738098417.6062
+        "mtimeMs": 1756806704679.5505
       },
       {
         "letter": "B",
@@ -116,7 +144,7 @@
         "url": "",
         "citation_key": "BoydDavis2017DialogueRealworldOperational",
         "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model–The realities of design in Bruce Archer's 1968 doctoral thesis — Design Studies",
-        "mtimeMs": 1756738299261.329
+        "mtimeMs": 1756806704680.2341
       }
     ],
     "C": [
@@ -132,7 +160,7 @@
         "url": "",
         "citation_key": "Cross2007FortyYearsDesign",
         "displayTitle": "Cross, Nigel (2007). Forty years of design research — Design Studies",
-        "mtimeMs": 1756738449020.7751
+        "mtimeMs": 1756806704681.006
       }
     ],
     "F": [
@@ -148,7 +176,39 @@
         "url": "",
         "citation_key": "Freire2014PedagogyOppressed30th",
         "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed (30th anniversary edition) — Bloomsbury Publishing",
-        "mtimeMs": 1756738593102.8142
+        "mtimeMs": 1756806704681.8955
+      }
+    ],
+    "G": [
+      {
+        "letter": "G",
+        "slug": "Gilliland2018ArchivalRecordkeepingResearch",
+        "path": "/docs/G/Gilliland2018ArchivalRecordkeepingResearch.md",
+        "title": "Archival and recordkeeping research",
+        "authors": "Gilliland, Anne J. and McKemmish, Sue",
+        "year": "2018",
+        "journal": "Research {{Methods}",
+        "doi": "10.1016/B978-0-08-102220-7.00004-2",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
+        "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
+        "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
+        "mtimeMs": 1756808725887.8723
+      }
+    ],
+    "W": [
+      {
+        "letter": "W",
+        "slug": "Williamson2018ResearchConcepts",
+        "path": "/docs/W/Williamson2018ResearchConcepts.md",
+        "title": "Research concepts",
+        "authors": "Williamson, Kirsty",
+        "year": "2018",
+        "journal": "Research Methods: Information, Systems, and Contexts",
+        "doi": "10.1016/B978-0-08-102220-7.00001-7",
+        "url": "",
+        "citation_key": "Williamson2018ResearchConcepts",
+        "displayTitle": "Williamson, Kirsty (2018). Research concepts — Research Methods: Information, Systems, and Contexts",
+        "mtimeMs": 1756808886872.026
       }
     ]
   }
