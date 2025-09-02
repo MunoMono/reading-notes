@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 01, 2025, 12:14 PM"---
+last_updated: "Sep 01, 2025, 03:51 PM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Boyd Davis and Gristwood investigate how Bruce Archer’s 1968 RCA doctoral thesis, *The Structure of Design Processes*, shifted from a prescriptive, systematic model to an iterative, reflexive one when confronted with the realities of practice. The study asks:  
