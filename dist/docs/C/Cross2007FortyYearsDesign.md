@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 04, 2025, 10:21 AM"---
+last_updated: "Sep 18, 2025, 12:46 PM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 This editorial essay, written for the 40th anniversary of the Design Research Society (DRS), reflects on the trajectory of design research from the early 1960s to the mid-2000s. Cross asks:  

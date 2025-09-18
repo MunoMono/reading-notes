@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 04, 2025, 10:21 AM"---
+last_updated: "Sep 18, 2025, 12:46 PM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Freire asks a radical question: **how can oppressed people liberate themselves through education that rejects domination and fosters critical consciousness?** The central objective is to reframe education from a vertical, 'banking' mode to a horizontal, dialogical praxis that positions learners as co-creators of knowledge and agents of transformation. For Freire, the aim is not to neutralise contradiction but to **embrace and work through it**, using pedagogy to mediate the dialectic between oppression and liberation.
