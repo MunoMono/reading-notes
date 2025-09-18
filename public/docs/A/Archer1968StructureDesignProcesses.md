@@ -1,15 +1,15 @@
 ---
-title: "The structure of design processes"
-authors: "Archer, L Bruce"
+title: The structure of design processes
+authors: Archer, L Bruce
 year: 1968
-journal: ""
+journal: ''
 citation_key: Archer1968StructureDesignProcesses
-doi: ""
-url: ""
+doi: ''
+url: ''
 bibliography: ../../refs/library.bib
-csl: "https://www.zotero.org/styles/harvard-cite-them-right"
+csl: https://www.zotero.org/styles/harvard-cite-them-right
 link-citations: true
-last_updated: "Sep 02, 2025, 11:58 AM"---
+last_updated: "Sep 18, 2025, 12:46 PM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Archer’s thesis submitted to the Royal College of Art in 1968 sets out to create a **systematic, generalisable framework for the design process**. Its explicit aim is to elevate design from a craft‑based, intuitive activity to a **logical and explicit discipline** that can stand alongside science and the humanities. His central research question asks: *can designing be formalised as a science, expressed in models, notations and calculi, while remaining sensitive to the realities of practice?*  
@@ -90,7 +90,6 @@ Thus, Archer grounds all seven thematic strands of the project: briefs, action r
 - [x] Analysis and models  
 - [x] Synthesis and interpretation  
 - [x] Reporting and communications  
-
 ## Critical evaluation
 ### Strengths
 - **Foundational formalism:** establishes variables, indices and spaces still relevant for computational design.  

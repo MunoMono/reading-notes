@@ -17,7 +17,7 @@ cd "$ROOT_DIR"
 
 CSL_STYLE="${CSL_STYLE:-https://www.zotero.org/styles/harvard-cite-them-right}"
 BIB_PATH="${BIB:-${BIBLIOGRAPHY:-refs/library.bib}}"
-NOTES_DIR="public/docs"   # <-- ensure we write into public/docs
+NOTES_DIR="${NOTES_DIR:-public/docs}"   # <- ensure we write into public/docs by default
 mkdir -p "$NOTES_DIR"
 
 command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found"; exit 1; }
@@ -25,14 +25,15 @@ command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found"; exit 1;
 
 # Run the Python generator and CAPTURE the output path
 NEWFILE=$(python3 - "$BIB_PATH" "$NOTES_DIR" "$IDENT" "$CSL_STYLE" <<'PY'
-import re, sys, pathlib
+import re, sys, pathlib, datetime
+from zoneinfo import ZoneInfo
 
 bib_path = pathlib.Path(sys.argv[1])
 notes_dir = pathlib.Path(sys.argv[2])
 ident     = sys.argv[3]
 csl_style = sys.argv[4]
 
-def norm(s): 
+def norm(s):
     return re.sub(r'[^a-z0-9]+','', (s or '').lower())
 
 def load_bib_entries(path):
@@ -41,7 +42,7 @@ def load_bib_entries(path):
     entries=[]
     for ch in chunks:
         m = re.match(r'@\s*([^{(]+)\s*[\{\(]\s*([^,\s]+)', ch)
-        if not m: 
+        if not m:
             continue
         key = m.group(2).strip()
         fields={}
@@ -92,19 +93,28 @@ else:
     doi     = ident if ident.startswith('10.') else ""
     url     = ident if ident.startswith('http') else ""
 
-def yaml_str(s): 
+def yaml_str(s):
     s = (s or "").replace('"', '\\"')
     return f'"{s}"'
 
 # Determine letter subfolder (first author surname initial if available)
-letter = (authors.split(',')[0].strip()[:1].upper() or citekey[:1].upper() or 'Z')
-if not letter.isalpha(): letter = 'Z'
+first_author = authors.split(',')[0].strip() if authors else ''
+letter = (first_author[:1].upper() or citekey[:1].upper() or 'Z')
+if not letter.isalpha():
+    letter = 'Z'
 
 outdir = notes_dir / letter
 outdir.mkdir(parents=True, exist_ok=True)
 
 fname = re.sub(r'[^A-Za-z0-9._-]+', '-', citekey) + ".md"
 out = outdir / fname
+
+# Format last_updated as "03 Sept 2025, 13:15" in Europe/London
+now = datetime.datetime.now(ZoneInfo("Europe/London"))
+# Custom month map to force "Sept"
+mon_map = {1:"Jan",2:"Feb",3:"Mar",4:"Apr",5:"May",6:"Jun",7:"Jul",8:"Aug",9:"Sept",10:"Oct",11:"Nov",12:"Dec"}
+last_updated = f'{now.day:02d} {mon_map[now.month]} {now.year}, {now.hour:02d}:{now.minute:02d}'
+
 if not out.exists():
     tpl = f"""---
 title: {yaml_str(title)}
@@ -117,7 +127,11 @@ url: {yaml_str(url)}
 bibliography: ../../refs/library.bib
 csl: "{csl_style}"
 link-citations: true
+last_updated: "{last_updated}"
 ---
+
+# Scope of this note
+<!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->
 
 ## Purpose and aim
 ### What research question or objective is being addressed?
@@ -126,7 +140,10 @@ link-citations: true
 ### Describe the research design, methods and sample size.
 
 ## Key findings and arguments
-### Summarise the main results and conclusions.
+### Summarise the main results and conclusions
+1. 
+2. 
+3. 
 
 ## Relevance
 ### How does it link to the research questions or framework?
@@ -136,7 +153,9 @@ link-citations: true
 - What concrete evidence from the paper strengthens the project? Cite inline (for example, ``[@{citekey}]``) and add page references for specifics.
 
 ### Hooks into the project
-- Which workstream, deliverable, decision or stakeholder does this inform?
+- **Workstreams →** 
+- **Deliverables →** 
+- **Stakeholders →** 
 
 ### Use across the methods spine
 - [ ] Framing and theory
@@ -171,7 +190,8 @@ link-citations: true
 - How does it shape your thinking?
 
 ## Evidence to quote or paraphrase
-- ‘<Quote>’ (page X)
+- '<Quote>' (page X)
+- **Paraphrase:** <Your paraphrase of a key passage> (page X)
 
 ## Related works
 - List directly cited or conceptually linked papers.
