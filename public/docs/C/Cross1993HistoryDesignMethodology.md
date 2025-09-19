@@ -9,7 +9,7 @@ url: "http://link.springer.com/10.1007/978-94-015-8220-9_2"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "18 Sept 2025, 13:11"---
+last_updated: "18 Sept 2025, 13:27"---
 # Scope of this note
 Close reading of Cross’s retrospective history of the 'design methods movement' (1948–1992). This note goes beyond summary to interrogate the **taxonomic operations** (e.g., 'generations'), the **epistemic politics** of science–design distinctions, and the **institutional myth-making** that stabilises a canonical lineage. It is written to explicitly triangulate with the DDR archive, the interpretivist–critical framework, and the project’s integrated spine.
 
