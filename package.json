@@ -12,7 +12,7 @@
     "new:note": "./scripts/newnote.sh",
     "stamp:notes": "node scripts/stamp-notes.mjs",
     "watch:stamp": "chokidar \"public/docs/**/*.md\" -c \"node scripts/stamp-notes.mjs {{path}}\"",
-    "deploy": "npm run stamp:notes && npm run build:docs-index && npm run build && cp -f public/.nojekyll dist/.nojekyll 2>/dev/null || true && gh-pages -d dist -b gh-pages -f --dotfiles -m \"deploy: publish dist with md + .nojekyll\""
+    "deploy": "npm run stamp:notes && npm run build:docs-index && VITE_BUILD_ID=$(date +%s) vite build && cp -f public/.nojekyll dist/.nojekyll 2>/dev/null || true && gh-pages -d dist -b gh-pages -f --dotfiles -m \"deploy: publish dist with md + .nojekyll\""
   },
   "dependencies": {
     "@carbon/react": "^1.90.0",

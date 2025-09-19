@@ -9,7 +9,7 @@ url: "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/editori
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "18 Sept 2025, 13:19"---
+last_updated: "18 Sept 2025, 13:27"---
 # Scope of this note
 This editorial introduction to a DRS2016 conference strand reflects on the history, theory and practice of design research on the Society’s fiftieth anniversary. It surveys generational narratives, tensions between historians and researchers, and the need for interdisciplinary collaboration. The note interrogates Atkinson & Oppenheimer’s reliance on 'generations' and disciplinary boundary-setting, contrasting this with Boyd Davis & Gristwood’s attention to the gap between operational ideals and practical realities.
 

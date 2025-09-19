@@ -21,10 +21,16 @@ export default function Home() {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("/reading-notes/docs/index.json")
+    const base = import.meta.env.BASE_URL || "/";
+    const ver = import.meta.env?.VITE_BUILD_ID || "";
+    const url = `${base}docs/index.json${ver ? `?v=${ver}` : ""}`;
+
+    fetch(url, { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((json) => setData(json))
-      .catch((e) => console.error("Failed to load /docs/index.json", e));
+      .catch((e) => {
+        console.error("Failed to load docs index", { url, error: e });
+      });
   }, []);
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
