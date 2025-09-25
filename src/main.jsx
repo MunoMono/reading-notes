@@ -1,14 +1,19 @@
+// src/main.jsx
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import App from "./App";
+import Home from "./pages/Home";
+import Doc from "./pages/Doc";
+
 import "./styles/index.scss";
 
-// Resolve initial theme once, before React renders
+// Theme bootstrap
 const stored = typeof localStorage !== "undefined" ? localStorage.getItem("theme") : null;
-const prefersDark = typeof window !== "undefined" && window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+const prefersDark =
+  typeof window !== "undefined" && window.matchMedia?.("(prefers-color-scheme: dark)").matches;
 const initialTheme = stored || (prefersDark ? "g90" : "g10");
-
-// Apply to <html data-theme="…">
 document.documentElement.setAttribute("data-theme", initialTheme);
 
 function Root() {
@@ -20,7 +25,18 @@ function Root() {
     try { localStorage.setItem("theme", next); } catch {}
   };
 
-  return <App theme={theme} toggleTheme={toggleTheme} />;
+  return (
+    <BrowserRouter basename="/reading-notes">
+      <Routes>
+        {/* App is the layout wrapper */}
+        <Route path="/" element={<App theme={theme} toggleTheme={toggleTheme} />}>
+          <Route index element={<Home />} />
+          <Route path="docs/:letter/:slug" element={<Doc />} />
+          <Route path="*" element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(
