@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "18 Sept 2025, 13:27"---
+last_updated: "19 Sept 2025, 08:58"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Bowker and Star aim to interrogate classification as both a social and technical practice and to demonstrate how classification systems shape the moral, political and epistemological order of societies. Their guiding question is: how do classifications, standards and infrastructures come to constitute everyday life, shaping both organisational practices and personal identities? The work challenges the assumption that categories are neutral or merely descriptive, showing instead that they are historically situated, contested and consequential for knowledge production and governance [@Bowker1999SortingThingsOut, pp. 285–290].

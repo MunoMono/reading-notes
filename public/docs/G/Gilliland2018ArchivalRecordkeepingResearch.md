@@ -9,7 +9,7 @@ url: "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 19, 2025, 08:54 AM"---
+last_updated: "Sep 25, 2025, 11:15 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Gilliland and McKemmish aim to map the **past, present and future** of archival and recordkeeping research, tracing how the field has diversified beyond bureaucratic traditions into what they call the **archival multiverse**. Their guiding questions are:  

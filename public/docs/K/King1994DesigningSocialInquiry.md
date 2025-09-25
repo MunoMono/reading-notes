@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 19, 2025, 08:54 AM"---
+last_updated: "Sep 25, 2025, 11:15 AM"---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 King et al. set out to **unify qualitative and quantitative research under a single logic of scientific inference**. Their central claim is that good research, regardless of method, pursues **descriptive and causal inference** through transparent procedures, explicit assumptions and replicable reasoning. They pose the question: *how can qualitative research be designed so that inferences are valid, unbiased and informative?* [@King1994DesigningSocialInquiry].
