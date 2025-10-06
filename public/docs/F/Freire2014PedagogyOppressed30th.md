@@ -1,5 +1,5 @@
 ---
-title: "Pedagogy of the Oppressed: 30th {{Anniversary Edition}"
+title: "Pedagogy of the oppressed: 30th anniversary edition"
 authors: "Freire, Paulo and Macedo, Donaldo P."
 year: 2014
 journal: "Bloomsbury Publishing"
@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 01, 2025, 06:32 PM"
+last_updated: "Oct 06, 2025, 10:17 AM"
 category: Context---
 # Scope of this note
 <!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->

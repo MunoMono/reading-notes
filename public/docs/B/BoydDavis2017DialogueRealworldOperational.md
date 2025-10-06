@@ -1,5 +1,5 @@
 ---
-title: "A Dialogue between the Real-World and the Operational Model--the Realities of Design in {{Bruce Archer}"
+title: "A dialogue between the real-world and the operational model-the realities of design in Bruce Archer"
 authors: "Boyd Davis, Stephen and Gristwood, Simone"
 year: 2017
 journal: "Design Studies"
@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 01, 2025, 06:32 PM"
+last_updated: "Oct 06, 2025, 10:17 AM"
 category: Critique---
 # Scope of this note
 <!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->

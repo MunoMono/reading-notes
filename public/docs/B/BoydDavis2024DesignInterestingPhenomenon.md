@@ -1,5 +1,5 @@
 ---
-title: "Design as an {{Interesting Phenomenon}"
+title: "Design as an interesting phenomenon"
 authors: "Boyd Davis, Stephen"
 year: 2024
 journal: "Creative {{Simulations}"
@@ -9,7 +9,7 @@ url: "https://link.springer.com/10.1007/978-3-031-50620-8_7"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 01, 2025, 05:53 PM"
+last_updated: "Oct 06, 2025, 10:17 AM"
 category: Critique---
 # Scope of this note
 This extended note critically reviews Stephen Boyd Davis’s chapter **Design as an interesting phenomenon: George Mallen and the Royal College of Art** (revised Aug 2022 manuscript basis), covering the period **1971–83** and concentrating on: (1) **SIMDAC/SHADO** and the shift from prescriptive to descriptive/organisational models; (2) **user‑centred, subjective** data capture (repertory grid + MDS/PCA/cluster) as proto‑HCI; (3) institutional dynamics—**CADC/ECU/CEDAR** linkages, the **Computing Activities Unit** and the **March–Stiny** rupture; and (4) the **policy/funding** surround (SRC/EPSRC) and its shaping effects. The analysis maps these threads onto the project’s Statement of Intent (SoW v2) by evidencing **epistemic drift** from systematic design to **designerly knowing** and by extracting **taxonomy‑ready** categories for the DDR archive platform.

@@ -105,3 +105,6 @@ Key source files:
 
 - Bibliographic **data**: [CC BY 4.0](./LICENSE-CC-BY-4.0.txt)  
 - Application code + configs: [MIT](./LICENSE)  
+
+
+git fetch origin && git reset --hard origin/main && git clean -fd
