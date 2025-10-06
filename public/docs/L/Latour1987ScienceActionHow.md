@@ -1,5 +1,5 @@
 ---
-title: "Science in action: how to follow scientists and engineers through society"
+title: "Science in Action: How to Follow Scientists and Engineers through Society"
 authors: "Latour, Bruno"
 year: 1987
 journal: "Harvard University Press"
@@ -9,7 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:35 AM"---
+last_updated: "Oct 01, 2025, 06:32 PM"
+category: Context---
 # Scope of this note
 This extended note critically reviews Latour's *Science in Action* with emphasis on three major clusters of concepts: (1) the dynamics of black boxing and reopening (Ch. 1–2), (2) laboratories and inscriptions (Ch. 3–5) and (3) centres of calculation and action at a distance (Ch. 6–7). These ideas are triangulated with the DDR archival research spine, the interpretivist–critical framework and the taxonomic critique of systematic design. The note develops a longer-form analysis (2x the baseline) to  embed Latour’s arguments within the project’s methodological architecture, demonstrating how his vocabulary of black boxes, inscriptions and centres of calculation can illuminate the archival practices, systematic models and computational simulations that structure this research. In doing so, it positions *Science in Action* not only as a historical contribution to science and technology studies, but as a live analytical resource for re-contextualising DDR systematic methods under conditions of contemporary complexity.
 

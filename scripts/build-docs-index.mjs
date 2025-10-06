@@ -95,6 +95,7 @@ async function main() {
       const doi = fm.doi || "";
       const url = fm.url || "";
       const citation_key = fm.citation_key || slug;
+      const category = fm.category || "";   // 👈 NEW
 
       // file metadata (for "recently added")
       const stat = await fs.stat(abs).catch(() => null);
@@ -121,6 +122,7 @@ async function main() {
         citation_key,
         displayTitle,
         mtimeMs,
+        category, // 👈 NEW
       });
     }
 

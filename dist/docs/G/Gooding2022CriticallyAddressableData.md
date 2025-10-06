@@ -1,15 +1,16 @@
 ---
-title: "Towards critically addressable data for digital library user studies"
+title: "Towards Critically Addressable Data for Digital Library User Studies"
 authors: "Gooding, Paul"
 year: 2022
-journal: "Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections"
+journal: "Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections"
 citation_key: Gooding2022CriticallyAddressableData
 doi: "10.1080/0361526"
 url: "https://papers.ssrn.com/s"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:15 AM"---
+last_updated: "Oct 01, 2025, 06:03 PM"
+category: Context---
 # Scope of this note
 Engages with Chapter 4 of the edited volume, which develops the argument for *critical addressability* in relation to digital library catalogue data. The chapter draws on Gooding’s work in the **Digital Library Futures (DLF)** project and sets out a conceptual framework that resonates directly with the project’s archival and methodological concerns. For the DDR research spine, this text functions at the intersection of **archival analysis, computational modelling and reflective synthesis**.
 

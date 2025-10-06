@@ -1,6 +1,6 @@
 ---
-title: "Designing social inquiry: scientific inference in qualitative research"
-authors: "King, Gary; Keohane, Robert O.; Verba, Sidney"
+title: "Designing Social Inquiry: {{Scientific}"
+authors: "King, G and Keohane, R.O and Verba, S"
 year: 1994
 journal: "Princeton University Press"
 citation_key: King1994DesigningSocialInquiry
@@ -9,7 +9,11 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:35 AM"---
+last_updated: "Oct 01, 2025, 06:32 PM"
+category: Context---
+# Scope of this note
+<!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->
+
 ## Purpose and aim
 ### What research question or objective is being addressed?
 King et al. set out to **unify qualitative and quantitative research under a single logic of scientific inference**. Their central claim is that good research, regardless of method, pursues **descriptive and causal inference** through transparent procedures, explicit assumptions and replicable reasoning. They pose the question: *how can qualitative research be designed so that inferences are valid, unbiased and informative?* [@King1994DesigningSocialInquiry].

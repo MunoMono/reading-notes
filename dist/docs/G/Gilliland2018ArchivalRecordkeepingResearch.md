@@ -1,15 +1,19 @@
 ---
-title: "Archival and recordkeeping research"
+title: "Archival and Recordkeeping Research"
 authors: "Gilliland, Anne J. and McKemmish, Sue"
 year: 2018
-journal: "Research Methods"
+journal: "Research {{Methods}"
 citation_key: Gilliland2018ArchivalRecordkeepingResearch
 doi: "10.1016/B978-0-08-102220-7.00004-2"
 url: "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:15 AM"---
+last_updated: "Oct 01, 2025, 06:02 PM"
+category: Context---
+# Scope of this note
+<!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->
+
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Gilliland and McKemmish aim to map the **past, present and future** of archival and recordkeeping research, tracing how the field has diversified beyond bureaucratic traditions into what they call the **archival multiverse**. Their guiding questions are:  

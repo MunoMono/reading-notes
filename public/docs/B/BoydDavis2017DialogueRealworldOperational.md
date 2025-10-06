@@ -1,5 +1,5 @@
 ---
-title: "A dialogue between the real-world and the operational model–The realities of design in Bruce Archer's 1968 doctoral thesis"
+title: "A Dialogue between the Real-World and the Operational Model--the Realities of Design in {{Bruce Archer}"
 authors: "Boyd Davis, Stephen and Gristwood, Simone"
 year: 2017
 journal: "Design Studies"
@@ -9,7 +9,11 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:35 AM"---
+last_updated: "Oct 01, 2025, 06:32 PM"
+category: Critique---
+# Scope of this note
+<!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->
+
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Boyd Davis and Gristwood investigate how Bruce Archer’s 1968 RCA doctoral thesis, *The Structure of Design Processes*, shifted from a prescriptive, systematic model to an iterative, reflexive one when confronted with the realities of practice. The study asks:  

@@ -1,15 +1,16 @@
 ---
-title: "Research concepts"
-authors: "Williamson, Kirsty"
+title: "Research {{Concepts}"
+authors: ""
 year: 2018
-journal: "Research Methods: Information, Systems, and Contexts"
+journal: "Research {{Methods}"
 citation_key: Williamson2018ResearchConcepts
-doi: "10.1016/B978-0-08-102220-7.00001-7"
+doi: ""
 url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:15 AM"---
+last_updated: "Oct 01, 2025, 06:10 PM"
+category: Context---
 # Scope of this note
 This review focuses on **interpretivism** and **critical theory** as presented in Williamson’s *Research Concepts* (2018). It situates Williamson’s discussion against the project’s interpretivist–critical paradigm, providing methodological grounding for reflexive briefs, taxonomic critique and practice-based inquiry.
 

@@ -23,8 +23,14 @@ mkdir -p "$NOTES_DIR"
 command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found"; exit 1; }
 [[ -f "$BIB_PATH" ]] || { echo "Error: bibliography not found: $BIB_PATH" >&2; exit 1; }
 
+# 🔑 Ask for category interactively
+echo "Choose category for this note:"
+select CATEGORY in Dataset Critique Context; do
+  [[ -n "$CATEGORY" ]] && break
+done
+
 # Run the Python generator and CAPTURE the output path
-NEWFILE=$(python3 - "$BIB_PATH" "$NOTES_DIR" "$IDENT" "$CSL_STYLE" <<'PY'
+NEWFILE=$(python3 - "$BIB_PATH" "$NOTES_DIR" "$IDENT" "$CSL_STYLE" "$CATEGORY" <<'PY'
 import re, sys, pathlib, datetime
 from zoneinfo import ZoneInfo
 
@@ -32,6 +38,7 @@ bib_path = pathlib.Path(sys.argv[1])
 notes_dir = pathlib.Path(sys.argv[2])
 ident     = sys.argv[3]
 csl_style = sys.argv[4]
+category  = sys.argv[5]  # 🔑 category from bash
 
 def norm(s):
     return re.sub(r'[^a-z0-9]+','', (s or '').lower())
@@ -111,7 +118,6 @@ out = outdir / fname
 
 # Format last_updated as "03 Sept 2025, 13:15" in Europe/London
 now = datetime.datetime.now(ZoneInfo("Europe/London"))
-# Custom month map to force "Sept"
 mon_map = {1:"Jan",2:"Feb",3:"Mar",4:"Apr",5:"May",6:"Jun",7:"Jul",8:"Aug",9:"Sept",10:"Oct",11:"Nov",12:"Dec"}
 last_updated = f'{now.day:02d} {mon_map[now.month]} {now.year}, {now.hour:02d}:{now.minute:02d}'
 
@@ -128,6 +134,7 @@ bibliography: ../../refs/library.bib
 csl: "{csl_style}"
 link-citations: true
 last_updated: "{last_updated}"
+category: {category}
 ---
 
 # Scope of this note

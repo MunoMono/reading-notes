@@ -1,6 +1,6 @@
 ---
-title: "Forty years of design research"
-authors: "Cross, Nigel"
+title: "Forty Years of Design Research"
+authors: "Cross, N."
 year: 2007
 journal: "Design Studies"
 citation_key: Cross2007FortyYearsDesign
@@ -9,7 +9,11 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:35 AM"---
+last_updated: "Oct 01, 2025, 06:32 PM"
+category: Critique---
+# Scope of this note
+<!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->
+
 ## Purpose and aim
 ### What research question or objective is being addressed?
 This editorial essay, written for the 40th anniversary of the Design Research Society (DRS), reflects on the trajectory of design research from the early 1960s to the mid-2000s. Cross asks:  

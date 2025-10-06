@@ -1,18 +1,16 @@
 ---
-title: "Design History: Understanding Theory and Method—Chapters 2 and 3"
+title: "Design History: Understanding Theory and Method"
 authors: "Fallan, Kjetil"
 year: 2010
-container-title: "Design History: Understanding Theory and Method"
-publisher: "Berg Publishers"
-type: chapter
-chapter-number: "2 and 3"
-citation_key: Fallan2010_Ch2Ch3
+journal: "Design History: Understanding Theory and Method"
+citation_key: Fallan2010DesignHistoryUnderstanding
 doi: "10.5040/9781474293716"
 url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:35 AM"---
+last_updated: "Oct 01, 2025, 06:32 PM"
+category: Context---
 # Scope of this note
 This review concentrates on **Chapter 2 (Theory and Methodology)** and **Chapter 3 (Epistemology)** of Fallan’s *Design History: Understanding Theory and Method* (2010). Expanded to provide deeper analysis, integration with the doctoral research spine, and an evidence pack for direct quotation.
 

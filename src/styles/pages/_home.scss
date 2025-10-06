@@ -1,0 +1,36 @@
+/* Home page specific styles */
+
+.home-heading { margin-bottom: 0.25rem; }
+.home-meta { margin-bottom: 1.5rem; }
+
+.home-search { margin-bottom: 0.75rem; }
+
+/* Category filter row */
+.home-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+
+  .cds--dropdown {
+    width: 18rem;   /* 🔥 about 3× wider than default */
+    max-width: 100%;
+  }
+}
+
+/* A–Z section headings */
+.alpha-section { margin-top: 2rem; }
+.alpha-section h3 { margin-bottom: 0.5rem; }
+
+/* Responsive stacking for mobile */
+@media (max-width: 640px) {
+  .home-filter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+
+    .cds--dropdown {
+      width: 100%;   /* on small screens, let it fill width */
+    }
+  }
+}

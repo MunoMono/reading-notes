@@ -1,7 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { Grid, Column, Tag } from "@carbon/react";
+import { Grid, Column, Tag, Dropdown } from "@carbon/react";
+import { Filter } from "@carbon/icons-react";
 import SearchBox from "../components/SearchBox";
+import "../styles/pages/_home.scss"; // custom page styles
 
 function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -16,9 +18,24 @@ function highlight(text, query) {
   );
 }
 
+// Category tag colors
+function categoryTag(category) {
+  switch (category) {
+    case "Dataset":
+      return <Tag type="teal">{category}</Tag>;
+    case "Critique":
+      return <Tag type="red">{category}</Tag>;
+    case "Context":
+      return <Tag type="purple">{category}</Tag>;
+    default:
+      return null;
+  }
+}
+
 export default function Home() {
   const [data, setData] = useState({ entries: [], grouped: {}, updatedAt: null });
   const [query, setQuery] = useState("");
+  const [categoryFilter, setCategoryFilter] = useState(null);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || "/";
@@ -36,16 +53,25 @@ export default function Home() {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
   const filteredEntries = useMemo(() => {
-    if (!query.trim()) return data.entries || [];
-    const q = query.toLowerCase();
-    return (data.entries || []).filter((e) =>
-      [e.title, e.authors, e.venue, e.year, e.doi]
-        .filter(Boolean)
-        .join(" ")
-        .toLowerCase()
-        .includes(q)
-    );
-  }, [data.entries, query]);
+    let entries = data.entries || [];
+
+    if (query.trim()) {
+      const q = query.toLowerCase();
+      entries = entries.filter((e) =>
+        [e.title, e.authors, e.venue, e.year, e.doi, e.category]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase()
+          .includes(q)
+      );
+    }
+
+    if (categoryFilter) {
+      entries = entries.filter((e) => e.category === categoryFilter);
+    }
+
+    return entries;
+  }, [data.entries, query, categoryFilter]);
 
   const filteredGrouped = useMemo(() => {
     return filteredEntries.reduce((acc, e) => {
@@ -63,8 +89,10 @@ export default function Home() {
       })
     : null;
 
+  const categoryOptions = ["All", "Dataset", "Critique", "Context"];
+
   return (
-    <Grid className="cds--grid cds--grid--narrow">
+    <Grid className="cds--grid cds--grid--narrow home-page">
       <Column lg={12} md={8} sm={4}>
         <h2 className="home-heading">Reading notes</h2>
         <p className="cds--type-helper-text home-meta">
@@ -72,10 +100,26 @@ export default function Home() {
           {lastUpdated ? <> · updated {lastUpdated}</> : null}
         </p>
 
+        {/* Search bar */}
         <div className="home-search">
           <SearchBox query={query} setQuery={setQuery} />
         </div>
 
+        {/* Category filter directly below */}
+        <div className="home-filter">
+          <Filter size={20} />
+          <Dropdown
+            id="category-filter"
+            label="Filter by category"
+            items={categoryOptions}
+            selectedItem={categoryFilter || "All"}
+            onChange={({ selectedItem }) =>
+              setCategoryFilter(selectedItem === "All" ? null : selectedItem)
+            }
+          />
+        </div>
+
+        {/* A–Z navigation pills */}
         <div className="pill-row">
           {letters.map((L) => (
             <a className="pill" key={L} href={`#${L}`}>
@@ -84,6 +128,7 @@ export default function Home() {
           ))}
         </div>
 
+        {/* Entry list */}
         {letters.map((L) => {
           const items = filteredGrouped[L] || [];
           if (!items.length) return null;
@@ -98,7 +143,8 @@ export default function Home() {
                       {e.year ? <> ({highlight(e.year, query)})</> : null}.{" "}
                       {highlight(e.title, query)}
                       {e.venue ? <em> — {highlight(e.venue, query)}</em> : null}
-                    </Link>
+                    </Link>{" "}
+                    {categoryTag(e.category)}
                   </li>
                 ))}
               </ul>

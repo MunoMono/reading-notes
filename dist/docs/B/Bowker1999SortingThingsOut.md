@@ -1,5 +1,5 @@
 ---
-title: "Sorting things out: Classification and its consequences"
+title: "Sorting Things out: Classification and Its Consequences"
 authors: "Bowker, Geoffrey C. and Star, Susan Leigh"
 year: 1999
 journal: "MIT Press"
@@ -9,7 +9,11 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Sep 25, 2025, 11:15 AM"---
+last_updated: "Oct 01, 2025, 06:32 PM"
+category: Context---
+# Scope of this note
+<!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->
+
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Bowker and Star aim to interrogate classification as both a social and technical practice and to demonstrate how classification systems shape the moral, political and epistemological order of societies. Their guiding question is: how do classifications, standards and infrastructures come to constitute everyday life, shaping both organisational practices and personal identities? The work challenges the assumption that categories are neutral or merely descriptive, showing instead that they are historically situated, contested and consequential for knowledge production and governance [@Bowker1999SortingThingsOut, pp. 285–290].
