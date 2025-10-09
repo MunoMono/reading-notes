@@ -1,5 +1,5 @@
 ---
-title: "Designing Social Inquiry: {{Scientific}"
+title: "Designing social inquiry"
 authors: "King, G and Keohane, R.O and Verba, S"
 year: 1994
 journal: "Princeton University Press"
@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 01, 2025, 06:32 PM"
+last_updated: "06 Oct 2025, 12:11"
 category: Context---
 # Scope of this note
 <!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->

@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 06, 2025, 10:17 AM"
+last_updated: "Oct 08, 2025, 09:42 AM"
 category: Context---
 # Scope of this note
 This review concentrates on **Chapter 2 (Theory and Methodology)** and **Chapter 3 (Epistemology)** of Fallan’s *Design History: Understanding Theory and Method* (2010). Expanded to provide deeper analysis, integration with the doctoral research spine, and an evidence pack for direct quotation.

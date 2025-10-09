@@ -9,7 +9,7 @@ url: 'https://www.tandfonline.com/doi/full/10.1080/14606925.2022.2112861'
 bibliography: ../../refs/library.bib
 csl: 'https://www.zotero.org/styles/harvard-cite-them-right'
 link-citations: true
-last_updated: "Oct 06, 2025, 11:42 AM"
+last_updated: "Oct 08, 2025, 09:42 AM"
 category: Context---
 # Scope of this note
 This note critically reviews Galdon and Hall’s *(Un)Frayling Design Research in Design Education for the 21st Century* (2022). The paper re-examines Christopher Frayling’s 1993 *Research in Art and Design*, deconstructing its conceptual foundations and tracing its lineage through Archer (1968), Cross (1982), and Jones (1970). The authors argue that Frayling’s taxonomy—*into/through/for*—locks design research within a present-oriented epistemology that neglects design’s prospective, abductive and probabilistic nature. Their argument advances a temporal and ontological reframing of design knowledge that positions design as a future-led, world-making discipline.
