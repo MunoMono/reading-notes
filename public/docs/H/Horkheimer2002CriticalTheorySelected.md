@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 08, 2025, 09:42 AM"
+last_updated: "Oct 09, 2025, 06:05 AM"
 category: Context---
 # Scope of this note
 This note focuses on two essays most relevant to the DDR project: **‘Traditional and Critical Theory’** (1937) and **‘Notes on Science and the Crisis’** (1932). These essays exemplify the Frankfurt School’s critique of positivist science and instrumental reason. They are applied here as conceptual tools for analysing DDR’s systematic methods and their contemporary computational re-articulation. Together, they provide the **normative critical anchor** for the project’s interpretivist–critical framework, foregrounding the ethical and emancipatory stakes of design research, and ensuring that both archival analysis and computational modelling are guided by reflexivity, transparency and resistance to instrumental rationality.

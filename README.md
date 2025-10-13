@@ -77,6 +77,7 @@ npm run dev:all
 ### 3. Deploy to GitHub Pages
 
 ```bash
+npm run build
 npm run deploy
 ```
 

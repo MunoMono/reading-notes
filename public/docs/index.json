@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-08T09:17:32.943Z",
+  "updatedAt": "2025-10-13T08:02:42.693Z",
   "entries": [
     {
       "letter": "A",
@@ -13,7 +13,7 @@
       "url": "",
       "citation_key": "Archer1995NatureResearch",
       "displayTitle": "Archer, L Bruce (1995). The nature of research — Co-design, interdisciplinary journal of design",
-      "mtimeMs": 1759915052817.3467,
+      "mtimeMs": 1759986318949.4326,
       "category": "Dataset"
     },
     {
@@ -28,7 +28,7 @@
       "url": "",
       "citation_key": "Archer1968StructureDesignProcesses",
       "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-      "mtimeMs": 1759915052815.3577,
+      "mtimeMs": 1759986318946.0676,
       "category": "Dataset"
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/editorials/26",
       "citation_key": "Atkinson2016IntroductionDesignResearch",
       "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
-      "mtimeMs": 1759915052817.9424,
+      "mtimeMs": 1759986318950.0544,
       "category": "Critique"
     },
     {
@@ -58,7 +58,7 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: classification and its consequences — MIT Press",
-      "mtimeMs": 1759915052818.7996,
+      "mtimeMs": 1759986318950.822,
       "category": "Context"
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
       "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
       "displayTitle": "Boyd Davis, Stephen (2024). Design as an interesting phenomenon — Creative {{Simulations}",
-      "mtimeMs": 1759915052819.8755,
+      "mtimeMs": 1759986318951.7542,
       "category": "Critique"
     },
     {
@@ -88,7 +88,7 @@
       "url": "",
       "citation_key": "BoydDavis2017DialogueRealworldOperational",
       "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model-the realities of design in Bruce Archer — Design Studies",
-      "mtimeMs": 1759915052819.3562,
+      "mtimeMs": 1759986318951.31,
       "category": "Critique"
     },
     {
@@ -103,7 +103,7 @@
       "url": "",
       "citation_key": "Cross2007FortyYearsDesign",
       "displayTitle": "Cross, N. (2007). Forty Years of Design Research — Design Studies",
-      "mtimeMs": 1759915052820.7366,
+      "mtimeMs": 1759986318952.7952,
       "category": "Critique"
     },
     {
@@ -118,8 +118,23 @@
       "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
       "citation_key": "Cross1993HistoryDesignMethodology",
       "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
-      "mtimeMs": 1759915052820.3647,
+      "mtimeMs": 1759986318952.2896,
       "category": "Critique"
+    },
+    {
+      "letter": "D",
+      "slug": "Dempsey2006LibrariesLongTail",
+      "path": "/docs/D/Dempsey2006LibrariesLongTail.md",
+      "title": "Libraries and the Long Tail",
+      "authors": "Dempsey, Lorcan",
+      "year": "2006",
+      "journal": "D-Lib Magazine",
+      "doi": "10.1045/april2006-dempsey",
+      "url": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html",
+      "citation_key": "Dempsey2006LibrariesLongTail",
+      "displayTitle": "Dempsey, Lorcan (2006). Libraries and the Long Tail — D-Lib Magazine",
+      "mtimeMs": 1760342562565.6025,
+      "category": "Context"
     },
     {
       "letter": "D",
@@ -133,8 +148,23 @@
       "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/researchpapers/82",
       "citation_key": "Dorst2016DesignPracticeDesign",
       "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
-      "mtimeMs": 1759915052821.6238,
+      "mtimeMs": 1759986318953.779,
       "category": "Critique"
+    },
+    {
+      "letter": "E",
+      "slug": "Erway2012SwattingLongTail",
+      "path": "/docs/E/Erway2012SwattingLongTail.md",
+      "title": "Swatting the long tail of digital media: a call for collaboration",
+      "authors": "Erway, Ricky",
+      "year": "2012",
+      "journal": "OCLC Research",
+      "doi": "",
+      "url": "https://www.oclc.org/research/publications/library/2012/2012-08.pdf",
+      "citation_key": "Erway2012SwattingLongTail",
+      "displayTitle": "Erway, Ricky (2012). Swatting the long tail of digital media: a call for collaboration — OCLC Research",
+      "mtimeMs": 1760342442184.2952,
+      "category": "Context"
     },
     {
       "letter": "F",
@@ -148,7 +178,7 @@
       "url": "",
       "citation_key": "Fallan2010DesignHistoryUnderstanding",
       "displayTitle": "Fallan, Kjetil (2010). Design history: understanding theory and method — Design History: Understanding Theory and Method",
-      "mtimeMs": 1759915052822.8538,
+      "mtimeMs": 1759986318955.091,
       "category": "Context"
     },
     {
@@ -163,7 +193,7 @@
       "url": "",
       "citation_key": "Frayling1993ResearchArtDesign",
       "displayTitle": "Frayling, Christopher (1993). Research in art and design — Royal College of Art",
-      "mtimeMs": 1759915052823.2378,
+      "mtimeMs": 1759986318955.6396,
       "category": "Context"
     },
     {
@@ -178,7 +208,7 @@
       "url": "",
       "citation_key": "Freire2014PedagogyOppressed30th",
       "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed: 30th anniversary edition — Bloomsbury Publishing",
-      "mtimeMs": 1759915052823.8867,
+      "mtimeMs": 1759986318956.0593,
       "category": "Context"
     },
     {
@@ -193,7 +223,7 @@
       "url": "https://www.tandfonline.com/doi/full/10.1080/14606925.2022.2112861",
       "citation_key": "Galdon2022UnFraylingDesignResearch",
       "displayTitle": "Galdon, Fernando and Hall, Ashley (2022). (Un)Frayling design research in design education for the 21st century — The Design Journal",
-      "mtimeMs": 1759915052824.4658,
+      "mtimeMs": 1759986318956.4119,
       "category": "Context"
     },
     {
@@ -208,7 +238,7 @@
       "url": "",
       "citation_key": "Geertz2009InterpretationCulturesSelected",
       "displayTitle": "Geertz, Clifford (2009). The interpretation of cultures: selected essays — The Interpretation of Cultures: Selected Essays",
-      "mtimeMs": 1759915052824.9219,
+      "mtimeMs": 1759986318956.761,
       "category": "Context"
     },
     {
@@ -223,7 +253,7 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
       "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
       "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
-      "mtimeMs": 1759915052825.341,
+      "mtimeMs": 1759986318957.0327,
       "category": "Context"
     },
     {
@@ -238,7 +268,7 @@
       "url": "https://www.pangaro.com/glanville/Glanville-SECOND_ORDER_CYBERNETICS.pdf",
       "citation_key": "Glanville2007SecondOrderCybernetics",
       "displayTitle": "Glanville, Ranulph (2007). Second order cybernetics — Kybernetes",
-      "mtimeMs": 1759915052825.7449,
+      "mtimeMs": 1759986318957.3135,
       "category": "Context"
     },
     {
@@ -253,7 +283,7 @@
       "url": "https://papers.ssrn.com/s",
       "citation_key": "Gooding2022CriticallyAddressableData",
       "displayTitle": "Gooding, Paul (2022). Towards critically addressable data for digital library user studies — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-      "mtimeMs": 1759915052826.113,
+      "mtimeMs": 1759986318957.5566,
       "category": "Context"
     },
     {
@@ -268,7 +298,7 @@
       "url": "",
       "citation_key": "Horkheimer2002CriticalTheorySelected",
       "displayTitle": "Horkheimer, Max and Horkheimer, Max (2002). Critical theory selected essays — Critical Theory: Selected Essays",
-      "mtimeMs": 1759915052826.522,
+      "mtimeMs": 1759986318957.8562,
       "category": "Context"
     },
     {
@@ -283,7 +313,7 @@
       "url": "",
       "citation_key": "King1994DesigningSocialInquiry",
       "displayTitle": "King, G and Keohane, R.O and Verba, S (1994). Designing social inquiry — Princeton University Press",
-      "mtimeMs": 1759915052826.8918,
+      "mtimeMs": 1759986318958.2014,
       "category": "Context"
     },
     {
@@ -298,7 +328,37 @@
       "url": "",
       "citation_key": "Latour1987ScienceActionHow",
       "displayTitle": "Latour, Bruno (1987). Science in action: how to follow scientists and engineers through society — Harvard University Press",
-      "mtimeMs": 1759915052827.424,
+      "mtimeMs": 1759986318958.6165,
+      "category": "Context"
+    },
+    {
+      "letter": "P",
+      "slug": "Pask1976ConversationTheoryApplications",
+      "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
+      "title": "Conversation theory: applications in education and epistemology",
+      "authors": "Pask, Gordon",
+      "year": "1976",
+      "journal": "Elsevier",
+      "doi": "",
+      "url": "",
+      "citation_key": "Pask1976ConversationTheoryApplications",
+      "displayTitle": "Pask, Gordon (1976). Conversation theory: applications in education and epistemology — Elsevier",
+      "mtimeMs": 1760342562572.0176,
+      "category": "Context"
+    },
+    {
+      "letter": "P",
+      "slug": "Pask1961NaturalHistoryNetworks",
+      "path": "/docs/P/Pask1961NaturalHistoryNetworks.md",
+      "title": "The natural history of networks",
+      "authors": "Pask, Gordon",
+      "year": "1961",
+      "journal": "Cybernetica",
+      "doi": "",
+      "url": "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf",
+      "citation_key": "Pask1961NaturalHistoryNetworks",
+      "displayTitle": "Pask, Gordon (1961). The natural history of networks — Cybernetica",
+      "mtimeMs": 1760342562571.4285,
       "category": "Context"
     },
     {
@@ -317,6 +377,21 @@
       "category": "Critique"
     },
     {
+      "letter": "S",
+      "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
+      "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
+      "title": "Data-driven innovation for trustworthy AI",
+      "authors": "Siddharth, L. and Luo, Jianxi",
+      "year": "2025",
+      "journal": "She Ji: The Journal of Design, Economics, and Innovation",
+      "doi": "10.31219/osf.io/a3d6z",
+      "url": "https://osf.io/a3d6z",
+      "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
+      "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+      "mtimeMs": 1760342562572.824,
+      "category": "Context"
+    },
+    {
       "letter": "W",
       "slug": "Williamson2018ResearchConcepts",
       "path": "/docs/W/Williamson2018ResearchConcepts.md",
@@ -328,7 +403,7 @@
       "url": "",
       "citation_key": "Williamson2018ResearchConcepts",
       "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
-      "mtimeMs": 1759915052828.385,
+      "mtimeMs": 1759986318959.0505,
       "category": "Context"
     }
   ],
@@ -346,7 +421,7 @@
         "url": "",
         "citation_key": "Archer1995NatureResearch",
         "displayTitle": "Archer, L Bruce (1995). The nature of research — Co-design, interdisciplinary journal of design",
-        "mtimeMs": 1759915052817.3467,
+        "mtimeMs": 1759986318949.4326,
         "category": "Dataset"
       },
       {
@@ -361,7 +436,7 @@
         "url": "",
         "citation_key": "Archer1968StructureDesignProcesses",
         "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-        "mtimeMs": 1759915052815.3577,
+        "mtimeMs": 1759986318946.0676,
         "category": "Dataset"
       },
       {
@@ -376,7 +451,7 @@
         "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/editorials/26",
         "citation_key": "Atkinson2016IntroductionDesignResearch",
         "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
-        "mtimeMs": 1759915052817.9424,
+        "mtimeMs": 1759986318950.0544,
         "category": "Critique"
       }
     ],
@@ -393,7 +468,7 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: classification and its consequences — MIT Press",
-        "mtimeMs": 1759915052818.7996,
+        "mtimeMs": 1759986318950.822,
         "category": "Context"
       },
       {
@@ -408,7 +483,7 @@
         "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
         "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
         "displayTitle": "Boyd Davis, Stephen (2024). Design as an interesting phenomenon — Creative {{Simulations}",
-        "mtimeMs": 1759915052819.8755,
+        "mtimeMs": 1759986318951.7542,
         "category": "Critique"
       },
       {
@@ -423,7 +498,7 @@
         "url": "",
         "citation_key": "BoydDavis2017DialogueRealworldOperational",
         "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model-the realities of design in Bruce Archer — Design Studies",
-        "mtimeMs": 1759915052819.3562,
+        "mtimeMs": 1759986318951.31,
         "category": "Critique"
       }
     ],
@@ -440,7 +515,7 @@
         "url": "",
         "citation_key": "Cross2007FortyYearsDesign",
         "displayTitle": "Cross, N. (2007). Forty Years of Design Research — Design Studies",
-        "mtimeMs": 1759915052820.7366,
+        "mtimeMs": 1759986318952.7952,
         "category": "Critique"
       },
       {
@@ -455,11 +530,26 @@
         "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
         "citation_key": "Cross1993HistoryDesignMethodology",
         "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
-        "mtimeMs": 1759915052820.3647,
+        "mtimeMs": 1759986318952.2896,
         "category": "Critique"
       }
     ],
     "D": [
+      {
+        "letter": "D",
+        "slug": "Dempsey2006LibrariesLongTail",
+        "path": "/docs/D/Dempsey2006LibrariesLongTail.md",
+        "title": "Libraries and the Long Tail",
+        "authors": "Dempsey, Lorcan",
+        "year": "2006",
+        "journal": "D-Lib Magazine",
+        "doi": "10.1045/april2006-dempsey",
+        "url": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html",
+        "citation_key": "Dempsey2006LibrariesLongTail",
+        "displayTitle": "Dempsey, Lorcan (2006). Libraries and the Long Tail — D-Lib Magazine",
+        "mtimeMs": 1760342562565.6025,
+        "category": "Context"
+      },
       {
         "letter": "D",
         "slug": "Dorst2016DesignPracticeDesign",
@@ -472,8 +562,25 @@
         "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/researchpapers/82",
         "citation_key": "Dorst2016DesignPracticeDesign",
         "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
-        "mtimeMs": 1759915052821.6238,
+        "mtimeMs": 1759986318953.779,
         "category": "Critique"
+      }
+    ],
+    "E": [
+      {
+        "letter": "E",
+        "slug": "Erway2012SwattingLongTail",
+        "path": "/docs/E/Erway2012SwattingLongTail.md",
+        "title": "Swatting the long tail of digital media: a call for collaboration",
+        "authors": "Erway, Ricky",
+        "year": "2012",
+        "journal": "OCLC Research",
+        "doi": "",
+        "url": "https://www.oclc.org/research/publications/library/2012/2012-08.pdf",
+        "citation_key": "Erway2012SwattingLongTail",
+        "displayTitle": "Erway, Ricky (2012). Swatting the long tail of digital media: a call for collaboration — OCLC Research",
+        "mtimeMs": 1760342442184.2952,
+        "category": "Context"
       }
     ],
     "F": [
@@ -489,7 +596,7 @@
         "url": "",
         "citation_key": "Fallan2010DesignHistoryUnderstanding",
         "displayTitle": "Fallan, Kjetil (2010). Design history: understanding theory and method — Design History: Understanding Theory and Method",
-        "mtimeMs": 1759915052822.8538,
+        "mtimeMs": 1759986318955.091,
         "category": "Context"
       },
       {
@@ -504,7 +611,7 @@
         "url": "",
         "citation_key": "Frayling1993ResearchArtDesign",
         "displayTitle": "Frayling, Christopher (1993). Research in art and design — Royal College of Art",
-        "mtimeMs": 1759915052823.2378,
+        "mtimeMs": 1759986318955.6396,
         "category": "Context"
       },
       {
@@ -519,7 +626,7 @@
         "url": "",
         "citation_key": "Freire2014PedagogyOppressed30th",
         "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed: 30th anniversary edition — Bloomsbury Publishing",
-        "mtimeMs": 1759915052823.8867,
+        "mtimeMs": 1759986318956.0593,
         "category": "Context"
       }
     ],
@@ -536,7 +643,7 @@
         "url": "https://www.tandfonline.com/doi/full/10.1080/14606925.2022.2112861",
         "citation_key": "Galdon2022UnFraylingDesignResearch",
         "displayTitle": "Galdon, Fernando and Hall, Ashley (2022). (Un)Frayling design research in design education for the 21st century — The Design Journal",
-        "mtimeMs": 1759915052824.4658,
+        "mtimeMs": 1759986318956.4119,
         "category": "Context"
       },
       {
@@ -551,7 +658,7 @@
         "url": "",
         "citation_key": "Geertz2009InterpretationCulturesSelected",
         "displayTitle": "Geertz, Clifford (2009). The interpretation of cultures: selected essays — The Interpretation of Cultures: Selected Essays",
-        "mtimeMs": 1759915052824.9219,
+        "mtimeMs": 1759986318956.761,
         "category": "Context"
       },
       {
@@ -566,7 +673,7 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
         "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
         "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
-        "mtimeMs": 1759915052825.341,
+        "mtimeMs": 1759986318957.0327,
         "category": "Context"
       },
       {
@@ -581,7 +688,7 @@
         "url": "https://www.pangaro.com/glanville/Glanville-SECOND_ORDER_CYBERNETICS.pdf",
         "citation_key": "Glanville2007SecondOrderCybernetics",
         "displayTitle": "Glanville, Ranulph (2007). Second order cybernetics — Kybernetes",
-        "mtimeMs": 1759915052825.7449,
+        "mtimeMs": 1759986318957.3135,
         "category": "Context"
       },
       {
@@ -596,7 +703,7 @@
         "url": "https://papers.ssrn.com/s",
         "citation_key": "Gooding2022CriticallyAddressableData",
         "displayTitle": "Gooding, Paul (2022). Towards critically addressable data for digital library user studies — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-        "mtimeMs": 1759915052826.113,
+        "mtimeMs": 1759986318957.5566,
         "category": "Context"
       }
     ],
@@ -613,7 +720,7 @@
         "url": "",
         "citation_key": "Horkheimer2002CriticalTheorySelected",
         "displayTitle": "Horkheimer, Max and Horkheimer, Max (2002). Critical theory selected essays — Critical Theory: Selected Essays",
-        "mtimeMs": 1759915052826.522,
+        "mtimeMs": 1759986318957.8562,
         "category": "Context"
       }
     ],
@@ -630,7 +737,7 @@
         "url": "",
         "citation_key": "King1994DesigningSocialInquiry",
         "displayTitle": "King, G and Keohane, R.O and Verba, S (1994). Designing social inquiry — Princeton University Press",
-        "mtimeMs": 1759915052826.8918,
+        "mtimeMs": 1759986318958.2014,
         "category": "Context"
       }
     ],
@@ -647,11 +754,41 @@
         "url": "",
         "citation_key": "Latour1987ScienceActionHow",
         "displayTitle": "Latour, Bruno (1987). Science in action: how to follow scientists and engineers through society — Harvard University Press",
-        "mtimeMs": 1759915052827.424,
+        "mtimeMs": 1759986318958.6165,
         "category": "Context"
       }
     ],
     "P": [
+      {
+        "letter": "P",
+        "slug": "Pask1976ConversationTheoryApplications",
+        "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
+        "title": "Conversation theory: applications in education and epistemology",
+        "authors": "Pask, Gordon",
+        "year": "1976",
+        "journal": "Elsevier",
+        "doi": "",
+        "url": "",
+        "citation_key": "Pask1976ConversationTheoryApplications",
+        "displayTitle": "Pask, Gordon (1976). Conversation theory: applications in education and epistemology — Elsevier",
+        "mtimeMs": 1760342562572.0176,
+        "category": "Context"
+      },
+      {
+        "letter": "P",
+        "slug": "Pask1961NaturalHistoryNetworks",
+        "path": "/docs/P/Pask1961NaturalHistoryNetworks.md",
+        "title": "The natural history of networks",
+        "authors": "Pask, Gordon",
+        "year": "1961",
+        "journal": "Cybernetica",
+        "doi": "",
+        "url": "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf",
+        "citation_key": "Pask1961NaturalHistoryNetworks",
+        "displayTitle": "Pask, Gordon (1961). The natural history of networks — Cybernetica",
+        "mtimeMs": 1760342562571.4285,
+        "category": "Context"
+      },
       {
         "letter": "P",
         "slug": "Pavitt2012InputOutputDesign",
@@ -668,6 +805,23 @@
         "category": "Critique"
       }
     ],
+    "S": [
+      {
+        "letter": "S",
+        "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
+        "title": "Data-driven innovation for trustworthy AI",
+        "authors": "Siddharth, L. and Luo, Jianxi",
+        "year": "2025",
+        "journal": "She Ji: The Journal of Design, Economics, and Innovation",
+        "doi": "10.31219/osf.io/a3d6z",
+        "url": "https://osf.io/a3d6z",
+        "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+        "mtimeMs": 1760342562572.824,
+        "category": "Context"
+      }
+    ],
     "W": [
       {
         "letter": "W",
@@ -681,7 +835,7 @@
         "url": "",
         "citation_key": "Williamson2018ResearchConcepts",
         "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
-        "mtimeMs": 1759915052828.385,
+        "mtimeMs": 1759986318959.0505,
         "category": "Context"
       }
     ]

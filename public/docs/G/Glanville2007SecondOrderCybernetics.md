@@ -9,7 +9,7 @@ url: "https://www.pangaro.com/glanville/Glanville-SECOND_ORDER_CYBERNETICS.pdf"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 08, 2025, 09:42 AM"
+last_updated: "Oct 09, 2025, 06:05 AM"
 category: Context---
 # Scope of this note
 This note critically analyses Ranulph Glanville’s *Second Order Cybernetics* (2007) as a definitive epistemological synthesis linking design, systems theory, and constructivist philosophy. It is read here as an articulation of how epistemology becomes circular, self-referential, and ethically responsible once the observer is included in the system. Within the DDR project, this text functions as a conceptual hinge: transforming Archer’s procedural objectivity into a reflexive epistemology of design inquiry.
