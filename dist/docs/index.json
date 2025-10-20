@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-09T05:05:19.070Z",
+  "updatedAt": "2025-10-13T08:04:21.335Z",
   "entries": [
     {
       "letter": "A",
@@ -123,6 +123,21 @@
     },
     {
       "letter": "D",
+      "slug": "Dempsey2006LibrariesLongTail",
+      "path": "/docs/D/Dempsey2006LibrariesLongTail.md",
+      "title": "Libraries and the Long Tail",
+      "authors": "Dempsey, Lorcan",
+      "year": "2006",
+      "journal": "D-Lib Magazine",
+      "doi": "10.1045/april2006-dempsey",
+      "url": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html",
+      "citation_key": "Dempsey2006LibrariesLongTail",
+      "displayTitle": "Dempsey, Lorcan (2006). Libraries and the Long Tail — D-Lib Magazine",
+      "mtimeMs": 1760342661202.4922,
+      "category": "Context"
+    },
+    {
+      "letter": "D",
       "slug": "Dorst2016DesignPracticeDesign",
       "path": "/docs/D/Dorst2016DesignPracticeDesign.md",
       "title": "Design practice and design research: finally together?",
@@ -135,6 +150,21 @@
       "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
       "mtimeMs": 1759986318953.779,
       "category": "Critique"
+    },
+    {
+      "letter": "E",
+      "slug": "Erway2012SwattingLongTail",
+      "path": "/docs/E/Erway2012SwattingLongTail.md",
+      "title": "Swatting the long tail of digital media: a call for collaboration",
+      "authors": "Erway, Ricky",
+      "year": "2012",
+      "journal": "OCLC Research",
+      "doi": "",
+      "url": "https://www.oclc.org/research/publications/library/2012/2012-08.pdf",
+      "citation_key": "Erway2012SwattingLongTail",
+      "displayTitle": "Erway, Ricky (2012). Swatting the long tail of digital media: a call for collaboration — OCLC Research",
+      "mtimeMs": 1760342442184.2952,
+      "category": "Context"
     },
     {
       "letter": "F",
@@ -303,6 +333,36 @@
     },
     {
       "letter": "P",
+      "slug": "Pask1976ConversationTheoryApplications",
+      "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
+      "title": "Conversation theory: applications in education and epistemology",
+      "authors": "Pask, Gordon",
+      "year": "1976",
+      "journal": "Elsevier",
+      "doi": "",
+      "url": "",
+      "citation_key": "Pask1976ConversationTheoryApplications",
+      "displayTitle": "Pask, Gordon (1976). Conversation theory: applications in education and epistemology — Elsevier",
+      "mtimeMs": 1760342562572.0176,
+      "category": "Context"
+    },
+    {
+      "letter": "P",
+      "slug": "Pask1961NaturalHistoryNetworks",
+      "path": "/docs/P/Pask1961NaturalHistoryNetworks.md",
+      "title": "The natural history of networks",
+      "authors": "Pask, Gordon",
+      "year": "1961",
+      "journal": "Cybernetica",
+      "doi": "",
+      "url": "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf",
+      "citation_key": "Pask1961NaturalHistoryNetworks",
+      "displayTitle": "Pask, Gordon (1961). The natural history of networks — Cybernetica",
+      "mtimeMs": 1760342661209.0127,
+      "category": "Context"
+    },
+    {
+      "letter": "P",
       "slug": "Pavitt2012InputOutputDesign",
       "path": "/docs/P/Pavitt2012InputOutputDesign.md",
       "title": "Input/Output: design research and systems thinking",
@@ -315,6 +375,21 @@
       "displayTitle": "Pavitt, Jane (2012). Input/Output: design research and systems thinking — The perfect place to grow: 175 years of the Royal College of Art",
       "mtimeMs": 1759915052827.7615,
       "category": "Critique"
+    },
+    {
+      "letter": "S",
+      "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
+      "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
+      "title": "Data-driven innovation for trustworthy AI",
+      "authors": "Siddharth, L. and Luo, Jianxi",
+      "year": "2025",
+      "journal": "She Ji: The Journal of Design, Economics, and Innovation",
+      "doi": "10.31219/osf.io/a3d6z",
+      "url": "https://osf.io/a3d6z",
+      "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
+      "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+      "mtimeMs": 1760342562572.824,
+      "category": "Context"
     },
     {
       "letter": "W",
@@ -462,6 +537,21 @@
     "D": [
       {
         "letter": "D",
+        "slug": "Dempsey2006LibrariesLongTail",
+        "path": "/docs/D/Dempsey2006LibrariesLongTail.md",
+        "title": "Libraries and the Long Tail",
+        "authors": "Dempsey, Lorcan",
+        "year": "2006",
+        "journal": "D-Lib Magazine",
+        "doi": "10.1045/april2006-dempsey",
+        "url": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html",
+        "citation_key": "Dempsey2006LibrariesLongTail",
+        "displayTitle": "Dempsey, Lorcan (2006). Libraries and the Long Tail — D-Lib Magazine",
+        "mtimeMs": 1760342661202.4922,
+        "category": "Context"
+      },
+      {
+        "letter": "D",
         "slug": "Dorst2016DesignPracticeDesign",
         "path": "/docs/D/Dorst2016DesignPracticeDesign.md",
         "title": "Design practice and design research: finally together?",
@@ -474,6 +564,23 @@
         "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
         "mtimeMs": 1759986318953.779,
         "category": "Critique"
+      }
+    ],
+    "E": [
+      {
+        "letter": "E",
+        "slug": "Erway2012SwattingLongTail",
+        "path": "/docs/E/Erway2012SwattingLongTail.md",
+        "title": "Swatting the long tail of digital media: a call for collaboration",
+        "authors": "Erway, Ricky",
+        "year": "2012",
+        "journal": "OCLC Research",
+        "doi": "",
+        "url": "https://www.oclc.org/research/publications/library/2012/2012-08.pdf",
+        "citation_key": "Erway2012SwattingLongTail",
+        "displayTitle": "Erway, Ricky (2012). Swatting the long tail of digital media: a call for collaboration — OCLC Research",
+        "mtimeMs": 1760342442184.2952,
+        "category": "Context"
       }
     ],
     "F": [
@@ -654,6 +761,36 @@
     "P": [
       {
         "letter": "P",
+        "slug": "Pask1976ConversationTheoryApplications",
+        "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
+        "title": "Conversation theory: applications in education and epistemology",
+        "authors": "Pask, Gordon",
+        "year": "1976",
+        "journal": "Elsevier",
+        "doi": "",
+        "url": "",
+        "citation_key": "Pask1976ConversationTheoryApplications",
+        "displayTitle": "Pask, Gordon (1976). Conversation theory: applications in education and epistemology — Elsevier",
+        "mtimeMs": 1760342562572.0176,
+        "category": "Context"
+      },
+      {
+        "letter": "P",
+        "slug": "Pask1961NaturalHistoryNetworks",
+        "path": "/docs/P/Pask1961NaturalHistoryNetworks.md",
+        "title": "The natural history of networks",
+        "authors": "Pask, Gordon",
+        "year": "1961",
+        "journal": "Cybernetica",
+        "doi": "",
+        "url": "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf",
+        "citation_key": "Pask1961NaturalHistoryNetworks",
+        "displayTitle": "Pask, Gordon (1961). The natural history of networks — Cybernetica",
+        "mtimeMs": 1760342661209.0127,
+        "category": "Context"
+      },
+      {
+        "letter": "P",
         "slug": "Pavitt2012InputOutputDesign",
         "path": "/docs/P/Pavitt2012InputOutputDesign.md",
         "title": "Input/Output: design research and systems thinking",
@@ -666,6 +803,23 @@
         "displayTitle": "Pavitt, Jane (2012). Input/Output: design research and systems thinking — The perfect place to grow: 175 years of the Royal College of Art",
         "mtimeMs": 1759915052827.7615,
         "category": "Critique"
+      }
+    ],
+    "S": [
+      {
+        "letter": "S",
+        "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
+        "title": "Data-driven innovation for trustworthy AI",
+        "authors": "Siddharth, L. and Luo, Jianxi",
+        "year": "2025",
+        "journal": "She Ji: The Journal of Design, Economics, and Innovation",
+        "doi": "10.31219/osf.io/a3d6z",
+        "url": "https://osf.io/a3d6z",
+        "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+        "mtimeMs": 1760342562572.824,
+        "category": "Context"
       }
     ],
     "W": [

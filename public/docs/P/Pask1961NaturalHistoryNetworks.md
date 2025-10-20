@@ -8,7 +8,7 @@ url: "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 13, 2025, 09:01 AM"
+last_updated: "Oct 13, 2025, 09:04 AM"
 category: Context---
 # Scope of this note
 Focuses on how Pask establishes a cybernetic epistemology that redefines observation, learning, and system interaction—ideas that deeply influenced Bruce Archer’s 'systematic method at the RCA and the early logic of the DDR.
