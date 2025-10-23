@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2025-10-13T08:04:21.335Z",
+  "updatedAt": "2025-10-20T11:37:00.103Z",
   "entries": [
+    {
+      "letter": "A",
+      "slug": "Archer2005FrameworkDesignDesign",
+      "path": "/docs/A/Archer2005FrameworkDesignDesign.md",
+      "title": "A framework for design and design education: a reader containing key papers from the 1970s and 80s",
+      "authors": "Archer, Bruce and Baynes, Ken and Roberts, Phil",
+      "year": "2005",
+      "journal": "DATA",
+      "doi": "",
+      "url": "",
+      "citation_key": "Archer2005FrameworkDesignDesign",
+      "displayTitle": "Archer, Bruce and Baynes, Ken and Roberts, Phil (2005). A framework for design and design education: a reader containing key papers from the 1970s and 80s — DATA",
+      "mtimeMs": 1760960219983.3882,
+      "category": "Dataset"
+    },
     {
       "letter": "A",
       "slug": "Archer1995",
@@ -14,6 +29,21 @@
       "citation_key": "Archer1995NatureResearch",
       "displayTitle": "Archer, L Bruce (1995). The nature of research — Co-design, interdisciplinary journal of design",
       "mtimeMs": 1759986318949.4326,
+      "category": "Dataset"
+    },
+    {
+      "letter": "A",
+      "slug": "Archer1978TimeRevolutionArt",
+      "path": "/docs/A/Archer1978TimeRevolutionArt.md",
+      "title": "Time for a revolution in art and design Education",
+      "authors": "Archer, L Bruce",
+      "year": "1978",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "Archer1978TimeRevolutionArt",
+      "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
+      "mtimeMs": 1760960219979.5862,
       "category": "Dataset"
     },
     {
@@ -92,6 +122,21 @@
       "category": "Critique"
     },
     {
+      "letter": "R",
+      "slug": "RoutledgeInternationalHandbook",
+      "path": "/docs/R/RoutledgeInternationalHandbook.md",
+      "title": "The Routledge international handbook of practice-based research",
+      "authors": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.)",
+      "year": "2022",
+      "journal": "Routledge & CRC Press",
+      "doi": "",
+      "url": "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice-Based-Research/Vear/p/book/9781032182209",
+      "citation_key": "RoutledgeInternationalHandbook",
+      "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
+      "mtimeMs": 1760960219989.0476,
+      "category": "Context"
+    },
+    {
       "letter": "C",
       "slug": "Cross2007FortyYearsDesign",
       "path": "/docs/C/Cross2007FortyYearsDesign.md",
@@ -119,6 +164,21 @@
       "citation_key": "Cross1993HistoryDesignMethodology",
       "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
       "mtimeMs": 1759986318952.2896,
+      "category": "Critique"
+    },
+    {
+      "letter": "C",
+      "slug": "Cross1982DesignerlyWaysKnowing",
+      "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
+      "title": "Designerly ways of knowing",
+      "authors": "Cross, Nigel",
+      "year": "1982",
+      "journal": "Design Studies",
+      "doi": "",
+      "url": "",
+      "citation_key": "Cross1982DesignerlyWaysKnowing",
+      "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
+      "mtimeMs": 1760960219984.8096,
       "category": "Critique"
     },
     {
@@ -332,6 +392,21 @@
       "category": "Context"
     },
     {
+      "letter": "V",
+      "slug": "Vaughan2017PracticebasedDesignResearch",
+      "path": "/docs/V/Vaughan2017PracticebasedDesignResearch.md",
+      "title": "Practice-based design research",
+      "authors": "Laurene Vaughan",
+      "year": "2017",
+      "journal": "Bloomsbury Publishing Plc",
+      "doi": "10.5040/9781474267830",
+      "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
+      "citation_key": "Vaughan2017PracticebasedDesignResearch",
+      "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
+      "mtimeMs": 1760960219989.6184,
+      "category": "Context"
+    },
+    {
       "letter": "P",
       "slug": "Pask1976ConversationTheoryApplications",
       "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
@@ -411,6 +486,21 @@
     "A": [
       {
         "letter": "A",
+        "slug": "Archer2005FrameworkDesignDesign",
+        "path": "/docs/A/Archer2005FrameworkDesignDesign.md",
+        "title": "A framework for design and design education: a reader containing key papers from the 1970s and 80s",
+        "authors": "Archer, Bruce and Baynes, Ken and Roberts, Phil",
+        "year": "2005",
+        "journal": "DATA",
+        "doi": "",
+        "url": "",
+        "citation_key": "Archer2005FrameworkDesignDesign",
+        "displayTitle": "Archer, Bruce and Baynes, Ken and Roberts, Phil (2005). A framework for design and design education: a reader containing key papers from the 1970s and 80s — DATA",
+        "mtimeMs": 1760960219983.3882,
+        "category": "Dataset"
+      },
+      {
+        "letter": "A",
         "slug": "Archer1995",
         "path": "/docs/A/Archer1995.md",
         "title": "The nature of research",
@@ -422,6 +512,21 @@
         "citation_key": "Archer1995NatureResearch",
         "displayTitle": "Archer, L Bruce (1995). The nature of research — Co-design, interdisciplinary journal of design",
         "mtimeMs": 1759986318949.4326,
+        "category": "Dataset"
+      },
+      {
+        "letter": "A",
+        "slug": "Archer1978TimeRevolutionArt",
+        "path": "/docs/A/Archer1978TimeRevolutionArt.md",
+        "title": "Time for a revolution in art and design Education",
+        "authors": "Archer, L Bruce",
+        "year": "1978",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "Archer1978TimeRevolutionArt",
+        "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
+        "mtimeMs": 1760960219979.5862,
         "category": "Dataset"
       },
       {
@@ -502,6 +607,23 @@
         "category": "Critique"
       }
     ],
+    "R": [
+      {
+        "letter": "R",
+        "slug": "RoutledgeInternationalHandbook",
+        "path": "/docs/R/RoutledgeInternationalHandbook.md",
+        "title": "The Routledge international handbook of practice-based research",
+        "authors": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.)",
+        "year": "2022",
+        "journal": "Routledge & CRC Press",
+        "doi": "",
+        "url": "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice-Based-Research/Vear/p/book/9781032182209",
+        "citation_key": "RoutledgeInternationalHandbook",
+        "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
+        "mtimeMs": 1760960219989.0476,
+        "category": "Context"
+      }
+    ],
     "C": [
       {
         "letter": "C",
@@ -531,6 +653,21 @@
         "citation_key": "Cross1993HistoryDesignMethodology",
         "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
         "mtimeMs": 1759986318952.2896,
+        "category": "Critique"
+      },
+      {
+        "letter": "C",
+        "slug": "Cross1982DesignerlyWaysKnowing",
+        "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
+        "title": "Designerly ways of knowing",
+        "authors": "Cross, Nigel",
+        "year": "1982",
+        "journal": "Design Studies",
+        "doi": "",
+        "url": "",
+        "citation_key": "Cross1982DesignerlyWaysKnowing",
+        "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
+        "mtimeMs": 1760960219984.8096,
         "category": "Critique"
       }
     ],
@@ -755,6 +892,23 @@
         "citation_key": "Latour1987ScienceActionHow",
         "displayTitle": "Latour, Bruno (1987). Science in action: how to follow scientists and engineers through society — Harvard University Press",
         "mtimeMs": 1759986318958.6165,
+        "category": "Context"
+      }
+    ],
+    "V": [
+      {
+        "letter": "V",
+        "slug": "Vaughan2017PracticebasedDesignResearch",
+        "path": "/docs/V/Vaughan2017PracticebasedDesignResearch.md",
+        "title": "Practice-based design research",
+        "authors": "Laurene Vaughan",
+        "year": "2017",
+        "journal": "Bloomsbury Publishing Plc",
+        "doi": "10.5040/9781474267830",
+        "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
+        "citation_key": "Vaughan2017PracticebasedDesignResearch",
+        "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
+        "mtimeMs": 1760960219989.6184,
         "category": "Context"
       }
     ],

@@ -9,7 +9,7 @@ url: "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 16, 2025, 10:07 AM"
+last_updated: "Oct 20, 2025, 12:36 PM"
 category: Context---
 # Scope of this note
 This note focuses on the introductory chapter of *The Routledge International Handbook of Practice-Based Research* (Candy, Edmonds & Vear, 2022), which defines the theoretical and methodological architecture of practice-based research (PBR). The analysis interprets this framework through the triadic position of **researcher–practitioner–designer**, examining how practice becomes both the method and the site of inquiry. It links this conceptualisation to broader debates in epistemic legitimacy, interdisciplinarity, and the role of artefacts in generating knowledge.

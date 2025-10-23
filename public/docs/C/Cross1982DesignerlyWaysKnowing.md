@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 16, 2025, 09:50 AM"
+last_updated: "Oct 20, 2025, 12:36 PM"
 category: Critique---
 # Scope of this note
 This note undertakes a comprehensive critical reading of Nigel Cross’s seminal 1982 article *'Designerly Ways of Knowing'* published in *Design Studies* (Vol. 3, No. 4). The paper is read as the intellectual hinge between the Royal College of Art’s Department of Design Research (DDR) under Bruce Archer and the subsequent establishment of design as a field of epistemic autonomy. It is both the conceptual culmination of the DDR’s systematic ambitions and the rupture that definitively reorients design research toward cognitive and educational theory. The note therefore situates the article as a moment of disciplinary consolidation—an epistemic crystallisation that transforms Archer’s *design science* into Cross’s *design epistemology*. This double reading—Cross as inheritor and Cross as revisionist—frames the analysis through the project’s concern with *epistemic drift* within the DDR archive (1965–1985).

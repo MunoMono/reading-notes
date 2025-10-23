@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2025-10-16T09:38:29.462Z",
+  "updatedAt": "2025-10-23T11:06:13.621Z",
   "entries": [
+    {
+      "letter": "A",
+      "slug": "Anderson2004LongTail",
+      "path": "/docs/A/Anderson2004LongTail.md",
+      "title": "The Long Tail",
+      "authors": "Anderson, Chris",
+      "year": "2004",
+      "journal": "Wired",
+      "doi": "",
+      "url": "https://www.wired.com/2004/10/tail/",
+      "citation_key": "Anderson2004LongTail",
+      "displayTitle": "Anderson, Chris (2004). The Long Tail — Wired",
+      "mtimeMs": 1761217573494.113,
+      "category": "Context"
+    },
     {
       "letter": "A",
       "slug": "Archer2005FrameworkDesignDesign",
@@ -13,7 +28,7 @@
       "url": "",
       "citation_key": "Archer2005FrameworkDesignDesign",
       "displayTitle": "Archer, Bruce and Baynes, Ken and Roberts, Phil (2005). A framework for design and design education: a reader containing key papers from the 1970s and 80s — DATA",
-      "mtimeMs": 1760607509339.1606,
+      "mtimeMs": 1760960219983.3882,
       "category": "Dataset"
     },
     {
@@ -43,7 +58,7 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-      "mtimeMs": 1760607509336.4392,
+      "mtimeMs": 1760960219979.5862,
       "category": "Dataset"
     },
     {
@@ -133,7 +148,7 @@
       "url": "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice-Based-Research/Vear/p/book/9781032182209",
       "citation_key": "RoutledgeInternationalHandbook",
       "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
-      "mtimeMs": 1760607509345.152,
+      "mtimeMs": 1760960219989.0476,
       "category": "Context"
     },
     {
@@ -178,7 +193,7 @@
       "url": "",
       "citation_key": "Cross1982DesignerlyWaysKnowing",
       "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-      "mtimeMs": 1760607509341.1978,
+      "mtimeMs": 1760960219984.8096,
       "category": "Critique"
     },
     {
@@ -362,6 +377,36 @@
       "category": "Context"
     },
     {
+      "letter": "J",
+      "slug": "Jones1992DesignMethods",
+      "path": "/docs/J/Jones1992DesignMethods.md",
+      "title": "Design Methods",
+      "authors": "Jones, J. Christopher",
+      "year": "1992",
+      "journal": "John Wiley & Sons",
+      "doi": "",
+      "url": "",
+      "citation_key": "Jones1992DesignMethods",
+      "displayTitle": "Jones, J. Christopher (1992). Design Methods — John Wiley & Sons",
+      "mtimeMs": 1761217573501.6038,
+      "category": "Context"
+    },
+    {
+      "letter": "K",
+      "slug": "Karp2024InterconnectednessAllThings",
+      "path": "/docs/K/Karp2024InterconnectednessAllThings.md",
+      "title": "The interconnectedness of all things: understanding digital collections through file similarity",
+      "authors": "Karp, St John",
+      "year": "2024",
+      "journal": "Preservation, Digital Technology & Culture",
+      "doi": "10.1515/pdtc-2024-0042",
+      "url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2024-0042/html",
+      "citation_key": "Karp2024InterconnectednessAllThings",
+      "displayTitle": "Karp, St John (2024). The interconnectedness of all things: understanding digital collections through file similarity — Preservation, Digital Technology & Culture",
+      "mtimeMs": 1761217573502.3276,
+      "category": "Context"
+    },
+    {
       "letter": "K",
       "slug": "King1994DesigningSocialInquiry",
       "path": "/docs/K/King1994DesigningSocialInquiry.md",
@@ -403,7 +448,7 @@
       "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
       "citation_key": "Vaughan2017PracticebasedDesignResearch",
       "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
-      "mtimeMs": 1760607509345.8594,
+      "mtimeMs": 1760960219989.6184,
       "category": "Context"
     },
     {
@@ -486,6 +531,21 @@
     "A": [
       {
         "letter": "A",
+        "slug": "Anderson2004LongTail",
+        "path": "/docs/A/Anderson2004LongTail.md",
+        "title": "The Long Tail",
+        "authors": "Anderson, Chris",
+        "year": "2004",
+        "journal": "Wired",
+        "doi": "",
+        "url": "https://www.wired.com/2004/10/tail/",
+        "citation_key": "Anderson2004LongTail",
+        "displayTitle": "Anderson, Chris (2004). The Long Tail — Wired",
+        "mtimeMs": 1761217573494.113,
+        "category": "Context"
+      },
+      {
+        "letter": "A",
         "slug": "Archer2005FrameworkDesignDesign",
         "path": "/docs/A/Archer2005FrameworkDesignDesign.md",
         "title": "A framework for design and design education: a reader containing key papers from the 1970s and 80s",
@@ -496,7 +556,7 @@
         "url": "",
         "citation_key": "Archer2005FrameworkDesignDesign",
         "displayTitle": "Archer, Bruce and Baynes, Ken and Roberts, Phil (2005). A framework for design and design education: a reader containing key papers from the 1970s and 80s — DATA",
-        "mtimeMs": 1760607509339.1606,
+        "mtimeMs": 1760960219983.3882,
         "category": "Dataset"
       },
       {
@@ -526,7 +586,7 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-        "mtimeMs": 1760607509336.4392,
+        "mtimeMs": 1760960219979.5862,
         "category": "Dataset"
       },
       {
@@ -620,7 +680,7 @@
         "url": "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice-Based-Research/Vear/p/book/9781032182209",
         "citation_key": "RoutledgeInternationalHandbook",
         "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
-        "mtimeMs": 1760607509345.152,
+        "mtimeMs": 1760960219989.0476,
         "category": "Context"
       }
     ],
@@ -667,7 +727,7 @@
         "url": "",
         "citation_key": "Cross1982DesignerlyWaysKnowing",
         "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-        "mtimeMs": 1760607509341.1978,
+        "mtimeMs": 1760960219984.8096,
         "category": "Critique"
       }
     ],
@@ -861,7 +921,39 @@
         "category": "Context"
       }
     ],
+    "J": [
+      {
+        "letter": "J",
+        "slug": "Jones1992DesignMethods",
+        "path": "/docs/J/Jones1992DesignMethods.md",
+        "title": "Design Methods",
+        "authors": "Jones, J. Christopher",
+        "year": "1992",
+        "journal": "John Wiley & Sons",
+        "doi": "",
+        "url": "",
+        "citation_key": "Jones1992DesignMethods",
+        "displayTitle": "Jones, J. Christopher (1992). Design Methods — John Wiley & Sons",
+        "mtimeMs": 1761217573501.6038,
+        "category": "Context"
+      }
+    ],
     "K": [
+      {
+        "letter": "K",
+        "slug": "Karp2024InterconnectednessAllThings",
+        "path": "/docs/K/Karp2024InterconnectednessAllThings.md",
+        "title": "The interconnectedness of all things: understanding digital collections through file similarity",
+        "authors": "Karp, St John",
+        "year": "2024",
+        "journal": "Preservation, Digital Technology & Culture",
+        "doi": "10.1515/pdtc-2024-0042",
+        "url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2024-0042/html",
+        "citation_key": "Karp2024InterconnectednessAllThings",
+        "displayTitle": "Karp, St John (2024). The interconnectedness of all things: understanding digital collections through file similarity — Preservation, Digital Technology & Culture",
+        "mtimeMs": 1761217573502.3276,
+        "category": "Context"
+      },
       {
         "letter": "K",
         "slug": "King1994DesigningSocialInquiry",
@@ -908,7 +1000,7 @@
         "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
         "citation_key": "Vaughan2017PracticebasedDesignResearch",
         "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
-        "mtimeMs": 1760607509345.8594,
+        "mtimeMs": 1760960219989.6184,
         "category": "Context"
       }
     ],
