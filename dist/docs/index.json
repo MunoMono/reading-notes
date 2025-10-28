@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-23T11:21:30.030Z",
+  "updatedAt": "2025-10-28T09:16:03.722Z",
   "entries": [
     {
       "letter": "A",
@@ -258,6 +258,21 @@
     },
     {
       "letter": "F",
+      "slug": "Findeli2012SearchingDesignResearch",
+      "path": "/docs/F/Findeli2012SearchingDesignResearch.md",
+      "title": "Searching for design research questions",
+      "authors": "Findeli, Alain",
+      "year": "2012",
+      "journal": "Mapping design research",
+      "doi": "",
+      "url": "",
+      "citation_key": "Findeli2012SearchingDesignResearch",
+      "displayTitle": "Findeli, Alain (2012). Searching for design research questions — Mapping design research",
+      "mtimeMs": 1761642963594.5579,
+      "category": "Context"
+    },
+    {
+      "letter": "F",
       "slug": "Frayling1993ResearchArtDesign",
       "path": "/docs/F/Frayling1993ResearchArtDesign.md",
       "title": "Research in art and design",
@@ -374,6 +389,21 @@
       "citation_key": "Horkheimer2002CriticalTheorySelected",
       "displayTitle": "Horkheimer, Max and Horkheimer, Max (2002). Critical theory selected essays — Critical Theory: Selected Essays",
       "mtimeMs": 1759986318957.8562,
+      "category": "Context"
+    },
+    {
+      "letter": "J",
+      "slug": "Jonas2012ExploringSwampyGround",
+      "path": "/docs/J/Jonas2012ExploringSwampyGround.md",
+      "title": "Exploring the swampy ground",
+      "authors": "Jonas, Wolfgang",
+      "year": "2012",
+      "journal": "Mapping design research",
+      "doi": "",
+      "url": "",
+      "citation_key": "Jonas2012ExploringSwampyGround",
+      "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
+      "mtimeMs": 1761642963599.6,
       "category": "Context"
     },
     {
@@ -497,6 +527,21 @@
       "category": "Critique"
     },
     {
+      "letter": "R",
+      "slug": "Rheinberger2012ExperimentalSystemsEpistemic",
+      "path": "/docs/R/Rheinberger2012ExperimentalSystemsEpistemic.md",
+      "title": "Experimental systems",
+      "authors": "Rheinberger, Hans-Jörg",
+      "year": "2012",
+      "journal": "Mapping design research",
+      "doi": "",
+      "url": "",
+      "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
+      "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
+      "mtimeMs": 1761642963601.4343,
+      "category": "Context"
+    },
+    {
       "letter": "S",
       "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
       "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
@@ -509,6 +554,21 @@
       "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
       "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
       "mtimeMs": 1760342562572.824,
+      "category": "Context"
+    },
+    {
+      "letter": "S",
+      "slug": "Simon2012SocialPlanningDesigning",
+      "path": "/docs/S/Simon2012SocialPlanningDesigning.md",
+      "title": "Social planning",
+      "authors": "Simon, Herbert",
+      "year": "2012",
+      "journal": "Mapping design research",
+      "doi": "",
+      "url": "",
+      "citation_key": "Simon2012SocialPlanningDesigning",
+      "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
+      "mtimeMs": 1761642963602.3186,
       "category": "Context"
     },
     {
@@ -682,6 +742,21 @@
         "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
         "mtimeMs": 1760960219989.0476,
         "category": "Context"
+      },
+      {
+        "letter": "R",
+        "slug": "Rheinberger2012ExperimentalSystemsEpistemic",
+        "path": "/docs/R/Rheinberger2012ExperimentalSystemsEpistemic.md",
+        "title": "Experimental systems",
+        "authors": "Rheinberger, Hans-Jörg",
+        "year": "2012",
+        "journal": "Mapping design research",
+        "doi": "",
+        "url": "",
+        "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
+        "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
+        "mtimeMs": 1761642963601.4343,
+        "category": "Context"
       }
     ],
     "C": [
@@ -794,6 +869,21 @@
         "citation_key": "Fallan2010DesignHistoryUnderstanding",
         "displayTitle": "Fallan, Kjetil (2010). Design history: understanding theory and method — Design History: Understanding Theory and Method",
         "mtimeMs": 1759986318955.091,
+        "category": "Context"
+      },
+      {
+        "letter": "F",
+        "slug": "Findeli2012SearchingDesignResearch",
+        "path": "/docs/F/Findeli2012SearchingDesignResearch.md",
+        "title": "Searching for design research questions",
+        "authors": "Findeli, Alain",
+        "year": "2012",
+        "journal": "Mapping design research",
+        "doi": "",
+        "url": "",
+        "citation_key": "Findeli2012SearchingDesignResearch",
+        "displayTitle": "Findeli, Alain (2012). Searching for design research questions — Mapping design research",
+        "mtimeMs": 1761642963594.5579,
         "category": "Context"
       },
       {
@@ -922,6 +1012,21 @@
       }
     ],
     "J": [
+      {
+        "letter": "J",
+        "slug": "Jonas2012ExploringSwampyGround",
+        "path": "/docs/J/Jonas2012ExploringSwampyGround.md",
+        "title": "Exploring the swampy ground",
+        "authors": "Jonas, Wolfgang",
+        "year": "2012",
+        "journal": "Mapping design research",
+        "doi": "",
+        "url": "",
+        "citation_key": "Jonas2012ExploringSwampyGround",
+        "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
+        "mtimeMs": 1761642963599.6,
+        "category": "Context"
+      },
       {
         "letter": "J",
         "slug": "Jones1992DesignMethods",
@@ -1065,6 +1170,21 @@
         "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
         "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
         "mtimeMs": 1760342562572.824,
+        "category": "Context"
+      },
+      {
+        "letter": "S",
+        "slug": "Simon2012SocialPlanningDesigning",
+        "path": "/docs/S/Simon2012SocialPlanningDesigning.md",
+        "title": "Social planning",
+        "authors": "Simon, Herbert",
+        "year": "2012",
+        "journal": "Mapping design research",
+        "doi": "",
+        "url": "",
+        "citation_key": "Simon2012SocialPlanningDesigning",
+        "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
+        "mtimeMs": 1761642963602.3186,
         "category": "Context"
       }
     ],

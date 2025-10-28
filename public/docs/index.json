@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-28T08:13:33.402Z",
+  "updatedAt": "2025-10-28T10:58:16.408Z",
   "entries": [
     {
       "letter": "A",
@@ -268,7 +268,7 @@
       "url": "",
       "citation_key": "Findeli2012SearchingDesignResearch",
       "displayTitle": "Findeli, Alain (2012). Searching for design research questions — Mapping design research",
-      "mtimeMs": 1761639213265.4849,
+      "mtimeMs": 1761649096268.2356,
       "category": "Context"
     },
     {
@@ -403,7 +403,7 @@
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
       "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-      "mtimeMs": 1761639213269.2568,
+      "mtimeMs": 1761649096271.959,
       "category": "Context"
     },
     {
@@ -527,6 +527,36 @@
       "category": "Critique"
     },
     {
+      "letter": "P",
+      "slug": "PerksOralHistoryReader",
+      "path": "/docs/P/PerksOralHistoryReader.md",
+      "title": "The oral history reader",
+      "authors": "Perks, Robert; Thomson, Alistair (eds.)",
+      "year": "2016",
+      "journal": "Routledge",
+      "doi": "",
+      "url": "",
+      "citation_key": "PerksOralHistoryReader",
+      "displayTitle": "Perks, Robert; Thomson, Alistair (eds.) (2016). The oral history reader — Routledge",
+      "mtimeMs": 1761649096274.3074,
+      "category": "Critique"
+    },
+    {
+      "letter": "P",
+      "slug": "Portelli1991HeDeathLuigi",
+      "path": "/docs/P/Portelli1991HeDeathLuigi.md",
+      "title": "The death of Luigi Trastulli, and other stories",
+      "authors": "Portelli, Alessandro",
+      "year": "1991",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "Portelli1991HeDeathLuigi",
+      "displayTitle": "Portelli, Alessandro (1991). The death of Luigi Trastulli, and other stories",
+      "mtimeMs": 1761649096274.9937,
+      "category": "Critique"
+    },
+    {
       "letter": "R",
       "slug": "Rheinberger2012ExperimentalSystemsEpistemic",
       "path": "/docs/R/Rheinberger2012ExperimentalSystemsEpistemic.md",
@@ -538,8 +568,23 @@
       "url": "",
       "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
       "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
-      "mtimeMs": 1761639213271.2534,
+      "mtimeMs": 1761649096275.6907,
       "category": "Context"
+    },
+    {
+      "letter": "R",
+      "slug": "Ritchie2011OxfordHandbookOral",
+      "path": "/docs/R/Ritchie2011OxfordHandbookOral.md",
+      "title": "The Oxford handbook of oral history",
+      "authors": "Ritchie, Donald A",
+      "year": "2011",
+      "journal": "Oxford University Press",
+      "doi": "",
+      "url": "",
+      "citation_key": "Ritchie2011OxfordHandbookOral",
+      "displayTitle": "Ritchie, Donald A (2011). The Oxford handbook of oral history — Oxford University Press",
+      "mtimeMs": 1761649096276.5664,
+      "category": "Critique"
     },
     {
       "letter": "S",
@@ -568,8 +613,23 @@
       "url": "",
       "citation_key": "Simon2012SocialPlanningDesigning",
       "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
-      "mtimeMs": 1761639213272.1792,
+      "mtimeMs": 1761649096277.7363,
       "category": "Context"
+    },
+    {
+      "letter": "T",
+      "slug": "Thompson2017VoiceOralHistory",
+      "path": "/docs/T/Thompson2017VoiceOralHistory.md",
+      "title": "The voice of the past",
+      "authors": "Thompson, Paul",
+      "year": "2017",
+      "journal": "Oxford University Press",
+      "doi": "",
+      "url": "",
+      "citation_key": "Thompson2017VoiceOralHistory",
+      "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
+      "mtimeMs": 1761649096278.3354,
+      "category": "Critique"
     },
     {
       "letter": "W",
@@ -755,8 +815,23 @@
         "url": "",
         "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
         "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
-        "mtimeMs": 1761639213271.2534,
+        "mtimeMs": 1761649096275.6907,
         "category": "Context"
+      },
+      {
+        "letter": "R",
+        "slug": "Ritchie2011OxfordHandbookOral",
+        "path": "/docs/R/Ritchie2011OxfordHandbookOral.md",
+        "title": "The Oxford handbook of oral history",
+        "authors": "Ritchie, Donald A",
+        "year": "2011",
+        "journal": "Oxford University Press",
+        "doi": "",
+        "url": "",
+        "citation_key": "Ritchie2011OxfordHandbookOral",
+        "displayTitle": "Ritchie, Donald A (2011). The Oxford handbook of oral history — Oxford University Press",
+        "mtimeMs": 1761649096276.5664,
+        "category": "Critique"
       }
     ],
     "C": [
@@ -883,7 +958,7 @@
         "url": "",
         "citation_key": "Findeli2012SearchingDesignResearch",
         "displayTitle": "Findeli, Alain (2012). Searching for design research questions — Mapping design research",
-        "mtimeMs": 1761639213265.4849,
+        "mtimeMs": 1761649096268.2356,
         "category": "Context"
       },
       {
@@ -1024,7 +1099,7 @@
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
         "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-        "mtimeMs": 1761639213269.2568,
+        "mtimeMs": 1761649096271.959,
         "category": "Context"
       },
       {
@@ -1154,6 +1229,36 @@
         "displayTitle": "Pavitt, Jane (2012). Input/Output: design research and systems thinking — The perfect place to grow: 175 years of the Royal College of Art",
         "mtimeMs": 1759915052827.7615,
         "category": "Critique"
+      },
+      {
+        "letter": "P",
+        "slug": "PerksOralHistoryReader",
+        "path": "/docs/P/PerksOralHistoryReader.md",
+        "title": "The oral history reader",
+        "authors": "Perks, Robert; Thomson, Alistair (eds.)",
+        "year": "2016",
+        "journal": "Routledge",
+        "doi": "",
+        "url": "",
+        "citation_key": "PerksOralHistoryReader",
+        "displayTitle": "Perks, Robert; Thomson, Alistair (eds.) (2016). The oral history reader — Routledge",
+        "mtimeMs": 1761649096274.3074,
+        "category": "Critique"
+      },
+      {
+        "letter": "P",
+        "slug": "Portelli1991HeDeathLuigi",
+        "path": "/docs/P/Portelli1991HeDeathLuigi.md",
+        "title": "The death of Luigi Trastulli, and other stories",
+        "authors": "Portelli, Alessandro",
+        "year": "1991",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "Portelli1991HeDeathLuigi",
+        "displayTitle": "Portelli, Alessandro (1991). The death of Luigi Trastulli, and other stories",
+        "mtimeMs": 1761649096274.9937,
+        "category": "Critique"
       }
     ],
     "S": [
@@ -1184,8 +1289,25 @@
         "url": "",
         "citation_key": "Simon2012SocialPlanningDesigning",
         "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
-        "mtimeMs": 1761639213272.1792,
+        "mtimeMs": 1761649096277.7363,
         "category": "Context"
+      }
+    ],
+    "T": [
+      {
+        "letter": "T",
+        "slug": "Thompson2017VoiceOralHistory",
+        "path": "/docs/T/Thompson2017VoiceOralHistory.md",
+        "title": "The voice of the past",
+        "authors": "Thompson, Paul",
+        "year": "2017",
+        "journal": "Oxford University Press",
+        "doi": "",
+        "url": "",
+        "citation_key": "Thompson2017VoiceOralHistory",
+        "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
+        "mtimeMs": 1761649096278.3354,
+        "category": "Critique"
       }
     ],
     "W": [
