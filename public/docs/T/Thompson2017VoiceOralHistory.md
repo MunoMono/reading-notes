@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 28, 2025, 10:22 AM"
+last_updated: "Oct 28, 2025, 11:00 AM"
 category: Critique---
 # Scope of this note
 Focuses on Chapters 2–4 (“The Value of Oral History,” “Evidence and Interpretation,” and “History and the Community”). These chapters provide the epistemological and ethical foundation for integrating oral testimony into archival and computational design-research practice. 

@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 28, 2025, 10:26 AM"
+last_updated: "Oct 28, 2025, 11:00 AM"
 category: Critique---
 # Scope of this note
 Focuses on Portelli’s methodological introduction and the essay “The Death of Luigi Trastulli,” which together establish the interpretive turn in oral history: from factual accuracy to meaning-making. The note connects these arguments to the DDR oral-history strand, showing how narrative inconsistency and subjectivity become evidence of epistemic drift and institutional memory.

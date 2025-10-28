@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 28, 2025, 10:49 AM"
+last_updated: "Oct 28, 2025, 11:00 AM"
 category: Critique---
 # Scope of this note
 Focuses on Ritchie’s “Introduction: The Evolution of Oral History” and key sections in Parts IV–V (“The Technological Impact” and “Legal, Ethical, and Archival Imperatives”). These chapters collectively trace the field’s methodological, technological, and ethical evolution—from elite documentation to global participatory networks—and provide the scaffolding for integrating oral history into the DDR’s computational and archival systems.
