@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-10T11:42:51.194Z",
+  "updatedAt": "2025-11-10T12:24:26.033Z",
   "entries": [
     {
       "letter": "A",
@@ -573,6 +573,21 @@
     },
     {
       "letter": "R",
+      "slug": "Ritchie2014DoingOralHistory",
+      "path": "/docs/R/Ritchie2014DoingOralHistory.md",
+      "title": "Doing oral history",
+      "authors": "Ritchie, Donald A",
+      "year": "2014",
+      "journal": "Oxford University Press",
+      "doi": "",
+      "url": "",
+      "citation_key": "Ritchie2014DoingOralHistory",
+      "displayTitle": "Ritchie, Donald A (2014). Doing oral history — Oxford University Press",
+      "mtimeMs": 1762777465909.9194,
+      "category": "Context"
+    },
+    {
+      "letter": "R",
       "slug": "Ritchie2011OxfordHandbookOral",
       "path": "/docs/R/Ritchie2011OxfordHandbookOral.md",
       "title": "The Oxford handbook of oral history",
@@ -628,8 +643,8 @@
       "url": "",
       "citation_key": "Thompson2017VoiceOralHistory",
       "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
-      "mtimeMs": 1762774971074.4766,
-      "category": "Critique"
+      "mtimeMs": 1762777465913.8647,
+      "category": "Context"
     },
     {
       "letter": "W",
@@ -816,6 +831,21 @@
         "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
         "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
         "mtimeMs": 1761649251991.3684,
+        "category": "Context"
+      },
+      {
+        "letter": "R",
+        "slug": "Ritchie2014DoingOralHistory",
+        "path": "/docs/R/Ritchie2014DoingOralHistory.md",
+        "title": "Doing oral history",
+        "authors": "Ritchie, Donald A",
+        "year": "2014",
+        "journal": "Oxford University Press",
+        "doi": "",
+        "url": "",
+        "citation_key": "Ritchie2014DoingOralHistory",
+        "displayTitle": "Ritchie, Donald A (2014). Doing oral history — Oxford University Press",
+        "mtimeMs": 1762777465909.9194,
         "category": "Context"
       },
       {
@@ -1306,8 +1336,8 @@
         "url": "",
         "citation_key": "Thompson2017VoiceOralHistory",
         "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
-        "mtimeMs": 1762774971074.4766,
-        "category": "Critique"
+        "mtimeMs": 1762777465913.8647,
+        "category": "Context"
       }
     ],
     "W": [

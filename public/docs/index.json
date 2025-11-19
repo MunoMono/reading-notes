@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2025-11-10T12:21:58.467Z",
+  "updatedAt": "2025-11-19T15:48:28.211Z",
   "entries": [
+    {
+      "letter": "A",
+      "slug": "AbramsTransformingOralHistory",
+      "path": "/docs/A/AbramsTransformingOralHistory.md",
+      "title": "Transforming {{Oral History}",
+      "authors": "Abrams, Lynn",
+      "year": "",
+      "journal": "The {{Voice}",
+      "doi": "",
+      "url": "",
+      "citation_key": "AbramsTransformingOralHistory",
+      "displayTitle": "Abrams, Lynn. Transforming {{Oral History} — The {{Voice}",
+      "mtimeMs": 1763567308084.1653,
+      "category": "Context"
+    },
     {
       "letter": "A",
       "slug": "Anderson2004LongTail",
@@ -575,15 +590,15 @@
       "letter": "R",
       "slug": "Ritchie2014DoingOralHistory",
       "path": "/docs/R/Ritchie2014DoingOralHistory.md",
-      "title": "Doing oral history}",
+      "title": "Doing oral history",
       "authors": "Ritchie, Donald A",
       "year": "2014",
       "journal": "Oxford University Press",
       "doi": "",
       "url": "",
       "citation_key": "Ritchie2014DoingOralHistory",
-      "displayTitle": "Ritchie, Donald A (2014). Doing oral history} — Oxford University Press",
-      "mtimeMs": 1762777318344.6506,
+      "displayTitle": "Ritchie, Donald A (2014). Doing oral history — Oxford University Press",
+      "mtimeMs": 1762777465909.9194,
       "category": "Context"
     },
     {
@@ -643,7 +658,7 @@
       "url": "",
       "citation_key": "Thompson2017VoiceOralHistory",
       "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
-      "mtimeMs": 1762777318347.3398,
+      "mtimeMs": 1762777465913.8647,
       "category": "Context"
     },
     {
@@ -660,10 +675,40 @@
       "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
       "mtimeMs": 1759986318959.0505,
       "category": "Context"
+    },
+    {
+      "letter": "Y",
+      "slug": "Yow2005RecordingOralHistory",
+      "path": "/docs/Y/Yow2005RecordingOralHistory.md",
+      "title": "Recording oral history",
+      "authors": "Yow, Valerie Raleigh",
+      "year": "2005",
+      "journal": "AltaMira Press",
+      "doi": "",
+      "url": "",
+      "citation_key": "Yow2005RecordingOralHistory",
+      "displayTitle": "Yow, Valerie Raleigh (2005). Recording oral history — AltaMira Press",
+      "mtimeMs": 1763567308094.4062,
+      "category": "Context"
     }
   ],
   "grouped": {
     "A": [
+      {
+        "letter": "A",
+        "slug": "AbramsTransformingOralHistory",
+        "path": "/docs/A/AbramsTransformingOralHistory.md",
+        "title": "Transforming {{Oral History}",
+        "authors": "Abrams, Lynn",
+        "year": "",
+        "journal": "The {{Voice}",
+        "doi": "",
+        "url": "",
+        "citation_key": "AbramsTransformingOralHistory",
+        "displayTitle": "Abrams, Lynn. Transforming {{Oral History} — The {{Voice}",
+        "mtimeMs": 1763567308084.1653,
+        "category": "Context"
+      },
       {
         "letter": "A",
         "slug": "Anderson2004LongTail",
@@ -837,15 +882,15 @@
         "letter": "R",
         "slug": "Ritchie2014DoingOralHistory",
         "path": "/docs/R/Ritchie2014DoingOralHistory.md",
-        "title": "Doing oral history}",
+        "title": "Doing oral history",
         "authors": "Ritchie, Donald A",
         "year": "2014",
         "journal": "Oxford University Press",
         "doi": "",
         "url": "",
         "citation_key": "Ritchie2014DoingOralHistory",
-        "displayTitle": "Ritchie, Donald A (2014). Doing oral history} — Oxford University Press",
-        "mtimeMs": 1762777318344.6506,
+        "displayTitle": "Ritchie, Donald A (2014). Doing oral history — Oxford University Press",
+        "mtimeMs": 1762777465909.9194,
         "category": "Context"
       },
       {
@@ -1336,7 +1381,7 @@
         "url": "",
         "citation_key": "Thompson2017VoiceOralHistory",
         "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
-        "mtimeMs": 1762777318347.3398,
+        "mtimeMs": 1762777465913.8647,
         "category": "Context"
       }
     ],
@@ -1354,6 +1399,23 @@
         "citation_key": "Williamson2018ResearchConcepts",
         "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
         "mtimeMs": 1759986318959.0505,
+        "category": "Context"
+      }
+    ],
+    "Y": [
+      {
+        "letter": "Y",
+        "slug": "Yow2005RecordingOralHistory",
+        "path": "/docs/Y/Yow2005RecordingOralHistory.md",
+        "title": "Recording oral history",
+        "authors": "Yow, Valerie Raleigh",
+        "year": "2005",
+        "journal": "AltaMira Press",
+        "doi": "",
+        "url": "",
+        "citation_key": "Yow2005RecordingOralHistory",
+        "displayTitle": "Yow, Valerie Raleigh (2005). Recording oral history — AltaMira Press",
+        "mtimeMs": 1763567308094.4062,
         "category": "Context"
       }
     ]
