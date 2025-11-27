@@ -18,8 +18,51 @@ function highlight(text, query) {
   );
 }
 
-// Category tag colors
+// Zotero-based category definitions
+// Parent folders (not applicable as tags per user requirement):
+// 1 Design methods, design science and epistemic drift
+// 2 Archives, infrastructure and classification
+// 3 Computational archives and AI
+// 4 DDR history and primary sources
+// 5 Practice-led and cybernetic design research
+// 6 Research methods
+// 7 Source classification
+
+const ZOTERO_CATEGORIES = {
+  // Group 1: Design methods - use blue family
+  "1.1": { label: "1.1 Canonical methods texts", color: "blue" },
+  "1.2": { label: "1.2 Critiques/anti-method/drift", color: "red" },
+  "1.3": { label: "1.3 Historical accounts", color: "cyan" },
+  // Group 2: Archives - use purple family
+  "2.1": { label: "2.1 Archives infrastructure", color: "purple" },
+  "2.2": { label: "2.2 Classification/schema", color: "magenta" },
+  "2.3": { label: "2.3 Linked data", color: "teal" },
+  // Group 3: Computational - use green family
+  "3.1": { label: "3.1 Computational archives", color: "green" },
+  "3.2": { label: "3.2 XAI/RAG", color: "high-contrast" },
+  // Group 4: DDR history - use warm tones
+  "4.1": { label: "4.1 DDR history", color: "warm-gray" },
+  "4.2": { label: "4.2 DDR primary sources", color: "outline" },
+  // Group 5: Practice-led - use distinct colors
+  "5.1": { label: "5.1 Practice-led research", color: "teal" },
+  "5.2": { label: "5.2 Cybernetics", color: "cyan" },
+  // Group 6: Research methods - use blue/purple
+  "6.1": { label: "6.1 General methods", color: "blue" },
+  "6.2": { label: "6.2 Interpretive methods", color: "purple" },
+  // Group 7: Source classification - use neutral tones
+  "7.1": { label: "7.1 Background/supporting", color: "gray" },
+  "7.2": { label: "7.2 Secondary sources", color: "cool-gray" },
+  "7.3": { label: "7.3 Primary sources", color: "green" },
+};
+
+// Category tag colors (supports both old and new categories)
 function categoryTag(category) {
+  // Check if it's a new Zotero-based category
+  if (category && ZOTERO_CATEGORIES[category]) {
+    const cat = ZOTERO_CATEGORIES[category];
+    return <Tag type={cat.color}>{cat.label}</Tag>;
+  }
+  // Legacy categories for backward compatibility
   switch (category) {
     case "Dataset":
       return <Tag type="teal">{category}</Tag>;
@@ -89,7 +132,18 @@ export default function Home() {
       })
     : null;
 
-  const categoryOptions = ["All", "Dataset", "Critique", "Context"];
+  // Build category options with proper display labels
+  const categoryOptions = [
+    { id: "All", label: "All" },
+    ...Object.entries(ZOTERO_CATEGORIES).map(([key, val]) => ({ 
+      id: key, 
+      label: val.label 
+    })),
+    // Legacy categories (can be removed after migration)
+    { id: "Dataset", label: "Dataset (legacy)" },
+    { id: "Critique", label: "Critique (legacy)" }, 
+    { id: "Context", label: "Context (legacy)" }
+  ];
 
   return (
     <Grid className="cds--grid cds--grid--narrow home-page">
@@ -112,9 +166,10 @@ export default function Home() {
             id="category-filter"
             label="Filter by category"
             items={categoryOptions}
-            selectedItem={categoryFilter || "All"}
+            itemToString={(item) => (item ? item.label : "")}
+            selectedItem={categoryOptions.find((c) => c.id === (categoryFilter || "All"))}
             onChange={({ selectedItem }) =>
-              setCategoryFilter(selectedItem === "All" ? null : selectedItem)
+              setCategoryFilter(selectedItem?.id === "All" ? null : selectedItem?.id)
             }
           />
         </div>
