@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2025-11-10T12:24:26.033Z",
+  "updatedAt": "2025-11-19T17:22:15.736Z",
   "entries": [
+    {
+      "letter": "A",
+      "slug": "AbramsTransformingOralHistory",
+      "path": "/docs/A/AbramsTransformingOralHistory.md",
+      "title": "Transforming oral history",
+      "authors": "Abrams, Lynn",
+      "year": "",
+      "journal": "The {{Voice}",
+      "doi": "",
+      "url": "",
+      "citation_key": "AbramsTransformingOralHistory",
+      "displayTitle": "Abrams, Lynn. Transforming oral history — The {{Voice}",
+      "mtimeMs": 1763572935606.9932,
+      "category": "Context"
+    },
     {
       "letter": "A",
       "slug": "Anderson2004LongTail",
@@ -660,10 +675,40 @@
       "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
       "mtimeMs": 1759986318959.0505,
       "category": "Context"
+    },
+    {
+      "letter": "Y",
+      "slug": "Yow2005RecordingOralHistory",
+      "path": "/docs/Y/Yow2005RecordingOralHistory.md",
+      "title": "Recording oral history",
+      "authors": "Yow, Valerie Raleigh",
+      "year": "2005",
+      "journal": "AltaMira Press",
+      "doi": "",
+      "url": "",
+      "citation_key": "Yow2005RecordingOralHistory",
+      "displayTitle": "Yow, Valerie Raleigh (2005). Recording oral history — AltaMira Press",
+      "mtimeMs": 1763572935619.7224,
+      "category": "Context"
     }
   ],
   "grouped": {
     "A": [
+      {
+        "letter": "A",
+        "slug": "AbramsTransformingOralHistory",
+        "path": "/docs/A/AbramsTransformingOralHistory.md",
+        "title": "Transforming oral history",
+        "authors": "Abrams, Lynn",
+        "year": "",
+        "journal": "The {{Voice}",
+        "doi": "",
+        "url": "",
+        "citation_key": "AbramsTransformingOralHistory",
+        "displayTitle": "Abrams, Lynn. Transforming oral history — The {{Voice}",
+        "mtimeMs": 1763572935606.9932,
+        "category": "Context"
+      },
       {
         "letter": "A",
         "slug": "Anderson2004LongTail",
@@ -1354,6 +1399,23 @@
         "citation_key": "Williamson2018ResearchConcepts",
         "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
         "mtimeMs": 1759986318959.0505,
+        "category": "Context"
+      }
+    ],
+    "Y": [
+      {
+        "letter": "Y",
+        "slug": "Yow2005RecordingOralHistory",
+        "path": "/docs/Y/Yow2005RecordingOralHistory.md",
+        "title": "Recording oral history",
+        "authors": "Yow, Valerie Raleigh",
+        "year": "2005",
+        "journal": "AltaMira Press",
+        "doi": "",
+        "url": "",
+        "citation_key": "Yow2005RecordingOralHistory",
+        "displayTitle": "Yow, Valerie Raleigh (2005). Recording oral history — AltaMira Press",
+        "mtimeMs": 1763572935619.7224,
         "category": "Context"
       }
     ]

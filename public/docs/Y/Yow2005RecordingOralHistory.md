@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 19, 2025, 03:47 PM"
+last_updated: "Nov 19, 2025, 05:22 PM"
 category: Context---
 This note treats the second edition of Valerie Raleigh Yow’s *Recording Oral History: A Guide for the Humanities and Social Sciences* as a whole, with particular emphasis on the chapters that define oral history, address memory, ethics and power, and specify project design, interviewing, analysis and interpretation. The focus is on extracting a robust method spine and conceptual vocabulary for an oral-history strand within an institutionally focused, design-led project.
 
@@ -139,25 +139,20 @@ Yow’s handbook underpins the oral-history strand of the project at three level
   - embed ethical and power-aware considerations into the architecture of digital tools and archives, not merely in consent forms.
 
 ## Evidence to quote or paraphrase
-1. ‘This development is centered on a concern about the process of meaning making.’ ([@Yow2005RecordingOralHistory])
+### Chapter 1 – Introduction to the In-Depth Interview
+- “This development is centered on a concern about the process of meaning making.” (Yow 2005, p. 1)
+- “The interviewer thus sees the work as a collaboration. This is an underlying assumption in this book; the term used to describe this dynamic is ‘shared authority.’” (Yow 2005, p. 2)
+- “We cannot—and do not wish to—pretend to complete objectivity.” (Yow 2005, p. 2)
 
-2. ‘Many of us who use the in-depth interview are interested in how the respondents interpret experience and how we, the questioners, interject ourselves into this process.’ ([@Yow2005RecordingOralHistory])
+### Chapter 2 – Oral History and Memory
+- “For oral historians, memory is a vital concern.” (Yow 2005, p. 35)
+- “It is clear now that we construct narratives from our memories.” (Yow 2005, p. 35)
+- “Since memory produces the oral testimony that is the basis of our work as oral historians, we need all the knowledge about memory we can get.” (Yow 2005, p. 36)
 
-3. ‘We try to be conscious of the effects of the research process on both interviewer and narrator.’ ([@Yow2005RecordingOralHistory])
-
-4. ‘We are also concerned about the ways power relationships based on knowledge, gender, race, class, status, age, and ethnicity impinge on the interview situation.’ ([@Yow2005RecordingOralHistory])
-
-5. ‘The interviewer thus sees the work as a collaboration. This is an underlying assumption in this book; the term used to describe this dynamic is “shared authority”.’ ([@Yow2005RecordingOralHistory])
-
-6. **Paraphrase:** Yow defines oral history as a recorded in-depth interview that belongs in the broader family of qualitative research methods, distinguished by its focus on narrated experience, meaning-making and the co-presence of interviewer and narrator. ([@Yow2005RecordingOralHistory])
-
-7. **Paraphrase:** She stresses that the interviewer and narrator each bring partial knowledge and differing perspectives: the former grounded in disciplinary research, the latter in intimate knowledge of their own culture and life, making the interview a cooperative venture rather than data extraction. ([@Yow2005RecordingOralHistory])
-
-8. **Paraphrase:** Yow argues that shifts in feminist scholarship and humanistic social science have pushed oral historians to treat interviews as cultural constructions and to acknowledge that research interactions are shaped by power and ethics as well as by technique. ([@Yow2005RecordingOralHistory])
-
-9. **Paraphrase:** She insists that striving to see the world as the narrator sees it necessarily involves a degree of compassion and rules out any pretence of complete objectivity on the part of the interviewer. ([@Yow2005RecordingOralHistory])
-
-10. **Paraphrase:** Yow positions the guide as a resource for anyone using recorded in-depth interviews who is willing to reflect on ethics and interpersonal relationships alongside learning practical interviewing techniques, with a particular emphasis on life-history approaches. ([@Yow2005RecordingOralHistory])
+### Chapter 6 – Interpersonal Relations in the Interview
+- “First, the recording of an oral history is a collaborative venture.” (Yow 2005, p. 157)
+- “Many of us, trained in traditional research methods using written sources, have little preparation in relating to the living witness.” (Yow 2005, p. 157)
+- “Interpersonal relationships are affected by age, race, gender, social class, status, ethnicity, and subculture.” (Yow 2005, p. 179)
 
 ## Related works
 - Ritchie, D. A. (2014) *Doing Oral History*. Oxford: Oxford University Press. [@Ritchie2014DoingOralHistory]
