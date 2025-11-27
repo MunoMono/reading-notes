@@ -29,23 +29,30 @@ function highlight(text, query) {
 // 7 Source classification
 
 const ZOTERO_CATEGORIES = {
+  // Group 1: Design methods - use blue family
   "1.1": { label: "1.1 Canonical methods texts", color: "blue" },
   "1.2": { label: "1.2 Critiques/anti-method/drift", color: "red" },
   "1.3": { label: "1.3 Historical accounts", color: "cyan" },
+  // Group 2: Archives - use purple family
   "2.1": { label: "2.1 Archives infrastructure", color: "purple" },
   "2.2": { label: "2.2 Classification/schema", color: "magenta" },
   "2.3": { label: "2.3 Linked data", color: "teal" },
+  // Group 3: Computational - use green family
   "3.1": { label: "3.1 Computational archives", color: "green" },
-  "3.2": { label: "3.2 XAI/RAG", color: "cool-gray" },
+  "3.2": { label: "3.2 XAI/RAG", color: "high-contrast" },
+  // Group 4: DDR history - use warm tones
   "4.1": { label: "4.1 DDR history", color: "warm-gray" },
-  "4.2": { label: "4.2 DDR primary sources", color: "high-contrast" },
-  "5.1": { label: "5.1 Practice-led research", color: "outline" },
-  "5.2": { label: "5.2 Cybernetics", color: "blue" },
-  "6.1": { label: "6.1 General methods", color: "purple" },
-  "6.2": { label: "6.2 Interpretive methods", color: "cyan" },
+  "4.2": { label: "4.2 DDR primary sources", color: "outline" },
+  // Group 5: Practice-led - use distinct colors
+  "5.1": { label: "5.1 Practice-led research", color: "teal" },
+  "5.2": { label: "5.2 Cybernetics", color: "cyan" },
+  // Group 6: Research methods - use blue/purple
+  "6.1": { label: "6.1 General methods", color: "blue" },
+  "6.2": { label: "6.2 Interpretive methods", color: "purple" },
+  // Group 7: Source classification - use neutral tones
   "7.1": { label: "7.1 Background/supporting", color: "gray" },
   "7.2": { label: "7.2 Secondary sources", color: "cool-gray" },
-  "7.3": { label: "7.3 Primary sources", color: "warm-gray" },
+  "7.3": { label: "7.3 Primary sources", color: "green" },
 };
 
 // Category tag colors (supports both old and new categories)
