@@ -10,7 +10,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Oct 09, 2025, 06:05 AM"
-category: Critique---
+category: 2.1-DDR-primary/secondary-histories
+---
 # Scope of this note
 This extended note critically reviews Stephen Boyd Davis’s chapter **Design as an interesting phenomenon: George Mallen and the Royal College of Art** (revised Aug 2022 manuscript basis), covering the period **1971–83** and concentrating on: (1) **SIMDAC/SHADO** and the shift from prescriptive to descriptive/organisational models; (2) **user‑centred, subjective** data capture (repertory grid + MDS/PCA/cluster) as proto‑HCI; (3) institutional dynamics—**CADC/ECU/CEDAR** linkages, the **Computing Activities Unit** and the **March–Stiny** rupture; and (4) the **policy/funding** surround (SRC/EPSRC) and its shaping effects. The analysis maps these threads onto the project’s Statement of Intent (SoW v2) by evidencing **epistemic drift** from systematic design to **designerly knowing** and by extracting **taxonomy‑ready** categories for the DDR archive platform.
 
