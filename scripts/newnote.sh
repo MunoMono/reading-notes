@@ -25,7 +25,24 @@ command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found"; exit 1;
 
 # 🔑 Ask for category interactively
 echo "Choose category for this note:"
-select CATEGORY in Dataset Critique Context; do
+select CATEGORY in \
+  "1.1-Canonical-methods-texts" \
+  "1.2-Critiques/anti-method/drift" \
+  "2.1-DDR-primary/secondary-histories" \
+  "2.2-Design-historiography-and-canon-critiques" \
+  "3.1-Infrastructures-and-standards-ISAD(G),-archival-description" \
+  "3.2-Classification-as-ethics/politics" \
+  "3.3-Absence,-silence-and-missing-data" \
+  "4.1-Linked-data-and-graph-ontologies" \
+  "4.2-Digital-libraries/long-tail/discovery" \
+  "4.3-RAG/XAI/provenance" \
+  "5.1-Practice-led-design-research" \
+  "5.2-Cybernetics-and-conversation-theory" \
+  "6.1-Archival-and-oral-history-methods" \
+  "6.2-DH/computational-methods" \
+  "7.1-Read-once-background" \
+  "7.2-To-be-decided" \
+  "7.3-She-Ji"; do
   [[ -n "$CATEGORY" ]] && break
 done
 

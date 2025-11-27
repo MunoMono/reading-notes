@@ -9,7 +9,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Oct 13, 2025, 09:04 AM"
-category: Context---
+category: 5.2-Cybernetics-and-conversation-theory
+---
 # Scope of this note
 Focuses on how Pask establishes a cybernetic epistemology that redefines observation, learning, and system interaction—ideas that deeply influenced Bruce Archer’s 'systematic method at the RCA and the early logic of the DDR.
 

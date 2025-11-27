@@ -10,7 +10,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Oct 09, 2025, 06:05 AM"
-category: Context---
+category: 6.2-DH/computational-methods
+---
 # Scope of this note
 This review focuses on **interpretivism** and **critical theory** as presented in Williamson’s *Research Concepts* (2018). It situates Williamson’s discussion against the project’s interpretivist–critical paradigm, providing methodological grounding for reflexive briefs, taxonomic critique and practice-based inquiry.
 

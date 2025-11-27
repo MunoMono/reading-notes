@@ -10,7 +10,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Oct 28, 2025, 11:00 AM"
-category: Context---
+category: 1.1-Canonical-methods-texts
+---
 # Scope of this note
 Focuses on Findeli’s redefinition of design research as an ethical, teleological, and reflexive practice—emphasising *why* we ask certain questions as much as *how* we pursue them. It bridges DDR’s instrumental rationality and the project’s ethics of data provenance, participatory classification, and computational reflexivity.
 

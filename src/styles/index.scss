@@ -5,6 +5,7 @@
 @use './components/carbon-markdown';
 /* Bring in page-specific styles */
 @use './pages/home';
+@use './pages/visualizations';
 
 /* 2) Then CSS @import(s) */
 @import '@ibm/plex/css/ibm-plex.css';

@@ -8,7 +8,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Oct 13, 2025, 09:02 AM"
-category: Context---
+category: 5.2-Cybernetics-and-conversation-theory
+---
 # Scope of this note
 Focuses on Pask’s educational framework and its operational effect on the RCA’s Design Education Unit and Archer’s broader research culture in the Department of Design Research.
 

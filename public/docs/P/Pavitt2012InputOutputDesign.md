@@ -10,7 +10,8 @@ bibliography: ../../refs/library.bib
 csl: 'https://www.zotero.org/styles/harvard-cite-them-right'
 link-citations: true
 last_updated: "Oct 08, 2025, 10:17 AM"
-category: Critique---
+category: 5.2-Cybernetics-and-conversation-theory
+---
 # Scope of this note
 This extended note critically reviews Pavitt’s institutional history of the RCA’s Department of Design Research (DDR), focusing on: (1) the systems lineage from Ulm to Archer at the RCA; (2) the institutionalisation of ‘Design Methods’ through the Hospital Equipment Group → ID(E)RU → DDR; and (3) the ideological pivot from industrial modernisation to ‘design for need’ and the DDR’s closure. The analysis triangulates with the project spine on epistemic drift (systematic → designerly), the interpretivist–critical framework, and the taxonomic critique of DDR classifications.
 

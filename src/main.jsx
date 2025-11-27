@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home";
 import Doc from "./pages/Doc";
+import Visualizations from "./pages/Visualizations";
 
 import "./styles/index.scss";
 
@@ -31,6 +32,7 @@ function Root() {
         {/* App is the layout wrapper */}
         <Route path="/" element={<App theme={theme} toggleTheme={toggleTheme} />}>
           <Route index element={<Home />} />
+          <Route path="visualizations" element={<Visualizations />} />
           <Route path="docs/:letter/:slug" element={<Doc />} />
           <Route path="*" element={<Home />} />
         </Route>

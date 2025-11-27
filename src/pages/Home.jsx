@@ -20,16 +20,29 @@ function highlight(text, query) {
 
 // Category tag colors
 function categoryTag(category) {
-  switch (category) {
-    case "Dataset":
-      return <Tag type="teal">{category}</Tag>;
-    case "Critique":
-      return <Tag type="red">{category}</Tag>;
-    case "Context":
-      return <Tag type="purple">{category}</Tag>;
-    default:
-      return null;
-  }
+  if (!category) return null;
+  
+  // Color mapping based on category prefix
+  let type = "gray";
+  if (category.startsWith("1.1")) type = "blue";
+  else if (category.startsWith("1.2")) type = "cyan";
+  else if (category.startsWith("2.1")) type = "teal";
+  else if (category.startsWith("2.2")) type = "green";
+  else if (category.startsWith("3.1")) type = "magenta";
+  else if (category.startsWith("3.2")) type = "purple";
+  else if (category.startsWith("3.3")) type = "red";
+  else if (category.startsWith("4.1")) type = "cool-gray";
+  else if (category.startsWith("4.2")) type = "warm-gray";
+  else if (category.startsWith("4.3")) type = "high-contrast";
+  else if (category.startsWith("5.1")) type = "blue";
+  else if (category.startsWith("5.2")) type = "cyan";
+  else if (category.startsWith("6.1")) type = "teal";
+  else if (category.startsWith("6.2")) type = "green";
+  else if (category.startsWith("7.1")) type = "magenta";
+  else if (category.startsWith("7.2")) type = "purple";
+  else if (category.startsWith("7.3")) type = "red";
+  
+  return <Tag type={type}>{category}</Tag>;
 }
 
 export default function Home() {
@@ -89,7 +102,17 @@ export default function Home() {
       })
     : null;
 
-  const categoryOptions = ["All", "Dataset", "Critique", "Context"];
+  const categoryOptions = useMemo(() => {
+    const cats = new Set(["All"]);
+    (data.entries || []).forEach((e) => {
+      if (e.category) cats.add(e.category);
+    });
+    return Array.from(cats).sort((a, b) => {
+      if (a === "All") return -1;
+      if (b === "All") return 1;
+      return a.localeCompare(b);
+    });
+  }, [data.entries]);
 
   return (
     <Grid className="cds--grid cds--grid--narrow home-page">

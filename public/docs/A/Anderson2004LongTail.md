@@ -6,7 +6,8 @@ journal: "Wired"
 citation_key: Anderson2004LongTail
 url: "https://www.wired.com/2004/10/tail/"
 last_updated: "Oct 23, 2025, 12:21 PM"
-category: Context---
+category: 4.2-Digital-libraries/long-tail/discovery
+---
 # Scope of this note
 Explores Anderson’s formulation of *the long tail* as an economic and cultural theory of abundance, and applies its principles to the design of digital archives. The note tests how a strategy of **comprehensive digitisation and algorithmic linkage**—rather than selective curation—creates value across the DDR’s dispersed record of people, projects, and prototypes.
 

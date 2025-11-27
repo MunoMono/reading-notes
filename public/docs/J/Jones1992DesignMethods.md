@@ -10,7 +10,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Oct 23, 2025, 12:21 PM"
-category: Context---
+category: 1.1-Canonical-methods-texts
+---
 # Scope of this note
 This note focuses on Chapters 4–6 of *Design Methods* (1992), in which J. Christopher Jones retrospectively diagnoses the intellectual limits of the 1960s design methods movement. The text is read critically through the lens of the RCA’s Department of Design Research (DDR), contrasting Jones’s systematisation impulse with Bruce Archer’s design science, Gordon Pask’s cybernetic experimentalism, Horst Rittel’s “wicked problems”, and Nigel Cross’s later turn to *designerly ways of knowing*. It interrogates why Jones’s rationalist optimism collapsed into scepticism and how his call for reflexive reintegration prefigures the DDR’s own epistemic drift.
 
