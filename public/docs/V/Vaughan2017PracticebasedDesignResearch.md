@@ -9,7 +9,7 @@ url: "https://www.bloomsburycollections.com/book/practice-based-design-research"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 5.1-Practice-led-design-research---
 # Scope of this note
 This extended critical note analyses Laurene Vaughan’s *Practice-based Design Research* (2017), focusing on Chapters 2 and 11 and triangulating them with Joyce Yee’s complementary discussion of the “researcherly designer” and “designerly researcher”. It interprets Vaughan’s framework through the lens of the DDR project *From systematic design to designerly knowing: codifying epistemic drift at the RCA Department of Design Research 1965–85*. The analysis positions Vaughan as a contemporary theorist consolidating the philosophical and pedagogical consequences of the epistemic drift first initiated by Archer: the movement from a closed, systematic model of design science to an open, reflexive ecology of practice-based knowing.

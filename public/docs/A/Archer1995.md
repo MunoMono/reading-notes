@@ -9,7 +9,7 @@ url: ''
 bibliography: ../../refs/library.bib
 csl: 'https://www.zotero.org/styles/harvard-cite-them-right'
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 1.1-Canonical-methods-texts---
 # Scope of this note
 This extended note critically analyses L. Bruce Archer’s *The Nature of Research* (1995) as both a late-career methodological manifesto and a historical artefact marking the closure of the systematic design tradition initiated within the Department of Design Research (DDR). It situates the paper within the project’s interpretive–historical frame, asking how Archer’s synthesis of science, humanities and practitioner research retrospectively codified DDR’s epistemic ambitions while foreclosing the pluralism that later animated designerly knowing.

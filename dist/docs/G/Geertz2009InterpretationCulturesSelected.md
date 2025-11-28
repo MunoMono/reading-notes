@@ -9,9 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 09, 2025, 06:05 AM"
-category: 7.1-Read-once-background
----
+last_updated: "Nov 28, 2025, 12:11 PM"
+category: 7.1-Read-once-background---
 # Scope of this note
 This review concentrates on **Chapter 1 (Thick Description: Toward an Interpretive Theory of Culture)** and **Chapter 8 (Ideology as a Cultural System)** of Geertz’s *The Interpretation of Cultures: Selected Essays* (2009). Expanded to provide deeper analysis, integration with the doctoral research spine, and an evidence pack distinguishing direct quotations from paraphrases for precise citation.
 

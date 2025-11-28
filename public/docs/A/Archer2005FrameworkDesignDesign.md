@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 1.1-Canonical-methods-texts---
 # Scope of this note
 This note analyses the pre-1984 papers contained within *A Framework for Design and Design Education* by Bruce Archer, Ken Baynes and Phil Roberts. These texts—principally *The Need for Design Education* (1973), *Criteria, Objectives and Competencies for Design Education* (1978), *The Three Rs* (1979), and *Design Education: The Basic Issues* (1982)—constitute the intellectual infrastructure of the Department of Design Research’s pedagogical programme, the Design Education Unit.

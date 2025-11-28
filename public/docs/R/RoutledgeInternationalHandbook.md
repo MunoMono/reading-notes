@@ -9,7 +9,7 @@ url: "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 5.1-Practice-led-design-research---
 ---
 # Scope of this note

@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 6.1-Archival-and-oral-history-methods---
 This note focuses on Lynn Abrams’ chapter, ‘Transforming Oral History through Theory’, in Paul Thompson’s *The Voice of the Past: Oral History* (latest edition). It treats the chapter as a synthetic statement of “oral history theory”, emphasising how theoretical frameworks (memory studies, narrative, discourse, psychoanalysis, feminism, activism) reconfigure the practice and analysis of oral history. The aim is to extract a theory spine for the project’s oral-history strand, with particular attention to intersubjectivity, composure, power and activist/justice-oriented applications.
 

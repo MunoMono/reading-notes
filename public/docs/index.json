@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-28T08:10:24.033Z",
+  "updatedAt": "2025-11-28T12:11:35.295Z",
   "entries": [
     {
       "letter": "A",
@@ -13,7 +13,7 @@
       "url": "",
       "citation_key": "AbramsTransformingOralHistory",
       "displayTitle": "Abrams, Lynn. Transforming oral history — The {{Voice}",
-      "mtimeMs": 1764317423895.6902,
+      "mtimeMs": 1764331895152.1816,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -28,7 +28,7 @@
       "url": "https://www.wired.com/2004/10/tail/",
       "citation_key": "Anderson2004LongTail",
       "displayTitle": "Anderson, Chris (2004). The long tail — Wired",
-      "mtimeMs": 1764317423897.5898,
+      "mtimeMs": 1764331895155.4148,
       "category": "4.2-Digital-libraries/long-tail/discovery"
     },
     {
@@ -43,7 +43,7 @@
       "url": "",
       "citation_key": "Archer2005FrameworkDesignDesign",
       "displayTitle": "Archer, Bruce and Baynes, Ken and Roberts, Phil (2005). A framework for design and design education: a reader containing key papers from the 1970s and 80s — DATA",
-      "mtimeMs": 1764317423899.9617,
+      "mtimeMs": 1764331895157.5,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -58,7 +58,7 @@
       "url": "",
       "citation_key": "Archer1995NatureResearch",
       "displayTitle": "Archer, L Bruce (1995). The nature of research — Co-design, interdisciplinary journal of design",
-      "mtimeMs": 1764317423899.4949,
+      "mtimeMs": 1764331895157.1108,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -73,7 +73,7 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-      "mtimeMs": 1764317423898.9587,
+      "mtimeMs": 1764331895156.724,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -88,7 +88,7 @@
       "url": "",
       "citation_key": "Archer1968StructureDesignProcesses",
       "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-      "mtimeMs": 1764317423898.3948,
+      "mtimeMs": 1764331895156.2239,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -103,7 +103,7 @@
       "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/editorials/26",
       "citation_key": "Atkinson2016IntroductionDesignResearch",
       "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
-      "mtimeMs": 1764317423900.3574,
+      "mtimeMs": 1764331895157.8235,
       "category": "2.2-Design-historiography-and-canon-critiques"
     },
     {
@@ -118,7 +118,7 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: classification and its consequences — MIT Press",
-      "mtimeMs": 1764317423900.7646,
+      "mtimeMs": 1764331895158.283,
       "category": "3.2-Classification-as-ethics/politics"
     },
     {
@@ -133,7 +133,7 @@
       "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
       "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
       "displayTitle": "Boyd Davis, Stephen (2024). Design as an interesting phenomenon — Creative {{Simulations}",
-      "mtimeMs": 1764317423902.578,
+      "mtimeMs": 1764331895160.0574,
       "category": "2.1-DDR-primary/secondary-histories"
     },
     {
@@ -148,7 +148,7 @@
       "url": "",
       "citation_key": "BoydDavis2017DialogueRealworldOperational",
       "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model-the realities of design in Bruce Archer — Design Studies",
-      "mtimeMs": 1764317423901.3167,
+      "mtimeMs": 1764331895158.9714,
       "category": "2.1-DDR-primary/secondary-histories"
     },
     {
@@ -163,7 +163,7 @@
       "url": "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice-Based-Research/Vear/p/book/9781032182209",
       "citation_key": "RoutledgeInternationalHandbook",
       "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
-      "mtimeMs": 1764317423913.601,
+      "mtimeMs": 1764331895170.5977,
       "category": "5.1-Practice-led-design-research"
     },
     {
@@ -178,7 +178,7 @@
       "url": "",
       "citation_key": "Cross2007FortyYearsDesign",
       "displayTitle": "Cross, N. (2007). Forty Years of Design Research — Design Studies",
-      "mtimeMs": 1764317423903.759,
+      "mtimeMs": 1764331895161.4497,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -193,7 +193,7 @@
       "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
       "citation_key": "Cross1993HistoryDesignMethodology",
       "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
-      "mtimeMs": 1764317423903.4043,
+      "mtimeMs": 1764331895161.0808,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -208,7 +208,7 @@
       "url": "",
       "citation_key": "Cross1982DesignerlyWaysKnowing",
       "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-      "mtimeMs": 1764317423903.077,
+      "mtimeMs": 1764331895160.6194,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -223,7 +223,7 @@
       "url": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html",
       "citation_key": "Dempsey2006LibrariesLongTail",
       "displayTitle": "Dempsey, Lorcan (2006). Libraries and the Long Tail — D-Lib Magazine",
-      "mtimeMs": 1764317423904.1755,
+      "mtimeMs": 1764331895161.845,
       "category": "4.2-Digital-libraries/long-tail/discovery"
     },
     {
@@ -238,7 +238,7 @@
       "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/researchpapers/82",
       "citation_key": "Dorst2016DesignPracticeDesign",
       "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
-      "mtimeMs": 1764317423904.6506,
+      "mtimeMs": 1764331895162.331,
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
@@ -253,7 +253,7 @@
       "url": "https://www.oclc.org/research/publications/library/2012/2012-08.pdf",
       "citation_key": "Erway2012SwattingLongTail",
       "displayTitle": "Erway, Ricky (2012). Swatting the long tail of digital media: a call for collaboration — OCLC Research",
-      "mtimeMs": 1764317423904.955,
+      "mtimeMs": 1764331895162.6282,
       "category": "4.2-Digital-libraries/long-tail/discovery"
     },
     {
@@ -268,7 +268,7 @@
       "url": "",
       "citation_key": "Fallan2010DesignHistoryUnderstanding",
       "displayTitle": "Fallan, Kjetil (2010). Design history: understanding theory and method — Design History: Understanding Theory and Method",
-      "mtimeMs": 1764317423905.4092,
+      "mtimeMs": 1764331895163.1238,
       "category": "2.2-Design-historiography-and-canon-critiques"
     },
     {
@@ -283,7 +283,7 @@
       "url": "",
       "citation_key": "Findeli2012SearchingDesignResearch",
       "displayTitle": "Findeli, Alain (2012). Searching for design research questions — Mapping design research",
-      "mtimeMs": 1764317423905.6814,
+      "mtimeMs": 1764331895163.3835,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -298,7 +298,7 @@
       "url": "",
       "citation_key": "Frayling1993ResearchArtDesign",
       "displayTitle": "Frayling, Christopher (1993). Research in art and design — Royal College of Art",
-      "mtimeMs": 1764317423905.9458,
+      "mtimeMs": 1764331895163.713,
       "category": "5.1-Practice-led-design-research"
     },
     {
@@ -313,7 +313,7 @@
       "url": "",
       "citation_key": "Freire2014PedagogyOppressed30th",
       "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed: 30th anniversary edition — Bloomsbury Publishing",
-      "mtimeMs": 1764317423906.303,
+      "mtimeMs": 1764331895163.95,
       "category": "7.1-Read-once-background"
     },
     {
@@ -328,7 +328,7 @@
       "url": "https://www.tandfonline.com/doi/full/10.1080/14606925.2022.2112861",
       "citation_key": "Galdon2022UnFraylingDesignResearch",
       "displayTitle": "Galdon, Fernando and Hall, Ashley (2022). (Un)Frayling design research in design education for the 21st century — The Design Journal",
-      "mtimeMs": 1764317423906.6077,
+      "mtimeMs": 1764331895164.275,
       "category": "5.1-Practice-led-design-research"
     },
     {
@@ -343,7 +343,7 @@
       "url": "",
       "citation_key": "Geertz2009InterpretationCulturesSelected",
       "displayTitle": "Geertz, Clifford (2009). The interpretation of cultures: selected essays — The Interpretation of Cultures: Selected Essays",
-      "mtimeMs": 1764317423906.9512,
+      "mtimeMs": 1764331895164.5642,
       "category": "7.1-Read-once-background"
     },
     {
@@ -358,7 +358,7 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
       "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
       "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
-      "mtimeMs": 1764317423907.2795,
+      "mtimeMs": 1764331895164.8875,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -373,7 +373,7 @@
       "url": "https://www.pangaro.com/glanville/Glanville-SECOND_ORDER_CYBERNETICS.pdf",
       "citation_key": "Glanville2007SecondOrderCybernetics",
       "displayTitle": "Glanville, Ranulph (2007). Second order cybernetics — Kybernetes",
-      "mtimeMs": 1764317423907.6777,
+      "mtimeMs": 1764331895165.1782,
       "category": "5.2-Cybernetics-and-conversation-theory"
     },
     {
@@ -388,7 +388,7 @@
       "url": "https://papers.ssrn.com/s",
       "citation_key": "Gooding2022CriticallyAddressableData",
       "displayTitle": "Gooding, Paul (2022). Towards critically addressable data for digital library user studies — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-      "mtimeMs": 1764317423908.0454,
+      "mtimeMs": 1764331895165.4666,
       "category": "3.2-Classification-as-ethics/politics"
     },
     {
@@ -403,7 +403,7 @@
       "url": "",
       "citation_key": "Horkheimer2002CriticalTheorySelected",
       "displayTitle": "Horkheimer, Max and Horkheimer, Max (2002). Critical theory selected essays — Critical Theory: Selected Essays",
-      "mtimeMs": 1764317423908.482,
+      "mtimeMs": 1764331895166.0195,
       "category": "7.1-Read-once-background"
     },
     {
@@ -418,7 +418,7 @@
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
       "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-      "mtimeMs": 1764317423908.803,
+      "mtimeMs": 1764331895166.3972,
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
@@ -433,7 +433,7 @@
       "url": "",
       "citation_key": "Jones1992DesignMethods",
       "displayTitle": "Jones, J. Christopher (1992). Design methods — John Wiley & Sons",
-      "mtimeMs": 1764317423909.092,
+      "mtimeMs": 1764331895166.6545,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -448,7 +448,7 @@
       "url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2024-0042/html",
       "citation_key": "Karp2024InterconnectednessAllThings",
       "displayTitle": "Karp, St John (2024). The interconnectedness of all things: understanding digital collections through file similarity — Preservation, Digital Technology & Culture",
-      "mtimeMs": 1764317423909.4785,
+      "mtimeMs": 1764331895167.0173,
       "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
@@ -463,7 +463,7 @@
       "url": "",
       "citation_key": "King1994DesigningSocialInquiry",
       "displayTitle": "King, G and Keohane, R.O and Verba, S (1994). Designing social inquiry — Princeton University Press",
-      "mtimeMs": 1764317423909.8496,
+      "mtimeMs": 1764331895167.2712,
       "category": "7.1-Read-once-background"
     },
     {
@@ -478,7 +478,7 @@
       "url": "",
       "citation_key": "Latour1987ScienceActionHow",
       "displayTitle": "Latour, Bruno (1987). Science in action: how to follow scientists and engineers through society — Harvard University Press",
-      "mtimeMs": 1764317423910.2966,
+      "mtimeMs": 1764331895167.5786,
       "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
     },
     {
@@ -493,7 +493,7 @@
       "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
       "citation_key": "Vaughan2017PracticebasedDesignResearch",
       "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
-      "mtimeMs": 1764317423915.2063,
+      "mtimeMs": 1764331895172.366,
       "category": "5.1-Practice-led-design-research"
     },
     {
@@ -508,7 +508,7 @@
       "url": "",
       "citation_key": "Pask1976ConversationTheoryApplications",
       "displayTitle": "Pask, Gordon (1976). Conversation theory: applications in education and epistemology — Elsevier",
-      "mtimeMs": 1764317423911.2139,
+      "mtimeMs": 1764331895168.2988,
       "category": "5.2-Cybernetics-and-conversation-theory"
     },
     {
@@ -523,7 +523,7 @@
       "url": "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf",
       "citation_key": "Pask1961NaturalHistoryNetworks",
       "displayTitle": "Pask, Gordon (1961). The natural history of networks — Cybernetica",
-      "mtimeMs": 1764317423910.7534,
+      "mtimeMs": 1764331895167.8552,
       "category": "5.2-Cybernetics-and-conversation-theory"
     },
     {
@@ -538,7 +538,7 @@
       "url": "",
       "citation_key": "Pavitt2012InputOutputDesign",
       "displayTitle": "Pavitt, Jane (2012). Input/Output: design research and systems thinking — The perfect place to grow: 175 years of the Royal College of Art",
-      "mtimeMs": 1764317423911.6755,
+      "mtimeMs": 1764331895168.796,
       "category": "5.2-Cybernetics-and-conversation-theory"
     },
     {
@@ -553,7 +553,7 @@
       "url": "",
       "citation_key": "PerksOralHistoryReader",
       "displayTitle": "Perks, Robert; Thomson, Alistair (eds.) (2016). The oral history reader — Routledge",
-      "mtimeMs": 1764317423911.94,
+      "mtimeMs": 1764331895169.0352,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -568,7 +568,7 @@
       "url": "",
       "citation_key": "Portelli1991HeDeathLuigi",
       "displayTitle": "Portelli, Alessandro (1991). The death of Luigi Trastulli, and other stories",
-      "mtimeMs": 1764317423912.19,
+      "mtimeMs": 1764331895169.273,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -583,7 +583,7 @@
       "url": "",
       "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
       "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
-      "mtimeMs": 1764317423912.4785,
+      "mtimeMs": 1764331895169.5415,
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
@@ -598,7 +598,7 @@
       "url": "",
       "citation_key": "Ritchie2014DoingOralHistory",
       "displayTitle": "Ritchie, Donald A (2014). Doing oral history — Oxford University Press",
-      "mtimeMs": 1764317423913.2957,
+      "mtimeMs": 1764331895170.3367,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -613,7 +613,7 @@
       "url": "",
       "citation_key": "Ritchie2011OxfordHandbookOral",
       "displayTitle": "Ritchie, Donald A (2011). The Oxford handbook of oral history — Oxford University Press",
-      "mtimeMs": 1764317423912.9382,
+      "mtimeMs": 1764331895169.9893,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -628,7 +628,7 @@
       "url": "https://osf.io/a3d6z",
       "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
       "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-      "mtimeMs": 1764317423913.9844,
+      "mtimeMs": 1764331895170.862,
       "category": "4.3-RAG/XAI/provenance"
     },
     {
@@ -643,7 +643,7 @@
       "url": "",
       "citation_key": "Simon2012SocialPlanningDesigning",
       "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
-      "mtimeMs": 1764317423914.3962,
+      "mtimeMs": 1764331895171.5513,
       "category": "5.2-Cybernetics-and-conversation-theory"
     },
     {
@@ -658,7 +658,7 @@
       "url": "",
       "citation_key": "Thompson2017VoiceOralHistory",
       "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
-      "mtimeMs": 1764317423914.8672,
+      "mtimeMs": 1764331895172.1025,
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
@@ -673,7 +673,7 @@
       "url": "",
       "citation_key": "Williamson2018ResearchConcepts",
       "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
-      "mtimeMs": 1764317423915.5068,
+      "mtimeMs": 1764331895172.6252,
       "category": "6.2-DH/computational-methods"
     },
     {
@@ -688,7 +688,7 @@
       "url": "",
       "citation_key": "Yow2005RecordingOralHistory",
       "displayTitle": "Yow, Valerie Raleigh (2005). Recording oral history — AltaMira Press",
-      "mtimeMs": 1764317423915.999,
+      "mtimeMs": 1764331895173.1199,
       "category": "6.1-Archival-and-oral-history-methods"
     }
   ],
@@ -706,7 +706,7 @@
         "url": "",
         "citation_key": "AbramsTransformingOralHistory",
         "displayTitle": "Abrams, Lynn. Transforming oral history — The {{Voice}",
-        "mtimeMs": 1764317423895.6902,
+        "mtimeMs": 1764331895152.1816,
         "category": "6.1-Archival-and-oral-history-methods"
       },
       {
@@ -721,7 +721,7 @@
         "url": "https://www.wired.com/2004/10/tail/",
         "citation_key": "Anderson2004LongTail",
         "displayTitle": "Anderson, Chris (2004). The long tail — Wired",
-        "mtimeMs": 1764317423897.5898,
+        "mtimeMs": 1764331895155.4148,
         "category": "4.2-Digital-libraries/long-tail/discovery"
       },
       {
@@ -736,7 +736,7 @@
         "url": "",
         "citation_key": "Archer2005FrameworkDesignDesign",
         "displayTitle": "Archer, Bruce and Baynes, Ken and Roberts, Phil (2005). A framework for design and design education: a reader containing key papers from the 1970s and 80s — DATA",
-        "mtimeMs": 1764317423899.9617,
+        "mtimeMs": 1764331895157.5,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -751,7 +751,7 @@
         "url": "",
         "citation_key": "Archer1995NatureResearch",
         "displayTitle": "Archer, L Bruce (1995). The nature of research — Co-design, interdisciplinary journal of design",
-        "mtimeMs": 1764317423899.4949,
+        "mtimeMs": 1764331895157.1108,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -766,7 +766,7 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-        "mtimeMs": 1764317423898.9587,
+        "mtimeMs": 1764331895156.724,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -781,7 +781,7 @@
         "url": "",
         "citation_key": "Archer1968StructureDesignProcesses",
         "displayTitle": "Archer, L Bruce (1968). The structure of design processes",
-        "mtimeMs": 1764317423898.3948,
+        "mtimeMs": 1764331895156.2239,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -796,7 +796,7 @@
         "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/editorials/26",
         "citation_key": "Atkinson2016IntroductionDesignResearch",
         "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
-        "mtimeMs": 1764317423900.3574,
+        "mtimeMs": 1764331895157.8235,
         "category": "2.2-Design-historiography-and-canon-critiques"
       }
     ],
@@ -813,7 +813,7 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: classification and its consequences — MIT Press",
-        "mtimeMs": 1764317423900.7646,
+        "mtimeMs": 1764331895158.283,
         "category": "3.2-Classification-as-ethics/politics"
       },
       {
@@ -828,7 +828,7 @@
         "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
         "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
         "displayTitle": "Boyd Davis, Stephen (2024). Design as an interesting phenomenon — Creative {{Simulations}",
-        "mtimeMs": 1764317423902.578,
+        "mtimeMs": 1764331895160.0574,
         "category": "2.1-DDR-primary/secondary-histories"
       },
       {
@@ -843,7 +843,7 @@
         "url": "",
         "citation_key": "BoydDavis2017DialogueRealworldOperational",
         "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model-the realities of design in Bruce Archer — Design Studies",
-        "mtimeMs": 1764317423901.3167,
+        "mtimeMs": 1764331895158.9714,
         "category": "2.1-DDR-primary/secondary-histories"
       }
     ],
@@ -860,7 +860,7 @@
         "url": "https://www.routledge.com/The-Routledge-International-Handbook-of-Practice-Based-Research/Vear/p/book/9781032182209",
         "citation_key": "RoutledgeInternationalHandbook",
         "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
-        "mtimeMs": 1764317423913.601,
+        "mtimeMs": 1764331895170.5977,
         "category": "5.1-Practice-led-design-research"
       },
       {
@@ -875,7 +875,7 @@
         "url": "",
         "citation_key": "Rheinberger2012ExperimentalSystemsEpistemic",
         "displayTitle": "Rheinberger, Hans-Jörg (2012). Experimental systems — Mapping design research",
-        "mtimeMs": 1764317423912.4785,
+        "mtimeMs": 1764331895169.5415,
         "category": "1.2-Critiques/anti-method/drift"
       },
       {
@@ -890,7 +890,7 @@
         "url": "",
         "citation_key": "Ritchie2014DoingOralHistory",
         "displayTitle": "Ritchie, Donald A (2014). Doing oral history — Oxford University Press",
-        "mtimeMs": 1764317423913.2957,
+        "mtimeMs": 1764331895170.3367,
         "category": "6.1-Archival-and-oral-history-methods"
       },
       {
@@ -905,7 +905,7 @@
         "url": "",
         "citation_key": "Ritchie2011OxfordHandbookOral",
         "displayTitle": "Ritchie, Donald A (2011). The Oxford handbook of oral history — Oxford University Press",
-        "mtimeMs": 1764317423912.9382,
+        "mtimeMs": 1764331895169.9893,
         "category": "6.1-Archival-and-oral-history-methods"
       }
     ],
@@ -922,7 +922,7 @@
         "url": "",
         "citation_key": "Cross2007FortyYearsDesign",
         "displayTitle": "Cross, N. (2007). Forty Years of Design Research — Design Studies",
-        "mtimeMs": 1764317423903.759,
+        "mtimeMs": 1764331895161.4497,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -937,7 +937,7 @@
         "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
         "citation_key": "Cross1993HistoryDesignMethodology",
         "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
-        "mtimeMs": 1764317423903.4043,
+        "mtimeMs": 1764331895161.0808,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -952,7 +952,7 @@
         "url": "",
         "citation_key": "Cross1982DesignerlyWaysKnowing",
         "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-        "mtimeMs": 1764317423903.077,
+        "mtimeMs": 1764331895160.6194,
         "category": "1.1-Canonical-methods-texts"
       }
     ],
@@ -969,7 +969,7 @@
         "url": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html",
         "citation_key": "Dempsey2006LibrariesLongTail",
         "displayTitle": "Dempsey, Lorcan (2006). Libraries and the Long Tail — D-Lib Magazine",
-        "mtimeMs": 1764317423904.1755,
+        "mtimeMs": 1764331895161.845,
         "category": "4.2-Digital-libraries/long-tail/discovery"
       },
       {
@@ -984,7 +984,7 @@
         "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/researchpapers/82",
         "citation_key": "Dorst2016DesignPracticeDesign",
         "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
-        "mtimeMs": 1764317423904.6506,
+        "mtimeMs": 1764331895162.331,
         "category": "1.2-Critiques/anti-method/drift"
       }
     ],
@@ -1001,7 +1001,7 @@
         "url": "https://www.oclc.org/research/publications/library/2012/2012-08.pdf",
         "citation_key": "Erway2012SwattingLongTail",
         "displayTitle": "Erway, Ricky (2012). Swatting the long tail of digital media: a call for collaboration — OCLC Research",
-        "mtimeMs": 1764317423904.955,
+        "mtimeMs": 1764331895162.6282,
         "category": "4.2-Digital-libraries/long-tail/discovery"
       }
     ],
@@ -1018,7 +1018,7 @@
         "url": "",
         "citation_key": "Fallan2010DesignHistoryUnderstanding",
         "displayTitle": "Fallan, Kjetil (2010). Design history: understanding theory and method — Design History: Understanding Theory and Method",
-        "mtimeMs": 1764317423905.4092,
+        "mtimeMs": 1764331895163.1238,
         "category": "2.2-Design-historiography-and-canon-critiques"
       },
       {
@@ -1033,7 +1033,7 @@
         "url": "",
         "citation_key": "Findeli2012SearchingDesignResearch",
         "displayTitle": "Findeli, Alain (2012). Searching for design research questions — Mapping design research",
-        "mtimeMs": 1764317423905.6814,
+        "mtimeMs": 1764331895163.3835,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -1048,7 +1048,7 @@
         "url": "",
         "citation_key": "Frayling1993ResearchArtDesign",
         "displayTitle": "Frayling, Christopher (1993). Research in art and design — Royal College of Art",
-        "mtimeMs": 1764317423905.9458,
+        "mtimeMs": 1764331895163.713,
         "category": "5.1-Practice-led-design-research"
       },
       {
@@ -1063,7 +1063,7 @@
         "url": "",
         "citation_key": "Freire2014PedagogyOppressed30th",
         "displayTitle": "Freire, Paulo and Macedo, Donaldo P. (2014). Pedagogy of the oppressed: 30th anniversary edition — Bloomsbury Publishing",
-        "mtimeMs": 1764317423906.303,
+        "mtimeMs": 1764331895163.95,
         "category": "7.1-Read-once-background"
       }
     ],
@@ -1080,7 +1080,7 @@
         "url": "https://www.tandfonline.com/doi/full/10.1080/14606925.2022.2112861",
         "citation_key": "Galdon2022UnFraylingDesignResearch",
         "displayTitle": "Galdon, Fernando and Hall, Ashley (2022). (Un)Frayling design research in design education for the 21st century — The Design Journal",
-        "mtimeMs": 1764317423906.6077,
+        "mtimeMs": 1764331895164.275,
         "category": "5.1-Practice-led-design-research"
       },
       {
@@ -1095,7 +1095,7 @@
         "url": "",
         "citation_key": "Geertz2009InterpretationCulturesSelected",
         "displayTitle": "Geertz, Clifford (2009). The interpretation of cultures: selected essays — The Interpretation of Cultures: Selected Essays",
-        "mtimeMs": 1764317423906.9512,
+        "mtimeMs": 1764331895164.5642,
         "category": "7.1-Read-once-background"
       },
       {
@@ -1110,7 +1110,7 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/B9780081022207000042",
         "citation_key": "Gilliland2018ArchivalRecordkeepingResearch",
         "displayTitle": "Gilliland, Anne J. and McKemmish, Sue (2018). Archival and recordkeeping research — Research {{Methods}",
-        "mtimeMs": 1764317423907.2795,
+        "mtimeMs": 1764331895164.8875,
         "category": "6.1-Archival-and-oral-history-methods"
       },
       {
@@ -1125,7 +1125,7 @@
         "url": "https://www.pangaro.com/glanville/Glanville-SECOND_ORDER_CYBERNETICS.pdf",
         "citation_key": "Glanville2007SecondOrderCybernetics",
         "displayTitle": "Glanville, Ranulph (2007). Second order cybernetics — Kybernetes",
-        "mtimeMs": 1764317423907.6777,
+        "mtimeMs": 1764331895165.1782,
         "category": "5.2-Cybernetics-and-conversation-theory"
       },
       {
@@ -1140,7 +1140,7 @@
         "url": "https://papers.ssrn.com/s",
         "citation_key": "Gooding2022CriticallyAddressableData",
         "displayTitle": "Gooding, Paul (2022). Towards critically addressable data for digital library user studies — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-        "mtimeMs": 1764317423908.0454,
+        "mtimeMs": 1764331895165.4666,
         "category": "3.2-Classification-as-ethics/politics"
       }
     ],
@@ -1157,7 +1157,7 @@
         "url": "",
         "citation_key": "Horkheimer2002CriticalTheorySelected",
         "displayTitle": "Horkheimer, Max and Horkheimer, Max (2002). Critical theory selected essays — Critical Theory: Selected Essays",
-        "mtimeMs": 1764317423908.482,
+        "mtimeMs": 1764331895166.0195,
         "category": "7.1-Read-once-background"
       }
     ],
@@ -1174,7 +1174,7 @@
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
         "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-        "mtimeMs": 1764317423908.803,
+        "mtimeMs": 1764331895166.3972,
         "category": "1.2-Critiques/anti-method/drift"
       },
       {
@@ -1189,7 +1189,7 @@
         "url": "",
         "citation_key": "Jones1992DesignMethods",
         "displayTitle": "Jones, J. Christopher (1992). Design methods — John Wiley & Sons",
-        "mtimeMs": 1764317423909.092,
+        "mtimeMs": 1764331895166.6545,
         "category": "1.1-Canonical-methods-texts"
       }
     ],
@@ -1206,7 +1206,7 @@
         "url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2024-0042/html",
         "citation_key": "Karp2024InterconnectednessAllThings",
         "displayTitle": "Karp, St John (2024). The interconnectedness of all things: understanding digital collections through file similarity — Preservation, Digital Technology & Culture",
-        "mtimeMs": 1764317423909.4785,
+        "mtimeMs": 1764331895167.0173,
         "category": "4.1-Linked-data-and-graph-ontologies"
       },
       {
@@ -1221,7 +1221,7 @@
         "url": "",
         "citation_key": "King1994DesigningSocialInquiry",
         "displayTitle": "King, G and Keohane, R.O and Verba, S (1994). Designing social inquiry — Princeton University Press",
-        "mtimeMs": 1764317423909.8496,
+        "mtimeMs": 1764331895167.2712,
         "category": "7.1-Read-once-background"
       }
     ],
@@ -1238,7 +1238,7 @@
         "url": "",
         "citation_key": "Latour1987ScienceActionHow",
         "displayTitle": "Latour, Bruno (1987). Science in action: how to follow scientists and engineers through society — Harvard University Press",
-        "mtimeMs": 1764317423910.2966,
+        "mtimeMs": 1764331895167.5786,
         "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
       }
     ],
@@ -1255,7 +1255,7 @@
         "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
         "citation_key": "Vaughan2017PracticebasedDesignResearch",
         "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
-        "mtimeMs": 1764317423915.2063,
+        "mtimeMs": 1764331895172.366,
         "category": "5.1-Practice-led-design-research"
       }
     ],
@@ -1272,7 +1272,7 @@
         "url": "",
         "citation_key": "Pask1976ConversationTheoryApplications",
         "displayTitle": "Pask, Gordon (1976). Conversation theory: applications in education and epistemology — Elsevier",
-        "mtimeMs": 1764317423911.2139,
+        "mtimeMs": 1764331895168.2988,
         "category": "5.2-Cybernetics-and-conversation-theory"
       },
       {
@@ -1287,7 +1287,7 @@
         "url": "https://www.pangaro.com/pask/Pask-1960-TheNaturalHistoryofNetworks.pdf",
         "citation_key": "Pask1961NaturalHistoryNetworks",
         "displayTitle": "Pask, Gordon (1961). The natural history of networks — Cybernetica",
-        "mtimeMs": 1764317423910.7534,
+        "mtimeMs": 1764331895167.8552,
         "category": "5.2-Cybernetics-and-conversation-theory"
       },
       {
@@ -1302,7 +1302,7 @@
         "url": "",
         "citation_key": "Pavitt2012InputOutputDesign",
         "displayTitle": "Pavitt, Jane (2012). Input/Output: design research and systems thinking — The perfect place to grow: 175 years of the Royal College of Art",
-        "mtimeMs": 1764317423911.6755,
+        "mtimeMs": 1764331895168.796,
         "category": "5.2-Cybernetics-and-conversation-theory"
       },
       {
@@ -1317,7 +1317,7 @@
         "url": "",
         "citation_key": "PerksOralHistoryReader",
         "displayTitle": "Perks, Robert; Thomson, Alistair (eds.) (2016). The oral history reader — Routledge",
-        "mtimeMs": 1764317423911.94,
+        "mtimeMs": 1764331895169.0352,
         "category": "6.1-Archival-and-oral-history-methods"
       },
       {
@@ -1332,7 +1332,7 @@
         "url": "",
         "citation_key": "Portelli1991HeDeathLuigi",
         "displayTitle": "Portelli, Alessandro (1991). The death of Luigi Trastulli, and other stories",
-        "mtimeMs": 1764317423912.19,
+        "mtimeMs": 1764331895169.273,
         "category": "6.1-Archival-and-oral-history-methods"
       }
     ],
@@ -1349,7 +1349,7 @@
         "url": "https://osf.io/a3d6z",
         "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
         "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-        "mtimeMs": 1764317423913.9844,
+        "mtimeMs": 1764331895170.862,
         "category": "4.3-RAG/XAI/provenance"
       },
       {
@@ -1364,7 +1364,7 @@
         "url": "",
         "citation_key": "Simon2012SocialPlanningDesigning",
         "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
-        "mtimeMs": 1764317423914.3962,
+        "mtimeMs": 1764331895171.5513,
         "category": "5.2-Cybernetics-and-conversation-theory"
       }
     ],
@@ -1381,7 +1381,7 @@
         "url": "",
         "citation_key": "Thompson2017VoiceOralHistory",
         "displayTitle": "Thompson, Paul (2017). The voice of the past — Oxford University Press",
-        "mtimeMs": 1764317423914.8672,
+        "mtimeMs": 1764331895172.1025,
         "category": "6.1-Archival-and-oral-history-methods"
       }
     ],
@@ -1398,7 +1398,7 @@
         "url": "",
         "citation_key": "Williamson2018ResearchConcepts",
         "displayTitle": "Williamson, Kirsty and Johanson, Graeme (2018). Research methods: information, systems, and contexts — Research {{Methods}",
-        "mtimeMs": 1764317423915.5068,
+        "mtimeMs": 1764331895172.6252,
         "category": "6.2-DH/computational-methods"
       }
     ],
@@ -1415,7 +1415,7 @@
         "url": "",
         "citation_key": "Yow2005RecordingOralHistory",
         "displayTitle": "Yow, Valerie Raleigh (2005). Recording oral history — AltaMira Press",
-        "mtimeMs": 1764317423915.999,
+        "mtimeMs": 1764331895173.1199,
         "category": "6.1-Archival-and-oral-history-methods"
       }
     ]

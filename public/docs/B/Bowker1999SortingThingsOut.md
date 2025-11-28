@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 3.2-Classification-as-ethics/politics---
 # Scope of this note
 <!-- Optional: one or two lines stating which chapters/sections this note focuses on and how it integrates with the project spine. -->

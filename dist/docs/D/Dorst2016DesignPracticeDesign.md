@@ -9,9 +9,8 @@ url: "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/researc
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 09, 2025, 06:05 AM"
-category: 1.2-Critiques/anti-method/drift
----
+last_updated: "Nov 28, 2025, 12:11 PM"
+category: 1.2-Critiques/anti-method/drift---
 # Scope of this note
 This note critically reviews Dorst’s paper by situating it against three persistent themes in the PhD project: (1) the DDR’s historical ambition to create a systematic science of design and its collapse in practice, (2) Cross’s framing of designerly ways of knowing as epistemically distinct, and (3) the project’s interpretivist–critical and taxonomic frameworks for reopening DDR classifications under contemporary complexity. Dorst’s notion of ‘academic design’ is read not as an endpoint but as a discursive gesture that requires operationalisation. The note embeds Dorst’s argument into the integrated research spine, emphasising how his claims must be translated into criteria, methods and artefacts if they are to advance beyond rhetoric.
 

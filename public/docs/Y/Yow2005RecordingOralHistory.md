@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 6.1-Archival-and-oral-history-methods---
 This note treats the second edition of Valerie Raleigh Yow’s *Recording Oral History: A Guide for the Humanities and Social Sciences* as a whole, with particular emphasis on the chapters that define oral history, address memory, ethics and power, and specify project design, interviewing, analysis and interpretation. The focus is on extracting a robust method spine and conceptual vocabulary for an oral-history strand within an institutionally focused, design-led project.
 

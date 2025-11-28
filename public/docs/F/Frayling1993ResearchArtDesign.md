@@ -9,7 +9,7 @@ url: ''
 bibliography: ../../refs/library.bib
 csl: 'https://www.zotero.org/styles/harvard-cite-them-right'
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 5.1-Practice-led-design-research---
 # Scope of this note
 This extended note critically analyses Christopher Frayling’s *Research in Art and Design* (1993) as a pivotal institutional text produced at the Royal College of Art during the post-DDR period. It codifies three modes of creative research—*into*, *through* and *for*—to legitimise practice within the university system. The reading situates this paper within the project’s interpretive–historical frame as a reformulation rather than a rupture of Bruce Archer’s systematic design paradigm: Frayling translates Archer’s procedural rationality into a rhetorically pluralist but administratively instrumental taxonomy.

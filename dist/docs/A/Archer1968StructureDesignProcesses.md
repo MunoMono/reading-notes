@@ -9,9 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 09, 2025, 06:05 AM"
-category: 1.1-Canonical-methods-texts
----
+last_updated: "Nov 28, 2025, 12:11 PM"
+category: 1.1-Canonical-methods-texts---
 ## Purpose and aim
 ### What research question or objective is being addressed?
 Archer’s thesis submitted to the Royal College of Art in 1968 sets out to create a **systematic, generalisable framework for the design process**. Its explicit aim is to elevate design from a craft‑based, intuitive activity to a **logical and explicit discipline** that can stand alongside science and the humanities. His central research question asks: *can designing be formalised as a science, expressed in models, notations and calculi, while remaining sensitive to the realities of practice?*  

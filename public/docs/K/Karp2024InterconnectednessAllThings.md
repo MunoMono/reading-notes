@@ -9,7 +9,7 @@ url: "https://www.degruyter.com/document/doi/10.1515/pdtc-2024-0042/html"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 4.1-Linked-data-and-graph-ontologies---
 # Scope of this note
 This reading note examines Karp’s (2024) article *“The Interconnectedness of All Things: Understanding Digital Collections Through File Similarity”* in *Preservation, Digital Technology & Culture*. The article bridges archival theory, semantic web standards, and computational methods to propose a proof-of-concept for networked archival description (“Eltrovo”). The note situates this within the DDR project’s concern with classification, epistemic drift, and digital taxonomies — reinterpreting the fonds as a relational rather than hierarchical concept.

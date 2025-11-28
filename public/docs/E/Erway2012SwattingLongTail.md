@@ -8,7 +8,7 @@ url: "https://www.oclc.org/research/publications/library/2012/2012-08.pdf"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 4.2-Digital-libraries/long-tail/discovery---
 # Scope of this note
 Focuses on Erway’s call for collaborative infrastructures to manage the *long tail* of born-digital media in archives. Read here as a blueprint for managing the DDR archive’s heterogeneous, non-standard material through distributed expertise and networked capacity.

@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 1.2-Critiques/anti-method/drift---
 # Scope of this note
 Examines Rheinberger’s concept of “experimental systems” as epistemic frameworks where knowledge emerges through drift, uncertainty and the interplay of material and conceptual practices. The note connects this to the DDR’s own culture of experimentation and the project’s use of computational prototypes as sites of epistemic production.

@@ -9,7 +9,7 @@ url: "https://osf.io/a3d6z"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 4.3-RAG/XAI/provenance---
 # Scope of this note
 Focuses on how Siddharth and Luo’s *double-hump model* operationalises 'trustworthy AI' principles through design and innovation processes. The paper provides an integrative bridge between engineering-driven AI governance and design-led methods of knowledge structuring, highly relevant to the DDR project’s RAG-based framework for archival trust, explainability, and traceability.

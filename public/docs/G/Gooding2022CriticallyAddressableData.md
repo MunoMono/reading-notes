@@ -9,7 +9,7 @@ url: "https://papers.ssrn.com/s"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 08:07 AM"
+last_updated: "Nov 28, 2025, 12:11 PM"
 category: 3.2-Classification-as-ethics/politics---
 # Scope of this note
 Engages with Chapter 4 of the edited volume, which develops the argument for *critical addressability* in relation to digital library catalogue data. The chapter draws on Gooding’s work in the **Digital Library Futures (DLF)** project and sets out a conceptual framework that resonates directly with the project’s archival and methodological concerns. For the DDR research spine, this text functions at the intersection of **archival analysis, computational modelling and reflective synthesis**.
