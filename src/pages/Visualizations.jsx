@@ -112,39 +112,57 @@ export default function Visualizations() {
     ];
     const color = d3.scaleOrdinal(colorPalette);
 
-    // Tooltip
-    const tooltip = d3
-      .select("body")
-      .append("div")
-      .attr("class", "d3-tooltip")
-      .style("opacity", 0);
+    // Create tooltip element
+    let tooltip = d3.select("body").select(".bar-tooltip");
+    if (tooltip.empty()) {
+      tooltip = d3
+        .select("body")
+        .append("div")
+        .attr("class", "d3-tooltip bar-tooltip");
+    }
+    tooltip
+      .style("position", "absolute")
+      .style("opacity", "0")
+      .style("pointer-events", "none")
+      .style("z-index", "10000");
 
-    // Bars with rounded tops
-    svg
+    // Bars with rounded tops - create them first without transition
+    const bars = svg
       .selectAll(".bar")
       .data(chartData)
       .enter()
       .append("rect")
       .attr("class", "bar")
       .attr("x", (d) => x(d.category))
-      .attr("y", height)
       .attr("width", x.bandwidth())
-      .attr("height", 0)
       .attr("rx", 2)
       .attr("fill", (d) => color(d.category))
-      .attr("opacity", 0.9)
+      .style("cursor", "pointer")
+      .attr("y", height)
+      .attr("height", 0);
+
+    // Add interactivity to bars
+    bars
       .on("mouseover", function (event, d) {
-        d3.select(this).attr("opacity", 1);
+        d3.select(this).style("opacity", "0.8");
         tooltip
-          .style("opacity", 1)
           .html(`<strong>${d.category}</strong><br/>${d.count} ${d.count === 1 ? 'entry' : 'entries'}`)
-          .style("left", event.pageX + 15 + "px")
-          .style("top", event.pageY - 35 + "px");
+          .style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 35) + "px")
+          .style("opacity", "1");
+      })
+      .on("mousemove", function (event) {
+        tooltip
+          .style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 35) + "px");
       })
       .on("mouseout", function () {
-        d3.select(this).attr("opacity", 0.9);
-        tooltip.style("opacity", 0);
-      })
+        d3.select(this).style("opacity", "1");
+        tooltip.style("opacity", "0");
+      });
+
+    // Animate bars after setting up event handlers
+    bars
       .transition()
       .duration(1000)
       .ease(d3.easeCubicOut)
@@ -172,7 +190,21 @@ export default function Visualizations() {
       .style("text-anchor", "end")
       .style("font-size", isMobile ? "9px" : "11px")
       .attr("dx", "-0.5em")
-      .attr("dy", "0.15em");
+      .attr("dy", "0.15em")
+      .style("cursor", "pointer")
+      .on("mouseover", function (event, d) {
+        const categoryData = chartData.find(item => item.category === d);
+        if (categoryData) {
+          tooltip
+            .style("opacity", 1)
+            .html(`<strong>${categoryData.category}</strong><br/>${categoryData.count} ${categoryData.count === 1 ? 'entry' : 'entries'}`)
+            .style("left", event.pageX + 15 + "px")
+            .style("top", event.pageY - 35 + "px");
+        }
+      })
+      .on("mouseout", function () {
+        tooltip.style("opacity", 0);
+      });
 
     // Y axis
     svg

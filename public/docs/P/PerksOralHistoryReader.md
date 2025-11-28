@@ -9,9 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 28, 2025, 11:00 AM"
-category: 6.1-Archival-and-oral-history-methods
----
+last_updated: "Nov 28, 2025, 08:07 AM"
+category: 6.1-Archival-and-oral-history-methods---
 # Scope of this note
 Interrogates the Reader’s editorial introductions and key chapters across five parts (critical developments; interviewing; advocacy/empowerment; interpreting memories; making histories). The note emphasises how oral history is simultaneously **method** (co-constructed narrative), **ethics** (rights, consent, care), and **infrastructure** (formats, metadata, access). Mapped directly to DDR’s oral-history strand and the multimodal RAG pipeline.
 

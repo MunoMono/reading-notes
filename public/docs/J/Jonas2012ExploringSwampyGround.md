@@ -9,9 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 28, 2025, 11:00 AM"
-category: 1.2-Critiques/anti-method/drift
----
+last_updated: "Nov 28, 2025, 08:07 AM"
+category: 1.2-Critiques/anti-method/drift---
 # Scope of this note
 Focuses on Jonas’s articulation of design research as a pluralistic epistemology, navigating between scientific rigour and designerly relevance. It connects directly to the DDR’s epistemic drift (1965–85) and supports the project’s taxonomy-led analysis of pluralism, reflexivity, and “designerly knowing.”
 

@@ -7,6 +7,11 @@ import {
   HeaderMenuItem,
   HeaderGlobalBar,
   HeaderGlobalAction,
+  HeaderMenu,
+  HeaderMenuButton,
+  SideNav,
+  SideNavItems,
+  SideNavLink,
 } from "@carbon/react";
 import { Moon, Sun } from "@carbon/icons-react";
 import { useNavigate } from "react-router-dom";
@@ -15,9 +20,20 @@ function HeaderBar({ theme, toggleTheme }) {
   const isDark = theme === "g90";
   const base = import.meta.env.BASE_URL || "/";
   const navigate = useNavigate();
+  const [isSideNavExpanded, setIsSideNavExpanded] = React.useState(false);
+
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsSideNavExpanded(false);
+  };
 
   return (
     <Header aria-label="Reading notes">
+      <HeaderMenuButton
+        aria-label="Open menu"
+        onClick={() => setIsSideNavExpanded(!isSideNavExpanded)}
+        isActive={isSideNavExpanded}
+      />
       <HeaderName href={base} prefix="">
         Graham Newman reading notes
       </HeaderName>
@@ -30,6 +46,22 @@ function HeaderBar({ theme, toggleTheme }) {
           Visualizations
         </HeaderMenuItem>
       </HeaderNavigation>
+
+      <SideNav
+        aria-label="Side navigation"
+        expanded={isSideNavExpanded}
+        isPersistent={false}
+        onOverlayClick={() => setIsSideNavExpanded(false)}
+      >
+        <SideNavItems>
+          <SideNavLink onClick={() => handleNavigation("/")}>
+            Notes
+          </SideNavLink>
+          <SideNavLink onClick={() => handleNavigation("/visualizations")}>
+            Visualizations
+          </SideNavLink>
+        </SideNavItems>
+      </SideNav>
 
       <HeaderGlobalBar>
         <HeaderGlobalAction

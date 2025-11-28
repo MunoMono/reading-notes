@@ -9,9 +9,8 @@ url: "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 13, 2025, 09:04 AM"
-category: 4.2-Digital-libraries/long-tail/discovery
----
+last_updated: "Nov 28, 2025, 08:07 AM"
+category: 4.2-Digital-libraries/long-tail/discovery---
 # Scope of this note
 Focuses on Dempsey’s framing of *the Long Tail* as a logistical and epistemic model for libraries in the network age. The reading is used here to justify the DDR archive’s value proposition: scaling access to a heterogeneous corpus transforms latent, low-use material into an active research resource.
 

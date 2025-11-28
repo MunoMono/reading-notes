@@ -9,9 +9,8 @@ url: ""
 bibliography: ""
 csl: ""
 link-citations: false
-last_updated: "Nov 10, 2025, 12:24 PM"
-category: 6.1-Archival-and-oral-history-methods
----
+last_updated: "Nov 28, 2025, 08:07 AM"
+category: 6.1-Archival-and-oral-history-methods---
 # Scope of this note
 Chapters 7 (pp. 1–51), 8 (pp. 52–79), 10 (pp. 80–104), 11 (pp. 105–123), and 12 (pp. 124–165) as they appear in the provided PDF. The note foregrounds evidential standards, interview ethics, post-processing, and interpretation, and translates these into design-research infrastructure for the DDR archive.
 

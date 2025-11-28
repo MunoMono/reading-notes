@@ -9,9 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Oct 28, 2025, 11:00 AM"
-category: 5.2-Cybernetics-and-conversation-theory
----
+last_updated: "Nov 28, 2025, 08:07 AM"
+category: 5.2-Cybernetics-and-conversation-theory---
 # Scope of this note
 Focuses on Simon’s conception of design as a process of continual adaptation—an “evolving artifact” shaped through feedback, bounded rationality, and iterative learning. This provides the historical and conceptual bridge between Archer’s systematicism and contemporary understandings of design as a reflexive, computational system.
 
