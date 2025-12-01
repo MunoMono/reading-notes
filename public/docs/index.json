@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-28T12:11:35.295Z",
+  "updatedAt": "2025-12-01T15:26:32.944Z",
   "entries": [
     {
       "letter": "A",
@@ -105,6 +105,21 @@
       "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
       "mtimeMs": 1764331895157.8235,
       "category": "2.2-Design-historiography-and-canon-critiques"
+    },
+    {
+      "letter": "S",
+      "slug": "Sheth2011LinkedDataStory",
+      "path": "/docs/S/Sheth2011LinkedDataStory.md",
+      "title": "Linked data: the story so far",
+      "authors": "Bizer, C.; Heath, T.; Berners-Lee, T.",
+      "year": "2011",
+      "journal": "IGI Global",
+      "doi": "10.4018/978-1-60960-593-3",
+      "url": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-60960-593-3",
+      "citation_key": "Sheth2011LinkedDataStory",
+      "displayTitle": "Bizer, C.; Heath, T.; Berners-Lee, T. (2011). Linked data: the story so far — IGI Global",
+      "mtimeMs": 1764602792825.9805,
+      "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
       "letter": "B",
@@ -497,6 +512,21 @@
       "category": "5.1-Practice-led-design-research"
     },
     {
+      "letter": "M",
+      "slug": "Medawar1969InductionIntuitionScientific",
+      "path": "/docs/M/Medawar1969InductionIntuitionScientific.md",
+      "title": "Induction and intuition in scientific thought",
+      "authors": "Medawar, P.B",
+      "year": "1969",
+      "journal": "Methuen \\& Co Ltd",
+      "doi": "",
+      "url": "",
+      "citation_key": "Medawar1969InductionIntuitionScientific",
+      "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
+      "mtimeMs": 1764602792822.3313,
+      "category": "1.2-Critiques/anti-method/drift"
+    },
+    {
       "letter": "P",
       "slug": "Pask1976ConversationTheoryApplications",
       "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
@@ -798,6 +828,53 @@
         "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
         "mtimeMs": 1764331895157.8235,
         "category": "2.2-Design-historiography-and-canon-critiques"
+      }
+    ],
+    "S": [
+      {
+        "letter": "S",
+        "slug": "Sheth2011LinkedDataStory",
+        "path": "/docs/S/Sheth2011LinkedDataStory.md",
+        "title": "Linked data: the story so far",
+        "authors": "Bizer, C.; Heath, T.; Berners-Lee, T.",
+        "year": "2011",
+        "journal": "IGI Global",
+        "doi": "10.4018/978-1-60960-593-3",
+        "url": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-60960-593-3",
+        "citation_key": "Sheth2011LinkedDataStory",
+        "displayTitle": "Bizer, C.; Heath, T.; Berners-Lee, T. (2011). Linked data: the story so far — IGI Global",
+        "mtimeMs": 1764602792825.9805,
+        "category": "4.1-Linked-data-and-graph-ontologies"
+      },
+      {
+        "letter": "S",
+        "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
+        "title": "Data-driven innovation for trustworthy AI",
+        "authors": "Siddharth, L. and Luo, Jianxi",
+        "year": "2025",
+        "journal": "She Ji: The Journal of Design, Economics, and Innovation",
+        "doi": "10.31219/osf.io/a3d6z",
+        "url": "https://osf.io/a3d6z",
+        "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+        "mtimeMs": 1764331895170.862,
+        "category": "4.3-RAG/XAI/provenance"
+      },
+      {
+        "letter": "S",
+        "slug": "Simon2012SocialPlanningDesigning",
+        "path": "/docs/S/Simon2012SocialPlanningDesigning.md",
+        "title": "Social planning",
+        "authors": "Simon, Herbert",
+        "year": "2012",
+        "journal": "Mapping design research",
+        "doi": "",
+        "url": "",
+        "citation_key": "Simon2012SocialPlanningDesigning",
+        "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
+        "mtimeMs": 1764331895171.5513,
+        "category": "5.2-Cybernetics-and-conversation-theory"
       }
     ],
     "B": [
@@ -1259,6 +1336,23 @@
         "category": "5.1-Practice-led-design-research"
       }
     ],
+    "M": [
+      {
+        "letter": "M",
+        "slug": "Medawar1969InductionIntuitionScientific",
+        "path": "/docs/M/Medawar1969InductionIntuitionScientific.md",
+        "title": "Induction and intuition in scientific thought",
+        "authors": "Medawar, P.B",
+        "year": "1969",
+        "journal": "Methuen \\& Co Ltd",
+        "doi": "",
+        "url": "",
+        "citation_key": "Medawar1969InductionIntuitionScientific",
+        "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
+        "mtimeMs": 1764602792822.3313,
+        "category": "1.2-Critiques/anti-method/drift"
+      }
+    ],
     "P": [
       {
         "letter": "P",
@@ -1334,38 +1428,6 @@
         "displayTitle": "Portelli, Alessandro (1991). The death of Luigi Trastulli, and other stories",
         "mtimeMs": 1764331895169.273,
         "category": "6.1-Archival-and-oral-history-methods"
-      }
-    ],
-    "S": [
-      {
-        "letter": "S",
-        "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
-        "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
-        "title": "Data-driven innovation for trustworthy AI",
-        "authors": "Siddharth, L. and Luo, Jianxi",
-        "year": "2025",
-        "journal": "She Ji: The Journal of Design, Economics, and Innovation",
-        "doi": "10.31219/osf.io/a3d6z",
-        "url": "https://osf.io/a3d6z",
-        "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
-        "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-        "mtimeMs": 1764331895170.862,
-        "category": "4.3-RAG/XAI/provenance"
-      },
-      {
-        "letter": "S",
-        "slug": "Simon2012SocialPlanningDesigning",
-        "path": "/docs/S/Simon2012SocialPlanningDesigning.md",
-        "title": "Social planning",
-        "authors": "Simon, Herbert",
-        "year": "2012",
-        "journal": "Mapping design research",
-        "doi": "",
-        "url": "",
-        "citation_key": "Simon2012SocialPlanningDesigning",
-        "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
-        "mtimeMs": 1764331895171.5513,
-        "category": "5.2-Cybernetics-and-conversation-theory"
       }
     ],
     "T": [
