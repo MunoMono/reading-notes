@@ -9,9 +9,8 @@ url: "https://doi.org/10.5281/zenodo.8341519"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 02, 2025, 02:16 PM"
-category: 4.2-Digital-libraries/long-tail/discovery
----
+last_updated: "Dec 02, 2025, 03:07 PM"
+category: 4.2-Digital-libraries/long-tail/discovery---
 # Scope of this note
 Use the Vancouver Statement to frame DDR materials as *collections-as-data* with an explicit ethical, social-justice and infrastructural lens, especially around AI, data sovereignty, climate and labour.
 

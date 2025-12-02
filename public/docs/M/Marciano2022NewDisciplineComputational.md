@@ -9,9 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 02, 2025, 02:56 PM"
-category: 4.3-RAG/XAI/provenance
----
+last_updated: "Dec 02, 2025, 03:07 PM"
+category: 4.3-RAG/XAI/provenance---
 # Scope of this note
 Afterword to *Archives, Access and AI*, used here to frame DDR as part of **Computational Archival Science (CAS)**: big-records analytics, AI/ML pipelines over archives, and the integration of archival and computational thinking.
 

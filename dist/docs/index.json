@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-02T13:16:00.401Z",
+  "updatedAt": "2025-12-02T15:07:06.517Z",
   "entries": [
     {
       "letter": "A",
@@ -118,7 +118,7 @@
       "url": "",
       "citation_key": "Bizer2009LinkedDataStory",
       "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
-      "mtimeMs": 1764681360272.8533,
+      "mtimeMs": 1764688026387.6384,
       "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
@@ -180,6 +180,21 @@
       "displayTitle": "Candy, Linda; Edmonds, Ernest; and Vear, Craig (eds.) (2022). The Routledge international handbook of practice-based research — Routledge & CRC Press",
       "mtimeMs": 1764331895170.5977,
       "category": "5.1-Practice-led-design-research"
+    },
+    {
+      "letter": "C",
+      "slug": "Claeyssens2025PublishingLargeCollections",
+      "path": "/docs/C/Claeyssens2025PublishingLargeCollections.md",
+      "title": "Publishing large collections of digitised printed material",
+      "authors": "Claeyssens, Steven",
+      "year": "2025",
+      "journal": "The Routledge companion to libraries, archives and the digital humanities",
+      "doi": "",
+      "url": "",
+      "citation_key": "Claeyssens2025PublishingLargeCollections",
+      "displayTitle": "Claeyssens, Steven (2025). Publishing large collections of digitised printed material — The Routledge companion to libraries, archives and the digital humanities",
+      "mtimeMs": 1764688026392.353,
+      "category": "4.2-Digital-libraries/long-tail/discovery"
     },
     {
       "letter": "C",
@@ -418,7 +433,7 @@
       "url": "https://link.springer.com/10.1007/s10502-021-09381-0",
       "citation_key": "Hawkins2022ArchivesLinkedData",
       "displayTitle": "Hawkins, Ashleigh (2022). Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web — Archival Science",
-      "mtimeMs": 1764681354774.5532,
+      "mtimeMs": 1764688026395.4353,
       "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
@@ -528,6 +543,21 @@
     },
     {
       "letter": "M",
+      "slug": "Marciano2022NewDisciplineComputational",
+      "path": "/docs/M/Marciano2022NewDisciplineComputational.md",
+      "title": "Towards a new discipline of computational archival science (CAS)",
+      "authors": "Marciano, Richard",
+      "year": "2022",
+      "journal": "Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
+      "doi": "",
+      "url": "",
+      "citation_key": "Marciano2022NewDisciplineComputational",
+      "displayTitle": "Marciano, Richard (2022). Towards a new discipline of computational archival science (CAS) — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
+      "mtimeMs": 1764688026396.615,
+      "category": "4.3-RAG/XAI/provenance"
+    },
+    {
+      "letter": "M",
       "slug": "Medawar1969InductionIntuitionScientific",
       "path": "/docs/M/Medawar1969InductionIntuitionScientific.md",
       "title": "Induction and intuition in scientific thought",
@@ -538,8 +568,23 @@
       "url": "",
       "citation_key": "Medawar1969InductionIntuitionScientific",
       "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
-      "mtimeMs": 1764681360280.75,
+      "mtimeMs": 1764688026397.0032,
       "category": "1.2-Critiques/anti-method/drift"
+    },
+    {
+      "letter": "P",
+      "slug": "PadillaVancouverStatementCollections",
+      "path": "/docs/P/PadillaVancouverStatementCollections.md",
+      "title": "Vancouver statement on collections as data",
+      "authors": "Padilla, T. et al.",
+      "year": "2023",
+      "journal": "Zenodo preprint",
+      "doi": "10.5281/zenodo.8341519",
+      "url": "https://doi.org/10.5281/zenodo.8341519",
+      "citation_key": "PadillaVancouverStatementCollections",
+      "displayTitle": "Padilla, T. et al. (2023). Vancouver statement on collections as data — Zenodo preprint",
+      "mtimeMs": 1764688026397.4077,
+      "category": "4.2-Digital-libraries/long-tail/discovery"
     },
     {
       "letter": "P",
@@ -708,6 +753,21 @@
     },
     {
       "letter": "W",
+      "slug": "Wilkinson2016CommentFAIRGuiding",
+      "path": "/docs/W/Wilkinson2016CommentFAIRGuiding.md",
+      "title": "Comment: The FAIR guiding principles for scientific data management and stewardship",
+      "authors": "Wilkinson, Mark D. and Dumontier, Michel and Aalbersberg, IJsbrand Jan and Appleton, Gabrielle and Axton, Myles and Baak, Arie and Blomberg, Niklas and Boiten, Jan Willem and {da Silva Santos}, Luiz Bonino and Bourne, Philip E. and Bouwman, Jildau and Brookes, Anthony J. and Clark, Tim and Crosas, Merc{\\`e} and Dillo, Ingrid and Dumon, Olivier and Edmunds, Scott and Evelo, Chris T. and Finkers, Richard and {Gonzalez-Beltran}, Alejandra and Gray, Alasdair J.G. and Groth, Paul and Goble, Carole and Grethe, Jeffrey S. and Heringa, Jaap and {t Hoen}, Peter A.C. and Hooft, Rob and Kuhn, Tobias and Kok, Ruben and Kok, Joost and Lusher, Scott J. and Martone, Maryann E. and Mons, Albert and Packer, Abel L. and Persson, Bengt and {Rocca-Serra}, Philippe and Roos, Marco and {van Schaik}, Rene and Sansone, Susanna Assunta and Schultes, Erik and Sengstag, Thierry and Slater, Ted and Strawn, George and Swertz, Morris A. and Thompson, Mark and Van Der Lei, Johan and Van Mulligen, Erik and Velterop, Jan and Waagmeester, Andra and Wittenburg, Peter and Wolstencroft, Katherine and Zhao, Jun and Mons, Barend",
+      "year": "2016",
+      "journal": "Scientific Data",
+      "doi": "10.1038/sdata.2016.18",
+      "url": "",
+      "citation_key": "Wilkinson2016CommentFAIRGuiding",
+      "displayTitle": "Wilkinson, Mark D. and Dumontier, Michel and Aalbersberg, IJsbrand Jan and Appleton, Gabrielle and Axton, Myles and Baak, Arie and Blomberg, Niklas and Boiten, Jan Willem and {da Silva Santos}, Luiz Bonino and Bourne, Philip E. and Bouwman, Jildau and Brookes, Anthony J. and Clark, Tim and Crosas, Merc{\\`e} and Dillo, Ingrid and Dumon, Olivier and Edmunds, Scott and Evelo, Chris T. and Finkers, Richard and {Gonzalez-Beltran}, Alejandra and Gray, Alasdair J.G. and Groth, Paul and Goble, Carole and Grethe, Jeffrey S. and Heringa, Jaap and {t Hoen}, Peter A.C. and Hooft, Rob and Kuhn, Tobias and Kok, Ruben and Kok, Joost and Lusher, Scott J. and Martone, Maryann E. and Mons, Albert and Packer, Abel L. and Persson, Bengt and {Rocca-Serra}, Philippe and Roos, Marco and {van Schaik}, Rene and Sansone, Susanna Assunta and Schultes, Erik and Sengstag, Thierry and Slater, Ted and Strawn, George and Swertz, Morris A. and Thompson, Mark and Van Der Lei, Johan and Van Mulligen, Erik and Velterop, Jan and Waagmeester, Andra and Wittenburg, Peter and Wolstencroft, Katherine and Zhao, Jun and Mons, Barend (2016). Comment: The FAIR guiding principles for scientific data management and stewardship — Scientific Data",
+      "mtimeMs": 1764688026399.8696,
+      "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+    },
+    {
+      "letter": "W",
       "slug": "Williamson2018ResearchConcepts",
       "path": "/docs/W/Williamson2018ResearchConcepts.md",
       "title": "Research methods: information, systems, and contexts",
@@ -858,7 +918,7 @@
         "url": "",
         "citation_key": "Bizer2009LinkedDataStory",
         "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
-        "mtimeMs": 1764681360272.8533,
+        "mtimeMs": 1764688026387.6384,
         "category": "4.1-Linked-data-and-graph-ontologies"
       },
       {
@@ -970,6 +1030,21 @@
       }
     ],
     "C": [
+      {
+        "letter": "C",
+        "slug": "Claeyssens2025PublishingLargeCollections",
+        "path": "/docs/C/Claeyssens2025PublishingLargeCollections.md",
+        "title": "Publishing large collections of digitised printed material",
+        "authors": "Claeyssens, Steven",
+        "year": "2025",
+        "journal": "The Routledge companion to libraries, archives and the digital humanities",
+        "doi": "",
+        "url": "",
+        "citation_key": "Claeyssens2025PublishingLargeCollections",
+        "displayTitle": "Claeyssens, Steven (2025). Publishing large collections of digitised printed material — The Routledge companion to libraries, archives and the digital humanities",
+        "mtimeMs": 1764688026392.353,
+        "category": "4.2-Digital-libraries/long-tail/discovery"
+      },
       {
         "letter": "C",
         "slug": "Cross2007FortyYearsDesign",
@@ -1217,7 +1292,7 @@
         "url": "https://link.springer.com/10.1007/s10502-021-09381-0",
         "citation_key": "Hawkins2022ArchivesLinkedData",
         "displayTitle": "Hawkins, Ashleigh (2022). Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web — Archival Science",
-        "mtimeMs": 1764681354774.5532,
+        "mtimeMs": 1764688026395.4353,
         "category": "4.1-Linked-data-and-graph-ontologies"
       },
       {
@@ -1337,6 +1412,21 @@
     "M": [
       {
         "letter": "M",
+        "slug": "Marciano2022NewDisciplineComputational",
+        "path": "/docs/M/Marciano2022NewDisciplineComputational.md",
+        "title": "Towards a new discipline of computational archival science (CAS)",
+        "authors": "Marciano, Richard",
+        "year": "2022",
+        "journal": "Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
+        "doi": "",
+        "url": "",
+        "citation_key": "Marciano2022NewDisciplineComputational",
+        "displayTitle": "Marciano, Richard (2022). Towards a new discipline of computational archival science (CAS) — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
+        "mtimeMs": 1764688026396.615,
+        "category": "4.3-RAG/XAI/provenance"
+      },
+      {
+        "letter": "M",
         "slug": "Medawar1969InductionIntuitionScientific",
         "path": "/docs/M/Medawar1969InductionIntuitionScientific.md",
         "title": "Induction and intuition in scientific thought",
@@ -1347,11 +1437,26 @@
         "url": "",
         "citation_key": "Medawar1969InductionIntuitionScientific",
         "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
-        "mtimeMs": 1764681360280.75,
+        "mtimeMs": 1764688026397.0032,
         "category": "1.2-Critiques/anti-method/drift"
       }
     ],
     "P": [
+      {
+        "letter": "P",
+        "slug": "PadillaVancouverStatementCollections",
+        "path": "/docs/P/PadillaVancouverStatementCollections.md",
+        "title": "Vancouver statement on collections as data",
+        "authors": "Padilla, T. et al.",
+        "year": "2023",
+        "journal": "Zenodo preprint",
+        "doi": "10.5281/zenodo.8341519",
+        "url": "https://doi.org/10.5281/zenodo.8341519",
+        "citation_key": "PadillaVancouverStatementCollections",
+        "displayTitle": "Padilla, T. et al. (2023). Vancouver statement on collections as data — Zenodo preprint",
+        "mtimeMs": 1764688026397.4077,
+        "category": "4.2-Digital-libraries/long-tail/discovery"
+      },
       {
         "letter": "P",
         "slug": "Pask1976ConversationTheoryApplications",
@@ -1478,6 +1583,21 @@
       }
     ],
     "W": [
+      {
+        "letter": "W",
+        "slug": "Wilkinson2016CommentFAIRGuiding",
+        "path": "/docs/W/Wilkinson2016CommentFAIRGuiding.md",
+        "title": "Comment: The FAIR guiding principles for scientific data management and stewardship",
+        "authors": "Wilkinson, Mark D. and Dumontier, Michel and Aalbersberg, IJsbrand Jan and Appleton, Gabrielle and Axton, Myles and Baak, Arie and Blomberg, Niklas and Boiten, Jan Willem and {da Silva Santos}, Luiz Bonino and Bourne, Philip E. and Bouwman, Jildau and Brookes, Anthony J. and Clark, Tim and Crosas, Merc{\\`e} and Dillo, Ingrid and Dumon, Olivier and Edmunds, Scott and Evelo, Chris T. and Finkers, Richard and {Gonzalez-Beltran}, Alejandra and Gray, Alasdair J.G. and Groth, Paul and Goble, Carole and Grethe, Jeffrey S. and Heringa, Jaap and {t Hoen}, Peter A.C. and Hooft, Rob and Kuhn, Tobias and Kok, Ruben and Kok, Joost and Lusher, Scott J. and Martone, Maryann E. and Mons, Albert and Packer, Abel L. and Persson, Bengt and {Rocca-Serra}, Philippe and Roos, Marco and {van Schaik}, Rene and Sansone, Susanna Assunta and Schultes, Erik and Sengstag, Thierry and Slater, Ted and Strawn, George and Swertz, Morris A. and Thompson, Mark and Van Der Lei, Johan and Van Mulligen, Erik and Velterop, Jan and Waagmeester, Andra and Wittenburg, Peter and Wolstencroft, Katherine and Zhao, Jun and Mons, Barend",
+        "year": "2016",
+        "journal": "Scientific Data",
+        "doi": "10.1038/sdata.2016.18",
+        "url": "",
+        "citation_key": "Wilkinson2016CommentFAIRGuiding",
+        "displayTitle": "Wilkinson, Mark D. and Dumontier, Michel and Aalbersberg, IJsbrand Jan and Appleton, Gabrielle and Axton, Myles and Baak, Arie and Blomberg, Niklas and Boiten, Jan Willem and {da Silva Santos}, Luiz Bonino and Bourne, Philip E. and Bouwman, Jildau and Brookes, Anthony J. and Clark, Tim and Crosas, Merc{\\`e} and Dillo, Ingrid and Dumon, Olivier and Edmunds, Scott and Evelo, Chris T. and Finkers, Richard and {Gonzalez-Beltran}, Alejandra and Gray, Alasdair J.G. and Groth, Paul and Goble, Carole and Grethe, Jeffrey S. and Heringa, Jaap and {t Hoen}, Peter A.C. and Hooft, Rob and Kuhn, Tobias and Kok, Ruben and Kok, Joost and Lusher, Scott J. and Martone, Maryann E. and Mons, Albert and Packer, Abel L. and Persson, Bengt and {Rocca-Serra}, Philippe and Roos, Marco and {van Schaik}, Rene and Sansone, Susanna Assunta and Schultes, Erik and Sengstag, Thierry and Slater, Ted and Strawn, George and Swertz, Morris A. and Thompson, Mark and Van Der Lei, Johan and Van Mulligen, Erik and Velterop, Jan and Waagmeester, Andra and Wittenburg, Peter and Wolstencroft, Katherine and Zhao, Jun and Mons, Barend (2016). Comment: The FAIR guiding principles for scientific data management and stewardship — Scientific Data",
+        "mtimeMs": 1764688026399.8696,
+        "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+      },
       {
         "letter": "W",
         "slug": "Williamson2018ResearchConcepts",
