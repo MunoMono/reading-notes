@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 01, 2025, 03:44 PM"
+last_updated: "Dec 02, 2025, 01:15 PM"
 category: 1.2-Critiques/anti-method/drift---
 # Scope of this note
 

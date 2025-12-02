@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-02T13:11:39.367Z",
+  "updatedAt": "2025-12-02T13:16:00.401Z",
   "entries": [
     {
       "letter": "A",
@@ -118,7 +118,7 @@
       "url": "",
       "citation_key": "Bizer2009LinkedDataStory",
       "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
-      "mtimeMs": 1764681099232.9722,
+      "mtimeMs": 1764681360272.8533,
       "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
@@ -418,7 +418,7 @@
       "url": "https://link.springer.com/10.1007/s10502-021-09381-0",
       "citation_key": "Hawkins2022ArchivesLinkedData",
       "displayTitle": "Hawkins, Ashleigh (2022). Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web — Archival Science",
-      "mtimeMs": 1764681099240.077,
+      "mtimeMs": 1764681354774.5532,
       "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
@@ -538,7 +538,7 @@
       "url": "",
       "citation_key": "Medawar1969InductionIntuitionScientific",
       "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
-      "mtimeMs": 1764681099242.3074,
+      "mtimeMs": 1764681360280.75,
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
@@ -858,7 +858,7 @@
         "url": "",
         "citation_key": "Bizer2009LinkedDataStory",
         "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
-        "mtimeMs": 1764681099232.9722,
+        "mtimeMs": 1764681360272.8533,
         "category": "4.1-Linked-data-and-graph-ontologies"
       },
       {
@@ -1217,7 +1217,7 @@
         "url": "https://link.springer.com/10.1007/s10502-021-09381-0",
         "citation_key": "Hawkins2022ArchivesLinkedData",
         "displayTitle": "Hawkins, Ashleigh (2022). Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web — Archival Science",
-        "mtimeMs": 1764681099240.077,
+        "mtimeMs": 1764681354774.5532,
         "category": "4.1-Linked-data-and-graph-ontologies"
       },
       {
@@ -1347,7 +1347,7 @@
         "url": "",
         "citation_key": "Medawar1969InductionIntuitionScientific",
         "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
-        "mtimeMs": 1764681099242.3074,
+        "mtimeMs": 1764681360280.75,
         "category": "1.2-Critiques/anti-method/drift"
       }
     ],

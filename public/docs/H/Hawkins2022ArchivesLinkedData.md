@@ -9,7 +9,7 @@ url: "https://link.springer.com/10.1007/s10502-021-09381-0"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 02, 2025, 01:10 PM"
+last_updated: "Dec 02, 2025, 01:15 PM"
 category: 4.1-Linked-data-and-graph-ontologies---
 # Scope of this note
 Focus on the overall argument, especially (1) the conceptualisation of Archival Linked Data as infrastructural support for Digital Humanities, (2) analysis of benefits/barriers, and (3) future directions around FAIR, AI and low-barrier tools (e.g. Wikidata), as a framing text for the DDR linked-data/RAG work.
