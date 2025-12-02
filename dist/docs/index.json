@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-28T12:11:35.295Z",
+  "updatedAt": "2025-12-01T15:44:02.744Z",
   "entries": [
     {
       "letter": "A",
@@ -105,6 +105,21 @@
       "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
       "mtimeMs": 1764331895157.8235,
       "category": "2.2-Design-historiography-and-canon-critiques"
+    },
+    {
+      "letter": "B",
+      "slug": "Bizer2009LinkedDataStory",
+      "path": "/docs/B/Bizer2009LinkedDataStory.md",
+      "title": "Linked Data - the Story so Far",
+      "authors": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim",
+      "year": "2009",
+      "journal": "International Journal on Semantic Web and Information Systems (IJSWIS)",
+      "doi": "",
+      "url": "",
+      "citation_key": "Bizer2009LinkedDataStory",
+      "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
+      "mtimeMs": 1764603842616.9731,
+      "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
       "letter": "B",
@@ -497,6 +512,21 @@
       "category": "5.1-Practice-led-design-research"
     },
     {
+      "letter": "M",
+      "slug": "Medawar1969InductionIntuitionScientific",
+      "path": "/docs/M/Medawar1969InductionIntuitionScientific.md",
+      "title": "Induction and intuition in scientific thought",
+      "authors": "Medawar, P.B",
+      "year": "1969",
+      "journal": "Methuen \\& Co Ltd",
+      "doi": "",
+      "url": "",
+      "citation_key": "Medawar1969InductionIntuitionScientific",
+      "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
+      "mtimeMs": 1764603842624.6758,
+      "category": "1.2-Critiques/anti-method/drift"
+    },
+    {
       "letter": "P",
       "slug": "Pask1976ConversationTheoryApplications",
       "path": "/docs/P/Pask1976ConversationTheoryApplications.md",
@@ -801,6 +831,21 @@
       }
     ],
     "B": [
+      {
+        "letter": "B",
+        "slug": "Bizer2009LinkedDataStory",
+        "path": "/docs/B/Bizer2009LinkedDataStory.md",
+        "title": "Linked Data - the Story so Far",
+        "authors": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim",
+        "year": "2009",
+        "journal": "International Journal on Semantic Web and Information Systems (IJSWIS)",
+        "doi": "",
+        "url": "",
+        "citation_key": "Bizer2009LinkedDataStory",
+        "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
+        "mtimeMs": 1764603842616.9731,
+        "category": "4.1-Linked-data-and-graph-ontologies"
+      },
       {
         "letter": "B",
         "slug": "Bowker1999SortingThingsOut",
@@ -1257,6 +1302,23 @@
         "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
         "mtimeMs": 1764331895172.366,
         "category": "5.1-Practice-led-design-research"
+      }
+    ],
+    "M": [
+      {
+        "letter": "M",
+        "slug": "Medawar1969InductionIntuitionScientific",
+        "path": "/docs/M/Medawar1969InductionIntuitionScientific.md",
+        "title": "Induction and intuition in scientific thought",
+        "authors": "Medawar, P.B",
+        "year": "1969",
+        "journal": "Methuen \\& Co Ltd",
+        "doi": "",
+        "url": "",
+        "citation_key": "Medawar1969InductionIntuitionScientific",
+        "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
+        "mtimeMs": 1764603842624.6758,
+        "category": "1.2-Critiques/anti-method/drift"
       }
     ],
     "P": [

@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 01, 2025, 03:38 PM"
+last_updated: "Dec 01, 2025, 03:44 PM"
 category: 4.1-Linked-data-and-graph-ontologies---
 # Scope of this note
 This note covers the full chapter *Linked Data: The Story So Far*, focusing on:  

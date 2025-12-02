@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-01T15:26:32.944Z",
+  "updatedAt": "2025-12-02T13:11:39.367Z",
   "entries": [
     {
       "letter": "A",
@@ -107,18 +107,18 @@
       "category": "2.2-Design-historiography-and-canon-critiques"
     },
     {
-      "letter": "S",
-      "slug": "Sheth2011LinkedDataStory",
-      "path": "/docs/S/Sheth2011LinkedDataStory.md",
-      "title": "Linked data: the story so far",
-      "authors": "Bizer, C.; Heath, T.; Berners-Lee, T.",
-      "year": "2011",
-      "journal": "IGI Global",
-      "doi": "10.4018/978-1-60960-593-3",
-      "url": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-60960-593-3",
-      "citation_key": "Sheth2011LinkedDataStory",
-      "displayTitle": "Bizer, C.; Heath, T.; Berners-Lee, T. (2011). Linked data: the story so far — IGI Global",
-      "mtimeMs": 1764602792825.9805,
+      "letter": "B",
+      "slug": "Bizer2009LinkedDataStory",
+      "path": "/docs/B/Bizer2009LinkedDataStory.md",
+      "title": "Linked Data - the Story so Far",
+      "authors": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim",
+      "year": "2009",
+      "journal": "International Journal on Semantic Web and Information Systems (IJSWIS)",
+      "doi": "",
+      "url": "",
+      "citation_key": "Bizer2009LinkedDataStory",
+      "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
+      "mtimeMs": 1764681099232.9722,
       "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
@@ -408,6 +408,21 @@
     },
     {
       "letter": "H",
+      "slug": "Hawkins2022ArchivesLinkedData",
+      "path": "/docs/H/Hawkins2022ArchivesLinkedData.md",
+      "title": "Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web",
+      "authors": "Hawkins, Ashleigh",
+      "year": "2022",
+      "journal": "Archival Science",
+      "doi": "10.1007/s10502-021-09381-0",
+      "url": "https://link.springer.com/10.1007/s10502-021-09381-0",
+      "citation_key": "Hawkins2022ArchivesLinkedData",
+      "displayTitle": "Hawkins, Ashleigh (2022). Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web — Archival Science",
+      "mtimeMs": 1764681099240.077,
+      "category": "4.1-Linked-data-and-graph-ontologies"
+    },
+    {
+      "letter": "H",
       "slug": "Horkheimer2002CriticalTheorySelected",
       "path": "/docs/H/Horkheimer2002CriticalTheorySelected.md",
       "title": "Critical theory selected essays",
@@ -523,7 +538,7 @@
       "url": "",
       "citation_key": "Medawar1969InductionIntuitionScientific",
       "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
-      "mtimeMs": 1764602792822.3313,
+      "mtimeMs": 1764681099242.3074,
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
@@ -830,54 +845,22 @@
         "category": "2.2-Design-historiography-and-canon-critiques"
       }
     ],
-    "S": [
+    "B": [
       {
-        "letter": "S",
-        "slug": "Sheth2011LinkedDataStory",
-        "path": "/docs/S/Sheth2011LinkedDataStory.md",
-        "title": "Linked data: the story so far",
-        "authors": "Bizer, C.; Heath, T.; Berners-Lee, T.",
-        "year": "2011",
-        "journal": "IGI Global",
-        "doi": "10.4018/978-1-60960-593-3",
-        "url": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-60960-593-3",
-        "citation_key": "Sheth2011LinkedDataStory",
-        "displayTitle": "Bizer, C.; Heath, T.; Berners-Lee, T. (2011). Linked data: the story so far — IGI Global",
-        "mtimeMs": 1764602792825.9805,
-        "category": "4.1-Linked-data-and-graph-ontologies"
-      },
-      {
-        "letter": "S",
-        "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
-        "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
-        "title": "Data-driven innovation for trustworthy AI",
-        "authors": "Siddharth, L. and Luo, Jianxi",
-        "year": "2025",
-        "journal": "She Ji: The Journal of Design, Economics, and Innovation",
-        "doi": "10.31219/osf.io/a3d6z",
-        "url": "https://osf.io/a3d6z",
-        "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
-        "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-        "mtimeMs": 1764331895170.862,
-        "category": "4.3-RAG/XAI/provenance"
-      },
-      {
-        "letter": "S",
-        "slug": "Simon2012SocialPlanningDesigning",
-        "path": "/docs/S/Simon2012SocialPlanningDesigning.md",
-        "title": "Social planning",
-        "authors": "Simon, Herbert",
-        "year": "2012",
-        "journal": "Mapping design research",
+        "letter": "B",
+        "slug": "Bizer2009LinkedDataStory",
+        "path": "/docs/B/Bizer2009LinkedDataStory.md",
+        "title": "Linked Data - the Story so Far",
+        "authors": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim",
+        "year": "2009",
+        "journal": "International Journal on Semantic Web and Information Systems (IJSWIS)",
         "doi": "",
         "url": "",
-        "citation_key": "Simon2012SocialPlanningDesigning",
-        "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
-        "mtimeMs": 1764331895171.5513,
-        "category": "5.2-Cybernetics-and-conversation-theory"
-      }
-    ],
-    "B": [
+        "citation_key": "Bizer2009LinkedDataStory",
+        "displayTitle": "Bizer, Christian and Heath, Tom and Berners-Lee, Tim (2009). Linked Data - the Story so Far — International Journal on Semantic Web and Information Systems (IJSWIS)",
+        "mtimeMs": 1764681099232.9722,
+        "category": "4.1-Linked-data-and-graph-ontologies"
+      },
       {
         "letter": "B",
         "slug": "Bowker1999SortingThingsOut",
@@ -1224,6 +1207,21 @@
     "H": [
       {
         "letter": "H",
+        "slug": "Hawkins2022ArchivesLinkedData",
+        "path": "/docs/H/Hawkins2022ArchivesLinkedData.md",
+        "title": "Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web",
+        "authors": "Hawkins, Ashleigh",
+        "year": "2022",
+        "journal": "Archival Science",
+        "doi": "10.1007/s10502-021-09381-0",
+        "url": "https://link.springer.com/10.1007/s10502-021-09381-0",
+        "citation_key": "Hawkins2022ArchivesLinkedData",
+        "displayTitle": "Hawkins, Ashleigh (2022). Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web — Archival Science",
+        "mtimeMs": 1764681099240.077,
+        "category": "4.1-Linked-data-and-graph-ontologies"
+      },
+      {
+        "letter": "H",
         "slug": "Horkheimer2002CriticalTheorySelected",
         "path": "/docs/H/Horkheimer2002CriticalTheorySelected.md",
         "title": "Critical theory selected essays",
@@ -1349,7 +1347,7 @@
         "url": "",
         "citation_key": "Medawar1969InductionIntuitionScientific",
         "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
-        "mtimeMs": 1764602792822.3313,
+        "mtimeMs": 1764681099242.3074,
         "category": "1.2-Critiques/anti-method/drift"
       }
     ],
@@ -1428,6 +1426,38 @@
         "displayTitle": "Portelli, Alessandro (1991). The death of Luigi Trastulli, and other stories",
         "mtimeMs": 1764331895169.273,
         "category": "6.1-Archival-and-oral-history-methods"
+      }
+    ],
+    "S": [
+      {
+        "letter": "S",
+        "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
+        "title": "Data-driven innovation for trustworthy AI",
+        "authors": "Siddharth, L. and Luo, Jianxi",
+        "year": "2025",
+        "journal": "She Ji: The Journal of Design, Economics, and Innovation",
+        "doi": "10.31219/osf.io/a3d6z",
+        "url": "https://osf.io/a3d6z",
+        "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
+        "displayTitle": "Siddharth, L. and Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+        "mtimeMs": 1764331895170.862,
+        "category": "4.3-RAG/XAI/provenance"
+      },
+      {
+        "letter": "S",
+        "slug": "Simon2012SocialPlanningDesigning",
+        "path": "/docs/S/Simon2012SocialPlanningDesigning.md",
+        "title": "Social planning",
+        "authors": "Simon, Herbert",
+        "year": "2012",
+        "journal": "Mapping design research",
+        "doi": "",
+        "url": "",
+        "citation_key": "Simon2012SocialPlanningDesigning",
+        "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
+        "mtimeMs": 1764331895171.5513,
+        "category": "5.2-Cybernetics-and-conversation-theory"
       }
     ],
     "T": [
