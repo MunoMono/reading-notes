@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-02T15:07:06.517Z",
+  "updatedAt": "2025-12-03T07:10:16.117Z",
   "entries": [
     {
       "letter": "A",
@@ -378,6 +378,21 @@
     },
     {
       "letter": "G",
+      "slug": "Gilliland2016RecordsTheirImaginaries",
+      "path": "/docs/G/Gilliland2016RecordsTheirImaginaries.md",
+      "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
+      "authors": "Gilliland, Anne J. and Caswell, Michelle",
+      "year": "2016",
+      "journal": "Archival Science",
+      "doi": "10.1007/s10502-015-9259-z",
+      "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
+      "citation_key": "Gilliland2016RecordsTheirImaginaries",
+      "displayTitle": "Gilliland, Anne J. and Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
+      "mtimeMs": 1764745815990.3767,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "G",
       "slug": "Gilliland2018ArchivalRecordkeepingResearch",
       "path": "/docs/G/Gilliland2018ArchivalRecordkeepingResearch.md",
       "title": "Archival and recordkeeping research",
@@ -570,6 +585,21 @@
       "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
       "mtimeMs": 1764688026397.0032,
       "category": "1.2-Critiques/anti-method/drift"
+    },
+    {
+      "letter": "M",
+      "slug": "Moss2021ArchivalSilencesMissing",
+      "path": "/docs/M/Moss2021ArchivalSilencesMissing.md",
+      "title": "Archival silences: missing, lost and uncreated archives",
+      "authors": "Michael Moss and David Thomas",
+      "year": "2021",
+      "journal": "Routledge",
+      "doi": "10.4324/9781003003618",
+      "url": "https://www.taylorfrancis.com/books/9781000385199",
+      "citation_key": "Moss2021ArchivalSilencesMissing",
+      "displayTitle": "Michael Moss and David Thomas (2021). Archival silences: missing, lost and uncreated archives — Routledge",
+      "mtimeMs": 1764743838797.7844,
+      "category": "3.3-Absence,-silence-and-missing-data"
     },
     {
       "letter": "P",
@@ -1235,6 +1265,21 @@
       },
       {
         "letter": "G",
+        "slug": "Gilliland2016RecordsTheirImaginaries",
+        "path": "/docs/G/Gilliland2016RecordsTheirImaginaries.md",
+        "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
+        "authors": "Gilliland, Anne J. and Caswell, Michelle",
+        "year": "2016",
+        "journal": "Archival Science",
+        "doi": "10.1007/s10502-015-9259-z",
+        "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
+        "citation_key": "Gilliland2016RecordsTheirImaginaries",
+        "displayTitle": "Gilliland, Anne J. and Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
+        "mtimeMs": 1764745815990.3767,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "G",
         "slug": "Gilliland2018ArchivalRecordkeepingResearch",
         "path": "/docs/G/Gilliland2018ArchivalRecordkeepingResearch.md",
         "title": "Archival and recordkeeping research",
@@ -1439,6 +1484,21 @@
         "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
         "mtimeMs": 1764688026397.0032,
         "category": "1.2-Critiques/anti-method/drift"
+      },
+      {
+        "letter": "M",
+        "slug": "Moss2021ArchivalSilencesMissing",
+        "path": "/docs/M/Moss2021ArchivalSilencesMissing.md",
+        "title": "Archival silences: missing, lost and uncreated archives",
+        "authors": "Michael Moss and David Thomas",
+        "year": "2021",
+        "journal": "Routledge",
+        "doi": "10.4324/9781003003618",
+        "url": "https://www.taylorfrancis.com/books/9781000385199",
+        "citation_key": "Moss2021ArchivalSilencesMissing",
+        "displayTitle": "Michael Moss and David Thomas (2021). Archival silences: missing, lost and uncreated archives — Routledge",
+        "mtimeMs": 1764743838797.7844,
+        "category": "3.3-Absence,-silence-and-missing-data"
       }
     ],
     "P": [

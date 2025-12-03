@@ -62,19 +62,25 @@ For the DDR project, Vaughan provides the theoretical scaffolding for translatin
 
 # Critical evaluation
 ### Strengths
-Vaughan’s synthesis of pedagogy, epistemology and professional practice is one of the most comprehensive treatments of practice-based research to date. Her clarity on transformation—designer to practitioner to researcher—gives the design PhD conceptual precision. The emphasis on literacies situates design within a global discourse on multimodality and intelligence. Most importantly, her recognition that design is both method and medium aligns with the DDR project’s ambition to create research outputs that *perform* their arguments.
+- Concise synthesis of pedagogy, epistemology and professional practice.
+- Clear on the transformation from designer to practitioner to researcher, giving the PhD a crisp role.
+- Treats design as both method and medium; the literacy frame travels across multimodal work.
 
 ### Weaknesses and limitations
-While persuasive, Vaughan’s framework presumes a relatively privileged access to institutional resources and ignores the structural inequalities shaping doctoral participation. The rhetoric of “becoming” risks romanticising transformation without interrogating precarity. Moreover, by privileging individual reflexivity, she underplays collective and systemic dimensions of knowledge production—areas where the DDR archive reveals institutional, not personal, epistemic negotiation. Her celebration of plural literacies sometimes blurs into relativism: the tension between accessibility and rigour remains unresolved.
+- Assumes stable institutional support; says little about structural inequity or precarity.
+- Emphasises individual reflexivity, downplaying collective or systemic knowledge-making.
+- Celebration of plural literacies edges toward relativism; the balance between accessibility and rigour is under-specified.
 
 ### Author’s credibility
-Laurene Vaughan, a leading Australian scholar and practitioner, has extensive supervisory and institutional experience across RMIT and international networks. Her authority stems from direct engagement with practice-based doctorates and policy work in higher education. Her positionality as designer-educator-administrator gives her text both authenticity and normative influence: it is as much field report as theory.
+Laurene Vaughan is a leading Australian scholar-practitioner with deep supervisory and institutional experience at RMIT and beyond; the book draws on direct practice in design doctorates.
 
 ### Contextual validity
-Vaughan’s arguments reflect the global consolidation of design PhDs in the 2000s–2010s, especially in Australasia and Scandinavia. Her framework generalises well across creative disciplines but assumes a relatively stable institutional environment. For contexts of archival or computational research, her emphasis on embodiment must be translated into digital affordances—the project’s contribution lies precisely in extending her insights to machine-mediated practice.
+Reflects the consolidation of design PhDs in the 2000s–2010s (notably Australasia, Scandinavia). The frame travels across creative disciplines but assumes institutional stability. Embodied practice needs translation into digital affordances for archival or computational contexts.
 
 ### Comparisons
-Archer (1978) sought to codify design as a system; Vaughan dissolves system into ecology. Cross (2007) located designerly knowledge in cognition; Vaughan relocates it in practice. Frayling (1993) mapped categories; Vaughan makes them fluid. In historiographical terms, she represents the culmination of the epistemic drift initiated by the DDR: from taxonomy as fixity to taxonomy as reflexive process.
+- Archer (1978) codified design as a system; Vaughan turns it into an ecology.
+- Cross (2007) centred cognition; Vaughan centres situated practice.
+- Frayling (1993) mapped fixed categories; Vaughan makes them fluid and iterative.
 
 # Interpretation
 Vaughan’s *Practice-based Design Research* is the theoretical mirror image of Archer’s *Revolution*: where Archer built an edifice of classification, Vaughan opens a field of negotiation. She completes the transition from design science to designerly knowing by institutionalising reflexivity as method. For the DDR project, she supplies the philosophical licence to treat archival classification as design practice—iterative, situated, multimodal, and ethically reflexive. The DDR’s static taxonomy becomes, in Vaughan’s terms, a *living literacy*: a means of thinking through making, now enacted in code.  

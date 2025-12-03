@@ -70,16 +70,23 @@ Archer’s framework informs the project’s methodology at every level. His tax
 
 # Critical evaluation
 ### Strengths
-Archer’s synthesis of moral philosophy, epistemology and institutional reform remains unparalleled in scope. His recognition of modelling as a cognitive language is foundational for later developments in design cognition, systems thinking, and computational design. The paper’s systemic clarity—the way it moves from diagnosis (educational imbalance) to taxonomy (epistemic schema) to remedy (institutional reform)—exemplifies the intellectual rigour of early design research. It also demonstrates an early understanding of interdisciplinarity: design as the hinge connecting the analytical precision of science and the interpretive nuance of the humanities.
+- Sweeping synthesis of moral philosophy, epistemology and institutional reform.
+- Recognises modelling as a cognitive language, a move that underpins later design cognition and systems thinking.
+- Moves crisply from diagnosis to taxonomy to institutional remedy, showing early design research at its most disciplined.
+- Casts design as the hinge between scientific analysis and humanistic interpretation.
 
 ### Weaknesses
-Archer’s framework, however, is constrained by its own systematicity. It assumes that knowledge can be ordered into discrete sub-domains and that progress lies in completion of the taxonomy. This belief in closure conflicts with the emergent recognition—evident in later DDR work—that design knowledge is provisional, situated, and often incommensurable. The paper’s modernist moralism universalises Western technological paradigms while excluding non-Western, feminist and vernacular practices. Its institutional critique is internal, not structural: reform is to be led by enlightened academics rather than through participatory transformation. Finally, its language of virtue risks sanctifying expertise and authority rather than democratising them.
+- Overconfident system: assumes knowledge can be closed by completing a taxonomy, clashing with later plural views of design knowledge.
+- Western, modernist lens; leaves little room for non-Western, feminist or vernacular practices.
+- Reform is cast as elite-led; participatory change is absent. The language of virtue risks sanctifying authority rather than opening it.
 
 ### Contextual validity and comparison
-Contextually, the paper belongs to the post-Robbins expansion of higher education and the global search for new forms of technical knowledge during the 1970s. Its rhetoric of revolution conceals an essentially managerial agenda: to integrate art and design into the bureaucratic apparatus of research funding. Compared to contemporaries—such as Maldonado at Ulm, Simon’s *Sciences of the Artificial* (1969), and Cross’s *Designerly Ways of Knowing* (1982)—Archer is both more moral and more bureaucratic. He shares Simon’s aspiration for rational design but embeds it in an ethical rather than computational vocabulary. Where Simon sought optimisation, Archer sought virtue. Where Cross emphasised intuition and interpretation, Archer sought classification and codification. The DDR’s history can be read as the site where these competing epistemologies collided.
+- Rooted in the post-Robbins push to formalise technical knowledge. The revolutionary tone masks a managerial aim: to slot design into research bureaucracies.
+- Compared with Maldonado, Simon and Cross, Archer is more moral and more bureaucratic—seeking virtue and classification where others sought optimisation or intuition.
 
 ### Author’s credibility
-Archer’s authority was both intellectual and institutional. As Head of Design Research at the RCA and an influential figure in UK policy, he possessed the power to enact the revolution he described. His earlier work on design methods (1965–70) established his credibility as a systematic thinker. Yet his position within the establishment limited his capacity for critical reflexivity. The paper reveals a self-legitimating logic: the department exists because the theory requires it, and the theory is validated because the department exists. This circularity would later be exposed as both the strength and weakness of design research’s academicisation.
+- Archer led design research at the RCA and influenced UK policy; his earlier methods work proved his systematic bent.
+- Insider status lent authority but limited reflexivity: theory and department reinforce each other in a self-legitimating loop.
 
 # Interpretation
 Archer’s *Revolution* can be read through three lenses: epistemic, institutional, and historiographical. Epistemically, it formalises design as operational knowledge—a mode of knowing through making. Institutionally, it legitimises design research as a new academic formation. Historiographically, it inaugurates the narrative that design research was born through systematic rationalisation, a myth this project seeks to reassess. The DDR’s subsequent history demonstrates that Archer’s revolution was both necessary and impossible: necessary to secure design’s intellectual legitimacy, impossible to sustain once plural epistemologies emerged. 

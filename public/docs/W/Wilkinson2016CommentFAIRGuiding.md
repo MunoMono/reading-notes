@@ -106,34 +106,27 @@ No sample size in the statistical sense; “data” here are infrastructures, st
 
 ## Critical evaluation
 ### Strengths
-- **Widely adoptable, high-level framework**  
-  - FAIR’s four principles plus sub-points are **simple, memorable and measurable enough** to be used across disciplines, yet anchored in concrete conditions like persistent identifiers and open protocols. [Box 2, p.5)  
-- **Strong emphasis on machine-actionability**  
-  - The article clearly articulates why machines need rich, standardised metadata and licensing info to operate autonomously at web scale. (pp.2–4)   
-- **Grounded in real infrastructures**  
-  - Detailed examples (Dataverse, FAIRDOM, ISA, wwPDB, UniProt, Open PHACTS, bioCADDIE, CEDAR) show FAIR is not aspirational fluff but already partially implemented. (pp.5–7)   
+- Simple, memorable framework with measurable sub-points anchored in PIDs, rich metadata and open protocols (Box 2, p.5).
+- Puts machine-actionability at the centre and explains why metadata and licensing must be standardised for autonomous use (pp.2–4).
+- Cites working infrastructures (Dataverse, FAIRDOM, ISA, wwPDB, UniProt, Open PHACTS, bioCADDIE, CEDAR) to show FAIR already operates in practice (pp.5–7).
 
 ### Weaknesses and limitations
-- **High-level and somewhat vague operationally**  
-  - FAIR deliberately “precedes implementation” and “is not, itself, a standard or specification.” (p.4)  
-  - This makes it adaptable but leaves many practical tensions (trade-offs between richness and workload, legacy systems, small collections) unresolved—precisely where my project has to make specific choices.
-- **Life-science bias in examples**  
-  - Most exemplars (wwPDB, UniProt, ISA, Open PHACTS, bioCADDIE, CEDAR) are biomedical or life-science infrastructures; there is little discussion of humanities/design archives, small heterogeneous collections, or analogue/digitised records.   
-- **Limited attention to social and institutional constraints**  
-  - While they acknowledge privacy/sensitive data and special cases, deeper questions about institutional power, archival silences and labour are largely outside scope and have to be supplied from archival theory.
+- High-level by design; “not a standard or specification” (p.4), leaving practical trade-offs to implementers.
+- Examples lean on biomedical infrastructures; little guidance for humanities or small, heterogeneous collections.
+- Light on social and institutional constraints; power, labour and archival silences sit outside scope.
 
 ### Author’s credibility
-- The author list includes many key figures in **bioinformatics, data infrastructures and scholarly communication** (e.g. UniProt, wwPDB, FORCE11, ELIXIR, major publishers). (p.8)
-- The article appears in **Scientific Data**, a Nature Research journal focused on data descriptors and data policy, and has become the de facto canonical citation for FAIR.
+- Author list includes leading figures in bioinformatics, data infrastructure and scholarly communication (p.8).
+- Published in *Scientific Data* and now the canonical citation for FAIR.
 
 ### Contextual validity
-- Designed to be **domain-independent** and to apply to all “scholarly digital research objects,” including workflows and tools. (pp.1, 5)   
-- That said, practical uptake and tooling are much more advanced in biomedical and “big science” contexts than in small institutional or humanities archives, so translation work is needed for DDR-type collections.
+- Intended to be domain-independent and cover all digital research objects, including workflows and tools (pp.1, 5).
+- Uptake and tooling are strongest in biomedical “big science”; humanities and small-institution contexts need translation.
 
 ### Comparisons
-- **Joint Declaration of Data Citation Principles (JDDCP)** – focuses on data as a citable research output; FAIR overlaps but is broader and more infrastructure-oriented. (p.7)   
-- **Data Seal of Approval (DSA)** – emphasises responsibilities and conduct of repositories; FAIR focuses “primarily on the data itself,” making them complementary. (p.7) 
-- In the thesis framework, FAIR sits alongside archival standards (ISAD(G), EAD) and Hawkins’ linked-data arguments, providing the **machine-centric counterpart** to human-oriented descriptive standards.
+- JDDCP focuses on data as a citable output; FAIR is broader and infrastructure-oriented (p.7).
+- DSA stresses repository conduct; FAIR centres the data and metadata themselves, so the two are complementary (p.7).
+- Within the thesis, FAIR is the machine-facing counterpart to human-oriented archival standards (ISAD(G), EAD) and Hawkins’ linked-data arguments.
 
 ## Interpretation
 ### Analysis and insights
@@ -144,7 +137,7 @@ No sample size in the statistical sense; “data” here are infrastructures, st
     - Assigning **globally unique, persistent identifiers** to DDR entities and exposing them via stable URLs or URIs.  
     - Publishing rich, structured metadata with explicit **licensing and provenance**.  
     - Using **formal, shared vocabularies** for people, projects, methods, and document types, and expressing them in machine-readable formats (e.g. RDF/JSON-LD).  
-    - Ensuring **metadata remains accessible** even if some content is restricted or removed (privacy, rights), echoing A2. [Box 2, p.5) 
+    - Ensuring **metadata remains accessible** even if some content is restricted or removed (privacy, rights), echoing A2 (Box 2, p.5). 
 - **How it shapes my thinking**  
   - Encourages me to treat the DDR data model not simply as an internal convenience, but as potentially **FAIR-compliant infrastructure** with public, machine-actionable interfaces.
   - Reinforces the need to make archival “silences” and missingness **visible in metadata**, so that FAIRness does not invisibly naturalise gaps but helps surface them.
@@ -156,11 +149,11 @@ No sample size in the statistical sense; “data” here are infrastructures, st
 
 ## Related works
 - Data citation and stewardship:
-  - Data Citation Synthesis Group, *Joint Declaration of Data Citation Principles* (2014). [ref. 29)   
-  - Starr et al., “Achieving human and machine accessibility of cited data in scholarly publications” (PeerJ Comput. Sci. 2015). [ref. 27)
+  - Data Citation Synthesis Group, *Joint Declaration of Data Citation Principles* (2014). [ref. 29]   
+  - Starr et al., “Achieving human and machine accessibility of cited data in scholarly publications” (PeerJ Comput. Sci. 2015). [ref. 27]
 - Reproducible research and data reuse:
   - White et al., “Nine simple ways to make it easier to (re)use your data” (2013).  
-  - Sandve et al., “Ten Simple Rules for Reproducible Computational Research” (2013). [refs. 11–12) 
+  - Sandve et al., “Ten Simple Rules for Reproducible Computational Research” (2013). [refs. 11–12]
 - Domain exemplars:
   - wwPDB, UniProt, Dataverse, FAIRDOM, ISA, Open PHACTS as case studies of FAIR-ish infrastructures. (pp.5–6)   
 - Conceptual neighbours:
