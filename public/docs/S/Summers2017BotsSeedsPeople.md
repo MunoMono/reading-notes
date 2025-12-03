@@ -9,9 +9,8 @@ url: "http://arxiv.org/abs/1611.02493"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 04:45 PM"
-category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description
----
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description---
 # Scope of this note
 Focus on the overall argument plus sections on methodology, “Findings” and “Discussion”, with attention to how appraisal, automation and infrastructural breakdowns generate gaps and silences in web archives and how this translates into DDR’s computational archive.
 

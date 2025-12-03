@@ -9,10 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 05:05 PM"
-category: 3.3-Absence,-silence-and-missing-data
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.3-Absence,-silence-and-missing-data---
 # Scope of this note
 Whole article, with emphasis on: (a) taxonomy of bias sources (data, algorithms, users); (b) operational definitions of fairness; (c) mitigation strategies and open challenges. Used here to bridge archival missingness/silence to bias in DDR-related AI systems.
 

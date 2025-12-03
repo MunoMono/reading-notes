@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-02T15:12:42.360Z",
+  "updatedAt": "2025-12-03T16:52:55.822Z",
   "entries": [
     {
       "letter": "A",
@@ -73,7 +73,7 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-      "mtimeMs": 1764331895156.724,
+      "mtimeMs": 1764780775662.3762,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -105,6 +105,21 @@
       "displayTitle": "Atkinson, Harriet and Oppenheimer, Maya Rae (2016). Introduction: design research — {{DRS2016}",
       "mtimeMs": 1764331895157.8235,
       "category": "2.2-Design-historiography-and-canon-critiques"
+    },
+    {
+      "letter": "B",
+      "slug": "Beilin2018CriticalLibrarianshipAcademic",
+      "path": "/docs/B/Beilin2018CriticalLibrarianshipAcademic.md",
+      "title": "Critical librarianship as an academic pursuit",
+      "authors": "Beilin, Ian",
+      "year": "2018",
+      "journal": "The politics of theory and the practice of critical librarianship",
+      "doi": "",
+      "url": "http://libraryjuicepress.com/journals/index.php/jclis.",
+      "citation_key": "Beilin2018CriticalLibrarianshipAcademic",
+      "displayTitle": "Beilin, Ian (2018). Critical librarianship as an academic pursuit — The politics of theory and the practice of critical librarianship",
+      "mtimeMs": 1764780775666.6,
+      "category": "3.2-Classification-as-ethics/politics"
     },
     {
       "letter": "B",
@@ -183,6 +198,21 @@
     },
     {
       "letter": "C",
+      "slug": "CarterThingsSaidUnsaid",
+      "path": "/docs/C/CarterThingsSaidUnsaid.md",
+      "title": "Of things said and unsaid: power, archival silences, and power in silence",
+      "authors": "Carter, Rodney G S",
+      "year": "2006",
+      "journal": "Archivaria 61",
+      "doi": "",
+      "url": "",
+      "citation_key": "CarterThingsSaidUnsaid",
+      "displayTitle": "Carter, Rodney G S (2006). Of things said and unsaid: power, archival silences, and power in silence — Archivaria 61",
+      "mtimeMs": 1764780775668.0393,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "C",
       "slug": "Claeyssens2025PublishingLargeCollections",
       "path": "/docs/C/Claeyssens2025PublishingLargeCollections.md",
       "title": "Publishing large collections of digitised printed material",
@@ -243,6 +273,21 @@
     },
     {
       "letter": "D",
+      "slug": "DIgnazio2020DataFeminism",
+      "path": "/docs/D/DIgnazio2020DataFeminism.md",
+      "title": "Data feminism",
+      "authors": "D'Ignazio, Catherine and Klein, Lauren F.",
+      "year": "2020",
+      "journal": "The MIT Press",
+      "doi": "",
+      "url": "https://direct.mit.edu/books/book/2390355/data-feminism",
+      "citation_key": "DIgnazio2020DataFeminism",
+      "displayTitle": "D'Ignazio, Catherine and Klein, Lauren F. (2020). Data feminism — The MIT Press",
+      "mtimeMs": 1764780775669.1616,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "D",
       "slug": "Dempsey2006LibrariesLongTail",
       "path": "/docs/D/Dempsey2006LibrariesLongTail.md",
       "title": "Libraries and the Long Tail",
@@ -270,6 +315,21 @@
       "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
       "mtimeMs": 1764331895162.331,
       "category": "1.2-Critiques/anti-method/drift"
+    },
+    {
+      "letter": "D",
+      "slug": "Drabinski2019WhatCriticalCritical",
+      "path": "/docs/D/Drabinski2019WhatCriticalCritical.md",
+      "title": "What Is critical about critical librarianship?",
+      "authors": "Drabinski, Emily",
+      "year": "2019",
+      "journal": "Art Libraries Journal",
+      "doi": "10.1017/alj.2019.3",
+      "url": "",
+      "citation_key": "Drabinski2019WhatCriticalCritical",
+      "displayTitle": "Drabinski, Emily (2019). What Is critical about critical librarianship? — Art Libraries Journal",
+      "mtimeMs": 1764780775669.7139,
+      "category": "3.2-Classification-as-ethics/politics"
     },
     {
       "letter": "E",
@@ -378,6 +438,21 @@
     },
     {
       "letter": "G",
+      "slug": "Gilliland2016RecordsTheirImaginaries",
+      "path": "/docs/G/Gilliland2016RecordsTheirImaginaries.md",
+      "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
+      "authors": "Gilliland, Anne J. and Caswell, Michelle",
+      "year": "2016",
+      "journal": "Archival Science",
+      "doi": "10.1007/s10502-015-9259-z",
+      "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
+      "citation_key": "Gilliland2016RecordsTheirImaginaries",
+      "displayTitle": "Gilliland, Anne J. and Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
+      "mtimeMs": 1764780775671.2837,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "G",
       "slug": "Gilliland2018ArchivalRecordkeepingResearch",
       "path": "/docs/G/Gilliland2018ArchivalRecordkeepingResearch.md",
       "title": "Archival and recordkeeping research",
@@ -423,6 +498,21 @@
     },
     {
       "letter": "H",
+      "slug": "Harris2002ArchivalSliverPower",
+      "path": "/docs/H/Harris2002ArchivalSliverPower.md",
+      "title": "The archival sliver: Power, memory, and archives in South Africa",
+      "authors": "Harris, Verne",
+      "year": "2002",
+      "journal": "Archival Science",
+      "doi": "10.1007/BF02435631",
+      "url": "http://link.springer.com/10.1007/BF02435631",
+      "citation_key": "Harris2002ArchivalSliverPower",
+      "displayTitle": "Harris, Verne (2002). The archival sliver: Power, memory, and archives in South Africa — Archival Science",
+      "mtimeMs": 1764780775672.257,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "H",
       "slug": "Hawkins2022ArchivesLinkedData",
       "path": "/docs/H/Hawkins2022ArchivesLinkedData.md",
       "title": "Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web",
@@ -450,6 +540,21 @@
       "displayTitle": "Horkheimer, Max and Horkheimer, Max (2002). Critical theory selected essays — Critical Theory: Selected Essays",
       "mtimeMs": 1764331895166.0195,
       "category": "7.1-Read-once-background"
+    },
+    {
+      "letter": "J",
+      "slug": "Johnson2023GlobalApproachNatural",
+      "path": "/docs/J/Johnson2023GlobalApproachNatural.md",
+      "title": "A global approach for natural history museum collections",
+      "authors": "Johnson, Kirk R. and Owens, Ian F. P. and the Global Collection Group",
+      "year": "2023",
+      "journal": "Science",
+      "doi": "10.1126/science.adf6434",
+      "url": "https://www.science.org/doi/10.1126/science.adf6434",
+      "citation_key": "Johnson2023GlobalApproachNatural",
+      "displayTitle": "Johnson, Kirk R. and Owens, Ian F. P. and the Global Collection Group (2023). A global approach for natural history museum collections — Science",
+      "mtimeMs": 1764780775673.042,
+      "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
     },
     {
       "letter": "J",
@@ -538,7 +643,7 @@
       "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
       "citation_key": "Vaughan2017PracticebasedDesignResearch",
       "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
-      "mtimeMs": 1764331895172.366,
+      "mtimeMs": 1764780775678.6235,
       "category": "5.1-Practice-led-design-research"
     },
     {
@@ -572,6 +677,51 @@
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
+      "letter": "M",
+      "slug": "Mehrabi2021SurveyBiasFairness",
+      "path": "/docs/M/Mehrabi2021SurveyBiasFairness.md",
+      "title": "A survey on bias and fairness in machine learning",
+      "authors": "Mehrabi, Ninareh and Morstatter, Fred and Saxena, Nripsuta and Lerman, Kristina and Galstyan, Aram",
+      "year": "2021",
+      "journal": "ACM Computing Surveys",
+      "doi": "10.1145/3457607",
+      "url": "",
+      "citation_key": "Mehrabi2021SurveyBiasFairness",
+      "displayTitle": "Mehrabi, Ninareh and Morstatter, Fred and Saxena, Nripsuta and Lerman, Kristina and Galstyan, Aram (2021). A survey on bias and fairness in machine learning — ACM Computing Surveys",
+      "mtimeMs": 1764780775674.4753,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "M",
+      "slug": "Moss2021ArchivalSilencesMissing",
+      "path": "/docs/M/Moss2021ArchivalSilencesMissing.md",
+      "title": "Archival silences: missing, lost and uncreated archives",
+      "authors": "Michael Moss and David Thomas",
+      "year": "2021",
+      "journal": "Routledge",
+      "doi": "10.4324/9781003003618",
+      "url": "https://www.taylorfrancis.com/books/9781000385199",
+      "citation_key": "Moss2021ArchivalSilencesMissing",
+      "displayTitle": "Michael Moss and David Thomas (2021). Archival silences: missing, lost and uncreated archives — Routledge",
+      "mtimeMs": 1764743838797.7844,
+      "category": "3.3-Absence,-silence-and-missing-data"
+    },
+    {
+      "letter": "O",
+      "slug": "Ogden2024KnowingInfrastructureWayback",
+      "path": "/docs/O/Ogden2024KnowingInfrastructureWayback.md",
+      "title": "Know(ing) infrastructure: the wayback machine as object and instrument of digital research",
+      "authors": "Ogden, Jessica and Summers, Edward and Walker, Shawn",
+      "year": "2024",
+      "journal": "Convergence: The International Journal of Research into New Media Technologies",
+      "doi": "10.1177/13548565231164759",
+      "url": "https://journals.sagepub.com/doi/10.1177/13548565231164759",
+      "citation_key": "Ogden2024KnowingInfrastructureWayback",
+      "displayTitle": "Ogden, Jessica and Summers, Edward and Walker, Shawn (2024). Know(ing) infrastructure: the wayback machine as object and instrument of digital research — Convergence: The International Journal of Research into New Media Technologies",
+      "mtimeMs": 1764780775675.4446,
+      "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+    },
+    {
       "letter": "P",
       "slug": "PadillaVancouverStatementCollections",
       "path": "/docs/P/PadillaVancouverStatementCollections.md",
@@ -585,6 +735,21 @@
       "displayTitle": "Padilla, T. et al. (2023). Vancouver statement on collections as data — Zenodo preprint",
       "mtimeMs": 1764688026397.4077,
       "category": "4.2-Digital-libraries/long-tail/discovery"
+    },
+    {
+      "letter": "P",
+      "slug": "PadillaCollectionsDataPart",
+      "path": "/docs/P/PadillaCollectionsDataPart.md",
+      "title": "Collections as data: part to whole",
+      "authors": "Padilla, Thomas and Scates Kettler, Hannah and Shorish, Yasmeen",
+      "year": "2023",
+      "journal": "Final report (Mellon-funded project)",
+      "doi": "",
+      "url": "",
+      "citation_key": "PadillaCollectionsDataPart",
+      "displayTitle": "Padilla, Thomas and Scates Kettler, Hannah and Shorish, Yasmeen (2023). Collections as data: part to whole — Final report (Mellon-funded project)",
+      "mtimeMs": 1764780770058.3887,
+      "category": "4.1-Linked-data-and-graph-ontologies"
     },
     {
       "letter": "P",
@@ -708,6 +873,21 @@
     },
     {
       "letter": "S",
+      "slug": "Schwartz2002ArchivesRecordsPower",
+      "path": "/docs/S/Schwartz2002ArchivesRecordsPower.md",
+      "title": "Archives, records, and power: the making of modern memory",
+      "authors": "Schwartz, Joan M. and Cook, Terry",
+      "year": "2002",
+      "journal": "Archival Science",
+      "doi": "10.1007/BF02435628",
+      "url": "http://link.springer.com/10.1007/BF02435628",
+      "citation_key": "Schwartz2002ArchivesRecordsPower",
+      "displayTitle": "Schwartz, Joan M. and Cook, Terry (2002). Archives, records, and power: the making of modern memory — Archival Science",
+      "mtimeMs": 1764780775677.5862,
+      "category": "3.2-Classification-as-ethics/politics"
+    },
+    {
+      "letter": "S",
       "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
       "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
       "title": "Data-driven innovation for trustworthy AI",
@@ -737,6 +917,21 @@
       "category": "5.2-Cybernetics-and-conversation-theory"
     },
     {
+      "letter": "S",
+      "slug": "Summers2017BotsSeedsPeople",
+      "path": "/docs/S/Summers2017BotsSeedsPeople.md",
+      "title": "Bots seeds and people: web archives as infrastructure",
+      "authors": "Summers, Ed and Punzalan, Ricardo",
+      "year": "2017",
+      "journal": "Proceedings of the 2017 {{ACM Conference}",
+      "doi": "10.1145/2998181.2998345",
+      "url": "http://arxiv.org/abs/1611.02493",
+      "citation_key": "Summers2017BotsSeedsPeople",
+      "displayTitle": "Summers, Ed and Punzalan, Ricardo (2017). Bots seeds and people: web archives as infrastructure — Proceedings of the 2017 {{ACM Conference}",
+      "mtimeMs": 1764780775678.135,
+      "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+    },
+    {
       "letter": "T",
       "slug": "Thompson2017VoiceOralHistory",
       "path": "/docs/T/Thompson2017VoiceOralHistory.md",
@@ -763,7 +958,7 @@
       "url": "",
       "citation_key": "Wilkinson2016CommentFAIRGuiding",
       "displayTitle": "Wilkinson, Mark D. and Dumontier, Michel and Aalbersberg, IJsbrand Jan and Appleton, Gabrielle and Axton, Myles and Baak, Arie and Blomberg, Niklas and Boiten, Jan Willem and {da Silva Santos}, Luiz Bonino and Bourne, Philip E. and Bouwman, Jildau and Brookes, Anthony J. and Clark, Tim and Crosas, Merc{\\`e} and Dillo, Ingrid and Dumon, Olivier and Edmunds, Scott and Evelo, Chris T. and Finkers, Richard and {Gonzalez-Beltran}, Alejandra and Gray, Alasdair J.G. and Groth, Paul and Goble, Carole and Grethe, Jeffrey S. and Heringa, Jaap and {t Hoen}, Peter A.C. and Hooft, Rob and Kuhn, Tobias and Kok, Ruben and Kok, Joost and Lusher, Scott J. and Martone, Maryann E. and Mons, Albert and Packer, Abel L. and Persson, Bengt and {Rocca-Serra}, Philippe and Roos, Marco and {van Schaik}, Rene and Sansone, Susanna Assunta and Schultes, Erik and Sengstag, Thierry and Slater, Ted and Strawn, George and Swertz, Morris A. and Thompson, Mark and Van Der Lei, Johan and Van Mulligen, Erik and Velterop, Jan and Waagmeester, Andra and Wittenburg, Peter and Wolstencroft, Katherine and Zhao, Jun and Mons, Barend (2016). Comment: The FAIR guiding principles for scientific data management and stewardship — Scientific Data",
-      "mtimeMs": 1764688026399.8696,
+      "mtimeMs": 1764780775679.0166,
       "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
     },
     {
@@ -871,7 +1066,7 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-        "mtimeMs": 1764331895156.724,
+        "mtimeMs": 1764780775662.3762,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -906,6 +1101,21 @@
       }
     ],
     "B": [
+      {
+        "letter": "B",
+        "slug": "Beilin2018CriticalLibrarianshipAcademic",
+        "path": "/docs/B/Beilin2018CriticalLibrarianshipAcademic.md",
+        "title": "Critical librarianship as an academic pursuit",
+        "authors": "Beilin, Ian",
+        "year": "2018",
+        "journal": "The politics of theory and the practice of critical librarianship",
+        "doi": "",
+        "url": "http://libraryjuicepress.com/journals/index.php/jclis.",
+        "citation_key": "Beilin2018CriticalLibrarianshipAcademic",
+        "displayTitle": "Beilin, Ian (2018). Critical librarianship as an academic pursuit — The politics of theory and the practice of critical librarianship",
+        "mtimeMs": 1764780775666.6,
+        "category": "3.2-Classification-as-ethics/politics"
+      },
       {
         "letter": "B",
         "slug": "Bizer2009LinkedDataStory",
@@ -1032,6 +1242,21 @@
     "C": [
       {
         "letter": "C",
+        "slug": "CarterThingsSaidUnsaid",
+        "path": "/docs/C/CarterThingsSaidUnsaid.md",
+        "title": "Of things said and unsaid: power, archival silences, and power in silence",
+        "authors": "Carter, Rodney G S",
+        "year": "2006",
+        "journal": "Archivaria 61",
+        "doi": "",
+        "url": "",
+        "citation_key": "CarterThingsSaidUnsaid",
+        "displayTitle": "Carter, Rodney G S (2006). Of things said and unsaid: power, archival silences, and power in silence — Archivaria 61",
+        "mtimeMs": 1764780775668.0393,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "C",
         "slug": "Claeyssens2025PublishingLargeCollections",
         "path": "/docs/C/Claeyssens2025PublishingLargeCollections.md",
         "title": "Publishing large collections of digitised printed material",
@@ -1094,6 +1319,21 @@
     "D": [
       {
         "letter": "D",
+        "slug": "DIgnazio2020DataFeminism",
+        "path": "/docs/D/DIgnazio2020DataFeminism.md",
+        "title": "Data feminism",
+        "authors": "D'Ignazio, Catherine and Klein, Lauren F.",
+        "year": "2020",
+        "journal": "The MIT Press",
+        "doi": "",
+        "url": "https://direct.mit.edu/books/book/2390355/data-feminism",
+        "citation_key": "DIgnazio2020DataFeminism",
+        "displayTitle": "D'Ignazio, Catherine and Klein, Lauren F. (2020). Data feminism — The MIT Press",
+        "mtimeMs": 1764780775669.1616,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "D",
         "slug": "Dempsey2006LibrariesLongTail",
         "path": "/docs/D/Dempsey2006LibrariesLongTail.md",
         "title": "Libraries and the Long Tail",
@@ -1121,6 +1361,21 @@
         "displayTitle": "Dorst, Kees (2016). Design practice and design research: finally together? — {{DRS2016}",
         "mtimeMs": 1764331895162.331,
         "category": "1.2-Critiques/anti-method/drift"
+      },
+      {
+        "letter": "D",
+        "slug": "Drabinski2019WhatCriticalCritical",
+        "path": "/docs/D/Drabinski2019WhatCriticalCritical.md",
+        "title": "What Is critical about critical librarianship?",
+        "authors": "Drabinski, Emily",
+        "year": "2019",
+        "journal": "Art Libraries Journal",
+        "doi": "10.1017/alj.2019.3",
+        "url": "",
+        "citation_key": "Drabinski2019WhatCriticalCritical",
+        "displayTitle": "Drabinski, Emily (2019). What Is critical about critical librarianship? — Art Libraries Journal",
+        "mtimeMs": 1764780775669.7139,
+        "category": "3.2-Classification-as-ethics/politics"
       }
     ],
     "E": [
@@ -1235,6 +1490,21 @@
       },
       {
         "letter": "G",
+        "slug": "Gilliland2016RecordsTheirImaginaries",
+        "path": "/docs/G/Gilliland2016RecordsTheirImaginaries.md",
+        "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
+        "authors": "Gilliland, Anne J. and Caswell, Michelle",
+        "year": "2016",
+        "journal": "Archival Science",
+        "doi": "10.1007/s10502-015-9259-z",
+        "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
+        "citation_key": "Gilliland2016RecordsTheirImaginaries",
+        "displayTitle": "Gilliland, Anne J. and Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
+        "mtimeMs": 1764780775671.2837,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "G",
         "slug": "Gilliland2018ArchivalRecordkeepingResearch",
         "path": "/docs/G/Gilliland2018ArchivalRecordkeepingResearch.md",
         "title": "Archival and recordkeeping research",
@@ -1282,6 +1552,21 @@
     "H": [
       {
         "letter": "H",
+        "slug": "Harris2002ArchivalSliverPower",
+        "path": "/docs/H/Harris2002ArchivalSliverPower.md",
+        "title": "The archival sliver: Power, memory, and archives in South Africa",
+        "authors": "Harris, Verne",
+        "year": "2002",
+        "journal": "Archival Science",
+        "doi": "10.1007/BF02435631",
+        "url": "http://link.springer.com/10.1007/BF02435631",
+        "citation_key": "Harris2002ArchivalSliverPower",
+        "displayTitle": "Harris, Verne (2002). The archival sliver: Power, memory, and archives in South Africa — Archival Science",
+        "mtimeMs": 1764780775672.257,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "H",
         "slug": "Hawkins2022ArchivesLinkedData",
         "path": "/docs/H/Hawkins2022ArchivesLinkedData.md",
         "title": "Archives, linked data and the digital humanities: increasing access to digitised and born-digital archives via the semantic web",
@@ -1312,6 +1597,21 @@
       }
     ],
     "J": [
+      {
+        "letter": "J",
+        "slug": "Johnson2023GlobalApproachNatural",
+        "path": "/docs/J/Johnson2023GlobalApproachNatural.md",
+        "title": "A global approach for natural history museum collections",
+        "authors": "Johnson, Kirk R. and Owens, Ian F. P. and the Global Collection Group",
+        "year": "2023",
+        "journal": "Science",
+        "doi": "10.1126/science.adf6434",
+        "url": "https://www.science.org/doi/10.1126/science.adf6434",
+        "citation_key": "Johnson2023GlobalApproachNatural",
+        "displayTitle": "Johnson, Kirk R. and Owens, Ian F. P. and the Global Collection Group (2023). A global approach for natural history museum collections — Science",
+        "mtimeMs": 1764780775673.042,
+        "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+      },
       {
         "letter": "J",
         "slug": "Jonas2012ExploringSwampyGround",
@@ -1405,7 +1705,7 @@
         "url": "https://www.bloomsburycollections.com/book/practice-based-design-research",
         "citation_key": "Vaughan2017PracticebasedDesignResearch",
         "displayTitle": "Laurene Vaughan (2017). Practice-based design research — Bloomsbury Publishing Plc",
-        "mtimeMs": 1764331895172.366,
+        "mtimeMs": 1764780775678.6235,
         "category": "5.1-Practice-led-design-research"
       }
     ],
@@ -1439,6 +1739,53 @@
         "displayTitle": "Medawar, P.B (1969). Induction and intuition in scientific thought — Methuen \\& Co Ltd",
         "mtimeMs": 1764688026397.0032,
         "category": "1.2-Critiques/anti-method/drift"
+      },
+      {
+        "letter": "M",
+        "slug": "Mehrabi2021SurveyBiasFairness",
+        "path": "/docs/M/Mehrabi2021SurveyBiasFairness.md",
+        "title": "A survey on bias and fairness in machine learning",
+        "authors": "Mehrabi, Ninareh and Morstatter, Fred and Saxena, Nripsuta and Lerman, Kristina and Galstyan, Aram",
+        "year": "2021",
+        "journal": "ACM Computing Surveys",
+        "doi": "10.1145/3457607",
+        "url": "",
+        "citation_key": "Mehrabi2021SurveyBiasFairness",
+        "displayTitle": "Mehrabi, Ninareh and Morstatter, Fred and Saxena, Nripsuta and Lerman, Kristina and Galstyan, Aram (2021). A survey on bias and fairness in machine learning — ACM Computing Surveys",
+        "mtimeMs": 1764780775674.4753,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "M",
+        "slug": "Moss2021ArchivalSilencesMissing",
+        "path": "/docs/M/Moss2021ArchivalSilencesMissing.md",
+        "title": "Archival silences: missing, lost and uncreated archives",
+        "authors": "Michael Moss and David Thomas",
+        "year": "2021",
+        "journal": "Routledge",
+        "doi": "10.4324/9781003003618",
+        "url": "https://www.taylorfrancis.com/books/9781000385199",
+        "citation_key": "Moss2021ArchivalSilencesMissing",
+        "displayTitle": "Michael Moss and David Thomas (2021). Archival silences: missing, lost and uncreated archives — Routledge",
+        "mtimeMs": 1764743838797.7844,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      }
+    ],
+    "O": [
+      {
+        "letter": "O",
+        "slug": "Ogden2024KnowingInfrastructureWayback",
+        "path": "/docs/O/Ogden2024KnowingInfrastructureWayback.md",
+        "title": "Know(ing) infrastructure: the wayback machine as object and instrument of digital research",
+        "authors": "Ogden, Jessica and Summers, Edward and Walker, Shawn",
+        "year": "2024",
+        "journal": "Convergence: The International Journal of Research into New Media Technologies",
+        "doi": "10.1177/13548565231164759",
+        "url": "https://journals.sagepub.com/doi/10.1177/13548565231164759",
+        "citation_key": "Ogden2024KnowingInfrastructureWayback",
+        "displayTitle": "Ogden, Jessica and Summers, Edward and Walker, Shawn (2024). Know(ing) infrastructure: the wayback machine as object and instrument of digital research — Convergence: The International Journal of Research into New Media Technologies",
+        "mtimeMs": 1764780775675.4446,
+        "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
       }
     ],
     "P": [
@@ -1456,6 +1803,21 @@
         "displayTitle": "Padilla, T. et al. (2023). Vancouver statement on collections as data — Zenodo preprint",
         "mtimeMs": 1764688026397.4077,
         "category": "4.2-Digital-libraries/long-tail/discovery"
+      },
+      {
+        "letter": "P",
+        "slug": "PadillaCollectionsDataPart",
+        "path": "/docs/P/PadillaCollectionsDataPart.md",
+        "title": "Collections as data: part to whole",
+        "authors": "Padilla, Thomas and Scates Kettler, Hannah and Shorish, Yasmeen",
+        "year": "2023",
+        "journal": "Final report (Mellon-funded project)",
+        "doi": "",
+        "url": "",
+        "citation_key": "PadillaCollectionsDataPart",
+        "displayTitle": "Padilla, Thomas and Scates Kettler, Hannah and Shorish, Yasmeen (2023). Collections as data: part to whole — Final report (Mellon-funded project)",
+        "mtimeMs": 1764780770058.3887,
+        "category": "4.1-Linked-data-and-graph-ontologies"
       },
       {
         "letter": "P",
@@ -1536,6 +1898,21 @@
     "S": [
       {
         "letter": "S",
+        "slug": "Schwartz2002ArchivesRecordsPower",
+        "path": "/docs/S/Schwartz2002ArchivesRecordsPower.md",
+        "title": "Archives, records, and power: the making of modern memory",
+        "authors": "Schwartz, Joan M. and Cook, Terry",
+        "year": "2002",
+        "journal": "Archival Science",
+        "doi": "10.1007/BF02435628",
+        "url": "http://link.springer.com/10.1007/BF02435628",
+        "citation_key": "Schwartz2002ArchivesRecordsPower",
+        "displayTitle": "Schwartz, Joan M. and Cook, Terry (2002). Archives, records, and power: the making of modern memory — Archival Science",
+        "mtimeMs": 1764780775677.5862,
+        "category": "3.2-Classification-as-ethics/politics"
+      },
+      {
+        "letter": "S",
         "slug": "Siddharth2025DataDrivenInnovationTrustworthy",
         "path": "/docs/S/Siddharth2025DataDrivenInnovationTrustworthy.md",
         "title": "Data-driven innovation for trustworthy AI",
@@ -1563,6 +1940,21 @@
         "displayTitle": "Simon, Herbert (2012). Social planning — Mapping design research",
         "mtimeMs": 1764331895171.5513,
         "category": "5.2-Cybernetics-and-conversation-theory"
+      },
+      {
+        "letter": "S",
+        "slug": "Summers2017BotsSeedsPeople",
+        "path": "/docs/S/Summers2017BotsSeedsPeople.md",
+        "title": "Bots seeds and people: web archives as infrastructure",
+        "authors": "Summers, Ed and Punzalan, Ricardo",
+        "year": "2017",
+        "journal": "Proceedings of the 2017 {{ACM Conference}",
+        "doi": "10.1145/2998181.2998345",
+        "url": "http://arxiv.org/abs/1611.02493",
+        "citation_key": "Summers2017BotsSeedsPeople",
+        "displayTitle": "Summers, Ed and Punzalan, Ricardo (2017). Bots seeds and people: web archives as infrastructure — Proceedings of the 2017 {{ACM Conference}",
+        "mtimeMs": 1764780775678.135,
+        "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
       }
     ],
     "T": [
@@ -1595,7 +1987,7 @@
         "url": "",
         "citation_key": "Wilkinson2016CommentFAIRGuiding",
         "displayTitle": "Wilkinson, Mark D. and Dumontier, Michel and Aalbersberg, IJsbrand Jan and Appleton, Gabrielle and Axton, Myles and Baak, Arie and Blomberg, Niklas and Boiten, Jan Willem and {da Silva Santos}, Luiz Bonino and Bourne, Philip E. and Bouwman, Jildau and Brookes, Anthony J. and Clark, Tim and Crosas, Merc{\\`e} and Dillo, Ingrid and Dumon, Olivier and Edmunds, Scott and Evelo, Chris T. and Finkers, Richard and {Gonzalez-Beltran}, Alejandra and Gray, Alasdair J.G. and Groth, Paul and Goble, Carole and Grethe, Jeffrey S. and Heringa, Jaap and {t Hoen}, Peter A.C. and Hooft, Rob and Kuhn, Tobias and Kok, Ruben and Kok, Joost and Lusher, Scott J. and Martone, Maryann E. and Mons, Albert and Packer, Abel L. and Persson, Bengt and {Rocca-Serra}, Philippe and Roos, Marco and {van Schaik}, Rene and Sansone, Susanna Assunta and Schultes, Erik and Sengstag, Thierry and Slater, Ted and Strawn, George and Swertz, Morris A. and Thompson, Mark and Van Der Lei, Johan and Van Mulligen, Erik and Velterop, Jan and Waagmeester, Andra and Wittenburg, Peter and Wolstencroft, Katherine and Zhao, Jun and Mons, Barend (2016). Comment: The FAIR guiding principles for scientific data management and stewardship — Scientific Data",
-        "mtimeMs": 1764688026399.8696,
+        "mtimeMs": 1764780775679.0166,
         "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
       },
       {

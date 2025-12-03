@@ -9,10 +9,8 @@ url: "http://link.springer.com/10.1007/BF02435631"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 06:10 PM"
-category: 3.3-Absence,-silence-and-missing-data
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.3-Absence,-silence-and-missing-data---
 # Scope of this note
 Whole article (pp. 63–86). Read here as a central theoretical account of **archives as power-laden slivers of social memory**, grounded in South Africa’s transition from apartheid. It anchors Strand 3.3 on absence, silence and missing data, and underpins the reading of DDR as an *archival sliver* shaped by institutional power. 
 

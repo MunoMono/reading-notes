@@ -9,10 +9,8 @@ url: "http://libraryjuicepress.com/journals/index.php/jclis."
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 03:40 PM"
-category: 3.2-Classification-as-ethics/politics
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.2-Classification-as-ethics/politics---
 # Scope of this note
 This note covers the whole chapter. It treats the piece as a meta–critical reflection on **critical librarianship’s entanglement with academia, theory, privilege and activism**, read alongside Drabinski for Strand 3.2 (“Classification as ethics/politics”).
 

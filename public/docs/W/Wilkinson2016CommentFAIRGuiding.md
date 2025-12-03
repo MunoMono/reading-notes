@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 02, 2025, 03:07 PM"
+last_updated: "Dec 03, 2025, 04:52 PM"
 category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description---
 # Scope of this note
 Focus on how Wilkinson et al. articulate the FAIR (Findable, Accessible, Interoperable, Reusable) principles as high-level, machine-oriented guidance for scholarly data, and how this normative framework intersects with archival description, linked data and computational infrastructures that matter for the thesis.

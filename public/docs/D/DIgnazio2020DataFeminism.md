@@ -9,9 +9,8 @@ url: "https://direct.mit.edu/books/book/2390355/data-feminism"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 03:55 PM"
-category: 3.3-Absence,-silence-and-missing-data
----
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.3-Absence,-silence-and-missing-data---
 # Scope of this note
 
 Focus on the conceptual architecture of *Data Feminism* as articulated in Chapter 1 “The Power Chapter,” Chapter 2 “Collect, Analyze, Imagine, Teach,” and Chapter 6 “The Numbers Don’t Speak for Themselves,” plus relevant elements of the Introduction. These chapters are used to ground the thesis’s account of power, missing data, positionality and context in data/archives, and to inform the DDR data model and RAG design.

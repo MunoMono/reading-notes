@@ -9,10 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 07:05 PM"
-category: 3.3-Absence,-silence-and-missing-data
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.3-Absence,-silence-and-missing-data---
 # Scope of this note
 Whole article (Archivaria 61, pp. 215–234). Treated here as a core theoretical text on **archival silence** that complements Harris’s “archival sliver” by distinguishing *silence imposed by power* from *silence chosen as resistance*, and by outlining how archivists can read and act around these gaps.
 

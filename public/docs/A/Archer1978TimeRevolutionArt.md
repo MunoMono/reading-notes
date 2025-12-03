@@ -9,7 +9,7 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 12:11 PM"
+last_updated: "Dec 03, 2025, 04:52 PM"
 category: 1.1-Canonical-methods-texts---
 # Scope of this note
 This note provides an extended critical reading—approximately eightfold in analytical rigour—of L. Bruce Archer’s *Time for a Revolution in Art and Design Education* (RCA Papers No. 6, 1978). It situates the work within the evolution of design research at the Royal College of Art (RCA), particularly as the conceptual and ideological foundation for the Department of Design Research (DDR). The note reconstructs Archer’s epistemological architecture, dissects its internal contradictions, and examines its afterlife across design research historiography. Archer’s argument is interpreted as a structural pivot between the post-war ideal of “design science” and the emergent pluralism of designerly epistemologies that followed. This reading deploys critical triangulation—philosophical, institutional, and methodological—to unpack how *Revolution* articulates design’s claim to intellectual autonomy, its moral rationale, and its institutional strategy.

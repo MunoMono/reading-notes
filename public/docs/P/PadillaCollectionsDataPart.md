@@ -9,10 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 04:38 PM"
-category: 4.1-Linked-data-and-graph-ontologies
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 4.1-Linked-data-and-graph-ontologies---
 # Scope of this note
 
 Entire white paper (19pp. PDF). Read primarily through:

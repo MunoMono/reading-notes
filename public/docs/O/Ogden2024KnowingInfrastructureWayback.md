@@ -9,10 +9,8 @@ url: "https://journals.sagepub.com/doi/10.1177/13548565231164759"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 06:30 PM"
-category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description---
 # Scope of this note
 
 Entire article (pp. 167–189). Read here as a core digital-STS account of **web archives as knowledge infrastructures**, focusing on the Internet Archive’s Wayback Machine (IAWM) and “Save Page Now” (SPN). It is particularly useful for Strand 2’s infrastructural lens on archives, and for understanding how **sociotechnical arrangements, automation and scale** produce gaps, partiality and “known unknowns” in computational archives. 

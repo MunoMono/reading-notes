@@ -9,10 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 01:54 PM"
-category: 3.2-Classification-as-ethics/politics
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.2-Classification-as-ethics/politics---
 # Scope of this note
 This note covers the full article. It treats the piece as a programmatic statement on critical librarianship, with particular attention to classification, infrastructures, labour and power. It anchors Strand 3.2 (“Classification as ethics/politics”) and links directly to the project’s analysis of absence-producing systems.
 

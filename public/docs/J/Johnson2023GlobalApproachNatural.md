@@ -9,10 +9,8 @@ url: "https://www.science.org/doi/10.1126/science.adf6434"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 03:20 PM"
-category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description---
 # Scope of this note
 Short Science Policy Forum piece (three pages, 1192–1194). Read here as an infrastructural and governance statement about *global scientific collections* — how to describe, aggregate and strategically extend them — with clear resonance for DDR as a smaller, institutional “collection as data”.
 

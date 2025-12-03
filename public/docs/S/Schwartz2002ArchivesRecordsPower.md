@@ -9,10 +9,8 @@ url: "http://link.springer.com/10.1007/BF02435628"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 03, 2025, 02:16 PM"
-category: 3.2-Classification-as-ethics/politics
----
-
+last_updated: "Dec 03, 2025, 04:52 PM"
+category: 3.2-Classification-as-ethics/politics---
 # Scope of this note
 This note covers the whole article, treated as a programmatic introduction to the “archives, records, and power” special issues of *Archival Science*. It is used as a foundational text for the project’s analysis of archives and classification as ethical–political infrastructures, and as a bridge into questions of absence, silence and missingness in modern memory.
 
