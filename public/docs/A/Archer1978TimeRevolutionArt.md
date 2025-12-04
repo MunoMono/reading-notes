@@ -94,10 +94,10 @@ Archer’s *Revolution* can be read through three lenses: epistemic, institution
 The project reinterprets Archer’s taxonomy as a dynamic framework rather than a fixed hierarchy. By integrating computational and participatory methods, the project extends Archer’s language of modelling into a twenty-first-century context, transforming models from static representations into interactive interfaces. In doing so, it realises Archer’s ambition for systematic scholarship while embodying the epistemic pluralism that his model suppressed.
 
 # Evidence to quote or paraphrase
-- 'There exists an under-recognised but definable third area of human knowing… ‘wroughting and wrighting’.' (p. 5)  
-- 'The repository of knowledge in Design is not only the material culture and the contents of the museums but also the executive skills of the doer and maker.' (p. 9)  
-- 'It is time the College ceased to be elitist, vocational and aloof.' (p. 17)  
-- 'The task of the sub-discipline of design research is to assemble this body of knowledge.' (p. 15)  
+- 'There exists an under-recognised but definable third area of human knowing… ‘wroughting and wrighting’.' (p. 4)  
+- 'The repository of knowledge in Design is not only the material culture and the contents of the museums but also the executive skills of the doer and maker.' (p. 7)  
+- 'It is time the College ceased to be elitist, vocational and aloof.' (p. 12)  
+- 'The task of the sub-discipline of design research is to assemble this body of knowledge.' (p. 9)  
 
 These passages encapsulate the paper’s epistemological thesis, its materialist conception of knowledge, and its institutional demand for reform. Each becomes a point of triangulation for the DDR archive analysis: the codification of design knowledge, the valorisation of skill as intellect, and the aspiration for systematic research.
 

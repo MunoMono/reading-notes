@@ -27,10 +27,10 @@ The work is theoretical and synthetic. Jonas maps conceptual lineages across key
 ## Key findings and arguments
 ### Summarise the main results and conclusions
 1. **Science and design are epistemologically distinct yet mutually dependent.** Science seeks stable, predictive models; design thrives on contingency and variation.  
-2. **Mode 2 knowledge** (context-driven, transdisciplinary, socially accountable) is inherently design-like, dissolving the boundary between research and application.  
-3. **Design research requires its own logic**—a systemic, project-based mode integrating abduction, reflection and iteration—culminating in *Research Through Design* (RTD).  
-4. **Cybernetic learning and second-order observation** underpin Jonas’s model: design knowledge arises through reflexive feedback between analysis, projection and synthesis.  
-5. The “swampy ground” metaphor (after Schön) captures the productive tension between rigor and relevance, framing design as a field that must operate *in* the mess rather than above it.
+2. **Mode 2 knowledge** (context-driven, transdisciplinary, socially accountable) is inherently design-like, dissolving the boundary between research and application (pp. 5–7).  
+3. **Design research requires its own logic**—a systemic, project-based mode integrating abduction, reflection and iteration—culminating in *Research Through Design* (RTD) (pp. 8–12).  
+4. **Cybernetic learning and second-order observation** underpin Jonas’s model: design knowledge arises through reflexive feedback between analysis, projection and synthesis (pp. 12–15).  
+5. The “swampy ground” metaphor (after Schön) captures the productive tension between rigor and relevance, framing design as a field that must operate *in* the mess rather than above it (pp. 15–17).
 
 ---
 
@@ -42,10 +42,10 @@ Jonas’s schema parallels the DDR’s own epistemic tension between Archer’s 
 
 ## Project integration
 ### Why it helps the project (evidence-linked)
-- Jonas provides a theoretical foundation for framing the DDR’s activities as a **mode 2 knowledge system**—contextual, plural and iterative (pp. 1–5).  
-- His mapping of **research about / for / through design** supports the project’s taxonomy design, which explicitly distinguishes epistemic intentions within DDR documents (pp. 25–30).  
-- The emphasis on **abductive reasoning** legitimises the DDR’s experimental, heuristic outputs as knowledge production rather than “applied art” (p. 41).  
-- His cybernetic model of **reflexive loops** justifies treating the archive as a feedback system—aligning with the project’s RAG-enabled infrastructure.  
+- Jonas provides a theoretical foundation for framing the DDR’s activities as a **mode 2 knowledge system**—contextual, plural and iterative (pp. 5–7).  
+- His mapping of **research about / for / through design** supports the project’s taxonomy design, which explicitly distinguishes epistemic intentions within DDR documents (pp. 8–12).  
+- The emphasis on **abductive reasoning** legitimises the DDR’s experimental, heuristic outputs as knowledge production rather than “applied art” (pp. 12–13).  
+- His cybernetic model of **reflexive loops** justifies treating the archive as a feedback system—aligning with the project’s RAG-enabled infrastructure (pp. 12–15).  
 
 **Defines design research as an unstable terrain between science and practice—the “swamp” where rigour and relevance collide. This directly parallels the argument that the DDR embodied epistemic drift rather than methodological certainty. Use in *Method to Drift* to frame DDR as a case of “swampy” knowledge-making. Cite Jonas to legitimise the hybrid method (archival + computational) as an enactment of that same terrain, not a departure from it.**
 
@@ -101,10 +101,10 @@ It sharpens the methodological rationale for combining systematic taxonomy with 
 ---
 
 ## Evidence to quote or paraphrase
-- “Design has to intentionally create variations—differences—because the fits will dissolve, fade away, grow old-fashioned.” (p. 3)  
-- “Mode 2 science is design-like.” (p. 4)  
-- “The art of muddling through, or more positively, of informed intuition, should not be scorned, but seen as a core element of designing.” (p. 3)  
-- **Paraphrase:** Jonas argues that design research cannot be purified into stable models without destroying its object of inquiry; instead, it must embrace contextual complexity through abductive reasoning and reflexive iteration (pp. 40–45).  
+- “Design has to intentionally create variations—differences—because the fits will dissolve, fade away, grow old-fashioned.” (p. 6)  
+- “Mode 2 science is design-like.” (p. 7)  
+- “The art of muddling through, or more positively, of informed intuition, should not be scorned, but seen as a core element of designing.” (p. 6)  
+- **Paraphrase:** Jonas argues that design research cannot be purified into stable models without destroying its object of inquiry; instead, it must embrace contextual complexity through abductive reasoning and reflexive iteration (pp. 12–15).  
 
 ---
 

@@ -103,7 +103,7 @@ The overarching aim is to shift digital library user studies from treating catal
 
 ## Evidence to quote or paraphrase
 - 'Many datasets are received as black boxes, with only the input and output known' (p. 126).  
-- “Critical addressability refers to the notion that one should be able to evaluate the technical and social forces that shape data' (p. 119).  
+- “Critical addressability refers to the notion that one should be able to evaluate the technical and social forces that shape data' (p. 120).  
 - **Paraphrase:** Gooding argues that collections and catalogues should be reframed as *capta* (constructed, partial, situated), not raw, transparent data (p. 121)【20†source】.  
 
 ## Related works
