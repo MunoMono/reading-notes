@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-03T16:55:40.722Z",
+  "updatedAt": "2025-12-04T12:32:19.788Z",
   "entries": [
     {
       "letter": "A",
@@ -73,7 +73,7 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-      "mtimeMs": 1764780775662.3762,
+      "mtimeMs": 1764851539652.2192,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -180,6 +180,51 @@
       "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model-the realities of design in Bruce Archer — Design Studies",
       "mtimeMs": 1764331895158.9714,
       "category": "2.1-DDR-primary/secondary-histories"
+    },
+    {
+      "letter": "B",
+      "slug": "Buchanan2019SurroundingsEnvironmentsFourth",
+      "path": "/docs/B/Buchanan2019SurroundingsEnvironmentsFourth.md",
+      "title": "Surroundings and environments in fourth order design",
+      "authors": "Buchanan, Richard",
+      "year": "2019",
+      "journal": "Design Issues",
+      "doi": "10.1162/desi_a_00517",
+      "url": "",
+      "citation_key": "Buchanan2019SurroundingsEnvironmentsFourth",
+      "displayTitle": "Buchanan, Richard (2019). Surroundings and environments in fourth order design — Design Issues",
+      "mtimeMs": 1764851539658.3396,
+      "category": "1.1-Canonical-methods-texts"
+    },
+    {
+      "letter": "B",
+      "slug": "Buchanan2001DesignNewRhetoric",
+      "path": "/docs/B/Buchanan2001DesignNewRhetoric.md",
+      "title": "Design and the new rhetoric: productive arts in the philosophy of culture",
+      "authors": "Buchanan, Richard",
+      "year": "2001",
+      "journal": "Philosophy & Rhetoric",
+      "doi": "10.1162/07479360152681056",
+      "url": "https://www.jstor.org/stable/40238091",
+      "citation_key": "Buchanan2001DesignNewRhetoric",
+      "displayTitle": "Buchanan, Richard (2001). Design and the new rhetoric: productive arts in the philosophy of culture — Philosophy & Rhetoric",
+      "mtimeMs": 1764851539657.4973,
+      "category": "1.1-Canonical-methods-texts"
+    },
+    {
+      "letter": "B",
+      "slug": "Buchanan2001DesignResearchNew",
+      "path": "/docs/B/Buchanan2001DesignResearchNew.md",
+      "title": "Design research and the new learning",
+      "authors": "Buchanan, Richard",
+      "year": "2001",
+      "journal": "Design Issues",
+      "doi": "",
+      "url": "https://direct.mit.edu/desi/article/17/4/3-23/60006",
+      "citation_key": "Buchanan2001DesignResearchNew",
+      "displayTitle": "Buchanan, Richard (2001). Design research and the new learning — Design Issues",
+      "mtimeMs": 1764851539657.996,
+      "category": "1.1-Canonical-methods-texts"
     },
     {
       "letter": "R",
@@ -438,6 +483,21 @@
     },
     {
       "letter": "G",
+      "slug": "Gilliland2004BuildingInfrastructureArchival",
+      "path": "/docs/G/Gilliland2004BuildingInfrastructureArchival.md",
+      "title": "Building an infrastructure for archival research",
+      "authors": "Gilliland, Anne and McKemmish, Sue",
+      "year": "2004",
+      "journal": "Archival Science",
+      "doi": "10.1007/s10502-006-6742-6",
+      "url": "",
+      "citation_key": "Gilliland2004BuildingInfrastructureArchival",
+      "displayTitle": "Gilliland, Anne and McKemmish, Sue (2004). Building an infrastructure for archival research — Archival Science",
+      "mtimeMs": 1764851539661.698,
+      "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+    },
+    {
+      "letter": "G",
       "slug": "Gilliland2016RecordsTheirImaginaries",
       "path": "/docs/G/Gilliland2016RecordsTheirImaginaries.md",
       "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
@@ -493,7 +553,7 @@
       "url": "https://papers.ssrn.com/s",
       "citation_key": "Gooding2022CriticallyAddressableData",
       "displayTitle": "Gooding, Paul (2022). Towards critically addressable data for digital library user studies — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-      "mtimeMs": 1764331895165.4666,
+      "mtimeMs": 1764851539662.5906,
       "category": "3.2-Classification-as-ethics/politics"
     },
     {
@@ -543,6 +603,36 @@
     },
     {
       "letter": "J",
+      "slug": "Jaillant2022ArchivesAccessArtificial",
+      "path": "/docs/J/Jaillant2022ArchivesAccessArtificial.md",
+      "title": "Archives, access and artificial intelligence - working with born-digital and digitized archival collections",
+      "authors": "Jaillant, L",
+      "year": "2022",
+      "journal": "Bielefeld University Press",
+      "doi": "",
+      "url": "www.aura-network.net",
+      "citation_key": "Jaillant2022ArchivesAccessArtificial",
+      "displayTitle": "Jaillant, L (2022). Archives, access and artificial intelligence - working with born-digital and digitized archival collections — Bielefeld University Press",
+      "mtimeMs": 1764851539663.5251,
+      "category": "4.3-RAG/XAI/provenance"
+    },
+    {
+      "letter": "J",
+      "slug": "Jaillant2024AreUsersDigital",
+      "path": "/docs/J/Jaillant2024AreUsersDigital.md",
+      "title": "Are users of digital archives ready for the AI era?",
+      "authors": "Jaillant, Lise and Aske, Katherine",
+      "year": "2024",
+      "journal": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3631125",
+      "url": "",
+      "citation_key": "Jaillant2024AreUsersDigital",
+      "displayTitle": "Jaillant, Lise and Aske, Katherine (2024). Are users of digital archives ready for the AI era? — Journal on Computing and Cultural Heritage",
+      "mtimeMs": 1764851539663.9146,
+      "category": "4.3-RAG/XAI/provenance"
+    },
+    {
+      "letter": "J",
       "slug": "Johnson2023GlobalApproachNatural",
       "path": "/docs/J/Johnson2023GlobalApproachNatural.md",
       "title": "A global approach for natural history museum collections",
@@ -568,7 +658,7 @@
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
       "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-      "mtimeMs": 1764331895166.3972,
+      "mtimeMs": 1764851539664.4316,
       "category": "1.2-Critiques/anti-method/drift"
     },
     {
@@ -1066,7 +1156,7 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L Bruce (1978). Time for a revolution in art and design Education",
-        "mtimeMs": 1764780775662.3762,
+        "mtimeMs": 1764851539652.2192,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -1175,6 +1265,51 @@
         "displayTitle": "Boyd Davis, Stephen and Gristwood, Simone (2017). A dialogue between the real-world and the operational model-the realities of design in Bruce Archer — Design Studies",
         "mtimeMs": 1764331895158.9714,
         "category": "2.1-DDR-primary/secondary-histories"
+      },
+      {
+        "letter": "B",
+        "slug": "Buchanan2019SurroundingsEnvironmentsFourth",
+        "path": "/docs/B/Buchanan2019SurroundingsEnvironmentsFourth.md",
+        "title": "Surroundings and environments in fourth order design",
+        "authors": "Buchanan, Richard",
+        "year": "2019",
+        "journal": "Design Issues",
+        "doi": "10.1162/desi_a_00517",
+        "url": "",
+        "citation_key": "Buchanan2019SurroundingsEnvironmentsFourth",
+        "displayTitle": "Buchanan, Richard (2019). Surroundings and environments in fourth order design — Design Issues",
+        "mtimeMs": 1764851539658.3396,
+        "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "B",
+        "slug": "Buchanan2001DesignNewRhetoric",
+        "path": "/docs/B/Buchanan2001DesignNewRhetoric.md",
+        "title": "Design and the new rhetoric: productive arts in the philosophy of culture",
+        "authors": "Buchanan, Richard",
+        "year": "2001",
+        "journal": "Philosophy & Rhetoric",
+        "doi": "10.1162/07479360152681056",
+        "url": "https://www.jstor.org/stable/40238091",
+        "citation_key": "Buchanan2001DesignNewRhetoric",
+        "displayTitle": "Buchanan, Richard (2001). Design and the new rhetoric: productive arts in the philosophy of culture — Philosophy & Rhetoric",
+        "mtimeMs": 1764851539657.4973,
+        "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "B",
+        "slug": "Buchanan2001DesignResearchNew",
+        "path": "/docs/B/Buchanan2001DesignResearchNew.md",
+        "title": "Design research and the new learning",
+        "authors": "Buchanan, Richard",
+        "year": "2001",
+        "journal": "Design Issues",
+        "doi": "",
+        "url": "https://direct.mit.edu/desi/article/17/4/3-23/60006",
+        "citation_key": "Buchanan2001DesignResearchNew",
+        "displayTitle": "Buchanan, Richard (2001). Design research and the new learning — Design Issues",
+        "mtimeMs": 1764851539657.996,
+        "category": "1.1-Canonical-methods-texts"
       }
     ],
     "R": [
@@ -1490,6 +1625,21 @@
       },
       {
         "letter": "G",
+        "slug": "Gilliland2004BuildingInfrastructureArchival",
+        "path": "/docs/G/Gilliland2004BuildingInfrastructureArchival.md",
+        "title": "Building an infrastructure for archival research",
+        "authors": "Gilliland, Anne and McKemmish, Sue",
+        "year": "2004",
+        "journal": "Archival Science",
+        "doi": "10.1007/s10502-006-6742-6",
+        "url": "",
+        "citation_key": "Gilliland2004BuildingInfrastructureArchival",
+        "displayTitle": "Gilliland, Anne and McKemmish, Sue (2004). Building an infrastructure for archival research — Archival Science",
+        "mtimeMs": 1764851539661.698,
+        "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
+      },
+      {
+        "letter": "G",
         "slug": "Gilliland2016RecordsTheirImaginaries",
         "path": "/docs/G/Gilliland2016RecordsTheirImaginaries.md",
         "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
@@ -1545,7 +1695,7 @@
         "url": "https://papers.ssrn.com/s",
         "citation_key": "Gooding2022CriticallyAddressableData",
         "displayTitle": "Gooding, Paul (2022). Towards critically addressable data for digital library user studies — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-        "mtimeMs": 1764331895165.4666,
+        "mtimeMs": 1764851539662.5906,
         "category": "3.2-Classification-as-ethics/politics"
       }
     ],
@@ -1599,6 +1749,36 @@
     "J": [
       {
         "letter": "J",
+        "slug": "Jaillant2022ArchivesAccessArtificial",
+        "path": "/docs/J/Jaillant2022ArchivesAccessArtificial.md",
+        "title": "Archives, access and artificial intelligence - working with born-digital and digitized archival collections",
+        "authors": "Jaillant, L",
+        "year": "2022",
+        "journal": "Bielefeld University Press",
+        "doi": "",
+        "url": "www.aura-network.net",
+        "citation_key": "Jaillant2022ArchivesAccessArtificial",
+        "displayTitle": "Jaillant, L (2022). Archives, access and artificial intelligence - working with born-digital and digitized archival collections — Bielefeld University Press",
+        "mtimeMs": 1764851539663.5251,
+        "category": "4.3-RAG/XAI/provenance"
+      },
+      {
+        "letter": "J",
+        "slug": "Jaillant2024AreUsersDigital",
+        "path": "/docs/J/Jaillant2024AreUsersDigital.md",
+        "title": "Are users of digital archives ready for the AI era?",
+        "authors": "Jaillant, Lise and Aske, Katherine",
+        "year": "2024",
+        "journal": "Journal on Computing and Cultural Heritage",
+        "doi": "10.1145/3631125",
+        "url": "",
+        "citation_key": "Jaillant2024AreUsersDigital",
+        "displayTitle": "Jaillant, Lise and Aske, Katherine (2024). Are users of digital archives ready for the AI era? — Journal on Computing and Cultural Heritage",
+        "mtimeMs": 1764851539663.9146,
+        "category": "4.3-RAG/XAI/provenance"
+      },
+      {
+        "letter": "J",
         "slug": "Johnson2023GlobalApproachNatural",
         "path": "/docs/J/Johnson2023GlobalApproachNatural.md",
         "title": "A global approach for natural history museum collections",
@@ -1624,7 +1804,7 @@
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
         "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-        "mtimeMs": 1764331895166.3972,
+        "mtimeMs": 1764851539664.4316,
         "category": "1.2-Critiques/anti-method/drift"
       },
       {

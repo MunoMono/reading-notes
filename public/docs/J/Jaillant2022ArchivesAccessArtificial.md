@@ -9,7 +9,7 @@ url: "www.aura-network.net"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 04, 2025, 12:18 PM"
+last_updated: "Dec 04, 2025, 12:32 PM"
 category: 4.3-RAG/XAI/provenance---
 # Scope of this note
 This note covers the **Introduction** (pp. 7–13),  

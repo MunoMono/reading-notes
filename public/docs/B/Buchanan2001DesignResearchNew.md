@@ -9,10 +9,8 @@ url: "https://direct.mit.edu/desi/article/17/4/3-23/60006"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 04, 2025, 11:55 AM"
-category: 1.1-Canonical-methods-texts
----
-
+last_updated: "Dec 04, 2025, 12:32 PM"
+category: 1.1-Canonical-methods-texts---
 # Scope of this note
 This note covers Buchanan’s entire article (Design Issues pp.3–23), focusing on:
 

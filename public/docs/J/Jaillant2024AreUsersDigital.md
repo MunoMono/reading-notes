@@ -7,8 +7,7 @@ citation_key: Jaillant2024AreUsersDigital
 doi: "10.1145/3631125"
 bibliography: ../../refs/library.bib
 category: 4.3-RAG/XAI/provenance
----
-
+last_updated: "Dec 04, 2025, 12:32 PM"---
 # Scope of this note
 This note covers the full article (16 pp.), with particular focus on findings relevant to:
 - AI readiness among digital archive users,

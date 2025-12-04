@@ -9,7 +9,7 @@ url: "https://papers.ssrn.com/s"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Nov 28, 2025, 12:11 PM"
+last_updated: "Dec 04, 2025, 12:32 PM"
 category: 3.2-Classification-as-ethics/politics---
 # Scope of this note
 Engages with Chapter 4 of the edited volume, which develops the argument for *critical addressability* in relation to digital library catalogue data. The chapter draws on Gooding’s work in the **Digital Library Futures (DLF)** project and sets out a conceptual framework that resonates directly with the project’s archival and methodological concerns. For the DDR research spine, this text functions at the intersection of **archival analysis, computational modelling and reflective synthesis**.
@@ -103,7 +103,7 @@ The overarching aim is to shift digital library user studies from treating catal
 
 ## Evidence to quote or paraphrase
 - 'Many datasets are received as black boxes, with only the input and output known' (p. 126).  
-- “Critical addressability refers to the notion that one should be able to evaluate the technical and social forces that shape data' (p. 119).  
+- “Critical addressability refers to the notion that one should be able to evaluate the technical and social forces that shape data' (p. 120).  
 - **Paraphrase:** Gooding argues that collections and catalogues should be reframed as *capta* (constructed, partial, situated), not raw, transparent data (p. 121)【20†source】.  
 
 ## Related works

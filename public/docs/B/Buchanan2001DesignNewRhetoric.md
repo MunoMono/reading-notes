@@ -9,10 +9,8 @@ url: "https://www.jstor.org/stable/40238091"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 04, 2025, 11:49 AM"
-category: 1.1-Canonical-methods-texts
----
-
+last_updated: "Dec 04, 2025, 12:32 PM"
+category: 1.1-Canonical-methods-texts---
 # Scope of this note
 This note covers the entire argument of Buchanan’s article (pp.183–206), with particular focus on:  
 - Buchanan’s claim that **design is a “new rhetoric”**—an architectonic productive art operating across disciplines;  
