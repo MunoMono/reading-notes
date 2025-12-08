@@ -9,10 +9,8 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
-last_updated: "Dec 08, 2025, 01:47 PM"
-category: 5.2-Cybernetics-and-conversation-theory
----
-
+last_updated: "Dec 08, 2025, 03:29 PM"
+category: 5.2-Cybernetics-and-conversation-theory---
 # Scope of this note
 
 This note focuses on four essays in *Understanding Understanding*:  
