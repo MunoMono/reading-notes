@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-10T14:19:43.547Z",
+  "updatedAt": "2025-12-10T14:23:03.550Z",
   "entries": [
     {
       "letter": "V",
@@ -958,7 +958,7 @@
       "url": "https://doi.org/10.48550/arXiv.2505.19402",
       "citation_key": "Peng2025RecalibratingCompassIntegrating",
       "displayTitle": "Peng, Tai-Quan and Yang, Xuzhen (2025). Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods — arXiv preprint",
-      "mtimeMs": 1765376347373.9014,
+      "mtimeMs": 1765376437050.9072,
       "category": "4.4-LLM-as-research-method/epistemic-instrument"
     },
     {
@@ -2236,7 +2236,7 @@
         "url": "https://doi.org/10.48550/arXiv.2505.19402",
         "citation_key": "Peng2025RecalibratingCompassIntegrating",
         "displayTitle": "Peng, Tai-Quan and Yang, Xuzhen (2025). Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods — arXiv preprint",
-        "mtimeMs": 1765376347373.9014,
+        "mtimeMs": 1765376437050.9072,
         "category": "4.4-LLM-as-research-method/epistemic-instrument"
       },
       {
