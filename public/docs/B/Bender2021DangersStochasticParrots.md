@@ -10,7 +10,8 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/harvard-cite-them-right"
 link-citations: true
 last_updated: "Dec 10, 2025, 02:05 PM"
-category: 4.4-LLM as research method / epistemic instrument---
+category: 4.4-LLM-as-research-method/epistemic-instrument
+---
 # Scope of this note
 This note critically reads the full argument structure of *Stochastic Parrots*, with particular focus on the environmental critique (pp. 610–613), data documentation and representational harm (pp. 613–616), the “stochastic parrots” metaphor and epistemic argument (pp. 616–618), and the policy and methodological recommendations (pp. 618–620). The analysis explicitly links these concerns to the DDR project’s bounded, provenance-led LLM methodology.
 

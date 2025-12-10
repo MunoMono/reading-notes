@@ -1,5 +1,15 @@
 ---
-last_updated: "Dec 10, 2025, 02:05 PM"---
+title: "TALLMesh: a simple application for performing thematic analysis with large language models"
+authors: "Paoli, Stefano De and Fawzi, Alex"
+year: 2025
+journal: "arXiv preprint"
+citation_key: Paoli2025TALLMeshSimpleApplication
+doi: "10.48550/arXiv.2504.13892"
+url: "https://doi.org/10.48550/arXiv.2504.13892"
+bibliography: ../../refs/library.bib
+category: 4.4-LLM-as-research-method/epistemic-instrument
+last_updated: "Dec 10, 2025, 02:05 PM"
+---
 # Critical Reading Notes  
 **Paoli & Fawzi (2025), “TALLMesh: a simple application for performing thematic analysis with large language models”**  
 (With exact page references to the uploaded PDF)

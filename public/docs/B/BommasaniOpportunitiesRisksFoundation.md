@@ -1,5 +1,13 @@
 ---
-last_updated: "Dec 10, 2025, 02:05 PM"---
+title: "On the Opportunities and Risks of Foundation Models"
+authors: "Bommasani, Rishi and Hudson, Drew A and Adeli, Ehsan and Altman, Russ and Arora, Simran"
+year: 2021
+journal: "arXiv preprint"
+citation_key: BommasaniOpportunitiesRisksFoundation
+bibliography: ../../refs/library.bib
+category: 4.4-LLM-as-research-method/epistemic-instrument
+last_updated: "Dec 10, 2025, 02:05 PM"
+---
 # Critical Reading Notes  
 **Bommasani et al., “On the Opportunities and Risks of Foundation Models” (2021)**  
 

@@ -1,5 +1,15 @@
 ---
-last_updated: "Dec 10, 2025, 02:05 PM"---
+title: "Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods"
+authors: "Peng, Tai-Quan and Yang, Xuzhen"
+year: 2025
+journal: "arXiv preprint"
+citation_key: Peng2025RecalibratingCompassIntegrating
+doi: "10.48550/arXiv.2505.19402"
+url: "https://doi.org/10.48550/arXiv.2505.19402"
+bibliography: ../../refs/library.bib
+category: 4.4-LLM-as-research-method/epistemic-instrument
+last_updated: "Dec 10, 2025, 02:05 PM"
+---
 # Critical Reading Notes  
 **Peng & Yang (2025), “Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods”**  
 (With exact page references to the uploaded PDF)

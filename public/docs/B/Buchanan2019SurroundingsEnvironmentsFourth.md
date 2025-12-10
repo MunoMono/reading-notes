@@ -7,7 +7,8 @@ citation_key: Buchanan2019SurroundingsEnvironmentsFourth
 doi: "10.1162/desi_a_00517"
 bibliography: ../../refs/library.bib
 category: 1.1-Canonical-methods-texts
-last_updated: "Dec 04, 2025, 12:32 PM"---
+last_updated: "Dec 04, 2025, 12:32 PM"
+---
 # Scope of this note
 Covers the full article (pp.4–22), which elaborates Buchanan’s mature account of **fourth-order design**, extending the “four orders” framework into questions of environments, systems and humanistic principles. Focus is placed on:
 
