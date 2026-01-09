@@ -8,8 +8,7 @@ doi: "10.48550/arXiv.2504.13892"
 url: "https://doi.org/10.48550/arXiv.2504.13892"
 bibliography: ../../refs/library.bib
 category: 4.4-LLM-as-research-method/epistemic-instrument
-last_updated: "Dec 10, 2025, 02:05 PM"
----
+last_updated: "Jan 09, 2026, 03:38 PM"---
 # Critical Reading Notes  
 **Paoli & Fawzi (2025), “TALLMesh: a simple application for performing thematic analysis with large language models”**  
 (With exact page references to the uploaded PDF)

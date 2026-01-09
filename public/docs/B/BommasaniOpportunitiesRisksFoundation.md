@@ -6,8 +6,7 @@ journal: "arXiv preprint"
 citation_key: BommasaniOpportunitiesRisksFoundation
 bibliography: ../../refs/library.bib
 category: 4.4-LLM-as-research-method/epistemic-instrument
-last_updated: "Dec 10, 2025, 02:05 PM"
----
+last_updated: "Jan 09, 2026, 03:38 PM"---
 # Critical Reading Notes  
 **Bommasani et al., “On the Opportunities and Risks of Foundation Models” (2021)**  
 

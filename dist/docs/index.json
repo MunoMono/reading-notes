@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-10T14:23:03.550Z",
+  "updatedAt": "2026-01-09T15:38:52.354Z",
   "entries": [
     {
       "letter": "V",
@@ -13,7 +13,7 @@
       "url": "",
       "citation_key": "Valleriani2019EmergenceEpistemicCommunities",
       "displayTitle": "Valleriani2019EmergenceEpistemicCommunities",
-      "mtimeMs": 1765376347381.1902,
+      "mtimeMs": 1767973132226.9866,
       "category": "4.4-LLM-as-research-method/epistemic-instrument"
     },
     {
@@ -108,6 +108,21 @@
     },
     {
       "letter": "A",
+      "slug": "Archer1963SystematicMethodDesigners",
+      "path": "/docs/A/Archer1963SystematicMethodDesigners.md",
+      "title": "Systematic method for designers",
+      "authors": "Archer, L Bruce",
+      "year": "1963-1964",
+      "journal": "Design",
+      "doi": "",
+      "url": "",
+      "citation_key": "Archer1963SystematicMethodDesigners",
+      "displayTitle": "Archer, L Bruce (1963-1964). Systematic method for designers — Design",
+      "mtimeMs": 1767973132205.952,
+      "category": "1.1-Canonical-methods-texts"
+    },
+    {
+      "letter": "A",
       "slug": "Atkinson2016IntroductionDesignResearch",
       "path": "/docs/A/Atkinson2016IntroductionDesignResearch.md",
       "title": "Introduction: design research",
@@ -141,15 +156,15 @@
       "slug": "Bender2021DangersStochasticParrots",
       "path": "/docs/B/Bender2021DangersStochasticParrots.md",
       "title": "On the dangers of stochastic parrots: can language models be too big?",
-      "authors": "Bender, Emily M. and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret",
+      "authors": "Bender, Emily M. and Gebru, Timnit and {McMillan-Major}, Angelina and Shmitchell, Shmargaret",
       "year": "2021",
-      "journal": "Proceedings of the 2021 ACM Conference",
+      "journal": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’21)",
       "doi": "10.1145/3442188.3445922",
       "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
       "citation_key": "Bender2021DangersStochasticParrots",
-      "displayTitle": "Bender, Emily M. and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret (2021). On the dangers of stochastic parrots: can language models be too big? — Proceedings of the 2021 ACM Conference",
-      "mtimeMs": 1765376347384.6636,
-      "category": "4.4-LLM-as-research-method/epistemic-instrument"
+      "displayTitle": "Bender, Emily M. and Gebru, Timnit and {McMillan-Major}, Angelina and Shmitchell, Shmargaret (2021). On the dangers of stochastic parrots: can language models be too big? — Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’21)",
+      "mtimeMs": 1767973132211.2693,
+      "category": "1.1-Canonical-methods-texts"
     },
     {
       "letter": "B",
@@ -178,7 +193,7 @@
       "url": "",
       "citation_key": "BommasaniOpportunitiesRisksFoundation",
       "displayTitle": "Bommasani, Rishi and Hudson, Drew A and Adeli, Ehsan and Altman, Russ and Arora, Simran (2021). On the Opportunities and Risks of Foundation Models — arXiv preprint",
-      "mtimeMs": 1765376347374.263,
+      "mtimeMs": 1767973132212.0447,
       "category": "4.4-LLM-as-research-method/epistemic-instrument"
     },
     {
@@ -193,8 +208,8 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: classification and its consequences — MIT Press",
-      "mtimeMs": 1764331895158.283,
-      "category": "3.2-Classification-as-ethics/politics"
+      "mtimeMs": 1767973132212.5835,
+      "category": "3.2-Classification-as-ethics / politics"
     },
     {
       "letter": "B",
@@ -238,7 +253,7 @@
       "url": "",
       "citation_key": "Buchanan2019SurroundingsEnvironmentsFourth",
       "displayTitle": "Buchanan, Richard (2019). Surroundings and environments in fourth order design — Design Issues",
-      "mtimeMs": 1765376046802.1025,
+      "mtimeMs": 1767973132213.8828,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -358,7 +373,7 @@
       "url": "",
       "citation_key": "Cross1982DesignerlyWaysKnowing",
       "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-      "mtimeMs": 1764331895160.6194,
+      "mtimeMs": 1767973132214.995,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -393,6 +408,21 @@
     },
     {
       "letter": "D",
+      "slug": "Devlin2019BERTPretrainingDeep",
+      "path": "/docs/D/Devlin2019BERTPretrainingDeep.md",
+      "title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+      "authors": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "year": "2019",
+      "journal": "Proceedings of the 2019 Conference",
+      "doi": "10.18653/v1/N19-1423",
+      "url": "https://aclanthology.org/N19-1423/",
+      "citation_key": "Devlin2019BERTPretrainingDeep",
+      "displayTitle": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina (2019). BERT: Pre-training of deep bidirectional transformers for language understanding — Proceedings of the 2019 Conference",
+      "mtimeMs": 1767973132216.045,
+      "category": "1.1-Canonical-methods-texts"
+    },
+    {
+      "letter": "D",
       "slug": "Dorst2016DesignPracticeDesign",
       "path": "/docs/D/Dorst2016DesignPracticeDesign.md",
       "title": "Design practice and design research: finally together?",
@@ -420,6 +450,21 @@
       "displayTitle": "Drabinski, Emily (2019). What Is critical about critical librarianship? — Art Libraries Journal",
       "mtimeMs": 1764780775669.7139,
       "category": "3.2-Classification-as-ethics/politics"
+    },
+    {
+      "letter": "D",
+      "slug": "Drucker2014GraphesisVisualForms",
+      "path": "/docs/D/Drucker2014GraphesisVisualForms.md",
+      "title": "Graphesis: visual forms of knowledge production",
+      "authors": "Drucker, Johanna",
+      "year": "2014",
+      "journal": "Harvard university press",
+      "doi": "",
+      "url": "",
+      "citation_key": "Drucker2014GraphesisVisualForms",
+      "displayTitle": "Drucker, Johanna (2014). Graphesis: visual forms of knowledge production — Harvard university press",
+      "mtimeMs": 1767973126669.946,
+      "category": "1.1-Canonical-methods-texts"
     },
     {
       "letter": "E",
@@ -538,7 +583,7 @@
       "url": "",
       "citation_key": "Gilliland2004BuildingInfrastructureArchival",
       "displayTitle": "Gilliland, Anne and McKemmish, Sue (2004). Building an infrastructure for archival research — Archival Science",
-      "mtimeMs": 1765376046802.172,
+      "mtimeMs": 1767973132218.0723,
       "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
     },
     {
@@ -553,8 +598,8 @@
       "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
       "citation_key": "Gilliland2016RecordsTheirImaginaries",
       "displayTitle": "Gilliland, Anne J. and Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
-      "mtimeMs": 1764780775671.2837,
-      "category": "3.3-Absence,-silence-and-missing-data"
+      "mtimeMs": 1767973132218.6216,
+      "category": "3.2-Classification-as-ethics / politics"
     },
     {
       "letter": "G",
@@ -673,7 +718,7 @@
       "url": "",
       "citation_key": "Jaillant2024AreUsersDigital",
       "displayTitle": "Jaillant, Lise and Aske, Katherine (2024). Are users of digital archives ready for the AI era? — Journal on Computing and Cultural Heritage",
-      "mtimeMs": 1765376046802.4038,
+      "mtimeMs": 1767973132220.4922,
       "category": "4.3-RAG/XAI/provenance"
     },
     {
@@ -698,27 +743,27 @@
       "title": "Exploring the swampy ground",
       "authors": "Jonas, Wolfgang",
       "year": "2012",
-      "journal": "Mapping design research",
+      "journal": "Mapping Design Research",
       "doi": "",
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
-      "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-      "mtimeMs": 1764851539664.4316,
-      "category": "1.2-Critiques/anti-method/drift"
+      "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping Design Research",
+      "mtimeMs": 1767973132221.2314,
+      "category": "1.1-Canonical-methods-texts"
     },
     {
       "letter": "J",
       "slug": "Jones1992DesignMethods",
       "path": "/docs/J/Jones1992DesignMethods.md",
       "title": "Design methods",
-      "authors": "Jones, J. Christopher",
+      "authors": "Jones, John",
       "year": "1992",
       "journal": "John Wiley & Sons",
       "doi": "",
       "url": "",
       "citation_key": "Jones1992DesignMethods",
-      "displayTitle": "Jones, J. Christopher (1992). Design methods — John Wiley & Sons",
-      "mtimeMs": 1764331895166.6545,
+      "displayTitle": "Jones, John (1992). Design methods — John Wiley & Sons",
+      "mtimeMs": 1767973132221.5918,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -898,7 +943,7 @@
       "url": "https://doi.org/10.48550/arXiv.2504.13892",
       "citation_key": "Paoli2025TALLMeshSimpleApplication",
       "displayTitle": "Paoli, Stefano De and Fawzi, Alex (2025). TALLMesh: a simple application for performing thematic analysis with large language models — arXiv preprint",
-      "mtimeMs": 1765376347374.246,
+      "mtimeMs": 1767973132223.3083,
       "category": "4.4-LLM-as-research-method/epistemic-instrument"
     },
     {
@@ -958,7 +1003,7 @@
       "url": "https://doi.org/10.48550/arXiv.2505.19402",
       "citation_key": "Peng2025RecalibratingCompassIntegrating",
       "displayTitle": "Peng, Tai-Quan and Yang, Xuzhen (2025). Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods — arXiv preprint",
-      "mtimeMs": 1765376437050.9072,
+      "mtimeMs": 1767973132224.2273,
       "category": "4.4-LLM-as-research-method/epistemic-instrument"
     },
     {
@@ -1037,6 +1082,21 @@
       "category": "6.1-Archival-and-oral-history-methods"
     },
     {
+      "letter": "R",
+      "slug": "Rittel1973DilemmasGeneralTheory",
+      "path": "/docs/R/Rittel1973DilemmasGeneralTheory.md",
+      "title": "Dilemmas in a general theory of planning",
+      "authors": "Rittel, Horst W. J. and Webber, Melvin M.",
+      "year": "1973",
+      "journal": "Policy Sciences",
+      "doi": "10.1007/BF01405730",
+      "url": "",
+      "citation_key": "Rittel1973DilemmasGeneralTheory",
+      "displayTitle": "Rittel, Horst W. J. and Webber, Melvin M. (1973). Dilemmas in a general theory of planning — Policy Sciences",
+      "mtimeMs": 1767973132225.1436,
+      "category": "1.1-Canonical-methods-texts"
+    },
+    {
       "letter": "S",
       "slug": "Schwartz2002ArchivesRecordsPower",
       "path": "/docs/S/Schwartz2002ArchivesRecordsPower.md",
@@ -1048,8 +1108,23 @@
       "url": "http://link.springer.com/10.1007/BF02435628",
       "citation_key": "Schwartz2002ArchivesRecordsPower",
       "displayTitle": "Schwartz, Joan M. and Cook, Terry (2002). Archives, records, and power: the making of modern memory — Archival Science",
-      "mtimeMs": 1764780775677.5862,
-      "category": "3.2-Classification-as-ethics/politics"
+      "mtimeMs": 1767973132225.8723,
+      "category": "3.2-Classification-as-ethics / politics"
+    },
+    {
+      "letter": "S",
+      "slug": "Schon1983ReflectivePractitionerHow",
+      "path": "/docs/S/Schon1983ReflectivePractitionerHow.md",
+      "title": "The reflective practitioner: how professionals think in action",
+      "authors": "Schön, Donald A.",
+      "year": "1983",
+      "journal": "Basic Books",
+      "doi": "",
+      "url": "",
+      "citation_key": "Schon1983ReflectivePractitionerHow",
+      "displayTitle": "Schön, Donald A. (1983). The reflective practitioner: how professionals think in action — Basic Books",
+      "mtimeMs": 1767973132225.5664,
+      "category": "1.1-Canonical-methods-texts"
     },
     {
       "letter": "S",
@@ -1093,7 +1168,7 @@
       "url": "https://doi.org/10.48550/arXiv.2506.12242",
       "citation_key": "Simons2025LargeLanguageModels",
       "displayTitle": "Simons, Arno and Zichert, Michael and Wüthrich, Adrian (2025). Large language models for history, philosophy, and sociology of science: interpretive uses, methodological challenges, and critical perspectives — arXiv preprint",
-      "mtimeMs": 1765376347374.4016,
+      "mtimeMs": 1767973132226.4402,
       "category": "4.4-LLM-as-research-method/epistemic-instrument"
     },
     {
@@ -1201,7 +1276,7 @@
         "url": "",
         "citation_key": "Valleriani2019EmergenceEpistemicCommunities",
         "displayTitle": "Valleriani2019EmergenceEpistemicCommunities",
-        "mtimeMs": 1765376347381.1902,
+        "mtimeMs": 1767973132226.9866,
         "category": "4.4-LLM-as-research-method/epistemic-instrument"
       },
       {
@@ -1328,6 +1403,21 @@
       },
       {
         "letter": "A",
+        "slug": "Archer1963SystematicMethodDesigners",
+        "path": "/docs/A/Archer1963SystematicMethodDesigners.md",
+        "title": "Systematic method for designers",
+        "authors": "Archer, L Bruce",
+        "year": "1963-1964",
+        "journal": "Design",
+        "doi": "",
+        "url": "",
+        "citation_key": "Archer1963SystematicMethodDesigners",
+        "displayTitle": "Archer, L Bruce (1963-1964). Systematic method for designers — Design",
+        "mtimeMs": 1767973132205.952,
+        "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "A",
         "slug": "Atkinson2016IntroductionDesignResearch",
         "path": "/docs/A/Atkinson2016IntroductionDesignResearch.md",
         "title": "Introduction: design research",
@@ -1363,15 +1453,15 @@
         "slug": "Bender2021DangersStochasticParrots",
         "path": "/docs/B/Bender2021DangersStochasticParrots.md",
         "title": "On the dangers of stochastic parrots: can language models be too big?",
-        "authors": "Bender, Emily M. and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret",
+        "authors": "Bender, Emily M. and Gebru, Timnit and {McMillan-Major}, Angelina and Shmitchell, Shmargaret",
         "year": "2021",
-        "journal": "Proceedings of the 2021 ACM Conference",
+        "journal": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’21)",
         "doi": "10.1145/3442188.3445922",
         "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
         "citation_key": "Bender2021DangersStochasticParrots",
-        "displayTitle": "Bender, Emily M. and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret (2021). On the dangers of stochastic parrots: can language models be too big? — Proceedings of the 2021 ACM Conference",
-        "mtimeMs": 1765376347384.6636,
-        "category": "4.4-LLM-as-research-method/epistemic-instrument"
+        "displayTitle": "Bender, Emily M. and Gebru, Timnit and {McMillan-Major}, Angelina and Shmitchell, Shmargaret (2021). On the dangers of stochastic parrots: can language models be too big? — Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’21)",
+        "mtimeMs": 1767973132211.2693,
+        "category": "1.1-Canonical-methods-texts"
       },
       {
         "letter": "B",
@@ -1400,7 +1490,7 @@
         "url": "",
         "citation_key": "BommasaniOpportunitiesRisksFoundation",
         "displayTitle": "Bommasani, Rishi and Hudson, Drew A and Adeli, Ehsan and Altman, Russ and Arora, Simran (2021). On the Opportunities and Risks of Foundation Models — arXiv preprint",
-        "mtimeMs": 1765376347374.263,
+        "mtimeMs": 1767973132212.0447,
         "category": "4.4-LLM-as-research-method/epistemic-instrument"
       },
       {
@@ -1415,8 +1505,8 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C. and Star, Susan Leigh (1999). Sorting things out: classification and its consequences — MIT Press",
-        "mtimeMs": 1764331895158.283,
-        "category": "3.2-Classification-as-ethics/politics"
+        "mtimeMs": 1767973132212.5835,
+        "category": "3.2-Classification-as-ethics / politics"
       },
       {
         "letter": "B",
@@ -1460,7 +1550,7 @@
         "url": "",
         "citation_key": "Buchanan2019SurroundingsEnvironmentsFourth",
         "displayTitle": "Buchanan, Richard (2019). Surroundings and environments in fourth order design — Design Issues",
-        "mtimeMs": 1765376046802.1025,
+        "mtimeMs": 1767973132213.8828,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -1554,6 +1644,21 @@
         "displayTitle": "Ritchie, Donald A (2011). The Oxford handbook of oral history — Oxford University Press",
         "mtimeMs": 1764331895169.9893,
         "category": "6.1-Archival-and-oral-history-methods"
+      },
+      {
+        "letter": "R",
+        "slug": "Rittel1973DilemmasGeneralTheory",
+        "path": "/docs/R/Rittel1973DilemmasGeneralTheory.md",
+        "title": "Dilemmas in a general theory of planning",
+        "authors": "Rittel, Horst W. J. and Webber, Melvin M.",
+        "year": "1973",
+        "journal": "Policy Sciences",
+        "doi": "10.1007/BF01405730",
+        "url": "",
+        "citation_key": "Rittel1973DilemmasGeneralTheory",
+        "displayTitle": "Rittel, Horst W. J. and Webber, Melvin M. (1973). Dilemmas in a general theory of planning — Policy Sciences",
+        "mtimeMs": 1767973132225.1436,
+        "category": "1.1-Canonical-methods-texts"
       }
     ],
     "C": [
@@ -1629,7 +1734,7 @@
         "url": "",
         "citation_key": "Cross1982DesignerlyWaysKnowing",
         "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-        "mtimeMs": 1764331895160.6194,
+        "mtimeMs": 1767973132214.995,
         "category": "1.1-Canonical-methods-texts"
       }
     ],
@@ -1666,6 +1771,21 @@
       },
       {
         "letter": "D",
+        "slug": "Devlin2019BERTPretrainingDeep",
+        "path": "/docs/D/Devlin2019BERTPretrainingDeep.md",
+        "title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+        "authors": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+        "year": "2019",
+        "journal": "Proceedings of the 2019 Conference",
+        "doi": "10.18653/v1/N19-1423",
+        "url": "https://aclanthology.org/N19-1423/",
+        "citation_key": "Devlin2019BERTPretrainingDeep",
+        "displayTitle": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina (2019). BERT: Pre-training of deep bidirectional transformers for language understanding — Proceedings of the 2019 Conference",
+        "mtimeMs": 1767973132216.045,
+        "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "D",
         "slug": "Dorst2016DesignPracticeDesign",
         "path": "/docs/D/Dorst2016DesignPracticeDesign.md",
         "title": "Design practice and design research: finally together?",
@@ -1693,6 +1813,21 @@
         "displayTitle": "Drabinski, Emily (2019). What Is critical about critical librarianship? — Art Libraries Journal",
         "mtimeMs": 1764780775669.7139,
         "category": "3.2-Classification-as-ethics/politics"
+      },
+      {
+        "letter": "D",
+        "slug": "Drucker2014GraphesisVisualForms",
+        "path": "/docs/D/Drucker2014GraphesisVisualForms.md",
+        "title": "Graphesis: visual forms of knowledge production",
+        "authors": "Drucker, Johanna",
+        "year": "2014",
+        "journal": "Harvard university press",
+        "doi": "",
+        "url": "",
+        "citation_key": "Drucker2014GraphesisVisualForms",
+        "displayTitle": "Drucker, Johanna (2014). Graphesis: visual forms of knowledge production — Harvard university press",
+        "mtimeMs": 1767973126669.946,
+        "category": "1.1-Canonical-methods-texts"
       }
     ],
     "E": [
@@ -1817,7 +1952,7 @@
         "url": "",
         "citation_key": "Gilliland2004BuildingInfrastructureArchival",
         "displayTitle": "Gilliland, Anne and McKemmish, Sue (2004). Building an infrastructure for archival research — Archival Science",
-        "mtimeMs": 1765376046802.172,
+        "mtimeMs": 1767973132218.0723,
         "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
       },
       {
@@ -1832,8 +1967,8 @@
         "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
         "citation_key": "Gilliland2016RecordsTheirImaginaries",
         "displayTitle": "Gilliland, Anne J. and Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
-        "mtimeMs": 1764780775671.2837,
-        "category": "3.3-Absence,-silence-and-missing-data"
+        "mtimeMs": 1767973132218.6216,
+        "category": "3.2-Classification-as-ethics / politics"
       },
       {
         "letter": "G",
@@ -1956,7 +2091,7 @@
         "url": "",
         "citation_key": "Jaillant2024AreUsersDigital",
         "displayTitle": "Jaillant, Lise and Aske, Katherine (2024). Are users of digital archives ready for the AI era? — Journal on Computing and Cultural Heritage",
-        "mtimeMs": 1765376046802.4038,
+        "mtimeMs": 1767973132220.4922,
         "category": "4.3-RAG/XAI/provenance"
       },
       {
@@ -1981,27 +2116,27 @@
         "title": "Exploring the swampy ground",
         "authors": "Jonas, Wolfgang",
         "year": "2012",
-        "journal": "Mapping design research",
+        "journal": "Mapping Design Research",
         "doi": "",
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
-        "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping design research",
-        "mtimeMs": 1764851539664.4316,
-        "category": "1.2-Critiques/anti-method/drift"
+        "displayTitle": "Jonas, Wolfgang (2012). Exploring the swampy ground — Mapping Design Research",
+        "mtimeMs": 1767973132221.2314,
+        "category": "1.1-Canonical-methods-texts"
       },
       {
         "letter": "J",
         "slug": "Jones1992DesignMethods",
         "path": "/docs/J/Jones1992DesignMethods.md",
         "title": "Design methods",
-        "authors": "Jones, J. Christopher",
+        "authors": "Jones, John",
         "year": "1992",
         "journal": "John Wiley & Sons",
         "doi": "",
         "url": "",
         "citation_key": "Jones1992DesignMethods",
-        "displayTitle": "Jones, J. Christopher (1992). Design methods — John Wiley & Sons",
-        "mtimeMs": 1764331895166.6545,
+        "displayTitle": "Jones, John (1992). Design methods — John Wiley & Sons",
+        "mtimeMs": 1767973132221.5918,
         "category": "1.1-Canonical-methods-texts"
       }
     ],
@@ -2176,7 +2311,7 @@
         "url": "https://doi.org/10.48550/arXiv.2504.13892",
         "citation_key": "Paoli2025TALLMeshSimpleApplication",
         "displayTitle": "Paoli, Stefano De and Fawzi, Alex (2025). TALLMesh: a simple application for performing thematic analysis with large language models — arXiv preprint",
-        "mtimeMs": 1765376347374.246,
+        "mtimeMs": 1767973132223.3083,
         "category": "4.4-LLM-as-research-method/epistemic-instrument"
       },
       {
@@ -2236,7 +2371,7 @@
         "url": "https://doi.org/10.48550/arXiv.2505.19402",
         "citation_key": "Peng2025RecalibratingCompassIntegrating",
         "displayTitle": "Peng, Tai-Quan and Yang, Xuzhen (2025). Recalibrating the Compass: Integrating Large Language Models into Classical Research Methods — arXiv preprint",
-        "mtimeMs": 1765376437050.9072,
+        "mtimeMs": 1767973132224.2273,
         "category": "4.4-LLM-as-research-method/epistemic-instrument"
       },
       {
@@ -2283,8 +2418,23 @@
         "url": "http://link.springer.com/10.1007/BF02435628",
         "citation_key": "Schwartz2002ArchivesRecordsPower",
         "displayTitle": "Schwartz, Joan M. and Cook, Terry (2002). Archives, records, and power: the making of modern memory — Archival Science",
-        "mtimeMs": 1764780775677.5862,
-        "category": "3.2-Classification-as-ethics/politics"
+        "mtimeMs": 1767973132225.8723,
+        "category": "3.2-Classification-as-ethics / politics"
+      },
+      {
+        "letter": "S",
+        "slug": "Schon1983ReflectivePractitionerHow",
+        "path": "/docs/S/Schon1983ReflectivePractitionerHow.md",
+        "title": "The reflective practitioner: how professionals think in action",
+        "authors": "Schön, Donald A.",
+        "year": "1983",
+        "journal": "Basic Books",
+        "doi": "",
+        "url": "",
+        "citation_key": "Schon1983ReflectivePractitionerHow",
+        "displayTitle": "Schön, Donald A. (1983). The reflective practitioner: how professionals think in action — Basic Books",
+        "mtimeMs": 1767973132225.5664,
+        "category": "1.1-Canonical-methods-texts"
       },
       {
         "letter": "S",
@@ -2328,7 +2478,7 @@
         "url": "https://doi.org/10.48550/arXiv.2506.12242",
         "citation_key": "Simons2025LargeLanguageModels",
         "displayTitle": "Simons, Arno and Zichert, Michael and Wüthrich, Adrian (2025). Large language models for history, philosophy, and sociology of science: interpretive uses, methodological challenges, and critical perspectives — arXiv preprint",
-        "mtimeMs": 1765376347374.4016,
+        "mtimeMs": 1767973132226.4402,
         "category": "4.4-LLM-as-research-method/epistemic-instrument"
       },
       {

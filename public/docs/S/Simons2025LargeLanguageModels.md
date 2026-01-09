@@ -8,8 +8,7 @@ doi: "10.48550/arXiv.2506.12242"
 url: "https://doi.org/10.48550/arXiv.2506.12242"
 bibliography: ../../refs/library.bib
 category: 4.4-LLM-as-research-method/epistemic-instrument
-last_updated: "Dec 10, 2025, 02:05 PM"
----
+last_updated: "Jan 09, 2026, 03:38 PM"---
 # Critical Reading Notes  
 **Simons, Zichert & Wüthrich (2025), “Large language models for history, philosophy, and sociology of science: interpretive uses, methodological challenges, and critical perspectives”**  
 

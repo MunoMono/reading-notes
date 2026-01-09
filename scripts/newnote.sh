@@ -39,6 +39,7 @@ select CATEGORY in \
   "4.4-LLM as research method / epistemic instrument" \
   "5.1-Practice-led-design-research" \
   "5.2-Cybernetics-and-conversation-theory" \
+  "5.3-Epistemic-structures-in-computational/archival-design-systems" \
   "6.1-Archival-and-oral-history-methods" \
   "6.2-DH/computational-methods" \
   "7.1-Read-once-background" \
@@ -173,6 +174,25 @@ category: {category}
 ## Relevance
 ### How does it link to the research questions or framework?
 
+## What the authors bring to the table
+### Key contributions and claims
+- What specific contribution does this work make?
+- What claims, evidence and reasoning do the authors present?
+
+### How I respond to this evidence
+- Am I building on these claims?
+- Am I contradicting or challenging them?
+- How does this inform my thinking and practice?
+
+## Positioning this work
+### What this literature will do for my project
+- How does it advance my argument?
+- What gaps does it fill?
+
+### What this literature will not do
+- What are its boundaries and limitations for my purposes?
+- What questions does it leave unanswered for my work?
+
 ## Project integration
 ### Why it helps the project (evidence-linked)
 - What concrete evidence from the paper strengthens the project? Cite inline (for example, ``[@{citekey}]``) and add page references for specifics.
@@ -213,6 +233,11 @@ category: {category}
 - Alternative explanations?
 - Implications for practice, policy or theory?
 - How does it shape your thinking?
+
+### Critical thinking and rigour
+- What tools, skills or critical frameworks does this work employ?
+- How rigorous is the argumentation?
+- How well does it articulate and make its ideas understandable?
 
 ## Evidence to quote or paraphrase
 - '<Quote>' (page X)

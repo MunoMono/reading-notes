@@ -1,7 +1,6 @@
 ---
-last_updated: "Dec 10, 2025, 02:05 PM"
-category: 4.4-LLM-as-research-method/epistemic-instrument
----
+last_updated: "Jan 09, 2026, 03:38 PM"
+category: 4.4-LLM-as-research-method/epistemic-instrument---
 # Critical Reading Notes  
 **Valleriani et al. (2019), “The emergence of epistemic communities in the *Sphaera* corpus: mechanisms of knowledge evolution”**  
 

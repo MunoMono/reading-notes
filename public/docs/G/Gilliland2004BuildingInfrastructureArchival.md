@@ -7,8 +7,7 @@ citation_key: Gilliland2004BuildingInfrastructureArchival
 doi: "10.1007/s10502-006-6742-6"
 bibliography: ../../refs/library.bib
 category: 3.1-Infrastructures-and-standards-ISAD(G),-archival-description
-last_updated: "Dec 04, 2025, 12:32 PM"
----
+last_updated: "Jan 09, 2026, 03:38 PM"---
 # Scope of this note
 This note focuses specifically on the **tables, diagrams, typologies, matrices, and structural frameworks** presented in the preprint of the article (pp.145–194). These visual and tabular elements articulate the conceptual infrastructure the authors argue is needed for a mature archival research field. Particular attention is given to:  
 - Table I (Typology of archival research fields, 1988–1998),  
