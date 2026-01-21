@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-09T15:38:52.354Z",
+  "updatedAt": "2026-01-21T09:49:06.996Z",
   "entries": [
     {
       "letter": "V",
@@ -287,6 +287,21 @@
       "category": "1.1-Canonical-methods-texts"
     },
     {
+      "letter": "C",
+      "slug": "Candy2018PracticeBasedResearchCreative",
+      "path": "/docs/C/Candy2018PracticeBasedResearchCreative.md",
+      "title": "Practice-based research in the creative arts: foundations and futures from the front line",
+      "authors": "Candy, Linda and Edmonds, Ernest",
+      "year": "2018",
+      "journal": "Leonardo",
+      "doi": "10.1162/LEON_a_01471",
+      "url": "https://direct.mit.edu/leon/article/51/1/63-69/46472",
+      "citation_key": "Candy2018PracticeBasedResearchCreative",
+      "displayTitle": "Candy, Linda and Edmonds, Ernest (2018). Practice-based research in the creative arts: foundations and futures from the front line — Leonardo",
+      "mtimeMs": 1768988946854.4373,
+      "category": "5.1-Practice-led-design-research"
+    },
+    {
       "letter": "R",
       "slug": "RoutledgeInternationalHandbook",
       "path": "/docs/R/RoutledgeInternationalHandbook.md",
@@ -465,6 +480,21 @@
       "displayTitle": "Drucker, Johanna (2014). Graphesis: visual forms of knowledge production — Harvard university press",
       "mtimeMs": 1767973126669.946,
       "category": "1.1-Canonical-methods-texts"
+    },
+    {
+      "letter": "D",
+      "slug": "DruckerHumanitiesApproachesGraphical",
+      "path": "/docs/D/DruckerHumanitiesApproachesGraphical.md",
+      "title": "Humanities approaches to graphical display",
+      "authors": "Drucker, Johanna",
+      "year": "2011",
+      "journal": "Digital Humanities Quarterly",
+      "doi": "",
+      "url": "",
+      "citation_key": "DruckerHumanitiesApproachesGraphical",
+      "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — Digital Humanities Quarterly",
+      "mtimeMs": 1768988946860.0776,
+      "category": "6.2-DH/computational-methods"
     },
     {
       "letter": "E",
@@ -1584,6 +1614,98 @@
         "category": "1.1-Canonical-methods-texts"
       }
     ],
+    "C": [
+      {
+        "letter": "C",
+        "slug": "Candy2018PracticeBasedResearchCreative",
+        "path": "/docs/C/Candy2018PracticeBasedResearchCreative.md",
+        "title": "Practice-based research in the creative arts: foundations and futures from the front line",
+        "authors": "Candy, Linda and Edmonds, Ernest",
+        "year": "2018",
+        "journal": "Leonardo",
+        "doi": "10.1162/LEON_a_01471",
+        "url": "https://direct.mit.edu/leon/article/51/1/63-69/46472",
+        "citation_key": "Candy2018PracticeBasedResearchCreative",
+        "displayTitle": "Candy, Linda and Edmonds, Ernest (2018). Practice-based research in the creative arts: foundations and futures from the front line — Leonardo",
+        "mtimeMs": 1768988946854.4373,
+        "category": "5.1-Practice-led-design-research"
+      },
+      {
+        "letter": "C",
+        "slug": "CarterThingsSaidUnsaid",
+        "path": "/docs/C/CarterThingsSaidUnsaid.md",
+        "title": "Of things said and unsaid: power, archival silences, and power in silence",
+        "authors": "Carter, Rodney G S",
+        "year": "2006",
+        "journal": "Archivaria 61",
+        "doi": "",
+        "url": "",
+        "citation_key": "CarterThingsSaidUnsaid",
+        "displayTitle": "Carter, Rodney G S (2006). Of things said and unsaid: power, archival silences, and power in silence — Archivaria 61",
+        "mtimeMs": 1764780775668.0393,
+        "category": "3.3-Absence,-silence-and-missing-data"
+      },
+      {
+        "letter": "C",
+        "slug": "Claeyssens2025PublishingLargeCollections",
+        "path": "/docs/C/Claeyssens2025PublishingLargeCollections.md",
+        "title": "Publishing large collections of digitised printed material",
+        "authors": "Claeyssens, Steven",
+        "year": "2025",
+        "journal": "The Routledge companion to libraries, archives and the digital humanities",
+        "doi": "",
+        "url": "",
+        "citation_key": "Claeyssens2025PublishingLargeCollections",
+        "displayTitle": "Claeyssens, Steven (2025). Publishing large collections of digitised printed material — The Routledge companion to libraries, archives and the digital humanities",
+        "mtimeMs": 1764688026392.353,
+        "category": "4.2-Digital-libraries/long-tail/discovery"
+      },
+      {
+        "letter": "C",
+        "slug": "Cross2007FortyYearsDesign",
+        "path": "/docs/C/Cross2007FortyYearsDesign.md",
+        "title": "Forty Years of Design Research",
+        "authors": "Cross, N.",
+        "year": "2007",
+        "journal": "Design Studies",
+        "doi": "10.1016/j.destud.2006.11.004",
+        "url": "",
+        "citation_key": "Cross2007FortyYearsDesign",
+        "displayTitle": "Cross, N. (2007). Forty Years of Design Research — Design Studies",
+        "mtimeMs": 1764331895161.4497,
+        "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "C",
+        "slug": "Cross1993HistoryDesignMethodology",
+        "path": "/docs/C/Cross1993HistoryDesignMethodology.md",
+        "title": "A history of design methodology",
+        "authors": "Cross, N.",
+        "year": "1993",
+        "journal": "Design {{Methodology}",
+        "doi": "10.1007/978-94-015-8220-9_2",
+        "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
+        "citation_key": "Cross1993HistoryDesignMethodology",
+        "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
+        "mtimeMs": 1764331895161.0808,
+        "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "C",
+        "slug": "Cross1982DesignerlyWaysKnowing",
+        "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
+        "title": "Designerly ways of knowing",
+        "authors": "Cross, Nigel",
+        "year": "1982",
+        "journal": "Design Studies",
+        "doi": "",
+        "url": "",
+        "citation_key": "Cross1982DesignerlyWaysKnowing",
+        "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
+        "mtimeMs": 1767973132214.995,
+        "category": "1.1-Canonical-methods-texts"
+      }
+    ],
     "R": [
       {
         "letter": "R",
@@ -1658,83 +1780,6 @@
         "citation_key": "Rittel1973DilemmasGeneralTheory",
         "displayTitle": "Rittel, Horst W. J. and Webber, Melvin M. (1973). Dilemmas in a general theory of planning — Policy Sciences",
         "mtimeMs": 1767973132225.1436,
-        "category": "1.1-Canonical-methods-texts"
-      }
-    ],
-    "C": [
-      {
-        "letter": "C",
-        "slug": "CarterThingsSaidUnsaid",
-        "path": "/docs/C/CarterThingsSaidUnsaid.md",
-        "title": "Of things said and unsaid: power, archival silences, and power in silence",
-        "authors": "Carter, Rodney G S",
-        "year": "2006",
-        "journal": "Archivaria 61",
-        "doi": "",
-        "url": "",
-        "citation_key": "CarterThingsSaidUnsaid",
-        "displayTitle": "Carter, Rodney G S (2006). Of things said and unsaid: power, archival silences, and power in silence — Archivaria 61",
-        "mtimeMs": 1764780775668.0393,
-        "category": "3.3-Absence,-silence-and-missing-data"
-      },
-      {
-        "letter": "C",
-        "slug": "Claeyssens2025PublishingLargeCollections",
-        "path": "/docs/C/Claeyssens2025PublishingLargeCollections.md",
-        "title": "Publishing large collections of digitised printed material",
-        "authors": "Claeyssens, Steven",
-        "year": "2025",
-        "journal": "The Routledge companion to libraries, archives and the digital humanities",
-        "doi": "",
-        "url": "",
-        "citation_key": "Claeyssens2025PublishingLargeCollections",
-        "displayTitle": "Claeyssens, Steven (2025). Publishing large collections of digitised printed material — The Routledge companion to libraries, archives and the digital humanities",
-        "mtimeMs": 1764688026392.353,
-        "category": "4.2-Digital-libraries/long-tail/discovery"
-      },
-      {
-        "letter": "C",
-        "slug": "Cross2007FortyYearsDesign",
-        "path": "/docs/C/Cross2007FortyYearsDesign.md",
-        "title": "Forty Years of Design Research",
-        "authors": "Cross, N.",
-        "year": "2007",
-        "journal": "Design Studies",
-        "doi": "10.1016/j.destud.2006.11.004",
-        "url": "",
-        "citation_key": "Cross2007FortyYearsDesign",
-        "displayTitle": "Cross, N. (2007). Forty Years of Design Research — Design Studies",
-        "mtimeMs": 1764331895161.4497,
-        "category": "1.1-Canonical-methods-texts"
-      },
-      {
-        "letter": "C",
-        "slug": "Cross1993HistoryDesignMethodology",
-        "path": "/docs/C/Cross1993HistoryDesignMethodology.md",
-        "title": "A history of design methodology",
-        "authors": "Cross, N.",
-        "year": "1993",
-        "journal": "Design {{Methodology}",
-        "doi": "10.1007/978-94-015-8220-9_2",
-        "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
-        "citation_key": "Cross1993HistoryDesignMethodology",
-        "displayTitle": "Cross, N. (1993). A history of design methodology — Design {{Methodology}",
-        "mtimeMs": 1764331895161.0808,
-        "category": "1.1-Canonical-methods-texts"
-      },
-      {
-        "letter": "C",
-        "slug": "Cross1982DesignerlyWaysKnowing",
-        "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
-        "title": "Designerly ways of knowing",
-        "authors": "Cross, Nigel",
-        "year": "1982",
-        "journal": "Design Studies",
-        "doi": "",
-        "url": "",
-        "citation_key": "Cross1982DesignerlyWaysKnowing",
-        "displayTitle": "Cross, Nigel (1982). Designerly ways of knowing — Design Studies",
-        "mtimeMs": 1767973132214.995,
         "category": "1.1-Canonical-methods-texts"
       }
     ],
@@ -1828,6 +1873,21 @@
         "displayTitle": "Drucker, Johanna (2014). Graphesis: visual forms of knowledge production — Harvard university press",
         "mtimeMs": 1767973126669.946,
         "category": "1.1-Canonical-methods-texts"
+      },
+      {
+        "letter": "D",
+        "slug": "DruckerHumanitiesApproachesGraphical",
+        "path": "/docs/D/DruckerHumanitiesApproachesGraphical.md",
+        "title": "Humanities approaches to graphical display",
+        "authors": "Drucker, Johanna",
+        "year": "2011",
+        "journal": "Digital Humanities Quarterly",
+        "doi": "",
+        "url": "",
+        "citation_key": "DruckerHumanitiesApproachesGraphical",
+        "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — Digital Humanities Quarterly",
+        "mtimeMs": 1768988946860.0776,
+        "category": "6.2-DH/computational-methods"
       }
     ],
     "E": [
