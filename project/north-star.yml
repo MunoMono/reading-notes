@@ -1,0 +1,89 @@
+# North star constants for the thesis + note-taking system.
+# Keep this file short. Update here, not inside templates.
+
+research_question:
+  # Supervisor verbatim (do not “fix” wording here)
+  verbatim: "how might a testament epistemetic shift be used as an approach to activate the RCAs DDR archive?"
+  # Working phrasing (optional; change freely)
+  working: "How might testamentary traces of epistemic shift be used as an approach to activate the RCA’s DDR archive?"
+  # One-line purpose (keeps notes honest)
+  purpose: "Use the DDR archive to make epistemic shift legible and actionable, not just described."
+
+# Short rules card injected into every note (keeps it simple)
+constraints_summary:
+  - "No page cite → write TODO (needs page)"
+  - "Max 3 claims: Claim → Evidence → Warrant → So-what"
+  - "Each claim must include a practice cross-check (or TODO)"
+  - "No antithesis lists: write Boundary + Risk"
+  - "If it doesn’t serve the RQ/model: OUT OF SCOPE (why)"
+
+model:
+  title: "How epistemic shift becomes observable across design methods, institutional archives, and multimodal computational reconstruction"
+
+  strands:
+    - id: "S1"
+      label: "How epistemic shift emerges historically in design research"
+      what_counts_as_evidence:
+        - "Key methodological texts, debates, definitions, disputes"
+        - "Turning points (changes in vocabulary, criteria, method claims)"
+      outputs_i_expect:
+        - "A timeline / sequence of moves"
+        - "A small set of definitional anchors and contrasts (stated positively)"
+
+    - id: "S2"
+      label: "Where epistemic shift is materially recorded, structured, and obscured"
+      what_counts_as_evidence:
+        - "Cataloguing, description standards, classification schemes, institutional record-keeping"
+        - "Gaps, silences, distortions, and how they are produced"
+      outputs_i_expect:
+        - "A description of how the archive materially shapes what can be known"
+        - "Concrete examples of what gets recorded vs obscured"
+
+    - id: "S3"
+      label: "How epistemic shift can be reconstructed and made legible through multimodal ML and visual analytics"
+      what_counts_as_evidence:
+        - "Multimodal ML pipelines, visual analytics, provenance, interpretability"
+        - "Methods that expose structure, shift, or discontinuity in archival material"
+      outputs_i_expect:
+        - "A defensible reconstruction approach"
+        - "What the method can/cannot show, and the risk conditions"
+
+  seams_to_watch:
+    - id: "SEAM_A"
+      label: "Where conceptual shift becomes infrastructural shift"
+    - id: "SEAM_B"
+      label: "How shift is materialised and distorted in institutional record-keeping"
+    - id: "SEAM_C"
+      label: "How computational methods expose or amplify epistemic shift"
+
+project_definitions:
+  # Keep these as “working” definitions — they can tighten later.
+
+  epistemic_shift:
+    working: "A gradual change in what counts as valid knowledge, evidence, or method in a field."
+    observable_signs:
+      - "Definitions change"
+      - "Criteria/benchmarks change"
+      - "Accepted methods change"
+      - "What is treated as evidence changes"
+
+  # Keep for backwards compatibility with earlier wording.
+  epistemic_shift_legacy:
+    working: "A change in what counts as valid knowledge, evidence, or method in a field."
+    observable_signs:
+      - "Definitions change"
+      - "Criteria/benchmarks change"
+      - "Accepted methods change"
+      - "What is treated as evidence changes"
+
+  testament:
+    working: "A trace or record (textual/material/institutional) that can be treated as evidence of epistemic shift."
+    caution: "If ‘testament’ stays in the RQ, I must define it clearly in thesis text."
+
+  activate_archive:
+    working: "Make the DDR archive usable for inquiry: legible, navigable, contestable, and generative for new research/practice."
+
+always_include_in_notes:
+  - "Selected primary strand (S1/S2/S3)"
+  - "How the paper moves the research question forward (one sentence)"
+  - "At least one link to practice evidence (or TODO)"
