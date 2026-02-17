@@ -21,7 +21,7 @@ project_rq_working: "How might testamentary traces of epistemic shift be used as
 model_title: "How epistemic shift becomes observable across design methods, institutional archives, and multimodal computational reconstruction"
 model_strand: "S2"
 model_strand_label: "Where epistemic shift is materially recorded, structured, and obscured"
-last_updated: "17 Feb 2026, 15:19"---
+last_updated: "17 Feb 2026, 15:52"---
 **RQ (supervisor verbatim):** how might a testament epistemetic shift be used as an approach to activate the RCAs DDR archive?  
 **RQ (working):** How might testamentary traces of epistemic shift be used as an approach to activate the RCA’s DDR archive?  
 **Model title:** How epistemic shift becomes observable across design methods, institutional archives, and multimodal computational reconstruction  

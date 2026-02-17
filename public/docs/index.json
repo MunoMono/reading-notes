@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-17T15:49:30.935Z",
+  "updatedAt": "2026-02-17T15:52:06.422Z",
   "entries": [
     {
       "letter": "A",
@@ -13,7 +13,7 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L Bruce (1978). Time for a Revolution in Art and Design Education — RCA Papers No. 6",
-      "mtimeMs": 1771343370785.6426,
+      "mtimeMs": 1771343526293.1277,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
       "citation_key": "Bender2021DangersStochasticParrots",
       "displayTitle": "Bender, Emily M. and Gebru, Timnit and {McMillan-Major}, Angelina and Shmitchell, Shmargaret (2021). On the {{Dangers} of Stochastic Parrots: Can Language Models Be Too Big?} — Proceedings of the 2021 {{ACM Conference} on Fairness, Accountability, and Transparency (FAccT ’21)",
-      "mtimeMs": 1771343370789.6575,
+      "mtimeMs": 1771343526296.5728,
       "category": "4.4-LLM as research method / epistemic instrument"
     },
     {
@@ -133,7 +133,7 @@
       "url": "",
       "citation_key": "Frayling1993ResearchArtDesign",
       "displayTitle": "Frayling, Christopher (1993). Research in Art and Design — Royal College of Art Research Papers, Volume 1 Number 1 (1993/4)",
-      "mtimeMs": 1771343370792.044,
+      "mtimeMs": 1771343526298.6973,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -178,7 +178,7 @@
       "url": "",
       "citation_key": "Gooding2022CriticallyAddressableData",
       "displayTitle": "Gooding, Paul (2022). Towards Critically Addressable Data for Digital Library User Studies — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
-      "mtimeMs": 1771343370793.2563,
+      "mtimeMs": 1771343526299.7632,
       "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
     },
     {
@@ -193,7 +193,7 @@
       "url": "http://link.springer.com/10.1007/978-3-476-05446-3_20",
       "citation_key": "Hodel2022SupervisedUnsupervisedApproaches",
       "displayTitle": "Hodel, T (2022). Supervised and Unsupervised: Approaches to Machine Learning for Textual Entities — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-      "mtimeMs": 1771343370793.642,
+      "mtimeMs": 1771343526300.2432,
       "category": "6.2-DH/computational-methods"
     },
     {
@@ -223,7 +223,7 @@
       "url": "",
       "citation_key": "Jaillant2024AreUsersDigital",
       "displayTitle": "Jaillant, Lise and Aske, Katherine (2024). Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities — Journal on Computing and Cultural Heritage",
-      "mtimeMs": 1771343370794.926,
+      "mtimeMs": 1771343526301.0466,
       "category": "3.2-Classification-as-ethics / politics"
     },
     {
@@ -238,7 +238,7 @@
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
       "displayTitle": "Jonas, Wolfgang (2012). Exploring the {{Swampy Ground} — Mapping {{Design Research}",
-      "mtimeMs": 1771343370795.3398,
+      "mtimeMs": 1771343526301.4263,
       "category": "1.1-Canonical-methods-texts"
     },
     {
@@ -313,7 +313,7 @@
       "url": "https://www.tandfonline.com/doi/full/10.1525/ohr.2007.34.1.49",
       "citation_key": "Thomson2007FourParadigmTransformations",
       "displayTitle": "Thomson, Alistair (2007). Four Paradigm Transformations in Oral History — The Oral History Review",
-      "mtimeMs": 1771343370796.4802,
+      "mtimeMs": 1771343526302.4888,
       "category": "1.1-Canonical-methods-texts"
     }
   ],
@@ -331,7 +331,7 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L Bruce (1978). Time for a Revolution in Art and Design Education — RCA Papers No. 6",
-        "mtimeMs": 1771343370785.6426,
+        "mtimeMs": 1771343526293.1277,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -363,7 +363,7 @@
         "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
         "citation_key": "Bender2021DangersStochasticParrots",
         "displayTitle": "Bender, Emily M. and Gebru, Timnit and {McMillan-Major}, Angelina and Shmitchell, Shmargaret (2021). On the {{Dangers} of Stochastic Parrots: Can Language Models Be Too Big?} — Proceedings of the 2021 {{ACM Conference} on Fairness, Accountability, and Transparency (FAccT ’21)",
-        "mtimeMs": 1771343370789.6575,
+        "mtimeMs": 1771343526296.5728,
         "category": "4.4-LLM as research method / epistemic instrument"
       },
       {
@@ -459,7 +459,7 @@
         "url": "",
         "citation_key": "Frayling1993ResearchArtDesign",
         "displayTitle": "Frayling, Christopher (1993). Research in Art and Design — Royal College of Art Research Papers, Volume 1 Number 1 (1993/4)",
-        "mtimeMs": 1771343370792.044,
+        "mtimeMs": 1771343526298.6973,
         "category": "1.1-Canonical-methods-texts"
       }
     ],
@@ -506,7 +506,7 @@
         "url": "",
         "citation_key": "Gooding2022CriticallyAddressableData",
         "displayTitle": "Gooding, Paul (2022). Towards Critically Addressable Data for Digital Library User Studies — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
-        "mtimeMs": 1771343370793.2563,
+        "mtimeMs": 1771343526299.7632,
         "category": "3.1-Infrastructures-and-standards-ISAD(G),-archival-description"
       }
     ],
@@ -523,7 +523,7 @@
         "url": "http://link.springer.com/10.1007/978-3-476-05446-3_20",
         "citation_key": "Hodel2022SupervisedUnsupervisedApproaches",
         "displayTitle": "Hodel, T (2022). Supervised and Unsupervised: Approaches to Machine Learning for Textual Entities — Archives, Access and Artificial Intelligence Working with Born-Digital and Digitized Archival Collections",
-        "mtimeMs": 1771343370793.642,
+        "mtimeMs": 1771343526300.2432,
         "category": "6.2-DH/computational-methods"
       }
     ],
@@ -555,7 +555,7 @@
         "url": "",
         "citation_key": "Jaillant2024AreUsersDigital",
         "displayTitle": "Jaillant, Lise and Aske, Katherine (2024). Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities — Journal on Computing and Cultural Heritage",
-        "mtimeMs": 1771343370794.926,
+        "mtimeMs": 1771343526301.0466,
         "category": "3.2-Classification-as-ethics / politics"
       },
       {
@@ -570,7 +570,7 @@
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
         "displayTitle": "Jonas, Wolfgang (2012). Exploring the {{Swampy Ground} — Mapping {{Design Research}",
-        "mtimeMs": 1771343370795.3398,
+        "mtimeMs": 1771343526301.4263,
         "category": "1.1-Canonical-methods-texts"
       },
       {
@@ -651,7 +651,7 @@
         "url": "https://www.tandfonline.com/doi/full/10.1525/ohr.2007.34.1.49",
         "citation_key": "Thomson2007FourParadigmTransformations",
         "displayTitle": "Thomson, Alistair (2007). Four Paradigm Transformations in Oral History — The Oral History Review",
-        "mtimeMs": 1771343370796.4802,
+        "mtimeMs": 1771343526302.4888,
         "category": "1.1-Canonical-methods-texts"
       }
     ]
