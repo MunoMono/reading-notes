@@ -17,15 +17,13 @@ constraints_source: "project/constraints.md"
 category: 4.4-LLM as research method / epistemic instrument
 
 project_rq_verbatim: "how might a testament epistemetic drift be used as an approach to activate the RCAs DDR archive?"
-project_rq_working: "How might testamentary traces of epistemic drift be used as an approach to activate the RCA’s DDR archive?"
+project_rq_working: "How might testamentary traces of epistemiv shift be used as an approach to activate the RCA’s DDR archive?"
 model_title: "How epistemic shift becomes observable across design methods, institutional archives, and multimodal computational reconstruction"
 model_strand: "S3"
 model_strand_label: "How epistemic shift can be reconstructed and made legible through multimodal ML and visual analytics"
-last_updated: "16 Feb 2026, 15:33"
----
-
+last_updated: "17 Feb 2026, 15:19"---
 **RQ (supervisor verbatim):** how might a testament epistemetic drift be used as an approach to activate the RCAs DDR archive?  
-**RQ (working):** How might testamentary traces of epistemic drift be used as an approach to activate the RCA’s DDR archive?  
+**RQ (working):** How might testamentary traces of epistemiv shift be used as an approach to activate the RCA’s DDR archive?  
 **Model title:** How epistemic shift becomes observable across design methods, institutional archives, and multimodal computational reconstruction  
 **Primary strand:** S3 — How epistemic shift can be reconstructed and made legible through multimodal ML and visual analytics  
 

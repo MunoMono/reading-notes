@@ -18,8 +18,7 @@ model_strand: "S1"
 model_strand_label: "How epistemic shift emerges historically in design research"
 
 scope_note: "Critical reading focused on Chapters 4, 5, 6 (as supplied PDF segment/pages)."
----
-
+last_updated: "17 Feb 2026, 14:50"---
 **RQ (supervisor verbatim):** how might a testament epistemetic shift be used as an approach to activate the RCAs DDR archive?  
 **RQ (working):** How might testamentary traces of epistemic shift be used as an approach to activate the RCA’s DDR archive?  
 **Model title:** How epistemic shift becomes observable across design methods, institutional archives, and multimodal computational reconstruction  
