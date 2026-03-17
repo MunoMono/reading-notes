@@ -9,15 +9,23 @@ url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "17 Mar 2026"
+generated_at: "17 Mar 2026, 05:52"
+north_star_source: "project/north-star.yml"
+north_star_mtime: "16 Mar 2026, 12:22"
+north_star_sha1: "46ff0ae0f623"
+constraints_source: "project/constraints.md"
+category: "S3: Surfacing and reactivating traces computationally"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
+project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
+project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.1 Visual analytics"
 source_type: "Core text"
-last_updated: "17 Mar 2026, 06:09"---
+last_updated: "17 Mar 2026, 06:13"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  

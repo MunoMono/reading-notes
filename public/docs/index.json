@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T06:09:28.563Z",
+  "updatedAt": "2026-03-17T06:13:39.534Z",
   "entries": [
     {
       "letter": "D",
@@ -13,8 +13,8 @@
       "url": "",
       "citation_key": "Drucker2011HumanitiesApproachesGraphical",
       "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
-      "mtimeMs": 1773727768450.767,
-      "category": ""
+      "mtimeMs": 1773728013552.0186,
+      "category": "S3: Surfacing and reactivating traces computationally"
     }
   ],
   "grouped": {
@@ -31,8 +31,8 @@
         "url": "",
         "citation_key": "Drucker2011HumanitiesApproachesGraphical",
         "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
-        "mtimeMs": 1773727768450.767,
-        "category": ""
+        "mtimeMs": 1773728013552.0186,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ]
   }
