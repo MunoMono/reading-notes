@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-03-17T06:13:39.534Z",
+  "updatedAt": "2026-03-17T12:46:58.394Z",
   "entries": [
+    {
+      "letter": "A",
+      "slug": "Archer1978TimeRevolutionArt",
+      "path": "/docs/A/Archer1978TimeRevolutionArt.md",
+      "title": "Time for a Revolution in Art and Design Education",
+      "authors": "Archer, L. Bruce",
+      "year": "1978",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "Archer1978TimeRevolutionArt",
+      "displayTitle": "Archer, L. Bruce (1978). Time for a Revolution in Art and Design Education",
+      "mtimeMs": 1773751499738.4473,
+      "category": "S1: Historicising contested design knowledge"
+    },
+    {
+      "letter": "A",
+      "slug": "Archer1963SystematicMethodDesigners",
+      "path": "/docs/A/Archer1963SystematicMethodDesigners.md",
+      "title": "Systematic Method for Designers",
+      "authors": "Archer, L. Bruce",
+      "year": "1963–64",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "Archer1963SystematicMethodDesigners",
+      "displayTitle": "Archer, L. Bruce (1963–64). Systematic Method for Designers",
+      "mtimeMs": 1773751499735.4937,
+      "category": "S1: Historicising contested design knowledge"
+    },
+    {
+      "letter": "C",
+      "slug": "Cross1982DesignerlyWaysKnowing",
+      "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
+      "title": "Designerly Ways of Knowing",
+      "authors": "Cross, Nigel",
+      "year": "1982",
+      "journal": "Design Studies",
+      "doi": "",
+      "url": "",
+      "citation_key": "Cross1982DesignerlyWaysKnowing",
+      "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
+      "mtimeMs": 1773751617967.896,
+      "category": "S1: Historicising contested design knowledge"
+    },
     {
       "letter": "D",
       "slug": "Drucker2011HumanitiesApproachesGraphical",
@@ -13,11 +58,60 @@
       "url": "",
       "citation_key": "Drucker2011HumanitiesApproachesGraphical",
       "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
-      "mtimeMs": 1773728013552.0186,
+      "mtimeMs": 1773751499739.6907,
       "category": "S3: Surfacing and reactivating traces computationally"
     }
   ],
   "grouped": {
+    "A": [
+      {
+        "letter": "A",
+        "slug": "Archer1978TimeRevolutionArt",
+        "path": "/docs/A/Archer1978TimeRevolutionArt.md",
+        "title": "Time for a Revolution in Art and Design Education",
+        "authors": "Archer, L. Bruce",
+        "year": "1978",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "Archer1978TimeRevolutionArt",
+        "displayTitle": "Archer, L. Bruce (1978). Time for a Revolution in Art and Design Education",
+        "mtimeMs": 1773751499738.4473,
+        "category": "S1: Historicising contested design knowledge"
+      },
+      {
+        "letter": "A",
+        "slug": "Archer1963SystematicMethodDesigners",
+        "path": "/docs/A/Archer1963SystematicMethodDesigners.md",
+        "title": "Systematic Method for Designers",
+        "authors": "Archer, L. Bruce",
+        "year": "1963–64",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "Archer1963SystematicMethodDesigners",
+        "displayTitle": "Archer, L. Bruce (1963–64). Systematic Method for Designers",
+        "mtimeMs": 1773751499735.4937,
+        "category": "S1: Historicising contested design knowledge"
+      }
+    ],
+    "C": [
+      {
+        "letter": "C",
+        "slug": "Cross1982DesignerlyWaysKnowing",
+        "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
+        "title": "Designerly Ways of Knowing",
+        "authors": "Cross, Nigel",
+        "year": "1982",
+        "journal": "Design Studies",
+        "doi": "",
+        "url": "",
+        "citation_key": "Cross1982DesignerlyWaysKnowing",
+        "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
+        "mtimeMs": 1773751617967.896,
+        "category": "S1: Historicising contested design knowledge"
+      }
+    ],
     "D": [
       {
         "letter": "D",
@@ -31,7 +125,7 @@
         "url": "",
         "citation_key": "Drucker2011HumanitiesApproachesGraphical",
         "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
-        "mtimeMs": 1773728013552.0186,
+        "mtimeMs": 1773751499739.6907,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ]

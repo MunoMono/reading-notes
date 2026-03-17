@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "dev:all": "concurrently -k -n WATCH,SERVER -c yellow,cyan \"npm run watch:stamp\" \"npm run dev:prep\"",
+    "dev:all": "concurrently -k -n WATCH,INDEX,SERVER -c yellow,blue,cyan \"npm run watch:stamp\" \"npm run watch:index\" \"npm run dev:prep\"",
     "dev:prep": "npm run stamp:notes && npm run build:docs-index && vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -12,6 +12,7 @@
     "new:note": "./scripts/newnote.sh",
     "stamp:notes": "node scripts/stamp-notes.mjs",
     "watch:stamp": "chokidar \"public/docs/**/*.md\" -c \"node scripts/stamp-notes.mjs {{path}}\"",
+    "watch:index": "chokidar \"public/docs/**/*.md\" -c \"node scripts/build-docs-index.mjs\"",
     "predeploy": "npm run stamp:notes && npm run build:docs-index && VITE_BUILD_ID=$(date +%s) vite build && cp dist/index.html dist/404.html && touch dist/.nojekyll",
     "deploy": "npm run predeploy && gh-pages -d dist -b gh-pages -f --dotfiles -m \"deploy: publish dist (build $VITE_BUILD_ID)\""
   },
