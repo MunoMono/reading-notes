@@ -95,7 +95,8 @@ async function main() {
       const doi = fm.doi || "";
       const url = fm.url || "";
       const citation_key = fm.citation_key || slug;
-      const category = fm.category || "";   // 👈 NEW
+      // Prefer explicit category; otherwise derive from strand metadata so tags always show
+      const category = fm.category || fm.model_strand_label || fm.model_strand || "";
 
       // file metadata (for "recently added")
       const stat = await fs.stat(abs).catch(() => null);

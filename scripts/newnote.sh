@@ -275,6 +275,7 @@ bibliography: ../../refs/library.bib
 csl: "{csl_style}"
 link-citations: true
 generated_at: "{generated_at}"
+last_updated: "{generated_at}"
 north_star_source: "{north_star_source}"
 north_star_mtime: "{north_star_mtime}"
 north_star_sha1: "{north_star_sha1}"
