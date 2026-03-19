@@ -17,7 +17,7 @@ model_strand: "S1"
 model_strand_label: "Historicising contested design knowledge"
 model_subcluster: "S1.2 Critiques of design methods"
 source_type: "Context / supporting"
-last_updated: "18 Mar 2026, 15:23"---
+last_updated: "19 Mar 2026, 09:18"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
