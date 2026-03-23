@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-03-19T09:18:18.810Z",
+  "updatedAt": "2026-03-23T08:45:24.546Z",
   "entries": [
-    {
-      "letter": "C",
-      "slug": "Caswell2017CriticalArchivalStudies",
-      "path": "/docs/C/Caswell2017CriticalArchivalStudies.md",
-      "title": "",
-      "authors": "",
-      "year": "",
-      "journal": "",
-      "doi": "",
-      "url": "",
-      "citation_key": "Caswell2017CriticalArchivalStudies",
-      "displayTitle": "Caswell2017CriticalArchivalStudies",
-      "mtimeMs": 1773847397353.0254,
-      "category": ""
-    },
     {
       "letter": "A",
       "slug": "Archer1981ViewNatureDesign",
@@ -225,6 +210,21 @@
       "displayTitle": "Buckley, Cheryl (1986). Made in Patriarchy: Toward a Feminist Analysis of Women and Design — Design Issues",
       "mtimeMs": 1773847397352.5308,
       "category": "Historicising contested design knowledge"
+    },
+    {
+      "letter": "C",
+      "slug": "Caswell2017CriticalArchivalStudies",
+      "path": "/docs/C/Caswell2017CriticalArchivalStudies.md",
+      "title": "Critical Archival Studies: An Introduction",
+      "authors": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay",
+      "year": "2017",
+      "journal": "Journal of Critical Library and Information Studies",
+      "doi": "",
+      "url": "",
+      "citation_key": "Caswell2017CriticalArchivalStudies",
+      "displayTitle": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay (2017). Critical Archival Studies: An Introduction — Journal of Critical Library and Information Studies",
+      "mtimeMs": 1774255524415.5854,
+      "category": "Critiques of archival studies"
     },
     {
       "letter": "C",
@@ -678,68 +678,6 @@
     }
   ],
   "grouped": {
-    "C": [
-      {
-        "letter": "C",
-        "slug": "Caswell2017CriticalArchivalStudies",
-        "path": "/docs/C/Caswell2017CriticalArchivalStudies.md",
-        "title": "",
-        "authors": "",
-        "year": "",
-        "journal": "",
-        "doi": "",
-        "url": "",
-        "citation_key": "Caswell2017CriticalArchivalStudies",
-        "displayTitle": "Caswell2017CriticalArchivalStudies",
-        "mtimeMs": 1773847397353.0254,
-        "category": ""
-      },
-      {
-        "letter": "C",
-        "slug": "Colavizza2022ArchivesAIOverview",
-        "path": "/docs/C/Colavizza2022ArchivesAIOverview.md",
-        "title": "Archives and AI: An Overview of Current Debates and Future Perspectives",
-        "authors": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia",
-        "year": "2022",
-        "journal": "Journal on Computing and Cultural Heritage",
-        "doi": "10.1145/3479010",
-        "url": "https://doi.org/10.1145/3479010",
-        "citation_key": "Colavizza2022ArchivesAIOverview",
-        "displayTitle": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia (2022). Archives and AI: An Overview of Current Debates and Future Perspectives — Journal on Computing and Cultural Heritage",
-        "mtimeMs": 1773911898678.1326,
-        "category": "Surfacing and reactivating traces computationally"
-      },
-      {
-        "letter": "C",
-        "slug": "Cook1997WhatIsPastPrologue",
-        "path": "/docs/C/Cook1997WhatIsPastPrologue.md",
-        "title": "What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift",
-        "authors": "Cook, Terry",
-        "year": "1997",
-        "journal": "Archivaria",
-        "doi": "",
-        "url": "",
-        "citation_key": "Cook1997WhatIsPastPrologue",
-        "displayTitle": "Cook, Terry (1997). What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift — Archivaria",
-        "mtimeMs": 1773911898678.443,
-        "category": "Recording, organising, and obscuring traces"
-      },
-      {
-        "letter": "C",
-        "slug": "Cross1982DesignerlyWaysKnowing",
-        "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
-        "title": "Designerly Ways of Knowing",
-        "authors": "Cross, Nigel",
-        "year": "1982",
-        "journal": "Design Studies",
-        "doi": "",
-        "url": "",
-        "citation_key": "Cross1982DesignerlyWaysKnowing",
-        "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
-        "mtimeMs": 1773847397353.3374,
-        "category": "S1: Historicising contested design knowledge"
-      }
-    ],
     "A": [
       {
         "letter": "A",
@@ -952,6 +890,68 @@
         "displayTitle": "Buckley, Cheryl (1986). Made in Patriarchy: Toward a Feminist Analysis of Women and Design — Design Issues",
         "mtimeMs": 1773847397352.5308,
         "category": "Historicising contested design knowledge"
+      }
+    ],
+    "C": [
+      {
+        "letter": "C",
+        "slug": "Caswell2017CriticalArchivalStudies",
+        "path": "/docs/C/Caswell2017CriticalArchivalStudies.md",
+        "title": "Critical Archival Studies: An Introduction",
+        "authors": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay",
+        "year": "2017",
+        "journal": "Journal of Critical Library and Information Studies",
+        "doi": "",
+        "url": "",
+        "citation_key": "Caswell2017CriticalArchivalStudies",
+        "displayTitle": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay (2017). Critical Archival Studies: An Introduction — Journal of Critical Library and Information Studies",
+        "mtimeMs": 1774255524415.5854,
+        "category": "Critiques of archival studies"
+      },
+      {
+        "letter": "C",
+        "slug": "Colavizza2022ArchivesAIOverview",
+        "path": "/docs/C/Colavizza2022ArchivesAIOverview.md",
+        "title": "Archives and AI: An Overview of Current Debates and Future Perspectives",
+        "authors": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia",
+        "year": "2022",
+        "journal": "Journal on Computing and Cultural Heritage",
+        "doi": "10.1145/3479010",
+        "url": "https://doi.org/10.1145/3479010",
+        "citation_key": "Colavizza2022ArchivesAIOverview",
+        "displayTitle": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia (2022). Archives and AI: An Overview of Current Debates and Future Perspectives — Journal on Computing and Cultural Heritage",
+        "mtimeMs": 1773911898678.1326,
+        "category": "Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "C",
+        "slug": "Cook1997WhatIsPastPrologue",
+        "path": "/docs/C/Cook1997WhatIsPastPrologue.md",
+        "title": "What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift",
+        "authors": "Cook, Terry",
+        "year": "1997",
+        "journal": "Archivaria",
+        "doi": "",
+        "url": "",
+        "citation_key": "Cook1997WhatIsPastPrologue",
+        "displayTitle": "Cook, Terry (1997). What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift — Archivaria",
+        "mtimeMs": 1773911898678.443,
+        "category": "Recording, organising, and obscuring traces"
+      },
+      {
+        "letter": "C",
+        "slug": "Cross1982DesignerlyWaysKnowing",
+        "path": "/docs/C/Cross1982DesignerlyWaysKnowing.md",
+        "title": "Designerly Ways of Knowing",
+        "authors": "Cross, Nigel",
+        "year": "1982",
+        "journal": "Design Studies",
+        "doi": "",
+        "url": "",
+        "citation_key": "Cross1982DesignerlyWaysKnowing",
+        "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
+        "mtimeMs": 1773847397353.3374,
+        "category": "S1: Historicising contested design knowledge"
       }
     ],
     "D": [
