@@ -18,6 +18,59 @@
   }
 }
 
+/* Note date range filter */
+.home-date-tools {
+  margin-bottom: 1.5rem;
+}
+
+.home-date-filter {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+
+  .cds--date-picker-container {
+    flex: 1 1 auto;
+    min-width: 18rem;
+  }
+
+  .cds--btn {
+    white-space: nowrap;
+  }
+}
+
+.home-date-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.home-date-summary {
+  margin-top: 0.5rem;
+}
+
+.preset-chip {
+  border: 1px solid var(--cds-border-subtle, #c6c6c6);
+  background: var(--cds-layer-01, #f4f4f4);
+  color: var(--cds-text-primary, #161616);
+  border-radius: 999px;
+  height: 2rem;
+  padding: 0 0.875rem;
+  font-size: 0.8125rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 120ms ease, background-color 120ms ease;
+}
+
+.preset-chip:hover {
+  background: var(--cds-layer-hover-01, #e8e8e8);
+}
+
+.preset-chip.is-active {
+  border-color: var(--cds-link-primary, #0f62fe);
+  background: #e8f0ff;
+}
+
 /* A–Z section headings */
 .alpha-section { margin-top: 2rem; }
 .alpha-section h3 { margin-bottom: 0.5rem; }
@@ -32,5 +85,22 @@
     .cds--dropdown {
       width: 100%;   /* on small screens, let it fill width */
     }
+  }
+
+  .home-date-filter {
+    flex-direction: column;
+    align-items: stretch;
+
+    .cds--date-picker-container {
+      min-width: 100%;
+    }
+
+    .cds--btn {
+      width: 100%;
+    }
+  }
+
+  .home-date-presets {
+    gap: 0.375rem;
   }
 }

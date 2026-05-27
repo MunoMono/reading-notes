@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-23T08:45:24.546Z",
+  "updatedAt": "2026-05-27T09:25:45.022Z",
   "entries": [
     {
       "letter": "A",
@@ -13,6 +13,8 @@
       "url": "",
       "citation_key": "Archer1981ViewNatureDesign",
       "displayTitle": "Archer, L. Bruce (1981). A View of the Nature of Design Research",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397347.7544,
       "category": "Historicising contested design knowledge"
     },
@@ -28,6 +30,8 @@
       "url": "",
       "citation_key": "ArcherWhateverBecameDesign",
       "displayTitle": "Archer, L. Bruce (1979). Whatever Became of Design Methodology? — Design Studies",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397348.6848,
       "category": "Historicising contested design knowledge"
     },
@@ -43,6 +47,8 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L. Bruce (1978). Time for a Revolution in Art and Design Education",
+      "noteDate": "17 Mar 2026",
+      "noteDateMs": 1773705600000,
       "mtimeMs": 1773847397346.9114,
       "category": "S1: Historicising contested design knowledge"
     },
@@ -58,6 +64,8 @@
       "url": "",
       "citation_key": "Electrohome",
       "displayTitle": "Archer, L. Bruce (1973). Electrohome Lectures",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397348.2375,
       "category": "S1: Historicising contested design knowledge"
     },
@@ -73,6 +81,8 @@
       "url": "",
       "citation_key": "Archer1963SystematicMethodDesigners",
       "displayTitle": "Archer, L. Bruce (1963–64). Systematic Method for Designers",
+      "noteDate": "17 Mar 2026",
+      "noteDateMs": 1773705600000,
       "mtimeMs": 1773847397343.5315,
       "category": "S1: Historicising contested design knowledge"
     },
@@ -88,8 +98,27 @@
       "url": "",
       "citation_key": "Baynes1978DesignGeneralEducation",
       "displayTitle": "Archer, L. Bruce; Baynes, Ken; Langdon, Richard (1978). Design in General Education — Royal College of Art",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397349.1956,
       "category": "Historicising contested design knowledge"
+    },
+    {
+      "letter": "A",
+      "slug": "ArnoldExplainableSearchDiscovery",
+      "path": "/docs/A/ArnoldExplainableSearchDiscovery.md",
+      "title": "Explainable Search and Discovery",
+      "authors": "Arnold, Taylor and Tilton, Lauren",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "ArnoldExplainableSearchDiscovery",
+      "displayTitle": "Arnold, Taylor and Tilton, Lauren. Explainable Search and Discovery",
+      "noteDate": "27 May 2026, 09:24",
+      "noteDateMs": 1779870240000,
+      "mtimeMs": 1779871431559.775,
+      "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "B",
@@ -103,6 +132,8 @@
       "url": "",
       "citation_key": "Bearman1992DocumentingDocumentation",
       "displayTitle": "Bearman, David A. (1992). Documenting Documentation — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898672.5474,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -118,6 +149,8 @@
       "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
       "citation_key": "Bender2021DangersStochasticParrots",
       "displayTitle": "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? — Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397349.4792,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -133,6 +166,8 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C.; Star, Susan Leigh (1999). Sorting Things Out: Classification and Its Consequences — MIT Press",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397350.0703,
       "category": "Bridge text"
     },
@@ -148,6 +183,8 @@
       "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
       "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
       "displayTitle": "Boyd Davis, Stephen (2024). Design as an Interesting Phenomenon: George Mallen and the Royal College of Art — Creative Simulations",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397352.1682,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -163,6 +200,8 @@
       "url": "https://doi.org/10.1016/j.destud.2017.11.005",
       "citation_key": "BoydDavis2017DialogueRealworldOperational",
       "displayTitle": "Boyd Davis, Stephen; Gristwood, Simone (2017). A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis — Design Studies",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397350.6934,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -178,6 +217,8 @@
       "url": "https://doi.org/10.1080/03080188.2021.1872874",
       "citation_key": "BoydDavis2021CanBelieveWhat",
       "displayTitle": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian (2021). Can I Believe What I See? Data Visualization and Trust in the Humanities — Interdisciplinary Science Reviews",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397351.657,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -193,6 +234,8 @@
       "url": "",
       "citation_key": "Brothman2001PastArchivesKeep",
       "displayTitle": "Brothman, Brien (2001). The Past That Archives Keep: Memory, History, and the Preservation of Archival Records — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898677.3147,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -208,6 +251,8 @@
       "url": "http://www.jstor.org/stable/1511480",
       "citation_key": "Buckley1986MadePatriarchy",
       "displayTitle": "Buckley, Cheryl (1986). Made in Patriarchy: Toward a Feminist Analysis of Women and Design — Design Issues",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397352.5308,
       "category": "Historicising contested design knowledge"
     },
@@ -223,8 +268,44 @@
       "url": "",
       "citation_key": "Caswell2017CriticalArchivalStudies",
       "displayTitle": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay (2017). Critical Archival Studies: An Introduction — Journal of Critical Library and Information Studies",
+      "noteDate": "23 Mar 2026, 09:00",
+      "noteDateMs": 1774256400000,
       "mtimeMs": 1774255524415.5854,
       "category": "Critiques of archival studies"
+    },
+    {
+      "letter": "C",
+      "slug": "Chen2026DemystifyingUMAPArtifacts",
+      "path": "/docs/C/Chen2026DemystifyingUMAPArtifacts.md",
+      "title": "Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes",
+      "authors": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver",
+      "year": "2026",
+      "journal": "Information Visualization",
+      "doi": "10.1177/14738716261434908",
+      "url": "https://journals.sagepub.com/doi/10.1177/14738716261434908",
+      "citation_key": "Chen2026DemystifyingUMAPArtifacts",
+      "displayTitle": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver (2026). Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes — Information Visualization",
+      "noteDate": "27 May 2026, 10:24",
+      "noteDateMs": 1779873840000,
+      "mtimeMs": 1779873921287.7598,
+      "category": "S3: Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "C",
+      "slug": "CilettiRetrievalAugmentedGenerationSystems",
+      "path": "/docs/C/CilettiRetrievalAugmentedGenerationSystems.md",
+      "title": "Retrieval-Augmented Generation Systems",
+      "authors": "Ciletti, Michele",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "CilettiRetrievalAugmentedGenerationSystems",
+      "displayTitle": "Ciletti, Michele. Retrieval-Augmented Generation Systems",
+      "noteDate": "27 May 2026, 09:14",
+      "noteDateMs": 1779869640000,
+      "mtimeMs": 1779869852632.721,
+      "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "C",
@@ -238,6 +319,8 @@
       "url": "https://doi.org/10.1145/3479010",
       "citation_key": "Colavizza2022ArchivesAIOverview",
       "displayTitle": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia (2022). Archives and AI: An Overview of Current Debates and Future Perspectives — Journal on Computing and Cultural Heritage",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898678.1326,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -253,6 +336,8 @@
       "url": "",
       "citation_key": "Cook1997WhatIsPastPrologue",
       "displayTitle": "Cook, Terry (1997). What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898678.443,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -268,6 +353,8 @@
       "url": "",
       "citation_key": "Cross1982DesignerlyWaysKnowing",
       "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
+      "noteDate": "17 Mar 2026",
+      "noteDateMs": 1773705600000,
       "mtimeMs": 1773847397353.3374,
       "category": "S1: Historicising contested design knowledge"
     },
@@ -283,6 +370,8 @@
       "url": "https://doi.org/10.1145/3429458",
       "citation_key": "Davis2021LinkedDataCulturalHeritage",
       "displayTitle": "Davis, Edie; Heravi, Bahareh (2021). Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation — Journal on Computing and Cultural Heritage",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898679.397,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -298,6 +387,8 @@
       "url": "",
       "citation_key": "Drucker2011HumanitiesApproachesGraphical",
       "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
+      "noteDate": "17 Mar 2026, 05:52",
+      "noteDateMs": 1773726720000,
       "mtimeMs": 1773847397353.7146,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
@@ -313,6 +404,8 @@
       "url": "",
       "citation_key": "Duranti1992OriginConceptArchivalDescription",
       "displayTitle": "Duranti, Luciana (1992). Origin and Development of the Concept of Archival Description — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898680.039,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -328,6 +421,8 @@
       "url": "",
       "citation_key": "Foka2024AICulturalHeritageBias",
       "displayTitle": "Foka, Anna; Griffin, Gabriele (2024). AI, Cultural Heritage, and Bias: Some Key Queries That Arise from the Use of GenAI — Heritage",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397354.1714,
       "category": "Bridge text"
     },
@@ -343,8 +438,27 @@
       "url": "",
       "citation_key": "Frayling1993ResearchArtDesign",
       "displayTitle": "Frayling, Christopher (1993). Research in Art and Design — Royal College of Art",
+      "noteDate": "18 Mar 2026, 10:17",
+      "noteDateMs": 1773829020000,
       "mtimeMs": 1773847397354.4856,
       "category": "S2: Bridge text"
+    },
+    {
+      "letter": "G",
+      "slug": "Gagliardi2024ExploringVisualizingMultilingual",
+      "path": "/docs/G/Gagliardi2024ExploringVisualizingMultilingual.md",
+      "title": "Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers",
+      "authors": "Gagliardi, Isabella and Artese, Maria Teresa",
+      "year": "2024",
+      "journal": "Electronics",
+      "doi": "10.3390/electronics13183741",
+      "url": "https://www.mdpi.com/2079-9292/13/18/3741",
+      "citation_key": "Gagliardi2024ExploringVisualizingMultilingual",
+      "displayTitle": "Gagliardi, Isabella and Artese, Maria Teresa (2024). Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers — Electronics",
+      "noteDate": "27 May 2026, 10:10",
+      "noteDateMs": 1779873000000,
+      "mtimeMs": 1779873552576.4849,
+      "category": "S3.3 Multimodal machine learning"
     },
     {
       "letter": "G",
@@ -358,6 +472,8 @@
       "url": "",
       "citation_key": "Gilliland2016RecordsImaginaries",
       "displayTitle": "Gilliland, Anne J.; Caswell, Michelle (2016). Records and Their Imaginaries: Imagining the Impossible, Making Possible the Imagined — Archival Science",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397354.8093,
       "category": "Bridge text"
     },
@@ -373,6 +489,8 @@
       "url": "https://doi.org/10.2307/2078095",
       "citation_key": "Grigg1991ArchivalPracticeFoundations",
       "displayTitle": "Grigg, Susan (1991). Archival Practice and the Foundations of Historical Method — The Journal of American History",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898680.7393,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -388,6 +506,8 @@
       "url": "https://doi.org/10.1145/3495004",
       "citation_key": "Hedges2022IntroductionComputationalArchivalScience",
       "displayTitle": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini (2022). Introduction to the Special Issue on Computational Archival Science — Journal on Computing and Cultural Heritage",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898681.1377,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -403,6 +523,8 @@
       "url": "https://doi.org/10.1145/3631125",
       "citation_key": "Jaillant2024AreUsersDigital",
       "displayTitle": "Jaillant, Lise; Aske, Katherine (2024). Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities — Journal on Computing and Cultural Heritage",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397355.144,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -418,6 +540,8 @@
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
       "displayTitle": "Jonas, Wolfgang (2012). Exploring the Swampy Ground — Mapping Design Research",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397355.345,
       "category": "Historicising contested design knowledge"
     },
@@ -433,6 +557,8 @@
       "url": "",
       "citation_key": "Jones1992DesignMethods",
       "displayTitle": "Jones, John Christopher (1992). Design Methods — John Wiley & Sons",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773911898681.925,
       "category": "Historicising contested design knowledge"
     },
@@ -448,6 +574,8 @@
       "url": "",
       "citation_key": "Ketelaar2008ArchivesSpacesMemory",
       "displayTitle": "Ketelaar, Eric (2008). Archives as Spaces of Memory — Journal of the Society of Archivists",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898682.6182,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -463,8 +591,27 @@
       "url": "",
       "citation_key": "Kizhner2025EthnicMinoritiesCollections",
       "displayTitle": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe (2025). Ethnic Minorities in Online Museum Collections: Skews and Bias in Digital Material Culture — Digital Scholarship in the Humanities",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397355.917,
       "category": "Bridge text"
+    },
+    {
+      "letter": "J",
+      "slug": "JaillantNavigatingArtificialIntelligence",
+      "path": "/docs/J/JaillantNavigatingArtificialIntelligence.md",
+      "title": "Navigating Artificial Intelligence for Cultural Heritage Organisations",
+      "authors": "Lise Jaillant, Katherine Aske, and Annalina Caputo",
+      "year": "2025",
+      "journal": "UCL Press",
+      "doi": "10.14324/111.9781800088375",
+      "url": "",
+      "citation_key": "JaillantNavigatingArtificialIntelligence",
+      "displayTitle": "Lise Jaillant, Katherine Aske, and Annalina Caputo (2025). Navigating Artificial Intelligence for Cultural Heritage Organisations — UCL Press",
+      "noteDate": "27 May 2026, 08:52",
+      "noteDateMs": 1779868320000,
+      "mtimeMs": 1779868794913.1372,
+      "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "M",
@@ -478,8 +625,27 @@
       "url": "",
       "citation_key": "Marciano2022NewDisciplineComputational",
       "displayTitle": "Marciano, Richard (2022). Towards a New Discipline of Computational Archival Science (CAS) — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397356.6597,
       "category": "Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "M",
+      "slug": "McInnesUMAPUniformManifold",
+      "path": "/docs/M/McInnesUMAPUniformManifold.md",
+      "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+      "authors": "McInnes, Leland and Healy, John and Melville, James",
+      "year": "2020",
+      "journal": "",
+      "doi": "",
+      "url": "",
+      "citation_key": "McInnesUMAPUniformManifold",
+      "displayTitle": "McInnes, Leland and Healy, John and Melville, James (2020). UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+      "noteDate": "27 May 2026, 09:45",
+      "noteDateMs": 1779871500000,
+      "mtimeMs": 1779871690394.5547,
+      "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "M",
@@ -493,6 +659,8 @@
       "url": "https://doi.org/10.1007/s00146-021-01373-z",
       "citation_key": "McKenna2022NAISCLInterlinkingFramework",
       "displayTitle": "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan (2022). Using Linked Data to Create Provenance-Rich Metadata Interlinks: The Design and Evaluation of the NAISC-L Interlinking Framework for Libraries, Archives and Museums — AI & SOCIETY",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898683.4143,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -508,6 +676,8 @@
       "url": "",
       "citation_key": "Leon2026MultiliteracyModelInteractive",
       "displayTitle": "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas (2026). A Multiliteracy Model for Interactive Visualization Literacy: Definitions, Literacies, and Steps for Future Research — Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397356.2546,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -523,6 +693,8 @@
       "url": "",
       "citation_key": "Mordell2019CriticalQuestionsArchivesData",
       "displayTitle": "Mordell, Devon (2019). Critical Questions for Archives As (Big) Data — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898683.8015,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -538,6 +710,8 @@
       "url": "",
       "citation_key": "Moss2018ReconfigurationArchiveData",
       "displayTitle": "Moss, Michael; Thomas, David; Gollins, Tim (2018). The Reconfiguration of the Archive as Data to Be Mined — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898684.165,
       "category": "Bridge text"
     },
@@ -553,6 +727,8 @@
       "url": "",
       "citation_key": "Nesmith2015ArchivalStageHistoryKnowledge",
       "displayTitle": "Nesmith, Tom (2015). Toward the Archival Stage in the History of Knowledge — Archivaria",
+      "noteDate": "19 Mar 2026",
+      "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898684.5015,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -568,6 +744,8 @@
       "url": "https://dl.acm.org/doi/10.1145/3746658",
       "citation_key": "Ozdemir2025EnhancingCulturalHeritage",
       "displayTitle": "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim (2025). Enhancing Cultural Heritage Archive Analysis via Automated Entity Extraction and Graph-Based Representation Learning — Journal on Computing and Cultural Heritage",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397356.9558,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -583,6 +761,8 @@
       "url": "",
       "citation_key": "Hospital",
       "displayTitle": "Patterson, Gillian (1968). Hospital design: equipment and buildings — Official Architecture and Planning",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397357.2102,
       "category": "Historicising contested design knowledge"
     },
@@ -598,8 +778,27 @@
       "url": "https://doi.org/10.1057/9780230101395_2",
       "citation_key": "Portelli2009WhatMakesOralHistoryDifferent",
       "displayTitle": "Portelli, Alessandro (2009). What Makes Oral History Different — Oral History, Oral Culture, and Italian Americans",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397357.5374,
       "category": "Bridge text"
+    },
+    {
+      "letter": "R",
+      "slug": "Rockmore2025LiteraryLandscapesVector",
+      "path": "/docs/R/Rockmore2025LiteraryLandscapesVector.md",
+      "title": "On the Literary Landscapes of Vector Embeddings",
+      "authors": "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison",
+      "year": "2025",
+      "journal": "Computational Humanities Research",
+      "doi": "10.1017/chr.2025.10015",
+      "url": "https://www.cambridge.org/core/product/identifier/S2977815825100158/type/journal_article",
+      "citation_key": "Rockmore2025LiteraryLandscapesVector",
+      "displayTitle": "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison (2025). On the Literary Landscapes of Vector Embeddings — Computational Humanities Research",
+      "noteDate": "27 May 2026, 09:09",
+      "noteDateMs": 1779869340000,
+      "mtimeMs": 1779869540062.3247,
+      "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "S",
@@ -613,6 +812,8 @@
       "url": "",
       "citation_key": "Schwartz2002ArchivesRecordsPower",
       "displayTitle": "Schwartz, Joan M.; Cook, Terry (2002). Archives, Records, and Power: The Making of Modern Memory — Archival Science",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397357.8962,
       "category": "Bridge text"
     },
@@ -628,6 +829,8 @@
       "url": "https://doi.org/10.1016/j.sheji.2025.06.002",
       "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
       "displayTitle": "Siddharth, L.; Luo, Jianxi (2025). Data-Driven Innovation for Trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397358.2656,
       "category": "Surfacing and reactivating traces computationally"
     },
@@ -643,6 +846,8 @@
       "url": "",
       "citation_key": "Suchman2002LocatedAccountabilities",
       "displayTitle": "Suchman, Lucy (2002). Located Accountabilities in Technology Production — Scandinavian Journal of Information Systems",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397358.4878,
       "category": "Bridge text"
     },
@@ -658,6 +863,8 @@
       "url": "",
       "citation_key": "Thomson2007FourParadigmTransformations",
       "displayTitle": "Thomson, Alistair (2007). Four Paradigm Transformations in Oral History — The Oral History Review",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397358.8428,
       "category": "Recording, organising, and obscuring traces"
     },
@@ -673,8 +880,27 @@
       "url": "https://dl.acm.org/doi/10.1145/3746252.3761503",
       "citation_key": "Vafaie2025EndtoendInformationExtraction",
       "displayTitle": "Vafaie, Mahsa; Hertling, Sven; Banse-Strobel, Inger; Dubout, Kevin; Sack, Harald (2025). End-to-end Information Extraction from Archival Records with Multimodal Large Language Models — Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+      "noteDate": "18 Mar 2026",
+      "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397359.1682,
       "category": "Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "Y",
+      "slug": "Yu2025EvaluationRetrievalAugmentedGeneration",
+      "path": "/docs/Y/Yu2025EvaluationRetrievalAugmentedGeneration.md",
+      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "authors": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng",
+      "year": "2025",
+      "journal": "",
+      "doi": "10.1007/978-981-96-1024-2_8",
+      "url": "http://arxiv.org/abs/2405.07437",
+      "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
+      "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of Retrieval-Augmented Generation: A Survey",
+      "noteDate": "27 May 2026, 09:19",
+      "noteDateMs": 1779869940000,
+      "mtimeMs": 1779870133351.6926,
+      "category": "S3: Surfacing and reactivating traces computationally"
     }
   ],
   "grouped": {
@@ -691,6 +917,8 @@
         "url": "",
         "citation_key": "Archer1981ViewNatureDesign",
         "displayTitle": "Archer, L. Bruce (1981). A View of the Nature of Design Research",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397347.7544,
         "category": "Historicising contested design knowledge"
       },
@@ -706,6 +934,8 @@
         "url": "",
         "citation_key": "ArcherWhateverBecameDesign",
         "displayTitle": "Archer, L. Bruce (1979). Whatever Became of Design Methodology? — Design Studies",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397348.6848,
         "category": "Historicising contested design knowledge"
       },
@@ -721,6 +951,8 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L. Bruce (1978). Time for a Revolution in Art and Design Education",
+        "noteDate": "17 Mar 2026",
+        "noteDateMs": 1773705600000,
         "mtimeMs": 1773847397346.9114,
         "category": "S1: Historicising contested design knowledge"
       },
@@ -736,6 +968,8 @@
         "url": "",
         "citation_key": "Electrohome",
         "displayTitle": "Archer, L. Bruce (1973). Electrohome Lectures",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397348.2375,
         "category": "S1: Historicising contested design knowledge"
       },
@@ -751,8 +985,27 @@
         "url": "",
         "citation_key": "Archer1963SystematicMethodDesigners",
         "displayTitle": "Archer, L. Bruce (1963–64). Systematic Method for Designers",
+        "noteDate": "17 Mar 2026",
+        "noteDateMs": 1773705600000,
         "mtimeMs": 1773847397343.5315,
         "category": "S1: Historicising contested design knowledge"
+      },
+      {
+        "letter": "A",
+        "slug": "ArnoldExplainableSearchDiscovery",
+        "path": "/docs/A/ArnoldExplainableSearchDiscovery.md",
+        "title": "Explainable Search and Discovery",
+        "authors": "Arnold, Taylor and Tilton, Lauren",
+        "year": "",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "ArnoldExplainableSearchDiscovery",
+        "displayTitle": "Arnold, Taylor and Tilton, Lauren. Explainable Search and Discovery",
+        "noteDate": "27 May 2026, 09:24",
+        "noteDateMs": 1779870240000,
+        "mtimeMs": 1779871431559.775,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
     "B": [
@@ -768,6 +1021,8 @@
         "url": "",
         "citation_key": "Baynes1978DesignGeneralEducation",
         "displayTitle": "Archer, L. Bruce; Baynes, Ken; Langdon, Richard (1978). Design in General Education — Royal College of Art",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397349.1956,
         "category": "Historicising contested design knowledge"
       },
@@ -783,6 +1038,8 @@
         "url": "",
         "citation_key": "Bearman1992DocumentingDocumentation",
         "displayTitle": "Bearman, David A. (1992). Documenting Documentation — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898672.5474,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -798,6 +1055,8 @@
         "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
         "citation_key": "Bender2021DangersStochasticParrots",
         "displayTitle": "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? — Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397349.4792,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -813,6 +1072,8 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C.; Star, Susan Leigh (1999). Sorting Things Out: Classification and Its Consequences — MIT Press",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397350.0703,
         "category": "Bridge text"
       },
@@ -828,6 +1089,8 @@
         "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
         "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
         "displayTitle": "Boyd Davis, Stephen (2024). Design as an Interesting Phenomenon: George Mallen and the Royal College of Art — Creative Simulations",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397352.1682,
         "category": "Recording, organising, and obscuring traces"
       },
@@ -843,6 +1106,8 @@
         "url": "https://doi.org/10.1016/j.destud.2017.11.005",
         "citation_key": "BoydDavis2017DialogueRealworldOperational",
         "displayTitle": "Boyd Davis, Stephen; Gristwood, Simone (2017). A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis — Design Studies",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397350.6934,
         "category": "Recording, organising, and obscuring traces"
       },
@@ -858,6 +1123,8 @@
         "url": "https://doi.org/10.1080/03080188.2021.1872874",
         "citation_key": "BoydDavis2021CanBelieveWhat",
         "displayTitle": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian (2021). Can I Believe What I See? Data Visualization and Trust in the Humanities — Interdisciplinary Science Reviews",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397351.657,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -873,6 +1140,8 @@
         "url": "",
         "citation_key": "Brothman2001PastArchivesKeep",
         "displayTitle": "Brothman, Brien (2001). The Past That Archives Keep: Memory, History, and the Preservation of Archival Records — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898677.3147,
         "category": "Recording, organising, and obscuring traces"
       },
@@ -888,6 +1157,8 @@
         "url": "http://www.jstor.org/stable/1511480",
         "citation_key": "Buckley1986MadePatriarchy",
         "displayTitle": "Buckley, Cheryl (1986). Made in Patriarchy: Toward a Feminist Analysis of Women and Design — Design Issues",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397352.5308,
         "category": "Historicising contested design knowledge"
       }
@@ -905,8 +1176,44 @@
         "url": "",
         "citation_key": "Caswell2017CriticalArchivalStudies",
         "displayTitle": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay (2017). Critical Archival Studies: An Introduction — Journal of Critical Library and Information Studies",
+        "noteDate": "23 Mar 2026, 09:00",
+        "noteDateMs": 1774256400000,
         "mtimeMs": 1774255524415.5854,
         "category": "Critiques of archival studies"
+      },
+      {
+        "letter": "C",
+        "slug": "Chen2026DemystifyingUMAPArtifacts",
+        "path": "/docs/C/Chen2026DemystifyingUMAPArtifacts.md",
+        "title": "Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes",
+        "authors": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver",
+        "year": "2026",
+        "journal": "Information Visualization",
+        "doi": "10.1177/14738716261434908",
+        "url": "https://journals.sagepub.com/doi/10.1177/14738716261434908",
+        "citation_key": "Chen2026DemystifyingUMAPArtifacts",
+        "displayTitle": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver (2026). Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes — Information Visualization",
+        "noteDate": "27 May 2026, 10:24",
+        "noteDateMs": 1779873840000,
+        "mtimeMs": 1779873921287.7598,
+        "category": "S3: Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "C",
+        "slug": "CilettiRetrievalAugmentedGenerationSystems",
+        "path": "/docs/C/CilettiRetrievalAugmentedGenerationSystems.md",
+        "title": "Retrieval-Augmented Generation Systems",
+        "authors": "Ciletti, Michele",
+        "year": "",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "CilettiRetrievalAugmentedGenerationSystems",
+        "displayTitle": "Ciletti, Michele. Retrieval-Augmented Generation Systems",
+        "noteDate": "27 May 2026, 09:14",
+        "noteDateMs": 1779869640000,
+        "mtimeMs": 1779869852632.721,
+        "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
         "letter": "C",
@@ -920,6 +1227,8 @@
         "url": "https://doi.org/10.1145/3479010",
         "citation_key": "Colavizza2022ArchivesAIOverview",
         "displayTitle": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia (2022). Archives and AI: An Overview of Current Debates and Future Perspectives — Journal on Computing and Cultural Heritage",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898678.1326,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -935,6 +1244,8 @@
         "url": "",
         "citation_key": "Cook1997WhatIsPastPrologue",
         "displayTitle": "Cook, Terry (1997). What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898678.443,
         "category": "Recording, organising, and obscuring traces"
       },
@@ -950,6 +1261,8 @@
         "url": "",
         "citation_key": "Cross1982DesignerlyWaysKnowing",
         "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
+        "noteDate": "17 Mar 2026",
+        "noteDateMs": 1773705600000,
         "mtimeMs": 1773847397353.3374,
         "category": "S1: Historicising contested design knowledge"
       }
@@ -967,6 +1280,8 @@
         "url": "https://doi.org/10.1145/3429458",
         "citation_key": "Davis2021LinkedDataCulturalHeritage",
         "displayTitle": "Davis, Edie; Heravi, Bahareh (2021). Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation — Journal on Computing and Cultural Heritage",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898679.397,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -982,6 +1297,8 @@
         "url": "",
         "citation_key": "Drucker2011HumanitiesApproachesGraphical",
         "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
+        "noteDate": "17 Mar 2026, 05:52",
+        "noteDateMs": 1773726720000,
         "mtimeMs": 1773847397353.7146,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
@@ -997,6 +1314,8 @@
         "url": "",
         "citation_key": "Duranti1992OriginConceptArchivalDescription",
         "displayTitle": "Duranti, Luciana (1992). Origin and Development of the Concept of Archival Description — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898680.039,
         "category": "Recording, organising, and obscuring traces"
       }
@@ -1014,6 +1333,8 @@
         "url": "",
         "citation_key": "Foka2024AICulturalHeritageBias",
         "displayTitle": "Foka, Anna; Griffin, Gabriele (2024). AI, Cultural Heritage, and Bias: Some Key Queries That Arise from the Use of GenAI — Heritage",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397354.1714,
         "category": "Bridge text"
       },
@@ -1029,11 +1350,30 @@
         "url": "",
         "citation_key": "Frayling1993ResearchArtDesign",
         "displayTitle": "Frayling, Christopher (1993). Research in Art and Design — Royal College of Art",
+        "noteDate": "18 Mar 2026, 10:17",
+        "noteDateMs": 1773829020000,
         "mtimeMs": 1773847397354.4856,
         "category": "S2: Bridge text"
       }
     ],
     "G": [
+      {
+        "letter": "G",
+        "slug": "Gagliardi2024ExploringVisualizingMultilingual",
+        "path": "/docs/G/Gagliardi2024ExploringVisualizingMultilingual.md",
+        "title": "Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers",
+        "authors": "Gagliardi, Isabella and Artese, Maria Teresa",
+        "year": "2024",
+        "journal": "Electronics",
+        "doi": "10.3390/electronics13183741",
+        "url": "https://www.mdpi.com/2079-9292/13/18/3741",
+        "citation_key": "Gagliardi2024ExploringVisualizingMultilingual",
+        "displayTitle": "Gagliardi, Isabella and Artese, Maria Teresa (2024). Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers — Electronics",
+        "noteDate": "27 May 2026, 10:10",
+        "noteDateMs": 1779873000000,
+        "mtimeMs": 1779873552576.4849,
+        "category": "S3.3 Multimodal machine learning"
+      },
       {
         "letter": "G",
         "slug": "Gilliland2016RecordsImaginaries",
@@ -1046,6 +1386,8 @@
         "url": "",
         "citation_key": "Gilliland2016RecordsImaginaries",
         "displayTitle": "Gilliland, Anne J.; Caswell, Michelle (2016). Records and Their Imaginaries: Imagining the Impossible, Making Possible the Imagined — Archival Science",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397354.8093,
         "category": "Bridge text"
       },
@@ -1061,6 +1403,8 @@
         "url": "https://doi.org/10.2307/2078095",
         "citation_key": "Grigg1991ArchivalPracticeFoundations",
         "displayTitle": "Grigg, Susan (1991). Archival Practice and the Foundations of Historical Method — The Journal of American History",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898680.7393,
         "category": "Recording, organising, and obscuring traces"
       }
@@ -1078,6 +1422,8 @@
         "url": "https://doi.org/10.1145/3495004",
         "citation_key": "Hedges2022IntroductionComputationalArchivalScience",
         "displayTitle": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini (2022). Introduction to the Special Issue on Computational Archival Science — Journal on Computing and Cultural Heritage",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898681.1377,
         "category": "Surfacing and reactivating traces computationally"
       }
@@ -1095,6 +1441,8 @@
         "url": "https://doi.org/10.1145/3631125",
         "citation_key": "Jaillant2024AreUsersDigital",
         "displayTitle": "Jaillant, Lise; Aske, Katherine (2024). Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities — Journal on Computing and Cultural Heritage",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397355.144,
         "category": "Recording, organising, and obscuring traces"
       },
@@ -1110,6 +1458,8 @@
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
         "displayTitle": "Jonas, Wolfgang (2012). Exploring the Swampy Ground — Mapping Design Research",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397355.345,
         "category": "Historicising contested design knowledge"
       },
@@ -1125,8 +1475,27 @@
         "url": "",
         "citation_key": "Jones1992DesignMethods",
         "displayTitle": "Jones, John Christopher (1992). Design Methods — John Wiley & Sons",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773911898681.925,
         "category": "Historicising contested design knowledge"
+      },
+      {
+        "letter": "J",
+        "slug": "JaillantNavigatingArtificialIntelligence",
+        "path": "/docs/J/JaillantNavigatingArtificialIntelligence.md",
+        "title": "Navigating Artificial Intelligence for Cultural Heritage Organisations",
+        "authors": "Lise Jaillant, Katherine Aske, and Annalina Caputo",
+        "year": "2025",
+        "journal": "UCL Press",
+        "doi": "10.14324/111.9781800088375",
+        "url": "",
+        "citation_key": "JaillantNavigatingArtificialIntelligence",
+        "displayTitle": "Lise Jaillant, Katherine Aske, and Annalina Caputo (2025). Navigating Artificial Intelligence for Cultural Heritage Organisations — UCL Press",
+        "noteDate": "27 May 2026, 08:52",
+        "noteDateMs": 1779868320000,
+        "mtimeMs": 1779868794913.1372,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
     "K": [
@@ -1142,6 +1511,8 @@
         "url": "",
         "citation_key": "Ketelaar2008ArchivesSpacesMemory",
         "displayTitle": "Ketelaar, Eric (2008). Archives as Spaces of Memory — Journal of the Society of Archivists",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898682.6182,
         "category": "Recording, organising, and obscuring traces"
       },
@@ -1157,6 +1528,8 @@
         "url": "",
         "citation_key": "Kizhner2025EthnicMinoritiesCollections",
         "displayTitle": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe (2025). Ethnic Minorities in Online Museum Collections: Skews and Bias in Digital Material Culture — Digital Scholarship in the Humanities",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397355.917,
         "category": "Bridge text"
       }
@@ -1174,8 +1547,27 @@
         "url": "",
         "citation_key": "Marciano2022NewDisciplineComputational",
         "displayTitle": "Marciano, Richard (2022). Towards a New Discipline of Computational Archival Science (CAS) — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397356.6597,
         "category": "Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "M",
+        "slug": "McInnesUMAPUniformManifold",
+        "path": "/docs/M/McInnesUMAPUniformManifold.md",
+        "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+        "authors": "McInnes, Leland and Healy, John and Melville, James",
+        "year": "2020",
+        "journal": "",
+        "doi": "",
+        "url": "",
+        "citation_key": "McInnesUMAPUniformManifold",
+        "displayTitle": "McInnes, Leland and Healy, John and Melville, James (2020). UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+        "noteDate": "27 May 2026, 09:45",
+        "noteDateMs": 1779871500000,
+        "mtimeMs": 1779871690394.5547,
+        "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
         "letter": "M",
@@ -1189,6 +1581,8 @@
         "url": "https://doi.org/10.1007/s00146-021-01373-z",
         "citation_key": "McKenna2022NAISCLInterlinkingFramework",
         "displayTitle": "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan (2022). Using Linked Data to Create Provenance-Rich Metadata Interlinks: The Design and Evaluation of the NAISC-L Interlinking Framework for Libraries, Archives and Museums — AI & SOCIETY",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898683.4143,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -1204,6 +1598,8 @@
         "url": "",
         "citation_key": "Mordell2019CriticalQuestionsArchivesData",
         "displayTitle": "Mordell, Devon (2019). Critical Questions for Archives As (Big) Data — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898683.8015,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -1219,6 +1615,8 @@
         "url": "",
         "citation_key": "Moss2018ReconfigurationArchiveData",
         "displayTitle": "Moss, Michael; Thomas, David; Gollins, Tim (2018). The Reconfiguration of the Archive as Data to Be Mined — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898684.165,
         "category": "Bridge text"
       }
@@ -1236,6 +1634,8 @@
         "url": "",
         "citation_key": "Leon2026MultiliteracyModelInteractive",
         "displayTitle": "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas (2026). A Multiliteracy Model for Interactive Visualization Literacy: Definitions, Literacies, and Steps for Future Research — Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397356.2546,
         "category": "Surfacing and reactivating traces computationally"
       }
@@ -1253,6 +1653,8 @@
         "url": "",
         "citation_key": "Nesmith2015ArchivalStageHistoryKnowledge",
         "displayTitle": "Nesmith, Tom (2015). Toward the Archival Stage in the History of Knowledge — Archivaria",
+        "noteDate": "19 Mar 2026",
+        "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898684.5015,
         "category": "Recording, organising, and obscuring traces"
       }
@@ -1270,6 +1672,8 @@
         "url": "https://dl.acm.org/doi/10.1145/3746658",
         "citation_key": "Ozdemir2025EnhancingCulturalHeritage",
         "displayTitle": "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim (2025). Enhancing Cultural Heritage Archive Analysis via Automated Entity Extraction and Graph-Based Representation Learning — Journal on Computing and Cultural Heritage",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397356.9558,
         "category": "Surfacing and reactivating traces computationally"
       }
@@ -1287,6 +1691,8 @@
         "url": "",
         "citation_key": "Hospital",
         "displayTitle": "Patterson, Gillian (1968). Hospital design: equipment and buildings — Official Architecture and Planning",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397357.2102,
         "category": "Historicising contested design knowledge"
       },
@@ -1302,8 +1708,29 @@
         "url": "https://doi.org/10.1057/9780230101395_2",
         "citation_key": "Portelli2009WhatMakesOralHistoryDifferent",
         "displayTitle": "Portelli, Alessandro (2009). What Makes Oral History Different — Oral History, Oral Culture, and Italian Americans",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397357.5374,
         "category": "Bridge text"
+      }
+    ],
+    "R": [
+      {
+        "letter": "R",
+        "slug": "Rockmore2025LiteraryLandscapesVector",
+        "path": "/docs/R/Rockmore2025LiteraryLandscapesVector.md",
+        "title": "On the Literary Landscapes of Vector Embeddings",
+        "authors": "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison",
+        "year": "2025",
+        "journal": "Computational Humanities Research",
+        "doi": "10.1017/chr.2025.10015",
+        "url": "https://www.cambridge.org/core/product/identifier/S2977815825100158/type/journal_article",
+        "citation_key": "Rockmore2025LiteraryLandscapesVector",
+        "displayTitle": "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison (2025). On the Literary Landscapes of Vector Embeddings — Computational Humanities Research",
+        "noteDate": "27 May 2026, 09:09",
+        "noteDateMs": 1779869340000,
+        "mtimeMs": 1779869540062.3247,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
     "S": [
@@ -1319,6 +1746,8 @@
         "url": "",
         "citation_key": "Schwartz2002ArchivesRecordsPower",
         "displayTitle": "Schwartz, Joan M.; Cook, Terry (2002). Archives, Records, and Power: The Making of Modern Memory — Archival Science",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397357.8962,
         "category": "Bridge text"
       },
@@ -1334,6 +1763,8 @@
         "url": "https://doi.org/10.1016/j.sheji.2025.06.002",
         "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
         "displayTitle": "Siddharth, L.; Luo, Jianxi (2025). Data-Driven Innovation for Trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397358.2656,
         "category": "Surfacing and reactivating traces computationally"
       },
@@ -1349,6 +1780,8 @@
         "url": "",
         "citation_key": "Suchman2002LocatedAccountabilities",
         "displayTitle": "Suchman, Lucy (2002). Located Accountabilities in Technology Production — Scandinavian Journal of Information Systems",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397358.4878,
         "category": "Bridge text"
       }
@@ -1366,6 +1799,8 @@
         "url": "",
         "citation_key": "Thomson2007FourParadigmTransformations",
         "displayTitle": "Thomson, Alistair (2007). Four Paradigm Transformations in Oral History — The Oral History Review",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397358.8428,
         "category": "Recording, organising, and obscuring traces"
       }
@@ -1383,8 +1818,29 @@
         "url": "https://dl.acm.org/doi/10.1145/3746252.3761503",
         "citation_key": "Vafaie2025EndtoendInformationExtraction",
         "displayTitle": "Vafaie, Mahsa; Hertling, Sven; Banse-Strobel, Inger; Dubout, Kevin; Sack, Harald (2025). End-to-end Information Extraction from Archival Records with Multimodal Large Language Models — Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+        "noteDate": "18 Mar 2026",
+        "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397359.1682,
         "category": "Surfacing and reactivating traces computationally"
+      }
+    ],
+    "Y": [
+      {
+        "letter": "Y",
+        "slug": "Yu2025EvaluationRetrievalAugmentedGeneration",
+        "path": "/docs/Y/Yu2025EvaluationRetrievalAugmentedGeneration.md",
+        "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+        "authors": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng",
+        "year": "2025",
+        "journal": "",
+        "doi": "10.1007/978-981-96-1024-2_8",
+        "url": "http://arxiv.org/abs/2405.07437",
+        "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
+        "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of Retrieval-Augmented Generation: A Survey",
+        "noteDate": "27 May 2026, 09:19",
+        "noteDateMs": 1779869940000,
+        "mtimeMs": 1779870133351.6926,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ]
   }

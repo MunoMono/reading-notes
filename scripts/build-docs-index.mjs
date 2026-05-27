@@ -69,6 +69,43 @@ function buildDisplayTitle({ authors, year, title, journal, slug }) {
   return s || slug;
 }
 
+function parseGeneratedAtToMs(raw) {
+  if (!raw || typeof raw !== "string") return null;
+
+  // Expected format from newnote.sh: "27 May 2026, 09:45"
+  const m = raw.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4}),\s+(\d{2}):(\d{2})$/);
+  if (!m) {
+    const parsed = Date.parse(raw);
+    return Number.isNaN(parsed) ? null : parsed;
+  }
+
+  const day = Number.parseInt(m[1], 10);
+  const mon = m[2].toLowerCase();
+  const year = Number.parseInt(m[3], 10);
+  const hour = Number.parseInt(m[4], 10);
+  const minute = Number.parseInt(m[5], 10);
+
+  const monthMap = {
+    jan: 0,
+    feb: 1,
+    mar: 2,
+    apr: 3,
+    may: 4,
+    jun: 5,
+    jul: 6,
+    aug: 7,
+    sep: 8,
+    sept: 8,
+    oct: 9,
+    nov: 10,
+    dec: 11,
+  };
+
+  const month = monthMap[mon];
+  if (month === undefined) return null;
+  return new Date(year, month, day, hour, minute, 0, 0).getTime();
+}
+
 async function main() {
   try {
     const all = await walk(DOCS_DIR);
@@ -97,6 +134,8 @@ async function main() {
       const citation_key = fm.citation_key || slug;
       // Prefer explicit category; otherwise derive from strand metadata so tags always show
       const category = fm.category || fm.model_strand_label || fm.model_strand || "";
+      const noteDate = fm.generated_at || fm.last_updated || "";
+      const noteDateMs = parseGeneratedAtToMs(noteDate);
 
       // file metadata (for "recently added")
       const stat = await fs.stat(abs).catch(() => null);
@@ -122,6 +161,8 @@ async function main() {
         url,
         citation_key,
         displayTitle,
+        noteDate,
+        noteDateMs: noteDateMs ?? mtimeMs,
         mtimeMs,
         category, // 👈 NEW
       });
