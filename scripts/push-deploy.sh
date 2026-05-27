@@ -31,7 +31,21 @@ npx gh-pages-clean || true
 
 echo "==> Build docs index + site"
 npm run build:docs-index
-npm run build
+
+echo "==> Git add/commit/push (branch: main)"
+git add .
+if git diff --cached --quiet; then
+  echo "==> No staged changes to commit."
+else
+  git commit -m "$MSG" || true
+fi
+git push origin main
+
+BUILD_ID="$(date +%s)"
+VITE_BUILD_ID="$BUILD_ID" npm run build
+
+echo "==> Copy index.html to 404.html for SPA routing"
+cp -f dist/index.html dist/404.html
 
 echo "==> Copy .nojekyll into dist/"
 cp -f public/.nojekyll dist/.nojekyll
