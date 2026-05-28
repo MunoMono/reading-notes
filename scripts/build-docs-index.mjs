@@ -134,6 +134,10 @@ async function main() {
       const citation_key = fm.citation_key || slug;
       // Prefer explicit category; otherwise derive from strand metadata so tags always show
       const category = fm.category || fm.model_strand_label || fm.model_strand || "";
+      const model_strand = fm.model_strand || "";
+      const model_strand_label = fm.model_strand_label || "";
+      const model_subcluster = fm.model_subcluster || "";
+      const source_type = fm.source_type || "";
       const noteDate = fm.generated_at || fm.last_updated || "";
       const noteDateMs = parseGeneratedAtToMs(noteDate);
 
@@ -161,6 +165,10 @@ async function main() {
         url,
         citation_key,
         displayTitle,
+        model_strand,
+        model_strand_label,
+        model_subcluster,
+        source_type,
         noteDate,
         noteDateMs: noteDateMs ?? mtimeMs,
         mtimeMs,

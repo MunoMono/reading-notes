@@ -1,14 +1,77 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Grid, Column, Breadcrumb, BreadcrumbItem, Button } from "@carbon/react";
+import React, { useEffect, useMemo, useState } from "react";
+import { Grid, Column, Breadcrumb, BreadcrumbItem, Button, Tag } from "@carbon/react";
 import { Download } from "@carbon/icons-react";
 import { Link } from "react-router-dom";
-import * as d3 from "d3";
 import "../styles/pages/_visualizations.scss";
+
+const STRAND_DEFS = [
+  {
+    id: "S1",
+    title: "Historicising contested design knowledge",
+    accent: "#8a3ffc",
+  },
+  {
+    id: "S2",
+    title: "Recording, organising, and obscuring traces",
+    accent: "#0f62fe",
+  },
+  {
+    id: "S3",
+    title: "Surfacing and reactivating traces computationally",
+    accent: "#198038",
+  },
+];
+
+function inferStrand(entry) {
+  if (entry.model_strand) return entry.model_strand;
+
+  const category = String(entry.category || "").toLowerCase();
+  if (category.startsWith("s1") || category.includes("historicising contested design knowledge")) {
+    return "S1";
+  }
+  if (category.startsWith("s2") || category.includes("recording, organising, and obscuring traces")) {
+    return "S2";
+  }
+  if (category.startsWith("s3") || category.includes("surfacing and reactivating traces computationally")) {
+    return "S3";
+  }
+  return "";
+}
+
+function formatPct(value, total) {
+  if (!total) return "0%";
+  return `${Math.round((value / total) * 100)}%`;
+}
+
+function getEntryTimestamp(entry) {
+  const value = Number(entry.noteDateMs || entry.mtimeMs || 0);
+  return Number.isFinite(value) && value > 0 ? value : 0;
+}
+
+function formatMonthLabel(timestamp) {
+  const date = new Date(timestamp);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+  return `${months[date.getMonth()]} ${date.getFullYear()}`;
+}
+
+function getBalanceState(count, target, tolerance) {
+  if (!target) {
+    return { label: "near-balance", tone: "green" };
+  }
+
+  if (count > target + tolerance) {
+    return { label: "overweight", tone: "red" };
+  }
+
+  if (count < target - tolerance) {
+    return { label: "underweight", tone: "magenta" };
+  }
+
+  return { label: "near-balance", tone: "green" };
+}
 
 export default function Visualizations() {
   const [data, setData] = useState({ entries: [] });
-  const barChartRef = useRef(null);
-  const donutChartRef = useRef(null);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL || "/";
@@ -23,377 +86,124 @@ export default function Visualizations() {
       });
   }, []);
 
-  useEffect(() => {
-    if (!data.entries || data.entries.length === 0) return;
+  const analysis = useMemo(() => {
+    const entries = data.entries || [];
+    const byStrand = new Map(
+      STRAND_DEFS.map((strand) => [
+        strand.id,
+        { ...strand, count: 0, subclusters: new Map(), sourceTypes: new Map() },
+      ])
+    );
+    const unclassified = [];
 
-    // Aggregate category counts
-    const categoryCounts = {};
-    data.entries.forEach((entry) => {
-      const cat = entry.category || "(uncategorized)";
-      categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
-    });
+    for (const entry of entries) {
+      const strandId = inferStrand(entry);
+      if (!strandId || !byStrand.has(strandId)) {
+        unclassified.push(entry);
+        continue;
+      }
 
-    const chartData = Object.entries(categoryCounts)
-      .map(([category, count]) => ({ category, count }))
-      .sort((a, b) => b.count - a.count);
+      const bucket = byStrand.get(strandId);
+      bucket.count += 1;
 
-    // Draw charts
-    const renderCharts = () => {
-      drawBarChart(chartData);
-      drawDonutChart(chartData);
-    };
-    
-    renderCharts();
+      const subcluster = entry.model_subcluster || "Unspecified sub-cluster";
+      bucket.subclusters.set(subcluster, (bucket.subclusters.get(subcluster) || 0) + 1);
 
-    // Redraw on window resize for responsiveness
-    let resizeTimeout;
-    const handleResize = () => {
-      clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(renderCharts, 250);
-    };
-    
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      clearTimeout(resizeTimeout);
-    };
-  }, [data]);
-
-  const drawBarChart = (chartData) => {
-    const container = barChartRef.current;
-    if (!container) return;
-
-    // Clear previous chart and tooltips
-    d3.select(container).selectAll("*").remove();
-    d3.selectAll(".d3-tooltip").remove();
-
-    // Responsive sizing based on viewport
-    const isMobile = window.innerWidth < 768;
-    const margin = isMobile 
-      ? { top: 20, right: 20, bottom: 120, left: 50 }
-      : { top: 30, right: 40, bottom: 140, left: 80 };
-    const containerWidth = container.offsetWidth || 800;
-    const width = Math.max(isMobile ? 300 : 600, containerWidth - margin.left - margin.right);
-    const height = (isMobile ? 400 : 450) - margin.top - margin.bottom;
-
-    const svg = d3
-      .select(container)
-      .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`);
-
-    // Scales
-    const x = d3
-      .scaleBand()
-      .domain(chartData.map((d) => d.category))
-      .range([0, width])
-      .padding(0.2);
-
-    const y = d3
-      .scaleLinear()
-      .domain([0, d3.max(chartData, (d) => d.count)])
-      .nice()
-      .range([height, 0]);
-
-    // Economist-style color palette
-    const colorPalette = [
-      "#0d4f8b", // deep blue
-      "#dc362e", // red
-      "#f4c145", // gold
-      "#009b9e", // teal
-      "#5f7a76", // sage
-      "#7a6a62", // brown
-      "#91adb8", // light blue
-      "#e3655b", // coral
-      "#7c99ac", // steel blue
-      "#8b8b8b", // gray
-    ];
-    const color = d3.scaleOrdinal(colorPalette);
-
-    // Create tooltip element
-    let tooltip = d3.select("body").select(".bar-tooltip");
-    if (tooltip.empty()) {
-      tooltip = d3
-        .select("body")
-        .append("div")
-        .attr("class", "d3-tooltip bar-tooltip");
+      const sourceType = entry.source_type || "Unspecified source type";
+      bucket.sourceTypes.set(sourceType, (bucket.sourceTypes.get(sourceType) || 0) + 1);
     }
-    tooltip
-      .style("position", "absolute")
-      .style("opacity", "0")
-      .style("pointer-events", "none")
-      .style("z-index", "10000");
 
-    // Bars with rounded tops - create them first without transition
-    const bars = svg
-      .selectAll(".bar")
-      .data(chartData)
-      .enter()
-      .append("rect")
-      .attr("class", "bar")
-      .attr("x", (d) => x(d.category))
-      .attr("width", x.bandwidth())
-      .attr("rx", 2)
-      .attr("fill", (d) => color(d.category))
-      .style("cursor", "pointer")
-      .attr("y", height)
-      .attr("height", 0);
+    const strands = Array.from(byStrand.values()).map((strand) => ({
+      ...strand,
+      percentage: entries.length ? strand.count / entries.length : 0,
+      subclusterRows: Array.from(strand.subclusters.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(([label, count]) => ({ label, count })),
+      sourceRows: Array.from(strand.sourceTypes.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(([label, count]) => ({ label, count })),
+    }));
 
-    // Add interactivity to bars
-    bars
-      .on("mouseover", function (event, d) {
-        d3.select(this).style("opacity", "0.8");
-        tooltip
-          .html(`<strong>${d.category}</strong><br/>${d.count} ${d.count === 1 ? 'entry' : 'entries'}`)
-          .style("left", (event.pageX + 15) + "px")
-          .style("top", (event.pageY - 35) + "px")
-          .style("opacity", "1");
-      })
-      .on("mousemove", function (event) {
-        tooltip
-          .style("left", (event.pageX + 15) + "px")
-          .style("top", (event.pageY - 35) + "px");
-      })
-      .on("mouseout", function () {
-        d3.select(this).style("opacity", "1");
-        tooltip.style("opacity", "0");
-      });
+    const sourceTypeMatrix = Array.from(
+      new Set(strands.flatMap((strand) => strand.sourceRows.map((row) => row.label)))
+    )
+      .sort((a, b) => a.localeCompare(b))
+      .map((label) => ({
+        label,
+        counts: strands.map((strand) => strand.sourceTypes.get(label) || 0),
+      }));
 
-    // Animate bars after setting up event handlers
-    bars
-      .transition()
-      .duration(1000)
-      .ease(d3.easeCubicOut)
-      .attr("y", (d) => y(d.count))
-      .attr("height", (d) => height - y(d.count));
+    const classifiedTotal = entries.length - unclassified.length;
+    const targetPerStrand = classifiedTotal ? classifiedTotal / STRAND_DEFS.length : 0;
+    const tolerance = targetPerStrand ? Math.max(1, Math.round(targetPerStrand * 0.12)) : 0;
 
-    // Grid lines
-    svg
-      .append("g")
-      .attr("class", "grid")
-      .attr("opacity", 0.1)
-      .call(d3.axisLeft(y).tickSize(-width).tickFormat(""));
+    const timelineMap = new Map();
+    for (const entry of entries) {
+      const timestamp = getEntryTimestamp(entry);
+      const strandId = inferStrand(entry);
+      if (!timestamp || !strandId || !byStrand.has(strandId)) {
+        continue;
+      }
 
-    // X axis
-    svg
-      .append("g")
-      .attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(x).tickSize(0))
-      .select(".domain")
-      .attr("stroke-width", 1.5);
+      const monthDate = new Date(timestamp);
+      const monthKey = `${monthDate.getFullYear()}-${String(monthDate.getMonth() + 1).padStart(2, "0")}`;
+      if (!timelineMap.has(monthKey)) {
+        timelineMap.set(monthKey, {
+          key: monthKey,
+          label: formatMonthLabel(new Date(monthDate.getFullYear(), monthDate.getMonth(), 1).getTime()),
+          counts: Object.fromEntries(STRAND_DEFS.map((strand) => [strand.id, 0])),
+          total: 0,
+        });
+      }
 
-    svg
-      .selectAll(".tick text")
-      .attr("transform", "rotate(-45)")
-      .style("text-anchor", "end")
-      .style("font-size", isMobile ? "9px" : "11px")
-      .attr("dx", "-0.5em")
-      .attr("dy", "0.15em")
-      .style("cursor", "pointer")
-      .on("mouseover", function (event, d) {
-        const categoryData = chartData.find(item => item.category === d);
-        if (categoryData) {
-          tooltip
-            .style("opacity", 1)
-            .html(`<strong>${categoryData.category}</strong><br/>${categoryData.count} ${categoryData.count === 1 ? 'entry' : 'entries'}`)
-            .style("left", event.pageX + 15 + "px")
-            .style("top", event.pageY - 35 + "px");
-        }
-      })
-      .on("mouseout", function () {
-        tooltip.style("opacity", 0);
-      });
+      const row = timelineMap.get(monthKey);
+      row.counts[strandId] += 1;
+      row.total += 1;
+    }
 
-    // Y axis
-    svg
-      .append("g")
-      .call(d3.axisLeft(y).ticks(6).tickSize(0).tickPadding(10))
-      .select(".domain")
-      .attr("stroke-width", 1.5);
+    const timeline = Array.from(timelineMap.values())
+      .sort((a, b) => a.key.localeCompare(b.key))
+      .map((row) => ({
+        ...row,
+        segments: STRAND_DEFS.map((strand) => ({
+          ...strand,
+          count: row.counts[strand.id] || 0,
+          percentage: row.total ? (row.counts[strand.id] || 0) / row.total : 0,
+        })),
+      }));
 
-    // Y axis label
-    svg
-      .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", -margin.left + 20)
-      .attr("x", -height / 2)
-      .style("text-anchor", "middle")
-      .style("font-size", "13px")
-      .style("font-weight", "500")
-      .text("Number of entries");
-  };
-
-  const drawDonutChart = (chartData) => {
-    const container = donutChartRef.current;
-    if (!container) return;
-
-    // Clear previous chart and tooltips
-    d3.select(container).selectAll("*").remove();
-    d3.selectAll(".d3-tooltip").remove();
-
-    // Responsive sizing
-    const isMobile = window.innerWidth < 768;
-    const containerWidth = container.offsetWidth || 600;
-    const chartWidth = isMobile ? Math.min(containerWidth, 400) : 600;
-    const chartHeight = isMobile ? Math.min(containerWidth, 400) : 550;
-    const radius = Math.min(chartWidth, chartHeight) / 2 - (isMobile ? 60 : 40);
-
-    const svg = d3
-      .select(container)
-      .append("svg")
-      .attr("width", chartWidth)
-      .attr("height", chartHeight)
-      .append("g")
-      .attr("transform", `translate(${chartWidth / 2},${chartHeight / 2})`);
-
-    // Economist-style color palette
-    const colorPalette = [
-      "#0d4f8b", "#dc362e", "#f4c145", "#009b9e", "#5f7a76",
-      "#7a6a62", "#91adb8", "#e3655b", "#7c99ac", "#8b8b8b",
-    ];
-    const color = d3.scaleOrdinal(colorPalette);
-
-    const pie = d3
-      .pie()
-      .value((d) => d.count)
-      .sort(null);
-
-    const arc = d3
-      .arc()
-      .innerRadius(radius * 0.5)
-      .outerRadius(radius * 0.8);
-
-    const outerArc = d3
-      .arc()
-      .innerRadius(radius * 0.9)
-      .outerRadius(radius * 0.9);
-
-    // Tooltip
-    const tooltip = d3
-      .select("body")
-      .append("div")
-      .attr("class", "d3-tooltip")
-      .style("opacity", 0);
-
-    const arcs = svg
-      .selectAll(".arc")
-      .data(pie(chartData))
-      .enter()
-      .append("g")
-      .attr("class", "arc");
-
-    arcs
-      .append("path")
-      .attr("d", arc)
-      .attr("fill", (d) => color(d.data.category))
-      .attr("stroke", "#ffffff")
-      .style("stroke-width", "3px")
-      .attr("opacity", 0.9)
-      .on("mouseover", function (event, d) {
-        d3.select(this)
-          .attr("opacity", 1)
-          .transition()
-          .duration(200)
-          .attr(
-            "d",
-            d3
-              .arc()
-              .innerRadius(radius * 0.5)
-              .outerRadius(radius * 0.88)
-          );
-        tooltip
-          .style("opacity", 1)
-          .html(
-            `<strong>${d.data.category}</strong><br/>${d.data.count} ${d.data.count === 1 ? 'entry' : 'entries'} (${(
-              (d.data.count / data.entries.length) *
-              100
-            ).toFixed(1)}%)`
-          )
-          .style("left", event.pageX + 15 + "px")
-          .style("top", event.pageY - 35 + "px");
-      })
-      .on("mouseout", function () {
-        d3.select(this)
-          .attr("opacity", 0.9)
-          .transition()
-          .duration(200)
-          .attr("d", arc);
-        tooltip.style("opacity", 0);
-      })
-      .transition()
-      .duration(1200)
-      .ease(d3.easeCubicOut)
-      .attrTween("d", function (d) {
-        const interpolate = d3.interpolate({ startAngle: 0, endAngle: 0 }, d);
-        return function (t) {
-          return arc(interpolate(t));
-        };
-      });
-
-    // Add labels with category names (only for larger segments)
-    arcs
-      .filter((d) => d.endAngle - d.startAngle > 0.15) // Only show labels for segments > ~8.5%
-      .append("text")
-      .attr("transform", function (d) {
-        const pos = outerArc.centroid(d);
-        const midangle = d.startAngle + (d.endAngle - d.startAngle) / 2;
-        pos[0] = radius * (isMobile ? 1.05 : 1.15) * (midangle < Math.PI ? 1 : -1);
-        return `translate(${pos})`;
-      })
-      .style("text-anchor", function (d) {
-        const midangle = d.startAngle + (d.endAngle - d.startAngle) / 2;
-        return midangle < Math.PI ? "start" : "end";
-      })
-      .style("font-size", isMobile ? "10px" : "12px")
-      .style("font-weight", "500")
-      .text((d) => {
-        const percentage = ((d.data.count / data.entries.length) * 100).toFixed(0);
-        return `${percentage}%`;
-      });
-
-    // Add polylines for larger segments
-    arcs
-      .filter((d) => d.endAngle - d.startAngle > 0.15)
-      .append("polyline")
-      .attr("stroke", "#525252")
-      .style("fill", "none")
-      .attr("stroke-width", 1.5)
-      .attr("opacity", 0.5)
-      .attr("points", function (d) {
-        const pos = outerArc.centroid(d);
-        const midangle = d.startAngle + (d.endAngle - d.startAngle) / 2;
-        pos[0] = radius * 1.15 * (midangle < Math.PI ? 1 : -1);
-        return [arc.centroid(d), outerArc.centroid(d), pos];
-      });
-  };
-
-  const totalEntries = data.entries?.length || 0;
+    return {
+      total: entries.length,
+      classified: classifiedTotal,
+      unclassified,
+      strands,
+      sourceTypeMatrix,
+      targetPerStrand,
+      tolerance,
+      timeline,
+    };
+  }, [data.entries]);
 
   const downloadCSV = () => {
-    // Aggregate category counts
-    const categoryCounts = {};
-    data.entries.forEach((entry) => {
-      const cat = entry.category || "(uncategorized)";
-      categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
-    });
+    const rows = [
+      ["Strand", "Label", "Count", "Percentage"],
+      ...analysis.strands.map((strand) => [
+        strand.id,
+        strand.title,
+        String(strand.count),
+        formatPct(strand.count, analysis.total),
+      ]),
+    ];
 
-    // Create CSV content
-    let csvContent = "Category,Count,Percentage\n";
-    Object.entries(categoryCounts)
-      .sort((a, b) => b[1] - a[1])
-      .forEach(([category, count]) => {
-        const percentage = ((count / totalEntries) * 100).toFixed(2);
-        csvContent += `"${category}",${count},${percentage}%\n`;
-      });
+    const csvContent = rows
+      .map((row) => row.map((cell) => `"${String(cell).replaceAll('"', '""')}"`).join(","))
+      .join("\n");
 
-    // Create download
     const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
     const link = document.createElement("a");
     const url = URL.createObjectURL(blob);
     link.setAttribute("href", url);
-    link.setAttribute("download", `collection-category-analysis-${new Date().toISOString().split('T')[0]}.csv`);
+    link.setAttribute("download", `strand-balance-${new Date().toISOString().split("T")[0]}.csv`);
     link.style.visibility = "hidden";
     document.body.appendChild(link);
     link.click();
@@ -407,47 +217,204 @@ export default function Visualizations() {
           <BreadcrumbItem>
             <Link to="/">Home</Link>
           </BreadcrumbItem>
-          <BreadcrumbItem isCurrentPage>Data Visualizations</BreadcrumbItem>
+          <BreadcrumbItem isCurrentPage>Visualizations</BreadcrumbItem>
         </Breadcrumb>
 
-        <h2 className="page-heading">Collection Category Analysis</h2>
-        <p className="cds--type-body-long">
-          Visual analysis of {totalEntries} entries across collection categories. Use these
-          charts to identify gaps and balance in your research collection.
+        <h2 className="page-heading">Stream balance</h2>
+        <p className="cds--type-body-long visualizations-intro">
+          This view normalizes the collection into the three main thesis streams so you can see
+          whether the literature is balanced, where it is over-weighted, and which source types
+          cluster inside each stream.
         </p>
 
-        <div className="chart-section">
-          <h3>Category Distribution - Bar Chart</h3>
-          <p className="cds--type-helper-text">
-            Shows the number of entries in each collection category. Hover over bars for details.
-          </p>
-          <div ref={barChartRef} className="chart-container bar-chart"></div>
-          <Button
-            kind="tertiary"
-            renderIcon={Download}
-            onClick={downloadCSV}
-            className="download-csv-btn"
-          >
-            Download CSV
-          </Button>
+        <div className="overview-strip">
+          <div className="overview-card">
+            <span className="label">Total notes</span>
+            <strong>{analysis.total}</strong>
+          </div>
+          <div className="overview-card">
+            <span className="label">Classified notes</span>
+            <strong>{analysis.classified}</strong>
+          </div>
+          <div className="overview-card">
+            <span className="label">Unclassified</span>
+            <strong>{analysis.unclassified.length}</strong>
+          </div>
+          <div className="overview-actions">
+            <Button kind="tertiary" renderIcon={Download} onClick={downloadCSV}>
+              Download strand CSV
+            </Button>
+          </div>
         </div>
 
-        <div className="chart-section">
-          <h3>Category Proportions - Donut Chart</h3>
+        <section className="chart-section balance-section">
+          <h3>Main stream balance</h3>
           <p className="cds--type-helper-text">
-            Shows the relative proportion of entries across categories. Hover over segments for
-            percentages.
+            A quick reading of the whole collection across S1, S2, and S3.
           </p>
-          <div ref={donutChartRef} className="chart-container donut-chart"></div>
-          <Button
-            kind="tertiary"
-            renderIcon={Download}
-            onClick={downloadCSV}
-            className="download-csv-btn"
-          >
-            Download CSV
-          </Button>
-        </div>
+
+          <div className="balance-bar" aria-label="Main stream balance bar">
+            {analysis.strands.map((strand) => (
+              <div
+                key={strand.id}
+                className="balance-segment"
+                style={{ width: `${strand.percentage * 100}%`, backgroundColor: strand.accent }}
+                title={`${strand.id}: ${strand.count} notes`}
+              />
+            ))}
+          </div>
+
+          <div className="strand-grid">
+            {analysis.strands.map((strand) => (
+              <article className="strand-card" key={strand.id}>
+                <div className="strand-card-head">
+                  <span className="strand-swatch" style={{ backgroundColor: strand.accent }} />
+                  <div>
+                    <div className="strand-id">{strand.id}</div>
+                    <h4>{strand.title}</h4>
+                  </div>
+                </div>
+
+                <div className="strand-metrics">
+                  <div>
+                    <span className="label">Notes</span>
+                    <strong>{strand.count}</strong>
+                  </div>
+                  <div>
+                    <span className="label">Share</span>
+                    <strong>{formatPct(strand.count, analysis.total)}</strong>
+                  </div>
+                  <div>
+                    <span className="label">Balance state</span>
+                    <Tag type={getBalanceState(strand.count, analysis.targetPerStrand, analysis.tolerance).tone}>
+                      {getBalanceState(strand.count, analysis.targetPerStrand, analysis.tolerance).label}
+                    </Tag>
+                  </div>
+                </div>
+
+                <div className="strand-progress">
+                  <div
+                    className="strand-progress-fill"
+                    style={{ width: `${strand.percentage * 100}%`, backgroundColor: strand.accent }}
+                  />
+                </div>
+
+                <div className="strand-breakdown">
+                  <div>
+                    <h5>Sub-clusters</h5>
+                    <ul>
+                      {strand.subclusterRows.map((row) => (
+                        <li key={row.label}>
+                          <span>{row.label}</span>
+                          <strong>{row.count}</strong>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h5>Source types</h5>
+                    <div className="tag-cluster">
+                      {strand.sourceRows.map((row) => (
+                        <Tag key={`${strand.id}-${row.label}`} type="cool-gray">
+                          {row.label}: {row.count}
+                        </Tag>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="chart-section timeline-section">
+          <h3>Balance Over Time By Note Date</h3>
+          <p className="cds--type-helper-text">
+            Each row shows the monthly mix of notes by stream, so you can see when recent reading starts to lean too heavily toward one strand.
+          </p>
+
+          <div className="timeline-legend" aria-label="Timeline legend">
+            {STRAND_DEFS.map((strand) => (
+              <div className="timeline-legend-item" key={`legend-${strand.id}`}>
+                <span className="strand-swatch" style={{ backgroundColor: strand.accent }} />
+                <span>{strand.id}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="timeline-table" role="table" aria-label="Monthly stream balance by note date">
+            {analysis.timeline.map((row) => (
+              <div className="timeline-row" role="row" key={row.key}>
+                <div className="timeline-label" role="rowheader">
+                  <strong>{row.label}</strong>
+                  <span>{row.total} notes</span>
+                </div>
+                <div className="timeline-bar" role="cell" aria-label={`${row.label} stream balance`}>
+                  {row.segments.map((segment) => (
+                    <div
+                      key={`${row.key}-${segment.id}`}
+                      className="timeline-segment"
+                      style={{ width: `${segment.percentage * 100}%`, backgroundColor: segment.accent }}
+                      title={`${segment.id}: ${segment.count} notes`}
+                    />
+                  ))}
+                </div>
+                <div className="timeline-stats" role="cell">
+                  {row.segments.map((segment) => (
+                    <span key={`${row.key}-count-${segment.id}`}>
+                      {segment.id} {segment.count}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="chart-section matrix-section">
+          <h3>Source Type Mix Across Streams</h3>
+          <p className="cds--type-helper-text">
+            Useful for checking whether one stream has accumulated mostly bridge texts while
+            another has more core or methodological material.
+          </p>
+
+          <div className="source-matrix" role="table" aria-label="Source type by stream">
+            <div className="matrix-row matrix-head" role="row">
+              <span role="columnheader">Source type</span>
+              {analysis.strands.map((strand) => (
+                <span key={strand.id} role="columnheader">
+                  {strand.id}
+                </span>
+              ))}
+            </div>
+            {analysis.sourceTypeMatrix.map((row) => (
+              <div className="matrix-row" role="row" key={row.label}>
+                <span role="cell">{row.label}</span>
+                {row.counts.map((count, index) => (
+                  <span role="cell" key={`${row.label}-${analysis.strands[index].id}`}>
+                    {count}
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {analysis.unclassified.length ? (
+          <section className="chart-section unclassified-section">
+            <h3>Needs Classification</h3>
+            <p className="cds--type-helper-text">
+              These notes are not currently mappable to one of the three main streams from the indexed metadata.
+            </p>
+            <ul className="unclassified-list">
+              {analysis.unclassified.map((entry) => (
+                <li key={`${entry.letter}/${entry.slug}`}>
+                  <Link to={`/docs/${entry.letter}/${entry.slug}`}>{entry.displayTitle || entry.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
       </Column>
     </Grid>
   );
