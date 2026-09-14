@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 08:52"
-last_updated: "27 May 2026, 08:59"
+last_updated: "14 Sept 2026, 15:50"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -25,6 +25,12 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Core text"
+project_tags:
+  - "Turin"
+  - "Turin conference"
+literature_clusters:
+  - "03 RAG, retrieval and source attribution"
+  - "09 Human judgement and practice-led computational research"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

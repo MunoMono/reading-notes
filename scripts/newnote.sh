@@ -68,8 +68,8 @@ case "$STRAND_ID" in
     echo "Choose sub-cluster for Strand 3:"
     select SUBCLUSTER in \
       "S3.1 Visual analytics" \
-      "S3.2 Interpretability, provenance, and retrieval" \
-      "S3.3 Multimodal machine learning"; do
+      "S3.2 Scoped missingness" \
+      "S3.3 Retrieval-augmented inference"; do
       [[ -n "$SUBCLUSTER" ]] && break
     done
     ;;
@@ -90,6 +90,102 @@ select SOURCE_TYPE in \
   [[ -n "$SOURCE_TYPE" ]] && break
 done
 
+choose_multiple() {
+  local label="$1"
+  shift
+  local opts=("$@")
+  local count=${#opts[@]}
+
+  if (( count == 0 )); then
+    printf '%s\n' ""
+    return
+  fi
+
+  echo "Choose ${label} (enter numbers separated by spaces; blank for none):" >&2
+  for i in "${!opts[@]}"; do
+    printf '%s) %s\n' "$((i + 1))" "${opts[i]}" >&2
+  done
+
+  while true; do
+    printf 'Selection: ' >&2
+    read -r raw
+    raw=${raw//,/ }
+    if [[ -z "${raw//[[:space:]]/}" ]]; then
+      printf '%s\n' ""
+      return
+    fi
+
+    local valid=1
+    local -a picked=()
+    local -a nums=()
+    read -r -a nums <<< "$raw"
+
+    for n in "${nums[@]}"; do
+      if ! [[ "$n" =~ ^[0-9]+$ ]] || (( n < 1 || n > count )); then
+        valid=0
+        break
+      fi
+      picked+=("${opts[$((n - 1))]}")
+    done
+
+    if (( valid == 1 )); then
+      local -a out=()
+      for item in "${picked[@]}"; do
+        local already_picked=0
+        for selected_item in "${out[@]-}"; do
+          if [[ "$selected_item" == "$item" ]]; then
+            already_picked=1
+            break
+          fi
+        done
+        if (( already_picked == 0 )); then
+          out+=("$item")
+        fi
+      done
+      printf '%s\n' "${out[@]}"
+      return
+    fi
+
+    echo "Invalid selection. Try something like '1 3' or leave blank for none." >&2
+  done
+}
+
+PROJECT_TAGS=()
+while IFS= read -r line; do
+  [[ -n "$line" ]] && PROJECT_TAGS+=("$line")
+done < <(python3 - "$NORTH_STAR_PATH" <<'PY'
+import re, sys
+path = sys.argv[1]
+text = open(path, 'r', encoding='utf-8', errors='ignore').read()
+m = re.search(r'(?ms)^project_tags:\s*\n(.*?)(?=^\S|\Z)', text)
+if not m:
+    raise SystemExit
+block = m.group(1)
+for line in block.splitlines():
+    mm = re.match(r'^\s*-\s*(.+?)\s*$', line)
+    if mm:
+        print(mm.group(1).strip().strip('"'))
+PY
+)
+
+LITERATURE_CLUSTERS=()
+while IFS= read -r line; do
+  [[ -n "$line" ]] && LITERATURE_CLUSTERS+=("$line")
+done < <(python3 - "$NORTH_STAR_PATH" <<'PY'
+import re, sys
+path = sys.argv[1]
+text = open(path, 'r', encoding='utf-8', errors='ignore').read()
+for mid, label in re.findall(r'(?ms)-\s*id:\s*"([0-9]+)"\s*\n\s*label:\s*"(.*?)"', text):
+    print(f"{mid} {label}")
+PY
+)
+
+PROJECT_TAGS_SELECTED=$(choose_multiple "project/output tags" "${PROJECT_TAGS[@]}")
+LITERATURE_CLUSTERS_SELECTED=$(choose_multiple "literature clusters" "${LITERATURE_CLUSTERS[@]}")
+
+export PROJECT_TAGS_SELECTED
+export LITERATURE_CLUSTERS_SELECTED
+
 NEWFILE=$(python3 - \
   "$BIB_PATH" \
   "$NOTES_DIR" \
@@ -100,7 +196,7 @@ NEWFILE=$(python3 - \
   "$SUBCLUSTER" \
   "$SOURCE_TYPE" \
 <<'PY'
-import re, sys, pathlib, datetime, hashlib
+import os, re, sys, pathlib, datetime, hashlib
 from zoneinfo import ZoneInfo
 
 bib_path         = pathlib.Path(sys.argv[1])
@@ -111,6 +207,9 @@ north_star_path  = pathlib.Path(sys.argv[5])
 strand_id        = sys.argv[6]
 subcluster_label = sys.argv[7]
 source_type      = sys.argv[8]
+selected_tags    = [x.strip() for x in os.environ.get("PROJECT_TAGS_SELECTED", "").splitlines() if x.strip()]
+selected_clusters = [x.strip() for x in os.environ.get("LITERATURE_CLUSTERS_SELECTED", "").splitlines() if x.strip()]
+
 
 def norm(s: str) -> str:
     return re.sub(r'[^a-z0-9]+', '', (s or '').lower())
@@ -196,6 +295,12 @@ def md_list(items, fallback):
     if not items:
         return f"- {fallback}"
     return "\n".join(f"- {x}" for x in items)
+
+
+def yaml_list(items):
+    if not items:
+        return "[]"
+    return "\n" + "\n".join(f'  - "{str(x).replace(chr(34), chr(92)+chr(34))}"' for x in items)
 
 entries = load_bib_entries(bib_path)
 by_key = {k: (k, f) for k, f in entries}
@@ -290,6 +395,8 @@ model_strand: "{strand_id}"
 model_strand_label: {yaml_str(strand_label)}
 model_subcluster: {yaml_str(subcluster_label)}
 source_type: {yaml_str(source_type)}
+project_tags: {yaml_list(selected_tags)}
+literature_clusters: {yaml_list(selected_clusters)}
 constraints_source: "project/constraints.md"
 ---
 
@@ -300,6 +407,8 @@ constraints_source: "project/constraints.md"
 **Primary strand:** {strand_id} — {strand_label}  
 **Sub-cluster:** {subcluster_label}  
 **Source type:** {source_type}  
+**Project/output tags:** {', '.join(selected_tags) if selected_tags else 'None'}  
+**Literature clusters:** {', '.join(selected_clusters) if selected_clusters else 'None'}  
 
 **Seams to watch (optional, pick 1):**
 {seams_md}

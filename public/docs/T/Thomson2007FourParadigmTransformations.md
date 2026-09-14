@@ -22,6 +22,8 @@ model_strand: "S2"
 model_strand_label: "Recording, organising, and obscuring traces"
 model_subcluster: "S2.2 Oral histories"
 source_type: "Supporting"
+project_tags:
+  - "Turin conference"
 last_updated: "18 Mar 2026, 15:23"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

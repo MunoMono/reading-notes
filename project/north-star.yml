@@ -46,8 +46,8 @@ model:
       label: "Surfacing and reactivating traces computationally"
       what_counts_as_evidence:
         - "Visual analytics"
-        - "Interpretability, provenance, and retrieval"
-        - "Multimodal machine learning"
+        - "Scoped missingness"
+        - "Retrieval-augmented inference"
       outputs_i_expect:
         - "A playbook for computationally surfacing contested traces"
         - "Risk conditions and affordances for reactivation"
@@ -91,6 +91,37 @@ project_definitions:
       - "Ideas that were dropped but may still be generative"
       - "Historical lessons that clarify current assumptions"
       - "Points where the period exposes limits in contemporary design research discourse"
+
+project_tags:
+  - "Turin"
+  - "Turin conference"
+  - "Thesis"
+
+literature_clusters:
+  - id: "01"
+    label: "Synthetic heritage and cultural memory"
+  - id: "02"
+    label: "LLM epistemic risk and persuasive fluency"
+  - id: "03"
+    label: "RAG, retrieval and source attribution"
+  - id: "04"
+    label: "Archival description, mediation and discoverability"
+  - id: "05"
+    label: "Archival partiality, silence and absence"
+  - id: "06"
+    label: "Oral history, temporality and retrospective testimony"
+  - id: "07"
+    label: "Interface authority, ranking and retrieval bias"
+  - id: "08"
+    label: "Ambiguity, uncertainty and plural interpretation"
+  - id: "09"
+    label: "Human judgement and practice-led computational research"
+  - id: "10"
+    label: "Conversational AI and completion norms"
+  - id: "11"
+    label: "Uncertainty and provenance display in interfaces"
+  - id: "12"
+    label: "Digitisation, reconstruction and archival completion"
 
 always_include_in_notes:
   - "Selected primary strand (S1/S2/S3)"

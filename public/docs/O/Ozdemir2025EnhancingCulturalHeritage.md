@@ -20,7 +20,7 @@ project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate 
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
-model_subcluster: "S3.3 Multimodal machine learning"
+model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Supporting"
 last_updated: "18 Mar 2026, 15:23"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
@@ -28,7 +28,7 @@ last_updated: "18 Mar 2026, 15:23"---
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
 **Model title:** Mobilising contested design knowledge in the DDR archive  
 **Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.3 Multimodal machine learning  
+**Sub-cluster:** S3.3 Retrieval-augmented inference  
 **Source type:** Supporting  
 
 **Seams to watch (optional, pick 1):**

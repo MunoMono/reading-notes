@@ -9,7 +9,7 @@ const DATE_PRESETS = [
   { id: "this-month", label: "This month" },
   { id: "last-month", label: "Last month" },
   { id: "last-30", label: "Last 30 days" },
-  { id: "this-year", label: "This year" },
+  { id: "phd-year-1", label: "PhD Year 1" },
   { id: "phd-year-2", label: "PhD Year 2" },
 ];
 
@@ -17,6 +17,9 @@ const PHD_YEAR_2_RANGE = {
   start: new Date(2026, 8, 1),
   end: new Date(2027, 7, 31),
 };
+
+const TEMPORARY_PROJECT_TAGS = ["Turin conference"];
+const TURIN_PROJECT_TAGS = ["Turin", "Turin conference"];
 
 function fmtDateInput(d) {
   if (!d) return "";
@@ -37,6 +40,30 @@ function fmtDateSummary(d) {
 
 function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function compactClusterLabel(cluster) {
+  if (!cluster) return "";
+  const text = String(cluster).trim();
+  if (!text) return "";
+  const match = text.match(/^([0-9]{2})\s+(.*)$/);
+  if (!match) return text;
+  const [, id, rest] = match;
+  const short = rest
+    .split(/\s+and\s+|,|\/|;/)[0]
+    .trim();
+  return short ? `${id} ${short}` : id;
+}
+
+function projectTagChip(tag) {
+  if (!tag) return null;
+  return <Tag type="gray" title={tag}>{tag}</Tag>;
+}
+
+function literatureClusterChip(cluster) {
+  if (!cluster) return null;
+  const label = compactClusterLabel(cluster);
+  return <Tag type="teal" title={cluster}>{label}</Tag>;
 }
 
 function highlight(text, query) {
@@ -71,6 +98,8 @@ export default function Home() {
   const [data, setData] = useState({ entries: [], grouped: {}, updatedAt: null });
   const [query, setQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState(null);
+  const [projectTagFilter, setProjectTagFilter] = useState(null);
+  const [turinFilterActive, setTurinFilterActive] = useState(false);
   const [noteDateRange, setNoteDateRange] = useState([null, null]);
   const [dateInputValues, setDateInputValues] = useState(["", ""]);
   const [activePreset, setActivePreset] = useState(null);
@@ -110,6 +139,16 @@ export default function Home() {
       entries = entries.filter((e) => e.category === categoryFilter);
     }
 
+    if (projectTagFilter) {
+      entries = entries.filter((e) => (e.project_tags || []).includes(projectTagFilter));
+    }
+
+    if (turinFilterActive) {
+      entries = entries.filter((e) =>
+        (e.project_tags || []).some((tag) => TURIN_PROJECT_TAGS.includes(tag))
+      );
+    }
+
     if (startDate || endDate) {
       const startMs = startDate ? new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate(), 0, 0, 0, 0).getTime() : null;
       const endMs = endDate
@@ -126,7 +165,7 @@ export default function Home() {
     }
 
     return entries;
-  }, [data.entries, query, categoryFilter, noteDateRange]);
+  }, [data.entries, query, categoryFilter, projectTagFilter, turinFilterActive, noteDateRange]);
 
   const filteredGrouped = useMemo(() => {
     return filteredEntries.reduce((acc, e) => {
@@ -150,6 +189,18 @@ export default function Home() {
       if (e.category) cats.add(e.category);
     });
     return Array.from(cats).sort((a, b) => {
+      if (a === "All") return -1;
+      if (b === "All") return 1;
+      return a.localeCompare(b);
+    });
+  }, [data.entries]);
+
+  const projectTagOptions = useMemo(() => {
+    const tags = new Set(["All", ...TEMPORARY_PROJECT_TAGS]);
+    (data.entries || []).forEach((entry) => {
+      (entry.project_tags || []).forEach((tag) => tags.add(tag));
+    });
+    return Array.from(tags).sort((a, b) => {
       if (a === "All") return -1;
       if (b === "All") return 1;
       return a.localeCompare(b);
@@ -193,9 +244,9 @@ export default function Home() {
     } else if (id === "last-30") {
       end = today;
       start = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 29);
-    } else if (id === "this-year") {
-      start = new Date(today.getFullYear(), 0, 1);
-      end = new Date(today.getFullYear(), 11, 31);
+    } else if (id === "phd-year-1") {
+      start = new Date(2025, 8, 1);
+      end = new Date(2026, 7, 31);
     } else if (id === "phd-year-2") {
       start = PHD_YEAR_2_RANGE.start;
       end = PHD_YEAR_2_RANGE.end;
@@ -220,7 +271,7 @@ export default function Home() {
           <SearchBox query={query} setQuery={setQuery} />
         </div>
 
-        {/* Category filter directly below */}
+        {/* Category and project-tag filters */}
         <div className="home-filter">
           <Filter size={20} />
           <Dropdown
@@ -230,6 +281,15 @@ export default function Home() {
             selectedItem={categoryFilter || "All"}
             onChange={({ selectedItem }) =>
               setCategoryFilter(selectedItem === "All" ? null : selectedItem)
+            }
+          />
+          <Dropdown
+            id="project-tag-filter"
+            label="Filter by project tag"
+            items={projectTagOptions}
+            selectedItem={projectTagFilter || "All"}
+            onChange={({ selectedItem }) =>
+              setProjectTagFilter(selectedItem === "All" ? null : selectedItem)
             }
           />
         </div>
@@ -285,6 +345,13 @@ export default function Home() {
                 {preset.label}
               </button>
             ))}
+            <button
+              type="button"
+              className={`preset-chip ${turinFilterActive ? "is-active" : ""}`}
+              onClick={() => setTurinFilterActive((active) => !active)}
+            >
+              Turin
+            </button>
           </div>
 
           {dateFilterSummary ? (
@@ -318,6 +385,16 @@ export default function Home() {
                       {e.venue ? <em> — {highlight(e.venue, query)}</em> : null}
                     </Link>{" "}
                     {categoryTag(e.category)}
+                    {(e.project_tags || []).map((tag, index) => (
+                      <React.Fragment key={`${e.slug}-tag-${tag || index}`}>
+                        {projectTagChip(tag)}
+                      </React.Fragment>
+                    ))}
+                    {(e.literature_clusters || []).map((cluster, index) => (
+                      <React.Fragment key={`${e.slug}-cluster-${cluster || index}`}>
+                        {literatureClusterChip(cluster)}
+                      </React.Fragment>
+                    ))}
                   </li>
                 ))}
               </ul>

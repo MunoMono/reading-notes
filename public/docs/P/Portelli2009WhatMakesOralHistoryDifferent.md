@@ -20,6 +20,8 @@ model_strand: "S2"
 model_strand_label: "Bridge text"
 model_subcluster: "S2.1 Bridge text"
 source_type: "Core text"
+project_tags:
+  - "Turin conference"
 last_updated: "18 Mar 2026, 15:23"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

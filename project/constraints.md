@@ -7,6 +7,9 @@ These rules exist to keep the thesis on track and keep notes “writeable” (no
   - **Project RQ (verbatim)**
   - **Primary strand** (S1 / S2 / S3)
   - **One seam to watch** (optional but preferred)
+- Every note has one primary strand.
+- Project/output tags and literature clusters are optional cross-cutting metadata.
+- Multiple literature clusters are allowed only when the source genuinely supports them.
 - If something does not serve the RQ/model, write: **“OUT OF SCOPE (why)”** and stop.
 
 ## 2) Evidence rule (no hallucination)

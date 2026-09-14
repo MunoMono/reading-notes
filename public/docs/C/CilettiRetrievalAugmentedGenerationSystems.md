@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 09:14"
-last_updated: "27 May 2026, 09:15"
+last_updated: "14 Sept 2026, 15:50"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -23,17 +23,15 @@ project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate 
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
-model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
+model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Core text"
-constraints_source: "project/constraints.md"
----
-
+constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
 **Model title:** Mobilising contested design knowledge in the DDR archive  
 **Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.2 Interpretability, provenance, and retrieval  
+**Sub-cluster:** S3.3 Retrieval-augmented inference  
 **Source type:** Core text  
 
 **Seams to watch:**

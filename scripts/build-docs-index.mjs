@@ -21,27 +21,67 @@ async function walk(dir) {
   return items.flat();
 }
 
-// very light YAML parser for simple key: value pairs in the front-matter
+function stripQuotes(v) {
+  if (typeof v !== "string") return v;
+  const s = v.trim();
+  if ((s.startsWith('"') && s.endsWith('"')) || (s.startsWith("'") && s.endsWith("'"))) {
+    return s.slice(1, -1);
+  }
+  return s;
+}
+
+// very light YAML parser for simple key: value pairs and short block arrays in the front-matter
 function parseFrontmatter(mdText) {
   const m = mdText.match(/^---\s*([\s\S]*?)\s*---/);
   if (!m) return {};
   const yaml = m[1];
   const out = {};
-  for (const line of yaml.split(/\r?\n/)) {
+  const lines = yaml.split(/\r?\n/);
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
     if (!line.trim() || line.trim().startsWith("#")) continue;
     const mm = line.match(/^([A-Za-z0-9_-]+)\s*:\s*(.*)$/);
     if (!mm) continue;
+
     const key = mm[1].trim();
     let val = mm[2].trim();
-    // keep bare numbers (e.g., year: 2020) as-is, otherwise strip quotes if present
+    if (!val) {
+      const items = [];
+      i += 1;
+      while (i < lines.length) {
+        const next = lines[i];
+        if (!next.trim() || next.trim().startsWith("#")) {
+          i += 1;
+          continue;
+        }
+        const listMatch = next.match(/^\s*-\s*(.*)$/);
+        if (!listMatch) break;
+        const item = stripQuotes(listMatch[1].trim());
+        if (item) items.push(item);
+        i += 1;
+      }
+      out[key] = items;
+      i -= 1;
+      continue;
+    }
+
+    if (val === "[]") {
+      out[key] = [];
+      continue;
+    }
+    if (val.startsWith("[") && val.endsWith("]")) {
+      const inner = val.slice(1, -1).trim();
+      out[key] = inner ? inner.split(",").map((part) => stripQuotes(part.trim())).filter(Boolean) : [];
+      continue;
+    }
     const isBareNumber = /^[0-9]+$/.test(val);
     if (!isBareNumber) {
-      if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
-        val = val.slice(1, -1);
-      }
+      val = stripQuotes(val);
     }
     out[key] = val;
   }
+
   return out;
 }
 
@@ -138,6 +178,8 @@ async function main() {
       const model_strand_label = fm.model_strand_label || "";
       const model_subcluster = fm.model_subcluster || "";
       const source_type = fm.source_type || "";
+      const project_tags = Array.isArray(fm.project_tags) ? fm.project_tags : [];
+      const literature_clusters = Array.isArray(fm.literature_clusters) ? fm.literature_clusters : [];
       const noteDate = fm.generated_at || fm.last_updated || "";
       const noteDateMs = parseGeneratedAtToMs(noteDate);
 
@@ -169,6 +211,8 @@ async function main() {
         model_strand_label,
         model_subcluster,
         source_type,
+        project_tags,
+        literature_clusters,
         noteDate,
         noteDateMs: noteDateMs ?? mtimeMs,
         mtimeMs,
