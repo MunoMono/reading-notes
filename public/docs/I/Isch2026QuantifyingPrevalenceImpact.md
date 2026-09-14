@@ -1,6 +1,7 @@
 ---
 title: "Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science"
 authors: "Isch, Calvin and D{\\"o}rr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J."
+authors: "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J."
 year: 2026
 journal: "Nature Human Behaviour"
 citation_key: Isch2026QuantifyingPrevalenceImpact

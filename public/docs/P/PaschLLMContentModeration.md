@@ -1,5 +1,5 @@
 ---
-title: "{{LLM Content Moderation}"
+title: "LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena"
 authors: "Pasch, Stefan"
 year: 
 journal: ""

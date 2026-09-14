@@ -1,6 +1,6 @@
 ---
-title: "Enhancing Clinicians' Trust in Large Language Models via Transparent Source Attribution: {{A}"
-authors: "Carl, Nicolas and Hetz, Martin Joachim and Wies, Christoph and Haggenm{\\"u}ller, Sarah and Winterstein, Jana Theres and Mangold, Maurin Helen and Maywald, Lasse and Worst, Thomas Stefan and Westhoff, Niklas and Michel, Maurice Stephan and Wessels, Frederik and Brinker, Titus Josef"
+title: "Enhancing clinicians’ trust in large language models via transparent source attribution: A randomized controlled evaluation in uro-oncology"
+authors: "Carl, Nicolas and Hetz, Martin Joachim and Wies, Christoph and Haggenmüller, Sarah and Winterstein, Jana Theres and Mangold, Maurin Helen and Maywald, Lasse and Worst, Thomas Stefan and Westhoff, Niklas and Michel, Maurice Stephan and Wessels, Frederik and Brinker, Titus Josef"
 year: 2026
 journal: "European Journal of Cancer"
 citation_key: Carl2026EnhancingCliniciansTrust

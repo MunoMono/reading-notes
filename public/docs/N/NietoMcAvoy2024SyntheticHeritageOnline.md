@@ -1,5 +1,5 @@
 ---
-title: "Synthetic {{Heritage}"
+title: "Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory"
 authors: "Nieto McAvoy, Eva and Kidd, Jenny"
 year: 2024
 journal: "Memory, Mind \& Media"

@@ -1,6 +1,6 @@
 ---
-title: "Ethical {{Aspects}"
-authors: "Bor{\r u}vkov{\'a}, Barbora"
+title: "Ethical aspects of digital reconstruction of the historical cultural heritage"
+authors: "Borůvková, Barbora"
 year: 2025
 journal: "Digital Presentation and Preservation of Cultural and Scientific Heritage"
 citation_key: Boruvkova2025EthicalAspectsDigital

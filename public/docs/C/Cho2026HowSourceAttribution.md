@@ -1,5 +1,5 @@
 ---
-title: "How {{Source Attribution Visualization Shapes User Attention}"
+title: "How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts"
 authors: "Cho, Junho and Lim, Dokshin"
 year: 2026
 journal: "Journal of Eye Movement Research"

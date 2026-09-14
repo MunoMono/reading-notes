@@ -1,5 +1,5 @@
 ---
-title: "Addressing Trust Requirements in the Design of an Open-Source Multi-Agent {{LLM-based}"
+title: "Addressing trust requirements in the design of an open-source multiagent LLM-based domain-specific chatbot"
 authors: "Axetorn, Jonatan and Edholm, Felix and Dobslaw, Felix and Gren, Lucas"
 year: 2026
 journal: "Requirements Engineering"
