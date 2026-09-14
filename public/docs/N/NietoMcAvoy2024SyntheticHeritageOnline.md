@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "14 Sept 2026, 16:30"
+last_updated: "14 Sept 2026, 17:08"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"

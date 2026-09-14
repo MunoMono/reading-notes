@@ -24,7 +24,7 @@ model_subcluster: "S3.2 Scoped missingness"
 source_type: "Core text"
 project_tags:
   - "Turin conference"
-last_updated: "18 Mar 2026, 15:23"---
+last_updated: "14 Sept 2026, 17:08"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
