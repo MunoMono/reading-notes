@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:02:49.298Z",
+  "updatedAt": "2026-09-15T18:32:41.335Z",
   "entries": [
     {
       "letter": "A",
@@ -272,12 +272,12 @@
       "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509056.8826,
+      "mtimeMs": 1789497031425.5322,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -297,12 +297,12 @@
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Supporting",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509057.4805,
+      "mtimeMs": 1789497031427.1567,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -445,12 +445,12 @@
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509059.3657,
+      "mtimeMs": 1789497031427.6062,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -543,12 +543,12 @@
       "model_subcluster": "S2.1 Classification as ethics and politics",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:42",
       "noteDateMs": 1779964920000,
-      "mtimeMs": 1789451509061.4631,
+      "mtimeMs": 1789497031427.6743,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -687,12 +687,12 @@
       "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509064.04,
+      "mtimeMs": 1789497031470.5273,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -808,12 +808,12 @@
       "model_subcluster": "S3.1 Visual analytics",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "17 Mar 2026, 05:52",
       "noteDateMs": 1773726720000,
-      "mtimeMs": 1789451509066.1013,
+      "mtimeMs": 1789497031472.1453,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -833,12 +833,12 @@
       "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509066.6453,
+      "mtimeMs": 1789497031472.1453,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1217,8 +1217,7 @@
       "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
       "source_type": "Core text",
       "project_tags": [
-        "Turin",
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [
         "03 RAG, retrieval and source attribution",
@@ -1226,7 +1225,7 @@
       ],
       "noteDate": "27 May 2026, 08:52",
       "noteDateMs": 1779868320000,
-      "mtimeMs": 1789451509070.8015,
+      "mtimeMs": 1789497081862.8853,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1361,12 +1360,12 @@
       "model_subcluster": "S2.1 Classification as ethics and politics",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:46",
       "noteDateMs": 1779965160000,
-      "mtimeMs": 1789451509075.7917,
+      "mtimeMs": 1789497031472.1453,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -1386,12 +1385,12 @@
       "model_subcluster": "S2.1 Bridge text",
       "source_type": "Bridge text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509075.1587,
+      "mtimeMs": 1789497031472.1453,
       "category": "Bridge text"
     },
     {
@@ -1613,12 +1612,12 @@
       "model_subcluster": "S2.1 Bridge text",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509079.1619,
+      "mtimeMs": 1789497031472.1453,
       "category": "Bridge text"
     },
     {
@@ -1738,12 +1737,12 @@
       "model_subcluster": "S2.1 Bridge text",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509081.4814,
+      "mtimeMs": 1789497031472.1453,
       "category": "Bridge text"
     },
     {
@@ -1813,12 +1812,12 @@
       "model_subcluster": "S2.1 Bridge text",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509082.9958,
+      "mtimeMs": 1789497031472.1453,
       "category": "Bridge text"
     },
     {
@@ -1838,12 +1837,12 @@
       "model_subcluster": "S2.2 Oral histories",
       "source_type": "Supporting",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509083.579,
+      "mtimeMs": 1789497031472.1453,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1940,12 +1939,12 @@
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Core text",
       "project_tags": [
-        "Turin conference"
+        "Turin"
       ],
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:19",
       "noteDateMs": 1779869940000,
-      "mtimeMs": 1789451509084.7075,
+      "mtimeMs": 1789497031472.1453,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -2305,12 +2304,12 @@
         "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509056.8826,
+        "mtimeMs": 1789497031425.5322,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2330,12 +2329,12 @@
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Supporting",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509057.4805,
+        "mtimeMs": 1789497031427.1567,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2478,12 +2477,12 @@
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509059.3657,
+        "mtimeMs": 1789497031427.6062,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2578,12 +2577,12 @@
         "model_subcluster": "S2.1 Classification as ethics and politics",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:42",
         "noteDateMs": 1779964920000,
-        "mtimeMs": 1789451509061.4631,
+        "mtimeMs": 1789497031427.6743,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -2722,12 +2721,12 @@
         "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509064.04,
+        "mtimeMs": 1789497031470.5273,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2845,12 +2844,12 @@
         "model_subcluster": "S3.1 Visual analytics",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "17 Mar 2026, 05:52",
         "noteDateMs": 1773726720000,
-        "mtimeMs": 1789451509066.1013,
+        "mtimeMs": 1789497031472.1453,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2870,12 +2869,12 @@
         "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509066.6453,
+        "mtimeMs": 1789497031472.1453,
         "category": "Recording, organising, and obscuring traces"
       }
     ],
@@ -3218,8 +3217,7 @@
         "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
         "source_type": "Core text",
         "project_tags": [
-          "Turin",
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [
           "03 RAG, retrieval and source attribution",
@@ -3227,7 +3225,7 @@
         ],
         "noteDate": "27 May 2026, 08:52",
         "noteDateMs": 1779868320000,
-        "mtimeMs": 1789451509070.8015,
+        "mtimeMs": 1789497081862.8853,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3389,12 +3387,12 @@
         "model_subcluster": "S2.1 Classification as ethics and politics",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:46",
         "noteDateMs": 1779965160000,
-        "mtimeMs": 1789451509075.7917,
+        "mtimeMs": 1789497031472.1453,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -3414,12 +3412,12 @@
         "model_subcluster": "S2.1 Bridge text",
         "source_type": "Bridge text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509075.1587,
+        "mtimeMs": 1789497031472.1453,
         "category": "Bridge text"
       }
     ],
@@ -3728,12 +3726,12 @@
         "model_subcluster": "S2.1 Bridge text",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509079.1619,
+        "mtimeMs": 1789497031472.1453,
         "category": "Bridge text"
       }
     ],
@@ -3830,12 +3828,12 @@
         "model_subcluster": "S2.1 Bridge text",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509081.4814,
+        "mtimeMs": 1789497031472.1453,
         "category": "Bridge text"
       },
       {
@@ -3905,12 +3903,12 @@
         "model_subcluster": "S2.1 Bridge text",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509082.9958,
+        "mtimeMs": 1789497031472.1453,
         "category": "Bridge text"
       }
     ],
@@ -3932,12 +3930,12 @@
         "model_subcluster": "S2.2 Oral histories",
         "source_type": "Supporting",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509083.579,
+        "mtimeMs": 1789497031472.1453,
         "category": "Recording, organising, and obscuring traces"
       }
     ],
@@ -4042,12 +4040,12 @@
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Core text",
         "project_tags": [
-          "Turin conference"
+          "Turin"
         ],
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:19",
         "noteDateMs": 1779869940000,
-        "mtimeMs": 1789451509084.7075,
+        "mtimeMs": 1789497031472.1453,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
