@@ -104,10 +104,14 @@ export default function Doc() {
   const base = import.meta.env.BASE_URL || "/";
 
   useEffect(() => {
+    const controller = new AbortController();
     let titleFromMeta = "";
     setQuery(""); // reset per document
+    setMeta(null);
+    setUpdatedFromMd("");
+    setMd("# Loading…");
 
-    fetch(`${base}docs/index.json`, { cache: "no-cache" })
+    fetch(`${base}docs/index.json`, { cache: "no-cache", signal: controller.signal })
       .then((r) =>
         r.ok ? r.json() : Promise.reject(new Error(`index ${r.status}`))
       )
@@ -119,6 +123,7 @@ export default function Doc() {
         titleFromMeta = m?.title || "";
         return fetch(`${base}docs/${letter}/${slug}.md`, {
           cache: "no-cache",
+          signal: controller.signal,
         });
       })
       .then((r) =>
@@ -134,9 +139,12 @@ export default function Doc() {
         setMd(cleaned || "# Not found");
       })
       .catch((err) => {
+        if (err.name === "AbortError") return;
         console.error("Doc load failed:", err);
         setMd("# Not found");
       });
+
+    return () => controller.abort();
   }, [letter, slug, base]);
 
   const updatedPretty =
