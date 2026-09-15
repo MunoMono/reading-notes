@@ -26,9 +26,7 @@ model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.1 Visual analytics"
 source_type: "Context / supporting"
 project_tags: 
-  - "Choose project/output tags (enter numbers separated by spaces; blank for none):"
-  - "1) Turin"
-  - "2) Thesis"
+  - "Turin"
 literature_clusters: 
   - "Choose literature clusters (enter numbers separated by spaces; blank for none):"
   - "1) 01 Synthetic heritage and cultural memory"
