@@ -26,7 +26,7 @@ model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.1 Visual analytics"
 source_type: "Core text"
 project_tags:
-  - "Turin conference"
+  - "Turin"
 last_updated: "14 Sept 2026, 17:08"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

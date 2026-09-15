@@ -26,7 +26,7 @@ model_strand_label: "Recording, organising, and obscuring traces"
 model_subcluster: "S2.1 Classification as ethics and politics"
 source_type: "Core text"
 project_tags:
-  - "Turin conference"
+  - "Turin"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

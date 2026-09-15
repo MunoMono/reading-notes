@@ -27,7 +27,6 @@ model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Core text"
 project_tags:
   - "Turin"
-  - "Turin conference"
 literature_clusters:
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
