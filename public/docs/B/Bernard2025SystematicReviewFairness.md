@@ -1,5 +1,5 @@
 ---
-title: "A {{Systematic Review}"
+title: "A systematic review of fairness, accountability, transparency, and ethics in information retrieval"
 authors: "Bernard, Nolwenn and Balog, Krisztian"
 year: 2025
 journal: "ACM Computing Surveys"

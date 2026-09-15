@@ -1,16 +1,16 @@
 ---
-title: "Encoding the Haunting of an Object Catalogue: On the Potential of Digital Technologies to Perpetuate or Subvert the Silence and Bias of the Early-Modern Archive"
-authors: "{Ortolja-Baird}, Alexandra and Nyhan, Julianne"
-year: 2022
-journal: "Digital Scholarship in the Humanities"
-citation_key: Ortolja-Baird2022EncodingHauntingObject
-doi: "10.1093/llc/fqab065"
-url: "https://academic.oup.com/dsh/article/37/3/844/6401182"
+title: "A methodological protocol for the generation and evaluation of AI-generated cultural heritage content"
+authors: "Galindo-Durán, Alejandro and Prego de Oliver-López, Cristina and Bernal-Bravo, César"
+year: 2026
+journal: "Journal of Cultural Heritage"
+citation_key: Galindo-Duran2026MethodologicalProtocolGeneration
+doi: "10.1016/j.culher.2026.08.010"
+url: "https://linkinghub.elsevier.com/retrieve/pii/S1296207426001767"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "14 Sept 2026, 16:31"
-last_updated: "14 Sept 2026, 16:31"
+generated_at: "14 Sept 2026, 16:30"
+last_updated: "14 Sept 2026, 16:30"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -23,22 +23,22 @@ project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate 
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
-model_subcluster: "S3.2 Scoped missingness"
-source_type: "Counterpoint / tension"
+model_subcluster: "S3.3 Retrieval-augmented inference"
+source_type: "Bridge text"
 project_tags: 
   - "Turin"
 literature_clusters: 
-  - "12 Digitisation, reconstruction and archival completion"
+  - "01 Synthetic heritage and cultural memory"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
 **Model title:** Mobilising contested design knowledge in the DDR archive  
 **Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.2 Scoped missingness  
-**Source type:** Counterpoint / tension  
+**Sub-cluster:** S3.3 Retrieval-augmented inference  
+**Source type:** Bridge text  
 **Project/output tags:** Turin  
-**Literature clusters:** 12 Digitisation, reconstruction and archival completion  
+**Literature clusters:** 01 Synthetic heritage and cultural memory  
 
 **Seams to watch (optional, pick 1):**
 - Where historical contestation meets archive structure
@@ -74,21 +74,21 @@ They try to ___ by ___ in order to ___.
 
 ## Claim 1
 - **Claim (plain):**
-- **Evidence (quote/paraphrase + page):** ``[@Ortolja-Baird2022EncodingHauntingObject, p. X]``
+- **Evidence (quote/paraphrase + page):** ``[@Galindo-Duran2026MethodologicalProtocolGeneration, p. X]``
 - **Warrant (my words):** why the evidence supports the claim
 - **So what for my thesis (a reusable sentence):**
 - **Practice cross-check:** where my material supports/complicates this (pointer to practice note / archive ID)
 
 ## Claim 2
 - **Claim (plain):**
-- **Evidence (quote/paraphrase + page):** ``[@Ortolja-Baird2022EncodingHauntingObject, p. X]``
+- **Evidence (quote/paraphrase + page):** ``[@Galindo-Duran2026MethodologicalProtocolGeneration, p. X]``
 - **Warrant (my words):**
 - **So what for my thesis:**
 - **Practice cross-check:**
 
 ## Claim 3
 - **Claim (plain):**
-- **Evidence (quote/paraphrase + page):** ``[@Ortolja-Baird2022EncodingHauntingObject, p. X]``
+- **Evidence (quote/paraphrase + page):** ``[@Galindo-Duran2026MethodologicalProtocolGeneration, p. X]``
 - **Warrant (my words):**
 - **So what for my thesis:**
 - **Practice cross-check:**

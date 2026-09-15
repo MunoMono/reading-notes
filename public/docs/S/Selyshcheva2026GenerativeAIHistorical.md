@@ -1,5 +1,5 @@
 ---
-title: "Generative {{AI}"
+title: "Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history"
 authors: "Selyshcheva, Iryna A."
 year: 2026
 journal: "CTE Workshop Proceedings"

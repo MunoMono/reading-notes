@@ -1,7 +1,7 @@
 ---
 title: "LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena"
 authors: "Pasch, Stefan"
-year: 
+year: 2025
 journal: ""
 citation_key: PaschLLMContentModeration
 doi: ""

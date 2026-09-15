@@ -1,5 +1,5 @@
 ---
-title: "Digital {{History}"
+title: "Digital history and the politics of digitization"
 authors: "Zaagsma, Gerben"
 year: 2023
 journal: "Digital Scholarship in the Humanities"

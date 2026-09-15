@@ -1,6 +1,6 @@
 ---
-title: "Trust {{Me}"
-authors: "{\L}ajewska, Weronika and Balog, Krisztian"
+title: "Trust me on this: a user study of trustworthiness for RAG responses"
+authors: "Łajewska, Weronika and Balog, Krisztian"
 year: 2026
 journal: "arXiv"
 citation_key: Lajewska2026TrustMeThis
