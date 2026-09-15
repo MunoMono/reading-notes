@@ -1,5 +1,5 @@
 ---
-title: "{{HARF}"
+title: "HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering"
 authors: "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael"
 year: 2026
 journal: "Digital Applications in Archaeology and Cultural Heritage"
