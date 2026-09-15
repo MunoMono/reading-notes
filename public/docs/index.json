@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:25:44.046Z",
+  "updatedAt": "2026-09-15T05:29:51.142Z",
   "entries": [
     {
       "letter": "A",
@@ -166,14 +166,14 @@
       "letter": "A",
       "slug": "Arzomand2026HARFHumanAI",
       "path": "/docs/A/Arzomand2026HARFHumanAI.md",
-      "title": "{{HARF}",
+      "title": "HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering",
       "authors": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael",
       "year": "2026",
       "journal": "Digital Applications in Archaeology and Cultural Heritage",
       "doi": "10.1016/j.daach.2026.e00554",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
       "citation_key": "Arzomand2026HARFHumanAI",
-      "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). {{HARF} — Digital Applications in Archaeology and Cultural Heritage",
+      "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering — Digital Applications in Archaeology and Cultural Heritage",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.1 Visual analytics",
@@ -200,7 +200,7 @@
       ],
       "noteDate": "14 Sept 2026, 15:39",
       "noteDateMs": 1789396740000,
-      "mtimeMs": 1789396741354.4438,
+      "mtimeMs": 1789450164122.414,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -2045,14 +2045,14 @@
         "letter": "A",
         "slug": "Arzomand2026HARFHumanAI",
         "path": "/docs/A/Arzomand2026HARFHumanAI.md",
-        "title": "{{HARF}",
+        "title": "HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering",
         "authors": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael",
         "year": "2026",
         "journal": "Digital Applications in Archaeology and Cultural Heritage",
         "doi": "10.1016/j.daach.2026.e00554",
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
         "citation_key": "Arzomand2026HARFHumanAI",
-        "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). {{HARF} — Digital Applications in Archaeology and Cultural Heritage",
+        "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering — Digital Applications in Archaeology and Cultural Heritage",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.1 Visual analytics",
@@ -2079,7 +2079,7 @@
         ],
         "noteDate": "14 Sept 2026, 15:39",
         "noteDateMs": 1789396740000,
-        "mtimeMs": 1789396741354.4438,
+        "mtimeMs": 1789450164122.414,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
