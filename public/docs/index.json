@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:34:30.285Z",
+  "updatedAt": "2026-09-15T05:41:42.650Z",
   "entries": [
     {
       "letter": "A",
@@ -1035,6 +1035,31 @@
     },
     {
       "letter": "J",
+      "slug": "jaillantHowCanWe2025",
+      "path": "/docs/J/jaillantHowCanWe2025.md",
+      "title": "How Can We Improve the Diversity of Archival Collections with AI? Opportunities, Risks, and Solutions",
+      "authors": "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel",
+      "year": "2025",
+      "journal": "AI & SOCIETY",
+      "doi": "10.1007/s00146-025-02222-z",
+      "url": "https://link.springer.com/10.1007/s00146-025-02222-z",
+      "citation_key": "jaillantHowCanWe2025",
+      "displayTitle": "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel (2025). How Can We Improve the Diversity of Archival Collections with AI? Opportunities, Risks, and Solutions — AI & SOCIETY",
+      "model_strand": "S3",
+      "model_strand_label": "Surfacing and reactivating traces computationally",
+      "model_subcluster": "S3.2 Scoped missingness",
+      "source_type": "Context / supporting",
+      "project_tags": [
+        "Turin"
+      ],
+      "literature_clusters": [],
+      "noteDate": "15 Sept 2026, 00:00",
+      "noteDateMs": 1789426800000,
+      "mtimeMs": 1789450897608.6086,
+      "category": "S3: Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "J",
       "slug": "Jaillant2024AreUsersDigital",
       "path": "/docs/J/Jaillant2024AreUsersDigital.md",
       "title": "Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities",
@@ -1390,6 +1415,31 @@
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1789402114457.492,
+      "category": "S3: Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "N",
+      "slug": "NietoMcAvoy2024SyntheticHeritageOnlinea",
+      "path": "/docs/N/NietoMcAvoy2024SyntheticHeritageOnlinea.md",
+      "title": "Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory",
+      "authors": "Nieto McAvoy, Eva and Kidd, Jenny",
+      "year": "2024",
+      "journal": "Memory, Mind & Media",
+      "doi": "10.1017/mem.2024.10",
+      "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
+      "citation_key": "NietoMcAvoy2024SyntheticHeritageOnlinea",
+      "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory — Memory, Mind & Media",
+      "model_strand": "S3",
+      "model_strand_label": "Surfacing and reactivating traces computationally",
+      "model_subcluster": "S3.2 Scoped missingness",
+      "source_type": "Context / supporting",
+      "project_tags": [
+        "Turin"
+      ],
+      "literature_clusters": [],
+      "noteDate": "15 Sept 2026, 00:00",
+      "noteDateMs": 1789426800000,
+      "mtimeMs": 1789450897605.1074,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -2951,6 +3001,31 @@
     "J": [
       {
         "letter": "J",
+        "slug": "jaillantHowCanWe2025",
+        "path": "/docs/J/jaillantHowCanWe2025.md",
+        "title": "How Can We Improve the Diversity of Archival Collections with AI? Opportunities, Risks, and Solutions",
+        "authors": "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel",
+        "year": "2025",
+        "journal": "AI & SOCIETY",
+        "doi": "10.1007/s00146-025-02222-z",
+        "url": "https://link.springer.com/10.1007/s00146-025-02222-z",
+        "citation_key": "jaillantHowCanWe2025",
+        "displayTitle": "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel (2025). How Can We Improve the Diversity of Archival Collections with AI? Opportunities, Risks, and Solutions — AI & SOCIETY",
+        "model_strand": "S3",
+        "model_strand_label": "Surfacing and reactivating traces computationally",
+        "model_subcluster": "S3.2 Scoped missingness",
+        "source_type": "Context / supporting",
+        "project_tags": [
+          "Turin"
+        ],
+        "literature_clusters": [],
+        "noteDate": "15 Sept 2026, 00:00",
+        "noteDateMs": 1789426800000,
+        "mtimeMs": 1789450897608.6086,
+        "category": "S3: Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "J",
         "slug": "Jaillant2024AreUsersDigital",
         "path": "/docs/J/Jaillant2024AreUsersDigital.md",
         "title": "Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities",
@@ -3341,6 +3416,31 @@
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1789402114457.492,
+        "category": "S3: Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "N",
+        "slug": "NietoMcAvoy2024SyntheticHeritageOnlinea",
+        "path": "/docs/N/NietoMcAvoy2024SyntheticHeritageOnlinea.md",
+        "title": "Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory",
+        "authors": "Nieto McAvoy, Eva and Kidd, Jenny",
+        "year": "2024",
+        "journal": "Memory, Mind & Media",
+        "doi": "10.1017/mem.2024.10",
+        "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
+        "citation_key": "NietoMcAvoy2024SyntheticHeritageOnlinea",
+        "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory — Memory, Mind & Media",
+        "model_strand": "S3",
+        "model_strand_label": "Surfacing and reactivating traces computationally",
+        "model_subcluster": "S3.2 Scoped missingness",
+        "source_type": "Context / supporting",
+        "project_tags": [
+          "Turin"
+        ],
+        "literature_clusters": [],
+        "noteDate": "15 Sept 2026, 00:00",
+        "noteDateMs": 1789426800000,
+        "mtimeMs": 1789450897605.1074,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
