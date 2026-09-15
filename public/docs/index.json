@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:42:51.991Z",
+  "updatedAt": "2026-09-15T17:58:43.619Z",
   "entries": [
     {
       "letter": "A",
@@ -21,7 +21,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397347.7544,
+      "mtimeMs": 1789451508979.649,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -44,7 +44,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397348.6848,
+      "mtimeMs": 1789451508980.2551,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -67,7 +67,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1773847397346.9114,
+      "mtimeMs": 1789451508979.3728,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -90,7 +90,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397348.2375,
+      "mtimeMs": 1789451508979.9675,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -113,7 +113,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1773847397343.5315,
+      "mtimeMs": 1789451508979.068,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -136,7 +136,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397349.1956,
+      "mtimeMs": 1789451509056.1868,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -159,7 +159,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:24",
       "noteDateMs": 1779870240000,
-      "mtimeMs": 1789402114442.441,
+      "mtimeMs": 1789451509024.7007,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -198,7 +198,34 @@
       ],
       "noteDate": "14 Sept 2026, 15:39",
       "noteDateMs": 1789396740000,
-      "mtimeMs": 1789450456851.1091,
+      "mtimeMs": 1789451509025.841,
+      "category": "S3: Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "A",
+      "slug": "Asai2026SynthesizingScientificLiterature",
+      "path": "/docs/A/Asai2026SynthesizingScientificLiterature.md",
+      "title": "Synthesizing scientific literature with retrieval-augmented language models",
+      "authors": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh",
+      "year": "2026",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-025-10072-4",
+      "url": "",
+      "citation_key": "asaiSynthesizingScientificLiterature2026",
+      "displayTitle": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh (2026). Synthesizing scientific literature with retrieval-augmented language models — Nature",
+      "model_strand": "S3",
+      "model_strand_label": "Surfacing and reactivating traces computationally",
+      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "source_type": "Context / supporting",
+      "project_tags": [
+        "Turin"
+      ],
+      "literature_clusters": [
+        "02 LLM epistemic risk and persuasive fluency"
+      ],
+      "noteDate": "15 Sep 2026, 00:00",
+      "noteDateMs": 1789426800000,
+      "mtimeMs": 1789494810173.5493,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -225,7 +252,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789402114446.1833,
+      "mtimeMs": 1789451509054.7007,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -250,7 +277,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789402114447.2595,
+      "mtimeMs": 1789451509056.8826,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -275,7 +302,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114447.5593,
+      "mtimeMs": 1789451509057.4805,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -302,7 +329,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789448769342.5413,
+      "mtimeMs": 1789451509057.785,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -329,7 +356,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789402114447.9453,
+      "mtimeMs": 1789451509058.2893,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -352,7 +379,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397350.0703,
+      "mtimeMs": 1789451509058.5962,
       "category": "Bridge text"
     },
     {
@@ -375,7 +402,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397352.1682,
+      "mtimeMs": 1789451509059.721,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -398,7 +425,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397350.6934,
+      "mtimeMs": 1789451509058.8728,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -423,7 +450,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114448.7085,
+      "mtimeMs": 1789451509059.3657,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -446,7 +473,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898677.3147,
+      "mtimeMs": 1789451509060.0083,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -469,7 +496,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397352.5308,
+      "mtimeMs": 1789451509060.2798,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -496,7 +523,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789402114449.5088,
+      "mtimeMs": 1789451509060.8694,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -521,7 +548,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:42",
       "noteDateMs": 1779964920000,
-      "mtimeMs": 1789402114449.9087,
+      "mtimeMs": 1789451509061.4631,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -544,7 +571,7 @@
       "literature_clusters": [],
       "noteDate": "23 Mar 2026, 09:00",
       "noteDateMs": 1774256400000,
-      "mtimeMs": 1774255524415.5854,
+      "mtimeMs": 1789451509061.7466,
       "category": "Critiques of archival studies"
     },
     {
@@ -567,7 +594,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 10:24",
       "noteDateMs": 1779873840000,
-      "mtimeMs": 1789397423947.4436,
+      "mtimeMs": 1789451509062.051,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -594,7 +621,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789402114450.7056,
+      "mtimeMs": 1789451509062.4717,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -617,7 +644,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:21",
       "noteDateMs": 1779963660000,
-      "mtimeMs": 1789397423947.901,
+      "mtimeMs": 1789451509062.8203,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -640,7 +667,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:14",
       "noteDateMs": 1779869640000,
-      "mtimeMs": 1789402114451.485,
+      "mtimeMs": 1789451509063.4673,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -665,7 +692,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789402114451.8313,
+      "mtimeMs": 1789451509064.04,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -688,7 +715,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898678.443,
+      "mtimeMs": 1789451509064.3904,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -711,7 +738,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1773847397353.3374,
+      "mtimeMs": 1789451509064.7085,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -734,7 +761,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898679.397,
+      "mtimeMs": 1789451509065.029,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -761,7 +788,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789399853585.6877,
+      "mtimeMs": 1789451509065.4297,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -786,7 +813,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026, 05:52",
       "noteDateMs": 1773726720000,
-      "mtimeMs": 1789402114452.624,
+      "mtimeMs": 1789451509066.1013,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -811,7 +838,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789402114453.0864,
+      "mtimeMs": 1789451509066.6453,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -834,7 +861,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397354.1714,
+      "mtimeMs": 1789451509066.995,
       "category": "Bridge text"
     },
     {
@@ -857,7 +884,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026, 10:17",
       "noteDateMs": 1773829020000,
-      "mtimeMs": 1773847397354.4856,
+      "mtimeMs": 1789451509067.2764,
       "category": "S2: Bridge text"
     },
     {
@@ -880,7 +907,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 10:10",
       "noteDateMs": 1779873000000,
-      "mtimeMs": 1789402114453.9678,
+      "mtimeMs": 1789451509067.8914,
       "category": "S3.1 Visual analytics"
     },
     {
@@ -907,7 +934,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789449503763.4841,
+      "mtimeMs": 1789451509068.1492,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -930,7 +957,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397354.8093,
+      "mtimeMs": 1789451509068.5215,
       "category": "Bridge text"
     },
     {
@@ -953,7 +980,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898680.7393,
+      "mtimeMs": 1789451509068.8135,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -980,7 +1007,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789399870133.9375,
+      "mtimeMs": 1789451509069.1733,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1003,7 +1030,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898681.1377,
+      "mtimeMs": 1789451509069.4858,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1030,7 +1057,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789402114454.75,
+      "mtimeMs": 1789451509069.942,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1055,7 +1082,7 @@
       "literature_clusters": [],
       "noteDate": "15 Sept 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789450903632.0977,
+      "mtimeMs": 1789451509071.6392,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1078,7 +1105,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397355.144,
+      "mtimeMs": 1789451509070.2607,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1101,7 +1128,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397355.345,
+      "mtimeMs": 1789451509071.1382,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -1124,7 +1151,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773911898681.925,
+      "mtimeMs": 1789451509071.4563,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -1147,7 +1174,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898682.6182,
+      "mtimeMs": 1789451509071.9426,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1170,7 +1197,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397355.917,
+      "mtimeMs": 1789451509072.2175,
       "category": "Bridge text"
     },
     {
@@ -1199,7 +1226,7 @@
       ],
       "noteDate": "27 May 2026, 08:52",
       "noteDateMs": 1779868320000,
-      "mtimeMs": 1789402114455.1282,
+      "mtimeMs": 1789451509070.8015,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1222,7 +1249,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397356.6597,
+      "mtimeMs": 1789451509073.0662,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1245,7 +1272,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:45",
       "noteDateMs": 1779871500000,
-      "mtimeMs": 1789397423952.003,
+      "mtimeMs": 1789451509073.4004,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1268,7 +1295,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789402114456.5828,
+      "mtimeMs": 1789451509074.102,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1291,7 +1318,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397356.2546,
+      "mtimeMs": 1789451509072.766,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1314,7 +1341,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898683.8015,
+      "mtimeMs": 1789451509074.4597,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1339,7 +1366,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:46",
       "noteDateMs": 1779965160000,
-      "mtimeMs": 1789402114457.194,
+      "mtimeMs": 1789451509075.7917,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -1364,7 +1391,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789402114456.9236,
+      "mtimeMs": 1789451509075.1587,
       "category": "Bridge text"
     },
     {
@@ -1387,7 +1414,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898684.5015,
+      "mtimeMs": 1789451509076.1807,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1414,7 +1441,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789402114457.492,
+      "mtimeMs": 1789451509076.6062,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1439,7 +1466,7 @@
       "literature_clusters": [],
       "noteDate": "15 Sept 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789450903632.0889,
+      "mtimeMs": 1789451509076.791,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1466,7 +1493,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789449657088.6243,
+      "mtimeMs": 1789451509079.4905,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1489,7 +1516,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114457.7617,
+      "mtimeMs": 1789451509077.4468,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1516,7 +1543,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789448858484.4126,
+      "mtimeMs": 1789451509077.9233,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1543,7 +1570,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789449249625.8523,
+      "mtimeMs": 1789451509078.2368,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1566,7 +1593,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397357.2102,
+      "mtimeMs": 1789451509078.5852,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -1591,7 +1618,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114458.3616,
+      "mtimeMs": 1789451509079.1619,
       "category": "Bridge text"
     },
     {
@@ -1618,7 +1645,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789399854086.3455,
+      "mtimeMs": 1789451509079.727,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1645,7 +1672,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789449002093.5095,
+      "mtimeMs": 1789451509080.0276,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1668,7 +1695,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:09",
       "noteDateMs": 1779869340000,
-      "mtimeMs": 1789397423953.9988,
+      "mtimeMs": 1789451509080.4219,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1691,7 +1718,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:36",
       "noteDateMs": 1779964560000,
-      "mtimeMs": 1789397423954.6956,
+      "mtimeMs": 1789451509080.9617,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1716,7 +1743,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114459.2646,
+      "mtimeMs": 1789451509081.4814,
       "category": "Bridge text"
     },
     {
@@ -1743,7 +1770,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789449040807.672,
+      "mtimeMs": 1789451509081.7837,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1766,7 +1793,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114459.758,
+      "mtimeMs": 1789451509082.3804,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1791,7 +1818,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114459.956,
+      "mtimeMs": 1789451509082.9958,
       "category": "Bridge text"
     },
     {
@@ -1816,7 +1843,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789402114460.3594,
+      "mtimeMs": 1789451509083.579,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1839,8 +1866,35 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397359.1682,
+      "mtimeMs": 1789451509083.93,
       "category": "Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "W",
+      "slug": "Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration",
+      "path": "/docs/W/Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration.md",
+      "title": "RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning",
+      "authors": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting",
+      "year": "2025",
+      "journal": "arXiv",
+      "doi": "10.48550/ARXIV.2506.11555",
+      "url": "",
+      "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
+      "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning — arXiv",
+      "model_strand": "S3",
+      "model_strand_label": "Surfacing and reactivating traces computationally",
+      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "source_type": "Context / supporting",
+      "project_tags": [
+        "Turin"
+      ],
+      "literature_clusters": [
+        "02 LLM epistemic risk and persuasive fluency"
+      ],
+      "noteDate": "15 Sep 2026, 00:00",
+      "noteDateMs": 1789426800000,
+      "mtimeMs": 1789494810173.7502,
+      "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "X",
@@ -1866,7 +1920,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789399853960.8354,
+      "mtimeMs": 1789451509083.93,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1891,7 +1945,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:19",
       "noteDateMs": 1779869940000,
-      "mtimeMs": 1789402114460.9812,
+      "mtimeMs": 1789451509084.7075,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1918,7 +1972,34 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789449241492.1611,
+      "mtimeMs": 1789451509085.0374,
+      "category": "S3: Surfacing and reactivating traces computationally"
+    },
+    {
+      "letter": "Z",
+      "slug": "Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration",
+      "path": "/docs/Z/Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration.md",
+      "title": "ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation",
+      "authors": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen",
+      "year": "2025",
+      "journal": "arXiv",
+      "doi": "10.48550/ARXIV.2508.20131",
+      "url": "",
+      "citation_key": "zhuArgRAGExplainableRetrieval2025",
+      "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation — arXiv",
+      "model_strand": "S3",
+      "model_strand_label": "Surfacing and reactivating traces computationally",
+      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "source_type": "Context / supporting",
+      "project_tags": [
+        "Turin"
+      ],
+      "literature_clusters": [
+        "02 LLM epistemic risk and persuasive fluency"
+      ],
+      "noteDate": "15 Sep 2026, 00:00",
+      "noteDateMs": 1789426800000,
+      "mtimeMs": 1789494810173.8564,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1945,7 +2026,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789449175315.1013,
+      "mtimeMs": 1789451509072.4763,
       "category": "S3: Surfacing and reactivating traces computationally"
     }
   ],
@@ -1971,7 +2052,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397347.7544,
+        "mtimeMs": 1789451508979.649,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -1994,7 +2075,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397348.6848,
+        "mtimeMs": 1789451508980.2551,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -2017,7 +2098,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1773847397346.9114,
+        "mtimeMs": 1789451508979.3728,
         "category": "S1: Historicising contested design knowledge"
       },
       {
@@ -2040,7 +2121,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397348.2375,
+        "mtimeMs": 1789451508979.9675,
         "category": "S1: Historicising contested design knowledge"
       },
       {
@@ -2063,7 +2144,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1773847397343.5315,
+        "mtimeMs": 1789451508979.068,
         "category": "S1: Historicising contested design knowledge"
       },
       {
@@ -2086,7 +2167,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:24",
         "noteDateMs": 1779870240000,
-        "mtimeMs": 1789402114442.441,
+        "mtimeMs": 1789451509024.7007,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2125,7 +2206,34 @@
         ],
         "noteDate": "14 Sept 2026, 15:39",
         "noteDateMs": 1789396740000,
-        "mtimeMs": 1789450456851.1091,
+        "mtimeMs": 1789451509025.841,
+        "category": "S3: Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "A",
+        "slug": "Asai2026SynthesizingScientificLiterature",
+        "path": "/docs/A/Asai2026SynthesizingScientificLiterature.md",
+        "title": "Synthesizing scientific literature with retrieval-augmented language models",
+        "authors": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh",
+        "year": "2026",
+        "journal": "Nature",
+        "doi": "10.1038/s41586-025-10072-4",
+        "url": "",
+        "citation_key": "asaiSynthesizingScientificLiterature2026",
+        "displayTitle": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh (2026). Synthesizing scientific literature with retrieval-augmented language models — Nature",
+        "model_strand": "S3",
+        "model_strand_label": "Surfacing and reactivating traces computationally",
+        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "source_type": "Context / supporting",
+        "project_tags": [
+          "Turin"
+        ],
+        "literature_clusters": [
+          "02 LLM epistemic risk and persuasive fluency"
+        ],
+        "noteDate": "15 Sep 2026, 00:00",
+        "noteDateMs": 1789426800000,
+        "mtimeMs": 1789494810173.5493,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2152,7 +2260,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789402114446.1833,
+        "mtimeMs": 1789451509054.7007,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -2177,7 +2285,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397349.1956,
+        "mtimeMs": 1789451509056.1868,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -2202,7 +2310,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789402114447.2595,
+        "mtimeMs": 1789451509056.8826,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2227,7 +2335,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114447.5593,
+        "mtimeMs": 1789451509057.4805,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2254,7 +2362,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789448769342.5413,
+        "mtimeMs": 1789451509057.785,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2281,7 +2389,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789402114447.9453,
+        "mtimeMs": 1789451509058.2893,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2304,7 +2412,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397350.0703,
+        "mtimeMs": 1789451509058.5962,
         "category": "Bridge text"
       },
       {
@@ -2327,7 +2435,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397352.1682,
+        "mtimeMs": 1789451509059.721,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2350,7 +2458,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397350.6934,
+        "mtimeMs": 1789451509058.8728,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2375,7 +2483,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114448.7085,
+        "mtimeMs": 1789451509059.3657,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2398,7 +2506,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898677.3147,
+        "mtimeMs": 1789451509060.0083,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2421,7 +2529,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397352.5308,
+        "mtimeMs": 1789451509060.2798,
         "category": "Historicising contested design knowledge"
       }
     ],
@@ -2450,7 +2558,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789402114449.5088,
+        "mtimeMs": 1789451509060.8694,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2475,7 +2583,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:42",
         "noteDateMs": 1779964920000,
-        "mtimeMs": 1789402114449.9087,
+        "mtimeMs": 1789451509061.4631,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -2498,7 +2606,7 @@
         "literature_clusters": [],
         "noteDate": "23 Mar 2026, 09:00",
         "noteDateMs": 1774256400000,
-        "mtimeMs": 1774255524415.5854,
+        "mtimeMs": 1789451509061.7466,
         "category": "Critiques of archival studies"
       },
       {
@@ -2521,7 +2629,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 10:24",
         "noteDateMs": 1779873840000,
-        "mtimeMs": 1789397423947.4436,
+        "mtimeMs": 1789451509062.051,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2548,7 +2656,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789402114450.7056,
+        "mtimeMs": 1789451509062.4717,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2571,7 +2679,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:21",
         "noteDateMs": 1779963660000,
-        "mtimeMs": 1789397423947.901,
+        "mtimeMs": 1789451509062.8203,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -2594,7 +2702,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:14",
         "noteDateMs": 1779869640000,
-        "mtimeMs": 1789402114451.485,
+        "mtimeMs": 1789451509063.4673,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2619,7 +2727,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789402114451.8313,
+        "mtimeMs": 1789451509064.04,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2642,7 +2750,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898678.443,
+        "mtimeMs": 1789451509064.3904,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2665,7 +2773,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1773847397353.3374,
+        "mtimeMs": 1789451509064.7085,
         "category": "S1: Historicising contested design knowledge"
       }
     ],
@@ -2690,7 +2798,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898679.397,
+        "mtimeMs": 1789451509065.029,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2717,7 +2825,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789399853585.6877,
+        "mtimeMs": 1789451509065.4297,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2742,7 +2850,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026, 05:52",
         "noteDateMs": 1773726720000,
-        "mtimeMs": 1789402114452.624,
+        "mtimeMs": 1789451509066.1013,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2767,7 +2875,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789402114453.0864,
+        "mtimeMs": 1789451509066.6453,
         "category": "Recording, organising, and obscuring traces"
       }
     ],
@@ -2792,7 +2900,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397354.1714,
+        "mtimeMs": 1789451509066.995,
         "category": "Bridge text"
       },
       {
@@ -2815,7 +2923,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026, 10:17",
         "noteDateMs": 1773829020000,
-        "mtimeMs": 1773847397354.4856,
+        "mtimeMs": 1789451509067.2764,
         "category": "S2: Bridge text"
       }
     ],
@@ -2840,7 +2948,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 10:10",
         "noteDateMs": 1779873000000,
-        "mtimeMs": 1789402114453.9678,
+        "mtimeMs": 1789451509067.8914,
         "category": "S3.1 Visual analytics"
       },
       {
@@ -2867,7 +2975,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789449503763.4841,
+        "mtimeMs": 1789451509068.1492,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2890,7 +2998,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397354.8093,
+        "mtimeMs": 1789451509068.5215,
         "category": "Bridge text"
       },
       {
@@ -2913,7 +3021,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898680.7393,
+        "mtimeMs": 1789451509068.8135,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2940,7 +3048,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789399870133.9375,
+        "mtimeMs": 1789451509069.1733,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -2965,7 +3073,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898681.1377,
+        "mtimeMs": 1789451509069.4858,
         "category": "Surfacing and reactivating traces computationally"
       }
     ],
@@ -2994,7 +3102,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789402114454.75,
+        "mtimeMs": 1789451509069.942,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3021,7 +3129,7 @@
         "literature_clusters": [],
         "noteDate": "15 Sept 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789450903632.0977,
+        "mtimeMs": 1789451509071.6392,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3044,7 +3152,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397355.144,
+        "mtimeMs": 1789451509070.2607,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -3067,7 +3175,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397355.345,
+        "mtimeMs": 1789451509071.1382,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -3090,7 +3198,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773911898681.925,
+        "mtimeMs": 1789451509071.4563,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -3119,7 +3227,7 @@
         ],
         "noteDate": "27 May 2026, 08:52",
         "noteDateMs": 1779868320000,
-        "mtimeMs": 1789402114455.1282,
+        "mtimeMs": 1789451509070.8015,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3144,7 +3252,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898682.6182,
+        "mtimeMs": 1789451509071.9426,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -3167,7 +3275,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397355.917,
+        "mtimeMs": 1789451509072.2175,
         "category": "Bridge text"
       }
     ],
@@ -3192,7 +3300,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397356.6597,
+        "mtimeMs": 1789451509073.0662,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3215,7 +3323,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:45",
         "noteDateMs": 1779871500000,
-        "mtimeMs": 1789397423952.003,
+        "mtimeMs": 1789451509073.4004,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3238,7 +3346,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789402114456.5828,
+        "mtimeMs": 1789451509074.102,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3261,7 +3369,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898683.8015,
+        "mtimeMs": 1789451509074.4597,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3286,7 +3394,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:46",
         "noteDateMs": 1779965160000,
-        "mtimeMs": 1789402114457.194,
+        "mtimeMs": 1789451509075.7917,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -3311,7 +3419,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789402114456.9236,
+        "mtimeMs": 1789451509075.1587,
         "category": "Bridge text"
       }
     ],
@@ -3336,7 +3444,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397356.2546,
+        "mtimeMs": 1789451509072.766,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3363,7 +3471,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789449175315.1013,
+        "mtimeMs": 1789451509072.4763,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3388,7 +3496,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898684.5015,
+        "mtimeMs": 1789451509076.1807,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -3415,7 +3523,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789402114457.492,
+        "mtimeMs": 1789451509076.6062,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3440,7 +3548,7 @@
         "literature_clusters": [],
         "noteDate": "15 Sept 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789450903632.0889,
+        "mtimeMs": 1789451509076.791,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3469,7 +3577,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789449657088.6243,
+        "mtimeMs": 1789451509079.4905,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3496,7 +3604,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789399854086.3455,
+        "mtimeMs": 1789451509079.727,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3521,7 +3629,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114457.7617,
+        "mtimeMs": 1789451509077.4468,
         "category": "Surfacing and reactivating traces computationally"
       }
     ],
@@ -3550,7 +3658,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789448858484.4126,
+        "mtimeMs": 1789451509077.9233,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3577,7 +3685,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789449249625.8523,
+        "mtimeMs": 1789451509078.2368,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3600,7 +3708,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397357.2102,
+        "mtimeMs": 1789451509078.5852,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -3625,7 +3733,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114458.3616,
+        "mtimeMs": 1789451509079.1619,
         "category": "Bridge text"
       }
     ],
@@ -3654,7 +3762,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789449002093.5095,
+        "mtimeMs": 1789451509080.0276,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3677,7 +3785,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:09",
         "noteDateMs": 1779869340000,
-        "mtimeMs": 1789397423953.9988,
+        "mtimeMs": 1789451509080.4219,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3702,7 +3810,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:36",
         "noteDateMs": 1779964560000,
-        "mtimeMs": 1789397423954.6956,
+        "mtimeMs": 1789451509080.9617,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3727,7 +3835,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114459.2646,
+        "mtimeMs": 1789451509081.4814,
         "category": "Bridge text"
       },
       {
@@ -3754,7 +3862,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789449040807.672,
+        "mtimeMs": 1789451509081.7837,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3777,7 +3885,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114459.758,
+        "mtimeMs": 1789451509082.3804,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3802,7 +3910,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114459.956,
+        "mtimeMs": 1789451509082.9958,
         "category": "Bridge text"
       }
     ],
@@ -3829,7 +3937,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789402114460.3594,
+        "mtimeMs": 1789451509083.579,
         "category": "Recording, organising, and obscuring traces"
       }
     ],
@@ -3854,8 +3962,37 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397359.1682,
+        "mtimeMs": 1789451509083.93,
         "category": "Surfacing and reactivating traces computationally"
+      }
+    ],
+    "W": [
+      {
+        "letter": "W",
+        "slug": "Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration",
+        "path": "/docs/W/Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration.md",
+        "title": "RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning",
+        "authors": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting",
+        "year": "2025",
+        "journal": "arXiv",
+        "doi": "10.48550/ARXIV.2506.11555",
+        "url": "",
+        "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
+        "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning — arXiv",
+        "model_strand": "S3",
+        "model_strand_label": "Surfacing and reactivating traces computationally",
+        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "source_type": "Context / supporting",
+        "project_tags": [
+          "Turin"
+        ],
+        "literature_clusters": [
+          "02 LLM epistemic risk and persuasive fluency"
+        ],
+        "noteDate": "15 Sep 2026, 00:00",
+        "noteDateMs": 1789426800000,
+        "mtimeMs": 1789494810173.7502,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
     "X": [
@@ -3883,7 +4020,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789399853960.8354,
+        "mtimeMs": 1789451509083.93,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3910,7 +4047,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:19",
         "noteDateMs": 1779869940000,
-        "mtimeMs": 1789402114460.9812,
+        "mtimeMs": 1789451509084.7075,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3939,7 +4076,34 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789449241492.1611,
+        "mtimeMs": 1789451509085.0374,
+        "category": "S3: Surfacing and reactivating traces computationally"
+      },
+      {
+        "letter": "Z",
+        "slug": "Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration",
+        "path": "/docs/Z/Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration.md",
+        "title": "ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation",
+        "authors": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen",
+        "year": "2025",
+        "journal": "arXiv",
+        "doi": "10.48550/ARXIV.2508.20131",
+        "url": "",
+        "citation_key": "zhuArgRAGExplainableRetrieval2025",
+        "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation — arXiv",
+        "model_strand": "S3",
+        "model_strand_label": "Surfacing and reactivating traces computationally",
+        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "source_type": "Context / supporting",
+        "project_tags": [
+          "Turin"
+        ],
+        "literature_clusters": [
+          "02 LLM epistemic risk and persuasive fluency"
+        ],
+        "noteDate": "15 Sep 2026, 00:00",
+        "noteDateMs": 1789426800000,
+        "mtimeMs": 1789494810173.8564,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ]
