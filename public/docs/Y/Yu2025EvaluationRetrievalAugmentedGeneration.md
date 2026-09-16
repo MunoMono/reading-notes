@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of Retrieval-Augmented Generation: A Survey"
+title: "Evaluation of retrieval-augmented generation: a survey"
 authors: "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng"
 year: 2025
 journal: ""
@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 09:19"
-last_updated: "14 Sept 2026, 17:08"
+last_updated: "16 Sept 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -27,7 +27,15 @@ model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Core text"
 project_tags:
   - "Turin"
-constraints_source: "project/constraints.md"---
+  - "Thesis"
+literature_clusters:
+  - "03 RAG, retrieval and source attribution"
+  - "07 Interface authority, ranking and retrieval bias"
+  - "09 Human judgement and practice-led computational research"
+  - "11 Uncertainty and provenance display in interfaces"
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -35,11 +43,10 @@ constraints_source: "project/constraints.md"---
 **Primary strand:** S3 — Surfacing and reactivating traces computationally  
 **Sub-cluster:** S3.3 Retrieval-augmented inference  
 **Source type:** Core text  
+**Project/output tags:** Turin, Thesis  
+**Literature clusters:** 03 RAG, retrieval and source attribution; 07 Interface authority, ranking and retrieval bias; 09 Human judgement and practice-led computational research; 11 Uncertainty and provenance display in interfaces  
 
-**Seams to watch:**
-- When computational methods clarify or distort contested traces
-- How retrieval quality affects the claims that can be made from generated summaries
-- How to evaluate a RAG layer before using it as part of an archive-facing method
+**Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
@@ -53,158 +60,99 @@ constraints_source: "project/constraints.md"---
 
 # Thesis job (do this first)
 
-**Project research question(s) this serves:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 
-**Why I’m reading this now:**  
-I am reading this to give the DDR RAG layer a defensible evaluation frame before treating its outputs as useful for archival discovery, summarisation or interpretation.
+**Why I’m reading this now (1 sentence):**  
+I need a defensible evaluation architecture for the DDR retrieval layer so that generated historical interpretations can be diagnosed in terms of retrieval quality, source grounding, response quality and whole-system behaviour rather than accepted or rejected as undifferentiated AI outputs.
 
-**Where it sits in my argument:**  
-S3.2 Interpretability, provenance and retrieval: this source helps me specify how RAG outputs should be checked, including retrieval relevance, generation faithfulness, answer relevance, correctness, robustness and whole-system performance.
+**Where it sits in my argument (chapter/section + what it helps me say):**  
+S3.3 retrieval-augmented inference and the Turin methodological evaluation section. It provides the technical spine for separating retrieval relevance and accuracy from generation relevance, faithfulness and correctness, while also identifying whole-system requirements such as diversity, robustness and negative rejection.
 
-**Why this term, not alternatives:**  
-“Evaluation” is useful because it shifts the discussion from whether RAG is promising to how its claims are tested. For my project, this matters because a DDR RAG output is only useful if I can show whether the right material was retrieved, whether the generated answer stays faithful to that material, and whether the answer is relevant to the archival question.
+**Why this term, not alternatives (1–2 lines):**  
+I use *RAG evaluation* for testing the retrieval-and-generation substrate and *inference validation* for the additional historical judgement applied after retrieval. Yu et al.'s framework evaluates whether the system works as RAG; it does not by itself establish whether a historical interpretation is warranted.
 
-**My benchmark for using it:**  
-I will use this source when I need a structured checklist for assessing a RAG workflow. I will not use it as a humanities theory source, and I will avoid importing metrics mechanically where a qualitative archival judgement is more appropriate.
+**My benchmark for using it (1–2 criteria I will apply):**  
+Use Yu et al. to structure evaluation into retrieval, generation and whole-system checks. Adapt rather than mechanically import correctness metrics where DDR questions admit plural interpretations or lack a singular ground truth.
 
-# Position + moment
+# Position + moment (2–4 lines)
 
-Yu et al. write from NLP and information-retrieval research. Their survey responds to the rapid adoption of RAG systems and the problem that RAG evaluation is harder than evaluating a conventional search engine or a standalone language model.
+Yu et al. write from NLP, information retrieval and industrial AI research at a moment when RAG systems were proliferating faster than shared methods for evaluating them. Their survey synthesises twelve contemporary frameworks and proposes Auepora—A Unified Evaluation Process of RAG—as a way of organising evaluation by target, dataset and metric. The contribution is therefore taxonomic and methodological rather than an evaluation of one particular RAG system.
 
-The paper’s key contribution is Auepora, a unified evaluation process that separates what is being evaluated, what dataset is used, and what metric is applied. It is technical, but it is useful for humanities-facing RAG because it makes the system’s moving parts visible: retrieval, generation, their interaction, and the additional requirements that affect real use.
+**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
+Much RAG evaluation assumes that relevant documents and correct answers can be specified as ground truth. Contested archival research complicates this assumption because retrieval may surface several differently situated sources, and a historically responsible output may preserve disagreement rather than converge on one reference answer.
 
-**Canon assumptions to problematise / update for 2026:**  
-The paper updates the assumption that RAG quality can be judged by answer fluency. A fluent answer may still be poorly retrieved, unfaithful to its sources, irrelevant to the question, or generated from insufficient evidence.
+# The author’s main move (1 sentence)
 
-# The author’s main move
+They try to make RAG evaluation systematic by separating retrieval, generation and whole-system assessment and mapping each evaluable output to appropriate ground truths, datasets and metrics.
 
-Yu et al. survey RAG evaluation methods by separating retrieval, generation and whole-system assessment in order to propose a structured framework for testing relevance, accuracy, faithfulness, correctness and practical performance.
-
-# Three-claim evidence ledger
-
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Three-claim evidence ledger (max 3 claims)
 
 ## Claim 1
 
-- **Claim:**  
-  RAG evaluation must separate retrieval quality from generation quality.
-
-- **Evidence:**  
-  Yu et al. describe RAG as a hybrid system with two primary components: retrieval and generation [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 2]. Their Figure 1 on page 2 visualises the RAG structure as indexing, search, prompting and inferencing, with distinct evaluable outputs and ground truths for each stage [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 2]. They argue that evaluating RAG systems requires attention to both the specific components and the complexity of the overall system [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 2–4].
-
-- **Warrant:**  
-  This supports the claim because a RAG answer can fail in different places. It may retrieve the wrong documents, retrieve too few relevant documents, generate a plausible answer that is not grounded in the retrieved material, or generate an answer that is grounded but irrelevant to the user’s question.
-
-- **So what for my thesis:**  
-  In the DDR project, a RAG output should be logged in parts: query, retrieved records, retrieval judgement, generated answer, faithfulness judgement and archival interpretation. The generated answer alone is not the method.
-
-- **Practice cross-check:**  
-  TODO: create a DDR RAG evaluation table with separate columns for retrieval relevance, retrieval coverage, answer relevance, faithfulness to retrieved records, and manual archival judgement.
+- **Claim (plain):** RAG quality cannot be evaluated from the generated answer alone because retrieval and generation constitute distinct sources of success and failure.
+- **Evidence (quote/paraphrase + page):** Yu et al. divide RAG into retrieval and generation components and further decompose these into indexing, search, prompting and inferencing. Figure 1 maps distinct evaluable outputs and ground truths onto these stages. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 2]` They state that evaluating hybrid RAG entails evaluating retrieval, generation and “the RAG system as a whole”. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 3–4]`
+- **Warrant (my words):** A plausible but defective answer can arise from irrelevant retrieval, incomplete retrieval, poor use of relevant evidence or unsupported generation. These failure modes require different diagnoses and remedies.
+- **So what for my thesis (a reusable sentence):** The evidential quality of a retrieval-augmented historical interpretation should be assessed stage by stage: what was retrieved, how that evidence was used and what the final synthesis subsequently claimed.
+- **Practice cross-check:** Turin evaluation log: query → retrieved DDR traces and ranks → retrieval judgement → generated interpretation → source-grounding judgement → historical/inferential judgement.
 
 ## Claim 2
 
-- **Claim:**  
-  The most useful RAG checks for archival work are relevance, faithfulness and correctness.
-
-- **Evidence:**  
-  Yu et al. define retrieval relevance as how well retrieved documents match the information need expressed in the query [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]. They define generation relevance as how well the generated response aligns with the query, faithfulness as whether the response accurately reflects the retrieved documents, and correctness as whether the response matches a ground-truth or sample response [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 5–6].
-
-- **Warrant:**  
-  These distinctions are useful because archival RAG needs to be judged against both the question and the source material. A generated answer may be relevant but not faithful, faithful but incomplete, or correct in a narrow sense while missing important context.
-
-- **So what for my thesis:**  
-  I can use these categories to evaluate DDR RAG outputs before deciding whether they support a thesis claim. Relevance checks whether the answer addresses the question; faithfulness checks whether it stays with the retrieved records; correctness checks whether it survives comparison with a known or manually verified answer.
-
-- **Practice cross-check:**  
-  TODO: apply a three-part score to five DDR RAG answers: relevance to query, faithfulness to retrieved records, correctness after manual source inspection. Add a short note explaining any failure.
+- **Claim (plain):** Relevance, faithfulness and correctness evaluate different relationships and should not be collapsed into a single notion of answer quality.
+- **Evidence (quote/paraphrase + page):** In the Auepora target model, retrieval relevance measures the relationship between retrieved documents and the query, while generation relevance measures the relationship between response and query. Faithfulness evaluates consistency between the generated response and retrieved documents, and correctness compares the response with a sample or ground-truth response. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]` Figure 2 on p. 5 visually separates these pairwise relationships.
+- **Warrant (my words):** A response can answer the question yet misrepresent its sources; it can faithfully summarise its sources yet be based on an inadequate evidence set; and it can diverge from a reference answer because the question itself supports more than one interpretation.
+- **So what for my thesis:** Faithfulness to retrieved evidence is necessary but insufficient for historical warrant: DDR evaluation must additionally ask whether the retrieved evidence is adequate, whether relevant counter-evidence is absent and whether the relationship asserted by the synthesis exceeds what those traces establish.
+- **Practice cross-check:** Turin UAT should distinguish: retrieval relevance; retrieval coverage/adequacy; claim-to-source faithfulness; answer relevance; and historical warrant after manual source inspection.
 
 ## Claim 3
 
-- **Claim:**  
-  End-to-end RAG evaluation must include practical requirements such as robustness, rejection, diversity and latency.
+- **Claim (plain):** A useful RAG system must be evaluated for its behaviour when evidence is noisy, diverse, contradictory or insufficient, not merely when it can produce an answer.
+- **Evidence (quote/paraphrase + page):** Yu et al. treat latency, diversity, noise robustness, negative rejection and counterfactual robustness as additional RAG requirements. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12]` Negative rejection is specifically defined as the system's ability to withhold a response when information is insufficient or too ambiguous, while noise robustness concerns irrelevant or misleading information and counterfactual robustness concerns detecting incorrect retrieved material. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 12]`
+- **Warrant (my words):** Real archival inquiry includes questions whose evidence is partial, conflicting or simply unavailable. Evaluating only successful answer generation would reward exactly the completion behaviour that scoped missingness is designed to constrain.
+- **So what for my thesis:** A research-facing archival system should be evaluated partly on its capacity not to overclaim: insufficient evidence, contradiction and ambiguity must be legitimate system outcomes rather than treated as generation failures.
+- **Practice cross-check:** Turin scoped-missingness test set: include unanswerable queries, conflicting testimony, deliberately noisy retrieval, ambiguous attribution and counterfactual statements, then test whether the system qualifies or stops inference appropriately.
 
-- **Evidence:**  
-  Yu et al. argue that whole-system RAG evaluation cannot be understood by assessing retrieval and generation in isolation [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 4]. They also identify additional requirements beyond retrieval and generation, including latency, diversity, noise robustness, negative rejection and counterfactual robustness [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12].
+# Definitions / terms this changes (only the ones that matter)
 
-- **Warrant:**  
-  This matters because a RAG layer used with archival material is also an interface. It needs to work under imperfect conditions: ambiguous questions, irrelevant retrieved records, contradictory evidence, incomplete metadata, and cases where the system should say that the available evidence is insufficient.
+- **Auepora:** “A Unified Evaluation Process of RAG”, structured around *What to Evaluate?*, *How to Evaluate?* and *How to Measure?*, corresponding to target, dataset and metric. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 4–5]`
+- **Retrieval relevance:** how well retrieved documents match the information need expressed by the query. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]`
+- **Retrieval accuracy:** how effectively the retrieval system identifies and ranks relevant documents over irrelevant candidates. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]`
+- **Generation relevance:** how closely the response aligns with the intent and requirements of the original query. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]`
+- **Faithfulness:** consistency between the generated response and the information contained in the retrieved documents. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]`
+- **Correctness:** agreement between a generated response and a designated sample or ground-truth response. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]`
+- **Negative rejection:** the ability to refrain from providing an answer when available information is insufficient or too ambiguous. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12]`
+- **Noise robustness:** the ability to withstand irrelevant or misleading retrieved information without degrading the response. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12]`
+- **Archival adequacy:** my additional criterion for DDR: whether the retrieved evidence surface is sufficiently representative and contextually appropriate to support the historical inference being attempted, including relevant contradiction and absence.
 
-- **So what for my thesis:**  
-  A DDR RAG layer should be evaluated not only on whether it can answer, but on whether it can decline, qualify, expose uncertainty and avoid overclaiming from partial records.
+# My response (no antithesis; state positives)
 
-- **Practice cross-check:**  
-  TODO: add “insufficient evidence / should not answer” test questions to the DDR RAG evaluation set. Include at least one deliberately ambiguous query and one query where the archive subset does not contain enough evidence.
+- **What I take from this (1–3 bullets):**
+  - The paper gives me the technical evaluation spine for Turin: retrieval, generation and whole-system behaviour should be assessed separately.
+  - Faithfulness is essential because it asks whether generated statements remain grounded in retrieved sources, but it needs to be supplemented by archival adequacy and historical warrant.
+  - Negative rejection, noise robustness and diversity are especially valuable for the DDR because they move evaluation beyond “can the system answer?” towards “does the system behave responsibly under imperfect evidential conditions?”
 
-# Definitions / terms this changes
+- **What I reframe / adjust (1–2 bullets, stated positively):**
+  - I replace singular *correctness* with *historical warrant* where there is no defensible single reference answer: the question becomes whether the claim is supportable from the available traces and appropriately qualified.
+  - I expand retrieval quality beyond relevance to include representational adequacy: a relevant top-k result may still omit contradictory, marginal or poorly indexed evidence.
 
-- **Auepora:**  
-  Yu et al.’s “A Unified Evaluation Process of RAG”, organised around three questions: what to evaluate, how to evaluate, and how to measure [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 4]. I can adapt this as a lightweight DDR RAG evaluation checklist.
+- **What question it raises next (1–2 bullets):**
+  - What is the smallest DDR evaluation set that can separately expose retrieval failure, synthesis failure, inferential overreach and genuine corpus-level missingness?
+  - How should I distinguish a system that faithfully reports an incomplete retrieval set from one that has produced a historically adequate answer?
 
-- **Retrieval relevance:**  
-  The degree to which retrieved documents match the user’s query or information need [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]. For DDR, this means checking whether the retrieved traces are actually relevant to the archival question.
+# Integration hooks (make it actionable)
 
-- **Retrieval accuracy:**  
-  The degree to which retrieved documents are correctly identified and ranked in relation to candidate documents [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]. For DDR, this may require manual judgement because there may be no complete ground-truth set.
+- **Where I will cite it (exact paragraph/job):** In the Turin methods section where the RAG substrate is evaluated before retrieval-augmented inference is discussed: establish separate checks for retrieval relevance, response relevance, faithfulness and practical robustness, then explain why historical interpretation requires further source-critical validation.
+- **Where I will name the title in running text (first-use rule):** “Yu et al.'s *Evaluation of Retrieval-Augmented Generation: A Survey* provides a useful technical framework for separating retrieval quality, generation quality and whole-system RAG performance.”
+- **Link to my practice evidence (one concrete cross-reference):** Turin UAT / Findings Matrix: research question → retrieved source set → rank and source coverage → generated answer → claim-level citation support → inferential-strength check → researcher judgement.
+- **Workstreams →** RAG evaluation; retrieval diagnostics; provenance; inference validation; scoped missingness; Semantic Atlas
+- **Deliverables →** Turin evaluation methodology; thesis S3 methods section; RAG/inference UAT grid
+- **Stakeholders →** archival researchers; historians; digital-humanities researchers; system designers; examiners reviewing methodological validity
 
-- **Generation relevance:**  
-  The degree to which the generated answer aligns with the query [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5].
+# Boundary + risk (short, practical)
 
-- **Faithfulness:**  
-  The degree to which the generated answer accurately reflects the retrieved documents [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]. This is the most important check for using RAG in archival writing.
+- **Boundary (1 sentence):** Yu et al. provide a technical framework for evaluating RAG performance and benchmarks, not a theory of archival evidence, historical interpretation or contested knowledge.
+- **Risk if misused (1 sentence):** Treating relevance, faithfulness or reference-answer correctness as sufficient evidence of historical validity could make a technically successful RAG output appear methodologically secure even when retrieval is partial, the archive itself is biased or several historical interpretations remain warranted.
 
-- **Correctness:**  
-  The degree to which the generated answer matches a sample response or ground-truth answer [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]. For DDR, this can be approximated through manually verified answers.
-
-- **Negative rejection:**  
-  The system’s ability to avoid answering when the available information is insufficient [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12]. This is important for preventing archival overclaiming.
-
-- **Noise robustness:**  
-  The system’s ability to handle irrelevant or misleading retrieved material without degrading the answer [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12].
-
-# My response
-
-- **What I take from this:**  
-  - The paper gives me a checklist for evaluating the DDR RAG layer rather than trusting fluent generated answers.  
-  - The retrieval/generation split is crucial: I need to know whether a poor answer is caused by poor retrieval, poor synthesis or an unanswerable question.  
-  - Faithfulness and negative rejection are especially important for archival method because they protect the thesis from overclaiming.
-
-- **What I reframe / adjust:**  
-  - I should write RAG evaluation as part of the method, not as a technical appendix only.  
-  - I should treat a failed or uncertain RAG answer as useful evidence about the limits of the corpus, metadata or retrieval design.
-
-- **What question it raises next:**  
-  - What is the smallest defensible evaluation set for a DDR RAG prototype?  
-  - Which checks should be quantitative, and which should remain qualitative archival judgement?
-
-# Integration hooks
-
-- **Where I will cite it:**  
-  In the S3.2 methods section after introducing RAG as an archival interrogation layer. The paragraph job: explain that RAG outputs are evaluated through separate checks for retrieval relevance, generation relevance, faithfulness, correctness and system-level robustness.
-
-- **Where I will name the title in running text:**  
-  First use in the method chapter: “Yu et al.’s survey of RAG evaluation is useful here because it separates retrieval quality, generation quality and end-to-end system performance.”
-
-- **Link to my practice evidence:**  
-  TODO: link to DDR RAG evaluation log. Candidate evidence: a table of 10 DDR queries with retrieved records, answer, manual relevance score, faithfulness note and decision on whether the answer can inform writing.
-
-- **Workstreams →**  
-  RAG evaluation; source-grounded answer checking; retrieval diagnostics; negative-rejection tests; metadata quality audit; method reporting.
-
-- **Deliverables →**  
-  DDR RAG evaluation checklist; query set; retrieval log; faithfulness rubric; examples of accepted, revised and rejected RAG outputs.
-
-- **Stakeholders →**  
-  Thesis reader; supervisors; archive staff; digital humanities readers; future DDR users; anyone interpreting generated summaries from archival records.
-
-# Boundary + risk
-
-- **Boundary:**  
-  This source is useful for structuring RAG evaluation, but it is a technical NLP survey and does not address historical interpretation, archival ethics or design research directly.
-
-- **Risk if misused:**  
-  If I import its metrics too mechanically, I could make the method look more quantitative than the DDR evidence allows; the right move is to adapt the categories into transparent archival checks.
-
-# Methods spine tags
+# Methods spine tags (tick what it actually touches)
 
 - [x] Framing and theory
 - [x] Study design
@@ -213,36 +161,26 @@ Yu et al. survey RAG evaluation methods by separating retrieval, generation and 
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload
+# Chicago NB payload (capture what you’ll need later)
 
-- **Key pages to reuse:**  
-  pp. 2–7, 9–13, 20–21
+- **Key pages to reuse:** pp. 2–7, 9–13, 20–21
+- **First full note (write it out here):** Hao Yu, Aoran Gan, Kai Zhang, Shiwei Tong, Qi Liu, and Zhaofeng Liu, “Evaluation of Retrieval-Augmented Generation: A Survey” (2025), https://doi.org/10.1007/978-981-96-1024-2_8.
+- **Short note form:** Yu et al., “Evaluation of Retrieval-Augmented Generation,” [page].
+- **One quote worth lifting (≤2 lines):** “Evaluating hybrid RAG systems entails evaluating retrieval, generation and the RAG system as a whole” (p. 3).
+- **One paraphrase worth keeping:** RAG evaluation should distinguish whether the retrieved evidence is relevant and accurately selected, whether the generated answer addresses the question and remains faithful to those sources, and whether the complete system behaves robustly under noise, ambiguity and insufficient evidence. (pp. 3–7, 12)
 
-- **First full note:**  
-  Hao Yu, Aoran Gan, Kai Zhang, Shiwei Tong, Qi Liu, and Zhaofeng Liu, “Evaluation of Retrieval-Augmented Generation: A Survey,” 2025, https://doi.org/10.1007/978-981-96-1024-2_8.
+# Related works (only if it directly connects)
 
-- **Short note form:**  
-  Yu et al., “Evaluation of Retrieval-Augmented Generation,” page number.
+- Es et al. (2023), *RAGAS: Automated Evaluation of Retrieval Augmented Generation* — one of the principal frameworks surveyed by Yu et al., operationalising context relevance, answer relevance and faithfulness.
+- Saad-Falcon et al. (2023), *ARES* — complements RAGAS with automated classifiers for context relevance, answer faithfulness and answer relevance.
+- Chen et al. (2023), *Benchmarking Large Language Models in Retrieval-Augmented Generation (RGB)* — particularly relevant to Turin because it includes noise robustness, negative rejection and counterfactual robustness.
+- Bernard and Balog (2025), *A Systematic Review of Fairness, Accountability, Transparency, and Ethics in Information Retrieval* — extends retrieval assessment beyond technical relevance into ranking, exposure and fairness.
+- Isch et al. (2026), *Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science* — shows why source faithfulness needs an additional inferential-strength check: generation can strengthen relationships beyond source warrant.
+- Selyshcheva (2026), *Generative AI as a Historical Source* — adds specifically historical validation requirements around chronology, attribution, modality and citation integrity.
+- Radharapu et al. (2025), *Arbiters of Ambivalence* — demonstrates why reference-answer correctness is insufficient where legitimate disagreement should remain unresolved.
+- Ortolja-Baird and Nyhan (2022), *Encoding the Haunting of an Object Catalogue* — supplies the archival reason why technically relevant retrieval can still reproduce inherited silence and partiality.
 
-- **One quote worth lifting:**  
-  “Evaluating hybrid RAG systems entails evaluating retrieval, generation and the RAG system as a whole” [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 3].
+# Follow-ups (next actions, not vibes)
 
-- **One paraphrase worth keeping:**  
-  Yu et al. argue that RAG evaluation must distinguish retrieval relevance and accuracy from generation relevance, faithfulness and correctness, while also testing whole-system requirements such as robustness, rejection, diversity and latency [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 3–7].
-
-# Related works
-
-- Ciletti on RAG for enhanced access to historical digital archives.
-- Es et al. on RAGAS and automated RAG evaluation.
-- Gao et al. on RAG survey literature.
-- Saad-Falcon et al. on ARES.
-- Chen et al. on RGB and RAG robustness.
-- Jaillant, Aske and Caputo on AI, archival access, risk and trust.
-
-# Follow-ups
-
-- **What I will read next:**  
-  Es et al. on RAGAS; Saad-Falcon et al. on ARES; one humanities RAG case study with explicit source-grounded evaluation.
-
-- **What I will test or write next:**  
-  Build a DDR RAG evaluation grid with five headings: retrieval relevance, retrieval coverage, answer relevance, faithfulness to retrieved records and manual archival judgement. Use it to test 10 carefully designed questions before using any RAG output in thesis writing.
+- **What I will read next:** RGB / Chen et al. selectively because negative rejection, noise robustness and counterfactual robustness are the parts of Yu et al.'s survey that map most directly onto scoped missingness and archival evidential restraint.
+- **What I will test or write next:** Build a two-layer Turin evaluation grid: Layer 1 evaluates RAG technically—retrieval relevance, retrieval coverage, answer relevance, faithfulness, robustness and negative rejection; Layer 2 evaluates historical inference—chronology, attribution, relation strength, contradiction, plurality, provenance and corpus-level missingness.
