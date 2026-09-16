@@ -21,7 +21,9 @@ model_subcluster: "S3.2 Scoped missingness"
 source_type: "Supporting"
 project_tags:
   - "Turin"
-last_updated: "14 Sept 2026, 17:08"---
+last_updated: "16 Sept 2026, 11:14"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -62,21 +64,21 @@ They try to redirect language-model research away from the pursuit of ever-large
 - **Evidence (quote/paraphrase + page):** They explicitly state that LMs are “not performing natural language understanding” and only succeed where tasks can be approached through manipulation of linguistic form. Later, in the “Stochastic Parrots” section, they argue that LM-generated text is not grounded in communicative intent, world models, or shared meaning, and describe an LM as “a system for haphazardly stitching together sequences of linguistic forms” according to probability. `[@Bender2021DangersStochasticParrots, pp. 610–611, 615–617]`
 - **Warrant (my words):** This is the key epistemic argument. The danger is not only technical overclaiming; it is the confusion of fluent output with meaningful, accountable interpretation.
 - **So what for my thesis (a reusable sentence):** Bender et al. help me argue that any LLM use on the DDR archive must be framed as assistance with form-level operations such as extraction, retrieval, or summarisation scaffolds, not as historical understanding or interpretation in itself.
-- **Practice cross-check:** This directly limits how I describe S3 LLM components: extracted entities, generated descriptions, or suggested relations must remain tied to source records and expert review rather than presented as the archive “speaking.” TODO (needs S3 methods cross-link).
+- **Practice cross-check:** Turin’s bounded-corpus design and passage-level citations keep model-assisted outputs tied to inspectable source evidence.
 
 ## Claim 2
 - **Claim (plain):** The paper argues that large web-scale training data encode hegemonic viewpoints and biases, which are then reproduced and amplified by language models.
 - **Evidence (quote/paraphrase + page):** In section 4, the authors argue that Internet-scale datasets are not automatically diverse or representative; instead, participation, moderation, collection, and filtering practices privilege hegemonic viewpoints. They document how such corpora encode gender, racial, disability, and intersectional biases, and recommend curation and documentation rather than indiscriminate scaling. `[@Bender2021DangersStochasticParrots, pp. 613–616]`
 - **Warrant (my words):** This matters because it links model behaviour to social and infrastructural histories of data collection. Bias is not an accidental side effect that appears after training; it is built into the corpus and intensified by modelling choices.
 - **So what for my thesis:** Bender et al. support a strong caution against using off-the-shelf LLMs as if they were neutral tools for archival analysis, especially where the DDR archive intersects with gender gaps, institutional hierarchy, and classificatory omission.
-- **Practice cross-check:** This is especially relevant to your gender-gap thread and to any LLM-based processing of archival descriptions, oral histories, or secondary texts, where existing marginalisations could be reinforced rather than surfaced critically. TODO (needs gender-gap / metadata cross-link).
+- **Practice cross-check:** The LLM epistemic-risk, retrieval-augmented inference, and provenance workstreams retain this as a high-level model-risk framing rather than attributing later RAG claims to the paper.
 
 ## Claim 3
 - **Claim (plain):** Their positive recommendation is that language-technology work should prioritize documentation, careful dataset curation, stakeholder analysis, and alternatives to sheer model scaling.
 - **Evidence (quote/paraphrase + page):** In sections 3, 4, and 7 they recommend reporting environmental and financial costs, budgeting for documentation and curation from the start, using model cards and datasheets, carrying out pre-development reflection on harms and stakeholder values, and exploring research directions beyond ever larger language models. `[@Bender2021DangersStochasticParrots, pp. 610, 615–616, 618–619]`
 - **Warrant (my words):** This is important because the paper does not stop at critique. It offers a design ethic centred on documentation, accountability, and socially situated evaluation.
 - **So what for my thesis:** Bender et al. give me a strong rationale for making the computational strand document its data sources, transformations, prompts, limits, and intended uses, and for preferring bounded archival workflows over open-ended generative systems.
-- **Practice cross-check:** This aligns directly with Jaillant and Aske on workflow transparency, Boyd Davis/Vane/Kräutli on interrogability, Foka and Griffin on bias in cultural heritage AI, and Marciano on visible computational-archival pipelines. TODO (needs methods integration note).
+- **Practice cross-check:** Turin’s risk framing and thesis S3 critical-method section use the paper to set limits on claims made from model-assisted retrieval and synthesis.
 
 # Definitions / terms this changes (only the ones that matter)
 - **Stochastic parrot:** a language model that produces fluent sequences through probabilistic patterning of form rather than grounded understanding; I will use this as a cautionary term against overstating LLM interpretative capacity in archival work. `[@Bender2021DangersStochasticParrots, pp. 616–617]`
@@ -100,7 +102,7 @@ They try to redirect language-model research away from the pursuit of ever-large
 # Integration hooks (make it actionable)
 - **Where I will cite it (exact paragraph/job):** In the methods chapter where I set limits on LLM use in S3.2/S3.3, especially in the paragraph distinguishing extraction and retrieval support from interpretation, and in any ethics/limitations section on computational methods.
 - **Where I will name the title in running text (first-use rule):** First mention in the computational methods limitations section: *In “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” (2021), Bender et al. argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside any DDR pilot workflow involving summarisation, extraction, metadata enrichment, or prompt-based retrieval, especially where there is a risk of plausible but misleading generated output. TODO (needs exact S3 cross-reference).
+- **Link to my practice evidence (one concrete cross-reference):** Use alongside Turin’s bounded corpus and passage-level citation workflow, where source inspection remains available for every model-assisted output.
 - **Workstreams →** Interpretability; provenance; retrieval; multimodal ML; methods ethics.
 - **Deliverables →** S3 limitations paragraph; LLM-use rationale; provenance-and-review note; literature map node.
 - **Stakeholders →** Examiners; supervisors; archival studies readers; HCI/AI readers; digital humanities readers.

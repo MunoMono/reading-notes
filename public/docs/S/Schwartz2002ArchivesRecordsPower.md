@@ -24,7 +24,9 @@ model_subcluster: "S2.1 Bridge text"
 source_type: "Core text"
 project_tags:
   - "Turin"
-last_updated: "14 Sept 2026, 17:08"---
+last_updated: "16 Sept 2026, 11:14"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -65,21 +67,21 @@ They argue that archives and records are active sites of power, not passive repo
 - **Evidence (quote/paraphrase + page):** They state that archives are generally seen as passive resources, while in fact “archives are established by the powerful to protect or enhance their position in society.” They add that archivists reshape, reinterpret, and reinvent the archive through record-keeping design, appraisal, selection, description, preservation, communication, and use. Their conclusion is explicit: archives are “not passive storehouses of old stuff, but active sites where social power is negotiated, contested, confirmed.” `[@Schwartz2002ArchivesRecordsPower, pp. 1–2]`
 - **Warrant (my words):** This is the essay’s foundation. The archive is not just where memory resides after the fact. It is one of the places where memory is institutionally produced and authorised.
 - **So what for my thesis (a reusable sentence):** Schwartz and Cook let me treat the DDR archive as an active historical actor that shapes what counts as design research memory, not just as a container of surviving traces.
-- **Practice cross-check:** This is directly relevant to how the DDR archive is boxed, catalogued, described, and narrativised, and to how later institutional histories may inherit those arrangements as if they were neutral. TODO (needs exact archive example).
+- **Practice cross-check:** Turin treats corpus selection, archival visibility, Semantic Atlas ranking, and scoped missingness as mediated decisions rather than neutral archival facts.
 
 ## Claim 2
 - **Claim (plain):** They argue that archival power operates through invisible frameworks that naturalise particular records, orders, and memories.
 - **Evidence (quote/paraphrase + page):** In “Constructing and deconstructing archives,” they write that archives are social constructs whose origins lie in the information needs and social values of those who establish them. They argue that the choice of what to record and what to preserve occurs within socially constructed but now naturalised frameworks that determine what becomes significant as archives. They also say these frameworks shape archives both collectively and at the level of a single document. `[@Schwartz2002ArchivesRecordsPower, pp. 3–4]`
 - **Warrant (my words):** This matters because it explains how power works quietly. Archival significance is not just decided once by a powerful person; it is sedimented through frameworks that later appear obvious or self-evident.
 - **So what for my thesis:** Schwartz and Cook help me argue that the DDR archive’s order, emphases, and silences are not accidental background conditions but historically naturalised frameworks that shape what becomes retrievable and meaningful.
-- **Practice cross-check:** This bears directly on subject headings, fonds or series logic, descriptive language, and any inherited institutional distinctions between “major” and “minor” DDR actors or outputs. TODO (needs archive-system cross-link).
+- **Practice cross-check:** The archival power, selection, description, and visibility workstreams support Turin’s critical-method discussion.
 
 ## Claim 3
 - **Claim (plain):** Schwartz and Cook insist that archival power has consequences for identity, exclusion, and the historical visibility of marginalised groups.
 - **Evidence (quote/paraphrase + page):** They argue that archivists are major players in identity politics because they preserve the “props” with which notions of identity are built. They say archives have historically excluded records about or by women and have supported patriarchy by aligning with those in power. More broadly, they note that archival choices about acquisition, resources, description, and diffusion shape whether the voices of women, racialised groups, sexual minorities, children, and other marginalised people are heard or not. `[@Schwartz2002ArchivesRecordsPower, pp. 15–17]`
 - **Warrant (my words):** This is where the essay becomes especially useful for your project. The archive is not only political in the abstract; it actively participates in who can appear as historically significant.
 - **So what for my thesis:** Schwartz and Cook give me a strong basis for reading the DDR archive through the gender-gap and distributed-labour question, asking how institutional memory has privileged some actors and downplayed others.
-- **Practice cross-check:** This directly connects to Patterson, DEU team structures, editorial and secretarial labour, and the broader question of which DDR contributors are visible as knowledge producers in the surviving archive. TODO (needs personnel/gender-gap note).
+- **Practice cross-check:** Turin’s scoped-missingness approach keeps uneven archival visibility available for critical inspection rather than treating it as a neutral ranking outcome.
 
 # Definitions / terms this changes (only the ones that matter)
 - **Archives as social constructs:** archives shaped by the information needs and social values of their creators and maintainers; I will use this to frame the DDR archive as historically made rather than naturally given. `[@Schwartz2002ArchivesRecordsPower, pp. 3–4]`
@@ -103,7 +105,7 @@ They argue that archives and records are active sites of power, not passive repo
 # Integration hooks (make it actionable)
 - **Where I will cite it (exact paragraph/job):** In the bridge section where I move from classification and imagined records to archival power, and in the methods chapter where I justify treating the DDR archive itself as part of the argument rather than as neutral source material.
 - **Where I will name the title in running text (first-use rule):** First mention in the bridge section: *In “Archives, Records, and Power: The Making of Modern Memory” (2002), Joan Schwartz and Terry Cook argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside the DDR archive’s catalogue structure, missing voices, team lists, and any case where archival description appears to privilege some contributors, projects, or forms of work over others. TODO (needs exact cross-reference).
+- **Link to my practice evidence (one concrete cross-reference):** Use alongside corpus selection, archival visibility, Semantic Atlas ranking, and scoped missingness in Turin.
 - **Workstreams →** Bridge text; archive interpretation; methods framing; gender-gap thread.
 - **Deliverables →** Bridge section draft; methods paragraph on archival power; archive-reading rationale; footnote trail on memory and identity.
 - **Stakeholders →** Examiners; supervisors; archival studies readers; STS readers; design history readers.

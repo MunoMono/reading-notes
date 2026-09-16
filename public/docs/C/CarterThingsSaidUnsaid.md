@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "28 May 2026, 11:42"
-last_updated: "14 Sept 2026, 17:08"
+last_updated: "16 Sept 2026, 11:14"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -27,7 +27,9 @@ model_subcluster: "S2.1 Classification as ethics and politics"
 source_type: "Core text"
 project_tags:
   - "Turin"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -99,7 +101,7 @@ Carter theorises archival silence as a power-laden condition by showing how sile
   In the DDR archive, missing or weakly described traces should be treated as historically produced archival conditions, not simply as gaps in a dataset.
 
 - **Practice cross-check:**  
-  TODO: identify one DDR absence that may have been produced by institutional recordkeeping priorities: unrecorded project leads, missing funder information, absent student labour, undocumented informal method, or uncatalogued visual material.
+  Turin operationalises this concern by treating absence as something to surface and contextualise rather than automatically fill.
 
 ## Claim 2
 
@@ -116,7 +118,7 @@ Carter theorises archival silence as a power-laden condition by showing how sile
   DDR activation should expose absences and candidate traces, but it should not convert every silence into a claim; some gaps need to remain marked as unresolved, partial or ethically bounded.
 
 - **Practice cross-check:**  
-  TODO: in the DDR trace ledger, add a field for “silence type”: imposed absence, weak description, uncertain survival, strategic non-deposit, privacy-bound, or unresolved. Use this before writing any interpretive claim from absence.
+  The Absences / Scoped Missingness workbench keeps archival silence, marginalised voices, and scoped missingness distinct in the Turin missingness framing.
 
 ## Claim 3
 
@@ -133,7 +135,7 @@ Carter theorises archival silence as a power-laden condition by showing how sile
   When working with DDR traces, I need to ask whether an absence should be repaired, interpreted, left open, or respected as a possible form of non-disclosure.
 
 - **Practice cross-check:**  
-  TODO: apply this to oral-history gaps. Where a participant declines to elaborate, avoids a topic, or frames something as informal or off-record, treat that as a boundary rather than a prompt for speculative reconstruction.
+  The Turin missingness framing treats a participant’s refusal or silence as contextual evidence and a boundary, not an invitation to computational completion.
 
 # Definitions / terms this changes
 
@@ -182,7 +184,7 @@ Carter theorises archival silence as a power-laden condition by showing how sile
   First use in the archival silences section: “Carter’s account of things said and unsaid is useful here because it treats archival silence both as an effect of power and as a possible form of agency.”
 
 - **Link to my practice evidence:**  
-  TODO: connect to DDR metadata gaps and alluvial “unrecorded” categories. Candidate: unrecorded lead / unrecorded funder as visible evidence of archival unevenness, not simply missing data.
+  Use the Absences / Scoped Missingness workbench to frame metadata gaps as contextualised evidence of archival unevenness.
 
 - **Workstreams →**  
   Metadata audit; silence typology; oral-history boundary notes; catalogue critique; trace ledger; archival uncertainty statements.

@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sep 2026, 00:00"
-last_updated: "16 Sep 2026"
+last_updated: "16 Sept 2026, 11:14"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "15 Sep 2026, 00:00"
 north_star_sha1: "placeholder"
@@ -32,9 +32,7 @@ literature_clusters:
   - "02 LLM epistemic risk and persuasive fluency"
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
-constraints_source: "project/constraints.md"
----
-
+constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  

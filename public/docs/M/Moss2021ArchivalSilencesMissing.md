@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "28 May 2026, 11:46"
-last_updated: "14 Sept 2026, 17:08"
+last_updated: "16 Sept 2026, 11:14"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -27,7 +27,9 @@ model_subcluster: "S2.1 Classification as ethics and politics"
 source_type: "Core text"
 project_tags:
   - "Turin"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -99,7 +101,7 @@ Moss and Thomas extend Trouillot’s theory of archival silencing by showing tha
   DDR absences should be diagnosed by stage: was the trace never created, not retained, poorly described, hard to retrieve, or later made insignificant by design-history narratives?
 
 - **Practice cross-check:**  
-  TODO: build a DDR silence diagnostic table with columns for source creation, archive assembly, catalogue description, retrieval visibility, later interpretation and thesis treatment.
+  The Absences / Scoped Missingness workbench provides the scoped-missingness conceptual framework for diagnosing archival silence and evidential limits.
 
 ## Claim 2
 
@@ -116,7 +118,7 @@ Moss and Thomas extend Trouillot’s theory of archival silencing by showing tha
   Activating the DDR archive should not be framed as solving the archive or settling design-history disputes; it can make traces available for interpretation while leaving contestation visible.
 
 - **Practice cross-check:**  
-  TODO: where DDR oral histories or project records conflict, avoid resolving them too quickly. Mark the disagreement as part of the archive’s evidential condition rather than as a problem to be cleaned away.
+  The Turin method treats silence as a condition to diagnose and preserve where necessary, rather than as a blank requiring computational completion.
 
 ## Claim 3
 
@@ -133,7 +135,7 @@ Moss and Thomas extend Trouillot’s theory of archival silencing by showing tha
   DDR activation needs to account for what digitisation and interface design make more visible, but also what they mute: materiality, performance, oral testimony, tacit practice, embodied demonstration and archival handling.
 
 - **Practice cross-check:**  
-  TODO: for DDR oral histories, visual records and project demonstrations, note what is lost when the trace is reduced to transcript, metadata or thumbnail. Add “performance/materiality loss” to the trace ledger where relevant.
+  Absences / Scoped Missingness retains archival silence, absence, and evidential limits as contextual conditions in Turin’s method.
 
 # Definitions / terms this changes
 
@@ -188,7 +190,7 @@ Moss and Thomas extend Trouillot’s theory of archival silencing by showing tha
   First use in Chapter 1: “In their opening chapter to *Archival Silences*, Moss and Thomas extend Trouillot’s account by showing that silence may be missing, lost, uncreated, digitised, politicised, or produced through the textual treatment of performed records.”
 
 - **Link to my practice evidence:**  
-  TODO: connect to DDR trace ledger and alluvial diagram. Candidate: “unrecorded lead” and “unrecorded / other funder” should be treated not merely as missing data but as prompts to diagnose the stage at which silence entered the record.
+  Use the Absences / Scoped Missingness workbench to diagnose the stage at which archival silence entered the record.
 
 - **Workstreams →**  
   Silence typology; metadata audit; trace ledger; oral-history interpretation; digitisation critique; interface boundary statements; archival performance/materiality notes.

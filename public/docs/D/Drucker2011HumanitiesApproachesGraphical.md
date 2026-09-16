@@ -27,7 +27,9 @@ model_subcluster: "S3.1 Visual analytics"
 source_type: "Core text"
 project_tags:
   - "Turin"
-last_updated: "14 Sept 2026, 17:08"---
+last_updated: "16 Sept 2026, 11:14"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -70,21 +72,21 @@ They try to reframe graphical display for the humanities by replacing the idea o
 - **Evidence (quote/paraphrase + page):** Drucker argues that visualization tools borrowed from other disciplines assume knowledge is “observer-independent and certain,” whereas humanities work is “observer co-dependent and interpretative”; in summary, “all data have to be understood as capta.” `[@Drucker2011HumanitiesApproachesGraphical, pp. 1–2]`
 - **Warrant (my words):** This is the paper’s foundational epistemic move. It changes the status of what enters a graph, map, or interface from “fact awaiting display” to “material already shaped by acts of selection and interpretation.”
 - **So what for my thesis (a reusable sentence):** In this thesis, DDR archival traces will be treated as capta: constituted through historical production, archival arrangement, and present-day interpretation rather than extracted as neutral data points.
-- **Practice cross-check:** This supports my plan to treat archive structure, metadata, and interface choices as part of the knowledge claim rather than as a neutral delivery mechanism; apply to S3.1 visual analytics and the conceptual framework’s reactivation strand. TODO (needs archive ID cross-link).
+- **Practice cross-check:** Semantic Atlas and Critical Inquiry visual analytics treat archive structure, metadata, and interface choices as part of the knowledge claim.
 
 ## Claim 2
 - **Claim (plain):** Graphical forms used in the humanities should show ambiguity and complexity rather than borrow transparent realist conventions.
 - **Evidence (quote/paraphrase + page):** Drucker states that the forms for graphical expression of capta “need to be more nuanced to show ambiguity and complexity” and criticises the way Google maps, bar charts, and spreadsheet-derived visuals pass as unquestioned representations of “what is.” `[@Drucker2011HumanitiesApproachesGraphical, pp. 1–2]`
 - **Warrant (my words):** Her point is not that graphics are unusable, but that conventional graphics carry an ontology of certainty. Humanities graphics need to encode qualification, incompleteness, and contingency instead of hiding them.
 - **So what for my thesis:** Any visual analytics prototype for the DDR archive should make uncertainty, archival gaps, and contested categorisation legible rather than smoothing them into a clean evidential surface.
-- **Practice cross-check:** This directly complicates any temptation to use off-the-shelf timelines, node-link diagrams, or clustering views as if they simply reveal the archive. It suggests designing labels, distortions, and uncertainty cues into the interface. TODO (needs prototype note cross-link).
+- **Practice cross-check:** The Semantic Atlas critical-design rationale supports visual epistemology, uncertainty, and interface design that express ambiguity rather than objective fact.
 
 ## Claim 3
 - **Claim (plain):** Temporal and spatial visualisations for humanities material should be modelled as interpretative relations, not as homogeneous containers.
 - **Evidence (quote/paraphrase + page):** Drucker defines temporality as “time as a factor of X,” where X can be fear, speed, regret, narration, and so on, and argues that humanities documents require forms suited to discontinuous, multi-directional, and variable time. She extends the same logic to spatial inflection, showing how lived or interpreted space bends around events and attention. `[@Drucker2011HumanitiesApproachesGraphical, pp. 9–10, 17, 19–21]`
 - **Warrant (my words):** This claim matters because many archival interfaces default to linear chronology and Cartesian space. Drucker shows that these defaults are already interpretative reductions and may erase the experiential or contested relations that matter most.
 - **So what for my thesis:** When I visualise DDR traces across time and institutional space, I should privilege relational and interpretative models over flat chronology or neutral mapping where those standard forms conceal contestation.
-- **Practice cross-check:** This is especially relevant if I map shifts in DDR debates, actors, or institutional priorities across documents and oral histories; it supports elastic or layered temporal views rather than a single official timeline. TODO (needs oral-history / archive link).
+- **Practice cross-check:** Semantic Atlas / Critical Inquiry visual analytics can present temporal and institutional relations as situated interpretations rather than a single authoritative timeline.
 
 # Definitions / terms this changes (only the ones that matter)
 - **Capta:** Material understood as taken, selected, and constructed rather than simply given; I will use this term for archival traces mobilised through interpretation. `[@Drucker2011HumanitiesApproachesGraphical, pp. 1–3, 19]`
@@ -107,7 +109,7 @@ They try to reframe graphical display for the humanities by replacing the idea o
 # Integration hooks (make it actionable)
 - **Where I will cite it (exact paragraph/job):** In the methods chapter section that justifies S3.1 visual analytics, especially where I explain why DDR traces cannot be treated as neutral data for interface display.
 - **Where I will name the title in running text (first-use rule):** First mention in the methods/theory bridge paragraph introducing graphical display as a humanities problem: *In “Humanities Approaches to Graphical Display” (2011), Johanna Drucker argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside the conceptual framework image and any Miro mapping that turns archival relations into visual structures. TODO (needs exact note/file reference).
+- **Link to my practice evidence (one concrete cross-reference):** Use alongside Semantic Atlas and Critical Inquiry visual analytics as the critical-design rationale for representations that retain ambiguity.
 - **Workstreams →** Visual analytics design; archive interpretation; methods justification.
 - **Deliverables →** Methods chapter prose; prototype rationale; figure captions for archive visualisations.
 - **Stakeholders →** Examiners, supervisors, design research historians, digital humanities readers.
@@ -136,7 +138,7 @@ They try to reframe graphical display for the humanities by replacing the idea o
 # Related works (only if it directly connects)
 - Porter, *Trust in Numbers*.
 - Latour, “Visualization and Cognition: Drawing Things Together.”
-- TODO: connect to your archive/interface literature note set.
+- Related archive/interface literature informs the Semantic Atlas critical-design rationale.
 
 # Follow-ups (next actions, not vibes)
 - What I will read next: A methods-adjacent text on uncertainty visualisation or interface rhetoric that can help operationalise Drucker for archive design.

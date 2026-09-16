@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:32:41.335Z",
+  "updatedAt": "2026-09-16T10:14:36.726Z",
   "entries": [
     {
       "letter": "A",
@@ -21,7 +21,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451508979.649,
+      "mtimeMs": 1773847397347.7544,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -44,7 +44,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451508980.2551,
+      "mtimeMs": 1773847397348.6848,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -67,7 +67,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1789451508979.3728,
+      "mtimeMs": 1773847397346.9114,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -90,7 +90,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451508979.9675,
+      "mtimeMs": 1773847397348.2375,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -113,7 +113,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1789451508979.068,
+      "mtimeMs": 1773847397343.5315,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -136,7 +136,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509056.1868,
+      "mtimeMs": 1773847397349.1956,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -159,7 +159,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:24",
       "noteDateMs": 1779870240000,
-      "mtimeMs": 1789451509024.7007,
+      "mtimeMs": 1789402114442.441,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -182,23 +182,15 @@
         "Turin"
       ],
       "literature_clusters": [
-        "Choose literature clusters (enter numbers separated by spaces; blank for none):",
-        "1) 01 Synthetic heritage and cultural memory",
-        "2) 02 LLM epistemic risk and persuasive fluency",
-        "3) 03 RAG, retrieval and source attribution",
-        "4) 04 Archival description, mediation and discoverability",
-        "5) 05 Archival partiality, silence and absence",
-        "6) 06 Oral history, temporality and retrospective testimony",
-        "7) 07 Interface authority, ranking and retrieval bias",
-        "8) 08 Ambiguity, uncertainty and plural interpretation",
-        "9) 09 Human judgement and practice-led computational research",
-        "10) 10 Conversational AI and completion norms",
-        "11) 11 Uncertainty and provenance display in interfaces",
-        "12) 12 Digitisation, reconstruction and archival completion"
+        "01 Synthetic heritage and cultural memory",
+        "05 Archival partiality, silence and absence",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces",
+        "12 Digitisation, reconstruction and archival completion"
       ],
       "noteDate": "14 Sept 2026, 15:39",
       "noteDateMs": 1789396740000,
-      "mtimeMs": 1789451509025.841,
+      "mtimeMs": 1789553676538.2966,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -218,14 +210,16 @@
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Context / supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency"
+        "02 LLM epistemic risk and persuasive fluency",
+        "03 RAG, retrieval and source attribution"
       ],
       "noteDate": "15 Sep 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789494810173.5493,
+      "mtimeMs": 1789553676542.0374,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -245,14 +239,18 @@
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Counterpoint / tension",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "10 Conversational AI and completion norms"
+        "03 RAG, retrieval and source attribution",
+        "09 Human judgement and practice-led computational research",
+        "10 Conversational AI and completion norms",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509054.7007,
+      "mtimeMs": 1789553676542.805,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -277,7 +275,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789497031425.5322,
+      "mtimeMs": 1789553676543.4585,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -302,7 +300,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789497031427.1567,
+      "mtimeMs": 1789553676543.775,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -322,14 +320,17 @@
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Context / supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias"
+        "05 Archival partiality, silence and absence",
+        "07 Interface authority, ranking and retrieval bias",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509057.785,
+      "mtimeMs": 1789553676544.1467,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -349,14 +350,18 @@
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Counterpoint / tension",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
+        "01 Synthetic heritage and cultural memory",
+        "05 Archival partiality, silence and absence",
+        "11 Uncertainty and provenance display in interfaces",
         "12 Digitisation, reconstruction and archival completion"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509058.2893,
+      "mtimeMs": 1789553676544.5898,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -379,7 +384,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509058.5962,
+      "mtimeMs": 1773847397350.0703,
       "category": "Bridge text"
     },
     {
@@ -402,7 +407,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509059.721,
+      "mtimeMs": 1773847397352.1682,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -425,7 +430,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509058.8728,
+      "mtimeMs": 1773847397350.6934,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -450,7 +455,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789497031427.6062,
+      "mtimeMs": 1789553676545.284,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -473,7 +478,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509060.0083,
+      "mtimeMs": 1773911898677.3147,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -496,7 +501,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509060.2798,
+      "mtimeMs": 1773847397352.5308,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -523,7 +528,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509060.8694,
+      "mtimeMs": 1789553676546.1787,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -548,7 +553,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:42",
       "noteDateMs": 1779964920000,
-      "mtimeMs": 1789497031427.6743,
+      "mtimeMs": 1789553676547.1,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -571,7 +576,7 @@
       "literature_clusters": [],
       "noteDate": "23 Mar 2026, 09:00",
       "noteDateMs": 1774256400000,
-      "mtimeMs": 1789451509061.7466,
+      "mtimeMs": 1774255524415.5854,
       "category": "Critiques of archival studies"
     },
     {
@@ -594,7 +599,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 10:24",
       "noteDateMs": 1779873840000,
-      "mtimeMs": 1789451509062.051,
+      "mtimeMs": 1789397423947.4436,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -614,14 +619,16 @@
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
+        "07 Interface authority, ranking and retrieval bias",
         "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509062.4717,
+      "mtimeMs": 1789553676547.9849,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -644,7 +651,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:21",
       "noteDateMs": 1779963660000,
-      "mtimeMs": 1789451509062.8203,
+      "mtimeMs": 1789397423947.901,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -667,7 +674,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:14",
       "noteDateMs": 1779869640000,
-      "mtimeMs": 1789451509063.4673,
+      "mtimeMs": 1789402114451.485,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -692,7 +699,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789497031470.5273,
+      "mtimeMs": 1789553676548.5933,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -715,7 +722,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509064.3904,
+      "mtimeMs": 1773911898678.443,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -738,7 +745,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1789451509064.7085,
+      "mtimeMs": 1773847397353.3374,
       "category": "S1: Historicising contested design knowledge"
     },
     {
@@ -761,7 +768,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509065.029,
+      "mtimeMs": 1773911898679.397,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -788,7 +795,7 @@
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509065.4297,
+      "mtimeMs": 1789399853585.6877,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -813,7 +820,7 @@
       "literature_clusters": [],
       "noteDate": "17 Mar 2026, 05:52",
       "noteDateMs": 1773726720000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676549.267,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -838,7 +845,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676549.7605,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -861,7 +868,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509066.995,
+      "mtimeMs": 1773847397354.1714,
       "category": "Bridge text"
     },
     {
@@ -884,7 +891,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026, 10:17",
       "noteDateMs": 1773829020000,
-      "mtimeMs": 1789451509067.2764,
+      "mtimeMs": 1773847397354.4856,
       "category": "S2: Bridge text"
     },
     {
@@ -907,7 +914,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 10:10",
       "noteDateMs": 1779873000000,
-      "mtimeMs": 1789451509067.8914,
+      "mtimeMs": 1789402114453.9678,
       "category": "S3.1 Visual analytics"
     },
     {
@@ -927,14 +934,18 @@
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Bridge text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory"
+        "01 Synthetic heritage and cultural memory",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces",
+        "12 Digitisation, reconstruction and archival completion"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509068.1492,
+      "mtimeMs": 1789553676550.3447,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -957,7 +968,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509068.5215,
+      "mtimeMs": 1773847397354.8093,
       "category": "Bridge text"
     },
     {
@@ -980,34 +991,36 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509068.8135,
+      "mtimeMs": 1773911898680.7393,
       "category": "Recording, organising, and obscuring traces"
     },
     {
       "letter": "G",
       "slug": "Grimes2021MentalModelsExpectation",
       "path": "/docs/G/Grimes2021MentalModelsExpectation.md",
-      "title": "Mental Models and Expectation Violations in Conversational {{AI}",
+      "title": "Mental models and expectation violations in conversational AI interactions",
       "authors": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott",
       "year": "2021",
       "journal": "Decision Support Systems",
       "doi": "10.1016/j.dss.2021.113515",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
       "citation_key": "Grimes2021MentalModelsExpectation",
-      "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental Models and Expectation Violations in Conversational {{AI} — Decision Support Systems",
+      "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental models and expectation violations in conversational AI interactions — Decision Support Systems",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Counterpoint / tension",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "10 Conversational AI and completion norms"
+        "10 Conversational AI and completion norms",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509069.1733,
+      "mtimeMs": 1789553676550.7773,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1030,34 +1043,38 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509069.4858,
+      "mtimeMs": 1773911898681.1377,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
       "letter": "I",
       "slug": "Isch2026QuantifyingPrevalenceImpact",
       "path": "/docs/I/Isch2026QuantifyingPrevalenceImpact.md",
-      "title": "Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science",
+      "title": "Quantifying the prevalence and impact of overreaching causal claims in social science",
       "authors": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J.",
       "year": "2026",
       "journal": "Nature Human Behaviour",
       "doi": "10.1038/s41562-026-02553-x",
       "url": "https://www.nature.com/articles/s41562-026-02553-x",
       "citation_key": "Isch2026QuantifyingPrevalenceImpact",
-      "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science — Nature Human Behaviour",
+      "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the prevalence and impact of overreaching causal claims in social science — Nature Human Behaviour",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
-      "source_type": "Bridge text",
+      "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory"
+        "02 LLM epistemic risk and persuasive fluency",
+        "03 RAG, retrieval and source attribution",
+        "10 Conversational AI and completion norms",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509069.942,
+      "mtimeMs": 1789553676551.274,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1082,7 +1099,7 @@
       "literature_clusters": [],
       "noteDate": "15 Sept 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789451509071.6392,
+      "mtimeMs": 1789553676552.0469,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1105,7 +1122,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509070.2607,
+      "mtimeMs": 1773847397355.144,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1128,7 +1145,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509071.1382,
+      "mtimeMs": 1773847397355.345,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -1151,7 +1168,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509071.4563,
+      "mtimeMs": 1773911898681.925,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -1174,7 +1191,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509071.9426,
+      "mtimeMs": 1773911898682.6182,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1197,7 +1214,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509072.2175,
+      "mtimeMs": 1773847397355.917,
       "category": "Bridge text"
     },
     {
@@ -1225,7 +1242,7 @@
       ],
       "noteDate": "27 May 2026, 08:52",
       "noteDateMs": 1779868320000,
-      "mtimeMs": 1789497081862.8853,
+      "mtimeMs": 1789553676551.633,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1248,7 +1265,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509073.0662,
+      "mtimeMs": 1773847397356.6597,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1271,7 +1288,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:45",
       "noteDateMs": 1779871500000,
-      "mtimeMs": 1789451509073.4004,
+      "mtimeMs": 1789397423952.003,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1294,7 +1311,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509074.102,
+      "mtimeMs": 1789402114456.5828,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1317,7 +1334,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509072.766,
+      "mtimeMs": 1773847397356.2546,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1340,7 +1357,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509074.4597,
+      "mtimeMs": 1773911898683.8015,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1365,7 +1382,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:46",
       "noteDateMs": 1779965160000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676553.6582,
       "category": "S2: Recording, organising, and obscuring traces"
     },
     {
@@ -1390,7 +1407,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676553.447,
       "category": "Bridge text"
     },
     {
@@ -1413,7 +1430,7 @@
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789451509076.1807,
+      "mtimeMs": 1773911898684.5015,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1423,55 +1440,35 @@
       "title": "Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory",
       "authors": "Nieto McAvoy, Eva and Kidd, Jenny",
       "year": "2024",
-      "journal": "Memory, Mind \\& Media",
+      "journal": "Memory, Mind & Media",
       "doi": "10.1017/mem.2024.10",
       "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
       "citation_key": "NietoMcAvoy2024SyntheticHeritageOnline",
-      "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind \\& Media",
+      "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind & Media",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Bridge text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory"
+        "01 Synthetic heritage and cultural memory",
+        "05 Archival partiality, silence and absence",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces",
+        "12 Digitisation, reconstruction and archival completion"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509076.6062,
+      "mtimeMs": 1789553676554.0398,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
-      "letter": "N",
-      "slug": "NietoMcAvoy2024SyntheticHeritageOnlinea",
-      "path": "/docs/N/NietoMcAvoy2024SyntheticHeritageOnlinea.md",
-      "title": "Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory",
-      "authors": "Nieto McAvoy, Eva and Kidd, Jenny",
-      "year": "2024",
-      "journal": "Memory, Mind & Media",
-      "doi": "10.1017/mem.2024.10",
-      "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
-      "citation_key": "NietoMcAvoy2024SyntheticHeritageOnlinea",
-      "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory — Memory, Mind & Media",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
-      "source_type": "Context / supporting",
-      "project_tags": [
-        "Turin"
-      ],
-      "literature_clusters": [],
-      "noteDate": "15 Sept 2026, 00:00",
-      "noteDateMs": 1789426800000,
-      "mtimeMs": 1789451509076.791,
-      "category": "S3: Surfacing and reactivating traces computationally"
-    },
-    {
-      "letter": "Q",
+      "letter": "O",
       "slug": "Ortolja-Baird2022EncodingHauntingObject",
-      "path": "/docs/Q/Ortolja-Baird2022EncodingHauntingObject.md",
+      "path": "/docs/O/Ortolja-Baird2022EncodingHauntingObject.md",
       "title": "Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive",
       "authors": "Ortolja-Baird, Alexandra and Nyhan, Julianne",
       "year": "2022",
@@ -1485,14 +1482,19 @@
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Counterpoint / tension",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
+        "05 Archival partiality, silence and absence",
+        "07 Interface authority, ranking and retrieval bias",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces",
         "12 Digitisation, reconstruction and archival completion"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509079.4905,
+      "mtimeMs": 1789553676554.448,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1515,34 +1517,36 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509077.4468,
+      "mtimeMs": 1789402114457.7617,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
       "letter": "P",
       "slug": "Pan2007GoogleWeTrust",
       "path": "/docs/P/Pan2007GoogleWeTrust.md",
-      "title": "In {{Google We Trust}",
+      "title": "In Google we trust: users’ decisions on rank, position, and relevance",
       "authors": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura",
       "year": "2007",
       "journal": "Journal of Computer-Mediated Communication",
       "doi": "10.1111/j.1083-6101.2007.00351.x",
       "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
       "citation_key": "Pan2007GoogleWeTrust",
-      "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In {{Google We Trust} — Journal of Computer-Mediated Communication",
+      "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In Google we trust: users’ decisions on rank, position, and relevance — Journal of Computer-Mediated Communication",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Context / supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias"
+        "07 Interface authority, ranking and retrieval bias",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509077.9233,
+      "mtimeMs": 1789553676554.7686,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1562,14 +1566,16 @@
       "model_subcluster": "S3.2 Scoped missingness",
       "source_type": "Counterpoint / tension",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "10 Conversational AI and completion norms"
+        "10 Conversational AI and completion norms",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509078.2368,
+      "mtimeMs": 1789553676554.9836,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1592,7 +1598,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509078.5852,
+      "mtimeMs": 1773847397357.2102,
       "category": "Historicising contested design knowledge"
     },
     {
@@ -1617,61 +1623,67 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676555.289,
       "category": "Bridge text"
     },
     {
       "letter": "Q",
       "slug": "Qian2024TakeItLeave",
       "path": "/docs/Q/Qian2024TakeItLeave.md",
-      "title": "Take {{It}",
+      "title": "Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration",
       "authors": "Qian, Crystal and Wexler, James",
       "year": "2024",
-      "journal": "Proceedings of the 29th {{International Conference}",
+      "journal": "Proceedings of the 29th International Conference on Intelligent User Interfaces",
       "doi": "10.1145/3640543.3645198",
       "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
       "citation_key": "Qian2024TakeItLeave",
-      "displayTitle": "Qian, Crystal and Wexler, James (2024). Take {{It} — Proceedings of the 29th {{International Conference}",
+      "displayTitle": "Qian, Crystal and Wexler, James (2024). Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration — Proceedings of the 29th International Conference on Intelligent User Interfaces",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Context / supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias"
+        "07 Interface authority, ranking and retrieval bias",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509079.727,
+      "mtimeMs": 1789553676555.6716,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "R",
       "slug": "RadharapuArbitersAmbivalenceChallenges",
       "path": "/docs/R/RadharapuArbitersAmbivalenceChallenges.md",
-      "title": "Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks",
+      "title": "Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks",
       "authors": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina",
       "year": "2025",
-      "journal": "Findings of the Association for Computational Linguistics",
+      "journal": "Findings of the Association for Computational Linguistics: ACL 2025",
       "doi": "",
       "url": "",
       "citation_key": "RadharapuArbitersAmbivalenceChallenges",
-      "displayTitle": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina (2025). Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks — Findings of the Association for Computational Linguistics",
+      "displayTitle": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina (2025). Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks — Findings of the Association for Computational Linguistics: ACL 2025",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
-      "source_type": "Context / supporting",
+      "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency"
+        "02 LLM epistemic risk and persuasive fluency",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509080.0276,
+      "mtimeMs": 1789553676555.9824,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1694,7 +1706,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 09:09",
       "noteDateMs": 1779869340000,
-      "mtimeMs": 1789451509080.4219,
+      "mtimeMs": 1789397423953.9988,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1717,7 +1729,7 @@
       "literature_clusters": [],
       "noteDate": "28 May 2026, 11:36",
       "noteDateMs": 1779964560000,
-      "mtimeMs": 1789451509080.9617,
+      "mtimeMs": 1789397423954.6956,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1742,7 +1754,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676556.4514,
       "category": "Bridge text"
     },
     {
@@ -1762,14 +1774,19 @@
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Bridge text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory"
+        "01 Synthetic heritage and cultural memory",
+        "02 LLM epistemic risk and persuasive fluency",
+        "05 Archival partiality, silence and absence",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509081.7837,
+      "mtimeMs": 1789553676556.8206,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1792,7 +1809,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509082.3804,
+      "mtimeMs": 1789402114459.758,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
@@ -1817,7 +1834,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676557.0994,
       "category": "Bridge text"
     },
     {
@@ -1842,7 +1859,7 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676557.49,
       "category": "Recording, organising, and obscuring traces"
     },
     {
@@ -1865,86 +1882,98 @@
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789451509083.93,
+      "mtimeMs": 1773847397359.1682,
       "category": "Surfacing and reactivating traces computationally"
     },
     {
       "letter": "W",
       "slug": "Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration",
       "path": "/docs/W/Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration.md",
-      "title": "RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning",
+      "title": "RAG+: enhancing retrieval-augmented generation with application-aware reasoning",
       "authors": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting",
       "year": "2025",
       "journal": "arXiv",
       "doi": "10.48550/ARXIV.2506.11555",
       "url": "",
       "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
-      "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning — arXiv",
+      "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: enhancing retrieval-augmented generation with application-aware reasoning — arXiv",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
-      "source_type": "Context / supporting",
+      "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency"
+        "02 LLM epistemic risk and persuasive fluency",
+        "03 RAG, retrieval and source attribution",
+        "09 Human judgement and practice-led computational research"
       ],
       "noteDate": "15 Sep 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789494810173.7502,
+      "mtimeMs": 1789553676558.0308,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "X",
       "slug": "Xu2025ConfrontingVerbalizedUncertainty",
       "path": "/docs/X/Xu2025ConfrontingVerbalizedUncertainty.md",
-      "title": "Confronting Verbalized Uncertainty: {{Understanding}",
+      "title": "Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making",
       "authors": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh",
       "year": "2025",
       "journal": "International Journal of Human-Computer Studies",
       "doi": "10.1016/j.ijhcs.2025.103455",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
       "citation_key": "Xu2025ConfrontingVerbalizedUncertainty",
-      "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting Verbalized Uncertainty: {{Understanding} — International Journal of Human-Computer Studies",
+      "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making — International Journal of Human-Computer Studies",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
-      "source_type": "Context / supporting",
+      "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias"
+        "07 Interface authority, ranking and retrieval bias",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789451509083.93,
+      "mtimeMs": 1789553676558.3154,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "Y",
       "slug": "Yu2025EvaluationRetrievalAugmentedGeneration",
       "path": "/docs/Y/Yu2025EvaluationRetrievalAugmentedGeneration.md",
-      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "title": "Evaluation of retrieval-augmented generation: a survey",
       "authors": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng",
       "year": "2025",
       "journal": "",
       "doi": "10.1007/978-981-96-1024-2_8",
       "url": "http://arxiv.org/abs/2405.07437",
       "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
-      "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of Retrieval-Augmented Generation: A Survey",
+      "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of retrieval-augmented generation: a survey",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "03 RAG, retrieval and source attribution",
+        "07 Interface authority, ranking and retrieval bias",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces"
+      ],
       "noteDate": "27 May 2026, 09:19",
       "noteDateMs": 1779869940000,
-      "mtimeMs": 1789497031472.1453,
+      "mtimeMs": 1789553676558.6733,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
@@ -1971,61 +2000,68 @@
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509085.0374,
+      "mtimeMs": 1789553676558.9644,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "Z",
       "slug": "Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration",
       "path": "/docs/Z/Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration.md",
-      "title": "ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation",
+      "title": "ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation",
       "authors": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen",
       "year": "2025",
-      "journal": "arXiv",
+      "journal": "Proceedings of Machine Learning Research",
       "doi": "10.48550/ARXIV.2508.20131",
       "url": "",
       "citation_key": "zhuArgRAGExplainableRetrieval2025",
-      "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation — arXiv",
+      "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation — Proceedings of Machine Learning Research",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
-      "source_type": "Context / supporting",
+      "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency"
+        "02 LLM epistemic risk and persuasive fluency",
+        "03 RAG, retrieval and source attribution",
+        "09 Human judgement and practice-led computational research",
+        "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "15 Sep 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789494810173.8564,
+      "mtimeMs": 1789553676559.3464,
       "category": "S3: Surfacing and reactivating traces computationally"
     },
     {
       "letter": "L",
       "slug": "Lajewska2026TrustMeThis",
       "path": "/docs/L/Lajewska2026TrustMeThis.md",
-      "title": "Trust me on this: a user study of trustworthiness for RAG responses",
+      "title": "Trust Me on This: A User Study of Trustworthiness for RAG Responses",
       "authors": "Łajewska, Weronika and Balog, Krisztian",
       "year": "2026",
-      "journal": "arXiv",
+      "journal": "Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
       "doi": "10.48550/ARXIV.2601.14460",
       "url": "https://arxiv.org/abs/2601.14460",
       "citation_key": "Lajewska2026TrustMeThis",
-      "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust me on this: a user study of trustworthiness for RAG responses — arXiv",
+      "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust Me on This: A User Study of Trustworthiness for RAG Responses — Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
       "model_strand": "S3",
       "model_strand_label": "Surfacing and reactivating traces computationally",
       "model_subcluster": "S3.3 Retrieval-augmented inference",
       "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Thesis"
       ],
       "literature_clusters": [
+        "03 RAG, retrieval and source attribution",
+        "07 Interface authority, ranking and retrieval bias",
         "11 Uncertainty and provenance display in interfaces"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789451509072.4763,
+      "mtimeMs": 1789553676552.5515,
       "category": "S3: Surfacing and reactivating traces computationally"
     }
   ],
@@ -2051,7 +2087,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451508979.649,
+        "mtimeMs": 1773847397347.7544,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -2074,7 +2110,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451508980.2551,
+        "mtimeMs": 1773847397348.6848,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -2097,7 +2133,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1789451508979.3728,
+        "mtimeMs": 1773847397346.9114,
         "category": "S1: Historicising contested design knowledge"
       },
       {
@@ -2120,7 +2156,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451508979.9675,
+        "mtimeMs": 1773847397348.2375,
         "category": "S1: Historicising contested design knowledge"
       },
       {
@@ -2143,7 +2179,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1789451508979.068,
+        "mtimeMs": 1773847397343.5315,
         "category": "S1: Historicising contested design knowledge"
       },
       {
@@ -2166,7 +2202,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:24",
         "noteDateMs": 1779870240000,
-        "mtimeMs": 1789451509024.7007,
+        "mtimeMs": 1789402114442.441,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2189,23 +2225,15 @@
           "Turin"
         ],
         "literature_clusters": [
-          "Choose literature clusters (enter numbers separated by spaces; blank for none):",
-          "1) 01 Synthetic heritage and cultural memory",
-          "2) 02 LLM epistemic risk and persuasive fluency",
-          "3) 03 RAG, retrieval and source attribution",
-          "4) 04 Archival description, mediation and discoverability",
-          "5) 05 Archival partiality, silence and absence",
-          "6) 06 Oral history, temporality and retrospective testimony",
-          "7) 07 Interface authority, ranking and retrieval bias",
-          "8) 08 Ambiguity, uncertainty and plural interpretation",
-          "9) 09 Human judgement and practice-led computational research",
-          "10) 10 Conversational AI and completion norms",
-          "11) 11 Uncertainty and provenance display in interfaces",
-          "12) 12 Digitisation, reconstruction and archival completion"
+          "01 Synthetic heritage and cultural memory",
+          "05 Archival partiality, silence and absence",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces",
+          "12 Digitisation, reconstruction and archival completion"
         ],
         "noteDate": "14 Sept 2026, 15:39",
         "noteDateMs": 1789396740000,
-        "mtimeMs": 1789451509025.841,
+        "mtimeMs": 1789553676538.2966,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2225,14 +2253,16 @@
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Context / supporting",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency"
+          "02 LLM epistemic risk and persuasive fluency",
+          "03 RAG, retrieval and source attribution"
         ],
         "noteDate": "15 Sep 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789494810173.5493,
+        "mtimeMs": 1789553676542.0374,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2252,14 +2282,18 @@
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Counterpoint / tension",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "10 Conversational AI and completion norms"
+          "03 RAG, retrieval and source attribution",
+          "09 Human judgement and practice-led computational research",
+          "10 Conversational AI and completion norms",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509054.7007,
+        "mtimeMs": 1789553676542.805,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -2284,7 +2318,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509056.1868,
+        "mtimeMs": 1773847397349.1956,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -2309,7 +2343,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789497031425.5322,
+        "mtimeMs": 1789553676543.4585,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2334,7 +2368,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789497031427.1567,
+        "mtimeMs": 1789553676543.775,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2354,14 +2388,17 @@
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Context / supporting",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias"
+          "05 Archival partiality, silence and absence",
+          "07 Interface authority, ranking and retrieval bias",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509057.785,
+        "mtimeMs": 1789553676544.1467,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2381,14 +2418,18 @@
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Counterpoint / tension",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
+          "01 Synthetic heritage and cultural memory",
+          "05 Archival partiality, silence and absence",
+          "11 Uncertainty and provenance display in interfaces",
           "12 Digitisation, reconstruction and archival completion"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509058.2893,
+        "mtimeMs": 1789553676544.5898,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2411,7 +2452,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509058.5962,
+        "mtimeMs": 1773847397350.0703,
         "category": "Bridge text"
       },
       {
@@ -2434,7 +2475,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509059.721,
+        "mtimeMs": 1773847397352.1682,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2457,7 +2498,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509058.8728,
+        "mtimeMs": 1773847397350.6934,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2482,7 +2523,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789497031427.6062,
+        "mtimeMs": 1789553676545.284,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2505,7 +2546,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509060.0083,
+        "mtimeMs": 1773911898677.3147,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2528,7 +2569,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509060.2798,
+        "mtimeMs": 1773847397352.5308,
         "category": "Historicising contested design knowledge"
       }
     ],
@@ -2557,7 +2598,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509060.8694,
+        "mtimeMs": 1789553676546.1787,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2582,7 +2623,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:42",
         "noteDateMs": 1779964920000,
-        "mtimeMs": 1789497031427.6743,
+        "mtimeMs": 1789553676547.1,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -2605,7 +2646,7 @@
         "literature_clusters": [],
         "noteDate": "23 Mar 2026, 09:00",
         "noteDateMs": 1774256400000,
-        "mtimeMs": 1789451509061.7466,
+        "mtimeMs": 1774255524415.5854,
         "category": "Critiques of archival studies"
       },
       {
@@ -2628,7 +2669,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 10:24",
         "noteDateMs": 1779873840000,
-        "mtimeMs": 1789451509062.051,
+        "mtimeMs": 1789397423947.4436,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2648,14 +2689,16 @@
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
+          "07 Interface authority, ranking and retrieval bias",
           "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509062.4717,
+        "mtimeMs": 1789553676547.9849,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2678,7 +2721,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:21",
         "noteDateMs": 1779963660000,
-        "mtimeMs": 1789451509062.8203,
+        "mtimeMs": 1789397423947.901,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -2701,7 +2744,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:14",
         "noteDateMs": 1779869640000,
-        "mtimeMs": 1789451509063.4673,
+        "mtimeMs": 1789402114451.485,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2726,7 +2769,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789497031470.5273,
+        "mtimeMs": 1789553676548.5933,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2749,7 +2792,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509064.3904,
+        "mtimeMs": 1773911898678.443,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -2772,7 +2815,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1789451509064.7085,
+        "mtimeMs": 1773847397353.3374,
         "category": "S1: Historicising contested design knowledge"
       }
     ],
@@ -2797,7 +2840,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509065.029,
+        "mtimeMs": 1773911898679.397,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -2824,7 +2867,7 @@
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509065.4297,
+        "mtimeMs": 1789399853585.6877,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2849,7 +2892,7 @@
         "literature_clusters": [],
         "noteDate": "17 Mar 2026, 05:52",
         "noteDateMs": 1773726720000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676549.267,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2874,7 +2917,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676549.7605,
         "category": "Recording, organising, and obscuring traces"
       }
     ],
@@ -2899,7 +2942,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509066.995,
+        "mtimeMs": 1773847397354.1714,
         "category": "Bridge text"
       },
       {
@@ -2922,7 +2965,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026, 10:17",
         "noteDateMs": 1773829020000,
-        "mtimeMs": 1789451509067.2764,
+        "mtimeMs": 1773847397354.4856,
         "category": "S2: Bridge text"
       }
     ],
@@ -2947,7 +2990,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 10:10",
         "noteDateMs": 1779873000000,
-        "mtimeMs": 1789451509067.8914,
+        "mtimeMs": 1789402114453.9678,
         "category": "S3.1 Visual analytics"
       },
       {
@@ -2967,14 +3010,18 @@
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Bridge text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory"
+          "01 Synthetic heritage and cultural memory",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces",
+          "12 Digitisation, reconstruction and archival completion"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509068.1492,
+        "mtimeMs": 1789553676550.3447,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -2997,7 +3044,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509068.5215,
+        "mtimeMs": 1773847397354.8093,
         "category": "Bridge text"
       },
       {
@@ -3020,34 +3067,36 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509068.8135,
+        "mtimeMs": 1773911898680.7393,
         "category": "Recording, organising, and obscuring traces"
       },
       {
         "letter": "G",
         "slug": "Grimes2021MentalModelsExpectation",
         "path": "/docs/G/Grimes2021MentalModelsExpectation.md",
-        "title": "Mental Models and Expectation Violations in Conversational {{AI}",
+        "title": "Mental models and expectation violations in conversational AI interactions",
         "authors": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott",
         "year": "2021",
         "journal": "Decision Support Systems",
         "doi": "10.1016/j.dss.2021.113515",
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
         "citation_key": "Grimes2021MentalModelsExpectation",
-        "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental Models and Expectation Violations in Conversational {{AI} — Decision Support Systems",
+        "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental models and expectation violations in conversational AI interactions — Decision Support Systems",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Counterpoint / tension",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "10 Conversational AI and completion norms"
+          "10 Conversational AI and completion norms",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509069.1733,
+        "mtimeMs": 1789553676550.7773,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3072,7 +3121,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509069.4858,
+        "mtimeMs": 1773911898681.1377,
         "category": "Surfacing and reactivating traces computationally"
       }
     ],
@@ -3081,27 +3130,31 @@
         "letter": "I",
         "slug": "Isch2026QuantifyingPrevalenceImpact",
         "path": "/docs/I/Isch2026QuantifyingPrevalenceImpact.md",
-        "title": "Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science",
+        "title": "Quantifying the prevalence and impact of overreaching causal claims in social science",
         "authors": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J.",
         "year": "2026",
         "journal": "Nature Human Behaviour",
         "doi": "10.1038/s41562-026-02553-x",
         "url": "https://www.nature.com/articles/s41562-026-02553-x",
         "citation_key": "Isch2026QuantifyingPrevalenceImpact",
-        "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science — Nature Human Behaviour",
+        "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the prevalence and impact of overreaching causal claims in social science — Nature Human Behaviour",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
-        "source_type": "Bridge text",
+        "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory"
+          "02 LLM epistemic risk and persuasive fluency",
+          "03 RAG, retrieval and source attribution",
+          "10 Conversational AI and completion norms",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509069.942,
+        "mtimeMs": 1789553676551.274,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3128,7 +3181,7 @@
         "literature_clusters": [],
         "noteDate": "15 Sept 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789451509071.6392,
+        "mtimeMs": 1789553676552.0469,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3151,7 +3204,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509070.2607,
+        "mtimeMs": 1773847397355.144,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -3174,7 +3227,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509071.1382,
+        "mtimeMs": 1773847397355.345,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -3197,7 +3250,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509071.4563,
+        "mtimeMs": 1773911898681.925,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -3225,7 +3278,7 @@
         ],
         "noteDate": "27 May 2026, 08:52",
         "noteDateMs": 1779868320000,
-        "mtimeMs": 1789497081862.8853,
+        "mtimeMs": 1789553676551.633,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3250,7 +3303,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509071.9426,
+        "mtimeMs": 1773911898682.6182,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -3273,7 +3326,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509072.2175,
+        "mtimeMs": 1773847397355.917,
         "category": "Bridge text"
       }
     ],
@@ -3298,7 +3351,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509073.0662,
+        "mtimeMs": 1773847397356.6597,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3321,7 +3374,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:45",
         "noteDateMs": 1779871500000,
-        "mtimeMs": 1789451509073.4004,
+        "mtimeMs": 1789397423952.003,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3344,7 +3397,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509074.102,
+        "mtimeMs": 1789402114456.5828,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3367,7 +3420,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509074.4597,
+        "mtimeMs": 1773911898683.8015,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3392,7 +3445,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:46",
         "noteDateMs": 1779965160000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676553.6582,
         "category": "S2: Recording, organising, and obscuring traces"
       },
       {
@@ -3417,7 +3470,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676553.447,
         "category": "Bridge text"
       }
     ],
@@ -3442,34 +3495,37 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509072.766,
+        "mtimeMs": 1773847397356.2546,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
         "letter": "L",
         "slug": "Lajewska2026TrustMeThis",
         "path": "/docs/L/Lajewska2026TrustMeThis.md",
-        "title": "Trust me on this: a user study of trustworthiness for RAG responses",
+        "title": "Trust Me on This: A User Study of Trustworthiness for RAG Responses",
         "authors": "Łajewska, Weronika and Balog, Krisztian",
         "year": "2026",
-        "journal": "arXiv",
+        "journal": "Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
         "doi": "10.48550/ARXIV.2601.14460",
         "url": "https://arxiv.org/abs/2601.14460",
         "citation_key": "Lajewska2026TrustMeThis",
-        "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust me on this: a user study of trustworthiness for RAG responses — arXiv",
+        "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust Me on This: A User Study of Trustworthiness for RAG Responses — Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
+          "03 RAG, retrieval and source attribution",
+          "07 Interface authority, ranking and retrieval bias",
           "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509072.4763,
+        "mtimeMs": 1789553676552.5515,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3494,7 +3550,7 @@
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789451509076.1807,
+        "mtimeMs": 1773911898684.5015,
         "category": "Recording, organising, and obscuring traces"
       },
       {
@@ -3504,57 +3560,37 @@
         "title": "Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory",
         "authors": "Nieto McAvoy, Eva and Kidd, Jenny",
         "year": "2024",
-        "journal": "Memory, Mind \\& Media",
+        "journal": "Memory, Mind & Media",
         "doi": "10.1017/mem.2024.10",
         "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
         "citation_key": "NietoMcAvoy2024SyntheticHeritageOnline",
-        "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind \\& Media",
+        "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind & Media",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Bridge text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory"
+          "01 Synthetic heritage and cultural memory",
+          "05 Archival partiality, silence and absence",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces",
+          "12 Digitisation, reconstruction and archival completion"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509076.6062,
-        "category": "S3: Surfacing and reactivating traces computationally"
-      },
-      {
-        "letter": "N",
-        "slug": "NietoMcAvoy2024SyntheticHeritageOnlinea",
-        "path": "/docs/N/NietoMcAvoy2024SyntheticHeritageOnlinea.md",
-        "title": "Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory",
-        "authors": "Nieto McAvoy, Eva and Kidd, Jenny",
-        "year": "2024",
-        "journal": "Memory, Mind & Media",
-        "doi": "10.1017/mem.2024.10",
-        "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
-        "citation_key": "NietoMcAvoy2024SyntheticHeritageOnlinea",
-        "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online Platforms, Deceptive Genealogy and the Ethics of Algorithmically Generated Memory — Memory, Mind & Media",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
-        "source_type": "Context / supporting",
-        "project_tags": [
-          "Turin"
-        ],
-        "literature_clusters": [],
-        "noteDate": "15 Sept 2026, 00:00",
-        "noteDateMs": 1789426800000,
-        "mtimeMs": 1789451509076.791,
+        "mtimeMs": 1789553676554.0398,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
-    "Q": [
+    "O": [
       {
-        "letter": "Q",
+        "letter": "O",
         "slug": "Ortolja-Baird2022EncodingHauntingObject",
-        "path": "/docs/Q/Ortolja-Baird2022EncodingHauntingObject.md",
+        "path": "/docs/O/Ortolja-Baird2022EncodingHauntingObject.md",
         "title": "Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive",
         "authors": "Ortolja-Baird, Alexandra and Nyhan, Julianne",
         "year": "2022",
@@ -3568,45 +3604,21 @@
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Counterpoint / tension",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
+          "05 Archival partiality, silence and absence",
+          "07 Interface authority, ranking and retrieval bias",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces",
           "12 Digitisation, reconstruction and archival completion"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509079.4905,
+        "mtimeMs": 1789553676554.448,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
-      {
-        "letter": "Q",
-        "slug": "Qian2024TakeItLeave",
-        "path": "/docs/Q/Qian2024TakeItLeave.md",
-        "title": "Take {{It}",
-        "authors": "Qian, Crystal and Wexler, James",
-        "year": "2024",
-        "journal": "Proceedings of the 29th {{International Conference}",
-        "doi": "10.1145/3640543.3645198",
-        "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
-        "citation_key": "Qian2024TakeItLeave",
-        "displayTitle": "Qian, Crystal and Wexler, James (2024). Take {{It} — Proceedings of the 29th {{International Conference}",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
-        "source_type": "Context / supporting",
-        "project_tags": [
-          "Turin"
-        ],
-        "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias"
-        ],
-        "noteDate": "14 Sept 2026, 16:30",
-        "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509079.727,
-        "category": "S3: Surfacing and reactivating traces computationally"
-      }
-    ],
-    "O": [
       {
         "letter": "O",
         "slug": "Ozdemir2025EnhancingCulturalHeritage",
@@ -3627,7 +3639,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509077.4468,
+        "mtimeMs": 1789402114457.7617,
         "category": "Surfacing and reactivating traces computationally"
       }
     ],
@@ -3636,27 +3648,29 @@
         "letter": "P",
         "slug": "Pan2007GoogleWeTrust",
         "path": "/docs/P/Pan2007GoogleWeTrust.md",
-        "title": "In {{Google We Trust}",
+        "title": "In Google we trust: users’ decisions on rank, position, and relevance",
         "authors": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura",
         "year": "2007",
         "journal": "Journal of Computer-Mediated Communication",
         "doi": "10.1111/j.1083-6101.2007.00351.x",
         "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
         "citation_key": "Pan2007GoogleWeTrust",
-        "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In {{Google We Trust} — Journal of Computer-Mediated Communication",
+        "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In Google we trust: users’ decisions on rank, position, and relevance — Journal of Computer-Mediated Communication",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Context / supporting",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias"
+          "07 Interface authority, ranking and retrieval bias",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509077.9233,
+        "mtimeMs": 1789553676554.7686,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3676,14 +3690,16 @@
         "model_subcluster": "S3.2 Scoped missingness",
         "source_type": "Counterpoint / tension",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "10 Conversational AI and completion norms"
+          "10 Conversational AI and completion norms",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509078.2368,
+        "mtimeMs": 1789553676554.9836,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3706,7 +3722,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509078.5852,
+        "mtimeMs": 1773847397357.2102,
         "category": "Historicising contested design knowledge"
       },
       {
@@ -3731,8 +3747,40 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676555.289,
         "category": "Bridge text"
+      }
+    ],
+    "Q": [
+      {
+        "letter": "Q",
+        "slug": "Qian2024TakeItLeave",
+        "path": "/docs/Q/Qian2024TakeItLeave.md",
+        "title": "Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration",
+        "authors": "Qian, Crystal and Wexler, James",
+        "year": "2024",
+        "journal": "Proceedings of the 29th International Conference on Intelligent User Interfaces",
+        "doi": "10.1145/3640543.3645198",
+        "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
+        "citation_key": "Qian2024TakeItLeave",
+        "displayTitle": "Qian, Crystal and Wexler, James (2024). Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration — Proceedings of the 29th International Conference on Intelligent User Interfaces",
+        "model_strand": "S3",
+        "model_strand_label": "Surfacing and reactivating traces computationally",
+        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "source_type": "Context / supporting",
+        "project_tags": [
+          "Turin",
+          "Thesis"
+        ],
+        "literature_clusters": [
+          "07 Interface authority, ranking and retrieval bias",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces"
+        ],
+        "noteDate": "14 Sept 2026, 16:30",
+        "noteDateMs": 1789399800000,
+        "mtimeMs": 1789553676555.6716,
+        "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
     "R": [
@@ -3740,27 +3788,30 @@
         "letter": "R",
         "slug": "RadharapuArbitersAmbivalenceChallenges",
         "path": "/docs/R/RadharapuArbitersAmbivalenceChallenges.md",
-        "title": "Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks",
+        "title": "Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks",
         "authors": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina",
         "year": "2025",
-        "journal": "Findings of the Association for Computational Linguistics",
+        "journal": "Findings of the Association for Computational Linguistics: ACL 2025",
         "doi": "",
         "url": "",
         "citation_key": "RadharapuArbitersAmbivalenceChallenges",
-        "displayTitle": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina (2025). Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks — Findings of the Association for Computational Linguistics",
+        "displayTitle": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina (2025). Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks — Findings of the Association for Computational Linguistics: ACL 2025",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
-        "source_type": "Context / supporting",
+        "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency"
+          "02 LLM epistemic risk and persuasive fluency",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509080.0276,
+        "mtimeMs": 1789553676555.9824,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3783,7 +3834,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 09:09",
         "noteDateMs": 1779869340000,
-        "mtimeMs": 1789451509080.4219,
+        "mtimeMs": 1789397423953.9988,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3808,7 +3859,7 @@
         "literature_clusters": [],
         "noteDate": "28 May 2026, 11:36",
         "noteDateMs": 1779964560000,
-        "mtimeMs": 1789451509080.9617,
+        "mtimeMs": 1789397423954.6956,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3833,7 +3884,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676556.4514,
         "category": "Bridge text"
       },
       {
@@ -3853,14 +3904,19 @@
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Bridge text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory"
+          "01 Synthetic heritage and cultural memory",
+          "02 LLM epistemic risk and persuasive fluency",
+          "05 Archival partiality, silence and absence",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509081.7837,
+        "mtimeMs": 1789553676556.8206,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
@@ -3883,7 +3939,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509082.3804,
+        "mtimeMs": 1789402114459.758,
         "category": "Surfacing and reactivating traces computationally"
       },
       {
@@ -3908,7 +3964,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676557.0994,
         "category": "Bridge text"
       }
     ],
@@ -3935,7 +3991,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676557.49,
         "category": "Recording, organising, and obscuring traces"
       }
     ],
@@ -3960,7 +4016,7 @@
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789451509083.93,
+        "mtimeMs": 1773847397359.1682,
         "category": "Surfacing and reactivating traces computationally"
       }
     ],
@@ -3969,27 +4025,30 @@
         "letter": "W",
         "slug": "Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration",
         "path": "/docs/W/Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration.md",
-        "title": "RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning",
+        "title": "RAG+: enhancing retrieval-augmented generation with application-aware reasoning",
         "authors": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting",
         "year": "2025",
         "journal": "arXiv",
         "doi": "10.48550/ARXIV.2506.11555",
         "url": "",
         "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
-        "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning — arXiv",
+        "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: enhancing retrieval-augmented generation with application-aware reasoning — arXiv",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
-        "source_type": "Context / supporting",
+        "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency"
+          "02 LLM epistemic risk and persuasive fluency",
+          "03 RAG, retrieval and source attribution",
+          "09 Human judgement and practice-led computational research"
         ],
         "noteDate": "15 Sep 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789494810173.7502,
+        "mtimeMs": 1789553676558.0308,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -3998,27 +4057,30 @@
         "letter": "X",
         "slug": "Xu2025ConfrontingVerbalizedUncertainty",
         "path": "/docs/X/Xu2025ConfrontingVerbalizedUncertainty.md",
-        "title": "Confronting Verbalized Uncertainty: {{Understanding}",
+        "title": "Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making",
         "authors": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh",
         "year": "2025",
         "journal": "International Journal of Human-Computer Studies",
         "doi": "10.1016/j.ijhcs.2025.103455",
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
         "citation_key": "Xu2025ConfrontingVerbalizedUncertainty",
-        "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting Verbalized Uncertainty: {{Understanding} — International Journal of Human-Computer Studies",
+        "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making — International Journal of Human-Computer Studies",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
-        "source_type": "Context / supporting",
+        "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias"
+          "07 Interface authority, ranking and retrieval bias",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789451509083.93,
+        "mtimeMs": 1789553676558.3154,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -4027,25 +4089,31 @@
         "letter": "Y",
         "slug": "Yu2025EvaluationRetrievalAugmentedGeneration",
         "path": "/docs/Y/Yu2025EvaluationRetrievalAugmentedGeneration.md",
-        "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+        "title": "Evaluation of retrieval-augmented generation: a survey",
         "authors": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng",
         "year": "2025",
         "journal": "",
         "doi": "10.1007/978-981-96-1024-2_8",
         "url": "http://arxiv.org/abs/2405.07437",
         "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
-        "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of Retrieval-Augmented Generation: A Survey",
+        "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of retrieval-augmented generation: a survey",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "03 RAG, retrieval and source attribution",
+          "07 Interface authority, ranking and retrieval bias",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces"
+        ],
         "noteDate": "27 May 2026, 09:19",
         "noteDateMs": 1779869940000,
-        "mtimeMs": 1789497031472.1453,
+        "mtimeMs": 1789553676558.6733,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ],
@@ -4074,34 +4142,38 @@
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789451509085.0374,
+        "mtimeMs": 1789553676558.9644,
         "category": "S3: Surfacing and reactivating traces computationally"
       },
       {
         "letter": "Z",
         "slug": "Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration",
         "path": "/docs/Z/Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration.md",
-        "title": "ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation",
+        "title": "ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation",
         "authors": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen",
         "year": "2025",
-        "journal": "arXiv",
+        "journal": "Proceedings of Machine Learning Research",
         "doi": "10.48550/ARXIV.2508.20131",
         "url": "",
         "citation_key": "zhuArgRAGExplainableRetrieval2025",
-        "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation — arXiv",
+        "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation — Proceedings of Machine Learning Research",
         "model_strand": "S3",
         "model_strand_label": "Surfacing and reactivating traces computationally",
         "model_subcluster": "S3.3 Retrieval-augmented inference",
-        "source_type": "Context / supporting",
+        "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Thesis"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency"
+          "02 LLM epistemic risk and persuasive fluency",
+          "03 RAG, retrieval and source attribution",
+          "09 Human judgement and practice-led computational research",
+          "11 Uncertainty and provenance display in interfaces"
         ],
         "noteDate": "15 Sep 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789494810173.8564,
+        "mtimeMs": 1789553676559.3464,
         "category": "S3: Surfacing and reactivating traces computationally"
       }
     ]

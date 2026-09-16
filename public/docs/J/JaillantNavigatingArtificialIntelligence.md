@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 08:52"
-last_updated: "14 Sept 2026, 17:08"
+last_updated: "16 Sept 2026, 11:14"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -30,7 +30,9 @@ project_tags:
 literature_clusters:
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -102,7 +104,7 @@ They examine TNA’s AI-related projects in order to show how cultural heritage 
   The DDR archive can be framed as a site where activation depends not only on interpretation but also on the practical conditions of discovery: what can be surfaced, how it is described, and what remains hidden by inherited archival structures.
 
 - **Practice cross-check:**  
-  TODO: test this against the DDR material where a named designer, project or institutional term appears across multiple record types, catalogue descriptions or visual traces. Useful candidate: TODO archive ID / DDR item cluster.
+  Turin’s researcher-in-the-loop workflow supports explicit source inspection across record types, descriptions, and visual traces.
 
 ## Claim 2
 
@@ -119,7 +121,7 @@ They examine TNA’s AI-related projects in order to show how cultural heritage 
   I can use this source to justify computational surfacing as one strand of DDR activation, provided I treat the output as a guided route into evidence rather than as evidence in itself.
 
 - **Practice cross-check:**  
-  TODO: compare a keyword search route through the DDR archive with a network, topic or metadata-led route. Record where the computational route reveals a relationship that the catalogue does not foreground, and where it distorts or overstates a relationship.
+  Turin’s researcher-in-the-loop workflow compares retrieval routes through explicit source inspection and human judgement.
 
 ## Claim 3
 
@@ -136,7 +138,7 @@ They examine TNA’s AI-related projects in order to show how cultural heritage 
   DDR activation should be written as an accountable method: I need to show how traces are located, linked, interpreted and bounded, rather than simply claiming that computational methods make hidden knowledge visible.
 
 - **Practice cross-check:**  
-  TODO: add a provenance note to one worked DDR example. Include source record, catalogue context, transformation step, interpretive claim and risk/boundary statement.
+  Turin methodological safeguards retain source inspection, organisational expertise, responsible implementation, human oversight, and explicit provenance.
 
 # Definitions / terms this changes
 
@@ -179,7 +181,7 @@ They examine TNA’s AI-related projects in order to show how cultural heritage 
   First use in the S3.2 literature paragraph: “In their chapter on The National Archives, Lise Jaillant, Katherine Aske and Annalina Caputo frame AI in cultural heritage as a problem of navigation across scale, access, risk and trust.”
 
 - **Link to my practice evidence:**  
-  TODO: connect to DDR network map / alluvial diagram / catalogue-to-practice trace example. Candidate: a worked example where one RCA actor or project is surfaced across institutional categories that do not obviously belong together.
+  Use alongside Turin’s researcher-in-the-loop workflow, where organisational expertise and explicit source inspection govern computational retrieval.
 
 - **Workstreams →**  
   Computational surfacing; catalogue analysis; provenance mapping; interpretability notes; risk/boundary statements.
