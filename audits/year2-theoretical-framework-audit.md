@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T11:08:23+00:00
+Generated: 2026-10-01T11:09:43+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 12 |
-| SECOND PASS REQUIRED | 34 |
+| COMPLIANT | 13 |
+| SECOND PASS REQUIRED | 33 |
 | FIRST PASS REQUIRED | 7 |
 | REVIEW MATCH | 0 |
 
@@ -86,7 +86,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives, records, and power: the making of modern memory | 2002 | public/docs/S/Schwartz2002ArchivesRecordsPower.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Origin and development of the concept of archival description | 1992 | public/docs/D/Duranti1992OriginConceptArchivalDescription.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Records and their imaginaries: imagining the impossible, making possible the imagined | 2016 | public/docs/G/Gilliland2016RecordsImaginaries.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Sorting things out: classification and its consequences | 1999 | public/docs/B/Bowker1999SortingThingsOut.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Toward the archival stage in the history of knowledge | 2015 | public/docs/N/Nesmith2015ArchivalStageHistoryKnowledge.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -152,6 +151,7 @@ _None._
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives as spaces of memory | 2008 | public/docs/K/Ketelaar2008ArchivesSpacesMemory.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Critical archival studies: an introduction | 2017 | public/docs/C/Caswell2017CriticalArchivalStudies.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Documenting documentation | 1992 | public/docs/B/Bearman1992DocumentingDocumentation.md | meets current structural and completeness checks |
+| Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Origin and development of the concept of archival description | 1992 | public/docs/D/Duranti1992OriginConceptArchivalDescription.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
