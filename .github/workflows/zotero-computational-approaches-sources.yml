@@ -1,0 +1,56 @@
+name: Fetch computational approaches Zotero PDFs
+
+on:
+  push:
+    branches:
+      - zotero-theoretical-framework-audit
+    paths:
+      - '.github/workflows/zotero-computational-approaches-sources.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { key: 'XDUI2RMI', slug: 'attfield-kirkham-1989' }
+          - { key: 'Q2J6BJC3', slug: 'mordell-2019' }
+          - { key: '3Q945HJ4', slug: 'drucker-2011' }
+          - { key: 'NILDEWBS', slug: 'mackenzie-2017' }
+          - { key: 'BLXP9KKN', slug: 'vafaie-2025' }
+          - { key: '9DCLT45T', slug: 'visual-heritage-llm-2024' }
+          - { key: 'S8RBKWVC', slug: 'davis-2021' }
+          - { key: 'JUJF2IDA', slug: 'rockmore-2025' }
+          - { key: 'FCH5ELVJ', slug: 'umap-2020' }
+          - { key: 'XGW459UJ', slug: 'bernard-2025' }
+          - { key: 'Z9IN3FCV', slug: 'radharapu-2025' }
+          - { key: 'JFAP2JSU', slug: 'colavizza-2022' }
+          - { key: '5C923R7Y', slug: 'zaagsma-2023' }
+          - { key: 'ZJVVPAYV', slug: 'selyshcheva-2026' }
+          - { key: 'QW5HNSPT', slug: 'hedges-2022' }
+          - { key: 'QI2I6HJQ', slug: 'bender-2021' }
+          - { key: 'CVVHJD52', slug: 'asai-2026' }
+          - { key: 'PUUPT229', slug: 'nieto-mcavoy-2024' }
+          - { key: 'LUVAUXT2', slug: 'marciano-2022' }
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch PDF from Zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+          ZOTERO_ITEM_KEY: ${{ matrix.key }}
+        run: python3 scripts/zotero_fetch_pdf.py
+      - name: Upload source artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zotero-source-${{ matrix.slug }}
+          path: tmp/zotero-source
+          retention-days: 1
