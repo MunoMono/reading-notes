@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:50:57+00:00",
+  "generated_at": "2026-10-01T14:08:05+00:00",
   "zotero_user_id": "3436801",
   "scope": {
     "root_collection_name": "Theoretical framework",
@@ -26,7 +26,7 @@
     "Theoretical framework / 2. Critical archival theory / b) Operational literature": 4,
     "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature": 5,
     "Theoretical framework / 2. Critical archival theory / d) Z": 5,
-    "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage": 4,
+    "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage": 3,
     "Theoretical framework / 3. Critical computational approaches / b) Operational literature": 5,
     "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature": 11,
     "Theoretical framework / 3. Critical computational approaches / d) Z": 4,
@@ -35,7 +35,7 @@
     "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature": 5,
     "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature": 1,
     "Theoretical framework / 4. Feminist + situated knowledge / d) Z": 2,
-    "Theoretical framework / 4. Feminist + situated knowledge / e) ADD": 13
+    "Theoretical framework / 4. Feminist + situated knowledge / e) ADD": 14
   },
   "active_collection_item_counts": {
     "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 1,
@@ -44,7 +44,7 @@
     "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage": 10,
     "Theoretical framework / 2. Critical archival theory / b) Operational literature": 4,
     "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature": 5,
-    "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage": 4,
+    "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage": 3,
     "Theoretical framework / 3. Critical computational approaches / b) Operational literature": 5,
     "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature": 11,
     "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage": 2,
@@ -52,8 +52,8 @@
     "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature": 1
   },
   "item_count": 86,
-  "active_item_count": 51,
-  "deferred_placeholder_item_count": 35,
+  "active_item_count": 50,
+  "deferred_placeholder_item_count": 36,
   "items": [
     {
       "zotero_item_key": "ZV4YNL9B",
@@ -1361,45 +1361,6 @@
       ]
     },
     {
-      "zotero_item_key": "XDUI2RMI",
-      "version": 8651,
-      "item_type": "book",
-      "title": "A View from the interior: feminism, women, and design",
-      "creators": "Attfield, Judy; Kirkham, Pat",
-      "creators_raw": [
-        {
-          "creatorType": "editor",
-          "firstName": "Judy",
-          "lastName": "Attfield"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Pat",
-          "lastName": "Kirkham"
-        }
-      ],
-      "date": "1989",
-      "year": "1989",
-      "publisher": "Women's Press",
-      "publication_title": "",
-      "doi": "",
-      "isbn": "9780704341104",
-      "url": "",
-      "tags": [
-        "19th century",
-        "20th century",
-        "Design",
-        "Feminism and art",
-        "Great Britain",
-        "History",
-        "Women designers"
-      ],
-      "citation_key": "",
-      "collection_paths": [
-        "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage"
-      ]
-    },
-    {
       "zotero_item_key": "Q2J6BJC3",
       "version": 8519,
       "item_type": "journalArticle",
@@ -2568,6 +2529,45 @@
       "citation_key": "",
       "collection_paths": [
         "Theoretical framework / 4. Feminist + situated knowledge / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "XDUI2RMI",
+      "version": 8683,
+      "item_type": "book",
+      "title": "A View from the interior: feminism, women, and design",
+      "creators": "Attfield, Judy; Kirkham, Pat",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Judy",
+          "lastName": "Attfield"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Pat",
+          "lastName": "Kirkham"
+        }
+      ],
+      "date": "1989",
+      "year": "1989",
+      "publisher": "Women's Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780704341104",
+      "url": "",
+      "tags": [
+        "19th century",
+        "20th century",
+        "Design",
+        "Feminism and art",
+        "Great Britain",
+        "History",
+        "Women designers"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
       ]
     },
     {

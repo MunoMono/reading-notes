@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T13:50:57+00:00
+Generated: 2026-10-01T14:08:05+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,13 +8,13 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 34 |
-| SECOND PASS REQUIRED | 15 |
-| FIRST PASS REQUIRED | 2 |
+| COMPLIANT | 35 |
+| SECOND PASS REQUIRED | 14 |
+| FIRST PASS REQUIRED | 1 |
 | REVIEW MATCH | 0 |
 
-**Active Zotero items in scope:** 51
-**Deferred placeholder-only items (d/e):** 35
+**Active Zotero items in scope:** 50
+**Deferred placeholder-only items (d/e):** 36
 **Repo-only theoretical-framework notes needing parity review:** 1
 
 ## Active Zotero collection counts
@@ -27,7 +27,7 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | 10 |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | 4 |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | 5 |
-| Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | 4 |
+| Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | 3 |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | 5 |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | 11 |
 | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | 2 |
@@ -70,6 +70,7 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | Theoretical framework / 3. Critical computational approaches / e) ADD | "where is cultural criticism in the digital humanities?" | 2011 |
 | Theoretical framework / 4. Feminist + situated knowledge / d) Z | A survey on bias and fairness in machine learning | 2021 |
 | Theoretical framework / 4. Feminist + situated knowledge / d) Z | Data feminism | 2020 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | A View from the interior: feminism, women, and design | 1989 |
 | Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
 | Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
 | Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
@@ -88,7 +89,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 3. Critical computational approaches / b) Operational literature | Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation | 2021 | public/docs/D/Davis2021LinkedDataCulturalHeritage.md | missing Zotero-parity framework metadata |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | A systematic review of fairness, accountability, transparency, and ethics in information retrieval | 2025 | public/docs/B/Bernard2025SystematicReviewFairness.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks | 2025 | public/docs/R/RadharapuArbitersAmbivalenceChallenges.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Archives and AI: an overview of current debates and future perspectives | 2022 | public/docs/C/Colavizza2022ArchivesAIOverview.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -108,7 +108,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Machine learners: archaeology of a data practice | 2017 |  | no matching reading note |
 
 ## REVIEW MATCH
@@ -151,6 +150,7 @@ _None._
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Humanities approaches to graphical display | 2011 | public/docs/D/Drucker2011HumanitiesApproachesGraphical.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | End-to-end information extraction from archival records with multimodal large language models | 2025 | public/docs/V/Vafaie2025EndtoendInformationExtraction.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | Explainable search and discovery of visual cultural heritage collections with multimodal large language models | 2024 | public/docs/A/ArnoldExplainableSearchDiscovery.md | meets current structural and completeness checks |
+| Theoretical framework / 3. Critical computational approaches / b) Operational literature | Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation | 2021 | public/docs/D/Davis2021LinkedDataCulturalHeritage.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | On the literary landscapes of vector embeddings | 2025 | public/docs/R/Rockmore2025LiteraryLandscapesVector.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | UMAP: uniform manifold approximation and projection for dimension reduction | 2020 | public/docs/M/McInnesUMAPUniformManifold.md | meets current structural and completeness checks |
 
