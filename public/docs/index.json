@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T08:34:45.456Z",
+  "updatedAt": "2026-10-01T08:36:19.642Z",
   "entries": [
     {
       "letter": "A",
@@ -56,7 +56,7 @@
       ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1790843650001.7588,
+      "mtimeMs": 1790843686293.677,
       "category": "1. Critical design historiography"
     },
     {
@@ -1043,7 +1043,7 @@
       "literature_clusters": [],
       "noteDate": "27 May 2026, 10:10",
       "noteDateMs": 1779873000000,
-      "mtimeMs": 1790843650013.5671,
+      "mtimeMs": 1790843686293.6816,
       "category": "S3.1 Visual analytics"
     },
     {
@@ -2401,7 +2401,7 @@
         ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1790843650001.7588,
+        "mtimeMs": 1790843686293.677,
         "category": "1. Critical design historiography"
       },
       {
@@ -3398,7 +3398,7 @@
         "literature_clusters": [],
         "noteDate": "27 May 2026, 10:10",
         "noteDateMs": 1779873000000,
-        "mtimeMs": 1790843650013.5671,
+        "mtimeMs": 1790843686293.6816,
         "category": "S3.1 Visual analytics"
       },
       {
