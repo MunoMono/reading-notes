@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:07:08+00:00",
+  "generated_at": "2026-10-01T11:08:23+00:00",
   "scope": {
     "root_collection_name": "Theoretical framework",
     "root_collection_key": "V4KYURGK",
@@ -1120,8 +1120,8 @@
     "deferred_placeholder_item_count": 32,
     "github_note_count_scanned": 83,
     "status_counts": {
-      "COMPLIANT": 11,
-      "SECOND PASS REQUIRED": 35,
+      "COMPLIANT": 12,
+      "SECOND PASS REQUIRED": 34,
       "FIRST PASS REQUIRED": 7,
       "REVIEW MATCH": 0
     },
@@ -2364,7 +2364,7 @@
       }
     },
     {
-      "status": "SECOND PASS REQUIRED",
+      "status": "COMPLIANT",
       "item": {
         "zotero_item_key": "PBZ5IK9L",
         "version": 8003,
@@ -2401,108 +2401,50 @@
         "title + year exact"
       ],
       "audit": {
-        "compliant": false,
-        "complete_claims": 0,
+        "compliant": true,
+        "complete_claims": 6,
         "claim_checks": {
           "1": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "2": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "3": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "4": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "5": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "6": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           }
         },
-        "synthesis_complete": false,
-        "metadata_complete": false,
+        "synthesis_complete": true,
+        "metadata_complete": true,
         "required_markers": {
           "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
           "chicago_payload": true
         },
-        "reasons": [
-          "missing Zotero-parity framework metadata",
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
-        ]
+        "reasons": []
       }
     },
     {
