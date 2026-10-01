@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T11:18:17+00:00
+Generated: 2026-10-01T11:20:03+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 18 |
-| SECOND PASS REQUIRED | 28 |
+| COMPLIANT | 19 |
+| SECOND PASS REQUIRED | 27 |
 | FIRST PASS REQUIRED | 7 |
 | REVIEW MATCH | 0 |
 
@@ -86,7 +86,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives, records, and power: the making of modern memory | 2002 | public/docs/S/Schwartz2002ArchivesRecordsPower.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Theoretical framework / 2. Critical archival theory / b) Operational literature | Four paradigm transformations in oral history | 2007 | public/docs/T/Thomson2007FourParadigmTransformations.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Of things said and unsaid: power, archival silences, and power in silence | 2006 | public/docs/C/CarterThingsSaidUnsaid.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | What makes oral history different | 2009 | public/docs/P/Portelli2009WhatMakesOralHistoryDifferent.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities | 2024 | public/docs/J/Jaillant2024AreUsersDigital.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -152,6 +151,7 @@ _None._
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Toward the archival stage in the history of knowledge | 2015 | public/docs/N/Nesmith2015ArchivalStageHistoryKnowledge.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Toward the archival stage in the history of knowledge | 2015 | public/docs/N/Nesmith2015ArchivalStageHistoryKnowledge.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | What is past is prologue: a history of archival ideas since 1898, and the future paradigm shift | 1997 | public/docs/C/Cook1997WhatIsPastPrologue.md | meets current structural and completeness checks |
+| Theoretical framework / 2. Critical archival theory / b) Operational literature | Four paradigm transformations in oral history | 2007 | public/docs/T/Thomson2007FourParadigmTransformations.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
