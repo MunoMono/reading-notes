@@ -61,4 +61,25 @@ jobs:
             git commit -m 'chore: refresh Zotero theoretical framework audit'
             git push
           fi
-# audit-scope: active clusters a/b/c; d/e inventoried only
+
+  source_uat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch Buckley PDF from Zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+          ZOTERO_ITEM_KEY: 'ZV4YNL9B'
+        run: python3 scripts/zotero_fetch_pdf.py
+      - name: Upload Buckley source artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zotero-buckley-source
+          path: tmp/zotero-source
+          retention-days: 1
