@@ -4,143 +4,190 @@ authors: "Ketelaar, Eric"
 year: 2008
 journal: "Journal of the Society of Archivists"
 volume: "29"
-number: "1"
+issue: "1"
 pages: "9-27"
 citation_key: Ketelaar2008ArchivesSpacesMemory
 doi: "10.1080/00379810802499678"
-url: ""
+url: "http://www.tandfonline.com/doi/full/10.1080/00379810802499678"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "19 Mar 2026"
+generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Recording, organising, and obscuring traces"
-model_subcluster: "S2.3 Archival reconstruction and institutional memory"
-source_type: "Bridge text"
-project_tags:
-  - "Theoretical framework"
 theoretical_framework_area_id: "2"
 theoretical_framework_area: "Critical archival theory"
 literature_cluster_id: "a"
 literature_cluster: "Canon + intellectual lineage"
-zotero_filing_path: "Theoretical framework / Critical archival theory / Canon + intellectual lineage"
-last_updated: "19 Mar 2026, 09:18"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Recording, organising, and obscuring traces  
-**Sub-cluster:** S2.3 Archival reconstruction and institutional memory  
-**Source type:** Bridge text  
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+source_type: "Core text"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- How organisation choices reveal or hide contested knowledge
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a strong archival-memory text that treats archives not just as containers of records but as active social spaces where stories, records, users, and communities interact.  
-**Where it sits in my argument (chapter/section + what it helps me say):** S2 archival reconstruction and institutional memory; it helps me say that archives are not simply repositories of finished pasts but dynamic spaces where records are reactivated, co-created, and woven into public and private memory practices.  
-**Why this term, not alternatives (1–2 lines):** Ketelaar’s phrase “spaces of memory” is more useful than generic archives-and-memory language because it foregrounds interaction, activation, co-creatorship, and social use, not just symbolic remembrance.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where archive practice involves reactivation, co-creation, personal narrative, or user participation, and where I need to justify connecting official archives to oral histories, private records, and digital social layers.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Ketelaar writes from critical archival studies and records continuum thinking, in a late-2000s moment shaped by debates around truth commissions, social memory, digital participation, and Web 2.0. The paper is split between a first half on truth, justice, memory, and the role of archives after conflict, and a second half on how digital and social technologies might connect people’s stories to public archives and turn archives into social spaces of memory. `[@Ketelaar2008ArchivesSpacesMemory, pp. 9–10]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is strongest when read not as simple archival optimism but as a proposal for how archives might respond to memory, trauma, and community use without claiming to deliver final truth. It is especially useful because it keeps the archive open, unfinished, and socially activated. `[@Ketelaar2008ArchivesSpacesMemory, pp. 11–13, 17–21]`
+**How this source moves the primary research question forward:** Ketelaar gives the thesis a vocabulary for archive activation that is explicitly relational and temporal: records do not contain final meaning but are repeatedly activated, interpreted and connected to communities of memory.
 
-# The author’s main move (1 sentence)
-They try to redefine archives as social spaces of memory by connecting truth, justice, and memory work to activation, co-creatorship, and participatory technologies in order to show how archives might contribute to healing, community formation, and continuing reinterpretation.
+**How this source bears on the secondary question:** His account of archives as social spaces offers a period-independent way to ask how archived design knowledge can acquire new meaning through later use without pretending that later interpretation was present in the original record.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It provides one of the clearest archival-theoretical foundations for the thesis term “activate” while preserving the difference between record, later memory-work and historical interpretation.
+
+**Where it sits in my argument:** Canon + intellectual lineage. It bridges records continuum thinking, memory studies and participatory archival practice.
+
+**My benchmark for using it:** I will use “activation” as a theory of continuing record use and meaning, not as permission to overwrite provenance or collapse memory-truth into historical fact.
+
+# Position + moment
+
+Ketelaar writes in 2008 from critical archival and memory studies, moving from truth, justice and tribunals to records continuum ideas and participatory digital archives. His paper is both conceptual and practical: records are framed, remembered and re-used, while archives can become social spaces in which public and private memories meet. [@Ketelaar2008ArchivesSpacesMemory, pp. 9–27]
+
+# The author’s main move
+
+Ketelaar argues that archives are never closed containers of truth: records are framed at creation, repeatedly activated through use, and capable of supporting communities of memory when archival systems allow people to participate in their continuing interpretation. [@Ketelaar2008ArchivesSpacesMemory, pp. 10–27]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Ketelaar argues that records do not contain final truth and that archives remain open because records are continually reactivated and reinterpreted.
-- **Evidence (quote/paraphrase + page):** In the discussion of tribunals and legal records, Ketelaar argues that neither court records nor other records contain “the truth,” but only what recorders construed to be true in a given context. He then contrasts law’s closure with history’s and memory’s recurrence, stating that “the archive is never finished,” that “the file may have been closed, but it will be reactivated again and again,” and that every interaction and interpretation is an “activation” that adds to the archive’s meaning. `[@Ketelaar2008ArchivesSpacesMemory, pp. 10–13]`
-- **Warrant (my words):** This is one of the paper’s central claims. Ketelaar is relocating archival meaning away from fixed evidential closure and toward an ongoing process of re-use, reinterpretation, and co-creatorship.
-- **So what for my thesis (a reusable sentence):** Ketelaar lets me argue that the DDR archive should be understood as an open field of reactivation, where later archival, oral-historical, and computational interventions become part of the record’s continuing meaning.
-- **Practice cross-check:** This aligns strongly with your project’s activation language, with Portelli on the recurrence of memory, and with the idea that the DDR archive is not just to be described but mobilised. TODO (needs exact conceptual framework / methods cross-link).
+- **Claim (plain):** Records do not transparently contain historical truth.
+- **Author claim:** Ketelaar argues that legal and archival records are constructions shaped by the contexts, selections and power relations through which they were made.
+- **Evidence-supported claim:** In discussing Nuremberg and the ICTY, he states that records describe what recorders believed or construed to be true and invokes Harris's argument that every record is a construction of realities expressing relations of power. [@Ketelaar2008ArchivesSpacesMemory, pp. 10–12]
+- **Researcher inference:** DDR documents should be treated as evidence of situated acts, classifications and claims rather than as transparent windows onto what “really happened.”
+- **Evidence (quote/paraphrase + page):** Ketelaar says that what is recorded is never simply “what happened” and that the record is framed by the conditions of its making. [@Ketelaar2008ArchivesSpacesMemory, pp. 10–12]
+- **Warrant (my words):** Evidential value depends on knowing how and why a record came into being, not on assuming documentary presence equals historical completeness.
+- **Boundary:** The argument does not make records useless or arbitrary; it redirects attention toward context and provenance.
+- **Consequence:** DDR claims should separate recorded action, later interpretation and researcher inference.
+- **Practice cross-check:** Apply the evidence hierarchy already used in the DDR corpus: catalogue association ≠ action; recorded action ≠ intent.
 
 ## Claim 2
-- **Claim (plain):** Ketelaar argues that archives can and should accommodate memory-truth by connecting private stories and public records rather than defending a strict separation between them.
-- **Evidence (quote/paraphrase + page):** He says that memory-truth is not historical or juridical truth but “psychological truth: memory-truth,” serving to reintegrate the lost into collective memory and identity. He then proposes that archivists and record professionals are “engaged in memory-practice” and argues for refiguring preservation and access so that records are woven into private and public memories as a commemorative and healing practice. He also argues for “Freedom for my file” as a way of liberating the record from the single context of the creator and allowing the subject of the record to become “a party to the record.” `[@Ketelaar2008ArchivesSpacesMemory, pp. 12–14]`
-- **Warrant (my words):** This matters because Ketelaar is expanding archival legitimacy beyond custody and evidence. He is saying archives can host memory-work and that subjects, victims, and communities may become co-creators or activators of the record.
-- **So what for my thesis:** Ketelaar helps me connect the DDR archive to oral histories, marginal or overlooked contributors, and private or semi-private memory traces without treating those as external to the archival problem.
-- **Practice cross-check:** This is highly relevant to the gender-gap thread, to Patterson and other less-canonical actors, and to any oral-history work that re-enters the archive as contextual or co-creative evidence. TODO (needs oral-history / gender-gap cross-link).
+- **Claim (plain):** The archive remains open because every use reactivates the record.
+- **Author claim:** Ketelaar says the archive is never finished and that interactions by creators, users and archivists activate records and leave “fingerprints” in their continuing meaning.
+- **Evidence-supported claim:** He links repeated activation to records-continuum ideas of continuing formation and argues that a record is always in a process of becoming. [@Ketelaar2008ArchivesSpacesMemory, pp. 12–13]
+- **Researcher inference:** “Activation” is a defensible archival term for the thesis because computational surfacing can be understood as a later use of surviving traces rather than a claim to recover an untouched past.
+- **Evidence (quote/paraphrase + page):** “The archive is never finished”; the file may be closed but can be activated again and again. [@Ketelaar2008ArchivesSpacesMemory, p. 13]
+- **Warrant (my words):** Meaning changes as records enter new contexts of interpretation even though their provenance and historical status remain important.
+- **Boundary:** Continuing activation does not mean every interpretation is equally well supported.
+- **Consequence:** The thesis should make each new computational or oral-historical intervention traceable as a later interpretative layer.
+- **Practice cross-check:** Preserve source passages, provenance bindings and explicit synthesis boundaries in RAI outputs.
 
 ## Claim 3
-- **Claim (plain):** Ketelaar’s positive proposal is that digital and social technologies can turn archives into participatory social spaces where users contribute, annotate, connect, and build communities of records.
-- **Evidence (quote/paraphrase + page):** In the second half of the paper he proposes “Archives 2.0,” using Web 2.0 features to stimulate people to upload stories and documents, connect private and public memories, and establish “communities of records.” He discusses the Polar Bear digital collections as an archival case using commenting, collaborative filtering, bookmarking, and visitor awareness to support social navigation, and later extends this to ubiquitous computing and connected memory practices. He concludes that “Archives as social spaces can help forming and hosting these communities. Archives serving as spaces of memory, where people’s experiences can be transformed into meaning.” `[@Ketelaar2008ArchivesSpacesMemory, pp. 14–21, 27]`
-- **Warrant (my words):** This is the paper’s strongest methodological and practical move. Ketelaar is not only theorising archives as memory spaces; he is proposing infrastructural forms through which archives become participatory, relational, and community-bearing.
-- **So what for my thesis:** Ketelaar provides a strong bridge for defending S3-style archive activation, especially where visual, computational, or participatory systems aim to connect records, stories, users, and meanings rather than simply retrieve items.
-- **Practice cross-check:** This connects directly to your computational strand, but it needs to be balanced with Boyd Davis/Vane/Kräutli and Bender et al. so that participation and connectivity do not become a new rhetoric of frictionless trust. TODO (needs S3 trust/provenance cross-link).
+- **Claim (plain):** Ketelaar distinguishes memory-truth from juridical or historical truth.
+- **Author claim:** He describes memory-truth as psychological and collective, serving reintegration and identity rather than only establishing factual propositions.
+- **Evidence-supported claim:** Pages 12–14 explain that memory-justice has different aims from courtroom proof and ask whether archives can accommodate memory-truth without confusing evidential categories.
+- **Researcher inference:** Oral histories can contribute meanings, identities and retrospective experience to DDR history without being treated as equivalent to contemporary project records.
+- **Evidence (quote/paraphrase + page):** Ketelaar describes memory-truth as concerned with narrative unity and collective memory rather than simply establishing that an event occurred. [@Ketelaar2008ArchivesSpacesMemory, pp. 12–14]
+- **Warrant (my words):** Different kinds of historical source answer different questions; testimony about remembered significance need not be downgraded simply because it is not contemporaneous evidence.
+- **Boundary:** Memory-truth cannot independently establish details that require contemporary corroboration.
+- **Consequence:** The thesis should retain explicit source-type distinctions when triangulating oral testimony with DDR documents.
+- **Practice cross-check:** Keep testimony, source record, metadata and researcher synthesis separately labelled.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Activation / reactivation:** each interaction, interrogation, interpretation, or intervention that reanimates a record and contributes to its meaning; I will use this as a central method term for working with the DDR archive. `[@Ketelaar2008ArchivesSpacesMemory, pp. 12–13]`
-- **Memory-truth:** not juridical or historical truth, but a psychological and communal truth tied to mourning, continuity, and recognition; I will use this cautiously in relation to oral histories and institutional memory. `[@Ketelaar2008ArchivesSpacesMemory, pp. 12–13]`
-- **Co-creatorship:** the idea that users, subjects, and later participants may become parties to the record through annotation, amendment, contribution, and reinterpretation; I will use this term where archive users actively shape archival meaning. `[@Ketelaar2008ArchivesSpacesMemory, pp. 13–15]`
-- **Community of records:** the aggregate of records generated through multiple layers of action and interaction within a community; I will use this as a strong term for linking oral histories, archive users, and institutional memory around DDR. `[@Ketelaar2008ArchivesSpacesMemory, pp. 17–18]`
-- **Archives 2.0 / social spaces of memory:** archives using participatory digital tools to connect people, records, stories, and communities; I will use this historically and critically, not as a neutral technological solution. `[@Ketelaar2008ArchivesSpacesMemory, pp. 17–21, 27]`
+## Claim 4
+- **Claim (plain):** Subjects and communities represented in records can become active parties in archival meaning.
+- **Author claim:** Ketelaar proposes refiguring preservation and access so that private stories and public archives can be woven together, including the idea of “Freedom for my file.”
+- **Evidence-supported claim:** He argues that subjects of records can become parties to records and that memory communities can participate in the archive's continuing formation. [@Ketelaar2008ArchivesSpacesMemory, pp. 13–16]
+- **Researcher inference:** DDR activation can legitimately include former staff and students as interpretative contributors while preserving the difference between their testimony and the original records.
+- **Evidence (quote/paraphrase + page):** Ketelaar frames archivists and record professionals as engaged in memory-practice and proposes bringing subjects and communities into the continuing life of records. [@Ketelaar2008ArchivesSpacesMemory, pp. 13–16]
+- **Warrant (my words):** People documented by institutional systems may hold knowledge about context, labour and meaning that those systems did not capture.
+- **Boundary:** Participation does not automatically settle contested interpretation or ownership.
+- **Consequence:** Oral-history contributions should be linked to, rather than silently merged into, archival traces.
+- **Practice cross-check:** Use oral-history interviews as a distinct evidence route and retain contradictions rather than harmonising them.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me one of the strongest archival arguments for archive activation as an ongoing social process.
-  - It is especially useful because it ties records, memory, users, and participatory digital systems together.
-  - It gives me a valuable bridge between archival theory, oral history, and your S3 computational/interactive strand.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat the DDR archive as a social and interpretative space, not only as a source base.
-  - I will use Ketelaar to justify the re-entry of user stories, oral histories, and later annotations into the archive’s continuing meaning.
-- **What question it raises next (1–2 bullets):**
-  - How far can the DDR archive become a “space of memory” without collapsing differences between evidence, memory, and retrospective narrative?
-  - Which parts of Ketelaar’s participatory digital vision are genuinely useful for a doctoral archive project, and which remain more aspirational than methodologically necessary?
+## Claim 5
+- **Claim (plain):** Archives can be designed as participatory social spaces rather than one-way repositories.
+- **Author claim:** Ketelaar proposes “Archives 2.0” and gives examples of commenting, collaborative filtering, bookmarking and visitor awareness as mechanisms for social navigation.
+- **Evidence-supported claim:** Pages 14–21 describe digital systems that allow stories and documents to be contributed and connected, enabling communities of records and memory.
+- **Researcher inference:** Archive interfaces can support relationship-building and contextual navigation without reducing the archive to keyword retrieval.
+- **Evidence (quote/paraphrase + page):** Ketelaar describes social-navigation features that make archival use visible and allow users to contribute connections and interpretations. [@Ketelaar2008ArchivesSpacesMemory, pp. 14–21]
+- **Warrant (my words):** Interface architecture affects whether users encounter records as isolated items or as socially situated relations.
+- **Boundary:** Participatory features can reproduce unequal visibility or unverified claims if evidential status is not preserved.
+- **Consequence:** DDR interface design should support exploration while visibly separating archival evidence from user-added interpretation.
+- **Practice cross-check:** Semantic neighbourhoods and provenance cards should expose relations and supporting traces, not just popularity or engagement.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the S2 archival reconstruction and institutional memory section where I discuss activation and co-creatorship, and in the methods chapter where I connect archival traces to oral histories and participatory/computational surfacing.
-- **Where I will name the title in running text (first-use rule):** First mention in the archival-memory section: *In “Archives as Spaces of Memory” (2008), Eric Ketelaar argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside Portelli/Thomson on oral histories and alongside any S3 prototype that connects archive items to stories, annotations, or relational exploration. TODO (needs exact cross-reference).
-- **Workstreams →** Archival reconstruction; institutional memory; oral history; computational activation.
-- **Deliverables →** S2 bridge paragraph; methods paragraph on archive activation and co-creatorship; literature map node; footnote trail on social spaces of memory.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; oral history readers; digital humanities readers.
+## Claim 6
+- **Claim (plain):** Digital connectivity can link public and private memories but does not remove the archive's ethical responsibilities.
+- **Author claim:** Ketelaar extends his argument to ubiquitous computing and connected memory practices, concluding that archives as social spaces can host communities in which experiences are transformed into meaning.
+- **Evidence-supported claim:** The concluding pages connect technological affordances with the broader archival responsibility to memory communities. [@Ketelaar2008ArchivesSpacesMemory, pp. 20–27]
+- **Researcher inference:** Computational activation of DDR should be evaluated by what kinds of contextual connection and accountable meaning it enables, not by technical novelty alone.
+- **Evidence (quote/paraphrase + page):** Ketelaar concludes that archives as social spaces can help form and host communities of records and memory. [@Ketelaar2008ArchivesSpacesMemory, p. 27]
+- **Warrant (my words):** Technology becomes archivally significant when it changes relations among records, people and interpretations.
+- **Boundary:** Ketelaar's Web 2.0 examples predate contemporary AI and do not establish how generative systems should behave.
+- **Consequence:** His work provides the archival logic of activation; contemporary AI governance must come from later sources.
+- **Practice cross-check:** Pair Ketelaar with Jaillant/Rees and provenance/RAI controls rather than citing him as evidence about AI.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This article is strongest as a conceptual and participatory vision of archives as memory spaces, but it does not by itself solve questions of provenance, evidence hierarchy, or interpretative disagreement in the DDR case.
-- **Risk if misused (1 sentence):** If I use Ketelaar too enthusiastically, I could romanticise participation and memory-work and underplay the need for provenance, scepticism, and historical method when mobilising the DDR archive.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Activation:** a later interaction with a record that participates in its continuing meaning while remaining distinguishable from original creation. [@Ketelaar2008ArchivesSpacesMemory, pp. 12–13]
+- **Memory-truth:** remembered psychological and collective meaning, analytically distinct from juridical or historical proof. [@Ketelaar2008ArchivesSpacesMemory, pp. 12–14]
+- **Communities of records:** social groups formed around records and their continuing use and meaning. [@Ketelaar2008ArchivesSpacesMemory, pp. 14–21]
+- **Archives as social spaces:** archival environments in which records, people, stories and interpretations can be connected and reactivated. [@Ketelaar2008ArchivesSpacesMemory, pp. 14–27]
+
+# My response
+
+Ketelaar provides the strongest direct archival-theoretical support for the thesis verb “activate.” His formulation does not require the archive to yield a final historical truth; it requires later uses to remain situated in the record's continuing life. That is especially productive for DDR because oral histories, catalogue structures and computational interfaces can all be treated as later activations with different evidential status. The conceptual safeguard is equally important: openness of meaning does not erase provenance or make interpretation unconstrained.
+
+# Integration hooks
+
+**Where I will cite it:** The theoretical-framework definition of archive activation; oral-history triangulation; interface design; and the distinction between contemporary record and later memory-work.
+
+**Link to my practice evidence:** RAI provenance cards, oral-history testimony and semantic-neighbourhood interfaces provide three distinct forms of later activation.
+
+**Workstreams →** Critical archival theory; oral history; archive interface; provenance.  
+**Deliverables →** Theoretical framework; methods chapter; interface rationale.
+
+# Boundary + risk
+
+**Boundary:** Ketelaar theorises social memory and participatory archives; he does not supply a method for evaluating AI-generated historical synthesis.
+
+**Risk if misused:** “Activation” could become a licence for unconstrained reinterpretation unless source status, provenance and uncertainty remain explicit.
+
+# Cross-source / cross-lens synthesis
+
+Ketelaar extends the power critique associated with Schwartz and Cook by focusing on what happens after records are created and preserved: they continue to acquire meaning through activation. Bearman's contextual documentation and Duranti's history of description show how archival systems structure those later encounters, while Caswell, Punzalan and Sangwand foreground the political consequences of such structures. For DDR, this means activation is neither simple retrieval nor historical recovery. It is a provenance-aware process through which surviving traces are brought into new relations while the archive's limits remain visible.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
-- [ ] Data collection and instruments
+- [x] Data collection and instruments
 - [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 10–15, 17–21, 27
-- **First full note (write it out here):**  
-  Eric Ketelaar, “Archives as Spaces of Memory,” *Journal of the Society of Archivists* 29, no. 1 (2008): 9–27.
-- **Short note form:**  
-  Ketelaar, “Archives as Spaces of Memory,” 12–15.
-- **One quote worth lifting (≤2 lines):** “The archive is never finished.” (p. 13)
-- **One paraphrase worth keeping:** Ketelaar argues that archives should be understood as social spaces of memory in which records are repeatedly activated, co-created, and connected to private and public stories rather than preserved as closed containers of final truth. (pp. 12–21)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Brothman, “The Past That Archives Keep”
-- Portelli, “What Makes Oral History Different”
-- Thomson, “Four Paradigm Transformations in Oral History”
-- Boyd Davis, Vane, and Kräutli, “Can I Believe What I See?”
-- Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?”
+- **Key pages to reuse:** 10–16, 20–27
+- **First full note:** Eric Ketelaar, “Archives as Spaces of Memory,” *Journal of the Society of Archivists* 29, no. 1 (2008): 9–27, https://doi.org/10.1080/00379810802499678.
+- **Short note form:** Ketelaar, “Archives as Spaces of Memory,” 12–16.
+- **One quote worth lifting:** “The archive is never finished.” (p. 13)
+- **One paraphrase worth keeping:** Ketelaar argues that records are repeatedly activated by creators, archivists and users, so archival meaning remains open while still being conditioned by provenance, framing and power. [@Ketelaar2008ArchivesSpacesMemory, pp. 10–16]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A text on archival participation, co-creation, or shared authority that is less visionary and more method-specific.
-- What I will test or write next: Draft the paragraph that links archive activation, oral history, and participatory/computational surfacing, then specify where your thesis keeps provenance and scepticism in view.
+# Related works
+
+- Schwartz and Cook, “Archives, Records, and Power.”
+- Caswell, Punzalan, and Sangwand, “Critical Archival Studies.”
+- Bearman, “Documenting Documentation.”
+
+# Follow-ups
+
+- **What I will test next:** Make the thesis definition of “activation” explicitly provenance-aware and compare it with the behaviour of the DDR computational interface.
