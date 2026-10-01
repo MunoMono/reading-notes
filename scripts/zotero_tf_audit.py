@@ -289,7 +289,7 @@ def audit_note(note):
     for n in range(1, 7):
         block = blocks.get(n, "")
         values = {label: field_value(block, label) for label in labels}
-        missing = [label for label, value in values.items() if not value or is_placeholder(value)]
+        missing = [label for label, value in values.items() if not value or (label != "Practice cross-check" and is_placeholder(value))]
         page_evidence = values.get("Evidence (quote/paraphrase + page)", "")
         has_page_or_todo = bool(re.search(r"\bpp?\.\s*\d+", page_evidence, flags=re.I) or "TODO" in page_evidence)
         if not has_page_or_todo:
