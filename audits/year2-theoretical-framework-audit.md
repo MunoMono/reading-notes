@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T11:26:37+00:00
+Generated: 2026-10-01T11:28:37+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,9 +8,9 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 23 |
+| COMPLIANT | 24 |
 | SECOND PASS REQUIRED | 24 |
-| FIRST PASS REQUIRED | 6 |
+| FIRST PASS REQUIRED | 5 |
 | REVIEW MATCH | 0 |
 
 **Active Zotero items in scope:** 53
@@ -116,7 +116,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Design history and the history of design | 1990 |  | no matching reading note |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Objects of desire: design and society since 1750 | 1992 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | Applying AI to digital archives: trust, collaboration and shared professional ethics | 2023 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Machine learners: archaeology of a data practice | 2017 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | Explainable search and discovery of visual cultural heritage collections with multimodal large language models | 2024 |  | no matching reading note |
@@ -151,6 +150,7 @@ _None._
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Four paradigm transformations in oral history | 2007 | public/docs/T/Thomson2007FourParadigmTransformations.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Of things said and unsaid: power, archival silences, and power in silence | 2006 | public/docs/C/CarterThingsSaidUnsaid.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | What makes oral history different | 2009 | public/docs/P/Portelli2009WhatMakesOralHistoryDifferent.md | meets current structural and completeness checks |
+| Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | Applying AI to digital archives: trust, collaboration and shared professional ethics | 2023 | public/docs/J/jaillantApplyingAIDigital2023.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | Critical feminism in the archives | 2017 | public/docs/C/Cifor2017CriticalFeminismArchives.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
