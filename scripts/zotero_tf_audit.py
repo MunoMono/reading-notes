@@ -259,8 +259,18 @@ def match_score(item, note):
     return score, reasons
 
 def field_value(block: str, label: str) -> str:
-    m = re.search(rf"(?m)^-\s*\*\*{re.escape(label)}[^*]*\*\*:\s*(.*?)\s*$", block)
-    return m.group(1).strip() if m else ""
+    # Current note template places the colon inside the bold label:
+    # - **Claim (plain):** value
+    # Retain support for legacy notes that used **Label**: value.
+    patterns = [
+        rf"(?m)^-\s*\*\*{re.escape(label)}:\*\*\s*(.*?)\s*$",
+        rf"(?m)^-\s*\*\*{re.escape(label)}\*\*:\s*(.*?)\s*$",
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, block)
+        if m:
+            return m.group(1).strip()
+    return ""
 
 def is_placeholder(value: str) -> bool:
     v = clean_text(value)
