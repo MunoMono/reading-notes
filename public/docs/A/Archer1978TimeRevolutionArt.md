@@ -1,5 +1,5 @@
 ---
-title: "Time for a Revolution in Art and Design Education"
+title: "Time for a revolution in art and design education"
 authors: "Archer, L. Bruce"
 year: 1978
 journal: ""

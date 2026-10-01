@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the Special Issue on Computational Archival Science"
+title: "Introduction to the special issue on computational archival science"
 authors: "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini"
 year: 2022
 journal: "Journal on Computing and Cultural Heritage"

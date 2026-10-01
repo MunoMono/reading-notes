@@ -1,5 +1,5 @@
 ---
-title: "Design as an Interesting Phenomenon: George Mallen and the Royal College of Art"
+title: "Design as an interesting phenomenon: George Mallen and the Royal College of Art"
 authors: "Boyd Davis, Stephen"
 year: 2024
 journal: "Creative Simulations"

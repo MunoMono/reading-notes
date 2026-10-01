@@ -1,5 +1,5 @@
 ---
-title: "Four Paradigm Transformations in Oral History"
+title: "Four paradigm transformations in oral history"
 authors: "Thomson, Alistair"
 year: 2007
 journal: "The Oral History Review"

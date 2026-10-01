@@ -1,5 +1,5 @@
 ---
-title: "Archives, Records, and Power: The Making of Modern Memory"
+title: "Archives, records, and power: the making of modern memory"
 authors: "Schwartz, Joan M.; Cook, Terry"
 year: 2002
 journal: "Archival Science"

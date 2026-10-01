@@ -1,5 +1,5 @@
 ---
-title: "AI, Cultural Heritage, and Bias: Some Key Queries That Arise from the Use of GenAI"
+title: "AI, cultural heritage, and bias: some key queries that arise from the use of GenAI"
 authors: "Foka, Anna; Griffin, Gabriele"
 year: 2024
 journal: "Heritage"

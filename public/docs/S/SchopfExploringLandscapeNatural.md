@@ -1,5 +1,5 @@
 ---
-title: "Exploring the Landscape of Natural Language Processing Research"
+title: "Exploring the landscape of natural language processing research"
 authors: "Schopf, Tim and Arabi, Karim and Matthes, Florian"
 year: 2023
 journal: ""

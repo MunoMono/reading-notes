@@ -1,5 +1,5 @@
 ---
-title: "Design Methods"
+title: "Design methods"
 authors: "Jones, John Christopher"
 year: 1992
 journal: "John Wiley & Sons"

@@ -1,5 +1,5 @@
 ---
-title: "Can I Believe What I See? Data Visualization and Trust in the Humanities"
+title: "Can I believe what I see? Data visualization and trust in the humanities"
 authors: "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian"
 year: 2021
 journal: "Interdisciplinary Science Reviews"

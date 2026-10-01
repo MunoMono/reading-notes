@@ -1,5 +1,5 @@
 ---
-title: "A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis"
+title: "A dialogue between the real-world and the operational model: the realities of design in Bruce Archer’s 1968 doctoral thesis"
 authors: "Boyd Davis, Stephen; Gristwood, Simone"
 year: 2017
 journal: "Design Studies"

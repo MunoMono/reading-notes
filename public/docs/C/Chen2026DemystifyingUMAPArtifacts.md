@@ -1,5 +1,5 @@
 ---
-title: "Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes"
+title: "Demystifying UMAP artifacts: an interactive study on diagnosis and steering using 3D probes"
 authors: "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver"
 year: 2026
 journal: "Information Visualization"

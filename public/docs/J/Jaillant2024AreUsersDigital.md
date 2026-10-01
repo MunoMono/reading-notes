@@ -1,5 +1,5 @@
 ---
-title: "Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities"
+title: "Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities"
 authors: "Jaillant, Lise; Aske, Katherine"
 year: 2024
 journal: "Journal on Computing and Cultural Heritage"

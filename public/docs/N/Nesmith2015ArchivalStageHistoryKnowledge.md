@@ -1,5 +1,5 @@
 ---
-title: "Toward the Archival Stage in the History of Knowledge"
+title: "Toward the archival stage in the history of knowledge"
 authors: "Nesmith, Tom"
 year: 2015
 journal: "Archivaria"

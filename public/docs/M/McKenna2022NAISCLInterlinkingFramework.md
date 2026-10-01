@@ -1,5 +1,5 @@
 ---
-title: "Using Linked Data to Create Provenance-Rich Metadata Interlinks: The Design and Evaluation of the NAISC-L Interlinking Framework for Libraries, Archives and Museums"
+title: "Using linked data to create provenance-rich metadata interlinks: the design and evaluation of the NAISC-L interlinking framework for libraries, archives and museums"
 authors: "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan"
 year: 2022
 journal: "AI & SOCIETY"

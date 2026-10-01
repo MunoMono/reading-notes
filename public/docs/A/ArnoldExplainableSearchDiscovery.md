@@ -1,5 +1,5 @@
 ---
-title: "Explainable Search and Discovery"
+title: "Explainable search and discovery"
 authors: "Arnold, Taylor and Tilton, Lauren"
 year: 
 journal: ""

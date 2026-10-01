@@ -1,5 +1,5 @@
 ---
-title: "Electrohome Lectures"
+title: "Electrohome lectures"
 authors: "Archer, L. Bruce"
 year: 1973
 journal: ""

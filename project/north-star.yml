@@ -12,12 +12,32 @@ research_question:
 
 # Short rules card injected into every note (keeps it simple)
 constraints_summary:
-  - "No page cite → write TODO (needs page)"
-  - "Max 3 claims: Claim → Evidence → Warrant → So-what"
+  - "No page cite → write TODO (needs page / verification)"
+  - "Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted"
+  - "Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence"
+  - "Keep author claim, evidence-supported claim, and researcher inference distinct"
   - "Each claim must include a practice cross-check (or TODO)"
+  - "End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)"
   - "Every source gets one primary theoretical-framework area + one Zotero literature cluster"
   - "No antithesis lists: write Boundary + Risk"
   - "If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)"
+
+critical_reading_protocol:
+  claim_count:
+    substantive_minimum: 6
+    major_canonical_norm: "6–8, with more where genuinely warranted"
+    anti_padding: "Do not manufacture or split claims to meet a quota; if six distinct claims are not supportable, state INSUFFICIENT DISTINCT EVIDENCE FOR 6 CLAIMS."
+  paragraph_structure:
+    - "Claim"
+    - "Evidence (page)"
+    - "Warrant"
+    - "Boundary"
+    - "Consequence"
+  voice_separation:
+    - "Author claim"
+    - "Evidence-supported claim"
+    - "Researcher inference"
+  synthesis: "Conclude with what the source changes, where it sits in the primary lens, how it connects to other literature, and what still must be demonstrated against DDR evidence."
 
 model:
   title: "Mobilising contested design knowledge in the DDR archive"
@@ -91,3 +111,4 @@ always_include_in_notes:
   - "How the source moves the primary research question forward (one sentence)"
   - "How the source bears on the secondary question, if relevant"
   - "At least one link to archive material, oral history, practice evidence, or computational method (or TODO)"
+  - "Final synthesis paragraph: what this source changes, how it connects to other literature, and what remains to be tested against DDR evidence"

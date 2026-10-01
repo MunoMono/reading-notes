@@ -1,5 +1,5 @@
 ---
-title: "What Makes Oral History Different"
+title: "What makes oral history different"
 authors: "Portelli, Alessandro"
 year: 2009
 journal: "Oral History, Oral Culture, and Italian Americans"

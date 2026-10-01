@@ -1,5 +1,5 @@
 ---
-title: "Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks"
+title: "Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks"
 authors: "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina"
 year: 2025
 journal: "Findings of the Association for Computational Linguistics: ACL 2025"

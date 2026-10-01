@@ -1,5 +1,5 @@
 ---
-title: "Data-Driven Innovation for Trustworthy AI"
+title: "Data-driven innovation for trustworthy AI"
 authors: "Siddharth, L.; Luo, Jianxi"
 year: 2025
 journal: "She Ji: The Journal of Design, Economics, and Innovation"

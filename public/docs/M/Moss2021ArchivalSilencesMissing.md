@@ -1,5 +1,5 @@
 ---
-title: "Theorising the Silences"
+title: "Theorising the silences"
 authors: "Moss, Michael and Thomas, David"
 year: 2021
 journal: "In Archival Silences: Missing, Lost and Uncreated Archives"

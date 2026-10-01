@@ -1,5 +1,5 @@
 ---
-title: "Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration"
+title: "Take it, leave it, or fix it: measuring productivity and trust in human-AI collaboration"
 authors: "Qian, Crystal and Wexler, James"
 year: 2024
 journal: "Proceedings of the 29th International Conference on Intelligent User Interfaces"

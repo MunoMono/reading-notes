@@ -1,5 +1,5 @@
 ---
-title: "Systematic Method for Designers"
+title: "Systematic method for designers"
 authors: "Archer, L. Bruce"
 year: 1963–64
 journal: ""

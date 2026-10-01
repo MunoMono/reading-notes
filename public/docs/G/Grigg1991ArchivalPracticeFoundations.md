@@ -1,5 +1,5 @@
 ---
-title: "Archival Practice and the Foundations of Historical Method"
+title: "Archival practice and the foundations of historical method"
 authors: "Grigg, Susan"
 year: 1991
 journal: "The Journal of American History"

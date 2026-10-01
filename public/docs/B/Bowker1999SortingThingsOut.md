@@ -1,5 +1,5 @@
 ---
-title: "Sorting Things Out: Classification and Its Consequences"
+title: "Sorting things out: classification and its consequences"
 authors: "Bowker, Geoffrey C.; Star, Susan Leigh"
 year: 1999
 journal: "MIT Press"

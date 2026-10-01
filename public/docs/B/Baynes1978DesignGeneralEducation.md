@@ -1,5 +1,5 @@
 ---
-title: "Design in General Education"
+title: "Design in general education"
 authors: "Archer, L. Bruce; Baynes, Ken; Langdon, Richard"
 year: 1978
 journal: "Royal College of Art"

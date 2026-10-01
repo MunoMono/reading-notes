@@ -29,12 +29,14 @@ CSL_STYLE="${CSL_STYLE:-https://www.zotero.org/styles/chicago-fullnote-bibliogra
 BIB_PATH="${BIB:-${BIBLIOGRAPHY:-refs/library.bib}}"
 NOTES_DIR="${NOTES_DIR:-public/docs}"
 NORTH_STAR_PATH="${NORTH_STAR_PATH:-project/north-star.yml}"
+CONSTRAINTS_PATH="${CONSTRAINTS_PATH:-project/constraints.md}"
 
 mkdir -p "$NOTES_DIR"
 
 command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found" >&2; exit 1; }
 [[ -f "$BIB_PATH" ]] || { echo "Error: bibliography not found: $BIB_PATH" >&2; exit 1; }
 [[ -f "$NORTH_STAR_PATH" ]] || { echo "Error: north star not found: $NORTH_STAR_PATH" >&2; exit 1; }
+[[ -f "$CONSTRAINTS_PATH" ]] || { echo "Error: constraints not found: $CONSTRAINTS_PATH" >&2; exit 1; }
 
 # Read the four theoretical-framework areas directly from north-star.yml so the
 # script stays in parity with the Zotero filing structure.
@@ -206,7 +208,8 @@ generate_note() {
   "$FRAMEWORK_AREA_LABEL" \
   "$LITERATURE_CLUSTER_ID" \
     "$LITERATURE_CLUSTER_LABEL" \
-    "$SOURCE_TYPE" <<'PY'
+        "$SOURCE_TYPE" \
+        "$CONSTRAINTS_PATH" <<'PY'
 import os, re, sys, pathlib, datetime, hashlib
 from zoneinfo import ZoneInfo
 
@@ -220,6 +223,7 @@ area_label        = sys.argv[7]
 cluster_id        = sys.argv[8]
 cluster_label     = sys.argv[9]
 source_type       = sys.argv[10]
+constraints_path  = pathlib.Path(sys.argv[11])
 
 
 def norm(s: str) -> str:
@@ -378,6 +382,33 @@ def yaml_list(items):
     return "\n" + "\n".join(f"  - {yaml_str(str(x))}" for x in items)
 
 
+def claim_ledger(citekey: str) -> str:
+    claims = []
+    for number in range(1, 7):
+        claims.append(f"""## Claim {number}
+- **Claim (plain):**
+- **Author claim:** what the source explicitly argues
+- **Evidence-supported claim:** what the cited material warrants
+- **Researcher inference:** my inference / working proposition / TODO (test against DDR evidence)
+- **Evidence (quote/paraphrase + page):** ``[@{citekey}, p. X]``
+- **Warrant (my words):** why the evidence supports the claim
+- **Boundary:** what this evidence does not establish
+- **Consequence:** what this changes for my thesis, theoretical framework, archive, practice, or research instrument
+- **Practice cross-check:** where my material supports, complicates, or resists this (practice note / archive ID / oral-history reference / computational test; or TODO (add practice cross-check))""")
+    return "\n\n".join(claims)
+
+
+def definition_of_done(text: str) -> list[str]:
+    match = re.search(r'(?ms)^## 13\) Definition of done.*?\n(.*?)(?=^## |\Z)', text)
+    if not match:
+        return []
+    return [
+        line[2:].strip()
+        for line in match.group(1).splitlines()
+        if line.startswith('- ')
+    ]
+
+
 entries = load_bib_entries(bib_path)
 by_key = {k: (k, f) for k, f in entries}
 by_doi = {norm(f.get('doi', '')): (k, f) for k, f in entries if f.get('doi')}
@@ -408,6 +439,7 @@ else:
     url     = ident if ident.startswith('http') else ""
 
 north_txt = north_star_path.read_text(encoding="utf-8", errors="ignore")
+constraints_txt = constraints_path.read_text(encoding="utf-8", errors="ignore")
 (
     rq_verbatim,
     rq_working,
@@ -461,6 +493,17 @@ north_star_mtime = datetime.datetime.fromtimestamp(
     north_star_path.stat().st_mtime, ZoneInfo("Europe/London")
 ).strftime("%d %b %Y, %H:%M")
 north_star_sha1 = hashlib.sha1(north_txt.encode("utf-8", errors="ignore")).hexdigest()[:12]
+constraints_source = str(constraints_path)
+constraints_mtime = datetime.datetime.fromtimestamp(
+    constraints_path.stat().st_mtime, ZoneInfo("Europe/London")
+).strftime("%d %b %Y, %H:%M")
+constraints_sha1 = hashlib.sha1(
+    constraints_txt.encode("utf-8", errors="ignore")
+).hexdigest()[:12]
+constraints_definition_of_done = md_list(
+    definition_of_done(constraints_txt),
+    "TODO: add a Definition of done section to project/constraints.md",
+)
 
 tpl = f"""---
 title: {yaml_str(title)}
@@ -478,6 +521,9 @@ last_updated: "{generated_at}"
 north_star_source: "{north_star_source}"
 north_star_mtime: "{north_star_mtime}"
 north_star_sha1: "{north_star_sha1}"
+constraints_source: "{constraints_source}"
+constraints_mtime: "{constraints_mtime}"
+constraints_sha1: "{constraints_sha1}"
 
 project_rq_verbatim: {yaml_str(rq_verbatim)}
 project_rq_working: {yaml_str(rq_working)}
@@ -491,7 +537,6 @@ literature_cluster: {yaml_str(cluster_label)}
 zotero_filing_path: {yaml_str(zotero_path)}
 source_type: {yaml_str(source_type)}
 project_tags: {yaml_list(project_tags)}
-constraints_source: "project/constraints.md"
 ---
 
 **RQ (supervisor verbatim):** {rq_verbatim}  
@@ -506,7 +551,10 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 {constraints_md}
-(Full rules: project/constraints.md)
+(Full rules: {constraints_source})
+
+## Definition of done checklist
+{constraints_definition_of_done}
 
 ---
 
@@ -526,29 +574,10 @@ Who is the author / what tradition / what institutional or disciplinary position
 # The author’s main move (1 sentence)
 They try to ___ by ___ in order to ___.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
+> Keep claims plain and analytical. Always attach page numbers when you can. If unsure: TODO (needs page / verification). Do not manufacture claims: if six distinct claims are not supportable, retain the supported claims and state **INSUFFICIENT DISTINCT EVIDENCE FOR 6 CLAIMS**.
 
-## Claim 1
-- **Claim (plain):**
-- **Evidence (quote/paraphrase + page):** ``[@{citekey}, p. X]``
-- **Warrant (my words):** why the evidence supports the claim
-- **So what for my thesis (a reusable sentence):**
-- **Practice cross-check:** where my material supports/complicates this (pointer to practice note / archive ID)
-
-## Claim 2
-- **Claim (plain):**
-- **Evidence (quote/paraphrase + page):** ``[@{citekey}, p. X]``
-- **Warrant (my words):**
-- **So what for my thesis:**
-- **Practice cross-check:**
-
-## Claim 3
-- **Claim (plain):**
-- **Evidence (quote/paraphrase + page):** ``[@{citekey}, p. X]``
-- **Warrant (my words):**
-- **So what for my thesis:**
-- **Practice cross-check:**
+{claim_ledger(citekey)}
 
 # Definitions / terms this changes (only the ones that matter)
 - **Term:** how I will use it (in my words) + page if defined
@@ -569,6 +598,9 @@ They try to ___ by ___ in order to ___.
 # Boundary + risk (short, practical)
 - **Boundary (1 sentence):** where it stops being useful for my project
 - **Risk if misused (1 sentence):** what confusion it could cause in my writing
+
+# Cross-source / cross-lens synthesis
+Write one analytical paragraph: what this source changes about the research problem; which part of the primary theoretical lens it strengthens, complicates, or delimits; where it connects to or diverges from other literature; what proposition it makes possible; and what remains to be demonstrated against DDR evidence. If comparison is not yet available: **TODO (cross-source synthesis)**.
 
 # Methods spine tags (tick what it actually touches)
 - [ ] Framing and theory

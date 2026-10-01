@@ -1,5 +1,5 @@
 ---
-title: "Records and Their Imaginaries: Imagining the Impossible, Making Possible the Imagined"
+title: "Records and their imaginaries: imagining the impossible, making possible the imagined"
 authors: "Gilliland, Anne J.; Caswell, Michelle"
 year: 2016
 journal: "Archival Science"

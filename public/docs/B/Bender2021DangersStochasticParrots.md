@@ -1,5 +1,5 @@
 ---
-title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+title: "On the dangers of stochastic parrots: can language models be too big?"
 authors: "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret"
 year: 2021
 journal: "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency"

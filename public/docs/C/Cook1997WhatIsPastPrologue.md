@@ -1,5 +1,5 @@
 ---
-title: "What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift"
+title: "What is past is prologue: a history of archival ideas since 1898, and the future paradigm shift"
 authors: "Cook, Terry"
 year: 1997
 journal: "Archivaria"

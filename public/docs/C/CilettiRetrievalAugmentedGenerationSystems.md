@@ -1,5 +1,5 @@
 ---
-title: "Retrieval-Augmented Generation Systems"
+title: "Retrieval-augmented generation systems"
 authors: "Ciletti, Michele"
 year: 
 journal: ""

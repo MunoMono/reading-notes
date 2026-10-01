@@ -1,5 +1,5 @@
 ---
-title: "The Reconfiguration of the Archive as Data to Be Mined"
+title: "The reconfiguration of the archive as data to be mined"
 authors: "Moss, Michael; Thomas, David; Gollins, Tim"
 year: 2018
 journal: "Archivaria"

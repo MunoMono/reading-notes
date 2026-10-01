@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Cultural Heritage Archive Analysis via Automated Entity Extraction and Graph-Based Representation Learning"
+title: "Enhancing cultural heritage archive analysis via automated entity extraction and graph-based representation learning"
 authors: "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim"
 year: 2025
 journal: "Journal on Computing and Cultural Heritage"

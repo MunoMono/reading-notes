@@ -1,5 +1,5 @@
 ---
-title: "Origin and Development of the Concept of Archival Description"
+title: "Origin and development of the concept of archival description"
 authors: "Duranti, Luciana"
 year: 1992
 journal: "Archivaria"

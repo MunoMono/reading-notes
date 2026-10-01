@@ -1,5 +1,5 @@
 ---
-title: "Archives and AI: An Overview of Current Debates and Future Perspectives"
+title: "Archives and AI: an overview of current debates and future perspectives"
 authors: "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia"
 year: 2022
 journal: "Journal on Computing and Cultural Heritage"

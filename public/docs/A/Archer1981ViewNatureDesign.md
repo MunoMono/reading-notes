@@ -1,5 +1,5 @@
 ---
-title: "A View of the Nature of Design Research"
+title: "A view of the nature of design research"
 authors: "Archer, L. Bruce"
 year: 1981
 journal: ""

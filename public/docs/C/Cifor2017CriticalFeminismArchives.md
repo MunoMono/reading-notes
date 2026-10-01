@@ -1,5 +1,5 @@
 ---
-title: "Critical Feminism in the Archives"
+title: "Critical feminism in the archives"
 authors: "Cifor, Marika and Wood, Stacy"
 year: 2017
 journal: "Journal of Critical Library and Information Studies"

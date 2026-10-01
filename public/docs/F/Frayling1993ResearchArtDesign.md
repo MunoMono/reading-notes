@@ -1,5 +1,5 @@
 ---
-title: "Research in Art and Design"
+title: "Research in art and design"
 authors: "Frayling, Christopher"
 year: 1993
 journal: "Royal College of Art"

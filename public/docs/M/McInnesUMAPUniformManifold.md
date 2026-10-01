@@ -1,5 +1,5 @@
 ---
-title: "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction"
+title: "UMAP: uniform manifold approximation and projection for dimension reduction"
 authors: "McInnes, Leland and Healy, John and Melville, James"
 year: 2020
 journal: ""

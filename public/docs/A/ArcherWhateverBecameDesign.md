@@ -1,5 +1,5 @@
 ---
-title: "Whatever Became of Design Methodology?"
+title: "Whatever became of design methodology?"
 authors: "Archer, L. Bruce"
 year: 1979
 journal: "Design Studies"

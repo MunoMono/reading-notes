@@ -1,5 +1,5 @@
 ---
-title: "On the Literary Landscapes of Vector Embeddings"
+title: "On the literary landscapes of vector embeddings"
 authors: "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison"
 year: 2025
 journal: "Computational Humanities Research"

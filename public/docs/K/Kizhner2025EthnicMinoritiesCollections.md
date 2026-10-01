@@ -1,5 +1,5 @@
 ---
-title: "Ethnic Minorities in Online Museum Collections: Skews and Bias in Digital Material Culture"
+title: "Ethnic minorities in online museum collections: skews and bias in digital material culture"
 authors: "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe"
 year: 2025
 journal: "Digital Scholarship in the Humanities"

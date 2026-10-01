@@ -1,5 +1,5 @@
 ---
-title: "Of Things Said and Unsaid: Power, Archival Silences, and Power in Silence"
+title: "Of things said and unsaid: power, archival silences, and power in silence"
 authors: "Carter, Rodney G. S."
 year: 2006
 journal: "Archivaria"

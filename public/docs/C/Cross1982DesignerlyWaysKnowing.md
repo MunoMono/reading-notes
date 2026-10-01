@@ -1,5 +1,5 @@
 ---
-title: "Designerly Ways of Knowing"
+title: "Designerly ways of knowing"
 authors: "Cross, Nigel"
 year: 1982
 journal: "Design Studies"

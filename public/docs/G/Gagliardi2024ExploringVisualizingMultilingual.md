@@ -1,5 +1,5 @@
 ---
-title: "Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers"
+title: "Exploring and visualizing multilingual cultural heritage data using multi-layer semantic graphs and transformers"
 authors: "Gagliardi, Isabella and Artese, Maria Teresa"
 year: 2024
 journal: "Electronics"

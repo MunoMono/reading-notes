@@ -1,5 +1,5 @@
 ---
-title: "Made in Patriarchy: Toward a Feminist Analysis of Women and Design"
+title: "Made in patriarchy: toward a feminist analysis of women and design"
 authors: "Buckley, Cheryl"
 year: 1986
 journal: "Design Issues"

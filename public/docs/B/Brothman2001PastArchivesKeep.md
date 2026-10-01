@@ -1,5 +1,5 @@
 ---
-title: "The Past That Archives Keep: Memory, History, and the Preservation of Archival Records"
+title: "The past that archives keep: memory, history, and the preservation of archival records"
 authors: "Brothman, Brien"
 year: 2001
 journal: "Archivaria"

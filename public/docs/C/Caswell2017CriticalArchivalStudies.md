@@ -1,5 +1,5 @@
 ---
-title: "Critical Archival Studies: An Introduction"
+title: "Critical archival studies: an introduction"
 authors: "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay"
 year: 2017
 journal: "Journal of Critical Library and Information Studies"

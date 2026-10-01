@@ -1,5 +1,5 @@
 ---
-title: "Documenting Documentation"
+title: "Documenting documentation"
 authors: "Bearman, David A."
 year: 1992
 journal: "Archivaria"

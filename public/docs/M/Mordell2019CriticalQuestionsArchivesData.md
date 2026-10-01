@@ -1,5 +1,5 @@
 ---
-title: "Critical Questions for Archives As (Big) Data"
+title: "Critical questions for archives as (big) data"
 authors: "Mordell, Devon"
 year: 2019
 journal: "Archivaria"

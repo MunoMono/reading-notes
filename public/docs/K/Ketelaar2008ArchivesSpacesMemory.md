@@ -1,5 +1,5 @@
 ---
-title: "Archives as Spaces of Memory"
+title: "Archives as spaces of memory"
 authors: "Ketelaar, Eric"
 year: 2008
 journal: "Journal of the Society of Archivists"

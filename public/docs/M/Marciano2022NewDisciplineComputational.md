@@ -1,5 +1,5 @@
 ---
-title: "Towards a New Discipline of Computational Archival Science (CAS)"
+title: "Towards a new discipline of computational archival science (CAS)"
 authors: "Marciano, Richard"
 year: 2022
 journal: "Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections"

@@ -1,5 +1,5 @@
 ---
-title: "End-to-end Information Extraction from Archival Records with Multimodal Large Language Models"
+title: "End-to-end information extraction from archival records with multimodal large language models"
 authors: "Vafaie, Mahsa; Hertling, Sven; Banse-Strobel, Inger; Dubout, Kevin; Sack, Harald"
 year: 2025
 journal: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management"

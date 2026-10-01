@@ -1,5 +1,5 @@
 ---
-title: "How can We improve the diversity of archival collections with AI? Opportunities, risks, and solutions"
+title: "How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions"
 authors: "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel"
 year: 2025
 journal: "AI & SOCIETY"

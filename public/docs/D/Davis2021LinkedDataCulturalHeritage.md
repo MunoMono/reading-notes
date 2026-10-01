@@ -1,5 +1,5 @@
 ---
-title: "Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation"
+title: "Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation"
 authors: "Davis, Edie; Heravi, Bahareh"
 year: 2021
 journal: "Journal on Computing and Cultural Heritage"

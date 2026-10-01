@@ -1,5 +1,5 @@
 ---
-title: "Trust Me on This: A User Study of Trustworthiness for RAG Responses"
+title: "Trust me on this: a user study of trustworthiness for RAG responses"
 authors: "Łajewska, Weronika and Balog, Krisztian"
 year: 2026
 journal: "Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)"

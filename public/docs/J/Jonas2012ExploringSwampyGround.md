@@ -1,5 +1,5 @@
 ---
-title: "Exploring the Swampy Ground"
+title: "Exploring the swampy ground"
 authors: "Jonas, Wolfgang"
 year: 2012
 journal: "Mapping Design Research"

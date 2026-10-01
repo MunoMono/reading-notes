@@ -1,5 +1,5 @@
 ---
-title: "A Multiliteracy Model for Interactive Visualization Literacy: Definitions, Literacies, and Steps for Future Research"
+title: "A multiliteracy model for interactive visualization literacy: definitions, literacies, and steps for future research"
 authors: "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas"
 year: 2026
 journal: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"

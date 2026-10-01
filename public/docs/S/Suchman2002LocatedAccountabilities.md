@@ -1,5 +1,5 @@
 ---
-title: "Located Accountabilities in Technology Production"
+title: "Located accountabilities in technology production"
 authors: "Suchman, Lucy"
 year: 2002
 journal: "Scandinavian Journal of Information Systems"

@@ -1,5 +1,5 @@
 ---
-title: "Navigating Artificial Intelligence for Cultural Heritage Organisations"
+title: "Navigating artificial intelligence for cultural heritage organisations"
 authors: "Lise Jaillant, Katherine Aske, and Annalina Caputo"
 year: 2025
 journal: "UCL Press"
