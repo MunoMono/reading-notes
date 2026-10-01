@@ -3,118 +3,169 @@ title: "Documenting documentation"
 authors: "Bearman, David A."
 year: 1992
 journal: "Archivaria"
-issue: "34"
-pages: "33–49"
+volume: "34"
+pages: "33-49"
 citation_key: Bearman1992DocumentingDocumentation
 doi: ""
 url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "19 Mar 2026"
+generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S3"
-model_strand_label: "Surfacing and reactivating traces computationally"
-model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
+theoretical_framework_area_id: "2"
+theoretical_framework_area: "Critical archival theory"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
 source_type: "Core text"
 project_tags:
-  - "Turin"
-last_updated: "16 Sept 2026, 12:14"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.2 Interpretability, provenance, and retrieval  
-**Source type:** Core text  
-
-**Seams to watch (optional, pick 1):**
-- How documenting systems shape evidence, retrieval, and downstream computational use
-
-# Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-
+  - "Theoretical framework"
 ---
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a foundational archival systems text that moves beyond record-centred description toward contextual documentation, because my project depends on linking records, activities, creators, systems, and user pathways rather than treating documents as isolated items.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Methods / S3.2 interpretability, provenance, and retrieval; it helps me say that archival access should be built around documenting activities, creators, and systems of creation, and that retrieval should start from user questions and context rather than from a static catalogue record alone.  
-**Why this term, not alternatives (1–2 lines):** Bearman’s distinction between **description** and **documentation** is more useful than generic archival metadata language because it directly separates record-centred surrogate-making from contextual evidence-making.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where I need to justify provenance-rich, activity-centred, user-aware systems for archival retrieval and interpretation, especially when computational methods are building links across creators, functions, transactions, and records.
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage  
+**Source type:** Core text
 
-# Position + moment (2–4 lines)
-Bearman writes at a moment when North American archivists were grappling with MARC-AMC, APPM, ICA descriptive standards, records management, and the first serious archival implications of electronic records. His paper is both critique and alternative programme: he rejects a narrow, post-accession, record-centred notion of archival description and proposes instead a documentation approach built around activity, context, information systems, and user requirements. `[@Bearman1992DocumentingDocumentation, pp. 33–36, 45–46]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is still powerful because it anticipates many later concerns in provenance-aware retrieval and computational archival systems. Its strongest claim is that archival access should not begin from the record as isolated object, but from the activity and context that made the record evidential. `[@Bearman1992DocumentingDocumentation, pp. 33–35, 41–46]`
+# Constraints (anti-bloat / anti-hallucination)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# The author’s main move (1 sentence)
-They try to replace post-accession, record-centred archival description with activity-centred documentation by redefining archives as evidence of transactions and by designing information systems around context, management needs, and user inquiry in order to make archives more intelligible, usable, and administratively meaningful.
+# Thesis job
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**How this source moves the primary research question forward:** Bearman gives the thesis a relational archival information model in which activities, creators, systems and documents are linked so that records can function as evidence. This directly supports a DDR approach centred on relationships among testamentary traces rather than isolated document surrogates.
+
+**How this source bears on the secondary question:** His account of user entry through historical context and activity provides an archival precedent for contemporary relational interfaces that help researchers approach records through people, functions, projects and questions.
+
+**Why I’m reading this now:** It connects archival theory to information-system design and therefore helps bridge the thesis's archival and computational layers.
+
+**Where it sits in my argument:** Canon + intellectual lineage. It is a major early-1990s critique of record-centred descriptive standards and a precursor to contextual, linked archival systems.
+
+**My benchmark for using it:** I will use Bearman to justify contextual relations and user entry points, while not assuming the DDR archive contains enough surviving evidence to reconstruct a complete activity system.
+
+# Position + moment
+
+Bearman writes in 1992 during international debates about archival descriptive standards, directly criticising ICA proposals for privileging post-accession record description and bibliographic models. He proposes “documenting documentation” as an alternative grounded in evidence, archival management and user needs. [@Bearman1992DocumentingDocumentation, pp. 33–35]
+
+# The author’s main move
+
+Bearman shifts the archival information model from record-centred description toward documentation of the activities, actors and systems that generated records, arguing that archival systems should preserve evidential context and support multiple routes of user inquiry. [@Bearman1992DocumentingDocumentation, pp. 34–46]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Bearman argues that archives should be documented through the activities, creators, and systems that produced them, not primarily through record-centred descriptive surrogates.
-- **Evidence (quote/paraphrase + page):** Early in the paper he contrasts “description,” which focuses on records as objects and produces unit surrogates such as finding aids and cataloguing records, with “documentation,” which focuses on the activity of the records-generating institution or creator and captures the relationship between activity and document that allows the document to serve as evidence. He says documentary information systems should contain linked databases of activity and documentary materials rather than a single privileged record-centred view. `[@Bearman1992DocumentingDocumentation, pp. 34–35]`
-- **Warrant (my words):** This is the paper’s central conceptual break. Bearman is shifting the archival information model away from static record description and toward an evidential system grounded in relations among actions, actors, systems, and surviving documents.
-- **So what for my thesis (a reusable sentence):** Bearman lets me argue that mobilising the DDR archive requires modelling not just documents but the activities, institutional structures, and transactions that made those documents meaningful as traces of contested design knowledge.
-- **Practice cross-check:** Turin provenance / Sources Integration traces the chain from source to descriptive metadata, retrieved passage, and generated interpretation, retaining the activity and context that produced each record.
+- **Claim (plain):** Archival documentation should centre the activity that generated records, not the record object alone.
+- **Author claim:** Bearman distinguishes description, which constructs surrogates for units of material, from documentation, which captures the relation between activity and document necessary for evidence.
+- **Evidence-supported claim:** Pages 34–35 define documentation as linked information about activities and documentary materials with no single privileged centre in the data model.
+- **Researcher inference:** DDR mobilisation should model projects, functions, people and actions alongside documents rather than making the document card the only analytical unit.
+- **Evidence (quote/paraphrase + page):** Bearman states that documentation is focused on activity in the records-generating institution and on its relationship to documents. [@Bearman1992DocumentingDocumentation, pp. 34–35]
+- **Warrant (my words):** A record's evidential meaning depends on what action it participated in and how it relates to other records.
+- **Boundary:** Context may be incomplete or recoverable only indirectly in historical collections.
+- **Consequence:** Relational reconstruction should expose uncertainty rather than fill missing contextual links.
+- **Practice cross-check:** Require evidence bindings for each person–project or project–document relation in the DDR system.
 
 ## Claim 2
-- **Claim (plain):** Bearman argues that the content of archival documentation should be derived from archival management functions and evidential requirements, not borrowed uncritically from bibliographic cataloguing.
-- **Evidence (quote/paraphrase + page):** He criticises ICA principles and North American descriptive standards for reflecting bibliographic rather than archival assumptions, and says the content of documentation must support archival management and preserve the evidential character of records. Later he argues that data content and data representation should be derived from the tasks the archival information system must support, including management of records, context of creation, transfer conditions, and ongoing administration. `[@Bearman1992DocumentingDocumentation, pp. 33–34, 41–43, 45–46]`
-- **Warrant (my words):** This matters because Bearman is not only asking for more context. He is saying archival systems should be designed from archival functions outward, so that their data structures support appraisal, access, preservation, and evidence rather than mimicking library catalogues.
-- **So what for my thesis:** Bearman gives me a strong basis for building S3 workflows around provenance, creation context, management history, and evidential status rather than around generic metadata or flattened document fields alone.
-- **Practice cross-check:** This supports archival provenance, documentary context, and source description workstreams in the Turin provenance methodology and thesis S3 source architecture.
+- **Claim (plain):** The evidential status of records should determine archival information-system design.
+- **Author claim:** Bearman criticises descriptive standards for overlooking records' status as evidence and borrowing too heavily from bibliographic traditions.
+- **Evidence-supported claim:** Pages 33–35 say documentation content must support the requirements for archives to serve as evidence as well as management and access needs.
+- **Researcher inference:** DDR metadata should not be treated as a generic bibliographic layer; it should preserve provenance, creation context and documentary relations needed to evaluate historical claims.
+- **Evidence (quote/paraphrase + page):** Bearman argues that archives exist to preserve and retrieve evidence of past activity with continuing value. [@Bearman1992DocumentingDocumentation, p. 35]
+- **Warrant (my words):** Information architecture shapes whether users can distinguish evidential context from mere topical association.
+- **Boundary:** Bearman's evidential emphasis reflects institutional records theory and may fit personal or informal archives less neatly.
+- **Consequence:** The thesis should differentiate catalogue association, documentary evidence and later interpretative linkage.
+- **Practice cross-check:** Preserve source type, record creator, date, repository and PID wherever available.
 
 ## Claim 3
-- **Claim (plain):** Bearman argues that archival systems should be designed from user inquiry and contextual entry points, so users can begin with what they know about the world rather than with archival terminology.
-- **Evidence (quote/paraphrase + page):** In the user section he says archival researchers often approach archives through context, functions, persons, forms of material, or subjects rather than through fonds names or creator names. He argues that users should be able to “enter the system through the historical context of activity” and that archival documentation should support search paths based on what users are seeking, not require them to imagine how archivists described the surviving records. In his conclusion, he makes this one of the three main principles: users’ methods of inquiry should determine documentation-system data values and system presentation. `[@Bearman1992DocumentingDocumentation, pp. 43–46]`
-- **Warrant (my words):** This is crucial for your thesis because it turns archival retrieval into a design problem. The question is not only what records exist, but how people can approach them through intelligible paths grounded in activity, relation, and evidence.
-- **So what for my thesis:** Bearman helps me justify visual, relational, and provenance-aware interfaces for the DDR archive that allow users to move from questions about people, projects, concepts, and activities into the record base, rather than forcing them to search like archivists already familiar with its structure.
-- **Practice cross-check:** Turin’s source-linked retrieval paths connect questions to records through documented activity and context rather than treating textual content alone as sufficient provenance.
+- **Claim (plain):** Data content should follow archival functions and service requirements rather than a universal catalogue template.
+- **Author claim:** Bearman argues that data elements and representations must be derived from the administrative and user tasks an archival information system needs to support.
+- **Evidence-supported claim:** Across pp. 35–43 he criticises fixed interchange-oriented descriptive records and argues that different archival requirements demand different data structures and values.
+- **Researcher inference:** The DDR research system can legitimately use data structures optimised for provenance-aware historical inquiry as long as those transformations remain auditable.
+- **Evidence (quote/paraphrase + page):** Bearman separates data-content requirements from the assumption of one catalogue-like end product. [@Bearman1992DocumentingDocumentation, pp. 35–43]
+- **Warrant (my words):** A system built around the wrong service model can preserve metadata while failing the actual evidential task.
+- **Boundary:** Purpose-built structures can become idiosyncratic if they lose interoperability with source systems.
+- **Consequence:** Transformations should preserve canonical identifiers and source metadata alongside research-specific fields.
+- **Practice cross-check:** Keep RCA/V&A identifiers and raw metadata separate from derived ML/research annotations.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Description:** record-centred representation that constructs surrogates for archival materials; I will use this historically and critically when discussing older catalogue-led approaches. `[@Bearman1992DocumentingDocumentation, p. 34]`
-- **Documentation:** activity-centred capture of the relationship between actions, creators, systems, and documents that lets records function as evidence; I will use this as a key term for provenance-aware archive activation. `[@Bearman1992DocumentingDocumentation, pp. 34–35]`
-- **Documenting documentation:** Bearman’s phrase for building value-added representations of archives through structured capture of contextual and relational information; I will use this as a strong bridge between archival theory and computational workflow design. `[@Bearman1992DocumentingDocumentation, p. 34]`
-- **Context of creation:** the activities, organizations, persons, and information systems that generated records; I will use this as a central interpretive and retrieval layer for the DDR archive. `[@Bearman1992DocumentingDocumentation, pp. 39–41]`
-- **Polycentric databases:** information systems in which activity, creator, and documentary materials are linked without a single privileged centre; I will use this term when describing graph-like or relational archival modelling in S3. `[@Bearman1992DocumentingDocumentation, p. 35]`
-- **User presentation language:** the vocabulary and conceptual pathways through which users actually formulate archival queries; I will use this term when justifying user-aware retrieval and interface design. `[@Bearman1992DocumentingDocumentation, pp. 43–46]`
+## Claim 4
+- **Claim (plain):** Archival information systems should capture context early in the records life cycle, not only after transfer.
+- **Author claim:** Bearman presents documentation principles as involving archivists at or near the time of record creation rather than limiting description to post-accession processing.
+- **Evidence-supported claim:** Page 34 contrasts his approach with ICA description after arrangement and argues that earlier involvement can improve evidential context and efficiency.
+- **Researcher inference:** For historical DDR material, much contextual information is already lost because the archive inherits records after creation; this makes retrospective reconstruction necessarily bounded.
+- **Evidence (quote/paraphrase + page):** Bearman says documentation methods often involve archivists “at the point, and often at the time, of records creation.” [@Bearman1992DocumentingDocumentation, p. 34]
+- **Warrant (my words):** Context omitted at creation may not be recoverable later from surviving documents.
+- **Boundary:** This life-cycle prescription cannot be retroactively applied to the 1965–85 DDR record.
+- **Consequence:** Missing contextual relations should be recorded as limits of the surviving evidence surface.
+- **Practice cross-check:** Use scoped missingness for absent management decisions, undocumented roles or unclear provenance.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me one of the clearest theoretical justifications for provenance-aware, activity-centred archival systems.
-  - It is especially useful because it links evidential theory, archival management, and user retrieval in one argument.
-  - It gives me a strong archival justification for relational and computational modelling in S3, as long as the record remains tied to context.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat the DDR archive less as a set of descriptive units and more as a documented network of activities, creators, systems, and records.
-  - I will use Bearman to justify interfaces and workflows that let users approach the archive through contextual questions rather than only through inherited catalogue structures.
-- **What question it raises next (1–2 bullets):**
-  - Which parts of the DDR archive already preserve enough context-of-creation information to support Bearman’s model, and where would I need to reconstruct that context myself?
-  - How can I build user-relevant contextual entry points without losing archival scepticism or overpromising coherence in the surviving record base?
+## Claim 5
+- **Claim (plain):** Users should be able to enter archival systems through the historical contexts they know.
+- **Author claim:** Bearman argues that researchers often search through functions, people, subjects, forms and activities rather than fonds names or archival terminology.
+- **Evidence-supported claim:** Pages 43–46 propose that users should enter through the historical context of activity and that user inquiry should shape system presentation.
+- **Researcher inference:** DDR interfaces can validly offer entry through projects, people, concepts and time periods while maintaining links back to archival provenance.
+- **Evidence (quote/paraphrase + page):** Bearman makes user methods of inquiry one of the principles guiding documentation-system data values and presentation. [@Bearman1992DocumentingDocumentation, pp. 43–46]
+- **Warrant (my words):** Research access improves when system language maps onto the questions users bring rather than requiring prior knowledge of archival organisation.
+- **Boundary:** User-centred entry points may conceal archival structure unless provenance remains visible.
+- **Consequence:** Research navigation should supplement, not replace, archival hierarchy.
+- **Practice cross-check:** Semantic atlas and named-person/project routes should always expose source repository and record context.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the S3.2 methods section where I define interpretability, provenance, and retrieval as activity-centred documentation rather than flat metadata search, and in the bridge from S2 archival theory into computational archival modelling.
-- **Where I will name the title in running text (first-use rule):** First mention in the provenance/retrieval section: *In “Documenting Documentation” (1992), David Bearman argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside Turin’s Sources Integration workflow, which connects source, descriptive metadata, retrieved passage, and generated interpretation.
-- **Workstreams →** Provenance; retrieval; interpretability; archival reconstruction; computational activation.
-- **Deliverables →** S3.2 methods paragraph; provenance-aware retrieval rationale; literature map node; footnote trail on documentation vs description.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; digital humanities readers; HCI/visualization readers.
+## Claim 6
+- **Claim (plain):** A relational archival system can support multiple views without declaring one descriptive representation authoritative.
+- **Author claim:** Bearman proposes linked databases of activities and documentary materials with relations among them and no privileged view at the centre.
+- **Evidence-supported claim:** Page 34 explicitly contrasts this relational architecture with catalogue systems organised around one unit-surrogate record.
+- **Researcher inference:** Multiple DDR visualisations — semantic neighbourhood, temporal view, project/person view — can be treated as partial analytical projections over the same evidence base.
+- **Evidence (quote/paraphrase + page):** Bearman's documentation model distributes information across linked files and relationships instead of one central record type. [@Bearman1992DocumentingDocumentation, p. 34]
+- **Warrant (my words):** Different research questions legitimately require different projections of archival relationships.
+- **Boundary:** Multiple views can produce conflicting impressions if derivation and scope are hidden.
+- **Consequence:** Each visual/ML view should disclose what it computes and what it does not establish.
+- **Practice cross-check:** Keep the five frozen UMAP views explicitly scoped and tied to the same PID-backed corpus.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This article is strongest as a theoretical and systems-level reconceptualization of archival access, but it does not itself solve the practical labour of reconstructing context in a fragmentary archive like DDR.
-- **Risk if misused (1 sentence):** If I use Bearman too literally, I could imply a degree of contextual completeness and systematization that the DDR archive may not support without substantial interpretive reconstruction.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Description:** record-centred representation producing surrogates such as finding aids or catalogue records. [@Bearman1992DocumentingDocumentation, p. 34]
+- **Documentation:** contextual representation of activities and their relationships to documents so records can function as evidence. [@Bearman1992DocumentingDocumentation, pp. 34–35]
+- **Documenting documentation:** construction of value-added, structured archival information systems around evidence, management and user needs. [@Bearman1992DocumentingDocumentation, pp. 34–35]
+- **Contextual entry point:** a route into archives based on historical activity, function, person, form or subject rather than repository terminology. [@Bearman1992DocumentingDocumentation, pp. 43–46]
+
+# My response
+
+Bearman is directly useful to the thesis because he turns archival theory into system architecture. His strongest move is to make relations among activity, creator and record part of the evidential model rather than optional descriptive enrichment. That maps closely to DDR research, where the central historical questions are relational. The necessary qualification is equally important: Bearman's model imagines a richer context than a retrospective archive may actually contain. The thesis therefore needs both relational modelling and explicit scoped missingness.
+
+# Integration hooks
+
+**Where I will cite it:** Provenance and data-model rationale; relation-centred archive interface; user-entry design; and the distinction between source metadata and research-derived context.
+
+**Link to my practice evidence:** PID-backed documents, provenance bindings and multiple research views operationalise a contextual documentation model while retaining source records.
+
+**Workstreams →** Archival description; data model; provenance; interface.  
+**Deliverables →** Theoretical framework; methods architecture; interface rationale.
+
+# Boundary + risk
+
+**Boundary:** Bearman argues from archival information-system design and assumes contextual documentation can be captured more systematically than is possible for many legacy archives.
+
+**Risk if misused:** A relational model could imply contextual completeness and invent connections where surviving DDR evidence is sparse.
+
+# Cross-source / cross-lens synthesis
+
+Bearman and Duranti approach description from different directions but converge on a key point: descriptive systems are historically and functionally constructed rather than neutral mirrors of records. Ketelaar adds that records continue to acquire meaning through activation, while Caswell and colleagues make the power effects of those systems explicit. For DDR, Bearman supplies the architectural consequence: context and activity should be modelled as relations, but any reconstructed relation must retain its evidential basis and limits.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -122,22 +173,20 @@ They try to replace post-accession, record-centred archival description with act
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 34–35, 39–46
-- **First full note (write it out here):**  
-  David A. Bearman, “Documenting Documentation,” *Archivaria* 34 (1992): 33–49.
-- **Short note form:**  
-  Bearman, “Documenting Documentation,” 34–35.
-- **One quote worth lifting (≤2 lines):** “The subject of the documentation is, first and foremost, the activity that generated the records” (p. 45).
-- **One paraphrase worth keeping:** Bearman argues that archival systems should document activities, creators, and information systems rather than merely describe record objects, and that both archival management and user retrieval should be designed around those contextual relations. (pp. 34–46)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Grigg, “Archival Practice and the Foundations of Historical Method”
-- Cook, “What Is Past Is Prologue”
-- Marciano, “Towards a New Discipline of Computational Archival Science (CAS)”
-- Boyd Davis, Vane, and Kräutli, “Can I Believe What I See?”
-- Moss, Thomas, and Gollins, “The Reconfiguration of the Archive as Data to Be Mined”
+- **Key pages to reuse:** 33–35, 41–46
+- **First full note:** David A. Bearman, “Documenting Documentation,” *Archivaria* 34 (1992): 33–49.
+- **Short note form:** Bearman, “Documenting Documentation,” 34–46.
+- **One quote worth lifting:** “The subject of the documentation is, first and foremost, the activity that generated the records.” (p. 45)
+- **One paraphrase worth keeping:** Bearman argues that archival systems should document the activities and contexts that generated records and let users enter through historical relationships rather than rely on record-centred catalogue surrogates alone. [@Bearman1992DocumentingDocumentation, pp. 34–46]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A provenance-aware computational archival case study that shows Bearman’s documentation model in practice rather than only at the level of principle.
-- What I will test or write next: Draft the S3.2 paragraph that distinguishes description from documentation in your own workflow, then specify which DDR contextual entities you are actually documenting and linking.
+# Related works
+
+- Duranti, “Origin and Development of the Concept of Archival Description.”
+- Ketelaar, “Archives as Spaces of Memory.”
+- Cook, “What Is Past Is Prologue.”
+
+# Follow-ups
+
+- **What I will test next:** Compare the DDR data model against Bearman's activity/document distinction and identify every derived relation that currently lacks explicit evidential support.
