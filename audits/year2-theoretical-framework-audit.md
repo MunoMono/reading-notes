@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T11:24:36+00:00
+Generated: 2026-10-01T11:26:37+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 22 |
-| SECOND PASS REQUIRED | 25 |
+| COMPLIANT | 23 |
+| SECOND PASS REQUIRED | 24 |
 | FIRST PASS REQUIRED | 6 |
 | REVIEW MATCH | 0 |
 
@@ -87,7 +87,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives, records, and power: the making of modern memory | 2002 | public/docs/S/Schwartz2002ArchivesRecordsPower.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities | 2024 | public/docs/J/Jaillant2024AreUsersDigital.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | Critical feminism in the archives | 2017 | public/docs/C/Cifor2017CriticalFeminismArchives.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive | 2022 | public/docs/O/Ortolja-Baird2022EncodingHauntingObject.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | The reconfiguration of the archive as data to be mined | 2018 | public/docs/M/Moss2018ReconfigurationArchiveData.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Critical questions for archives as (big) data | 2019 | public/docs/M/Mordell2019CriticalQuestionsArchivesData.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -152,6 +151,7 @@ _None._
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Four paradigm transformations in oral history | 2007 | public/docs/T/Thomson2007FourParadigmTransformations.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Of things said and unsaid: power, archival silences, and power in silence | 2006 | public/docs/C/CarterThingsSaidUnsaid.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | What makes oral history different | 2009 | public/docs/P/Portelli2009WhatMakesOralHistoryDifferent.md | meets current structural and completeness checks |
+| Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | Critical feminism in the archives | 2017 | public/docs/C/Cifor2017CriticalFeminismArchives.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
