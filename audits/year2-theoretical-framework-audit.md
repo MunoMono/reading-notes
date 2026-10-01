@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T10:49:59+00:00
+Generated: 2026-10-01T11:05:36+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 9 |
-| SECOND PASS REQUIRED | 37 |
+| COMPLIANT | 10 |
+| SECOND PASS REQUIRED | 36 |
 | FIRST PASS REQUIRED | 7 |
 | REVIEW MATCH | 0 |
 
@@ -85,7 +85,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives as spaces of memory | 2008 | public/docs/K/Ketelaar2008ArchivesSpacesMemory.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives, records, and power: the making of modern memory | 2002 | public/docs/S/Schwartz2002ArchivesRecordsPower.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Critical archival studies: an introduction | 2017 | public/docs/C/Caswell2017CriticalArchivalStudies.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Documenting documentation | 1992 | public/docs/B/Bearman1992DocumentingDocumentation.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -152,6 +151,7 @@ _None._
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Systematic method for designers | 1963 | public/docs/A/Archer1963SystematicMethodDesigners.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Whatever became of design methodology? | 1979 | public/docs/A/ArcherWhateverBecameDesign.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature | Design as an interesting phenomenon: george mallen and the royal college of art | 2024 | public/docs/B/BoydDavis2024DesignInterestingPhenomenon.md | meets current structural and completeness checks |
+| Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives as spaces of memory | 2008 | public/docs/K/Ketelaar2008ArchivesSpacesMemory.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
