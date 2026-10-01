@@ -14,7 +14,6 @@ last_updated: "16 Sept 2026, 11:14"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
-category: "S3: Surfacing and reactivating traces computationally"
 
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -28,10 +27,12 @@ source_type: "Methodological anchor"
 project_tags:
   - "Turin"
   - "Thesis"
-literature_clusters:
-  - "02 LLM epistemic risk and persuasive fluency"
-  - "09 Human judgement and practice-led computational research"
-  - "11 Uncertainty and provenance display in interfaces"
+  - "Theoretical framework"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

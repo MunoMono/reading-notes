@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Create a new reading note from a citekey, DOI or URL using a thesis-aligned template
-# focused on the project research question(s), model strands, and critical inquiry.
+# focused on the project research question(s) and the Zotero-aligned theoretical framework.
 
 set -euo pipefail
 umask 022
@@ -36,48 +36,153 @@ command -v python3 >/dev/null 2>&1 || { echo "Error: python3 not found" >&2; exi
 [[ -f "$BIB_PATH" ]] || { echo "Error: bibliography not found: $BIB_PATH" >&2; exit 1; }
 [[ -f "$NORTH_STAR_PATH" ]] || { echo "Error: north star not found: $NORTH_STAR_PATH" >&2; exit 1; }
 
-echo "Choose strand for this note:"
-select STRAND in \
-  "S1: Historicising contested design knowledge" \
-  "S2: Recording, organising, and obscuring traces" \
-  "S3: Surfacing and reactivating traces computationally"; do
-  [[ -n "$STRAND" ]] && break
-done
-STRAND_ID="${STRAND%%:*}"
+# Read the four theoretical-framework areas directly from north-star.yml so the
+# script stays in parity with the Zotero filing structure.
+FRAMEWORK_AREA_IDS=()
+FRAMEWORK_AREA_LABELS=()
+FRAMEWORK_AREA_OPTIONS=()
+read_framework_areas() {
+    python3 - "$NORTH_STAR_PATH" <<'PY'
+import re, sys
 
-case "$STRAND_ID" in
-  S1)
-    echo "Choose sub-cluster for Strand 1:"
-    select SUBCLUSTER in \
-      "S1.1 Archer and the formation of design research" \
-      "S1.2 Critiques of design methods" \
-      "S1.3 DDR as institutional site of design research"; do
-      [[ -n "$SUBCLUSTER" ]] && break
-    done
-    ;;
-  S2)
-    echo "Choose sub-cluster for Strand 2:"
-    select SUBCLUSTER in \
-      "S2.1 Classification as ethics and politics" \
-      "S2.2 Oral histories" \
-      "S2.3 Archival reconstruction and institutional memory"; do
-      [[ -n "$SUBCLUSTER" ]] && break
-    done
-    ;;
-  S3)
-    echo "Choose sub-cluster for Strand 3:"
-    select SUBCLUSTER in \
-      "S3.1 Visual analytics" \
-      "S3.2 Scoped missingness" \
-      "S3.3 Retrieval-augmented inference"; do
-      [[ -n "$SUBCLUSTER" ]] && break
-    done
-    ;;
-  *)
-    echo "Error: unknown strand: $STRAND_ID" >&2
-    exit 1
-    ;;
-esac
+path = sys.argv[1]
+text = open(path, 'r', encoding='utf-8', errors='ignore').read()
+
+
+def extract_id_label_list(text, key):
+    lines = text.splitlines()
+    start = None
+    base_indent = None
+    for i, line in enumerate(lines):
+        if line.strip() == f"{key}:":
+            start = i + 1
+            base_indent = len(line) - len(line.lstrip())
+            break
+    if start is None:
+        return []
+
+    out = []
+    current_id = None
+    for line in lines[start:]:
+        stripped = line.strip()
+        if not stripped or stripped.startswith('#'):
+            continue
+        indent = len(line) - len(line.lstrip())
+        if indent <= base_indent:
+            break
+
+        m_id = re.match(r'^\s*-\s*id:\s*"?([^"]+?)"?\s*$', line)
+        if m_id:
+            current_id = m_id.group(1).strip()
+            continue
+
+        m_label = re.match(r'^\s*label:\s*"?(.*?)"?\s*$', line)
+        if m_label and current_id is not None:
+            out.append((current_id, m_label.group(1).strip()))
+            current_id = None
+    return out
+
+
+for item_id, label in extract_id_label_list(text, "theoretical_framework_areas"):
+    print(f"{item_id}\t{label}")
+PY
+}
+
+while IFS=$'\t' read -r area_id area_label; do
+    [[ -n "$area_id" && -n "$area_label" ]] || continue
+    FRAMEWORK_AREA_IDS+=("$area_id")
+    FRAMEWORK_AREA_LABELS+=("$area_label")
+    FRAMEWORK_AREA_OPTIONS+=("${area_id}. ${area_label}")
+done < <(read_framework_areas)
+
+if (( ${#FRAMEWORK_AREA_OPTIONS[@]} == 0 )); then
+  echo "Error: no model.theoretical_framework_areas found in $NORTH_STAR_PATH" >&2
+  exit 1
+fi
+
+echo "Choose primary theoretical-framework area for this note:"
+select FRAMEWORK_AREA_DISPLAY in "${FRAMEWORK_AREA_OPTIONS[@]}"; do
+  if [[ -n "$FRAMEWORK_AREA_DISPLAY" ]]; then
+    FRAMEWORK_AREA_INDEX=$((REPLY - 1))
+    FRAMEWORK_AREA_ID="${FRAMEWORK_AREA_IDS[$FRAMEWORK_AREA_INDEX]}"
+    FRAMEWORK_AREA_LABEL="${FRAMEWORK_AREA_LABELS[$FRAMEWORK_AREA_INDEX]}"
+    break
+  fi
+done
+
+# Read the three active Zotero literature clusters from north-star.yml.
+# Placeholder folders d) Z and e) ADD are intentionally absent from the north star.
+LITERATURE_CLUSTER_IDS=()
+LITERATURE_CLUSTER_LABELS=()
+LITERATURE_CLUSTER_OPTIONS=()
+read_literature_clusters() {
+    python3 - "$NORTH_STAR_PATH" <<'PY'
+import re, sys
+
+path = sys.argv[1]
+text = open(path, 'r', encoding='utf-8', errors='ignore').read()
+
+
+def extract_id_label_list(text, key):
+    lines = text.splitlines()
+    start = None
+    base_indent = None
+    for i, line in enumerate(lines):
+        if line.strip() == f"{key}:":
+            start = i + 1
+            base_indent = len(line) - len(line.lstrip())
+            break
+    if start is None:
+        return []
+
+    out = []
+    current_id = None
+    for line in lines[start:]:
+        stripped = line.strip()
+        if not stripped or stripped.startswith('#'):
+            continue
+        indent = len(line) - len(line.lstrip())
+        if indent <= base_indent:
+            break
+
+        m_id = re.match(r'^\s*-\s*id:\s*["\']?([^"\']+?)["\']?\s*$', line)
+        if m_id:
+            current_id = m_id.group(1).strip()
+            continue
+
+        m_label = re.match(r'^\s*label:\s*["\']?(.*?)["\']?\s*$', line)
+        if m_label and current_id is not None:
+            out.append((current_id, m_label.group(1).strip()))
+            current_id = None
+    return out
+
+
+for item_id, label in extract_id_label_list(text, "literature_clusters"):
+    print(f"{item_id}\t{label}")
+PY
+}
+
+while IFS=$'\t' read -r cluster_id cluster_label; do
+    [[ -n "$cluster_id" && -n "$cluster_label" ]] || continue
+    LITERATURE_CLUSTER_IDS+=("$cluster_id")
+    LITERATURE_CLUSTER_LABELS+=("$cluster_label")
+    LITERATURE_CLUSTER_OPTIONS+=("${cluster_id}) ${cluster_label}")
+done < <(read_literature_clusters)
+
+if (( ${#LITERATURE_CLUSTER_OPTIONS[@]} == 0 )); then
+  echo "Error: no literature_clusters found in $NORTH_STAR_PATH" >&2
+  exit 1
+fi
+
+echo "Choose Zotero literature cluster for this note:"
+select LITERATURE_CLUSTER_DISPLAY in "${LITERATURE_CLUSTER_OPTIONS[@]}"; do
+  if [[ -n "$LITERATURE_CLUSTER_DISPLAY" ]]; then
+    LITERATURE_CLUSTER_INDEX=$((REPLY - 1))
+    LITERATURE_CLUSTER_ID="${LITERATURE_CLUSTER_IDS[$LITERATURE_CLUSTER_INDEX]}"
+    LITERATURE_CLUSTER_LABEL="${LITERATURE_CLUSTER_LABELS[$LITERATURE_CLUSTER_INDEX]}"
+    break
+  fi
+done
 
 echo "Choose source type:"
 select SOURCE_TYPE in \
@@ -90,206 +195,176 @@ select SOURCE_TYPE in \
   [[ -n "$SOURCE_TYPE" ]] && break
 done
 
-choose_multiple() {
-  local label="$1"
-  shift
-  local opts=("$@")
-  local count=${#opts[@]}
-
-  if (( count == 0 )); then
-    printf '%s\n' ""
-    return
-  fi
-
-  echo "Choose ${label} (enter numbers separated by spaces; blank for none):" >&2
-  for i in "${!opts[@]}"; do
-    printf '%s) %s\n' "$((i + 1))" "${opts[i]}" >&2
-  done
-
-  while true; do
-    printf 'Selection: ' >&2
-    read -r raw
-    raw=${raw//,/ }
-    if [[ -z "${raw//[[:space:]]/}" ]]; then
-      printf '%s\n' ""
-      return
-    fi
-
-    local valid=1
-    local -a picked=()
-    local -a nums=()
-    read -r -a nums <<< "$raw"
-
-    for n in "${nums[@]}"; do
-      if ! [[ "$n" =~ ^[0-9]+$ ]] || (( n < 1 || n > count )); then
-        valid=0
-        break
-      fi
-      picked+=("${opts[$((n - 1))]}")
-    done
-
-    if (( valid == 1 )); then
-      local -a out=()
-      for item in "${picked[@]}"; do
-        local already_picked=0
-        for selected_item in "${out[@]-}"; do
-          if [[ "$selected_item" == "$item" ]]; then
-            already_picked=1
-            break
-          fi
-        done
-        if (( already_picked == 0 )); then
-          out+=("$item")
-        fi
-      done
-      printf '%s\n' "${out[@]}"
-      return
-    fi
-
-    echo "Invalid selection. Try something like '1 3' or leave blank for none." >&2
-  done
-}
-
-PROJECT_TAGS=()
-while IFS= read -r line; do
-  [[ -n "$line" ]] && PROJECT_TAGS+=("$line")
-done < <(python3 - "$NORTH_STAR_PATH" <<'PY'
-import re, sys
-path = sys.argv[1]
-text = open(path, 'r', encoding='utf-8', errors='ignore').read()
-m = re.search(r'(?ms)^project_tags:\s*\n(.*?)(?=^\S|\Z)', text)
-if not m:
-    raise SystemExit
-block = m.group(1)
-for line in block.splitlines():
-    mm = re.match(r'^\s*-\s*(.+?)\s*$', line)
-    if mm:
-        print(mm.group(1).strip().strip('"'))
-PY
-)
-
-LITERATURE_CLUSTERS=()
-while IFS= read -r line; do
-  [[ -n "$line" ]] && LITERATURE_CLUSTERS+=("$line")
-done < <(python3 - "$NORTH_STAR_PATH" <<'PY'
-import re, sys
-path = sys.argv[1]
-text = open(path, 'r', encoding='utf-8', errors='ignore').read()
-for mid, label in re.findall(r'(?ms)-\s*id:\s*"([0-9]+)"\s*\n\s*label:\s*"(.*?)"', text):
-    print(f"{mid} {label}")
-PY
-)
-
-PROJECT_TAGS_SELECTED=$(choose_multiple "project/output tags" "${PROJECT_TAGS[@]}")
-LITERATURE_CLUSTERS_SELECTED=$(choose_multiple "literature clusters" "${LITERATURE_CLUSTERS[@]}")
-
-export PROJECT_TAGS_SELECTED
-export LITERATURE_CLUSTERS_SELECTED
-
-NEWFILE=$(python3 - \
+generate_note() {
+    python3 - \
   "$BIB_PATH" \
   "$NOTES_DIR" \
   "$IDENT" \
   "$CSL_STYLE" \
   "$NORTH_STAR_PATH" \
-  "$STRAND_ID" \
-  "$SUBCLUSTER" \
-  "$SOURCE_TYPE" \
-<<'PY'
+  "$FRAMEWORK_AREA_ID" \
+  "$FRAMEWORK_AREA_LABEL" \
+  "$LITERATURE_CLUSTER_ID" \
+    "$LITERATURE_CLUSTER_LABEL" \
+    "$SOURCE_TYPE" <<'PY'
 import os, re, sys, pathlib, datetime, hashlib
 from zoneinfo import ZoneInfo
 
-bib_path         = pathlib.Path(sys.argv[1])
-notes_dir        = pathlib.Path(sys.argv[2])
-ident            = sys.argv[3]
-csl_style        = sys.argv[4]
-north_star_path  = pathlib.Path(sys.argv[5])
-strand_id        = sys.argv[6]
-subcluster_label = sys.argv[7]
-source_type      = sys.argv[8]
-selected_tags    = [x.strip() for x in os.environ.get("PROJECT_TAGS_SELECTED", "").splitlines() if x.strip()]
-selected_clusters = [x.strip() for x in os.environ.get("LITERATURE_CLUSTERS_SELECTED", "").splitlines() if x.strip()]
+bib_path          = pathlib.Path(sys.argv[1])
+notes_dir         = pathlib.Path(sys.argv[2])
+ident             = sys.argv[3]
+csl_style         = sys.argv[4]
+north_star_path   = pathlib.Path(sys.argv[5])
+area_id           = sys.argv[6]
+area_label        = sys.argv[7]
+cluster_id        = sys.argv[8]
+cluster_label     = sys.argv[9]
+source_type       = sys.argv[10]
 
 
 def norm(s: str) -> str:
     return re.sub(r'[^a-z0-9]+', '', (s or '').lower())
 
+
 def yaml_str(s: str) -> str:
-    s = (s or "").replace('"', '\\"')
+    s = (s or "").replace('\\', '\\\\').replace('"', '\\"')
     return f'"{s}"'
+
 
 def load_bib_entries(path: pathlib.Path):
     txt = path.read_text(encoding='utf-8', errors='ignore')
     chunks = re.split(r'(?m)^(?=@)', txt)
     entries = []
+
+    def read_value(text: str, start: int):
+        if start >= len(text):
+            return "", start
+        if text[start] == '{':
+            depth = 0
+            for index in range(start, len(text)):
+                if text[index] == '{':
+                    depth += 1
+                elif text[index] == '}':
+                    depth -= 1
+                    if depth == 0:
+                        return text[start + 1:index], index + 1
+            return text[start + 1:], len(text)
+        if text[start] == '"':
+            end = text.find('"', start + 1)
+            if end >= 0:
+                return text[start + 1:end], end + 1
+        end = start
+        while end < len(text) and text[end] not in ',\n':
+            end += 1
+        return text[start:end], end
+
     for ch in chunks:
         m = re.match(r'@\s*([^{(]+)\s*[\{\(]\s*([^,\s]+)', ch)
         if not m:
             continue
         key = m.group(2).strip()
         fields = {}
-        for fm in re.finditer(
-            r'([a-zA-Z]+)\s*=\s*'
-            r'(?:'
-            r'({(?:[^{}]|{[^}]*})*})'
-            r'|("([^"]*)")'
-            r'|([^\s,]+)'
-            r')\s*,?', ch, re.S):
+        for fm in re.finditer(r'(?m)^\s*([a-zA-Z]+)\s*=\s*', ch):
             name = fm.group(1).lower()
-            if fm.group(2):
-                raw = fm.group(2)[1:-1]
-            elif fm.group(3):
-                raw = fm.group(4) or ""
-            else:
-                raw = fm.group(5) or ""
+            raw, _ = read_value(ch, fm.end())
             fields[name] = raw.strip()
         entries.append((key, fields))
     return entries
+
 
 def _block(txt: str, key: str) -> str:
     m = re.search(rf'(?ms)^{re.escape(key)}:\s*\n(.*?)(?=^\S|\Z)', txt)
     return m.group(1) if m else ""
 
-def _subblock(block: str, key: str) -> str:
-    m = re.search(rf'(?ms)^\s*{re.escape(key)}:\s*\n(.*?)(?=^\s{{0,1}}\S|\Z)', block)
-    return m.group(1) if m else ""
 
 def _grab_in(block: str, subkey: str, default: str = "") -> str:
     m = re.search(rf'(?m)^\s*{re.escape(subkey)}:\s*"(.*)"\s*$', block)
     if m:
         return m.group(1).strip()
     m = re.search(rf'(?m)^\s*{re.escape(subkey)}:\s*(.+?)\s*$', block)
-    return m.group(1).strip() if m else default
+    return m.group(1).strip().strip(chr(34) + chr(39)) if m else default
+
+
+def simple_list(txt: str, key: str):
+    block = _block(txt, key)
+    out = []
+    for line in block.splitlines():
+        m = re.match(r'^\s*-\s*(.+?)\s*$', line)
+        if m:
+            out.append(m.group(1).strip().strip(chr(34) + chr(39)))
+    return out
+
+
+def extract_id_label_list(text: str, key: str):
+    lines = text.splitlines()
+    start = None
+    base_indent = None
+    for i, line in enumerate(lines):
+        if line.strip() == f"{key}:":
+            start = i + 1
+            base_indent = len(line) - len(line.lstrip())
+            break
+    if start is None:
+        return []
+
+    out = []
+    current_id = None
+    for line in lines[start:]:
+        stripped = line.strip()
+        if not stripped or stripped.startswith('#'):
+            continue
+        indent = len(line) - len(line.lstrip())
+        if indent <= base_indent:
+            break
+
+        m_id = re.match(r'^\s*-\s*id:\s*"?([^"]+?)"?\s*$', line)
+        if m_id:
+            current_id = m_id.group(1).strip()
+            continue
+
+        m_label = re.match(r'^\s*label:\s*"?(.*?)"?\s*$', line)
+        if m_label and current_id is not None:
+            out.append((current_id, m_label.group(1).strip()))
+            current_id = None
+    return out
+
 
 def parse_north_star(txt: str):
     rq_blk = _block(txt, "research_question")
     model_blk = _block(txt, "model")
+    zotero_blk = _block(txt, "zotero_filing")
 
     rq_verbatim  = _grab_in(rq_blk, "verbatim", "")
     rq_working   = _grab_in(rq_blk, "working", "")
     rq_secondary = _grab_in(rq_blk, "secondary", "")
     rq_purpose   = _grab_in(rq_blk, "purpose", "")
     model_title  = _grab_in(model_blk, "title", "")
+    zotero_root  = _grab_in(zotero_blk, "root", "Theoretical framework")
 
-    strands = {}
-    for m in re.finditer(r'-\s*id:\s*"(S[123])"\s*\n\s*label:\s*"(.*?)"', model_blk, flags=re.S):
-        strands[m.group(1)] = m.group(2).strip()
-
-    seams = []
-    seams_blk = _subblock(model_blk, "seams_to_watch")
-    for m in re.finditer(r'label:\s*"(.*?)"', seams_blk):
-        val = m.group(1).strip()
-        if val:
-            seams.append(val)
+    project_tags = simple_list(txt, "project_tags")
+    areas = dict(extract_id_label_list(txt, "theoretical_framework_areas"))
+    clusters = dict(extract_id_label_list(txt, "literature_clusters"))
 
     constraints_summary = []
     cblk = _block(txt, "constraints_summary")
     for ln in cblk.splitlines():
         s = ln.strip()
         if s.startswith("- "):
-            constraints_summary.append(s[2:].strip().strip('"'))
+            constraints_summary.append(s[2:].strip().strip('"\''))
 
-    return rq_verbatim, rq_working, rq_secondary, rq_purpose, model_title, strands, seams, constraints_summary
+    return (
+        rq_verbatim,
+        rq_working,
+        rq_secondary,
+        rq_purpose,
+        model_title,
+        zotero_root,
+        project_tags,
+        areas,
+        clusters,
+        constraints_summary,
+    )
+
 
 def md_list(items, fallback):
     if not items:
@@ -300,7 +375,8 @@ def md_list(items, fallback):
 def yaml_list(items):
     if not items:
         return "[]"
-    return "\n" + "\n".join(f'  - "{str(x).replace(chr(34), chr(92)+chr(34))}"' for x in items)
+    return "\n" + "\n".join(f"  - {yaml_str(str(x))}" for x in items)
+
 
 entries = load_bib_entries(bib_path)
 by_key = {k: (k, f) for k, f in entries}
@@ -332,7 +408,18 @@ else:
     url     = ident if ident.startswith('http') else ""
 
 north_txt = north_star_path.read_text(encoding="utf-8", errors="ignore")
-rq_verbatim, rq_working, rq_secondary, rq_purpose, model_title, strands, seams, constraints_summary = parse_north_star(north_txt)
+(
+    rq_verbatim,
+    rq_working,
+    rq_secondary,
+    rq_purpose,
+    model_title,
+    zotero_root,
+    project_tags,
+    areas,
+    clusters,
+    constraints_summary,
+) = parse_north_star(north_txt)
 
 if not rq_verbatim:
     raise SystemExit("Error: missing research_question.verbatim in project/north-star.yml")
@@ -342,9 +429,16 @@ if not rq_secondary:
     raise SystemExit("Error: missing research_question.secondary in project/north-star.yml")
 if not model_title:
     raise SystemExit("Error: missing model.title in project/north-star.yml")
+if not project_tags:
+    raise SystemExit("Error: missing project_tags in project/north-star.yml")
+if areas.get(area_id) != area_label:
+    raise SystemExit(f"Error: selected theoretical-framework area {area_id!r} is not in project/north-star.yml")
+if clusters.get(cluster_id) != cluster_label:
+    raise SystemExit(f"Error: selected literature cluster {cluster_id!r} is not in project/north-star.yml")
 
-strand_label = strands.get(strand_id, "<Add strand label in north-star.yml>")
-seams_md = md_list(seams, "TODO: add seams_to_watch labels in project/north-star.yml")
+area_display = f"{area_id}. {area_label}"
+cluster_display = f"{cluster_id}) {cluster_label}"
+zotero_path = f"{zotero_root} / {area_display} / {cluster_display}"
 constraints_md = md_list(constraints_summary, "TODO: add constraints_summary in project/north-star.yml")
 
 first_author = authors.split(',')[0].strip() if authors else ''
@@ -384,19 +478,19 @@ last_updated: "{generated_at}"
 north_star_source: "{north_star_source}"
 north_star_mtime: "{north_star_mtime}"
 north_star_sha1: "{north_star_sha1}"
-category: "{strand_id}: {strand_label}"
 
 project_rq_verbatim: {yaml_str(rq_verbatim)}
 project_rq_working: {yaml_str(rq_working)}
 project_rq_secondary: {yaml_str(rq_secondary)}
 project_rq_purpose: {yaml_str(rq_purpose)}
 model_title: {yaml_str(model_title)}
-model_strand: "{strand_id}"
-model_strand_label: {yaml_str(strand_label)}
-model_subcluster: {yaml_str(subcluster_label)}
+theoretical_framework_area_id: {yaml_str(area_id)}
+theoretical_framework_area: {yaml_str(area_label)}
+literature_cluster_id: {yaml_str(cluster_id)}
+literature_cluster: {yaml_str(cluster_label)}
+zotero_filing_path: {yaml_str(zotero_path)}
 source_type: {yaml_str(source_type)}
-project_tags: {yaml_list(selected_tags)}
-literature_clusters: {yaml_list(selected_clusters)}
+project_tags: {yaml_list(project_tags)}
 constraints_source: "project/constraints.md"
 ---
 
@@ -404,14 +498,11 @@ constraints_source: "project/constraints.md"
 **RQ (working):** {rq_working}  
 **Secondary question:** {rq_secondary}  
 **Model title:** {model_title}  
-**Primary strand:** {strand_id} — {strand_label}  
-**Sub-cluster:** {subcluster_label}  
+**Primary theoretical-framework area:** {area_display}  
+**Literature cluster:** {cluster_display}  
+**Zotero filing path:** {zotero_path}  
 **Source type:** {source_type}  
-**Project/output tags:** {', '.join(selected_tags) if selected_tags else 'None'}  
-**Literature clusters:** {', '.join(selected_clusters) if selected_clusters else 'None'}  
-
-**Seams to watch (optional, pick 1):**
-{seams_md}
+**Project/output tags:** {', '.join(project_tags)}  
 
 # Constraints (anti-bloat / anti-hallucination)
 {constraints_md}
@@ -421,14 +512,16 @@ constraints_source: "project/constraints.md"
 
 # Thesis job (do this first)
 **Project research question(s) this serves (paste verbatim):** {rq_verbatim}  
+**How this source moves the primary research question forward (1 sentence):**  
+**How this source bears on the secondary question, if relevant (1 sentence):**  
 **Why I’m reading this now (1 sentence):**  
 **Where it sits in my argument (chapter/section + what it helps me say):**  
-**Why this term, not alternatives (1–2 lines):**  
+**Why this theoretical-framework area + literature cluster is the right filing location (1–2 lines):**  
 **My benchmark for using it (1–2 criteria I will apply):**  
 
 # Position + moment (2–4 lines)
 Who is the author / what tradition / what institutional or disciplinary positioning? What problem-space are they in at that time?  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**
+**Assumptions or limits to problematise / update for 2026 (1–2 lines):**
 
 # The author’s main move (1 sentence)
 They try to ___ by ___ in order to ___.
@@ -505,7 +598,9 @@ if not out.exists():
 
 print(str(out))
 PY
-)
+}
+
+NEWFILE="$(generate_note)"
 
 echo "$NEWFILE"
 

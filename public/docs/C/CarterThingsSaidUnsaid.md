@@ -14,7 +14,6 @@ last_updated: "16 Sept 2026, 12:14"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
-category: "S2: Recording, organising, and obscuring traces"
 
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -27,6 +26,12 @@ model_subcluster: "S2.1 Classification as ethics and politics"
 source_type: "Core text"
 project_tags:
   - "Turin"
+  - "Theoretical framework"
+theoretical_framework_area_id: "2"
+theoretical_framework_area: "Critical archival theory"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / Critical archival theory / Canon + intellectual lineage"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

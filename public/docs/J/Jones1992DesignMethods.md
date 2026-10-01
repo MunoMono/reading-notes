@@ -17,6 +17,13 @@ model_strand: "S1"
 model_strand_label: "Historicising contested design knowledge"
 model_subcluster: "S1.2 Critiques of design methods"
 source_type: "Context / supporting"
+project_tags:
+  - "Theoretical framework"
+theoretical_framework_area_id: "1"
+theoretical_framework_area: "Critical design historiography"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / Critical design historiography / Canon + intellectual lineage"
 last_updated: "19 Mar 2026, 09:18"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

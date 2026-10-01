@@ -20,6 +20,7 @@ const PHD_YEAR_2_RANGE = {
 
 const TEMPORARY_PROJECT_TAGS = ["Turin conference"];
 const TURIN_PROJECT_TAGS = ["Turin", "Turin conference"];
+const THEORETICAL_FRAMEWORK_TAG = "Theoretical framework";
 
 function fmtDateInput(d) {
   if (!d) return "";
@@ -352,6 +353,13 @@ export default function Home() {
             >
               Turin
             </button>
+            <button
+              type="button"
+              className={`preset-chip ${projectTagFilter === THEORETICAL_FRAMEWORK_TAG ? "is-active" : ""}`}
+              onClick={() => setProjectTagFilter((tag) => tag === THEORETICAL_FRAMEWORK_TAG ? null : THEORETICAL_FRAMEWORK_TAG)}
+            >
+              Theoretical framework
+            </button>
           </div>
 
           {dateFilterSummary ? (
@@ -385,7 +393,9 @@ export default function Home() {
                       {e.venue ? <em> — {highlight(e.venue, query)}</em> : null}
                     </Link>{" "}
                     {categoryTag(e.category)}
-                    {(e.project_tags || []).map((tag, index) => (
+                    {(e.project_tags || [])
+                      .filter((tag) => tag !== THEORETICAL_FRAMEWORK_TAG)
+                      .map((tag, index) => (
                       <React.Fragment key={`${e.slug}-tag-${tag || index}`}>
                         {projectTagChip(tag)}
                       </React.Fragment>

@@ -17,6 +17,13 @@ model_strand: "S1"
 model_strand_label: "Historicising contested design knowledge"
 model_subcluster: "S1.1 Archer and the formation of design research"
 source_type: "Core text"
+project_tags:
+  - "Theoretical framework"
+theoretical_framework_area_id: "1"
+theoretical_framework_area: "Critical design historiography"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / Critical design historiography / Canon + intellectual lineage"
 last_updated: "18 Mar 2026, 15:23"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

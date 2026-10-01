@@ -14,7 +14,6 @@ north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
 constraints_source: "project/constraints.md"
-category: "S3: Surfacing and reactivating traces computationally"
 
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -27,6 +26,12 @@ model_subcluster: "S3.1 Visual analytics"
 source_type: "Core text"
 project_tags:
   - "Turin"
+  - "Theoretical framework"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Canon + intellectual lineage"
 last_updated: "16 Sept 2026, 12:14"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

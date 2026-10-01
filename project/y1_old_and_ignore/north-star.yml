@@ -15,24 +15,50 @@ constraints_summary:
   - "No page cite → write TODO (needs page)"
   - "Max 3 claims: Claim → Evidence → Warrant → So-what"
   - "Each claim must include a practice cross-check (or TODO)"
-  - "Every source gets one primary theoretical-framework area + one Zotero literature cluster"
   - "No antithesis lists: write Boundary + Risk"
-  - "If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)"
+  - "If it doesn’t serve the RQ/model: OUT OF SCOPE (why)"
 
 model:
   title: "Mobilising contested design knowledge in the DDR archive"
 
-  # Primary theoretical-framework filing areas.
-  # These mirror the top-level Zotero folders under "Theoretical framework".
-  theoretical_framework_areas:
-    - id: "1"
-      label: "Critical design historiography"
-    - id: "2"
-      label: "Critical archival theory"
-    - id: "3"
-      label: "Critical computational approaches"
-    - id: "4"
-      label: "Feminist + situated knowledge"
+  strands:
+    - id: "S1"
+      label: "Historicising contested design knowledge"
+      what_counts_as_evidence:
+        - "Archer and the formation of design research"
+        - "Critiques of design methods"
+        - "DDR as an institutional site of design research"
+      outputs_i_expect:
+        - "A concise historical map of contested design knowledge"
+        - "Re-usable contrasts that locate today’s debates"
+
+    - id: "S2"
+      label: "Recording, organising, and obscuring traces"
+      what_counts_as_evidence:
+        - "Classification as ethics and politics"
+        - "Oral histories"
+        - "Archival reconstruction and institutional memory"
+      outputs_i_expect:
+        - "Examples of how traces are structured or lost"
+        - "Guidelines for making archival traces legible for reuse"
+
+    - id: "S3"
+      label: "Surfacing and reactivating traces computationally"
+      what_counts_as_evidence:
+        - "Visual analytics"
+        - "Scoped missingness"
+        - "Retrieval-augmented inference"
+      outputs_i_expect:
+        - "A playbook for computationally surfacing contested traces"
+        - "Risk conditions and affordances for reactivation"
+
+  seams_to_watch:
+    - id: "SEAM_A"
+      label: "Where historical contestation meets archive structure"
+    - id: "SEAM_B"
+      label: "How organisation choices reveal or hide contested knowledge"
+    - id: "SEAM_C"
+      label: "When computational methods clarify or distort contested traces"
 
 project_definitions:
   # Keep these as working definitions — they can tighten later.
@@ -66,28 +92,40 @@ project_definitions:
       - "Historical lessons that clarify current assumptions"
       - "Points where the period exposes limits in contemporary design research discourse"
 
-# For the current reading programme, all ingested papers belong to this project tag.
 project_tags:
-  - "Theoretical framework"
+  - "Turin"
+  - "Turin conference"
+  - "Thesis"
 
-# These mirror the three active Zotero subfolders under each theoretical-framework area.
-# Zotero placeholders "d) Z" and "e) ADD" are intentionally excluded.
 literature_clusters:
-  - id: "a"
-    label: "Canon + intellectual lineage"
-  - id: "b"
-    label: "Operational literature"
-  - id: "c"
-    label: "Contemporary bridge literature"
-
-zotero_filing:
-  root: "Theoretical framework"
-  path_pattern: "Theoretical framework / {primary_area} / {literature_cluster}"
+  - id: "01"
+    label: "Synthetic heritage and cultural memory"
+  - id: "02"
+    label: "LLM epistemic risk and persuasive fluency"
+  - id: "03"
+    label: "RAG, retrieval and source attribution"
+  - id: "04"
+    label: "Archival description, mediation and discoverability"
+  - id: "05"
+    label: "Archival partiality, silence and absence"
+  - id: "06"
+    label: "Oral history, temporality and retrospective testimony"
+  - id: "07"
+    label: "Interface authority, ranking and retrieval bias"
+  - id: "08"
+    label: "Ambiguity, uncertainty and plural interpretation"
+  - id: "09"
+    label: "Human judgement and practice-led computational research"
+  - id: "10"
+    label: "Conversational AI and completion norms"
+  - id: "11"
+    label: "Uncertainty and provenance display in interfaces"
+  - id: "12"
+    label: "Digitisation, reconstruction and archival completion"
 
 always_include_in_notes:
-  - "Selected primary theoretical-framework area: 1. Critical design historiography / 2. Critical archival theory / 3. Critical computational approaches / 4. Feminist + situated knowledge"
-  - "Selected literature cluster: a) Canon + intellectual lineage / b) Operational literature / c) Contemporary bridge literature"
-  - "Zotero filing path: Theoretical framework / [primary area] / [literature cluster]"
+  - "Selected primary strand (S1/S2/S3)"
+  - "Selected sub-cluster"
   - "How the source moves the primary research question forward (one sentence)"
   - "How the source bears on the secondary question, if relevant"
   - "At least one link to archive material, oral history, practice evidence, or computational method (or TODO)"

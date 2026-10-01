@@ -1,16 +1,25 @@
 # Constraints for notes + AI assistance (anti-bloat / anti-hallucination)
 
-These rules exist to keep the thesis on track and keep notes “writeable” (not a swamp).
+These rules exist to keep the thesis on track, keep notes “writeable” (not a swamp), and keep the reading-note filing system in parity with Zotero.
 
 ## 1) Non-negotiables
 - Every note must point to the **North star**:
   - **Project RQ (verbatim)**
-  - **Primary strand** (S1 / S2 / S3)
-  - **One seam to watch** (optional but preferred)
-- Every note has one primary strand.
-- Project/output tags and literature clusters are optional cross-cutting metadata.
-- Multiple literature clusters are allowed only when the source genuinely supports them.
-- If something does not serve the RQ/model, write: **“OUT OF SCOPE (why)”** and stop.
+  - **One primary theoretical-framework area**:
+    - **1. Critical design historiography**
+    - **2. Critical archival theory**
+    - **3. Critical computational approaches**
+    - **4. Feminist + situated knowledge**
+  - **One literature cluster**:
+    - **a) Canon + intellectual lineage**
+    - **b) Operational literature**
+    - **c) Contemporary bridge literature**
+  - **Zotero filing path**: `Theoretical framework / [primary area] / [literature cluster]`
+- Every note has **one primary theoretical-framework area** and **one Zotero literature cluster**.
+- The current project/output tag is **Theoretical framework**.
+- Do **not** use the Zotero placeholder folders **d) Z** or **e) ADD** in reading-note metadata.
+- If a source genuinely crosses areas, choose the **single best primary filing location** for Zotero and describe the cross-over in the note rather than creating an ambiguous primary classification.
+- If something does not serve the RQ/theoretical framework, write: **“OUT OF SCOPE (why)”** and stop.
 
 ## 2) Evidence rule (no hallucination)
 - Do **not** state factual claims about the paper without:
@@ -57,14 +66,25 @@ These rules exist to keep the thesis on track and keep notes “writeable” (no
 ## 9) Allowed sources in a note
 You may only use:
 - The paper you’re reading (with page refs), and
-- North star constants (project/north-star.yml), and
+- North star constants (`project/north-star.yml`), and
 - Your own practice material (explicitly referenced),
 - Otherwise: **TODO**.
 
-## 10) Definition of done (for a reading note)
+## 10) Zotero parity rule
+- Filing metadata in the note must map directly to the Zotero structure:
+  - `Theoretical framework`
+  - one of the four primary theoretical-framework areas
+  - one of the three literature clusters (a/b/c)
+- The note should make the intended Zotero destination explicit enough that the paper can be filed without reinterpretation.
+- **d) Z** and **e) ADD** are placeholders only and must never be selected by the note-taking system.
+
+## 11) Definition of done (for a reading note)
 A note is “done” when it contains:
 - Thesis job filled
-- Strand selected
+- Primary theoretical-framework area selected
+- Literature cluster selected (a/b/c)
+- Zotero filing path stated
+- Project/output tag set to **Theoretical framework**
 - 3-claim ledger completed (or fewer)
 - At least 1 definition updated/confirmed (or “none”)
 - Practice cross-check(s) included (or TODO)

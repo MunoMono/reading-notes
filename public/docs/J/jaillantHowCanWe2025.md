@@ -11,7 +11,6 @@ csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sept 2026, 00:00"
 last_updated: "16 Sept 2026, 12:14"
-category: "S3: Surfacing and reactivating traces computationally"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Scoped missingness"
@@ -19,12 +18,12 @@ source_type: "Context / supporting"
 project_tags:
   - "Turin"
   - "Thesis"
-literature_clusters:
-  - "05 Archival partiality, silence and absence"
-  - "07 Interface authority, ranking and retrieval bias"
-  - "09 Human judgement and practice-led computational research"
-  - "11 Uncertainty and provenance display in interfaces"
-  - "12 Digitisation, reconstruction and archival completion"
+  - "Theoretical framework"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  

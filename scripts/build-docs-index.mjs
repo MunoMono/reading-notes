@@ -24,61 +24,95 @@ async function walk(dir) {
 function stripQuotes(v) {
   if (typeof v !== "string") return v;
   const s = v.trim();
-  if ((s.startsWith('"') && s.endsWith('"')) || (s.startsWith("'") && s.endsWith("'"))) {
+  if (
+    (s.startsWith('"') && s.endsWith('"')) ||
+    (s.startsWith("'") && s.endsWith("'"))
+  ) {
     return s.slice(1, -1);
   }
   return s;
 }
 
-// very light YAML parser for simple key: value pairs and short block arrays in the front-matter
+// Very light YAML parser for simple key: value pairs
+// and short block arrays in Markdown front-matter.
 function parseFrontmatter(mdText) {
   const m = mdText.match(/^---\s*([\s\S]*?)\s*---/);
   if (!m) return {};
+
   const yaml = m[1];
   const out = {};
   const lines = yaml.split(/\r?\n/);
 
   for (let i = 0; i < lines.length; i += 1) {
     const line = lines[i];
+
     if (!line.trim() || line.trim().startsWith("#")) continue;
+
     const mm = line.match(/^([A-Za-z0-9_-]+)\s*:\s*(.*)$/);
     if (!mm) continue;
 
     const key = mm[1].trim();
     let val = mm[2].trim();
+
+    // Block array:
+    //
+    // project_tags:
+    //   - "Theoretical framework"
+    //
     if (!val) {
       const items = [];
       i += 1;
+
       while (i < lines.length) {
         const next = lines[i];
+
         if (!next.trim() || next.trim().startsWith("#")) {
           i += 1;
           continue;
         }
+
         const listMatch = next.match(/^\s*-\s*(.*)$/);
+
         if (!listMatch) break;
+
         const item = stripQuotes(listMatch[1].trim());
+
         if (item) items.push(item);
+
         i += 1;
       }
+
       out[key] = items;
       i -= 1;
       continue;
     }
 
+    // Explicit empty array
     if (val === "[]") {
       out[key] = [];
       continue;
     }
+
+    // Inline array
     if (val.startsWith("[") && val.endsWith("]")) {
       const inner = val.slice(1, -1).trim();
-      out[key] = inner ? inner.split(",").map((part) => stripQuotes(part.trim())).filter(Boolean) : [];
+
+      out[key] = inner
+        ? inner
+            .split(",")
+            .map((part) => stripQuotes(part.trim()))
+            .filter(Boolean)
+        : [];
+
       continue;
     }
+
     const isBareNumber = /^[0-9]+$/.test(val);
+
     if (!isBareNumber) {
       val = stripQuotes(val);
     }
+
     out[key] = val;
   }
 
@@ -88,32 +122,57 @@ function parseFrontmatter(mdText) {
 function letterFromPath(absPath) {
   const parts = absPath.split(path.sep);
   const idx = parts.lastIndexOf("docs");
-  return idx >= 0 && parts[idx + 1] ? parts[idx + 1] : "";
+
+  return idx >= 0 && parts[idx + 1]
+    ? parts[idx + 1]
+    : "";
 }
 
 function toSlug(filename) {
   return filename.replace(/\.md$/i, "");
 }
 
-function buildDisplayTitle({ authors, year, title, journal, slug }) {
+function buildDisplayTitle({
+  authors,
+  year,
+  title,
+  journal,
+  slug,
+}) {
   // Authors (Year). Title — Journal
   const a = authors || "";
   const y = year || "";
   const t = title || slug;
   const j = journal || "";
+
   let s = "";
+
   if (a) s += a;
-  if (y) s += (a ? " " : "") + `(${y})`;
-  if (t) s += (a || y ? ". " : "") + t;
-  if (j) s += ` — ${j}`;
+
+  if (y) {
+    s += (a ? " " : "") + `(${y})`;
+  }
+
+  if (t) {
+    s += (a || y ? ". " : "") + t;
+  }
+
+  if (j) {
+    s += ` — ${j}`;
+  }
+
   return s || slug;
 }
 
 function parseGeneratedAtToMs(raw) {
   if (!raw || typeof raw !== "string") return null;
 
-  // Expected format from newnote.sh: "27 May 2026, 09:45"
-  const m = raw.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4}),\s+(\d{2}):(\d{2})$/);
+  // Expected format from newnote.sh:
+  // "27 May 2026, 09:45"
+  const m = raw.match(
+    /^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4}),\s+(\d{2}):(\d{2})$/
+  );
+
   if (!m) {
     const parsed = Date.parse(raw);
     return Number.isNaN(parsed) ? null : parsed;
@@ -142,14 +201,28 @@ function parseGeneratedAtToMs(raw) {
   };
 
   const month = monthMap[mon];
+
   if (month === undefined) return null;
-  return new Date(year, month, day, hour, minute, 0, 0).getTime();
+
+  return new Date(
+    year,
+    month,
+    day,
+    hour,
+    minute,
+    0,
+    0
+  ).getTime();
 }
 
 async function main() {
   try {
     const all = await walk(DOCS_DIR);
-    const mdFiles = all.filter((p) => p.toLowerCase().endsWith(".md"));
+
+    const mdFiles = all.filter((p) =>
+      p.toLowerCase().endsWith(".md")
+    );
+
     const entries = [];
 
     for (const abs of mdFiles) {
@@ -158,6 +231,7 @@ async function main() {
       const slug = toSlug(filename);
 
       let fm = {};
+
       try {
         const raw = await fs.readFile(abs, "utf8");
         fm = parseFrontmatter(raw);
@@ -168,37 +242,118 @@ async function main() {
       const authors = fm.authors || "";
       const year = fm.year || "";
       const title = fm.title || "";
-      const journal = fm.journal || fm.booktitle || "";
+      const journal =
+        fm.journal ||
+        fm.booktitle ||
+        "";
+
       const doi = fm.doi || "";
       const url = fm.url || "";
-      const citation_key = fm.citation_key || slug;
-      // Prefer explicit category; otherwise derive from strand metadata so tags always show
-      const category = fm.category || fm.model_strand_label || fm.model_strand || "";
-      const model_strand = fm.model_strand || "";
-      const model_strand_label = fm.model_strand_label || "";
-      const model_subcluster = fm.model_subcluster || "";
-      const source_type = fm.source_type || "";
-      const project_tags = Array.isArray(fm.project_tags) ? fm.project_tags : [];
-      const literature_clusters = Array.isArray(fm.literature_clusters) ? fm.literature_clusters : [];
-      const noteDate = fm.generated_at || fm.last_updated || "";
-      const noteDateMs = parseGeneratedAtToMs(noteDate);
+      const citation_key =
+        fm.citation_key ||
+        slug;
 
-      // file metadata (for "recently added")
-      const stat = await fs.stat(abs).catch(() => null);
-      const mtimeMs = stat?.mtimeMs ?? Date.now();
+      /*
+       * Theoretical-framework taxonomy
+       *
+       * Replaces the old:
+       *   model_strand
+       *   model_strand_label
+       *   model_subcluster
+       *
+       * New reading notes use:
+       *
+       *   theoretical_framework_area_id
+       *   theoretical_framework_area
+       *   literature_cluster_id
+       *   literature_cluster
+       *   zotero_filing_path
+       */
 
-      const displayTitle = buildDisplayTitle({
-        authors,
-        year,
-        title,
-        journal,
-        slug,
-      });
+      const theoretical_framework_area_id =
+        fm.theoretical_framework_area_id || "";
+
+      const theoretical_framework_area =
+        fm.theoretical_framework_area || "";
+
+      const literature_cluster_id =
+        fm.literature_cluster_id || "";
+
+      const literature_cluster =
+        fm.literature_cluster || "";
+
+      const zotero_filing_path =
+        fm.zotero_filing_path || "";
+
+      const frameworkAreaDisplay =
+        theoretical_framework_area_id && theoretical_framework_area
+          ? `${theoretical_framework_area_id}. ${theoretical_framework_area}`
+          : "";
+
+      const literatureClusterDisplay =
+        literature_cluster_id && literature_cluster
+          ? `${literature_cluster_id}) ${literature_cluster}`
+          : "";
+
+      const category =
+        frameworkAreaDisplay ||
+        fm.category ||
+        theoretical_framework_area ||
+        theoretical_framework_area_id ||
+        "";
+
+      const source_type =
+        fm.source_type || "";
+
+      /*
+       * Project tags remain generic arrays.
+       *
+       * Under the new North Star these will normally contain:
+       *
+       *   Theoretical framework
+       */
+      const project_tags =
+        Array.isArray(fm.project_tags)
+          ? fm.project_tags
+          : [];
+
+      const literature_clusters =
+        literatureClusterDisplay
+          ? [literatureClusterDisplay]
+          : Array.isArray(fm.literature_clusters)
+          ? fm.literature_clusters
+          : [];
+
+      const noteDate =
+        fm.generated_at ||
+        fm.last_updated ||
+        "";
+
+      const noteDateMs =
+        parseGeneratedAtToMs(noteDate);
+
+      // File metadata for "recently added"
+      const stat =
+        await fs.stat(abs).catch(() => null);
+
+      const mtimeMs =
+        stat?.mtimeMs ??
+        Date.now();
+
+      const displayTitle =
+        buildDisplayTitle({
+          authors,
+          year,
+          title,
+          journal,
+          slug,
+        });
 
       entries.push({
         letter: relLetter,
         slug,
         path: `/docs/${relLetter}/${slug}.md`,
+
         title,
         authors,
         year,
@@ -207,50 +362,95 @@ async function main() {
         url,
         citation_key,
         displayTitle,
-        model_strand,
-        model_strand_label,
-        model_subcluster,
+
+        theoretical_framework_area_id,
+        theoretical_framework_area,
+
+        literature_cluster_id,
+        literature_cluster,
+
+        zotero_filing_path,
+
         source_type,
         project_tags,
+
+        // Retained for backwards compatibility
         literature_clusters,
+
         noteDate,
-        noteDateMs: noteDateMs ?? mtimeMs,
+
+        noteDateMs:
+          noteDateMs ??
+          mtimeMs,
+
         mtimeMs,
-        category, // 👈 NEW
+
+        category,
       });
     }
 
-    // Sort: author asc, then year desc, then title asc
+    // Sort:
+    // author ascending,
+    // then year descending,
+    // then title ascending
     entries.sort((a, b) => {
-      const an = (a.authors || "").toLowerCase();
-      const bn = (b.authors || "").toLowerCase();
-      if (an !== bn) return an < bn ? -1 : 1;
-      // numeric desc on year if possible
-      const ay = parseInt(a.year, 10);
-      const by = parseInt(b.year, 10);
-      if (!Number.isNaN(ay) || !Number.isNaN(by)) {
+      const an =
+        (a.authors || "").toLowerCase();
+
+      const bn =
+        (b.authors || "").toLowerCase();
+
+      if (an !== bn) {
+        return an < bn ? -1 : 1;
+      }
+
+      const ay =
+        parseInt(a.year, 10);
+
+      const by =
+        parseInt(b.year, 10);
+
+      if (
+        !Number.isNaN(ay) ||
+        !Number.isNaN(by)
+      ) {
         return (by || 0) - (ay || 0);
       }
-      // fallback title asc
-      return (a.title || "").localeCompare(b.title || "");
+
+      return (a.title || "").localeCompare(
+        b.title || ""
+      );
     });
 
     // Group A–Z
-    const grouped = entries.reduce((acc, e) => {
-      (acc[e.letter] ||= []).push(e);
-      return acc;
-    }, {});
+    const grouped =
+      entries.reduce((acc, e) => {
+        (acc[e.letter] ||= []).push(e);
+        return acc;
+      }, {});
 
     const out = {
-      updatedAt: new Date().toISOString(),
+      updatedAt:
+        new Date().toISOString(),
+
       entries,
       grouped,
     };
 
-    await fs.writeFile(OUT_FILE, JSON.stringify(out, null, 2));
-    console.log(`Wrote ${OUT_FILE} with ${entries.length} entries.`);
+    await fs.writeFile(
+      OUT_FILE,
+      JSON.stringify(out, null, 2)
+    );
+
+    console.log(
+      `Wrote ${OUT_FILE} with ${entries.length} entries.`
+    );
   } catch (err) {
-    console.error("Failed to build docs index:", err);
+    console.error(
+      "Failed to build docs index:",
+      err
+    );
+
     process.exit(1);
   }
 }

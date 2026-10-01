@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T11:15:25.186Z",
+  "updatedAt": "2026-10-01T06:50:56.330Z",
   "entries": [
     {
       "letter": "A",
@@ -13,16 +13,22 @@
       "url": "",
       "citation_key": "Archer1981ViewNatureDesign",
       "displayTitle": "Archer, L. Bruce (1981). A View of the Nature of Design Research",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.1 Archer and the formation of design research",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397347.7544,
-      "category": "Historicising contested design knowledge"
+      "mtimeMs": 1790836238551.9612,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "A",
@@ -36,16 +42,22 @@
       "url": "",
       "citation_key": "ArcherWhateverBecameDesign",
       "displayTitle": "Archer, L. Bruce (1979). Whatever Became of Design Methodology? — Design Studies",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.1 Archer and the formation of design research",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397348.6848,
-      "category": "Historicising contested design knowledge"
+      "mtimeMs": 1790836238551.9705,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "A",
@@ -59,9 +71,11 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L. Bruce (1978). Time for a Revolution in Art and Design Education",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.1 Archer and the formation of design research",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
@@ -82,9 +96,11 @@
       "url": "",
       "citation_key": "Electrohome",
       "displayTitle": "Archer, L. Bruce (1973). Electrohome Lectures",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.1 Archer and the formation of design research",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
@@ -105,16 +121,22 @@
       "url": "",
       "citation_key": "Archer1963SystematicMethodDesigners",
       "displayTitle": "Archer, L. Bruce (1963–64). Systematic Method for Designers",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.1 Archer and the formation of design research",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1773847397343.5315,
-      "category": "S1: Historicising contested design knowledge"
+      "mtimeMs": 1790837456123.865,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "B",
@@ -128,16 +150,18 @@
       "url": "",
       "citation_key": "Baynes1978DesignGeneralEducation",
       "displayTitle": "Archer, L. Bruce; Baynes, Ken; Langdon, Richard (1978). Design in General Education — Royal College of Art",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.3 DDR as institutional site of design research",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Primary historical source",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397349.1956,
-      "category": "Historicising contested design knowledge"
+      "category": ""
     },
     {
       "letter": "A",
@@ -151,16 +175,22 @@
       "url": "",
       "citation_key": "ArnoldExplainableSearchDiscovery",
       "displayTitle": "Arnold, Taylor and Tilton, Lauren (). Explainable Search and Discovery",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "27 May 2026, 09:24",
       "noteDateMs": 1779870240000,
-      "mtimeMs": 1789402114442.441,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456125.1506,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "A",
@@ -174,9 +204,11 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
       "citation_key": "Arzomand2026HARFHumanAI",
       "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering — Digital Applications in Archaeology and Cultural Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin"
@@ -205,9 +237,11 @@
       "url": "",
       "citation_key": "asaiSynthesizingScientificLiterature2026",
       "displayTitle": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh (2026). Synthesizing scientific literature with retrieval-augmented language models — Nature",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
@@ -234,9 +268,11 @@
       "url": "https://link.springer.com/10.1007/s00766-026-00457-w",
       "citation_key": "Axetorn2026AddressingTrustRequirements",
       "displayTitle": "Axetorn, Jonatan and Edholm, Felix and Dobslaw, Felix and Gren, Lucas (2026). Addressing trust requirements in the design of an open-source multiagent LLM-based domain-specific chatbot — Requirements Engineering",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
@@ -265,9 +301,11 @@
       "url": "",
       "citation_key": "Bearman1992DocumentingDocumentation",
       "displayTitle": "Bearman, David A. (1992). Documenting Documentation — Archivaria",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -276,7 +314,7 @@
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1789557280258.543,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "B",
@@ -290,18 +328,23 @@
       "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
       "citation_key": "Bender2021DangersStochasticParrots",
       "displayTitle": "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? — Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "4",
+      "theoretical_framework_area": "Feminist + situated knowledge",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Feminist + situated knowledge / Contemporary bridge literature",
       "source_type": "Supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789557280262.0635,
-      "category": "Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790836238568.4514,
+      "category": "4. Feminist + situated knowledge"
     },
     {
       "letter": "B",
@@ -315,23 +358,24 @@
       "url": "https://dl.acm.org/doi/10.1145/3637211",
       "citation_key": "Bernard2025SystematicReviewFairness",
       "displayTitle": "Bernard, Nolwenn and Balog, Krisztian (2025). A systematic review of fairness, accountability, transparency, and ethics in information retrieval — ACM Computing Surveys",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "05 Archival partiality, silence and absence",
-        "07 Interface authority, ranking and retrieval bias",
-        "11 Uncertainty and provenance display in interfaces"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789553676544.1467,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456128.0864,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "B",
@@ -345,9 +389,11 @@
       "url": "https://dipp.math.bas.bg/dipp/article/view/dipp.2025.15.20",
       "citation_key": "Boruvkova2025EthicalAspectsDigital",
       "displayTitle": "Borůvková, Barbora (2025). Ethical aspects of digital reconstruction of the historical cultural heritage — Digital Presentation and Preservation of Cultural and Scientific Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
@@ -376,16 +422,22 @@
       "url": "",
       "citation_key": "Bowker1999SortingThingsOut",
       "displayTitle": "Bowker, Geoffrey C.; Star, Susan Leigh (1999). Sorting Things Out: Classification and Its Consequences — MIT Press",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397350.0703,
-      "category": "Bridge text"
+      "mtimeMs": 1790836238553.3813,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "B",
@@ -399,16 +451,22 @@
       "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
       "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
       "displayTitle": "Boyd Davis, Stephen (2024). Design as an Interesting Phenomenon: George Mallen and the Royal College of Art — Creative Simulations",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Contemporary bridge literature",
       "source_type": "Context / supporting",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397352.1682,
-      "category": "Recording, organising, and obscuring traces"
+      "mtimeMs": 1790836238557.4966,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "B",
@@ -422,16 +480,22 @@
       "url": "https://doi.org/10.1016/j.destud.2017.11.005",
       "citation_key": "BoydDavis2017DialogueRealworldOperational",
       "displayTitle": "Boyd Davis, Stephen; Gristwood, Simone (2017). A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis — Design Studies",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Contemporary bridge literature",
       "source_type": "Context / supporting",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397350.6934,
-      "category": "Recording, organising, and obscuring traces"
+      "mtimeMs": 1790836238557.5127,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "B",
@@ -445,9 +509,11 @@
       "url": "https://doi.org/10.1080/03080188.2021.1872874",
       "citation_key": "BoydDavis2021CanBelieveWhat",
       "displayTitle": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian (2021). Can I Believe What I See? Data Visualization and Trust in the Humanities — Interdisciplinary Science Reviews",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -456,7 +522,7 @@
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1789557280263.074,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "B",
@@ -470,16 +536,18 @@
       "url": "",
       "citation_key": "Brothman2001PastArchivesKeep",
       "displayTitle": "Brothman, Brien (2001). The Past That Archives Keep: Memory, History, and the Preservation of Archival Records — Archivaria",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898677.3147,
-      "category": "Recording, organising, and obscuring traces"
+      "category": ""
     },
     {
       "letter": "B",
@@ -493,16 +561,18 @@
       "url": "http://www.jstor.org/stable/1511480",
       "citation_key": "Buckley1986MadePatriarchy",
       "displayTitle": "Buckley, Cheryl (1986). Made in Patriarchy: Toward a Feminist Analysis of Women and Design — Design Issues",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.2 Critiques of design methods",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397352.5308,
-      "category": "Historicising contested design knowledge"
+      "category": ""
     },
     {
       "letter": "C",
@@ -516,9 +586,11 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804925010548",
       "citation_key": "Carl2026EnhancingCliniciansTrust",
       "displayTitle": "Carl, Nicolas and Hetz, Martin Joachim and Wies, Christoph and Haggenmüller, Sarah and Winterstein, Jana Theres and Mangold, Maurin Helen and Maywald, Lasse and Worst, Thomas Stefan and Westhoff, Niklas and Michel, Maurice Stephan and Wessels, Frederik and Brinker, Titus Josef (2026). Enhancing clinicians’ trust in large language models via transparent source attribution: A randomized controlled evaluation in uro-oncology — European Journal of Cancer",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin"
@@ -543,18 +615,23 @@
       "url": "",
       "citation_key": "CarterThingsSaidUnsaid",
       "displayTitle": "Carter, Rodney G. S. (2006). Of Things Said and Unsaid: Power, Archival Silences, and Power in Silence — Archivaria",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.1 Classification as ethics and politics",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "28 May 2026, 11:42",
       "noteDateMs": 1779964920000,
-      "mtimeMs": 1789557280264.243,
-      "category": "S2: Recording, organising, and obscuring traces"
+      "mtimeMs": 1790837456130.4915,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "C",
@@ -568,16 +645,22 @@
       "url": "",
       "citation_key": "Caswell2017CriticalArchivalStudies",
       "displayTitle": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay (2017). Critical Archival Studies: An Introduction — Journal of Critical Library and Information Studies",
-      "model_strand": "S2",
-      "model_strand_label": "Critiques of archival studies",
-      "model_subcluster": "S2.2 Critiques of archival studies",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "23 Mar 2026, 09:00",
       "noteDateMs": 1774256400000,
-      "mtimeMs": 1774255524415.5854,
-      "category": "Critiques of archival studies"
+      "mtimeMs": 1790837456131.1355,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "C",
@@ -591,9 +674,11 @@
       "url": "https://journals.sagepub.com/doi/10.1177/14738716261434908",
       "citation_key": "Chen2026DemystifyingUMAPArtifacts",
       "displayTitle": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver (2026). Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes — Information Visualization",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [],
       "literature_clusters": [],
@@ -614,9 +699,11 @@
       "url": "https://www.mdpi.com/1995-8692/19/4/89",
       "citation_key": "Cho2026HowSourceAttribution",
       "displayTitle": "Cho, Junho and Lim, Dokshin (2026). How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts — Journal of Eye Movement Research",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
@@ -643,16 +730,22 @@
       "url": "https://journals.litwinbooks.com/index.php/jclis/article/view/27",
       "citation_key": "Cifor2017CriticalFeminismArchives",
       "displayTitle": "Cifor, Marika and Wood, Stacy (2017). Critical Feminism in the Archives — Journal of Critical Library and Information Studies",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.1 Classification as ethics and politics",
+      "theoretical_framework_area_id": "4",
+      "theoretical_framework_area": "Feminist + situated knowledge",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Feminist + situated knowledge / Canon + intellectual lineage",
       "source_type": "Bridge text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "28 May 2026, 11:21",
       "noteDateMs": 1779963660000,
-      "mtimeMs": 1789397423947.901,
-      "category": "S2: Recording, organising, and obscuring traces"
+      "mtimeMs": 1790837456132.5046,
+      "category": "4. Feminist + situated knowledge"
     },
     {
       "letter": "C",
@@ -666,9 +759,11 @@
       "url": "",
       "citation_key": "CilettiRetrievalAugmentedGenerationSystems",
       "displayTitle": "Ciletti, Michele (). Retrieval-Augmented Generation Systems",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
@@ -689,18 +784,23 @@
       "url": "https://doi.org/10.1145/3479010",
       "citation_key": "Colavizza2022ArchivesAIOverview",
       "displayTitle": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia (2022). Archives and AI: An Overview of Current Debates and Future Perspectives — Journal on Computing and Cultural Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1789557280265.6382,
-      "category": "Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790836238572.3179,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "C",
@@ -714,16 +814,18 @@
       "url": "",
       "citation_key": "Cook1997WhatIsPastPrologue",
       "displayTitle": "Cook, Terry (1997). What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift — Archivaria",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898678.443,
-      "category": "Recording, organising, and obscuring traces"
+      "category": ""
     },
     {
       "letter": "C",
@@ -737,16 +839,22 @@
       "url": "",
       "citation_key": "Cross1982DesignerlyWaysKnowing",
       "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.2 Critiques of design methods",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
-      "mtimeMs": 1773847397353.3374,
-      "category": "S1: Historicising contested design knowledge"
+      "mtimeMs": 1790837456133.8425,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "D",
@@ -760,16 +868,18 @@
       "url": "https://doi.org/10.1145/3429458",
       "citation_key": "Davis2021LinkedDataCulturalHeritage",
       "displayTitle": "Davis, Edie; Heravi, Bahareh (2021). Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation — Journal on Computing and Cultural Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898679.397,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "D",
@@ -783,9 +893,11 @@
       "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00687/124262/Do-Multi-Document-Summarization-Models-Synthesize",
       "citation_key": "DeYoung2024MultiDocumentSummarizationModels",
       "displayTitle": "DeYoung, Jay and Martinez, Stephanie C. and Marshall, Iain J. and Wallace, Byron C. (2024). Do multi-document summarization models synthesize? — Transactions of the Association for Computational Linguistics",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
@@ -814,18 +926,23 @@
       "url": "",
       "citation_key": "Drucker2011HumanitiesApproachesGraphical",
       "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "17 Mar 2026, 05:52",
       "noteDateMs": 1773726720000,
-      "mtimeMs": 1789557280266.7302,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456134.5996,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "D",
@@ -839,9 +956,11 @@
       "url": "",
       "citation_key": "Duranti1992OriginConceptArchivalDescription",
       "displayTitle": "Duranti, Luciana (1992). Origin and Development of the Concept of Archival Description — Archivaria",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -850,7 +969,7 @@
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1789557280267.1943,
-      "category": "Recording, organising, and obscuring traces"
+      "category": ""
     },
     {
       "letter": "F",
@@ -864,16 +983,18 @@
       "url": "",
       "citation_key": "Foka2024AICulturalHeritageBias",
       "displayTitle": "Foka, Anna; Griffin, Gabriele (2024). AI, Cultural Heritage, and Bias: Some Key Queries That Arise from the Use of GenAI — Heritage",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Supporting",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397354.1714,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "F",
@@ -887,9 +1008,11 @@
       "url": "",
       "citation_key": "Frayling1993ResearchArtDesign",
       "displayTitle": "Frayling, Christopher (1993). Research in Art and Design — Royal College of Art",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [],
       "literature_clusters": [],
@@ -910,9 +1033,11 @@
       "url": "https://www.mdpi.com/2079-9292/13/18/3741",
       "citation_key": "Gagliardi2024ExploringVisualizingMultilingual",
       "displayTitle": "Gagliardi, Isabella and Artese, Maria Teresa (2024). Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers — Electronics",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [],
       "literature_clusters": [],
@@ -933,9 +1058,11 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1296207426001767",
       "citation_key": "Galindo-Duran2026MethodologicalProtocolGeneration",
       "displayTitle": "Galindo-Durán, Alejandro and Prego de Oliver-López, Cristina and Bernal-Bravo, César (2026). A methodological protocol for the generation and evaluation of AI-generated cultural heritage content — Journal of Cultural Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [
         "Turin",
@@ -964,16 +1091,18 @@
       "url": "",
       "citation_key": "Gilliland2016RecordsImaginaries",
       "displayTitle": "Gilliland, Anne J.; Caswell, Michelle (2016). Records and Their Imaginaries: Imagining the Impossible, Making Possible the Imagined — Archival Science",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397354.8093,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "G",
@@ -987,16 +1116,18 @@
       "url": "https://doi.org/10.2307/2078095",
       "citation_key": "Grigg1991ArchivalPracticeFoundations",
       "displayTitle": "Grigg, Susan (1991). Archival Practice and the Foundations of Historical Method — The Journal of American History",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898680.7393,
-      "category": "Recording, organising, and obscuring traces"
+      "category": ""
     },
     {
       "letter": "G",
@@ -1010,9 +1141,11 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
       "citation_key": "Grimes2021MentalModelsExpectation",
       "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental models and expectation violations in conversational AI interactions — Decision Support Systems",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
@@ -1029,6 +1162,35 @@
     },
     {
       "letter": "H",
+      "slug": "2026SituatedKnowledgesScience",
+      "path": "/docs/H/2026SituatedKnowledgesScience.md",
+      "title": "Situated {{Knowledges}}: {{The Science Question}} in {{Feminism}} and the {{Privilege}} of {{Partial Perspective}}",
+      "authors": "Haraway, Donna",
+      "year": "1988",
+      "journal": "Feminist Studies",
+      "doi": "10.2307/3178066.",
+      "url": "",
+      "citation_key": "2026SituatedKnowledgesScience",
+      "displayTitle": "Haraway, Donna (1988). Situated {{Knowledges}}: {{The Science Question}} in {{Feminism}} and the {{Privilege}} of {{Partial Perspective}} — Feminist Studies",
+      "theoretical_framework_area_id": "4",
+      "theoretical_framework_area": "Feminist + situated knowledge",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage",
+      "source_type": "Core text",
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
+      "noteDate": "01 Oct 2026, 07:42",
+      "noteDateMs": 1790836920000,
+      "mtimeMs": 1790837456136.3762,
+      "category": "4. Feminist + situated knowledge"
+    },
+    {
+      "letter": "H",
       "slug": "Hedges2022IntroductionComputationalArchivalScience",
       "path": "/docs/H/Hedges2022IntroductionComputationalArchivalScience.md",
       "title": "Introduction to the Special Issue on Computational Archival Science",
@@ -1039,16 +1201,18 @@
       "url": "https://doi.org/10.1145/3495004",
       "citation_key": "Hedges2022IntroductionComputationalArchivalScience",
       "displayTitle": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini (2022). Introduction to the Special Issue on Computational Archival Science — Journal on Computing and Cultural Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898681.1377,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "I",
@@ -1062,9 +1226,11 @@
       "url": "https://www.nature.com/articles/s41562-026-02553-x",
       "citation_key": "Isch2026QuantifyingPrevalenceImpact",
       "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the prevalence and impact of overreaching causal claims in social science — Nature Human Behaviour",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
@@ -1093,25 +1259,24 @@
       "url": "https://link.springer.com/10.1007/s00146-025-02222-z",
       "citation_key": "jaillantHowCanWe2025",
       "displayTitle": "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel (2025). How can We improve the diversity of archival collections with AI? Opportunities, risks, and solutions — AI & SOCIETY",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "05 Archival partiality, silence and absence",
-        "07 Interface authority, ranking and retrieval bias",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "15 Sept 2026, 00:00",
       "noteDateMs": 1789426800000,
-      "mtimeMs": 1789557280269.739,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456138.4868,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "J",
@@ -1125,16 +1290,22 @@
       "url": "https://doi.org/10.1145/3631125",
       "citation_key": "Jaillant2024AreUsersDigital",
       "displayTitle": "Jaillant, Lise; Aske, Katherine (2024). Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities — Journal on Computing and Cultural Heritage",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Contemporary bridge literature",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397355.144,
-      "category": "Recording, organising, and obscuring traces"
+      "mtimeMs": 1790836238561.8425,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "J",
@@ -1148,16 +1319,18 @@
       "url": "",
       "citation_key": "Jonas2012ExploringSwampyGround",
       "displayTitle": "Jonas, Wolfgang (2012). Exploring the Swampy Ground — Mapping Design Research",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.2 Critiques of design methods",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397355.345,
-      "category": "Historicising contested design knowledge"
+      "category": ""
     },
     {
       "letter": "J",
@@ -1171,16 +1344,22 @@
       "url": "",
       "citation_key": "Jones1992DesignMethods",
       "displayTitle": "Jones, John Christopher (1992). Design Methods — John Wiley & Sons",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.2 Critiques of design methods",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
       "source_type": "Context / supporting",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773911898681.925,
-      "category": "Historicising contested design knowledge"
+      "mtimeMs": 1790836238561.9473,
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "K",
@@ -1194,16 +1373,22 @@
       "url": "",
       "citation_key": "Ketelaar2008ArchivesSpacesMemory",
       "displayTitle": "Ketelaar, Eric (2008). Archives as Spaces of Memory — Journal of the Society of Archivists",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Bridge text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
-      "mtimeMs": 1773911898682.6182,
-      "category": "Recording, organising, and obscuring traces"
+      "mtimeMs": 1790836238562.017,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "K",
@@ -1217,16 +1402,18 @@
       "url": "",
       "citation_key": "Kizhner2025EthnicMinoritiesCollections",
       "displayTitle": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe (2025). Ethnic Minorities in Online Museum Collections: Skews and Bias in Digital Material Culture — Digital Scholarship in the Humanities",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Supporting",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397355.917,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "J",
@@ -1240,9 +1427,11 @@
       "url": "",
       "citation_key": "JaillantNavigatingArtificialIntelligence",
       "displayTitle": "Lise Jaillant, Katherine Aske, and Annalina Caputo (2025). Navigating Artificial Intelligence for Cultural Heritage Organisations — UCL Press",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -1268,16 +1457,22 @@
       "url": "",
       "citation_key": "Marciano2022NewDisciplineComputational",
       "displayTitle": "Marciano, Richard (2022). Towards a New Discipline of Computational Archival Science (CAS) — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Bridge text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397356.6597,
-      "category": "Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790836238561.9917,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "M",
@@ -1291,16 +1486,22 @@
       "url": "",
       "citation_key": "McInnesUMAPUniformManifold",
       "displayTitle": "McInnes, Leland and Healy, John and Melville, James (2020). UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "27 May 2026, 09:45",
       "noteDateMs": 1779871500000,
-      "mtimeMs": 1789397423952.003,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456140.2126,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "M",
@@ -1314,16 +1515,18 @@
       "url": "https://doi.org/10.1007/s00146-021-01373-z",
       "citation_key": "McKenna2022NAISCLInterlinkingFramework",
       "displayTitle": "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan (2022). Using Linked Data to Create Provenance-Rich Metadata Interlinks: The Design and Evaluation of the NAISC-L Interlinking Framework for Libraries, Archives and Museums — AI & SOCIETY",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1789402114456.5828,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "L",
@@ -1337,16 +1540,18 @@
       "url": "",
       "citation_key": "Leon2026MultiliteracyModelInteractive",
       "displayTitle": "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas (2026). A Multiliteracy Model for Interactive Visualization Literacy: Definitions, Literacies, and Steps for Future Research — Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Supporting",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397356.2546,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "M",
@@ -1360,16 +1565,18 @@
       "url": "",
       "citation_key": "Mordell2019CriticalQuestionsArchivesData",
       "displayTitle": "Mordell, Devon (2019). Critical Questions for Archives As (Big) Data — Archivaria",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898683.8015,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "M",
@@ -1383,18 +1590,23 @@
       "url": "https://www.taylorfrancis.com/books/9781000385199",
       "citation_key": "Moss2021ArchivalSilencesMissing",
       "displayTitle": "Moss, Michael and Thomas, David (2021). Theorising the Silences — In Archival Silences: Missing, Lost and Uncreated Archives",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.1 Classification as ethics and politics",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "28 May 2026, 11:46",
       "noteDateMs": 1779965160000,
-      "mtimeMs": 1789557280271.4194,
-      "category": "S2: Recording, organising, and obscuring traces"
+      "mtimeMs": 1790837456141.4958,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "M",
@@ -1408,9 +1620,11 @@
       "url": "",
       "citation_key": "Moss2018ReconfigurationArchiveData",
       "displayTitle": "Moss, Michael; Thomas, David; Gollins, Tim (2018). The Reconfiguration of the Archive as Data to Be Mined — Archivaria",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [
         "Turin"
@@ -1419,7 +1633,7 @@
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1789557280271.066,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "N",
@@ -1433,16 +1647,18 @@
       "url": "",
       "citation_key": "Nesmith2015ArchivalStageHistoryKnowledge",
       "displayTitle": "Nesmith, Tom (2015). Toward the Archival Stage in the History of Knowledge — Archivaria",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1773911898684.5015,
-      "category": "Recording, organising, and obscuring traces"
+      "category": ""
     },
     {
       "letter": "N",
@@ -1456,9 +1672,11 @@
       "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
       "citation_key": "NietoMcAvoy2024SyntheticHeritageOnline",
       "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind & Media",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Bridge text",
       "project_tags": [
         "Turin",
@@ -1488,25 +1706,24 @@
       "url": "https://academic.oup.com/dsh/article/37/3/844/6401182",
       "citation_key": "Ortolja-Baird2022EncodingHauntingObject",
       "displayTitle": "Ortolja-Baird, Alexandra and Nyhan, Julianne (2022). Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive — Digital Scholarship in the Humanities",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "05 Archival partiality, silence and absence",
-        "07 Interface authority, ranking and retrieval bias",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789553676554.448,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456142.3142,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "O",
@@ -1520,16 +1737,18 @@
       "url": "https://dl.acm.org/doi/10.1145/3746658",
       "citation_key": "Ozdemir2025EnhancingCulturalHeritage",
       "displayTitle": "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim (2025). Enhancing Cultural Heritage Archive Analysis via Automated Entity Extraction and Graph-Based Representation Learning — Journal on Computing and Cultural Heritage",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Supporting",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1789402114457.7617,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "P",
@@ -1543,9 +1762,11 @@
       "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
       "citation_key": "Pan2007GoogleWeTrust",
       "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In Google we trust: users’ decisions on rank, position, and relevance — Journal of Computer-Mediated Communication",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
@@ -1572,9 +1793,11 @@
       "url": "",
       "citation_key": "PaschLLMContentModeration",
       "displayTitle": "Pasch, Stefan (2025). LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
@@ -1601,16 +1824,18 @@
       "url": "",
       "citation_key": "Hospital",
       "displayTitle": "Patterson, Gillian (1968). Hospital design: equipment and buildings — Official Architecture and Planning",
-      "model_strand": "S1",
-      "model_strand_label": "Historicising contested design knowledge",
-      "model_subcluster": "S1.3 DDR as institutional site of design research",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Primary historical source",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1773847397357.2102,
-      "category": "Historicising contested design knowledge"
+      "category": ""
     },
     {
       "letter": "P",
@@ -1624,9 +1849,11 @@
       "url": "https://doi.org/10.1057/9780230101395_2",
       "citation_key": "Portelli2009WhatMakesOralHistoryDifferent",
       "displayTitle": "Portelli, Alessandro (2009). What Makes Oral History Different — Oral History, Oral Culture, and Italian Americans",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -1635,7 +1862,7 @@
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1789557280272.4583,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "Q",
@@ -1649,9 +1876,11 @@
       "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
       "citation_key": "Qian2024TakeItLeave",
       "displayTitle": "Qian, Crystal and Wexler, James (2024). Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration — Proceedings of the 29th International Conference on Intelligent User Interfaces",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
@@ -1679,23 +1908,24 @@
       "url": "",
       "citation_key": "RadharapuArbitersAmbivalenceChallenges",
       "displayTitle": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina (2025). Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks — Findings of the Association for Computational Linguistics: ACL 2025",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789553676555.9824,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456143.5464,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "R",
@@ -1709,16 +1939,22 @@
       "url": "https://www.cambridge.org/core/product/identifier/S2977815825100158/type/journal_article",
       "citation_key": "Rockmore2025LiteraryLandscapesVector",
       "displayTitle": "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison (2025). On the Literary Landscapes of Vector Embeddings — Computational Humanities Research",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "27 May 2026, 09:09",
       "noteDateMs": 1779869340000,
-      "mtimeMs": 1789397423953.9988,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456144.0342,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "S",
@@ -1732,9 +1968,11 @@
       "url": "https://github.com/sebischair/Exploring-NLP-Research",
       "citation_key": "SchopfExploringLandscapeNatural",
       "displayTitle": "Schopf, Tim and Arabi, Karim and Matthes, Florian (2023). Exploring the Landscape of Natural Language Processing Research",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.1 Visual analytics",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Context / supporting",
       "project_tags": [],
       "literature_clusters": [],
@@ -1755,9 +1993,11 @@
       "url": "",
       "citation_key": "Schwartz2002ArchivesRecordsPower",
       "displayTitle": "Schwartz, Joan M.; Cook, Terry (2002). Archives, Records, and Power: The Making of Modern Memory — Archival Science",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -1766,7 +2006,7 @@
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1789557280273.3643,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "S",
@@ -1780,25 +2020,24 @@
       "url": "https://acnsci.org/journal/index.php/cte/article/view/1438",
       "citation_key": "Selyshcheva2026GenerativeAIHistorical",
       "displayTitle": "Selyshcheva, Iryna A. (2026). Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history — CTE Workshop Proceedings",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Bridge text",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory",
-        "02 LLM epistemic risk and persuasive fluency",
-        "05 Archival partiality, silence and absence",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
-      "mtimeMs": 1789553676556.8206,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456144.64,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "S",
@@ -1812,16 +2051,18 @@
       "url": "https://doi.org/10.1016/j.sheji.2025.06.002",
       "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
       "displayTitle": "Siddharth, L.; Luo, Jianxi (2025). Data-Driven Innovation for Trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Supporting",
       "project_tags": [],
       "literature_clusters": [],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1789402114459.758,
-      "category": "Surfacing and reactivating traces computationally"
+      "category": ""
     },
     {
       "letter": "S",
@@ -1835,9 +2076,11 @@
       "url": "",
       "citation_key": "Suchman2002LocatedAccountabilities",
       "displayTitle": "Suchman, Lucy (2002). Located Accountabilities in Technology Production — Scandinavian Journal of Information Systems",
-      "model_strand": "S2",
-      "model_strand_label": "Bridge text",
-      "model_subcluster": "S2.1 Bridge text",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin"
@@ -1846,7 +2089,7 @@
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1789557280273.82,
-      "category": "Bridge text"
+      "category": ""
     },
     {
       "letter": "T",
@@ -1860,18 +2103,23 @@
       "url": "",
       "citation_key": "Thomson2007FourParadigmTransformations",
       "displayTitle": "Thomson, Alistair (2007). Four Paradigm Transformations in Oral History — The Oral History Review",
-      "model_strand": "S2",
-      "model_strand_label": "Recording, organising, and obscuring traces",
-      "model_subcluster": "S2.2 Oral histories",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1789557280274.1035,
-      "category": "Recording, organising, and obscuring traces"
+      "mtimeMs": 1790836238583.675,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "V",
@@ -1885,16 +2133,22 @@
       "url": "https://dl.acm.org/doi/10.1145/3746252.3761503",
       "citation_key": "Vafaie2025EndtoendInformationExtraction",
       "displayTitle": "Vafaie, Mahsa; Hertling, Sven; Banse-Strobel, Inger; Dubout, Kevin; Sack, Harald (2025). End-to-end Information Extraction from Archival Records with Multimodal Large Language Models — Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Multimodal machine learning",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
-      "project_tags": [],
-      "literature_clusters": [],
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
-      "mtimeMs": 1773847397359.1682,
-      "category": "Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790836238568.4275,
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "W",
@@ -1908,9 +2162,11 @@
       "url": "",
       "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
       "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: enhancing retrieval-augmented generation with application-aware reasoning — arXiv",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
@@ -1938,9 +2194,11 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
       "citation_key": "Xu2025ConfrontingVerbalizedUncertainty",
       "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making — International Journal of Human-Computer Studies",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
@@ -1968,9 +2226,11 @@
       "url": "http://arxiv.org/abs/2405.07437",
       "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
       "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of retrieval-augmented generation: a survey",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Core text",
       "project_tags": [
         "Turin",
@@ -1999,24 +2259,24 @@
       "url": "https://academic.oup.com/dsh/article/38/2/830/6702047",
       "citation_key": "Zaagsma2023DigitalHistoryPolitics",
       "displayTitle": "Zaagsma, Gerben (2023). Digital history and the politics of digitization — Digital Scholarship in the Humanities",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.2 Scoped missingness",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Contemporary bridge literature",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "05 Archival partiality, silence and absence",
-        "07 Interface authority, ranking and retrieval bias",
-        "09 Human judgement and practice-led computational research",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
-      "mtimeMs": 1789557280274.98,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "mtimeMs": 1790837456146.5623,
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "Z",
@@ -2030,9 +2290,11 @@
       "url": "",
       "citation_key": "zhuArgRAGExplainableRetrieval2025",
       "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation — Proceedings of Machine Learning Research",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
@@ -2061,9 +2323,11 @@
       "url": "https://arxiv.org/abs/2601.14460",
       "citation_key": "Lajewska2026TrustMeThis",
       "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust Me on This: A User Study of Trustworthiness for RAG Responses — Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
-      "model_strand": "S3",
-      "model_strand_label": "Surfacing and reactivating traces computationally",
-      "model_subcluster": "S3.3 Retrieval-augmented inference",
+      "theoretical_framework_area_id": "",
+      "theoretical_framework_area": "",
+      "literature_cluster_id": "",
+      "literature_cluster": "",
+      "zotero_filing_path": "",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
@@ -2094,16 +2358,22 @@
         "url": "",
         "citation_key": "Archer1981ViewNatureDesign",
         "displayTitle": "Archer, L. Bruce (1981). A View of the Nature of Design Research",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.1 Archer and the formation of design research",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397347.7544,
-        "category": "Historicising contested design knowledge"
+        "mtimeMs": 1790836238551.9612,
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "A",
@@ -2117,16 +2387,22 @@
         "url": "",
         "citation_key": "ArcherWhateverBecameDesign",
         "displayTitle": "Archer, L. Bruce (1979). Whatever Became of Design Methodology? — Design Studies",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.1 Archer and the formation of design research",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397348.6848,
-        "category": "Historicising contested design knowledge"
+        "mtimeMs": 1790836238551.9705,
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "A",
@@ -2140,9 +2416,11 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L. Bruce (1978). Time for a Revolution in Art and Design Education",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.1 Archer and the formation of design research",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
@@ -2163,9 +2441,11 @@
         "url": "",
         "citation_key": "Electrohome",
         "displayTitle": "Archer, L. Bruce (1973). Electrohome Lectures",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.1 Archer and the formation of design research",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
@@ -2186,16 +2466,22 @@
         "url": "",
         "citation_key": "Archer1963SystematicMethodDesigners",
         "displayTitle": "Archer, L. Bruce (1963–64). Systematic Method for Designers",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.1 Archer and the formation of design research",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1773847397343.5315,
-        "category": "S1: Historicising contested design knowledge"
+        "mtimeMs": 1790837456123.865,
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "A",
@@ -2209,16 +2495,22 @@
         "url": "",
         "citation_key": "ArnoldExplainableSearchDiscovery",
         "displayTitle": "Arnold, Taylor and Tilton, Lauren (). Explainable Search and Discovery",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "27 May 2026, 09:24",
         "noteDateMs": 1779870240000,
-        "mtimeMs": 1789402114442.441,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456125.1506,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "A",
@@ -2232,9 +2524,11 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
         "citation_key": "Arzomand2026HARFHumanAI",
         "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering — Digital Applications in Archaeology and Cultural Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin"
@@ -2263,9 +2557,11 @@
         "url": "",
         "citation_key": "asaiSynthesizingScientificLiterature2026",
         "displayTitle": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh (2026). Synthesizing scientific literature with retrieval-augmented language models — Nature",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
@@ -2292,9 +2588,11 @@
         "url": "https://link.springer.com/10.1007/s00766-026-00457-w",
         "citation_key": "Axetorn2026AddressingTrustRequirements",
         "displayTitle": "Axetorn, Jonatan and Edholm, Felix and Dobslaw, Felix and Gren, Lucas (2026). Addressing trust requirements in the design of an open-source multiagent LLM-based domain-specific chatbot — Requirements Engineering",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
@@ -2325,16 +2623,18 @@
         "url": "",
         "citation_key": "Baynes1978DesignGeneralEducation",
         "displayTitle": "Archer, L. Bruce; Baynes, Ken; Langdon, Richard (1978). Design in General Education — Royal College of Art",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.3 DDR as institutional site of design research",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Primary historical source",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397349.1956,
-        "category": "Historicising contested design knowledge"
+        "category": ""
       },
       {
         "letter": "B",
@@ -2348,9 +2648,11 @@
         "url": "",
         "citation_key": "Bearman1992DocumentingDocumentation",
         "displayTitle": "Bearman, David A. (1992). Documenting Documentation — Archivaria",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -2359,7 +2661,7 @@
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1789557280258.543,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "B",
@@ -2373,18 +2675,23 @@
         "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
         "citation_key": "Bender2021DangersStochasticParrots",
         "displayTitle": "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? — Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "4",
+        "theoretical_framework_area": "Feminist + situated knowledge",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Feminist + situated knowledge / Contemporary bridge literature",
         "source_type": "Supporting",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789557280262.0635,
-        "category": "Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790836238568.4514,
+        "category": "4. Feminist + situated knowledge"
       },
       {
         "letter": "B",
@@ -2398,23 +2705,24 @@
         "url": "https://dl.acm.org/doi/10.1145/3637211",
         "citation_key": "Bernard2025SystematicReviewFairness",
         "displayTitle": "Bernard, Nolwenn and Balog, Krisztian (2025). A systematic review of fairness, accountability, transparency, and ethics in information retrieval — ACM Computing Surveys",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "05 Archival partiality, silence and absence",
-          "07 Interface authority, ranking and retrieval bias",
-          "11 Uncertainty and provenance display in interfaces"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789553676544.1467,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456128.0864,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "B",
@@ -2428,9 +2736,11 @@
         "url": "https://dipp.math.bas.bg/dipp/article/view/dipp.2025.15.20",
         "citation_key": "Boruvkova2025EthicalAspectsDigital",
         "displayTitle": "Borůvková, Barbora (2025). Ethical aspects of digital reconstruction of the historical cultural heritage — Digital Presentation and Preservation of Cultural and Scientific Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
@@ -2459,16 +2769,22 @@
         "url": "",
         "citation_key": "Bowker1999SortingThingsOut",
         "displayTitle": "Bowker, Geoffrey C.; Star, Susan Leigh (1999). Sorting Things Out: Classification and Its Consequences — MIT Press",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397350.0703,
-        "category": "Bridge text"
+        "mtimeMs": 1790836238553.3813,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "B",
@@ -2482,16 +2798,22 @@
         "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
         "citation_key": "BoydDavis2024DesignInterestingPhenomenon",
         "displayTitle": "Boyd Davis, Stephen (2024). Design as an Interesting Phenomenon: George Mallen and the Royal College of Art — Creative Simulations",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Contemporary bridge literature",
         "source_type": "Context / supporting",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397352.1682,
-        "category": "Recording, organising, and obscuring traces"
+        "mtimeMs": 1790836238557.4966,
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "B",
@@ -2505,16 +2827,22 @@
         "url": "https://doi.org/10.1016/j.destud.2017.11.005",
         "citation_key": "BoydDavis2017DialogueRealworldOperational",
         "displayTitle": "Boyd Davis, Stephen; Gristwood, Simone (2017). A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis — Design Studies",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Contemporary bridge literature",
         "source_type": "Context / supporting",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397350.6934,
-        "category": "Recording, organising, and obscuring traces"
+        "mtimeMs": 1790836238557.5127,
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "B",
@@ -2528,9 +2856,11 @@
         "url": "https://doi.org/10.1080/03080188.2021.1872874",
         "citation_key": "BoydDavis2021CanBelieveWhat",
         "displayTitle": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian (2021). Can I Believe What I See? Data Visualization and Trust in the Humanities — Interdisciplinary Science Reviews",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -2539,7 +2869,7 @@
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1789557280263.074,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "B",
@@ -2553,16 +2883,18 @@
         "url": "",
         "citation_key": "Brothman2001PastArchivesKeep",
         "displayTitle": "Brothman, Brien (2001). The Past That Archives Keep: Memory, History, and the Preservation of Archival Records — Archivaria",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898677.3147,
-        "category": "Recording, organising, and obscuring traces"
+        "category": ""
       },
       {
         "letter": "B",
@@ -2576,16 +2908,18 @@
         "url": "http://www.jstor.org/stable/1511480",
         "citation_key": "Buckley1986MadePatriarchy",
         "displayTitle": "Buckley, Cheryl (1986). Made in Patriarchy: Toward a Feminist Analysis of Women and Design — Design Issues",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.2 Critiques of design methods",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397352.5308,
-        "category": "Historicising contested design knowledge"
+        "category": ""
       }
     ],
     "C": [
@@ -2601,9 +2935,11 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804925010548",
         "citation_key": "Carl2026EnhancingCliniciansTrust",
         "displayTitle": "Carl, Nicolas and Hetz, Martin Joachim and Wies, Christoph and Haggenmüller, Sarah and Winterstein, Jana Theres and Mangold, Maurin Helen and Maywald, Lasse and Worst, Thomas Stefan and Westhoff, Niklas and Michel, Maurice Stephan and Wessels, Frederik and Brinker, Titus Josef (2026). Enhancing clinicians’ trust in large language models via transparent source attribution: A randomized controlled evaluation in uro-oncology — European Journal of Cancer",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin"
@@ -2628,18 +2964,23 @@
         "url": "",
         "citation_key": "CarterThingsSaidUnsaid",
         "displayTitle": "Carter, Rodney G. S. (2006). Of Things Said and Unsaid: Power, Archival Silences, and Power in Silence — Archivaria",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.1 Classification as ethics and politics",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "28 May 2026, 11:42",
         "noteDateMs": 1779964920000,
-        "mtimeMs": 1789557280264.243,
-        "category": "S2: Recording, organising, and obscuring traces"
+        "mtimeMs": 1790837456130.4915,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "C",
@@ -2653,16 +2994,22 @@
         "url": "",
         "citation_key": "Caswell2017CriticalArchivalStudies",
         "displayTitle": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T.-Kay (2017). Critical Archival Studies: An Introduction — Journal of Critical Library and Information Studies",
-        "model_strand": "S2",
-        "model_strand_label": "Critiques of archival studies",
-        "model_subcluster": "S2.2 Critiques of archival studies",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "23 Mar 2026, 09:00",
         "noteDateMs": 1774256400000,
-        "mtimeMs": 1774255524415.5854,
-        "category": "Critiques of archival studies"
+        "mtimeMs": 1790837456131.1355,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "C",
@@ -2676,9 +3023,11 @@
         "url": "https://journals.sagepub.com/doi/10.1177/14738716261434908",
         "citation_key": "Chen2026DemystifyingUMAPArtifacts",
         "displayTitle": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver (2026). Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering Using 3D Probes — Information Visualization",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [],
         "literature_clusters": [],
@@ -2699,9 +3048,11 @@
         "url": "https://www.mdpi.com/1995-8692/19/4/89",
         "citation_key": "Cho2026HowSourceAttribution",
         "displayTitle": "Cho, Junho and Lim, Dokshin (2026). How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts — Journal of Eye Movement Research",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
@@ -2728,16 +3079,22 @@
         "url": "https://journals.litwinbooks.com/index.php/jclis/article/view/27",
         "citation_key": "Cifor2017CriticalFeminismArchives",
         "displayTitle": "Cifor, Marika and Wood, Stacy (2017). Critical Feminism in the Archives — Journal of Critical Library and Information Studies",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.1 Classification as ethics and politics",
+        "theoretical_framework_area_id": "4",
+        "theoretical_framework_area": "Feminist + situated knowledge",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Feminist + situated knowledge / Canon + intellectual lineage",
         "source_type": "Bridge text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "28 May 2026, 11:21",
         "noteDateMs": 1779963660000,
-        "mtimeMs": 1789397423947.901,
-        "category": "S2: Recording, organising, and obscuring traces"
+        "mtimeMs": 1790837456132.5046,
+        "category": "4. Feminist + situated knowledge"
       },
       {
         "letter": "C",
@@ -2751,9 +3108,11 @@
         "url": "",
         "citation_key": "CilettiRetrievalAugmentedGenerationSystems",
         "displayTitle": "Ciletti, Michele (). Retrieval-Augmented Generation Systems",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
@@ -2774,18 +3133,23 @@
         "url": "https://doi.org/10.1145/3479010",
         "citation_key": "Colavizza2022ArchivesAIOverview",
         "displayTitle": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia (2022). Archives and AI: An Overview of Current Debates and Future Perspectives — Journal on Computing and Cultural Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1789557280265.6382,
-        "category": "Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790836238572.3179,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "C",
@@ -2799,16 +3163,18 @@
         "url": "",
         "citation_key": "Cook1997WhatIsPastPrologue",
         "displayTitle": "Cook, Terry (1997). What Is Past Is Prologue: A History of Archival Ideas Since 1898, and the Future Paradigm Shift — Archivaria",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898678.443,
-        "category": "Recording, organising, and obscuring traces"
+        "category": ""
       },
       {
         "letter": "C",
@@ -2822,16 +3188,22 @@
         "url": "",
         "citation_key": "Cross1982DesignerlyWaysKnowing",
         "displayTitle": "Cross, Nigel (1982). Designerly Ways of Knowing — Design Studies",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.2 Critiques of design methods",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
-        "mtimeMs": 1773847397353.3374,
-        "category": "S1: Historicising contested design knowledge"
+        "mtimeMs": 1790837456133.8425,
+        "category": "1. Critical design historiography"
       }
     ],
     "D": [
@@ -2847,16 +3219,18 @@
         "url": "https://doi.org/10.1145/3429458",
         "citation_key": "Davis2021LinkedDataCulturalHeritage",
         "displayTitle": "Davis, Edie; Heravi, Bahareh (2021). Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation — Journal on Computing and Cultural Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898679.397,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "D",
@@ -2870,9 +3244,11 @@
         "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00687/124262/Do-Multi-Document-Summarization-Models-Synthesize",
         "citation_key": "DeYoung2024MultiDocumentSummarizationModels",
         "displayTitle": "DeYoung, Jay and Martinez, Stephanie C. and Marshall, Iain J. and Wallace, Byron C. (2024). Do multi-document summarization models synthesize? — Transactions of the Association for Computational Linguistics",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
@@ -2901,18 +3277,23 @@
         "url": "",
         "citation_key": "Drucker2011HumanitiesApproachesGraphical",
         "displayTitle": "Drucker, Johanna (2011). Humanities approaches to graphical display — DHQ: Digital Humanities Quarterly",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "17 Mar 2026, 05:52",
         "noteDateMs": 1773726720000,
-        "mtimeMs": 1789557280266.7302,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456134.5996,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "D",
@@ -2926,9 +3307,11 @@
         "url": "",
         "citation_key": "Duranti1992OriginConceptArchivalDescription",
         "displayTitle": "Duranti, Luciana (1992). Origin and Development of the Concept of Archival Description — Archivaria",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -2937,7 +3320,7 @@
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1789557280267.1943,
-        "category": "Recording, organising, and obscuring traces"
+        "category": ""
       }
     ],
     "F": [
@@ -2953,16 +3336,18 @@
         "url": "",
         "citation_key": "Foka2024AICulturalHeritageBias",
         "displayTitle": "Foka, Anna; Griffin, Gabriele (2024). AI, Cultural Heritage, and Bias: Some Key Queries That Arise from the Use of GenAI — Heritage",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Supporting",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397354.1714,
-        "category": "Bridge text"
+        "category": ""
       },
       {
         "letter": "F",
@@ -2976,9 +3361,11 @@
         "url": "",
         "citation_key": "Frayling1993ResearchArtDesign",
         "displayTitle": "Frayling, Christopher (1993). Research in Art and Design — Royal College of Art",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [],
         "literature_clusters": [],
@@ -3001,9 +3388,11 @@
         "url": "https://www.mdpi.com/2079-9292/13/18/3741",
         "citation_key": "Gagliardi2024ExploringVisualizingMultilingual",
         "displayTitle": "Gagliardi, Isabella and Artese, Maria Teresa (2024). Exploring and Visualizing Multilingual Cultural Heritage Data Using Multi-Layer Semantic Graphs and Transformers — Electronics",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [],
         "literature_clusters": [],
@@ -3024,9 +3413,11 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1296207426001767",
         "citation_key": "Galindo-Duran2026MethodologicalProtocolGeneration",
         "displayTitle": "Galindo-Durán, Alejandro and Prego de Oliver-López, Cristina and Bernal-Bravo, César (2026). A methodological protocol for the generation and evaluation of AI-generated cultural heritage content — Journal of Cultural Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [
           "Turin",
@@ -3055,16 +3446,18 @@
         "url": "",
         "citation_key": "Gilliland2016RecordsImaginaries",
         "displayTitle": "Gilliland, Anne J.; Caswell, Michelle (2016). Records and Their Imaginaries: Imagining the Impossible, Making Possible the Imagined — Archival Science",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397354.8093,
-        "category": "Bridge text"
+        "category": ""
       },
       {
         "letter": "G",
@@ -3078,16 +3471,18 @@
         "url": "https://doi.org/10.2307/2078095",
         "citation_key": "Grigg1991ArchivalPracticeFoundations",
         "displayTitle": "Grigg, Susan (1991). Archival Practice and the Foundations of Historical Method — The Journal of American History",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898680.7393,
-        "category": "Recording, organising, and obscuring traces"
+        "category": ""
       },
       {
         "letter": "G",
@@ -3101,9 +3496,11 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
         "citation_key": "Grimes2021MentalModelsExpectation",
         "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental models and expectation violations in conversational AI interactions — Decision Support Systems",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
@@ -3122,6 +3519,35 @@
     "H": [
       {
         "letter": "H",
+        "slug": "2026SituatedKnowledgesScience",
+        "path": "/docs/H/2026SituatedKnowledgesScience.md",
+        "title": "Situated {{Knowledges}}: {{The Science Question}} in {{Feminism}} and the {{Privilege}} of {{Partial Perspective}}",
+        "authors": "Haraway, Donna",
+        "year": "1988",
+        "journal": "Feminist Studies",
+        "doi": "10.2307/3178066.",
+        "url": "",
+        "citation_key": "2026SituatedKnowledgesScience",
+        "displayTitle": "Haraway, Donna (1988). Situated {{Knowledges}}: {{The Science Question}} in {{Feminism}} and the {{Privilege}} of {{Partial Perspective}} — Feminist Studies",
+        "theoretical_framework_area_id": "4",
+        "theoretical_framework_area": "Feminist + situated knowledge",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage",
+        "source_type": "Core text",
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
+        "noteDate": "01 Oct 2026, 07:42",
+        "noteDateMs": 1790836920000,
+        "mtimeMs": 1790837456136.3762,
+        "category": "4. Feminist + situated knowledge"
+      },
+      {
+        "letter": "H",
         "slug": "Hedges2022IntroductionComputationalArchivalScience",
         "path": "/docs/H/Hedges2022IntroductionComputationalArchivalScience.md",
         "title": "Introduction to the Special Issue on Computational Archival Science",
@@ -3132,16 +3558,18 @@
         "url": "https://doi.org/10.1145/3495004",
         "citation_key": "Hedges2022IntroductionComputationalArchivalScience",
         "displayTitle": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini (2022). Introduction to the Special Issue on Computational Archival Science — Journal on Computing and Cultural Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898681.1377,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       }
     ],
     "I": [
@@ -3157,9 +3585,11 @@
         "url": "https://www.nature.com/articles/s41562-026-02553-x",
         "citation_key": "Isch2026QuantifyingPrevalenceImpact",
         "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the prevalence and impact of overreaching causal claims in social science — Nature Human Behaviour",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
@@ -3190,25 +3620,24 @@
         "url": "https://link.springer.com/10.1007/s00146-025-02222-z",
         "citation_key": "jaillantHowCanWe2025",
         "displayTitle": "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel (2025). How can We improve the diversity of archival collections with AI? Opportunities, risks, and solutions — AI & SOCIETY",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "05 Archival partiality, silence and absence",
-          "07 Interface authority, ranking and retrieval bias",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "15 Sept 2026, 00:00",
         "noteDateMs": 1789426800000,
-        "mtimeMs": 1789557280269.739,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456138.4868,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "J",
@@ -3222,16 +3651,22 @@
         "url": "https://doi.org/10.1145/3631125",
         "citation_key": "Jaillant2024AreUsersDigital",
         "displayTitle": "Jaillant, Lise; Aske, Katherine (2024). Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities — Journal on Computing and Cultural Heritage",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Contemporary bridge literature",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397355.144,
-        "category": "Recording, organising, and obscuring traces"
+        "mtimeMs": 1790836238561.8425,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "J",
@@ -3245,16 +3680,18 @@
         "url": "",
         "citation_key": "Jonas2012ExploringSwampyGround",
         "displayTitle": "Jonas, Wolfgang (2012). Exploring the Swampy Ground — Mapping Design Research",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.2 Critiques of design methods",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397355.345,
-        "category": "Historicising contested design knowledge"
+        "category": ""
       },
       {
         "letter": "J",
@@ -3268,16 +3705,22 @@
         "url": "",
         "citation_key": "Jones1992DesignMethods",
         "displayTitle": "Jones, John Christopher (1992). Design Methods — John Wiley & Sons",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.2 Critiques of design methods",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
         "source_type": "Context / supporting",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773911898681.925,
-        "category": "Historicising contested design knowledge"
+        "mtimeMs": 1790836238561.9473,
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "J",
@@ -3291,9 +3734,11 @@
         "url": "",
         "citation_key": "JaillantNavigatingArtificialIntelligence",
         "displayTitle": "Lise Jaillant, Katherine Aske, and Annalina Caputo (2025). Navigating Artificial Intelligence for Cultural Heritage Organisations — UCL Press",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -3321,16 +3766,22 @@
         "url": "",
         "citation_key": "Ketelaar2008ArchivesSpacesMemory",
         "displayTitle": "Ketelaar, Eric (2008). Archives as Spaces of Memory — Journal of the Society of Archivists",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Bridge text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
-        "mtimeMs": 1773911898682.6182,
-        "category": "Recording, organising, and obscuring traces"
+        "mtimeMs": 1790836238562.017,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "K",
@@ -3344,16 +3795,18 @@
         "url": "",
         "citation_key": "Kizhner2025EthnicMinoritiesCollections",
         "displayTitle": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe (2025). Ethnic Minorities in Online Museum Collections: Skews and Bias in Digital Material Culture — Digital Scholarship in the Humanities",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Supporting",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397355.917,
-        "category": "Bridge text"
+        "category": ""
       }
     ],
     "M": [
@@ -3369,16 +3822,22 @@
         "url": "",
         "citation_key": "Marciano2022NewDisciplineComputational",
         "displayTitle": "Marciano, Richard (2022). Towards a New Discipline of Computational Archival Science (CAS) — Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Bridge text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397356.6597,
-        "category": "Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790836238561.9917,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "M",
@@ -3392,16 +3851,22 @@
         "url": "",
         "citation_key": "McInnesUMAPUniformManifold",
         "displayTitle": "McInnes, Leland and Healy, John and Melville, James (2020). UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "27 May 2026, 09:45",
         "noteDateMs": 1779871500000,
-        "mtimeMs": 1789397423952.003,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456140.2126,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "M",
@@ -3415,16 +3880,18 @@
         "url": "https://doi.org/10.1007/s00146-021-01373-z",
         "citation_key": "McKenna2022NAISCLInterlinkingFramework",
         "displayTitle": "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan (2022). Using Linked Data to Create Provenance-Rich Metadata Interlinks: The Design and Evaluation of the NAISC-L Interlinking Framework for Libraries, Archives and Museums — AI & SOCIETY",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1789402114456.5828,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "M",
@@ -3438,16 +3905,18 @@
         "url": "",
         "citation_key": "Mordell2019CriticalQuestionsArchivesData",
         "displayTitle": "Mordell, Devon (2019). Critical Questions for Archives As (Big) Data — Archivaria",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Interpretability, provenance, and retrieval",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898683.8015,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "M",
@@ -3461,18 +3930,23 @@
         "url": "https://www.taylorfrancis.com/books/9781000385199",
         "citation_key": "Moss2021ArchivalSilencesMissing",
         "displayTitle": "Moss, Michael and Thomas, David (2021). Theorising the Silences — In Archival Silences: Missing, Lost and Uncreated Archives",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.1 Classification as ethics and politics",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "28 May 2026, 11:46",
         "noteDateMs": 1779965160000,
-        "mtimeMs": 1789557280271.4194,
-        "category": "S2: Recording, organising, and obscuring traces"
+        "mtimeMs": 1790837456141.4958,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "M",
@@ -3486,9 +3960,11 @@
         "url": "",
         "citation_key": "Moss2018ReconfigurationArchiveData",
         "displayTitle": "Moss, Michael; Thomas, David; Gollins, Tim (2018). The Reconfiguration of the Archive as Data to Be Mined — Archivaria",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [
           "Turin"
@@ -3497,7 +3973,7 @@
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1789557280271.066,
-        "category": "Bridge text"
+        "category": ""
       }
     ],
     "L": [
@@ -3513,16 +3989,18 @@
         "url": "",
         "citation_key": "Leon2026MultiliteracyModelInteractive",
         "displayTitle": "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas (2026). A Multiliteracy Model for Interactive Visualization Literacy: Definitions, Literacies, and Steps for Future Research — Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Supporting",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397356.2546,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "L",
@@ -3536,9 +4014,11 @@
         "url": "https://arxiv.org/abs/2601.14460",
         "citation_key": "Lajewska2026TrustMeThis",
         "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust Me on This: A User Study of Trustworthiness for RAG Responses — Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
@@ -3568,16 +4048,18 @@
         "url": "",
         "citation_key": "Nesmith2015ArchivalStageHistoryKnowledge",
         "displayTitle": "Nesmith, Tom (2015). Toward the Archival Stage in the History of Knowledge — Archivaria",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.3 Archival reconstruction and institutional memory",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1773911898684.5015,
-        "category": "Recording, organising, and obscuring traces"
+        "category": ""
       },
       {
         "letter": "N",
@@ -3591,9 +4073,11 @@
         "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
         "citation_key": "NietoMcAvoy2024SyntheticHeritageOnline",
         "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic Heritage: Online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind & Media",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Bridge text",
         "project_tags": [
           "Turin",
@@ -3625,25 +4109,24 @@
         "url": "https://academic.oup.com/dsh/article/37/3/844/6401182",
         "citation_key": "Ortolja-Baird2022EncodingHauntingObject",
         "displayTitle": "Ortolja-Baird, Alexandra and Nyhan, Julianne (2022). Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive — Digital Scholarship in the Humanities",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "05 Archival partiality, silence and absence",
-          "07 Interface authority, ranking and retrieval bias",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789553676554.448,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456142.3142,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "O",
@@ -3657,16 +4140,18 @@
         "url": "https://dl.acm.org/doi/10.1145/3746658",
         "citation_key": "Ozdemir2025EnhancingCulturalHeritage",
         "displayTitle": "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim (2025). Enhancing Cultural Heritage Archive Analysis via Automated Entity Extraction and Graph-Based Representation Learning — Journal on Computing and Cultural Heritage",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Supporting",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1789402114457.7617,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       }
     ],
     "P": [
@@ -3682,9 +4167,11 @@
         "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
         "citation_key": "Pan2007GoogleWeTrust",
         "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In Google we trust: users’ decisions on rank, position, and relevance — Journal of Computer-Mediated Communication",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
@@ -3711,9 +4198,11 @@
         "url": "",
         "citation_key": "PaschLLMContentModeration",
         "displayTitle": "Pasch, Stefan (2025). LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
@@ -3740,16 +4229,18 @@
         "url": "",
         "citation_key": "Hospital",
         "displayTitle": "Patterson, Gillian (1968). Hospital design: equipment and buildings — Official Architecture and Planning",
-        "model_strand": "S1",
-        "model_strand_label": "Historicising contested design knowledge",
-        "model_subcluster": "S1.3 DDR as institutional site of design research",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Primary historical source",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1773847397357.2102,
-        "category": "Historicising contested design knowledge"
+        "category": ""
       },
       {
         "letter": "P",
@@ -3763,9 +4254,11 @@
         "url": "https://doi.org/10.1057/9780230101395_2",
         "citation_key": "Portelli2009WhatMakesOralHistoryDifferent",
         "displayTitle": "Portelli, Alessandro (2009). What Makes Oral History Different — Oral History, Oral Culture, and Italian Americans",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -3774,7 +4267,7 @@
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1789557280272.4583,
-        "category": "Bridge text"
+        "category": ""
       }
     ],
     "Q": [
@@ -3790,9 +4283,11 @@
         "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
         "citation_key": "Qian2024TakeItLeave",
         "displayTitle": "Qian, Crystal and Wexler, James (2024). Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration — Proceedings of the 29th International Conference on Intelligent User Interfaces",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
@@ -3822,23 +4317,24 @@
         "url": "",
         "citation_key": "RadharapuArbitersAmbivalenceChallenges",
         "displayTitle": "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina (2025). Arbiters of ambivalence: challenges of using LLMs in no-Consensus tasks — Findings of the Association for Computational Linguistics: ACL 2025",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789553676555.9824,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456143.5464,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "R",
@@ -3852,16 +4348,22 @@
         "url": "https://www.cambridge.org/core/product/identifier/S2977815825100158/type/journal_article",
         "citation_key": "Rockmore2025LiteraryLandscapesVector",
         "displayTitle": "Rockmore, Daniel and Chen, Jiayi and Jebelli, Mohammad Javad Latifi and Riddell, Allen and Stropkay, Harrison (2025). On the Literary Landscapes of Vector Embeddings — Computational Humanities Research",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "27 May 2026, 09:09",
         "noteDateMs": 1779869340000,
-        "mtimeMs": 1789397423953.9988,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456144.0342,
+        "category": "3. Critical computational approaches"
       }
     ],
     "S": [
@@ -3877,9 +4379,11 @@
         "url": "https://github.com/sebischair/Exploring-NLP-Research",
         "citation_key": "SchopfExploringLandscapeNatural",
         "displayTitle": "Schopf, Tim and Arabi, Karim and Matthes, Florian (2023). Exploring the Landscape of Natural Language Processing Research",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.1 Visual analytics",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Context / supporting",
         "project_tags": [],
         "literature_clusters": [],
@@ -3900,9 +4404,11 @@
         "url": "",
         "citation_key": "Schwartz2002ArchivesRecordsPower",
         "displayTitle": "Schwartz, Joan M.; Cook, Terry (2002). Archives, Records, and Power: The Making of Modern Memory — Archival Science",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -3911,7 +4417,7 @@
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1789557280273.3643,
-        "category": "Bridge text"
+        "category": ""
       },
       {
         "letter": "S",
@@ -3925,25 +4431,24 @@
         "url": "https://acnsci.org/journal/index.php/cte/article/view/1438",
         "citation_key": "Selyshcheva2026GenerativeAIHistorical",
         "displayTitle": "Selyshcheva, Iryna A. (2026). Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history — CTE Workshop Proceedings",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Bridge text",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory",
-          "02 LLM epistemic risk and persuasive fluency",
-          "05 Archival partiality, silence and absence",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
-        "mtimeMs": 1789553676556.8206,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456144.64,
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "S",
@@ -3957,16 +4462,18 @@
         "url": "https://doi.org/10.1016/j.sheji.2025.06.002",
         "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
         "displayTitle": "Siddharth, L.; Luo, Jianxi (2025). Data-Driven Innovation for Trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Supporting",
         "project_tags": [],
         "literature_clusters": [],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1789402114459.758,
-        "category": "Surfacing and reactivating traces computationally"
+        "category": ""
       },
       {
         "letter": "S",
@@ -3980,9 +4487,11 @@
         "url": "",
         "citation_key": "Suchman2002LocatedAccountabilities",
         "displayTitle": "Suchman, Lucy (2002). Located Accountabilities in Technology Production — Scandinavian Journal of Information Systems",
-        "model_strand": "S2",
-        "model_strand_label": "Bridge text",
-        "model_subcluster": "S2.1 Bridge text",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin"
@@ -3991,7 +4500,7 @@
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1789557280273.82,
-        "category": "Bridge text"
+        "category": ""
       }
     ],
     "T": [
@@ -4007,18 +4516,23 @@
         "url": "",
         "citation_key": "Thomson2007FourParadigmTransformations",
         "displayTitle": "Thomson, Alistair (2007). Four Paradigm Transformations in Oral History — The Oral History Review",
-        "model_strand": "S2",
-        "model_strand_label": "Recording, organising, and obscuring traces",
-        "model_subcluster": "S2.2 Oral histories",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Supporting",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1789557280274.1035,
-        "category": "Recording, organising, and obscuring traces"
+        "mtimeMs": 1790836238583.675,
+        "category": "2. Critical archival theory"
       }
     ],
     "V": [
@@ -4034,16 +4548,22 @@
         "url": "https://dl.acm.org/doi/10.1145/3746252.3761503",
         "citation_key": "Vafaie2025EndtoendInformationExtraction",
         "displayTitle": "Vafaie, Mahsa; Hertling, Sven; Banse-Strobel, Inger; Dubout, Kevin; Sack, Harald (2025). End-to-end Information Extraction from Archival Records with Multimodal Large Language Models — Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Multimodal machine learning",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
-        "project_tags": [],
-        "literature_clusters": [],
+        "project_tags": [
+          "Theoretical framework"
+        ],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
-        "mtimeMs": 1773847397359.1682,
-        "category": "Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790836238568.4275,
+        "category": "3. Critical computational approaches"
       }
     ],
     "W": [
@@ -4059,9 +4579,11 @@
         "url": "",
         "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
         "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: enhancing retrieval-augmented generation with application-aware reasoning — arXiv",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
@@ -4091,9 +4613,11 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
         "citation_key": "Xu2025ConfrontingVerbalizedUncertainty",
         "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making — International Journal of Human-Computer Studies",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
@@ -4123,9 +4647,11 @@
         "url": "http://arxiv.org/abs/2405.07437",
         "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
         "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of retrieval-augmented generation: a survey",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Core text",
         "project_tags": [
           "Turin",
@@ -4156,24 +4682,24 @@
         "url": "https://academic.oup.com/dsh/article/38/2/830/6702047",
         "citation_key": "Zaagsma2023DigitalHistoryPolitics",
         "displayTitle": "Zaagsma, Gerben (2023). Digital history and the politics of digitization — Digital Scholarship in the Humanities",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.2 Scoped missingness",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Contemporary bridge literature",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "05 Archival partiality, silence and absence",
-          "07 Interface authority, ranking and retrieval bias",
-          "09 Human judgement and practice-led computational research",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
-        "mtimeMs": 1789557280274.98,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "mtimeMs": 1790837456146.5623,
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "Z",
@@ -4187,9 +4713,11 @@
         "url": "",
         "citation_key": "zhuArgRAGExplainableRetrieval2025",
         "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation — Proceedings of Machine Learning Research",
-        "model_strand": "S3",
-        "model_strand_label": "Surfacing and reactivating traces computationally",
-        "model_subcluster": "S3.3 Retrieval-augmented inference",
+        "theoretical_framework_area_id": "",
+        "theoretical_framework_area": "",
+        "literature_cluster_id": "",
+        "literature_cluster": "",
+        "zotero_filing_path": "",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",

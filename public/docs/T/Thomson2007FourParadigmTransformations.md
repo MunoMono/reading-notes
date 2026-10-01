@@ -24,6 +24,12 @@ model_subcluster: "S2.2 Oral histories"
 source_type: "Supporting"
 project_tags:
   - "Turin"
+  - "Theoretical framework"
+theoretical_framework_area_id: "2"
+theoretical_framework_area: "Critical archival theory"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / Critical archival theory / Canon + intellectual lineage"
 last_updated: "16 Sept 2026, 12:14"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
