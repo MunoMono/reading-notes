@@ -1,0 +1,2854 @@
+{
+  "generated_at": "2026-10-01T09:18:56+00:00",
+  "zotero_user_id": "3436801",
+  "scope": {
+    "root_collection_name": "Theoretical framework",
+    "root_collection_key": "V4KYURGK",
+    "collection_count": 29,
+    "read_only": true
+  },
+  "collection_item_counts": {
+    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 3,
+    "Theoretical framework / 1. Critical design histriography / b) Operational literature": 7,
+    "Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature": 1,
+    "Theoretical framework / 1. Critical design histriography / d) Z": 5,
+    "Theoretical framework / 1. Critical design histriography / e) ADD": 3,
+    "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage": 10,
+    "Theoretical framework / 2. Critical archival theory / b) Operational literature": 4,
+    "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature": 5,
+    "Theoretical framework / 2. Critical archival theory / d) Z": 5,
+    "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage": 4,
+    "Theoretical framework / 3. Critical computational approaches / b) Operational literature": 5,
+    "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature": 11,
+    "Theoretical framework / 3. Critical computational approaches / d) Z": 4,
+    "Theoretical framework / 3. Critical computational approaches / e) ADD": 2,
+    "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage": 2,
+    "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature": 5,
+    "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature": 1,
+    "Theoretical framework / 4. Feminist + situated knowledge / d) Z": 2,
+    "Theoretical framework / 4. Feminist + situated knowledge / e) ADD": 13
+  },
+  "item_count": 85,
+  "items": [
+    {
+      "zotero_item_key": "37YPQUR4",
+      "version": 8648,
+      "item_type": "book",
+      "title": "Design history and the history of design",
+      "creators": "Walker, John Albert",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "John Albert",
+          "lastName": "Walker"
+        }
+      ],
+      "date": "1990",
+      "year": "1990",
+      "publisher": "Pluto Pr",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "97807453052269780745302744",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "ZV4YNL9B",
+      "version": 8501,
+      "item_type": "journalArticle",
+      "title": "Made in patriarchy: toward a feminist analysis of women and design",
+      "creators": "Buckley, Cheryl",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Cheryl",
+          "lastName": "Buckley"
+        }
+      ],
+      "date": "1986",
+      "year": "1986",
+      "publisher": "The MIT Press",
+      "publication_title": "Design Issues",
+      "doi": "10.2307/1511480",
+      "isbn": "",
+      "url": "http://www.jstor.org/stable/1511480",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage",
+        "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "4JL7AV7X",
+      "version": 8644,
+      "item_type": "book",
+      "title": "Objects of desire: design and society since 1750",
+      "creators": "Forty, Adrian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Adrian",
+          "lastName": "Forty"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "Thames and Hudson",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780500274125",
+      "url": "",
+      "tags": [
+        "Great Britain",
+        "History",
+        "Industrial design"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "I5XMMGC6",
+      "version": 8324,
+      "item_type": "journalArticle",
+      "title": "A dialogue between the real-world and the operational model–the realities of design in bruce archer's 1968 doctoral thesis",
+      "creators": "Boyd Davis, Stephen; Gristwood, Simone",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Stephen",
+          "lastName": "Boyd Davis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simone",
+          "lastName": "Gristwood"
+        }
+      ],
+      "date": "2017-05-01",
+      "year": "2017",
+      "publisher": "Elsevier Ltd",
+      "publication_title": "Design Studies",
+      "doi": "10.1016/j.destud.2017.11.005",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "comp-archives",
+        "core",
+        "ddr-history",
+        "design-methods",
+        "practice-cybernetics"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "GD3BNFG9",
+      "version": 8333,
+      "item_type": "bookSection",
+      "title": "A history of design methodology",
+      "creators": "Vries, M. J.; Cross, N.; Grant, D. P.; Cross, N.",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "M. J.",
+          "lastName": "Vries"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "N.",
+          "lastName": "Cross"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "D. P.",
+          "lastName": "Grant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N.",
+          "lastName": "Cross"
+        }
+      ],
+      "date": "1993",
+      "year": "1993",
+      "publisher": "Springer Netherlands",
+      "publication_title": "Design Methodology and Relationships with Science",
+      "doi": "10.1007/978-94-015-8220-9_2",
+      "isbn": "97890481425219789401582209",
+      "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
+      "tags": [
+        "design-methods",
+        "quote",
+        "read",
+        "secondary",
+        "supporting"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature",
+        "Theoretical framework / 1. Critical design histriography / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "BK782W4J",
+      "version": 8339,
+      "item_type": "bookSection",
+      "title": "A view of the nature of design research",
+      "creators": "Archer, L Bruce",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "L Bruce",
+          "lastName": "Archer"
+        }
+      ],
+      "date": "1981",
+      "year": "1981",
+      "publisher": "Royal College of Art, Department of Design Research",
+      "publication_title": "A View of the Nature of Design Research",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "core",
+        "ddr-history",
+        "design-methods",
+        "methods",
+        "primary",
+        "quote",
+        "read"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "TUPSEC5B",
+      "version": 7997,
+      "item_type": "book",
+      "title": "Design methods",
+      "creators": "Jones, John",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "John",
+          "lastName": "Jones"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "John Wiley & Sons",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "core",
+        "design-methods",
+        "primary",
+        "quote",
+        "read"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "XT6KLJDV",
+      "version": 7992,
+      "item_type": "journalArticle",
+      "title": "Designerly ways of knowing",
+      "creators": "Cross, Nigel",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Nigel",
+          "lastName": "Cross"
+        }
+      ],
+      "date": "October 1982",
+      "year": "1982",
+      "publisher": "",
+      "publication_title": "Design Studies",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "background",
+        "core",
+        "design-methods",
+        "methods"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "N445PKKQ",
+      "version": 7990,
+      "item_type": "report",
+      "title": "Systematic method for designers",
+      "creators": "Archer, L Bruce",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "L Bruce",
+          "lastName": "Archer"
+        }
+      ],
+      "date": "1963-64",
+      "year": "1963",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "core",
+        "design-methods",
+        "primary",
+        "quote"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "DN5Y9JX8",
+      "version": 8439,
+      "item_type": "journalArticle",
+      "title": "Whatever became of design methodology?",
+      "creators": "Archer, L Bruce",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "L Bruce",
+          "lastName": "Archer"
+        }
+      ],
+      "date": "1979",
+      "year": "1979",
+      "publisher": "IPC BusinessPress",
+      "publication_title": "Design Studies",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "7PBRRTNA",
+      "version": 8337,
+      "item_type": "bookSection",
+      "title": "Design as an interesting phenomenon: george mallen and the royal college of art",
+      "creators": "Mason, Catherine; Boyd Davis, Stephen",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Catherine",
+          "lastName": "Mason"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen",
+          "lastName": "Boyd Davis"
+        }
+      ],
+      "date": "2024",
+      "year": "2024",
+      "publisher": "Springer Nature Switzerland",
+      "publication_title": "Creative Simulations",
+      "doi": "10.1007/978-3-031-50620-8_7",
+      "isbn": "97830315061929783031506208",
+      "url": "https://link.springer.com/10.1007/978-3-031-50620-8_7",
+      "tags": [
+        "background",
+        "core",
+        "ddr-history",
+        "secondary"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "52A5AVXD",
+      "version": 8319,
+      "item_type": "conferencePaper",
+      "title": "Computing, design, art: reflections on an innovative moment in history",
+      "creators": "Davis, Stephen Boyd; Gristwood, Simone",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Stephen Boyd",
+          "lastName": "Davis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simone",
+          "lastName": "Gristwood"
+        }
+      ],
+      "date": "2016",
+      "year": "2016",
+      "publisher": "Springer New York LLC",
+      "publication_title": "IFIP Advances in Information and Communication Technology",
+      "doi": "10.1007/978-3-319-47286-7_7",
+      "isbn": "97833194728509783319472867",
+      "url": "",
+      "tags": [
+        "ddr-history",
+        "supporting"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "ERXSKXRM",
+      "version": 8074,
+      "item_type": "bookSection",
+      "title": "Design history: understanding theory and method",
+      "creators": "Fallan, Kjetil",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Kjetil",
+          "lastName": "Fallan"
+        }
+      ],
+      "date": "2010",
+      "year": "2010",
+      "publisher": "Berg Publishers",
+      "publication_title": "Design history: understanding theory and method",
+      "doi": "10.5040/9781474293716",
+      "isbn": "9781847885371978147429371697818478870309781847885388",
+      "url": "",
+      "tags": [
+        "background",
+        "ddr-history",
+        "secondary"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "8ZK2MFNA",
+      "version": 8331,
+      "item_type": "conferencePaper",
+      "title": "Introduction: design research – history, theory, practice: histories for future - focused thinking",
+      "creators": "Atkinson, Harriet; Oppenheimer, Maya Rae",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Harriet",
+          "lastName": "Atkinson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maya Rae",
+          "lastName": "Oppenheimer"
+        }
+      ],
+      "date": "2016-06-27",
+      "year": "2016",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "10.21606/drs.2016.510",
+      "isbn": "",
+      "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2016/editorials/26",
+      "tags": [
+        "core",
+        "ddr-history",
+        "design-methods",
+        "secondary",
+        "supporting"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "VRMS4YMC",
+      "version": 8078,
+      "item_type": "journalArticle",
+      "title": "New design knowledge and the fifth order of design",
+      "creators": "Mortati, Marzia",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Marzia",
+          "lastName": "Mortati"
+        }
+      ],
+      "date": "2022-09-01",
+      "year": "2022",
+      "publisher": "MIT Press Journals",
+      "publication_title": "Design Issues",
+      "doi": "10.1162/desi_a_00695",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "practice-cybernetics",
+        "secondary",
+        "supporting"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "SPHY7TLP",
+      "version": 8611,
+      "item_type": "journalArticle",
+      "title": "It's personal: subjectivity in design history",
+      "creators": "Fallan, Kjetil; Lees-Maffei, Grace",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Kjetil",
+          "lastName": "Fallan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Grace",
+          "lastName": "Lees-Maffei"
+        }
+      ],
+      "date": "03/2015",
+      "year": "2015",
+      "publisher": "",
+      "publication_title": "Design and Culture",
+      "doi": "10.2752/175470715x14153615623565",
+      "isbn": "",
+      "url": "https://www.tandfonline.com/doi/full/10.2752/175470715X14153615623565",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "4YPFG6GR",
+      "version": 8607,
+      "item_type": "journalArticle",
+      "title": "The state of design history, part I: mapping the field",
+      "creators": "Dilnot, Clive",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Clive",
+          "lastName": "Dilnot"
+        }
+      ],
+      "date": "21/1984",
+      "year": "1984",
+      "publisher": "",
+      "publication_title": "Design Issues",
+      "doi": "10.2307/1511539",
+      "isbn": "",
+      "url": "https://www.jstor.org/stable/1511539?origin=crossref",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "NA7FBQ4M",
+      "version": 8609,
+      "item_type": "journalArticle",
+      "title": "The state of design history, part II: problems and possibilities",
+      "creators": "Dilnot, Clive",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Clive",
+          "lastName": "Dilnot"
+        }
+      ],
+      "date": "23/1984",
+      "year": "1984",
+      "publisher": "",
+      "publication_title": "Design Issues",
+      "doi": "10.2307/1511495",
+      "isbn": "",
+      "url": "https://www.jstor.org/stable/1511495?origin=crossref",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "65Q335LQ",
+      "version": 8513,
+      "item_type": "journalArticle",
+      "title": "Archives as spaces of memory",
+      "creators": "Ketelaar, Eric",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Eric",
+          "lastName": "Ketelaar"
+        }
+      ],
+      "date": "04/2008",
+      "year": "2008",
+      "publisher": "",
+      "publication_title": "Journal of the Society of Archivists",
+      "doi": "10.1080/00379810802499678",
+      "isbn": "",
+      "url": "http://www.tandfonline.com/doi/full/10.1080/00379810802499678",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "755QNF73",
+      "version": 8422,
+      "item_type": "journalArticle",
+      "title": "Archives, records, and power: the making of modern memory",
+      "creators": "Schwartz, Joan M.; Cook, Terry",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Joan M.",
+          "lastName": "Schwartz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Terry",
+          "lastName": "Cook"
+        }
+      ],
+      "date": "3/2002",
+      "year": "2002",
+      "publisher": "",
+      "publication_title": "Archival Science",
+      "doi": "10.1007/bf02435628",
+      "isbn": "",
+      "url": "http://link.springer.com/10.1007/BF02435628",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "JKMQB7QJ",
+      "version": 8503,
+      "item_type": "journalArticle",
+      "title": "Critical archival studies: an introduction",
+      "creators": "Caswell, Michelle; Punzalan, Ricardo; Sangwand, T-Kay",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Michelle",
+          "lastName": "Caswell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ricardo",
+          "lastName": "Punzalan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T-Kay",
+          "lastName": "Sangwand"
+        }
+      ],
+      "date": "2017-06-27",
+      "year": "2017",
+      "publisher": "",
+      "publication_title": "Journal of Critical Library and Information Studies",
+      "doi": "10.24242/jclis.v1i2.50",
+      "isbn": "",
+      "url": "https://journals.litwinbooks.com/index.php/jclis/article/view/50",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "PBZ5IK9L",
+      "version": 8003,
+      "item_type": "journalArticle",
+      "title": "Documenting documentation",
+      "creators": "Bearman, David A.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "David A.",
+          "lastName": "Bearman"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "TKUL75BN",
+      "version": 8515,
+      "item_type": "journalArticle",
+      "title": "Origin and development of the concept of archival description",
+      "creators": "Duranti, Luciana",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Luciana",
+          "lastName": "Duranti"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "T9HHJABC",
+      "version": 8007,
+      "item_type": "journalArticle",
+      "title": "Records and their imaginaries: imagining the impossible, making possible the imagined",
+      "creators": "Gilliland, Anne J.; Caswell, Michelle",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Anne J.",
+          "lastName": "Gilliland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michelle",
+          "lastName": "Caswell"
+        }
+      ],
+      "date": "3/2016",
+      "year": "2016",
+      "publisher": "",
+      "publication_title": "Archival Science",
+      "doi": "10.1007/s10502-015-9259-z",
+      "isbn": "",
+      "url": "http://link.springer.com/10.1007/s10502-015-9259-z",
+      "tags": [
+        "archives-infra",
+        "background",
+        "classification",
+        "missingness"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "IUAPFIMI",
+      "version": 8004,
+      "item_type": "book",
+      "title": "Sorting things out: classification and its consequences",
+      "creators": "Bowker, Geoffrey C.; Star, Susan Leigh",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Geoffrey C.",
+          "lastName": "Bowker"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Susan Leigh",
+          "lastName": "Star"
+        }
+      ],
+      "date": "1999",
+      "year": "1999",
+      "publisher": "MIT Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780262024617",
+      "url": "",
+      "tags": [
+        "archives-infra",
+        "classification",
+        "core",
+        "quote",
+        "secondary"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "3Z5N7MNB",
+      "version": 8064,
+      "item_type": "journalArticle",
+      "title": "Toward the archival stage in the history of knowledge",
+      "creators": "Nesmith, Tom",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Tom",
+          "lastName": "Nesmith"
+        }
+      ],
+      "date": "Nov. 2015",
+      "year": "2015",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "https://archivaria.ca/index.php/archivaria/article/view/13546",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "6BJ4TQW2",
+      "version": 8605,
+      "item_type": "journalArticle",
+      "title": "Toward the archival stage in the history of knowledge",
+      "creators": "Nesmith, Tom",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Tom",
+          "lastName": "Nesmith"
+        }
+      ],
+      "date": "2015",
+      "year": "2015",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "SXFHK5BB",
+      "version": 8517,
+      "item_type": "journalArticle",
+      "title": "What is past is prologue: a history of archival ideas since 1898, and the future paradigm shift",
+      "creators": "Cook, Terry",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Terry",
+          "lastName": "Cook"
+        }
+      ],
+      "date": "1997",
+      "year": "1997",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "3B3UX7NI",
+      "version": 8384,
+      "item_type": "book",
+      "title": "Archival silences: missing, lost and, uncreated archives",
+      "creators": "Moss, Michael; Thomas, David",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Michael",
+          "lastName": "Moss"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "David",
+          "lastName": "Thomas"
+        }
+      ],
+      "date": "2021-4-2",
+      "year": "2021",
+      "publisher": "Routledge",
+      "publication_title": "",
+      "doi": "10.4324/9781003003618",
+      "isbn": "9781003003618",
+      "url": "https://www.taylorfrancis.com/books/9781000385199",
+      "tags": [
+        "archives-infra",
+        "classification",
+        "core",
+        "missingness"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "MMUI582X",
+      "version": 8433,
+      "item_type": "journalArticle",
+      "title": "Four paradigm transformations in oral history",
+      "creators": "Thomson, Alistair",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alistair",
+          "lastName": "Thomson"
+        }
+      ],
+      "date": "2007-01-01",
+      "year": "2007",
+      "publisher": "",
+      "publication_title": "The Oral History Review",
+      "doi": "10.1525/ohr.2007.34.1.49",
+      "isbn": "",
+      "url": "https://www.tandfonline.com/doi/full/10.1525/ohr.2007.34.1.49",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "RVFXV4B6",
+      "version": 8401,
+      "item_type": "journalArticle",
+      "title": "Of things said and unsaid: power, archival silences, and power in silence",
+      "creators": "Carter, Rodney G S",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Rodney G S",
+          "lastName": "Carter"
+        }
+      ],
+      "date": "2006",
+      "year": "2006",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "K2DTNN4G",
+      "version": 8502,
+      "item_type": "bookSection",
+      "title": "What makes oral history different",
+      "creators": "Portelli, Alessandro; Giudice, Luisa Del",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alessandro",
+          "lastName": "Portelli"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Luisa Del",
+          "lastName": "Giudice"
+        }
+      ],
+      "date": "2009",
+      "year": "2009",
+      "publisher": "Palgrave Macmillan US",
+      "publication_title": "Oral History, Oral Culture, and Italian Americans",
+      "doi": "10.1057/9780230101395_2",
+      "isbn": "9780230101395",
+      "url": "https://doi.org/10.1057/9780230101395_2",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "UM2LPE9I",
+      "version": 8082,
+      "item_type": "journalArticle",
+      "title": "Applying AI to digital archives: trust, collaboration and shared professional ethics",
+      "creators": "Jaillant, Lise; Rees, Arran",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Arran",
+          "lastName": "Rees"
+        }
+      ],
+      "date": "2023-05-31",
+      "year": "2023",
+      "publisher": "",
+      "publication_title": "Digital Scholarship in the Humanities",
+      "doi": "10.1093/llc/fqac073",
+      "isbn": "",
+      "url": "https://academic.oup.com/dsh/article/38/2/571/6832097",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature",
+        "Theoretical framework / 2. Critical archival theory / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "CYWH7ZLG",
+      "version": 8028,
+      "item_type": "journalArticle",
+      "title": "Are users of digital archives ready for the AI era? Obstacles to the application of computational research methods and new opportunities",
+      "creators": "Jaillant, Lise; Aske, Katherine",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katherine",
+          "lastName": "Aske"
+        }
+      ],
+      "date": "2024-01-24",
+      "year": "2024",
+      "publisher": "Association for Computing Machinery",
+      "publication_title": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3631125",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "archives-infra",
+        "comp-archives",
+        "core",
+        "methods",
+        "rag",
+        "xai"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature",
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "QMNBGWZB",
+      "version": 8564,
+      "item_type": "journalArticle",
+      "title": "Critical feminism in the archives",
+      "creators": "Cifor, Marika; Wood, Stacy",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Marika",
+          "lastName": "Cifor"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stacy",
+          "lastName": "Wood"
+        }
+      ],
+      "date": "2017-05-03",
+      "year": "2017",
+      "publisher": "",
+      "publication_title": "Journal of Critical Library and Information Studies",
+      "doi": "10.24242/jclis.v1i2.27",
+      "isbn": "",
+      "url": "https://journals.litwinbooks.com/index.php/jclis/article/view/27",
+      "tags": [
+        "to-read"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature",
+        "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "WIESNQ8L",
+      "version": 8115,
+      "item_type": "journalArticle",
+      "title": "Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive",
+      "creators": "Ortolja-Baird, Alexandra; Nyhan, Julianne",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "Ortolja-Baird"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julianne",
+          "lastName": "Nyhan"
+        }
+      ],
+      "date": "2022-08-23",
+      "year": "2022",
+      "publisher": "",
+      "publication_title": "Digital Scholarship in the Humanities",
+      "doi": "10.1093/llc/fqab065",
+      "isbn": "",
+      "url": "https://academic.oup.com/dsh/article/37/3/844/6401182",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature",
+        "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "3VRUUL5N",
+      "version": 8012,
+      "item_type": "journalArticle",
+      "title": "The reconfiguration of the archive as data to be mined",
+      "creators": "Moss, Michael; Thomas, Davis; Gollins, Tim",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Moss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Davis",
+          "lastName": "Thomas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tim",
+          "lastName": "Gollins"
+        }
+      ],
+      "date": "2018",
+      "year": "2018",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "LF6JACB8",
+      "version": 8354,
+      "item_type": "book",
+      "title": "General international standard archival description",
+      "creators": "Committee on Descriptive Standards",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "name": "Committee on Descriptive Standards"
+        }
+      ],
+      "date": "2000",
+      "year": "2000",
+      "publisher": "Verlag nicht ermittelbar",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780969603559",
+      "url": "",
+      "tags": [
+        "archives-infra",
+        "core",
+        "schema"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "YPZYZWJM",
+      "version": 8568,
+      "item_type": "journalArticle",
+      "title": "(mis)matching metadata: improving accessibility in digital visual archives through the EyCon project",
+      "creators": "Aske, Katherine; Giardinetti, Marina",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Katherine",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marina",
+          "lastName": "Giardinetti"
+        }
+      ],
+      "date": "2023-12-31",
+      "year": "2023",
+      "publisher": "",
+      "publication_title": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3594726",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3594726",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "4S65X5LS",
+      "version": 8080,
+      "item_type": "book",
+      "title": "Oral history theory",
+      "creators": "Abrams, Lynn",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lynn",
+          "lastName": "Abrams"
+        }
+      ],
+      "date": "2016",
+      "year": "2016",
+      "publisher": "Routledge, Taylor & Francis",
+      "publication_title": "",
+      "doi": "10.4324/9781315640761",
+      "isbn": "9781138905382978131564076197813172779729781317277989",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "B7VTQ5QP",
+      "version": 8399,
+      "item_type": "journalArticle",
+      "title": "The archival sliver: power, memory, and archives in south africa",
+      "creators": "Harris, Verne",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Verne",
+          "lastName": "Harris"
+        }
+      ],
+      "date": "3/2002",
+      "year": "2002",
+      "publisher": "",
+      "publication_title": "Archival Science",
+      "doi": "10.1007/bf02435631",
+      "isbn": "",
+      "url": "http://link.springer.com/10.1007/BF02435631",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 2. Critical archival theory / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "XDUI2RMI",
+      "version": 8651,
+      "item_type": "book",
+      "title": "A View from the interior: feminism, women, and design",
+      "creators": "Attfield, Judy; Kirkham, Pat",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Judy",
+          "lastName": "Attfield"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Pat",
+          "lastName": "Kirkham"
+        }
+      ],
+      "date": "1989",
+      "year": "1989",
+      "publisher": "Women's Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780704341104",
+      "url": "",
+      "tags": [
+        "19th century",
+        "20th century",
+        "Design",
+        "Feminism and art",
+        "Great Britain",
+        "History",
+        "Women designers"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "Q2J6BJC3",
+      "version": 8519,
+      "item_type": "journalArticle",
+      "title": "Critical questions for archives as (big) data",
+      "creators": "Mordell, Devon",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Devon",
+          "lastName": "Mordell"
+        }
+      ],
+      "date": "2019-04-03",
+      "year": "2019",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "3Q945HJ4",
+      "version": 8421,
+      "item_type": "journalArticle",
+      "title": "Humanities approaches to graphical display",
+      "creators": "Drucker, Johanna",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Johanna",
+          "lastName": "Drucker"
+        }
+      ],
+      "date": "2011",
+      "year": "2011",
+      "publisher": "",
+      "publication_title": "Digital Humanities Quarterly",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "NILDEWBS",
+      "version": 8318,
+      "item_type": "book",
+      "title": "Machine learners: archaeology of a data practice",
+      "creators": "Mackenzie, Adrian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Adrian",
+          "lastName": "Mackenzie"
+        }
+      ],
+      "date": "2017",
+      "year": "2017",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780262036825",
+      "url": "",
+      "tags": [
+        "Electronic data processing",
+        "Information theory",
+        "Machine learning",
+        "Philosophy"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "BLXP9KKN",
+      "version": 8507,
+      "item_type": "conferencePaper",
+      "title": "End-to-end information extraction from archival records with multimodal large language models",
+      "creators": "Vafaie, Mahsa; Hertling, Sven; Banse-Strobel, Inger; Dubout, Kevin; Sack, Harald",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Mahsa",
+          "lastName": "Vafaie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sven",
+          "lastName": "Hertling"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Inger",
+          "lastName": "Banse-Strobel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kevin",
+          "lastName": "Dubout"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harald",
+          "lastName": "Sack"
+        }
+      ],
+      "date": "2025-11-10",
+      "year": "2025",
+      "publisher": "ACM",
+      "publication_title": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+      "doi": "10.1145/3746252.3761503",
+      "isbn": "9798400720406",
+      "url": "https://dl.acm.org/doi/10.1145/3746252.3761503",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "9DCLT45T",
+      "version": 8551,
+      "item_type": "conferencePaper",
+      "title": "Explainable search and discovery of visual cultural heritage collections with multimodal large language models",
+      "creators": "Arnold, Taylor; Tilton, Lauren",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Taylor",
+          "lastName": "Arnold"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lauren",
+          "lastName": "Tilton"
+        }
+      ],
+      "date": "2024",
+      "year": "2024",
+      "publisher": "CEUR-WS",
+      "publication_title": "Proceedings of the Computational Humanities Research Conference",
+      "doi": "10.48550/arxiv.2411.04663",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "S8RBKWVC",
+      "version": 8525,
+      "item_type": "journalArticle",
+      "title": "Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation",
+      "creators": "Davis, Edie; Heravi, Bahareh",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Edie",
+          "lastName": "Davis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bahareh",
+          "lastName": "Heravi"
+        }
+      ],
+      "date": "06/2021",
+      "year": "2021",
+      "publisher": "",
+      "publication_title": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3429458",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3429458",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "JUJF2IDA",
+      "version": 8024,
+      "item_type": "journalArticle",
+      "title": "On the literary landscapes of vector embeddings",
+      "creators": "Rockmore, Daniel; Chen, Jiayi; Jebelli, Mohammad Javad Latifi; Riddell, Allen; Stropkay, Harrison",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Rockmore"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jiayi",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mohammad Javad Latifi",
+          "lastName": "Jebelli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Allen",
+          "lastName": "Riddell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harrison",
+          "lastName": "Stropkay"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "Computational Humanities Research",
+      "doi": "10.1017/chr.2025.10015",
+      "isbn": "",
+      "url": "https://www.cambridge.org/core/product/identifier/S2977815825100158/type/journal_article",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "FCH5ELVJ",
+      "version": 8549,
+      "item_type": "journalArticle",
+      "title": "UMAP: uniform manifold approximation and projection for dimension reduction",
+      "creators": "McInnes, Leland; Healy, John; Melville, James",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Leland",
+          "lastName": "McInnes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John",
+          "lastName": "Healy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "James",
+          "lastName": "Melville"
+        }
+      ],
+      "date": "2020",
+      "year": "2020",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "",
+      "url": "https://arxiv.org/abs/1802.03426",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "XGW459UJ",
+      "version": 8576,
+      "item_type": "journalArticle",
+      "title": "A systematic review of fairness, accountability, transparency, and ethics in information retrieval",
+      "creators": "Bernard, Nolwenn; Balog, Krisztian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Nolwenn",
+          "lastName": "Bernard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Krisztian",
+          "lastName": "Balog"
+        }
+      ],
+      "date": "2025-06-30",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "ACM Computing Surveys",
+      "doi": "10.1145/3637211",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3637211",
+      "tags": [
+        "to-ingest"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "Z9IN3FCV",
+      "version": 8572,
+      "item_type": "journalArticle",
+      "title": "Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks",
+      "creators": "Radharapu, Bhaktipriya; Revel, Manon; Ung, Megan; Ruder, Sebastian; Williams, Adina",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Bhaktipriya",
+          "lastName": "Radharapu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Manon",
+          "lastName": "Revel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Megan",
+          "lastName": "Ung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sebastian",
+          "lastName": "Ruder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adina",
+          "lastName": "Williams"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "Association for Computational Linguistics",
+      "publication_title": "Findings of the Association for Computational Linguistics",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "to-ingest"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "JFAP2JSU",
+      "version": 8523,
+      "item_type": "journalArticle",
+      "title": "Archives and AI: an overview of current debates and future perspectives",
+      "creators": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Giovanni",
+          "lastName": "Colavizza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tobias",
+          "lastName": "Blanke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Charles",
+          "lastName": "Jeurgens"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julia",
+          "lastName": "Noordegraaf"
+        }
+      ],
+      "date": "2022",
+      "year": "2022",
+      "publisher": "",
+      "publication_title": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3479010",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3479010",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "5C923R7Y",
+      "version": 8596,
+      "item_type": "journalArticle",
+      "title": "Digital history and the politics of digitization",
+      "creators": "Zaagsma, Gerben",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Gerben",
+          "lastName": "Zaagsma"
+        }
+      ],
+      "date": "2023-05-31",
+      "year": "2023",
+      "publisher": "",
+      "publication_title": "Digital Scholarship in the Humanities",
+      "doi": "10.1093/llc/fqac050",
+      "isbn": "",
+      "url": "https://academic.oup.com/dsh/article/38/2/830/6702047",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "ZJVVPAYV",
+      "version": 8034,
+      "item_type": "journalArticle",
+      "title": "Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history",
+      "creators": "Selyshcheva, Iryna A.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Iryna A.",
+          "lastName": "Selyshcheva"
+        }
+      ],
+      "date": "2026-03-21",
+      "year": "2026",
+      "publisher": "Academy of Cognitive and Natural Sciences (ACNS)",
+      "publication_title": "CTE Workshop Proceedings",
+      "doi": "10.55056/cte.1438",
+      "isbn": "",
+      "url": "https://acnsci.org/journal/index.php/cte/article/view/1438",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "QW5HNSPT",
+      "version": 8521,
+      "item_type": "journalArticle",
+      "title": "Introduction to the special issue on computational archival science",
+      "creators": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Mark",
+          "lastName": "Hedges"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Richard",
+          "lastName": "Marciano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eirini",
+          "lastName": "Goudarouli"
+        }
+      ],
+      "date": "2022-02-28",
+      "year": "2022",
+      "publisher": "",
+      "publication_title": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3495004",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3495004",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "QI2I6HJQ",
+      "version": 8413,
+      "item_type": "conferencePaper",
+      "title": "On the dangers of stochastic parrots: can language models be too big? 🦜",
+      "creators": "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Emily M.",
+          "lastName": "Bender"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timnit",
+          "lastName": "Gebru"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Angelina",
+          "lastName": "McMillan-Major"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shmargaret",
+          "lastName": "Shmitchell"
+        }
+      ],
+      "date": "2021-03-03",
+      "year": "2021",
+      "publisher": "ACM",
+      "publication_title": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "doi": "10.1145/3442188.3445922",
+      "isbn": "9781450383097",
+      "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+      "tags": [
+        "LLM-as-method",
+        "to-read"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
+        "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "CVVHJD52",
+      "version": 8032,
+      "item_type": "journalArticle",
+      "title": "Synthesizing scientific literature with retrieval-augmented language models",
+      "creators": "Asai, Akari; He, Jacqueline; Shao, Rulin; Shi, Weijia; Singh, Amanpreet; Chang, Joseph Chee; Lo, Kyle; Soldaini, Luca; Feldman, Sergey; D’Arcy, Mike; Wadden, David; Latzke, Matt; Sparks, Jenna; Hwang, Jena D.; Kishore, Varsha; Tian, Minyang; Ji, Pan; Liu, Shengyan; Tong, Hao; Wu, Bohao; Xiong, Yanyu; Zettlemoyer, Luke; Neubig, Graham; Weld, Daniel S.; Downey, Doug; Yih, Wen-tau; Koh, Pang Wei; Hajishirzi, Hannaneh",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Akari",
+          "lastName": "Asai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jacqueline",
+          "lastName": "He"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rulin",
+          "lastName": "Shao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Weijia",
+          "lastName": "Shi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amanpreet",
+          "lastName": "Singh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joseph Chee",
+          "lastName": "Chang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kyle",
+          "lastName": "Lo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luca",
+          "lastName": "Soldaini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sergey",
+          "lastName": "Feldman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mike",
+          "lastName": "D’Arcy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wadden"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matt",
+          "lastName": "Latzke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenna",
+          "lastName": "Sparks"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jena D.",
+          "lastName": "Hwang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Varsha",
+          "lastName": "Kishore"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Minyang",
+          "lastName": "Tian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pan",
+          "lastName": "Ji"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengyan",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Tong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bohao",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yanyu",
+          "lastName": "Xiong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luke",
+          "lastName": "Zettlemoyer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Graham",
+          "lastName": "Neubig"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel S.",
+          "lastName": "Weld"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Doug",
+          "lastName": "Downey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wen-tau",
+          "lastName": "Yih"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pang Wei",
+          "lastName": "Koh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hannaneh",
+          "lastName": "Hajishirzi"
+        }
+      ],
+      "date": "2026-02-26",
+      "year": "2026",
+      "publisher": "",
+      "publication_title": "Nature",
+      "doi": "10.1038/s41586-025-10072-4",
+      "isbn": "",
+      "url": "https://www.nature.com/articles/s41586-025-10072-4",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "PUUPT229",
+      "version": 8586,
+      "item_type": "journalArticle",
+      "title": "Synthetic heritage: online platforms, deceptive genealogy and the ethics of algorithmically generated memory",
+      "creators": "Nieto McAvoy, Eva; Kidd, Jenny",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Eva",
+          "lastName": "Nieto McAvoy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenny",
+          "lastName": "Kidd"
+        }
+      ],
+      "date": "2024",
+      "year": "2024",
+      "publisher": "Cambridge University Press",
+      "publication_title": "Memory, Mind & Media",
+      "doi": "10.1017/mem.2024.10",
+      "isbn": "",
+      "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "LUVAUXT2",
+      "version": 8026,
+      "item_type": "bookSection",
+      "title": "Towards a new discipline of computational archival science (CAS)",
+      "creators": "Marciano, Richard; Jaillant, Lise",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Richard",
+          "lastName": "Marciano"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        }
+      ],
+      "date": "2022",
+      "year": "2022",
+      "publisher": "Bielefeld University Press",
+      "publication_title": "Archives, access and artificial intelligence working with born-digital and digitized archival collections",
+      "doi": "",
+      "isbn": "",
+      "url": "https://www.nationalarchives.",
+      "tags": [
+        "archives-infra",
+        "comp-archives",
+        "methods",
+        "supporting",
+        "xai"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+      ]
+    },
+    {
+      "zotero_item_key": "5JGGE43Y",
+      "version": 8408,
+      "item_type": "report",
+      "title": "Collections as data: part to whole",
+      "creators": "Padilla, Thomas; Scates Kettler, Hannah; Shorish, Yasmeen",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Padilla"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hannah",
+          "lastName": "Scates Kettler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yasmeen",
+          "lastName": "Shorish"
+        }
+      ],
+      "date": "",
+      "year": "",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "Z4GLS7B2",
+      "version": 8084,
+      "item_type": "book",
+      "title": "Graphesis: visual forms of knowledge production",
+      "creators": "Drucker, Johanna",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Johanna",
+          "lastName": "Drucker"
+        }
+      ],
+      "date": "2014",
+      "year": "2014",
+      "publisher": "Harvard university press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780674724938",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "3AYSCTXH",
+      "version": 8532,
+      "item_type": "book",
+      "title": "Introduction to information retrieval",
+      "creators": "Manning, Christopher; Raghavan, Prabhakar; Schuetze, Hinrich",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Christopher",
+          "lastName": "Manning"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Prabhakar",
+          "lastName": "Raghavan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hinrich",
+          "lastName": "Schuetze"
+        }
+      ],
+      "date": "2009",
+      "year": "2009",
+      "publisher": "Cambridge University Press (CUP)",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "2MCSNFDZ",
+      "version": 8350,
+      "item_type": "journalArticle",
+      "title": "The interconnectedness of all things: understanding digital collections through file similarity",
+      "creators": "Karp, St John",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "St John",
+          "lastName": "Karp"
+        }
+      ],
+      "date": "2024-12-17",
+      "year": "2024",
+      "publisher": "",
+      "publication_title": "Preservation, Digital Technology & Culture",
+      "doi": "10.1515/pdtc-2024-0042",
+      "isbn": "",
+      "url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2024-0042/html",
+      "tags": [
+        "archives-infra",
+        "classification",
+        "comp-archives",
+        "core",
+        "linked-data",
+        "methods",
+        "schema"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "UA8U8NRQ",
+      "version": 8620,
+      "item_type": "book",
+      "title": "“raw data” is an oxymoron",
+      "creators": "Gitelman, Lisa",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Gitelman"
+        }
+      ],
+      "date": "2013",
+      "year": "2013",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780262518284",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "ZIKAP7EV",
+      "version": 8613,
+      "item_type": "webpage",
+      "title": "\"where is cultural criticism in the digital humanities?\"",
+      "creators": "Liu, Alan",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alan",
+          "lastName": "Liu"
+        }
+      ],
+      "date": "2011-01-07",
+      "year": "2011",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "",
+      "url": "https://liu.english.ucsb.edu/where-is-cultural-criticism-in-the-digital-humanities/",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 3. Critical computational approaches / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "6BDU2AYY",
+      "version": 8113,
+      "item_type": "journalArticle",
+      "title": "Located accountabilities in technology production",
+      "creators": "Suchman, Lucy",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lucy",
+          "lastName": "Suchman"
+        }
+      ],
+      "date": "2002",
+      "year": "2002",
+      "publisher": "",
+      "publication_title": "Scandinavian Journal of Information Systems",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage"
+      ]
+    },
+    {
+      "zotero_item_key": "DQ8RKDNB",
+      "version": 8505,
+      "item_type": "journalArticle",
+      "title": "AI, cultural heritage, and bias: some key queries that arise from the use of GenAI",
+      "creators": "Foka, Anna; Griffin, Gabriele",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Anna",
+          "lastName": "Foka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Griffin"
+        }
+      ],
+      "date": "2024-10-29",
+      "year": "2024",
+      "publisher": "",
+      "publication_title": "Heritage",
+      "doi": "10.3390/heritage7110287",
+      "isbn": "",
+      "url": "https://www.mdpi.com/2571-9408/7/11/287",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "5UBBLRJS",
+      "version": 8117,
+      "item_type": "journalArticle",
+      "title": "Ethnic minorities in online museum collections: skews and bias in digital material culture",
+      "creators": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Inna",
+          "lastName": "Kizhner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniil",
+          "lastName": "Skorinkin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Melissa",
+          "lastName": "Terras"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yael",
+          "lastName": "Netzer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Moshe",
+          "lastName": "Lavee"
+        }
+      ],
+      "date": "2025-12-25",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "Digital Scholarship in the Humanities",
+      "doi": "10.1093/llc/fqaf104",
+      "isbn": "",
+      "url": "https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqaf104/8404544",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "G852R4UM",
+      "version": 8118,
+      "item_type": "journalArticle",
+      "title": "How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions",
+      "creators": "Jaillant, Lise; Mitchell, Olivia; Ewoh-Opu, Eric; Hidalgo Urbaneja, Maribel",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivia",
+          "lastName": "Mitchell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric",
+          "lastName": "Ewoh-Opu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maribel",
+          "lastName": "Hidalgo Urbaneja"
+        }
+      ],
+      "date": "08/2025",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "AI & SOCIETY",
+      "doi": "10.1007/s00146-025-02222-z",
+      "isbn": "",
+      "url": "https://link.springer.com/10.1007/s00146-025-02222-z",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature"
+      ]
+    },
+    {
+      "zotero_item_key": "EVSDLT9P",
+      "version": 8121,
+      "item_type": "journalArticle",
+      "title": "A survey on bias and fairness in machine learning",
+      "creators": "Mehrabi, Ninareh; Morstatter, Fred; Saxena, Nripsuta; Lerman, Kristina; Galstyan, Aram",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Ninareh",
+          "lastName": "Mehrabi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fred",
+          "lastName": "Morstatter"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nripsuta",
+          "lastName": "Saxena"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kristina",
+          "lastName": "Lerman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aram",
+          "lastName": "Galstyan"
+        }
+      ],
+      "date": "2021-04-30",
+      "year": "2021",
+      "publisher": "Association for Computing Machinery",
+      "publication_title": "ACM Computing Surveys",
+      "doi": "10.1145/3457607",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "classification",
+        "comp-archives",
+        "linked-data",
+        "methods",
+        "missingness",
+        "xai"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "NN546KRG",
+      "version": 8403,
+      "item_type": "book",
+      "title": "Data feminism",
+      "creators": "D'Ignazio, Catherine; Klein, Lauren F.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Catherine",
+          "lastName": "D'Ignazio"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lauren F.",
+          "lastName": "Klein"
+        }
+      ],
+      "date": "2020",
+      "year": "2020",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780262044004",
+      "url": "https://direct.mit.edu/books/book/2390355/data-feminism",
+      "tags": [
+        "missingness"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / d) Z"
+      ]
+    },
+    {
+      "zotero_item_key": "83PW9UJH",
+      "version": 8633,
+      "item_type": "book",
+      "title": "All data are local: thinking critically in a data-driven society",
+      "creators": "Loukissas, Yanni Alexander",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanni Alexander",
+          "lastName": "Loukissas"
+        }
+      ],
+      "date": "2019-04-30",
+      "year": "2019",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/11543.001.0001",
+      "isbn": "9780262352215",
+      "url": "https://direct.mit.edu/books/book/4323/All-Data-Are-LocalThinking-Critically-in-a-Data",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "KECD2SNK",
+      "version": 8629,
+      "item_type": "book",
+      "title": "All data are local: thinking critically in a data-driven society",
+      "creators": "Loukissas, Yanni Alexander",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanni Alexander",
+          "lastName": "Loukissas"
+        }
+      ],
+      "date": "2019-04-30",
+      "year": "2019",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/11543.001.0001",
+      "isbn": "9780262352215",
+      "url": "https://direct.mit.edu/books/book/4323/All-Data-Are-LocalThinking-Critically-in-a-Data",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "R7VLBAMX",
+      "version": 8635,
+      "item_type": "book",
+      "title": "All data are local: thinking critically in a data-driven society",
+      "creators": "Loukissas, Yanni Alexander",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanni Alexander",
+          "lastName": "Loukissas"
+        }
+      ],
+      "date": "2019-04-30",
+      "year": "2019",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/11543.001.0001",
+      "isbn": "9780262352215",
+      "url": "https://direct.mit.edu/books/book/4323/All-Data-Are-LocalThinking-Critically-in-a-Data",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "SJAA9MJH",
+      "version": 8637,
+      "item_type": "book",
+      "title": "All data are local: thinking critically in a data-driven society",
+      "creators": "Loukissas, Yanni Alexander",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanni Alexander",
+          "lastName": "Loukissas"
+        }
+      ],
+      "date": "2019-04-30",
+      "year": "2019",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/11543.001.0001",
+      "isbn": "9780262352215",
+      "url": "https://direct.mit.edu/books/book/4323/All-Data-Are-LocalThinking-Critically-in-a-Data",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "UQJJDP6R",
+      "version": 8639,
+      "item_type": "book",
+      "title": "All data are local: thinking critically in a data-driven society",
+      "creators": "Loukissas, Yanni Alexander",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanni Alexander",
+          "lastName": "Loukissas"
+        }
+      ],
+      "date": "2019-04-30",
+      "year": "2019",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/11543.001.0001",
+      "isbn": "9780262352215",
+      "url": "https://direct.mit.edu/books/book/4323/All-Data-Are-LocalThinking-Critically-in-a-Data",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "ZDE9TWLA",
+      "version": 8631,
+      "item_type": "book",
+      "title": "All data are local: thinking critically in a data-driven society",
+      "creators": "Loukissas, Yanni Alexander",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanni Alexander",
+          "lastName": "Loukissas"
+        }
+      ],
+      "date": "2019-04-30",
+      "year": "2019",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/11543.001.0001",
+      "isbn": "9780262352215",
+      "url": "https://direct.mit.edu/books/book/4323/All-Data-Are-LocalThinking-Critically-in-a-Data",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "JNKPINLT",
+      "version": 8623,
+      "item_type": "book",
+      "title": "Design justice: community-led practices to build the worlds we need",
+      "creators": "Costanza-Chock, Sasha",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Sasha",
+          "lastName": "Costanza-Chock"
+        }
+      ],
+      "date": "2020-03-03",
+      "year": "2020",
+      "publisher": "The MIT Press",
+      "publication_title": "",
+      "doi": "10.7551/mitpress/12255.001.0001",
+      "isbn": "9780262356862",
+      "url": "https://direct.mit.edu/books/book/4605/Design-JusticeCommunity-Led-Practices-to-Build-the",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "6NBF8S3B",
+      "version": 8625,
+      "item_type": "bookSection",
+      "title": "Design sites: hackerspaces, fablabs, hackathons, and DiscoTechs",
+      "creators": "Costanza-Chock, Sasha",
+      "creators_raw": [
+        {
+          "creatorType": "bookAuthor",
+          "firstName": "Sasha",
+          "lastName": "Costanza-Chock"
+        }
+      ],
+      "date": "2020-3-3",
+      "year": "2020",
+      "publisher": "The MIT Press",
+      "publication_title": "Design Justice",
+      "doi": "10.7551/mitpress/12255.003.0008",
+      "isbn": "9780262356862",
+      "url": "https://direct.mit.edu/books/book/4605/chapter/211372/Design-Sites-Hackerspaces-Fablabs-Hackathons-and",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "DQRB7KEC",
+      "version": 8627,
+      "item_type": "bookSection",
+      "title": "Directions for future work: from #TechWontBuildIt to #DesignJustice",
+      "creators": "Costanza-Chock, Sasha",
+      "creators_raw": [
+        {
+          "creatorType": "bookAuthor",
+          "firstName": "Sasha",
+          "lastName": "Costanza-Chock"
+        }
+      ],
+      "date": "2020-3-3",
+      "year": "2020",
+      "publisher": "The MIT Press",
+      "publication_title": "Design Justice",
+      "doi": "10.7551/mitpress/12255.003.0010",
+      "isbn": "9780262356862",
+      "url": "https://direct.mit.edu/books/book/4605/chapter/211376/Directions-for-Future-Work-From-TechWontBuildIt-to",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "XQUJGD5H",
+      "version": 8618,
+      "item_type": "bookSection",
+      "title": "Form/female follows function/male: feminist critiques of design",
+      "creators": "Attfield, Judy",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Judy",
+          "lastName": "Attfield"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "Bloomsbury Visual Arts",
+      "publication_title": "The Design History Reader",
+      "doi": "10.5040/9781350133532.ch-062",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "LXBXGPZK",
+      "version": 8621,
+      "item_type": "bookSection",
+      "title": "Introduction: #TravelingWhileTrans, design justice, and escape from the matrix of domination",
+      "creators": "Costanza-Chock, Sasha",
+      "creators_raw": [
+        {
+          "creatorType": "bookAuthor",
+          "firstName": "Sasha",
+          "lastName": "Costanza-Chock"
+        }
+      ],
+      "date": "2020-3-3",
+      "year": "2020",
+      "publisher": "The MIT Press",
+      "publication_title": "Design Justice",
+      "doi": "10.7551/mitpress/12255.003.0004",
+      "isbn": "9780262356862",
+      "url": "https://direct.mit.edu/books/book/4605/chapter/211367/Introduction-TravelingWhileTrans-Design-Justice",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "7XJ5YF7S",
+      "version": 8614,
+      "item_type": "journalArticle",
+      "title": "Situated knowledges: the science question in feminism and the privilege of partial perspective",
+      "creators": "Haraway, Donna",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Donna",
+          "lastName": "Haraway"
+        }
+      ],
+      "date": "1988",
+      "year": "1988",
+      "publisher": "",
+      "publication_title": "Feminist Studies",
+      "doi": "10.2307/3178066",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "2G4NLAX7",
+      "version": 8616,
+      "item_type": "book",
+      "title": "Whose science? Whose knowledge?",
+      "creators": "Harding, Sandra",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Sandra",
+          "lastName": "Harding"
+        }
+      ],
+      "date": "1991",
+      "year": "1991",
+      "publisher": "Cornell University Press",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780801497469",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 4. Feminist + situated knowledge / e) ADD"
+      ]
+    }
+  ]
+}
