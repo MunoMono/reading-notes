@@ -16,25 +16,17 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { key: 'XDUI2RMI', slug: 'attfield-kirkham-1989' }
-          - { key: 'Q2J6BJC3', slug: 'mordell-2019' }
-          - { key: '3Q945HJ4', slug: 'drucker-2011' }
-          - { key: 'NILDEWBS', slug: 'mackenzie-2017' }
-          - { key: 'BLXP9KKN', slug: 'vafaie-2025' }
-          - { key: '9DCLT45T', slug: 'visual-heritage-llm-2024' }
-          - { key: 'S8RBKWVC', slug: 'davis-2021' }
-          - { key: 'JUJF2IDA', slug: 'rockmore-2025' }
-          - { key: 'FCH5ELVJ', slug: 'umap-2020' }
-          - { key: 'XGW459UJ', slug: 'bernard-2025' }
-          - { key: 'Z9IN3FCV', slug: 'radharapu-2025' }
-          - { key: 'JFAP2JSU', slug: 'colavizza-2022' }
-          - { key: '5C923R7Y', slug: 'zaagsma-2023' }
-          - { key: 'ZJVVPAYV', slug: 'selyshcheva-2026' }
-          - { key: 'QW5HNSPT', slug: 'hedges-2022' }
-          - { key: 'QI2I6HJQ', slug: 'bender-2021' }
-          - { key: 'CVVHJD52', slug: 'asai-2026' }
-          - { key: 'PUUPT229', slug: 'nieto-mcavoy-2024' }
-          - { key: 'LUVAUXT2', slug: 'marciano-2022' }
+          - { key: 'S8RBKWVC', slug: 'davis-2021-linked-data' }
+          - { key: 'XGW459UJ', slug: 'bernard-2025-fairness-ir' }
+          - { key: 'Z9IN3FCV', slug: 'radharapu-2025-ambivalence' }
+          - { key: 'JFAP2JSU', slug: 'colavizza-2022-archives-ai' }
+          - { key: '5C923R7Y', slug: 'zaagsma-2023-politics-digitization' }
+          - { key: 'ZJVVPAYV', slug: 'selyshcheva-2026-generative-ai-source' }
+          - { key: 'QW5HNSPT', slug: 'hedges-2022-cas-intro' }
+          - { key: 'QI2I6HJQ', slug: 'bender-2021-stochastic-parrots' }
+          - { key: 'CVVHJD52', slug: 'asai-2026-rai-synthesis' }
+          - { key: 'PUUPT229', slug: 'nieto-mcavoy-2024-synthetic-heritage' }
+          - { key: 'LUVAUXT2', slug: 'marciano-2022-cas-discipline' }
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
