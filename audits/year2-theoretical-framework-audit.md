@@ -1,44 +1,85 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T09:18:56+00:00
+Generated: 2026-10-01T09:22:23+00:00
 
-Scoped only to Zotero **Theoretical framework** and descendants. Zotero access is read-only; this audit does not rewrite notes.
+Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
 ## Status summary
 
 | Status | Count |
 | --- | ---: |
 | COMPLIANT | 0 |
-| SECOND PASS REQUIRED | 46 |
-| FIRST PASS REQUIRED | 39 |
+| SECOND PASS REQUIRED | 45 |
+| FIRST PASS REQUIRED | 8 |
 | REVIEW MATCH | 0 |
 
-**Unique Zotero items in scope:** 85
-**Repo-only theoretical-framework notes needing parity review:** 2
+**Active Zotero items in scope:** 53
+**Deferred placeholder-only items (d/e):** 32
+**Repo-only theoretical-framework notes needing parity review:** 3
 
-## Zotero collection counts
+## Active Zotero collection counts
 
 | Collection path | Top-level items |
 | --- | ---: |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | 3 |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | 7 |
 | Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature | 1 |
-| Theoretical framework / 1. Critical design histriography / d) Z | 5 |
-| Theoretical framework / 1. Critical design histriography / e) ADD | 3 |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | 10 |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | 4 |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | 5 |
-| Theoretical framework / 2. Critical archival theory / d) Z | 5 |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | 4 |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | 5 |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | 11 |
-| Theoretical framework / 3. Critical computational approaches / d) Z | 4 |
-| Theoretical framework / 3. Critical computational approaches / e) ADD | 2 |
 | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | 2 |
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | 5 |
 | Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature | 1 |
-| Theoretical framework / 4. Feminist + situated knowledge / d) Z | 2 |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | 13 |
+
+## Collection parity warnings
+
+- Zotero collection label appears misspelled: 'histriography' should match North Star 'historiography'. — Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage
+- Zotero collection label appears misspelled: 'histriography' should match North Star 'historiography'. — Theoretical framework / 1. Critical design histriography / b) Operational literature
+- Zotero collection label appears misspelled: 'histriography' should match North Star 'historiography'. — Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature
+- Zotero collection label appears misspelled: 'histriography' should match North Star 'historiography'. — Theoretical framework / 1. Critical design histriography / d) Z
+- Zotero collection label appears misspelled: 'histriography' should match North Star 'historiography'. — Theoretical framework / 1. Critical design histriography / e) ADD
+
+## Deferred placeholder inventory
+
+These sources live only in placeholder folders **d) Z** or **e) ADD** and are not part of the active Year 2 pass until re-filed into a/b/c.
+
+| Zotero path | Source | Year |
+| --- | --- | ---: |
+| Theoretical framework / 1. Critical design histriography / d) Z | Computing, design, art: reflections on an innovative moment in history | 2016 |
+| Theoretical framework / 1. Critical design histriography / d) Z | Design history: understanding theory and method | 2010 |
+| Theoretical framework / 1. Critical design histriography / d) Z | Introduction: design research – history, theory, practice: histories for future - focused thinking | 2016 |
+| Theoretical framework / 1. Critical design histriography / d) Z | New design knowledge and the fifth order of design | 2022 |
+| Theoretical framework / 1. Critical design histriography / e) ADD | It's personal: subjectivity in design history | 2015 |
+| Theoretical framework / 1. Critical design histriography / e) ADD | The state of design history, part I: mapping the field | 1984 |
+| Theoretical framework / 1. Critical design histriography / e) ADD | The state of design history, part II: problems and possibilities | 1984 |
+| Theoretical framework / 2. Critical archival theory / d) Z | General international standard archival description | 2000 |
+| Theoretical framework / 2. Critical archival theory / d) Z | (mis)matching metadata: improving accessibility in digital visual archives through the EyCon project | 2023 |
+| Theoretical framework / 2. Critical archival theory / d) Z | Oral history theory | 2016 |
+| Theoretical framework / 2. Critical archival theory / d) Z | The archival sliver: power, memory, and archives in south africa | 2002 |
+| Theoretical framework / 3. Critical computational approaches / d) Z | Collections as data: part to whole |  |
+| Theoretical framework / 3. Critical computational approaches / d) Z | Graphesis: visual forms of knowledge production | 2014 |
+| Theoretical framework / 3. Critical computational approaches / d) Z | Introduction to information retrieval | 2009 |
+| Theoretical framework / 3. Critical computational approaches / d) Z | The interconnectedness of all things: understanding digital collections through file similarity | 2024 |
+| Theoretical framework / 3. Critical computational approaches / e) ADD | “raw data” is an oxymoron | 2013 |
+| Theoretical framework / 3. Critical computational approaches / e) ADD | "where is cultural criticism in the digital humanities?" | 2011 |
+| Theoretical framework / 4. Feminist + situated knowledge / d) Z | A survey on bias and fairness in machine learning | 2021 |
+| Theoretical framework / 4. Feminist + situated knowledge / d) Z | Data feminism | 2020 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Design justice: community-led practices to build the worlds we need | 2020 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Design sites: hackerspaces, fablabs, hackathons, and DiscoTechs | 2020 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Directions for future work: from #TechWontBuildIt to #DesignJustice | 2020 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Form/female follows function/male: feminist critiques of design | 2025 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Introduction: #TravelingWhileTrans, design justice, and escape from the matrix of domination | 2020 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Situated knowledges: the science question in feminism and the privilege of partial perspective | 1988 |
+| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Whose science? Whose knowledge? | 1991 |
 
 ## SECOND PASS REQUIRED
 
@@ -89,7 +130,6 @@ Scoped only to Zotero **Theoretical framework** and descendants. Zotero access i
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | AI, cultural heritage, and bias: some key queries that arise from the use of GenAI | 2024 | public/docs/F/Foka2024AICulturalHeritageBias.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | Ethnic minorities in online museum collections: skews and bias in digital material culture | 2025 | public/docs/K/Kizhner2025EthnicMinoritiesCollections.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions | 2025 | public/docs/J/jaillantHowCanWe2025.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Situated knowledges: the science question in feminism and the privilege of partial perspective | 1988 | public/docs/H/2026SituatedKnowledgesScience.md | only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 
 ## FIRST PASS REQUIRED
 
@@ -97,43 +137,12 @@ Scoped only to Zotero **Theoretical framework** and descendants. Zotero access i
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Design history and the history of design | 1990 |  | no matching reading note |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Objects of desire: design and society since 1750 | 1992 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / b) Operational literature<br>Theoretical framework / 1. Critical design histriography / d) Z | A history of design methodology | 1993 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / d) Z | Computing, design, art: reflections on an innovative moment in history | 2016 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / d) Z | Design history: understanding theory and method | 2010 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / d) Z | Introduction: design research – history, theory, practice: histories for future - focused thinking | 2016 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / d) Z | New design knowledge and the fifth order of design | 2022 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / e) ADD | It's personal: subjectivity in design history | 2015 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / e) ADD | The state of design history, part I: mapping the field | 1984 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / e) ADD | The state of design history, part II: problems and possibilities | 1984 |  | no matching reading note |
+| Theoretical framework / 1. Critical design histriography / b) Operational literature | A history of design methodology | 1993 |  | no matching reading note |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Archival silences: missing, lost and, uncreated archives | 2021 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature<br>Theoretical framework / 2. Critical archival theory / d) Z | Applying AI to digital archives: trust, collaboration and shared professional ethics | 2023 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / d) Z | General international standard archival description | 2000 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / d) Z | (mis)matching metadata: improving accessibility in digital visual archives through the EyCon project | 2023 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / d) Z | Oral history theory | 2016 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / d) Z | The archival sliver: power, memory, and archives in south africa | 2002 |  | no matching reading note |
+| Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | Applying AI to digital archives: trust, collaboration and shared professional ethics | 2023 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Machine learners: archaeology of a data practice | 2017 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | Explainable search and discovery of visual cultural heritage collections with multimodal large language models | 2024 |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / d) Z | Collections as data: part to whole |  |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / d) Z | Graphesis: visual forms of knowledge production | 2014 |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / d) Z | Introduction to information retrieval | 2009 |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / d) Z | The interconnectedness of all things: understanding digital collections through file similarity | 2024 |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / e) ADD | “raw data” is an oxymoron | 2013 |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / e) ADD | "where is cultural criticism in the digital humanities?" | 2011 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / d) Z | A survey on bias and fairness in machine learning | 2021 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / d) Z | Data feminism | 2020 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | All data are local: thinking critically in a data-driven society | 2019 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Design justice: community-led practices to build the worlds we need | 2020 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Design sites: hackerspaces, fablabs, hackathons, and DiscoTechs | 2020 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Directions for future work: from #TechWontBuildIt to #DesignJustice | 2020 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Form/female follows function/male: feminist critiques of design | 2025 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Introduction: #TravelingWhileTrans, design justice, and escape from the matrix of domination | 2020 |  | no matching reading note |
-| Theoretical framework / 4. Feminist + situated knowledge / e) ADD | Whose science? Whose knowledge? | 1991 |  | no matching reading note |
 
 ## REVIEW MATCH
 
@@ -150,6 +159,7 @@ These GitHub notes declare theoretical-framework metadata but did not match an i
 | Note | Title | Filing path |
 | --- | --- | --- |
 | public/docs/A/ArnoldExplainableSearchDiscovery.md | Explainable search and discovery | Theoretical framework / Critical computational approaches / Operational literature |
+| public/docs/H/2026SituatedKnowledgesScience.md | Situated knowledges: the science question in feminism and the privilege of partial perspective | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage |
 | public/docs/M/Moss2021ArchivalSilencesMissing.md | Theorising the silences | Theoretical framework / Critical archival theory / Canon + intellectual lineage |
 
 ## Interpretation
