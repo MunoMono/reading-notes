@@ -11,106 +11,160 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Bridge text"
-model_subcluster: "S2.1 Bridge text"
+theoretical_framework_area_id: "2"
+theoretical_framework_area: "Critical archival theory"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / b) Operational literature"
 source_type: "Core text"
 project_tags:
-  - "Turin"
-last_updated: "16 Sept 2026, 12:14"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Bridge text  
-**Sub-cluster:** S2.1 Bridge text  
-**Source type:** Core text  
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- Oral histories and situated knowledge
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / b) Operational literature  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a core oral history methodology text to justify using interviews not as supplements to the archive, but as meaning-making sources in their own right.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Bridge section; it helps me say that oral histories contribute not only facts but interpretations, relations between past and present, and narratives of survival, labour, and memory that archives alone cannot stabilise.  
-**Why this term, not alternatives (1–2 lines):** Portelli is more useful than a generic interviews-methods text because he explains exactly what is specific about oral history: it asks what events mean, how memory is structured, and how narrators position themselves historically.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Portelli where oral histories are being read for meaning, narrative form, memory work, and lived aftermath, not merely mined for factual confirmation or contradiction.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Portelli writes as one of the foundational figures in oral history, here reflecting on the Fosse Ardeatine massacre through a lecture first delivered in 2005 and published in 2009. The essay is methodological, but in narrative form: rather than laying out abstract rules, he demonstrates oral history through stories of massacre, memory, mourning, false memory, and survival. `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 21–22, 29–30]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is strongest when used against positivist habits that treat interviews as defective documents. Portelli insists that subjectivity, false memory, and narrative form are not flaws to be corrected away but constitutive parts of what oral history knows. `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 22, 24–26, 29–30]`
+**How this source moves the primary research question forward:** Portelli explains what oral history can establish that archival documents often cannot: the meaning of events, the history of memory, lived aftermath and stories that official evidential systems did not ask for.
 
-# The author’s main move (1 sentence)
-He argues that oral history is different because it is centrally concerned with meaning, memory, and relationship, in order to show that interviews reveal how people make history live in the present rather than merely recalling past facts.
+**How this source bears on the secondary question:** Retrospective narration shows how past ideas and institutions acquire new meanings in later lives, making oral history directly relevant to asking what DDR's period can mean for design research now.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It is the core methodological defence for treating DDR interviews as interpretative sources rather than defective documents.
+
+**Where it sits in my argument:** Operational literature. It informs how interviews are conducted, triangulated and written alongside archival records.
+
+**My benchmark for using it:** I will read errors and narrative form historically only when I can explain what the pattern reveals; not every inconsistency will be treated as profound.
+
+# Position + moment
+
+Portelli demonstrates method through the memory of the 1944 Fosse Ardeatine massacre. The essay is less a procedural manual than an enacted argument: factual event reconstruction is held alongside false memory, public and private narratives, gendered aftermath and the interview relationship. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 21–30]
+
+# The author’s main move
+
+Portelli argues that oral history is distinctive because it studies relationships and meanings: how people narrate the past from the present, how false memories acquire social force, and how interviews make otherwise-unrecorded lives historically visible. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 21–30]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Portelli argues that oral history asks not only what happened, but what it means.
-- **Evidence (quote/paraphrase + page):** Early in the essay he says oral history is “a work of relationships,” including the relationship between past and present, interviewer and interviewee, and oral narrative and written history. He then states directly that while more conventional history is primarily interested in what happened, oral history “also asks another question: what does it mean?” `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 21–22]`
-- **Warrant (my words):** This is the methodological hinge of the essay. Portelli is distinguishing oral history from fact-gathering by relocating its strength in interpretation, relation, and present meaning.
-- **So what for my thesis (a reusable sentence):** Portelli lets me frame DDR oral histories as sources for the meaning of design research, institutional life, and archival absence in retrospect, not only as reservoirs of correctable detail.
-- **Practice cross-check:** DDR staff, student, and external stakeholder oral-history interviews are read as testimony, memory, and contested traces.
+- **Claim (plain):** Oral history asks what events mean, not only what happened.
+- **Author claim:** Portelli defines oral history as a work of relationships among past and present, interviewer and interviewee, oral narrative and written history.
+- **Evidence-supported claim:** Pages 21–22 explicitly contrast conventional reconstruction with the oral-history question “what does it mean?”
+- **Researcher inference:** DDR interviews can illuminate the meaning participants now give design research, departmental life and institutional change.
+- **Evidence (quote/paraphrase + page):** Portelli says oral history “also asks another question: what does it mean?” [@Portelli2009WhatMakesOralHistoryDifferent, pp. 21–22]
+- **Warrant (my words):** Retrospective meaning is historical evidence about the afterlife of events even when it is not contemporaneous evidence of those events.
+- **Boundary:** Meaning cannot substitute for documentary corroboration of specific factual claims.
+- **Consequence:** Testimony and contemporary records should answer different but intersecting questions.
+- **Practice cross-check:** Label oral testimony as retrospective and use document-level evidence for claims about contemporary actions.
 
 ## Claim 2
-- **Claim (plain):** Portelli shows that false memory is historically important because it reveals ideological need and the social work of memory.
-- **Evidence (quote/paraphrase + page):** In discussing the dominant but false memory that the Nazis posted bills asking the partisans to surrender before the Fosse Ardeatine massacre, Portelli demonstrates that this never happened, yet the story persists because it supports a wider ideological narrative blaming the Resistance. He says the mechanics of the event were relatively easy to establish, but what is difficult and historically significant is “the memory,” including false memory. `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 24–27]`
-- **Warrant (my words):** This is crucial because it refuses the idea that inaccurate memory is useless. For Portelli, the persistence of a false story tells us what a community needs the past to mean.
-- **So what for my thesis:** Portelli gives me a strong method for treating inconsistencies, retrospective myths, or founder narratives around DDR not simply as mistakes but as clues to the contested meanings attached to the department and its legacy.
-- **Practice cross-check:** DDR oral histories are treated as situated retrospective testimony whose divergences and errors may themselves carry historical meaning rather than as replacements for documentary fact.
+- **Claim (plain):** Oral history reconstructs the history of memory as well as the history of events.
+- **Author claim:** Portelli says researchers need to study the way an event has been remembered, not merely its mechanics.
+- **Evidence-supported claim:** Pages 24–27 show popular memory of the massacre taking forms that differ from established event chronology.
+- **Researcher inference:** Recurring DDR stories about founders, closure or methodological identity can be studied as institutional memory even when their factual details require correction.
+- **Evidence (quote/paraphrase + page):** Portelli explicitly says oral history reconstructs “the history of its memory.” [@Portelli2009WhatMakesOralHistoryDifferent, pp. 24–27]
+- **Warrant (my words):** The persistence and structure of a story tell us how communities use the past.
+- **Boundary:** A widely shared memory is not automatically historically accurate.
+- **Consequence:** The thesis should distinguish “remembered DDR” from “documented DDR.”
+- **Practice cross-check:** Compare recurring interview narratives with contemporary project and governance records.
 
 ## Claim 3
-- **Claim (plain):** Portelli argues that oral history brings historically significant but otherwise unrecorded experiences into view by centring narrators’ own lives.
-- **Evidence (quote/paraphrase + page):** Near the end he distinguishes testimony from oral history by saying that in oral history “the narrator is the protagonist, the center of the tale.” He explains that courts and media wanted witnesses to speak only about the dramatic event of March 1944, but his interest was in “the stories that radiated out of them,” especially the lives of survivors. He shows this through stories of women’s labour, grief, social stigma, bureaucratic humiliation, and sexual harassment that never entered official history because no one had asked about them and narrators did not know they were historically significant. `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 27–30]`
-- **Warrant (my words):** This is the essay’s strongest practical lesson. Oral history changes the scale and centre of historical narration by making everyday aftermath, gendered experience, and long survival historically legible.
-- **So what for my thesis:** Portelli gives me a method for using oral histories to surface the afterlives, support labour, gendered experiences, and unofficial meanings of DDR that may not appear in formal records.
-- **Practice cross-check:** The interview methodology and testimonial-evidence model retain oral histories as situated accounts of memory, labour, and contested traces.
+- **Claim (plain):** False memory can reveal ideological need.
+- **Author claim:** Portelli analyses the false belief that public notices asked partisans to surrender before the massacre and explains why the story remains credible.
+- **Evidence-supported claim:** Pages 24–27 show the false narrative shifting responsibility and supporting a broader political interpretation of the Resistance.
+- **Researcher inference:** Factual errors in DDR testimony may reveal investments in particular institutional narratives rather than simply unreliable witnesses.
+- **Evidence (quote/paraphrase + page):** Portelli demonstrates that the false story persisted despite documentary evidence because it performed ideological work. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 24–27]
+- **Warrant (my words):** A memory's divergence from fact can itself be historically significant if its narrative function is established.
+- **Boundary:** The researcher must first establish the factual discrepancy independently.
+- **Consequence:** Contradictions should trigger triangulation before interpretation.
+- **Practice cross-check:** Mark discrepancies, seek contemporary evidence, then analyse narrative significance separately.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Oral history as a work of relationships:** a practice linking past and present, interviewer and interviewee, and oral narration and later historical form; I will use this to frame interviews as co-produced historical work rather than raw extraction. `[@Portelli2009WhatMakesOralHistoryDifferent, p. 21]`
-- **Meaning:** the interpretative charge of an event for later narrators and communities; I will use this term to distinguish oral-history value from factual verification alone. `[@Portelli2009WhatMakesOralHistoryDifferent, p. 22]`
-- **False memory:** a historically significant narrative that may be factually wrong but socially revealing; I will use this cautiously where recurring DDR stories expose ideological or institutional investments. `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 24–27]`
-- **Narrative space:** the space opened by the interview in which narrators move beyond the historian’s explicit agenda; I will use this as a practical interview principle, especially for eliciting marginal or unexpected histories. `[@Portelli2009WhatMakesOralHistoryDifferent, pp. 29–30]`
-- **Stories that radiated out:** Portelli’s way of describing the afterlives and social consequences of a major event; I will use this to think about how DDR’s formal history radiates into later careers, memories, and institutional traces. `[@Portelli2009WhatMakesOralHistoryDifferent, p. 29]`
+## Claim 4
+- **Claim (plain):** Public memory can conceal differentiated private and gendered memories.
+- **Author claim:** Portelli shows that a supposedly unitary memorial narrative contains distinct experiences, including women's grief, powerlessness and survivor experience.
+- **Evidence-supported claim:** Pages 27–29 discuss tension between public and private memory and show how gender shaped who survived and how loss was experienced.
+- **Researcher inference:** An institutional DDR narrative may obscure differently gendered experiences of labour, recognition and career consequence.
+- **Evidence (quote/paraphrase + page):** Portelli asks not only about public versus private memory but “whose private memory,” foregrounding women's experience. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 27–29]
+- **Warrant (my words):** Collective narratives can homogenise experiences that were unevenly distributed by gender and social role.
+- **Boundary:** The Fosse Ardeatine case cannot be analogised morally to DDR; only the methodological point about differentiated memory transfers.
+- **Consequence:** DDR interviews should actively seek role- and gender-specific memories rather than a single departmental story.
+- **Practice cross-check:** Keep feminist prompts on authorship, support labour and recognition in interview guides.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me the clearest justification for treating oral histories as meaning-making sources.
-  - It is especially useful for handling contradiction, myth, and retrospective narration without panic.
-  - It opens a path for bringing gendered aftermath, everyday labour, and unofficial experience into the thesis.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat oral histories about DDR as interpretative acts shaped by present concerns, not as defective records waiting to be corrected by documents.
-  - I will use Portelli to connect oral testimony to archive reading, especially where the archive is silent about lived aftermath, support work, or unofficial meanings.
-- **What question it raises next (1–2 bullets):**
-  - Which recurring stories about DDR function like Portelli’s false memories, revealing not just error but ideological need?
-  - How can I design interviews that allow narrators to move beyond official departmental history into the stories that radiated out of it?
+## Claim 5
+- **Claim (plain):** Oral history centres the narrator's life rather than extracting only event-relevant testimony.
+- **Author claim:** Portelli distinguishes oral history from courts/media by making the narrator the protagonist and following the “stories that radiated out” from the focal event.
+- **Evidence-supported claim:** Pages 27–30 show interviews surfacing long-term survival, labour, stigma and experiences that official testimony did not ask about.
+- **Researcher inference:** DDR interviews should follow later careers, identities and consequences beyond formal project history.
+- **Evidence (quote/paraphrase + page):** Portelli says “the narrator is the protagonist” and describes histories radiating out from the event into whole lives. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 27–30]
+- **Warrant (my words):** Historical significance often lies in consequences and lived experience not captured by administrative files.
+- **Boundary:** Life-history breadth must remain relevant to the research question and ethical consent.
+- **Consequence:** Interview guides should allow follow-up beyond the archive's own categories.
+- **Practice cross-check:** Use prompts on career afterlives, teaching, relationships and institutional memory.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the bridge section where I introduce oral history as a distinct kind of evidence, and in the methods chapter where I justify reading interviews for meaning, narrative form, and situated memory rather than only factual corroboration.
-- **Where I will name the title in running text (first-use rule):** First mention in the oral-history bridge section: *In “What Makes Oral History Different” (2009), Alessandro Portelli argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside DDR staff, student, and external stakeholder oral-history interviews.
-- **Workstreams →** Bridge text; oral-history method; archive interpretation; gender-gap thread.
-- **Deliverables →** Oral-history methods paragraph; bridge section draft; footnote trail on memory and meaning; interview rationale.
-- **Stakeholders →** Examiners; supervisors; oral historians; archival studies readers; design history readers.
+## Claim 6
+- **Claim (plain):** The interview creates a narrative space rather than a closed question–answer transaction.
+- **Author claim:** Portelli describes the interviewer as opening space that the narrator can explore, allowing unexpected stories to emerge.
+- **Evidence-supported claim:** Pages 29–30 discuss the problem of generalising from one life and the value of narrative exploration across interviews.
+- **Researcher inference:** DDR discussion guides should provide structure but permit narrators to redirect attention toward issues the archival framing overlooked.
+- **Evidence (quote/paraphrase + page):** Portelli says an interview is not a question-and-answer session but “the opening of a narrative space.” [@Portelli2009WhatMakesOralHistoryDifferent, pp. 29–30]
+- **Warrant (my words):** Overly rigid questioning reproduces the researcher's prior categories and can suppress unexpected evidence.
+- **Boundary:** Open narrative space does not remove the need for comparable core questions across the sample.
+- **Consequence:** The method should combine common “killer questions” with responsive prompts.
+- **Practice cross-check:** The staff/student/stakeholder guides already use a common core with flexible prompts.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This text is strongest as a methodological defence of oral history and does not by itself tell me which DDR interviews will be most revealing.
-- **Risk if misused (1 sentence):** If I use Portelli too loosely, I could romanticise narrative and treat every inconsistency as profound rather than showing why a given memory pattern matters historically.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Work of relationships:** oral history as relation among past/present, interviewer/narrator and oral/written forms. [@Portelli2009WhatMakesOralHistoryDifferent, p. 21]
+- **Meaning:** the present interpretative significance attached to past events. [@Portelli2009WhatMakesOralHistoryDifferent, p. 22]
+- **False memory:** factually incorrect recollection that may nonetheless reveal social or ideological meanings. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 24–27]
+- **Narrative space:** interview space in which narrators can move beyond the researcher's explicit agenda. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 29–30]
+
+# My response
+
+Portelli provides the cleanest basis for keeping oral history epistemically distinct from the archive. Interviews are neither substitutes for missing records nor merely secondary confirmation. They reveal meanings, memory structures and lives that official records often did not record. That makes them vital for DDR, especially for gendered labour and institutional afterlives, but it also reinforces the need to separate retrospective narration from contemporary evidence when making factual claims.
+
+# Integration hooks
+
+**Where I will cite it:** Oral-history methods; triangulation; feminist/gendered memory; interpretation of contradictions.
+
+**Link to my practice evidence:** DDR staff, student and stakeholder interviews can be analysed for factual traces, memory form and narrative meaning as separate dimensions.
+
+**Workstreams →** Oral history; institutional memory; feminist critique.  
+**Deliverables →** Methods chapter; interview-analysis framework.
+
+# Boundary + risk
+
+**Boundary:** Portelli demonstrates method through one traumatic historical case and does not specify a complete interview-analysis protocol.
+
+**Risk if misused:** Treating every mistaken recollection as meaningful would romanticise error and weaken evidential discipline.
+
+# Cross-source / cross-lens synthesis
+
+Portelli supplies the interpretative depth behind Thomson's field history. Thomson shows how oral history learned to take memory and interviewer subjectivity seriously; Portelli demonstrates what that means analytically. Carter and Gilliland/Caswell add archival absence and imagined records, clarifying why testimony can make meanings visible without becoming a synthetic replacement for missing documents. For DDR, oral history therefore expands the archive while remaining a separately typed evidential layer.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -118,20 +172,20 @@ He argues that oral history is different because it is centrally concerned with 
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 21–22, 24–27, 29–30
-- **First full note (write it out here):**  
-  Alessandro Portelli, “What Makes Oral History Different,” in *Oral History, Oral Culture, and Italian Americans*, ed. Luisa Del Giudice (New York: Palgrave Macmillan, 2009), 21–30.
-- **Short note form:**  
-  Portelli, “What Makes Oral History Different,” 21–22.
-- **One quote worth lifting (≤2 lines):** “oral history also asks another question: what does it mean?” (p. 22)
-- **One paraphrase worth keeping:** Portelli argues that oral history is distinctive because it is concerned with the meanings people give to events, the narratives they construct in the present, and the otherwise-unrecorded lives that radiate outward from official history. (pp. 21–22, 29–30)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Suchman, “Located Accountabilities in Technology Production”
-- Buckley, “Made in Patriarchy”
-- Gilliland and Caswell, “Records and Their Imaginaries”
+- **Key pages to reuse:** 21–30
+- **First full note:** Alessandro Portelli, “What Makes Oral History Different,” in *Oral History, Oral Culture, and Italian Americans*, ed. Luisa Del Giudice (New York: Palgrave Macmillan, 2009), 21–30, https://doi.org/10.1057/9780230101395_2.
+- **Short note form:** Portelli, “What Makes Oral History Different,” 21–22.
+- **One quote worth lifting:** oral history “also asks another question: what does it mean?” (p. 22)
+- **One paraphrase worth keeping:** Portelli argues that oral history reveals the meanings, memory structures and lived afterlives through which people make sense of the past, including factually incorrect memories that may perform identifiable social or ideological work. [@Portelli2009WhatMakesOralHistoryDifferent, pp. 21–30]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A second oral-history methods text or one of your actual DDR interviews, so I can test Portelli against your own material rather than leaving it as method theory.
-- What I will test or write next: Draft the paragraph that distinguishes archival traces from oral-history narration, then note one place where an interview might surface meanings, myths, or afterlives that the archive alone cannot.
+# Related works
+
+- Thomson, “Four Paradigm Transformations in Oral History.”
+- Carter, “Of Things Said and Unsaid.”
+- Gilliland and Caswell, “Records and Their Imaginaries.”
+
+# Follow-ups
+
+- **What I will test next:** Add separate interview-analysis fields for factual claim, memory/narrative pattern and present meaning.
