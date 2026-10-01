@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:50:58+00:00",
+  "generated_at": "2026-10-01T10:00:43+00:00",
   "scope": {
     "root_collection_name": "Theoretical framework",
     "root_collection_key": "V4KYURGK",
@@ -1258,7 +1258,7 @@
             ]
           },
           "4": {
-            "present": false,
+            "present": true,
             "complete": false,
             "missing_or_placeholder": [
               "Author claim",
@@ -1274,7 +1274,7 @@
             ]
           },
           "5": {
-            "present": false,
+            "present": true,
             "complete": false,
             "missing_or_placeholder": [
               "Author claim",
@@ -1290,7 +1290,7 @@
             ]
           },
           "6": {
-            "present": false,
+            "present": true,
             "complete": false,
             "missing_or_placeholder": [
               "Author claim",
@@ -1306,22 +1306,17 @@
             ]
           }
         },
-        "synthesis_complete": false,
-        "metadata_complete": false,
+        "synthesis_complete": true,
+        "metadata_complete": true,
         "required_markers": {
           "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
           "chicago_payload": true
         },
         "reasons": [
-          "missing Zotero-parity framework metadata",
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
+          "only 0/6 claims pass completeness check"
         ]
       }
     },

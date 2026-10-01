@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T09:50:58+00:00
+Generated: 2026-10-01T10:00:43+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -85,7 +85,7 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage<br>Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | Made in patriarchy: toward a feminist analysis of women and design | 1986 | public/docs/B/Buckley1986MadePatriarchy.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
+| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage<br>Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | Made in patriarchy: toward a feminist analysis of women and design | 1986 | public/docs/B/Buckley1986MadePatriarchy.md | only 0/6 claims pass completeness check |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | A dialogue between the real-world and the operational model–the realities of design in bruce archer's 1968 doctoral thesis | 2017 | public/docs/B/BoydDavis2017DialogueRealworldOperational.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | A view of the nature of design research | 1981 | public/docs/A/Archer1981ViewNatureDesign.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Design methods | 1992 | public/docs/J/Jones1992DesignMethods.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
