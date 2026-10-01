@@ -81,8 +81,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 
 ## Claim 1
 
-**Historiographic methods actively structure exclusion.**
-
 - **Claim (plain):** Buckley's opening move is to treat women's absence from design history as an effect of historiographic method rather than as a random gap in historical coverage.
 - **Author claim:** She argues that the silences surrounding women's participation are not accidental; they follow from methods of selection, classification, and prioritisation that determine which types of design, designers, styles, movements, and modes of production enter history.
 - **Evidence-supported claim:** Page 3 explicitly links omission to "specific historiographic methods" and states that those methods are biased against women. The evidence therefore warrants a claim about the structuring effect of historiography on visibility, not merely a claim that individual historians forgot particular women.
@@ -94,8 +92,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 - **Practice cross-check:** TODO (test against DDR evidence: identify a case where the archive or later literature can show how an actor, activity, or mode of production was selected, marginalised, or omitted).
 
 ## Claim 2
-
-**Feminist historiography widens both historical agency and the evidence base.**
 
 - **Claim (plain):** Buckley treats feminist history as a methodological challenge to histories organised around exceptional individuals, professional institutions, and official documentation.
 - **Author claim:** Drawing on feminist historical practice, she argues for attention to domestic labour and non-professional activity and notes the use of alternative evidence, including oral sources, to counterbalance official documentation.
@@ -109,8 +105,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 
 ## Claim 3
 
-**Gendered value is produced through institutions, labour divisions, and the naturalisation of skill.**
-
 - **Claim (plain):** Buckley argues that design's gender hierarchy is reproduced by treating particular skills and activities as naturally female or male, then attaching different levels of value to them.
 - **Author claim:** She describes patriarchy as shaping occupations and social roles, naturalising women's supposed dexterity, decorativeness, patience, and meticulousness, and associating women with decorative and domestic design while giving higher status to areas such as industrial design.
 - **Evidence-supported claim:** Pages 4–6 connect sex-specific stereotypes to design occupations, contrast the status of industrial design with knitted textiles, show how women's skills are treated as innate rather than intellectual, and describe education as materially reinforcing the hierarchy.
@@ -122,8 +116,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 - **Practice cross-check:** TODO (test role titles and credited contributions in DDR records against evidence of actual activity; do not infer hierarchy from title alone).
 
 ## Claim 4
-
-**Historiographic value is shaped by where design is produced and whether it enters exchange.**
 
 - **Claim (plain):** Buckley shows that the professional/domestic divide and the hierarchy of exchange-value over use-value can determine whether design work is preserved and treated as historically significant.
 - **Author claim:** She argues that domestic production is devalued because it occurs in the "wrong" place and for the "wrong" market, and she warns historians against valuing professional production more highly than domestic production.
@@ -137,8 +129,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 
 ## Claim 5
 
-**The definition of design is itself a mechanism of historical inclusion and exclusion.**
-
 - **Claim (plain):** Buckley argues that a definition of design centred on mass-produced objects excludes other modes of production and therefore pre-structures the historical field.
 - **Author claim:** She criticises definitions of design history that privilege mass-produced objects and argues that excluding craft from design history also excludes much of what women historically designed.
 - **Evidence-supported claim:** Page 7 states that feminist critique requires a redefinition of what constitutes design, identifies the privileging of mass production as a disciplinary boundary, and explains that craft production was often one of the few modes available to women because access to factories and design-school training was restricted.
@@ -150,8 +140,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 - **Practice cross-check:** TODO (compare the thesis's operational definition of design knowledge against DDR catalogue categories and identify any activities the catalogue places outside that definition).
 
 ## Claim 6
-
-**Design history must include consumers, representation, and use rather than treating designers as the sole historical agents.**
 
 - **Claim (plain):** Buckley extends the object of design history from designers and designed artefacts to the social relations through which products are used, marketed, and interpreted.
 - **Author claim:** She argues that design is a collective process and criticises the neglect of consumers, while showing how assumptions about women's domestic role shape both product design and advertising.
@@ -165,8 +153,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 
 ## Claim 7
 
-**Designer-centred monographs collapse a distributed process into individual authorship.**
-
 - **Claim (plain):** Buckley's strongest methodological challenge is to the designer as the privileged unit of historical explanation and to the monograph as the form that sustains that privilege.
 - **Author claim:** She argues that biographies and monographs attach meaning to a named designer, isolate design from its material origins and functions, and obscure the multiple people and organisations involved in development, production, circulation, and use.
 - **Evidence-supported claim:** Pages 10–12 explicitly criticise attribution and authentication centred on the individual designer, describe design meaning as polysemic, state that design is a collective process, and call the monograph inadequate for analysing production and consumption, especially where work is unnamed, unattributed, or collectively produced.
@@ -178,8 +164,6 @@ Buckley uses feminist theory to show that women's marginalisation in design hist
 - **Practice cross-check:** TODO (test one named DDR figure against project/team/institutional traces and record where the evidence supports individual, collective, or ambiguous attribution).
 
 ## Claim 8
-
-**"Good design" and modernist innovation operate as historical filters rather than neutral criteria.**
 
 - **Claim (plain):** Buckley argues that seemingly universal standards of good design and taste are socially situated value systems that influence what historians admit to the canon.
 - **Author claim:** She contends that aesthetic definitions of good and bad design detach objects from material and ideological conditions, and that modernist emphasis on formal and technical innovation has privileged novelty while marginalising traditional work, craft, and fashion.
