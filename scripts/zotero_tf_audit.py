@@ -346,7 +346,7 @@ def build_audit(items, notes):
     return results, repo_only
 
 def is_active_cluster_path(path: str) -> bool:
-    return bool(re.search(r" / [abc]\\) ", path))
+    return bool(re.search(r" / [abc]\) ", path))
 
 
 def split_active_and_deferred(items):
