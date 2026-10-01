@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:37:52+00:00",
+  "generated_at": "2026-10-01T10:39:22+00:00",
   "scope": {
     "root_collection_name": "Theoretical framework",
     "root_collection_key": "V4KYURGK",
@@ -1118,11 +1118,11 @@
   "summary": {
     "zotero_item_count": 53,
     "deferred_placeholder_item_count": 32,
-    "github_note_count_scanned": 82,
+    "github_note_count_scanned": 83,
     "status_counts": {
-      "COMPLIANT": 3,
+      "COMPLIANT": 4,
       "SECOND PASS REQUIRED": 42,
-      "FIRST PASS REQUIRED": 8,
+      "FIRST PASS REQUIRED": 7,
       "REVIEW MATCH": 0
     },
     "repo_only_note_count": 3
@@ -1447,7 +1447,7 @@
       }
     },
     {
-      "status": "FIRST PASS REQUIRED",
+      "status": "COMPLIANT",
       "item": {
         "zotero_item_key": "GD3BNFG9",
         "version": 8333,
@@ -1501,10 +1501,58 @@
           "Theoretical framework / 1. Critical design histriography / d) Z"
         ]
       },
-      "note_path": null,
-      "match_score": 0,
-      "match_reasons": [],
-      "audit": null
+      "note_path": "public/docs/C/Cross1993HistoryDesignMethodology.md",
+      "match_score": 100,
+      "match_reasons": [
+        "DOI exact",
+        "title + year exact"
+      ],
+      "audit": {
+        "compliant": true,
+        "complete_claims": 6,
+        "claim_checks": {
+          "1": {
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
+          },
+          "2": {
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
+          },
+          "3": {
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
+          },
+          "4": {
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
+          },
+          "5": {
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
+          },
+          "6": {
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
+          }
+        },
+        "synthesis_complete": true,
+        "metadata_complete": true,
+        "required_markers": {
+          "thesis_job": true,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
+          "chicago_payload": true
+        },
+        "reasons": []
+      }
     },
     {
       "status": "SECOND PASS REQUIRED",

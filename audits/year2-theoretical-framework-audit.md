@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T10:37:52+00:00
+Generated: 2026-10-01T10:39:22+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,9 +8,9 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 3 |
+| COMPLIANT | 4 |
 | SECOND PASS REQUIRED | 42 |
-| FIRST PASS REQUIRED | 8 |
+| FIRST PASS REQUIRED | 7 |
 | REVIEW MATCH | 0 |
 
 **Active Zotero items in scope:** 53
@@ -134,7 +134,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Design history and the history of design | 1990 |  | no matching reading note |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Objects of desire: design and society since 1750 | 1992 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / b) Operational literature | A history of design methodology | 1993 |  | no matching reading note |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Archival silences: missing, lost and, uncreated archives | 2021 |  | no matching reading note |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | Applying AI to digital archives: trust, collaboration and shared professional ethics | 2023 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
@@ -150,6 +149,7 @@ _None._
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage<br>Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | Made in patriarchy: toward a feminist analysis of women and design | 1986 | public/docs/B/Buckley1986MadePatriarchy.md | meets current structural and completeness checks |
+| Theoretical framework / 1. Critical design histriography / b) Operational literature | A history of design methodology | 1993 | public/docs/C/Cross1993HistoryDesignMethodology.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Designerly ways of knowing | 1982 | public/docs/C/Cross1982DesignerlyWaysKnowing.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Whatever became of design methodology? | 1979 | public/docs/A/ArcherWhateverBecameDesign.md | meets current structural and completeness checks |
 
