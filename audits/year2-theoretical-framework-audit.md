@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T10:42:35+00:00
+Generated: 2026-10-01T10:44:27+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 5 |
-| SECOND PASS REQUIRED | 41 |
+| COMPLIANT | 6 |
+| SECOND PASS REQUIRED | 40 |
 | FIRST PASS REQUIRED | 7 |
 | REVIEW MATCH | 0 |
 
@@ -87,7 +87,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | A dialogue between the real-world and the operational model–the realities of design in bruce archer's 1968 doctoral thesis | 2017 | public/docs/B/BoydDavis2017DialogueRealworldOperational.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | A view of the nature of design research | 1981 | public/docs/A/Archer1981ViewNatureDesign.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Theoretical framework / 1. Critical design histriography / b) Operational literature | Systematic method for designers | 1963 | public/docs/A/Archer1963SystematicMethodDesigners.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature | Design as an interesting phenomenon: george mallen and the royal college of art | 2024 | public/docs/B/BoydDavis2024DesignInterestingPhenomenon.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives as spaces of memory | 2008 | public/docs/K/Ketelaar2008ArchivesSpacesMemory.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Archives, records, and power: the making of modern memory | 2002 | public/docs/S/Schwartz2002ArchivesRecordsPower.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -151,6 +150,7 @@ _None._
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | A history of design methodology | 1993 | public/docs/C/Cross1993HistoryDesignMethodology.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Design methods | 1992 | public/docs/J/Jones1992DesignMethods.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Designerly ways of knowing | 1982 | public/docs/C/Cross1982DesignerlyWaysKnowing.md | meets current structural and completeness checks |
+| Theoretical framework / 1. Critical design histriography / b) Operational literature | Systematic method for designers | 1963 | public/docs/A/Archer1963SystematicMethodDesigners.md | meets current structural and completeness checks |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | Whatever became of design methodology? | 1979 | public/docs/A/ArcherWhateverBecameDesign.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
