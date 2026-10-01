@@ -61,3 +61,4 @@ jobs:
             git commit -m 'chore: refresh Zotero theoretical framework audit'
             git push
           fi
+# audit-scope: active clusters a/b/c; d/e inventoried only
