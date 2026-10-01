@@ -10,131 +10,181 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
+project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
+project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S1"
-model_strand_label: "Historicising contested design knowledge"
-model_subcluster: "S1.1 Archer and the formation of design research"
+theoretical_framework_area_id: "1"
+theoretical_framework_area: "Critical design historiography"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 1. Critical design historiography / b) Operational literature"
 source_type: "Core text"
 project_tags:
   - "Theoretical framework"
-theoretical_framework_area_id: "1"
-theoretical_framework_area: "Critical design historiography"
-literature_cluster_id: "a"
-literature_cluster: "Canon + intellectual lineage"
-zotero_filing_path: "Theoretical framework / Critical design historiography / Canon + intellectual lineage"
-last_updated: "18 Mar 2026, 15:23"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S1 — Historicising contested design knowledge  
-**Sub-cluster:** S1.1 Archer and the formation of design research  
-**Source type:** Core text  
+---
 
-**Seams to watch (optional, pick 1):**
-- Where historical contestation meets archive structure
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 1. Critical design historiography  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 1. Critical design historiography / b) Operational literature  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need Archer’s mature account of what design research is, because it shows how DDR described its own field near the end of its institutional life.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Historicisation chapter / late Archer-DDR section; it helps me say that by 1981 Archer was consolidating design research as a broad, self-conscious field with its own objects, methods, boundaries, and institutional rationale.  
-**Why this term, not alternatives (1–2 lines):** This text matters because Archer is no longer only defending “systematic method” or “design education”. He is defining **design research** itself, and doing so through both conceptual argument and an empirical account of DDR/RCA activity.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Archer here where the archive shows DDR naming, classifying, or justifying its own field, and where documents link particular projects to a broader account of design research as knowledge production.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Archer writes as Professor Bruce Archer in the Department of Design Research at the Royal College of Art. The paper is both definitional and institutional. It asks what design research is, reflects on the department he knows best, and then uses RCA evidence, title lists, and a wider bibliography to outline the field’s scope. This makes it especially useful as a late self-description of DDR’s intellectual ambitions. `[@Archer1981ViewNatureDesign, pp. 30–33]`  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** Archer is often read through the narrower story of design methods. This paper shows a wider late position: design research includes history, taxonomy, technology, praxiology, modelling, metrology, axiology, philosophy, epistemology, and pedagogy. `[@Archer1981ViewNatureDesign, p. 33]`
+**How this source moves the primary research question forward:** Archer provides a late, first-person map of what DDR/RCA design research had become: conceptually broad, institutionally heterogeneous and increasingly concerned with design activity, procedure, computing and education.
 
-# The author’s main move (1 sentence)
-They try to define design research as a distinct but internally wide field by combining conceptual reflection, institutional evidence, and a disciplinary map in order to secure its legitimacy as a serious area of inquiry.
+**How this source bears on the secondary question:** The paper explicitly asks whether design research constitutes a distinctive discipline and argues for designerly inquiry and cognitive modelling while retaining scientific and scholarly modes of research.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It is one of the clearest late self-descriptions of DDR and therefore a crucial primary trace against which retrospective histories can be checked.
+
+**Where it sits in my argument:** Operational literature. It is evidence of the field DDR thought it was constructing by 1981.
+
+**My benchmark for using it:** I will treat project-title counts and Archer's taxonomy as evidence of his institutional/disciplinary interpretation, not as neutral statistical description of the entire field.
+
+# Position + moment
+
+Archer writes from the Department of Design Research at the Royal College of Art and explicitly answers “What is Design Research?” by combining definition, departmental history, project-title analysis and disciplinary taxonomy. The article therefore records both an intellectual argument and a late institutional self-description. [@Archer1981ViewNatureDesign, pp. 30–35]
+
+# The author’s main move
+
+Archer defines Design Research broadly as systematic inquiry concerning configuration, structure, purpose, value and meaning in man-made things and systems, then uses DDR/RCA activity to argue that the field is wider than design methods and contains several emerging sub-disciplines, including designerly inquiry. [@Archer1981ViewNatureDesign, pp. 30–35]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Archer defines design research as a broad field centred on man-made things, but he keeps its definition open because the field is still emerging.
-- **Evidence (quote/paraphrase + page):** Archer says he does not need to define “research”, but argues that in this context Design Research has “both a big D and a big R”. He offers a broad formulation close to “systematic inquiry whose goal is knowledge of, or in, the embodiment of configuration, composition, structure, purpose, value and meaning in man-made things and systems”. He also says the field’s “relative immaturity” creates “vagueness of its focus”. `[@Archer1981ViewNatureDesign, pp. 30–31]`
-- **Warrant (my words):** This matters because Archer is trying to stabilise a field without pretending it is already settled. He defines design research positively, but leaves room for internal plurality and development.
-- **So what for my thesis (a reusable sentence):** Archer’s 1981 paper lets me describe DDR as a site where design research was being actively constituted, not merely applied, and where the field’s breadth was part of the argument rather than a weakness.
-- **Practice cross-check:** Compare this with archive material that frames DDR work as inquiry into man-made things, systems, value, purpose, or meaning rather than only into method. TODO (needs archive ID / departmental document).
+- **Claim (plain):** Archer deliberately defines Design Research broadly while acknowledging that its scope remains unstable.
+- **Author claim:** He distinguishes design, Design and research before proposing Design Research as systematic inquiry whose goal is knowledge of or in configuration, composition, structure, purpose, value and meaning in man-made things and systems.
+- **Evidence-supported claim:** Pages 30–31 give this formulation and immediately note that the field's “relative immaturity” produces vagueness of focus.
+- **Researcher inference:** The lack of a single fixed definition is itself a historical feature of DDR's field formation rather than merely a defect to be corrected retrospectively.
+- **Evidence (quote/paraphrase + page):** Archer offers the broad definition and says Design Research remains difficult to define because its scope is still emerging. [@Archer1981ViewNatureDesign, pp. 30–31]
+- **Warrant (my words):** An emergent field may need an inclusive definition precisely because its internal specialisms and boundaries are not yet settled.
+- **Boundary:** This is Archer's own definitional strategy; it does not establish consensus among DDR staff or the wider design-research community.
+- **Consequence:** The thesis should preserve definitional plurality and identify which formulation a source actually uses.
+- **Practice cross-check:** TODO (compare Archer's definition with formulations in other DDR staff publications and oral histories).
 
 ## Claim 2
-- **Claim (plain):** Archer uses DDR/RCA project titles to show that design research had a real institutional centre of gravity: design activity, process, procedure, computing, and education.
-- **Evidence (quote/paraphrase + page):** From the title lists, Archer says the first thing one notices is that the study of “various aspects of the cognitive processes of design activity” forms the largest single class of studies. A second large class concerns design activity from a procedural angle. A third concerns the application of computer aids in design activity. A fourth concerns implications for curriculum development and methods at all levels of education. He estimates these four groups together account for “something in the order of 65%” of all DDR/RCA work done since about 1973. The appendices then list projects across DDR, Cultural History, Design Education, and Graphic Information, making the institutional ecology visible. `[@Archer1981ViewNatureDesign, p. 32; pp. 36–43]`
-- **Warrant (my words):** This is more than abstract taxonomy. Archer is grounding his account in departmental evidence and showing what the field actually clustered around in practice at RCA.
-- **So what for my thesis:** The paper gives me a way to connect Archer’s conceptual claims to the archive itself, because it shows that late DDR understood design research through recurring practical concentrations: cognition, process, computing, and education.
-- **Practice cross-check:** This is directly usable for archive sampling. The appendices can help identify clusters, actors, and project types to test whether Archer’s retrospective grouping matches the surviving documents. TODO (needs archive sampling note).
+- **Claim (plain):** Archer narrates DDR as changing from commercial design work toward academic observation, computing and education.
+- **Author claim:** He describes the unit founded in 1961, early commercially oriented projects, a policy shift from 1968 toward non-commercially organised academic observations of real or simulated design activity, and growing involvement in computer aids and design education.
+- **Evidence-supported claim:** Page 31 explicitly recounts these phases and says the period 1968–76 provides a good indication of what DDR staff then regarded as an ideal scope for Design Research.
+- **Researcher inference:** Departmental history should not be flattened into one continuous research programme; Archer himself identifies policy and activity shifts.
+- **Evidence (quote/paraphrase + page):** Archer distinguishes early contract work from the later academic programme and names computer aids and design education as major developments. [@Archer1981ViewNatureDesign, p. 31]
+- **Warrant (my words):** Changes in funding, policy and institutional organisation affect what kinds of knowledge a department can produce and preserve.
+- **Boundary:** Archer's retrospective phase narrative may rationalise change and should be checked against administrative and project records.
+- **Consequence:** The thesis should periodise DDR activity and compare self-description with documentary evidence.
+- **Practice cross-check:** TODO (test the 1968 and 1976 transition points against project lists, governance records and funding traces).
 
 ## Claim 3
-- **Claim (plain):** Archer argues that design research can count as a distinct discipline because design involves a designerly mode of inquiry, but he still treats the field as overlapping and internally differentiated.
-- **Evidence (quote/paraphrase + page):** Archer says a test of a distinct discipline is whether there is an organised body of knowledge a suitably qualified entrant can master without depending on other disciplines, and by that test Design Research is “not yet a distinctive discipline.” Even so, he says there are grounds for claiming a discipline because “there exists in man an intellectual process, for the handling of ideas of configuration and structure independent of natural language and of scientific concept formation,” and that this claim is “demonstrable in the literature of cognitive psychology and in design methods literature.” He then lists ten possible parts of the field, including design history, taxonomy, technology, praxiology, modelling, metrology, axiology, philosophy, epistemology, and pedagogy. `[@Archer1981ViewNatureDesign, pp. 34–35, 33]`
-- **Warrant (my words):** Archer’s late position is careful. He does not claim design research is already a fully settled discipline. He claims that it has a credible basis in a distinct mode of inquiry and that its subfields are taking recognisable shape.
-- **So what for my thesis:** This paper helps me show that late DDR framed design research as both emergent and defensible: not fully closed as a discipline, but no longer just a loose slogan for methods work.
-- **Practice cross-check:** Test this against oral histories and departmental papers for signs of tension between disciplinary ambition and institutional incompleteness. TODO (needs oral-history / governance note).
+- **Claim (plain):** Archer uses project titles to identify four dominant concentrations in late DDR work.
+- **Author claim:** He says studies of cognitive processes of design activity form the largest class, followed by procedural studies, computer aids and design education.
+- **Evidence-supported claim:** Page 32 states that these four groups together account for “something in the order of 65%” of DDR/RCA work since about 1973.
+- **Researcher inference:** This is a useful contemporaneous map of institutional emphasis, but title-based classification itself shapes what becomes visible.
+- **Evidence (quote/paraphrase + page):** Archer identifies cognition, procedure, computer aids and education as the four most prominent groups in the title list. [@Archer1981ViewNatureDesign, p. 32]
+- **Warrant (my words):** A title scan can reveal broad concentrations but cannot by itself establish methods, outcomes or relative intellectual importance.
+- **Boundary:** Archer explicitly notes that titles provide only incidental information and that surrounding institutional conditions limit the evidence.
+- **Consequence:** The thesis can use the 65% claim as Archer's own classification while preserving catalogue/title association as weaker than evidence of activity or intent.
+- **Practice cross-check:** TODO (compare Archer's title categories with metadata and full-text evidence in the digitised corpus).
 
-# Definitions / terms this changes (only the ones that matter)
-- **Design research:** systematic inquiry into the configuration, composition, structure, purpose, value, and meaning of man-made things and systems; I will use this as Archer’s mature umbrella term for the field DDR was helping to assemble. `[@Archer1981ViewNatureDesign, pp. 30–31]`
-- **Design activity:** the cognitive and procedural activity of designing; in this paper it appears as a major focus of DDR work, not just a background assumption. `[@Archer1981ViewNatureDesign, p. 32]`
-- **Designerly inquiry:** the distinct intellectual handling of ideas of configuration and structure outside natural language and scientific notation; I will use this as a bridge between Archer and later arguments about modelling and designerly ways of knowing. `[@Archer1981ViewNatureDesign, pp. 34–35]`
-- **Design praxiology:** the study of the nature of design action and apparatus; I will use it as Archer’s term for inquiry into design practice itself. `[@Archer1981ViewNatureDesign, p. 33]`
-- **Design modelling:** the study of the human capacity for the externalisation and communication of design ideas; this is especially relevant to the thesis’s later visual and computational strand. `[@Archer1981ViewNatureDesign, p. 33]`
+## Claim 4
+- **Claim (plain):** Archer expands Design Research beyond methods into a ten-part field that includes historical, evaluative and epistemological inquiry.
+- **Author claim:** He identifies design history, taxonomy, technology, praxiology, modelling, metrology, axiology, philosophy, epistemology and pedagogy.
+- **Evidence-supported claim:** Page 33 lists all ten areas and explicitly says the boundaries of RCA attention include artefact history, aesthetics, design theory/practice and methods/principles of modelling.
+- **Researcher inference:** Late DDR's self-conception was broader than a methods/computing story and provides a basis for reading the archive as an ecology of research modes.
+- **Evidence (quote/paraphrase + page):** Archer's ten-area taxonomy appears on p. 33. [@Archer1981ViewNatureDesign, p. 33]
+- **Warrant (my words):** The taxonomy shows an attempt to stabilise a field by naming sub-domains whose objects and methods differ.
+- **Boundary:** The categories are Archer's analytic proposal and may not map cleanly onto project practices or other staff members' definitions.
+- **Consequence:** The thesis should use the taxonomy historically and test its fit against surviving traces rather than adopt it as the archive's natural structure.
+- **Practice cross-check:** TODO (sample DDR projects against the ten categories and record overlap/misalignment).
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It is one of the best texts for showing DDR’s self-understanding late in its life.
-  - It gives me both a conceptual definition of design research and an institutional map grounded in project evidence.
-  - It strengthens the link between Archer’s earlier methods work and the broader epistemic field he later wanted design research to become.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat this paper as a consolidation text, not a fresh beginning.
-  - I will use the appendices as evidence of field formation, not just as background lists.
-- **What question it raises next (1–2 bullets):**
-  - Which parts of Archer’s late map were actually durable in the archive, and which remained aspirational?
-  - How does this 1981 account look when set against the department’s closure only a few years later?
+## Claim 5
+- **Claim (plain):** Archer explicitly says Design Research is not yet a distinctive discipline by a strict independence test.
+- **Author claim:** He proposes that a discipline would need an organised literature containing its essential ideas independently of other disciplines, then says Design Research does not yet satisfy this test.
+- **Evidence-supported claim:** Page 34 states that Design Research “is not yet a distinctive discipline” and notes its dependence on scientific, scholarly and designerly backgrounds.
+- **Researcher inference:** Disciplinary formation in this period should be written as aspirational and contested rather than as an accomplished institutional fact.
+- **Evidence (quote/paraphrase + page):** Archer applies the literature-independence test and finds Design Research not yet distinct. [@Archer1981ViewNatureDesign, p. 34]
+- **Warrant (my words):** Dependence on neighbouring literatures reveals a field still assembling its own body of knowledge.
+- **Boundary:** The independence test is one possible criterion of disciplinarity and Archer himself continues to argue for a recognisable design field.
+- **Consequence:** The thesis should separate institutional existence of DDR from epistemic closure of “design research” as a discipline.
+- **Practice cross-check:** TODO (trace citations in selected DDR texts to see how strongly they depend on psychology, science, humanities and design-methods literature).
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the historicisation chapter paragraph where I need a late Archer statement of what design research had become by the early 1980s.  
-- **Where I will name the title in running text (first-use rule):** First mention in the Archer section: *In “A View of the Nature of Design Research” (1981), Bruce Archer argues...*  
-- **Link to my practice evidence (one concrete cross-reference):** Use beside the conceptual framework and the DDR archive sampling plan, especially if I group material by cognition, process, computing, education, or modelling. TODO (needs exact cross-reference).  
-- **Workstreams →** Historicisation; archive interpretation; institutional genealogy; sampling logic.  
-- **Deliverables →** Late Archer section draft; literature map node; archive cluster rationale; footnote trail for DDR’s late self-description.  
-- **Stakeholders →** Examiners; supervisors; design history readers; design research readers; education-history readers.
+## Claim 6
+- **Claim (plain):** Archer distinguishes designerly inquiry from Design Research as a whole and grounds it in cognitive modelling.
+- **Author claim:** He argues for an intellectual process handling configuration and structure independently of natural language and scientific concept formation; “imaging or cognitive modelling” provides a basis for designerly inquiry, but Design Research also uses scientific and scholarly methods.
+- **Evidence-supported claim:** Pages 34–35 explicitly make this distinction and conclude that Design is better seen as a range of disciplines united by common intellectual approach, language system and procedure than as one sealed discipline.
+- **Researcher inference:** This is a crucial evidential limit: not all DDR research should be labelled “designerly,” even when the department advocates designerly inquiry.
+- **Evidence (quote/paraphrase + page):** Archer says Design Research “is not equatable with scientific research” but neither is it simply designerly inquiry; it can employ scientific, scholarly and designerly methods. [@Archer1981ViewNatureDesign, pp. 34–35]
+- **Warrant (my words):** A plural field can contain a distinctive designerly mode without requiring every research act to use it.
+- **Boundary:** Archer's cognitive-modelling claim relies on contemporary cognitive psychology and design-methods literature and should be treated historically.
+- **Consequence:** The thesis should classify modes of inquiry at document/project level rather than assign one epistemology to the whole department.
+- **Practice cross-check:** TODO (compare modelling-heavy, historical and empirical DDR projects for different evidential/methodological modes).
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This paper is strongest as Archer’s late synthesis of the field and of DDR’s place in it, but weaker as independent proof that the whole institution consistently lived up to this map.
-- **Risk if misused (1 sentence):** If I lean on it too hard, I could mistake Archer’s orderly retrospective classification for the full reality of a more uneven and contested archive.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Design Research:** Archer's broad systematic inquiry into configuration, composition, structure, purpose, value and meaning in man-made things and systems. [@Archer1981ViewNatureDesign, pp. 30–31]
+- **Design praxiology:** study of design activity, organisation and apparatus. [@Archer1981ViewNatureDesign, p. 33]
+- **Design modelling:** study of human capacity for cognitive modelling, externalisation and communication of design ideas. [@Archer1981ViewNatureDesign, p. 33]
+- **Designerly inquiry:** inquiry based on a mode of concept formation centred on configuration, structure and cognitive modelling. [@Archer1981ViewNatureDesign, pp. 34–35]
+
+# My response
+
+This paper is valuable because it prevents the late DDR from being reduced to a story of design methods. Archer's own field map includes history, values, epistemology, education and modelling, and his departmental chronology foregrounds shifts in policy and research focus. Just as importantly, he refuses to claim that Design Research is already a self-sufficient discipline and distinguishes designerly inquiry from the broader field. The source therefore supports a plural and historically contingent account of DDR rather than a single doctrinal lineage.
+
+# Integration hooks
+
+**Where I will cite it:** In the late-DDR field-definition section; in discussion of DDR project concentrations; and in the distinction between Design Research and designerly inquiry.
+
+**Link to my practice evidence:** TODO (compare Archer's title scan/taxonomy with corpus metadata and project-level evidence).
+
+**Workstreams →** Critical design historiography; DDR institutional history; modelling; education.  
+**Deliverables →** Theoretical framework; DDR historicisation; corpus-classification rationale.
+
+# Boundary + risk
+
+**Boundary:** The article is an authoritative first-person source for Archer's 1981 position and his account of DDR, but it is not an independent audit of departmental history or consensus.
+
+**Risk if misused:** Archer's taxonomy could be mistaken for a neutral map of the archive rather than a historically situated act of classification.
+
+# Cross-source / cross-lens synthesis
+
+Archer 1981 consolidates the shift visible in his 1979 paper. Systematic method has expanded into a plural Design Research field, while cognitive modelling supplies one designerly mode within it. Cross 1982 develops this mode into a disciplinary/educational programme; Cross 1993 later historicises the wider movement. Read alongside Buckley's critique of historiographic selection, Archer's title scan and taxonomy also become objects of analysis: they reveal what late DDR chose to name and group, while the thesis must test what those categories reveal or obscure in the surviving corpus.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
-- [ ] Data collection and instruments
+- [x] Data collection and instruments
 - [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 30–35, 32–33, 36–43
-- **First full note (write it out here):**  
-  L. Bruce Archer, “A View of the Nature of Design Research,” in *[publication details TODO]*, 30–47.
-- **Short note form:**  
-  Archer, “A View of the Nature of Design Research,” 30–33.
-- **One quote worth lifting (≤2 lines):** “Design methodology is alive and well, and living under the name of Design research.” TODO (wrong source — do not use here)
-- **One paraphrase worth keeping:** Archer argues that design research is a broad but increasingly recognisable field concerned with man-made things and systems, and that RCA project evidence shows its major late concentrations in design activity, process, computing, and education. (pp. 30–33)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Archer, *Whatever Became of Design Methodology?*
-- Archer, *Time for a Revolution in Art and Design Education*
-- Cross, “Designerly Ways of Knowing”
-- TODO: connect directly to DDR archive documents and closure-era institutional material.
+- **Key pages to reuse:** 30–35
+- **First full note:** L. Bruce Archer, “A View of the Nature of Design Research” (Royal College of Art, Department of Design Research, 1981), 30–47. TODO (confirm host publication/imprint if required from title pages outside supplied excerpt).
+- **Short note form:** Archer, “A View of the Nature of Design Research,” 30–35.
+- **One quote worth lifting:** “Design Research is not yet a distinctive discipline.” (p. 34)
+- **One paraphrase worth keeping:** Archer describes late DDR Design Research as a broad, plural field whose major RCA concentrations included cognition, procedure, computer aids and education, while distinguishing designerly inquiry from Design Research as a whole. [@Archer1981ViewNatureDesign, pp. 31–35]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A closure-era or post-DDR document that shows whether Archer’s late disciplinary map held institutionally after 1981.
-- What I will test or write next: Draft the paragraph that presents this paper as Archer’s late consolidation of design research, then test its categories against actual archive clusters rather than quoting the map as if it were self-evident.
+# Related works
+
+- Archer, “Whatever Became of Design Methodology?”
+- Cross, “Designerly Ways of Knowing.”
+- Cross, “A History of Design Methodology.”
+
+# Follow-ups
+
+- **What I will test next:** Compare Archer's 1981 departmental map with the corpus and with other DDR actors' accounts of the field.

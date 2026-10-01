@@ -10,110 +10,162 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
+project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
+project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S1"
-model_strand_label: "Historicising contested design knowledge"
-model_subcluster: "S1.2 Critiques of design methods"
-source_type: "Context / supporting"
-project_tags:
-  - "Theoretical framework"
 theoretical_framework_area_id: "1"
 theoretical_framework_area: "Critical design historiography"
-literature_cluster_id: "a"
-literature_cluster: "Canon + intellectual lineage"
-zotero_filing_path: "Theoretical framework / Critical design historiography / Canon + intellectual lineage"
-last_updated: "19 Mar 2026, 09:18"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S1 — Historicising contested design knowledge  
-**Sub-cluster:** S1.2 Critiques of design methods  
-**Source type:** Context / supporting  
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 1. Critical design historiography / b) Operational literature"
+source_type: "Core text"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- Where historical contestation meets archive structure
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 1. Critical design historiography  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 1. Critical design historiography / b) Operational literature  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim and researcher inference distinct
+- Practice cross-check or TODO for each claim
+- Final synthesis paragraph required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need Jones’s reflective account of design methods because it shows, from inside the movement, how externalised method both expanded design and fragmented it.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Historicisation chapter / critiques and afterlives of design methods; it helps me say that design methods were valuable not because they solved design once and for all, but because they made design thinking public, collective, and researchable while also exposing unresolved problems of transformation and control.  
-**Why this term, not alternatives (1–2 lines):** Jones’s language of **externalising**, **disintegrating**, and **strategy control** is more useful here than a generic “critique of design methods” because it shows exactly what methods changed in design practice and where the breakages appeared.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Jones where archival material shows design being made explicit through diagrams, networks, classifications, research actions, or staged strategies, and where there is evidence that this formalisation both enabled collaboration and created new coordination problems.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Jones writes from the design methods tradition but in a reflective mode, reviewing what the “new methods” had actually achieved and where they remained inadequate. Across Chapters 4, 5, and 6 he moves between critique, conceptual reframing, and practical strategy selection. He is especially concerned with design at the systems level, where drawing alone is no longer sufficient and where design must be externalised to include users, teams, research, and computers. `[@Jones1992DesignMethods, pp. 45, 61, 75]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** Jones is often remembered simply as a design methods advocate. These chapters show a more self-critical position: he repeatedly says the methods are partial, fragmented, and still unable to control transformation in large, indeterminate situations. `[@Jones1992DesignMethods, pp. 54, 63, 69–70]`
+**How this source moves the primary research question forward:** Jones gives the thesis a contemporaneous critique of methods from inside the methods movement. He is especially useful for distinguishing externalisation of design thinking from the stronger claim that designing can be fully rationalised.
 
-# The author’s main move (1 sentence)
-They try to reassess design methods by distinguishing what they make visible, what they can rationalise, and what they still fail to control in order to argue for a more adaptive, reintegrated, and strategically managed design process.
+**How this source bears on the secondary question:** His concepts of self-organising strategy, divergence, transformation, convergence and method-mixing remain relevant to contemporary design research because they frame method as adaptive rather than fixed.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** The Zotero PDF contains chapters 4–6, where Jones explicitly reviews the new methods, criticises their limits and develops a strategy for choosing and combining them.
+
+**Where it sits in my argument:** Operational literature: it is a primary methods text and an internal critique of systematic design.
+
+**My benchmark for using it:** I will cite only claims supported by the supplied chapters 4–6 (pp. 45–86); I will not infer the contents of chapters absent from the Zotero PDF.
+
+# Position + moment
+
+The 1992 edition preserves Jones's mature account of the design-methods movement, including material first developed in the late 1960s and 1970s. In the supplied excerpt he reviews diverse methods, asks what they have in common, and then shifts attention from individual techniques to the higher-order problem of controlling and adapting design strategy. [@Jones1992DesignMethods, pp. 45–46, 62–73]
+
+# The author’s main move
+
+Jones argues that the lasting value of design methods lies in externalising thought and enabling strategic control, but that effective designing cannot be reduced to a pre-fixed rational sequence: rational and intuitive methods must be combined and the strategy itself must remain open to revision. [@Jones1992DesignMethods, pp. 45–46, 50–58, 62–73]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Jones argues that the common aim of the new design methods is to externalise the designer’s previously private thinking.
-- **Evidence (quote/paraphrase + page):** At the start of Chapter 4 he says that what the new methods have in common is that they are “attempts to make public the hitherto private thinking of designers; to externalize the design process.” He adds that this makes designing more manageable at the systems level and allows users and others to contribute information beyond the designer’s own knowledge and experience. Chapter 5 then repeats that designers’ thinking must now be externalised so that many people, “including users,” can share in early ideas and critical decisions, and so that parts of the process can be automated. `[@Jones1992DesignMethods, pp. 45, 61]`
-- **Warrant (my words):** This is the strongest through-line across the three chapters. Jones is not defining methods mainly as recipes or tools; he is defining them as a change in the visibility and shareability of design thought.
-- **So what for my thesis (a reusable sentence):** Jones helps me frame the DDR archive as evidence of a historic moment when design knowledge was being deliberately externalised into diagrams, matrices, classifications, strategies, and research procedures.
-- **Practice cross-check:** This is directly relevant to archival traces such as flowcharts, programme documents, evaluation forms, teaching handouts, and project diagrams, which can be read as artefacts of externalised design thinking rather than neutral paperwork. TODO (needs archive ID / figure cross-link).
+- **Claim (plain):** Jones defines the common purpose of the new methods as externalising previously private design thinking.
+- **Author claim:** He argues that brainstorming, systems engineering and other heterogeneous techniques share an attempt to make the design process public through words, symbols and diagrams.
+- **Evidence-supported claim:** Page 45 explicitly says the methods “make public the hitherto private thinking of designers” and identifies manageability, especially at systems level, plus participation by users and others as major advantages.
+- **Researcher inference:** DDR diagrams, checklists and formal procedures can be read as attempts to render design reasoning communicable and collectively inspectable, not only as prescriptions.
+- **Evidence (quote/paraphrase + page):** Jones says the underlying aim is to externalise design thinking so that other people can see and contribute knowledge outside the designer's experience. [@Jones1992DesignMethods, p. 45]
+- **Warrant (my words):** Externalisation changes both the epistemic form of design and who can participate in it.
+- **Boundary:** Making reasoning visible does not guarantee that the representation captures all tacit or situated aspects of designing.
+- **Consequence:** The thesis should distinguish the documentary value of a method representation from any claim that it exhaustively records practice.
+- **Practice cross-check:** TODO (compare a DDR checklist/diagram with records of an actual project to identify what the formal representation omits).
 
 ## Claim 2
-- **Claim (plain):** Jones argues that purely black-box or purely glass-box approaches are both insufficient for novel design situations; what matters is strategy control.
-- **Evidence (quote/paraphrase + page):** In Chapter 4 he contrasts designers as black boxes, glass boxes, and self-organising systems. Black-box methods preserve intuition and sudden insight, while glass-box methods assume objectives, variables, criteria, and sequences can be fixed in advance. But Jones says that in novel design situations the real weakness is controlling strategy, especially when objectives are still changing and many people are involved. He therefore argues that the next step is to evolve “reliable methods for generating and controlling the strategies of design teams.” The criteria for project control that follow include early identification of critical decisions, matching research cost to the penalty of ignorance, fitting tasks to people, using reliable information sources, and exploring product/environment interdependency. `[@Jones1992DesignMethods, pp. 50, 52–58]`
-- **Warrant (my words):** This is a more sophisticated position than either anti-method romanticism or strict rationalism. Jones is saying that the problem is not whether intuition or rationality wins, but how a team monitors and redirects search under uncertainty.
-- **So what for my thesis:** Jones lets me write the design methods debate as a problem of control and coordination under uncertainty, which is highly relevant to how DDR tried to organise design knowledge institutionally.
-- **Practice cross-check:** This is a useful lens for reading DDR’s project structures and departmental procedures: did they build ways to identify critical decisions, gather evidence, and shift strategy, or did they rely on rhetoric of method without such controls? TODO (needs departmental process / oral-history link).
+- **Claim (plain):** Jones rejects a simple opposition between creative intuition and rational method by proposing three cybernetic views of the designer.
+- **Author claim:** He describes the designer as black box, glass box and self-organising system, arguing that the third perspective offers a route toward practical control of design strategy.
+- **Evidence-supported claim:** Page 46 explicitly introduces the three models and says the self-organising view leads most directly toward the practical value of design theory.
+- **Researcher inference:** The methods debate in this period is better understood as a dispute over where control and judgement reside than as a binary of creativity versus rationality.
+- **Evidence (quote/paraphrase + page):** Jones characterises creative designing as black-box activity, rational designing as glass-box process and strategic designing as self-organisation. [@Jones1992DesignMethods, p. 46]
+- **Warrant (my words):** These models shift attention from whether method exists to how much of designing can be made explicit and where adaptation occurs.
+- **Boundary:** The three boxes are heuristic models, not empirical classifications of individual designers.
+- **Consequence:** The thesis can use them to parse competing methodological claims while avoiding literal psychological interpretation.
+- **Practice cross-check:** TODO (map Archer's early and later positions against these models without forcing a one-to-one identity).
 
 ## Claim 3
-- **Claim (plain):** Jones’s central critique is that design methods disintegrated the traditional design act into divergence, transformation, and convergence, but failed to reintegrate the crucial transformative stage.
-- **Evidence (quote/paraphrase + page):** Chapter 5 says that what we have are “the confusing results of pulling the traditional design method to pieces” and that reintegration has “yet to be achieved.” He then defines the three stages as divergence, transformation, and convergence. Divergence expands the search space and deliberately increases uncertainty; transformation imposes a pattern on the results of divergence and fixes objectives, boundaries, and sub-problems; convergence reduces options to one design. Later in the chapter he says the main effect of the new methods has been to make public the designer’s thinking and separate it into intuitive, rational, and procedural categories, but that this fragmentation has damaged the ability of designers or teams to maintain control over the design situation “during the vital but still mysterious stage of transformation.” He concludes that methodology should be “a conversation about everything that could be made to happen,” not a fixed track to a fixed destination. `[@Jones1992DesignMethods, pp. 61, 64–69, 70, 73]`
-- **Warrant (my words):** This is the heart of Jones’s reflection. He acknowledges the gains of externalisation, but insists that the deepest design move, transformation, still resists formal capture and collective control.
-- **So what for my thesis:** Jones provides a strong conceptual bridge for treating the DDR archive as a record not only of design methods’ ambitions but also of the unresolved problem of how contested knowledge is transformed into actionable form.
-- **Practice cross-check:** This is especially relevant when looking at documents where briefs are redefined, problem structures shift, or classifications are invented, because those may be traces of transformation rather than mere procedure. TODO (needs archive case / conceptual framework link).
+- **Claim (plain):** Jones identifies the central vulnerability of glass-box methods as their dependence on objectives, criteria and strategies fixed in advance.
+- **Author claim:** He lists four common glass-box assumptions: fixed objectives/variables/criteria, analysis before solutions, linguistic/logical evaluation and pre-planned strategies.
+- **Evidence-supported claim:** Pages 50–54 show that such procedures work better for decomposable problems than for tightly integrated ones and warn that circularity reappears at higher levels when supposedly fixed criteria and sub-problems prove interdependent.
+- **Researcher inference:** Formal DDR methods should be analysed for the conditions under which their decomposition assumptions hold rather than judged abstractly as rational or irrational.
+- **Evidence (quote/paraphrase + page):** Jones's four glass-box characteristics are stated on p. 50; subsequent discussion distinguishes splittable from unsplittable design problems and exposes circularity in pre-fixed criteria. [@Jones1992DesignMethods, pp. 50–54]
+- **Warrant (my words):** A method that depends on stable decomposition becomes fragile when the design situation itself changes as decisions are made.
+- **Boundary:** Jones does not claim glass-box methods are useless; he explicitly notes domains in which they are essential.
+- **Consequence:** The thesis should ask which DDR problems were sufficiently stable for systematic decomposition and where project evidence shows criteria shifting.
+- **Practice cross-check:** TODO (test the hospital-bed work or another complex DDR project for interdependent sub-problems and revised criteria).
 
-# Definitions / terms this changes (only the ones that matter)
-- **Externalised design thinking:** the making-public of thought that designers traditionally kept private, through words, symbols, diagrams, matrices, and procedural representations; I will use this as a key historical descriptor of the design methods moment. `[@Jones1992DesignMethods, pp. 45, 61]`
-- **Black box / glass box / self-organising system:** Jones’s three contrasting models of the designer as intuitive mystery, rational explicable process, and adaptive strategy controller; I will use them as analytic lenses rather than fixed types. `[@Jones1992DesignMethods, pp. 46, 50, 55]`
-- **Research action / predictor stage:** an additional testing or inquiry step inserted before or during design to forecast limits and reduce costly back-tracking; useful for showing how research becomes part of designing itself. `[@Jones1992DesignMethods, pp. 53–54]`
-- **Divergence / transformation / convergence:** Jones’s three-stage account of an expanded design process, where uncertainty is first widened, then patterned, then reduced; I will use this cautiously as a heuristic for archive reading. `[@Jones1992DesignMethods, pp. 64–69]`
-- **Design strategy:** a chosen list of methods or actions used to transform a brief into a final design; I will use this term where DDR materials show explicit sequencing or selection of methods. `[@Jones1992DesignMethods, pp. 75–79]`
-- **Methodology as conversation:** Jones’s late corrective against rigid proceduralism; I will use it to mark his move toward a more flexible and participatory understanding of method. `[@Jones1992DesignMethods, p. 73]`
+## Claim 4
+- **Claim (plain):** Jones shifts the key methodological problem from following a procedure to controlling the strategy by which procedures are selected and changed.
+- **Author claim:** In the self-organising account, the designer or team must monitor the fit between problem, information, method and emerging results, changing strategy when necessary.
+- **Evidence-supported claim:** Pages 55–58 discuss self-organising systems and strategy control, including the difficulty of fixing objectives or problem structure before the sensitivity of the design situation is known.
+- **Researcher inference:** Adaptive strategy is historically important because it turns methodology into a reflexive activity: the method itself becomes an object of design.
+- **Evidence (quote/paraphrase + page):** Jones argues that control over strategy is the major weakness in novel or team design situations and that objectives and problem structure cannot always be fixed before sensitivities are understood. [@Jones1992DesignMethods, pp. 55–58]
+- **Warrant (my words):** When the problem and information state evolve, competence lies partly in choosing when to change the method rather than merely executing it correctly.
+- **Boundary:** Jones provides a conceptual strategy-control framework, not a validated universal control algorithm.
+- **Consequence:** The thesis can treat documented methodological changes in DDR projects as evidence of reflexive design reasoning rather than procedural failure.
+- **Practice cross-check:** TODO (locate one project where DDR explicitly changed its method or evidence-gathering strategy during the work).
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It is one of the best reflective accounts of what design methods actually changed.
-  - It gives me a language for writing both the gains and the losses of formalising design.
-  - It is especially strong on transformation as the unresolved centre of the whole project.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat design methods as a historic attempt to externalise and coordinate design knowledge, not as a simple doctrine of linear rationality.
-  - I will use Jones to show that fragmentation and reintegration are both part of the story, especially where archival traces show partial formalisation without full control.
-- **What question it raises next (1–2 bullets):**
-  - Which DDR documents best show the tension between externalisation and reintegration?
-  - Can computational activation in my thesis help surface transformation without pretending to finally solve it?
+## Claim 5
+- **Claim (plain):** Jones's divergence–transformation–convergence model makes problem transformation the least formalised and most critical part of systems design.
+- **Author claim:** He separates divergence, transformation and convergence to expose the different methodological demands of each stage, while insisting that real design mixes rationality and intuition and that no verified general theory yet explains how.
+- **Evidence-supported claim:** Pages 62–64 say no existing method is complete and no general verified theory tells teams how to combine methods; pp. 64–73 define the three stages and identify transformation as a critical weakness of the new methods.
+- **Researcher inference:** Historical attention should focus not only on final convergence but on the moments where DDR actors changed the structure of the problem.
+- **Evidence (quote/paraphrase + page):** Jones says teams must construct their own strategies from old and new methods and that the “plain answer” to whether a general verified theory exists is “no”; he later describes transformation as the difficult insight linking divergence and convergence. [@Jones1992DesignMethods, pp. 62–73]
+- **Warrant (my words):** Transformation is where values, categories and problem structure are reorganised, so it is likely to leave contested and uneven documentary traces.
+- **Boundary:** The three-stage model is deliberately analytical; Jones warns that the stages do not necessarily form a universal sequence.
+- **Consequence:** The thesis can use divergence/transformation/convergence as a sensitising vocabulary, not a coding scheme imposed on every DDR project.
+- **Practice cross-check:** TODO (test whether one DDR project exhibits identifiable problem transformation and where that transformation is documented).
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the historicisation chapter paragraph where I explain how design methods made private design thinking public, and in the critique paragraph where I argue that the transformative centre of design remained only partially formalised.
-- **Where I will name the title in running text (first-use rule):** First mention in the Jones section: *In Chapters 4–6 of* Design Methods, *J. Christopher Jones argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside the conceptual framework and any DDR archive materials that visualise process, classify information, or formalise team strategy; these can be read as traces of externalised design thinking and attempted strategy control. TODO (needs exact cross-reference).
-- **Workstreams →** Historicisation; archive interpretation; methods genealogy; computational activation framing.
-- **Deliverables →** Jones section draft; literature map node; footnote trail on externalisation and transformation; archive-reading rationale.
-- **Stakeholders →** Examiners; supervisors; design history readers; design research readers; digital humanities readers interested in formalisation.
+## Claim 6
+- **Claim (plain):** Jones ultimately treats method choice as a situated design judgement rather than something design theory can decide in advance.
+- **Author claim:** In chapter 6 he argues that strategies should be composed from methods compatible with the aims, information, resources and abilities/preferences of the design team; formal strategy statements help collective participation.
+- **Evidence-supported claim:** Pages 83–86 present hypothetical strategies and conclude that many alternatives may be acceptable; the important requirement is compatibility among methods, aims, available information, resources and designers.
+- **Researcher inference:** This weakens any historiography that treats one canonical method as DDR's operative doctrine across contexts.
+- **Evidence (quote/paraphrase + page):** Jones states that “the choice of strategy is a matter for designers, rather than design theorists” and that formalised strategy allows the whole team to contribute to critical choices. [@Jones1992DesignMethods, pp. 83–86]
+- **Warrant (my words):** Methodological appropriateness is relational: it depends on the design situation and team, not solely on the internal logic of a technique.
+- **Boundary:** The supplied examples are illustrative rather than empirical case studies.
+- **Consequence:** The thesis should reconstruct method use at project level instead of attributing a single stable methodology to DDR.
+- **Practice cross-check:** TODO (compare method language across at least two DDR projects with different domains and teams).
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** These chapters are strongest as Jones’s reflective map of design methods and weaker as direct evidence of what DDR specifically did in every case.
-- **Risk if misused (1 sentence):** If I overgeneralise from Jones, I could turn his heuristic categories into a fixed historical template and miss more local, messier archival dynamics.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Externalisation:** making design thought public enough to inspect, share and augment. [@Jones1992DesignMethods, p. 45]
+- **Black box / glass box / self-organising system:** three heuristic models of creative, rational and strategically adaptive designing. [@Jones1992DesignMethods, pp. 46, 50–58]
+- **Divergence:** widening and destabilising the design situation to enlarge the search space. [@Jones1992DesignMethods, pp. 64–65]
+- **Transformation:** restructuring the problem and its relationships; for Jones, the least adequately formalised stage. [@Jones1992DesignMethods, pp. 66–70]
+- **Convergence:** reducing uncertainty and alternatives toward an acceptable design. [@Jones1992DesignMethods, pp. 69–70]
+- **Strategy control:** selecting, sequencing and revising methods in response to the evolving situation. [@Jones1992DesignMethods, pp. 55–58, 75–86]
+
+# My response
+
+Jones is important because his critique comes from inside the design-methods movement and preserves both sides of its ambition. He wants design reasoning externalised and manageable, especially at systems scale, yet repeatedly shows that fixed procedures break down when objectives, problem boundaries and social conditions are unstable. His answer is not to discard method but to move methodological intelligence up one level, toward strategy choice, self-organisation and continual remodelling. That makes this text especially useful for avoiding a caricature of systematic design as merely linear or mechanistic.
+
+# Integration hooks
+
+**Where I will cite it:** In the methods-history section on internal critique; in discussion of adaptive strategy and problem transformation; and beside Archer's early and later formulations.
+
+**Link to my practice evidence:** TODO (one DDR systematic-method trace and one project showing strategic revision).
+
+**Workstreams →** Critical design historiography; design-methods genealogy; systems design.  
+**Deliverables →** Literature review; theoretical framework; case-study analysis.
+
+# Boundary + risk
+
+**Boundary:** The supplied Zotero PDF covers chapters 4–6 only, so this note is deliberately restricted to pp. 45–86 and does not claim to summarise the whole book.
+
+**Risk if misused:** Jones's later synthesis could be projected backwards onto earlier methods as though practitioners already shared his mature critique.
+
+# Cross-source / cross-lens synthesis
+
+Jones complicates Archer's systematic-method lineage from within the same historical field. Archer 1963 argues that systematic analysis can support rather than replace creativity; Jones pushes further by showing that the strategic choice and revision of methods cannot themselves be fixed in advance. Archer 1979 later makes a comparable move toward ill-defined, commutative design activity. Cross 1993 subsequently historicises these revisions as part of the wider crisis and diversification of design methodology. Together they support a thesis account of DDR methods as contested and recursive rather than as a single linear doctrine.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [ ] Data collection and instruments
@@ -121,22 +173,20 @@ They try to reassess design methods by distinguishing what they make visible, wh
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 45, 50–58, 61, 64–70, 73, 75–83
-- **First full note (write it out here):**  
-  J. Christopher Jones, *Design Methods*, 2nd ed. (New York: John Wiley & Sons, 1992), chap. 4–6, 45–83.
-- **Short note form:**  
-  Jones, *Design Methods*, 45–58.
-- **One quote worth lifting (≤2 lines):** “attempts to make public the hitherto private thinking of designers; to externalize the design process.” (p. 45)
-- **One paraphrase worth keeping:** Jones argues that the new methods were valuable because they externalised design thinking and widened the field of possible action, but they also fragmented the traditional design act and still lacked a reliable way to control the crucial stage of transformation in novel design situations. (pp. 61, 69–70)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Archer, *Systematic Method for Designers*
+- **Key pages to reuse:** 45–46, 50–58, 62–73, 83–86
+- **First full note:** J. Christopher Jones, *Design Methods*, 2nd ed. (New York: John Wiley & Sons, 1992), 45–86.
+- **Short note form:** Jones, *Design Methods*, 45–58.
+- **One quote worth lifting:** “attempts to make public the hitherto private thinking of designers; to externalize the design process.” (p. 45)
+- **One paraphrase worth keeping:** Jones argues that methods are most valuable when they externalise thought and support adaptive strategy, but that objectives, problem structure and method choice cannot always be fixed in advance. [@Jones1992DesignMethods, pp. 45–58, 62–73]
+
+# Related works
+
+- Archer, *Systematic Method for Designers*.
 - Archer, “Whatever Became of Design Methodology?”
-- Cross, “Designerly Ways of Knowing”
-- Jonas, “Exploring the Swampy Ground”
-- TODO: connect directly to DDR archive diagrams, classifications, and strategy documents.
+- Cross, “A History of Design Methodology.”
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A text or archive case that shows transformation in practice rather than only in theory, ideally a DDR project where the brief, problem structure, and strategy visibly shift over time.
-- What I will test or write next: Draft the paragraph that uses Jones to argue that design methods externalised and fragmented design thinking, then test that claim against one concrete DDR archival sequence rather than leaving it abstract.
+# Follow-ups
+
+- **What I will test next:** Identify whether DDR project records show strategy switching, revised problem boundaries or collective method choice.

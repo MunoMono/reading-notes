@@ -12,134 +12,181 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Recording, organising, and obscuring traces"
-model_subcluster: "S2.3 Archival reconstruction and institutional memory"
+theoretical_framework_area_id: "1"
+theoretical_framework_area: "Critical design historiography"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 1. Critical design historiography / b) Operational literature"
 source_type: "Context / supporting"
 project_tags:
   - "Theoretical framework"
-theoretical_framework_area_id: "1"
-theoretical_framework_area: "Critical design historiography"
-literature_cluster_id: "c"
-literature_cluster: "Contemporary bridge literature"
-zotero_filing_path: "Theoretical framework / Critical design historiography / Contemporary bridge literature"
-last_updated: "18 Mar 2026, 15:23"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Recording, organising, and obscuring traces  
-**Sub-cluster:** S2.3 Archival reconstruction and institutional memory  
-**Source type:** Context / supporting  
+---
 
-**Seams to watch (optional, pick 1):**
-- Where historical contestation meets archive structure
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 1. Critical design historiography  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 1. Critical design historiography / b) Operational literature  
+**Source type:** Context / supporting
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a focused reconstruction of Archer’s 1968 thesis that shows how early DDR method-talk was already being destabilised by the realities of large, complex design projects.  
-**Where it sits in my argument (chapter/section + what it helps me say):** S2 archival reconstruction and institutional memory; it helps me say that canonical DDR documents do not contain a single stable doctrine, but can be re-read as sites of tension between operational models and practical experience.  
-**Why this term, not alternatives (1–2 lines):** The phrase **“dialogue between the real-world and the operational model”** is especially useful because it captures the paper’s central move: Archer’s systematic model is not simply asserted, but shown to be disrupted by project complexity, changing requirements, and imperfect information.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where I need to show that Archer’s thesis is best read as a transitional and internally unstable document, and where I can compare later reconstructions against the thesis, the design magazine articles, and project evidence from the archive.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Boyd Davis and Gristwood write as historians of design research and computing/design culture, using Archer’s 1968 doctoral thesis as a single-document case study. Their method is reconstructive and contextual: they trace the earlier *Systematic Method* articles, the intellectual influences in the thesis bibliography, the diagrams inside the thesis, and Archer’s later retrospective comments. The article is therefore not just about Archer’s ideas, but about how one canonical document can be re-situated historically through archival and textual comparison. `[@BoydDavis2017DialogueRealworldOperational, pp. 185–188, 198–200]` :contentReference[oaicite:2]{index=2}
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is most useful when treated as a critical rereading of Archer rather than a definitive settlement. Its strength is that it resists both celebration and dismissal, showing a design-methods document already under strain from real-world practice. `[@BoydDavis2017DialogueRealworldOperational, pp. 186–187, 198–200]` :contentReference[oaicite:3]{index=3}
+**How this source moves the primary research question forward:** Boyd Davis and Gristwood model the kind of historically critical rereading the thesis needs: they take a canonical Archer document and reconstruct its prehistory, internal tensions and later revision instead of treating it as a fixed statement of doctrine.
 
-# The author’s main move (1 sentence)
-They try to reread Archer’s 1968 thesis against its own prehistory and later aftermath in order to show that his ambition for a rigorous science of design was increasingly disrupted by complexity, changing briefs, poor data, and the practical realities of design work. `[@BoydDavis2017DialogueRealworldOperational, pp. 185–186, 198–200]` :contentReference[oaicite:4]{index=4}
+**How this source bears on the secondary question:** The article identifies ideas from the DDR period that remain consequential: requirements can change during design, real-world complexity destabilises formal models, making can become a research tool, and action research can bridge scholarship and practice.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It provides a contemporary bridge between primary DDR method texts and a historically reconstructed account of how practice changed Archer's thinking.
+
+**Where it sits in my argument:** Operational literature because the paper closely analyses the relation between formal method and practical design work.
+
+**My benchmark for using it:** I will use the authors' reconstruction as secondary interpretation and keep their claims distinct from the primary Archer passages and project evidence they cite.
+
+# Position + moment
+
+The article centres deliberately on one document, Archer's 1968 doctoral thesis, but reads it through earlier publications, bibliography, diagrams, practical projects and later reflection. The authors' stated purpose is to understand changes within Archer's own thinking as theory met “messy realities.” [@BoydDavis2017DialogueRealworldOperational, pp. 185–186]
+
+# The author’s main move
+
+Boyd Davis and Gristwood argue that Archer's thesis is a pivotal, internally unstable document: it retains the ambition for systematic, operationally inspired design while already admitting iterative problem formation, incomplete data and real-world feedback that later helped transform Archer's position. [@BoydDavis2017DialogueRealworldOperational, pp. 185–200]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Boyd Davis and Gristwood argue that Archer’s thesis is not a static manifesto of rigid method, but a transitional document already showing cracks in the systematic model.
-- **Evidence (quote/paraphrase + page):** The article says that “subtle features within it indicate the beginnings of a change in his thinking” and that later Archer’s views underwent “a radical reformation,” driven by “increasing real-world experience.” Their topic is explicitly “the changes generated within Archer’s own thinking and his attempts to match his theories to the messy realities he encountered.” `[@BoydDavis2017DialogueRealworldOperational, pp. 185–186]` :contentReference[oaicite:5]{index=5}
-- **Warrant (my words):** This matters because it stops the thesis being read as a cleanly coherent statement of design methods. The authors are showing that even at the moment of maximum apparent systematisation, Archer’s position was becoming unstable.
-- **So what for my thesis (a reusable sentence):** Boyd Davis and Gristwood let me treat Archer’s thesis as a contested internal document in DDR history, not simply as a founding statement that can be quoted without reconstruction.
-- **Practice cross-check:** This should be tested against the thesis itself, the *Systematic Method* sequence, and hospital-bed project material, rather than relying only on later summaries. TODO (needs exact archive/thesis cross-link).
+- **Claim (plain):** The authors treat Archer's 1968 thesis as a transitional document rather than a static manifesto of rigid method.
+- **Author claim:** They say subtle features in the thesis indicate the beginnings of a change that later produced a radical reformation of Archer's views through increasing real-world experience.
+- **Evidence-supported claim:** Pages 185–186 explicitly frame the article around this change and distinguish their task from rehearsing general criticisms of design methods.
+- **Researcher inference:** Canonical DDR documents can contain competing temporal layers and should be read for internal revision rather than reduced to a single headline position.
+- **Evidence (quote/paraphrase + page):** The authors state that the thesis contains “the beginnings of a change in his thinking” and focus on Archer's attempts to match theory to messy reality. [@BoydDavis2017DialogueRealworldOperational, pp. 185–186]
+- **Warrant (my words):** A document can function simultaneously as a formal statement and as evidence of pressure on the position it articulates.
+- **Boundary:** The transition is the authors' historical interpretation; it requires checking against the thesis and surrounding primary sources.
+- **Consequence:** The thesis should preserve internal tensions within canonical documents instead of using them as stable doctrinal summaries.
+- **Practice cross-check:** TODO (compare the article's reading directly with the 1968 thesis or surviving thesis extracts in the archive).
 
 ## Claim 2
-- **Claim (plain):** The article argues that large, complex projects such as the hospital bed work forced Archer to recognise that requirements, objectives, and data could not be stabilised in advance.
-- **Evidence (quote/paraphrase + page):** The authors describe the King’s Fund hospital bed project as involving intersecting issues of manufacturing, healthcare, nursing, standards, safety, management, commerce, and institutional politics, and suggest that such experience “modified Archer’s thinking.” Later they quote the thesis itself admitting that “new objectives may tend to form and reform,” that the complete set of objectives is “only rarely definable at the beginning,” and that “any effective design procedure must therefore permit radical reappraisal of the problem at any stage.” `[@BoydDavis2017DialogueRealworldOperational, pp. 187–188, 195–196]` :contentReference[oaicite:6]{index=6}
-- **Warrant (my words):** This is the article’s strongest historical point. Practice did not merely illustrate Archer’s model; it destabilised the very assumptions on which the linear model depended, especially the idea of a settled brief preceding design.
-- **So what for my thesis:** This article helps me show that contested design knowledge in DDR emerged not only between people or institutions, but inside the design process itself, where objectives, requirements, and evidential needs were continually renegotiated.
-- **Practice cross-check:** This connects strongly to Patterson’s hospital article and to any DDR materials where briefs, criteria, or user requirements are revised during the project. TODO (needs Patterson / hospital archive cross-link).
+- **Claim (plain):** Complex practical projects, especially the hospital-bed work, challenged Archer's earlier insistence on defining requirements before designing.
+- **Author claim:** The authors contrast Archer's early preoccupation with rigorous stepwise problem formulation with the King's Fund project, where manufacturing, nursing, safety, standards, management, commerce and institutional politics intersected.
+- **Evidence-supported claim:** Pages 187–188 document the project's conflicting requirements and say the experience appears to have modified Archer's thinking and led him to question the simplicity of his original model.
+- **Researcher inference:** Practice is not merely an application site for DDR theory; it can be evidence of theory being revised through contact with heterogeneous constraints and actors.
+- **Evidence (quote/paraphrase + page):** The hospital-bed project is described as a “very big exercise” in which many technical, organisational and social issues intersected. [@BoydDavis2017DialogueRealworldOperational, pp. 187–188]
+- **Warrant (my words):** When requirements arise from multiple interacting domains, a fully specified problem cannot necessarily precede practical exploration.
+- **Boundary:** The authors infer influence from project experience; the precise causal path from the hospital work to each later conceptual revision remains historically interpretive.
+- **Consequence:** The thesis should triangulate formal method texts with project records to establish where practice and theory diverged.
+- **Practice cross-check:** TODO (compare hospital-bed reports, prototypes and criteria changes with Archer's methodological formulations).
 
 ## Claim 3
-- **Claim (plain):** Boyd Davis and Gristwood argue that Archer’s later thought moved away from linear operational-research models toward making, action research, and more agile, reflexive understandings of design.
-- **Evidence (quote/paraphrase + page):** In the “Looking back” section they note Archer’s later statement that he had “wasted a lot of time trying to bend the methods of operational research and management techniques to design purposes.” They then show him moving toward the idea that the brief is part of the design, that making can alter understanding of requirements, that design can function as action research where “the investigator may of necessity be an actor in the situation,” and that agility and responsiveness became key concepts for him. `[@BoydDavis2017DialogueRealworldOperational, pp. 198–200]` :contentReference[oaicite:7]{index=7}
-- **Warrant (my words):** This matters because it frames Archer’s later position not as a total break but as a transformation produced by the limits of his earlier model. The science of design survives, but in a very altered form.
-- **So what for my thesis:** Boyd Davis and Gristwood give me a precise way to narrate the shift from early systematic method to later DDR concerns with making, reflexivity, action research, and responsiveness.
-- **Practice cross-check:** This links directly to the later Archer texts you have already read, especially *Whatever Became of Design Methodology?* and *A View of the Nature of Design Research*. TODO (needs cross-link to Archer 1979/1981 notes).
+- **Claim (plain):** Archer's systematic thesis is historically rooted in a wider 1960s optimism about operational research, management science and computing.
+- **Author claim:** The authors reconstruct a bibliography and intellectual environment saturated with systems theory, optimisation, decision analysis and computation.
+- **Evidence-supported claim:** Pages 190–191 cite the thesis's explicit intention to adopt terminology and notation compatible with management science and operational research and show computing as both practical tool and methodological inspiration.
+- **Researcher inference:** DDR's methods should be situated within a broader socio-technical culture of systematisation rather than narrated as an isolated design-theory development.
+- **Evidence (quote/paraphrase + page):** Archer's thesis is quoted as deriving many concepts and techniques from management science and operational research; his 1963 work also treats computer logic as a model for explicit reasoning. [@BoydDavis2017DialogueRealworldOperational, pp. 190–191]
+- **Warrant (my words):** Intellectual borrowing is visible not only in citations but in the forms of diagrams, terminology and problem decomposition adopted.
+- **Boundary:** Shared intellectual context does not prove that every DDR project operationalised OR or computation in the same way.
+- **Consequence:** The thesis should trace method transfer at document/project level and retain distinctions among inspiration, actual computer use and metaphor.
+- **Practice cross-check:** TODO (identify a DDR document where OR or computing is explicitly operationalised, not merely referenced).
 
-# Definitions / terms this changes (only the ones that matter)
-- **Operational model:** Archer’s formalised, linear, diagrammatic account of design procedure, influenced by operational research and computation; I will use this term historically, not as a neutral description of how design actually works. `[@BoydDavis2017DialogueRealworldOperational, pp. 190–194]` :contentReference[oaicite:8]{index=8}
-- **Dialogue between the real-world and the operational model:** Archer’s own phrase for the interaction between schematic procedure and real project conditions; I will use it as a shorthand for the friction between design theory and practice. `[@BoydDavis2017DialogueRealworldOperational, pp. 194, 197]` :contentReference[oaicite:9]{index=9}
-- **Requirements in contention:** the article’s effective description of Archer’s recognition that objectives and requirements are revised during design rather than fixed in advance; I will use this to read contested knowledge inside project processes. `[@BoydDavis2017DialogueRealworldOperational, pp. 195–196]` :contentReference[oaicite:10]{index=10}
-- **The brief is part of the design:** the retrospective Archer position that the brief itself is altered by design and making; I will use this as a key bridge from methods history to archive interpretation. `[@BoydDavis2017DialogueRealworldOperational, pp. 198–199]` :contentReference[oaicite:11]{index=11}
-- **Action research:** Archer’s later idea that design scholarship and practice meet when the investigator acts within the situation in order to learn from changing it; I will use this carefully as a bridge to later participatory and situated methods. `[@BoydDavis2017DialogueRealworldOperational, p. 199]` :contentReference[oaicite:12]{index=12}
+## Claim 4
+- **Claim (plain):** The thesis's diagrams reveal a more recursive relation between model and reality than its algorithmic appearance initially suggests.
+- **Author claim:** Boyd Davis and Gristwood show that Archer's operational model includes loops and explicitly describes designing as a dialogue between the real world and the operational model.
+- **Evidence-supported claim:** Page 194 reproduces thesis figures in which the designer's perception and concept grow through cycling between model and world; p. 195 explains feasibility modelling as delimiting a solution space rather than generating the solution.
+- **Researcher inference:** Diagrammatic form must be read in relation to explanatory text; visual linearity or formalism alone is insufficient evidence of a rigid process model.
+- **Evidence (quote/paraphrase + page):** Archer's figure is quoted: “the design process is thus a dialogue between the real-world and the operational model.” [@BoydDavis2017DialogueRealworldOperational, pp. 194–195]
+- **Warrant (my words):** A formal model can be algorithmically styled yet represent iterative feedback and bounded rather than deterministic solution generation.
+- **Boundary:** The presence of loops in a model does not prove that actual projects operated as the diagram specifies.
+- **Consequence:** The thesis should distinguish visual grammar, stated process logic and observed practice when interpreting DDR diagrams.
+- **Practice cross-check:** TODO (compare one Archer diagram with chronological project documentation).
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It is a very strong rereading of Archer’s thesis as a document under pressure from practice.
-  - It gives me a careful way to narrate continuity and change in Archer’s thought.
-  - It is especially useful because it models how a single canonical document can be reconstructed rather than merely cited.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat Archer’s 1968 thesis as a hinge text rather than a fixed statement of doctrine.
-  - I will use this article to show that the history of DDR methods is already a history of internal revision, not just later critique from outside.
-- **What question it raises next (1–2 bullets):**
-  - Which diagrams, phrases, or tensions in Archer’s thesis became over-stabilised in later retellings of DDR?
-  - How far can I trace the same “real-world versus operational model” tension across other DDR documents, not just Archer’s thesis?
+## Claim 5
+- **Claim (plain):** Archer's thesis already concedes that objectives, criteria and the problem itself may need radical revision during design.
+- **Author claim:** The authors identify passages where new objectives form and reform, complete objectives are rarely definable at the beginning, importance ratings may be revised and effective procedures must permit radical reappraisal.
+- **Evidence-supported claim:** Pages 195–196 quote these statements directly and juxtapose them with the simpler checklist image in which the brief appears to precede the design cycle.
+- **Researcher inference:** The historical record contains a tension between the rhetoric of pre-specification and an emerging recognition of co-evolving requirements.
+- **Evidence (quote/paraphrase + page):** Archer states that “any effective design procedure must therefore permit radical reappraisal of the problem at any stage.” [@BoydDavis2017DialogueRealworldOperational, pp. 195–196]
+- **Warrant (my words):** If objectives can change as consequences and fresh information emerge, then the brief cannot function as a permanently fixed input.
+- **Boundary:** Archer still retains faith in systematisation; revision does not amount to abandoning method.
+- **Consequence:** The thesis can locate contestation inside the method itself rather than treating later flexibility as wholly external critique.
+- **Practice cross-check:** TODO (find one DDR record where objectives or criteria are explicitly revised mid-project).
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the S2 archival reconstruction section where I discuss rereadings of canonical DDR documents, and in the historicisation chapter where I explain Archer’s movement from linear systematic method toward more reflexive models.
-- **Where I will name the title in running text (first-use rule):** First mention in the Archer reconstruction section: *In “A Dialogue between the Real-World and the Operational Model” (2017), Stephen Boyd Davis and Simone Gristwood argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside Archer’s thesis itself, the hospital bed material, Patterson’s article, and the later Archer texts from 1978–81 to show how one line of revision runs across theory and practice. TODO (needs exact cross-reference).
-- **Workstreams →** Historicisation; archival reconstruction; institutional memory; methods genealogy.
-- **Deliverables →** Archer reconstruction paragraph; footnote trail on thesis rereading; literature map node; archive-reading rationale.
-- **Stakeholders →** Examiners; supervisors; design history readers; design research readers; archival studies readers.
+## Claim 6
+- **Claim (plain):** Archer's later position turns making, action and responsiveness into legitimate modes of inquiry.
+- **Author claim:** The authors show him later arguing that the brief is part of the design, that making can alter understanding of requirements, that design can function as action research and that agility/responsiveness are central to development.
+- **Evidence-supported claim:** Pages 198–200 trace Archer's retrospective rejection of bending OR to design, his use of Popper to legitimate tentative solution-making, his definition of action research and his interest in agility.
+- **Researcher inference:** The intellectual trajectory from method to design research is not a simple abandonment of rigour but a relocation of rigour into reflexive, situated inquiry.
+- **Evidence (quote/paraphrase + page):** Archer later describes action research as changing something in the real world in order to learn from it and calls it a bridge between design practice and scholarship. [@BoydDavis2017DialogueRealworldOperational, pp. 198–200]
+- **Warrant (my words):** Knowledge can be generated through intervention when action and reflection are deliberately linked and evidence of change is examined.
+- **Boundary:** These are later retrospective formulations and should not be projected backwards as the operative logic of every 1960s DDR project.
+- **Consequence:** The thesis can narrate conceptual development through dated formulations rather than homogenising Archer's career.
+- **Practice cross-check:** TODO (compare late action-research language with evidence from earlier projects before asserting continuity).
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This article is strongest as a close rereading of one canonical Archer document and cannot by itself stand for the whole range of DDR practices or positions.
-- **Risk if misused (1 sentence):** If I rely on it too heavily, I could let its elegant reconstruction of Archer’s transition stand in for messier archival evidence that may not line up so neatly.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Operational model:** Archer's formal, system-oriented representation of design procedure, influenced by OR and computing. [@BoydDavis2017DialogueRealworldOperational, pp. 190–194]
+- **Dialogue between real world and operational model:** iterative relation in which model and perception of the actual problem mutually develop. [@BoydDavis2017DialogueRealworldOperational, p. 194]
+- **Requirements in contention:** the condition in which objectives and criteria emerge or change during design. [@BoydDavis2017DialogueRealworldOperational, pp. 195–196]
+- **Action research:** later Archer formulation in which investigators act in a real situation to change it and learn from that change. [@BoydDavis2017DialogueRealworldOperational, pp. 199–200]
+
+# My response
+
+The article's strongest contribution is historiographic method. It neither celebrates Archer's systematic model nor dismisses it as naive rationalism. Instead it reconstructs how a highly formal model coexisted with project complexity, feedback, uncertain data and revisable objectives, and how those tensions mattered to Archer's later thinking. That is directly useful to this thesis because DDR's contested knowledge can be located within documents and across time rather than only between opposed camps.
+
+# Integration hooks
+
+**Where I will cite it:** In the Archer methods genealogy; in discussion of the hospital-bed project; and as an example of critical rereading of canonical DDR documents.
+
+**Link to my practice evidence:** TODO (direct thesis/project-file triangulation rather than reliance on this secondary account alone).
+
+**Workstreams →** Critical design historiography; archival reconstruction; methods genealogy.  
+**Deliverables →** Literature review; DDR historicisation; case-study method.
+
+# Boundary + risk
+
+**Boundary:** The article is a close reconstruction centred on Archer and one thesis; it cannot stand for all DDR actors, projects or methodological positions.
+
+**Risk if misused:** Its coherent transition narrative could replace messier primary evidence or encourage the thesis to make Archer synonymous with DDR.
+
+# Cross-source / cross-lens synthesis
+
+Boyd Davis and Gristwood connect the primary sequence already visible in Archer 1963 and 1979. The 1963 text contains systematic stages but preserves values and creativity; the 1968 thesis intensifies operational formalisation while admitting feedback and radical reappraisal; the 1979 paper makes ill-defined, commutative design explicit. Cross 1993 later places such changes in a wider history of methodological crisis. This secondary reconstruction is therefore most useful when held against the primary traces rather than used in place of them. It also models the thesis's broader principle: canonical texts should be reopened as layered evidence whose internal tensions are historically meaningful.
+
+# Methods spine tags
+
 - [x] Framing and theory
-- [ ] Study design
+- [x] Study design
 - [x] Data collection and instruments
 - [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 185–188, 195–200
-- **First full note (write it out here):**  
-  Stephen Boyd Davis and Simone Gristwood, “A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis,” *Design Studies* 56 (2018): 185–204.
-- **Short note form:**  
-  Boyd Davis and Gristwood, “A Dialogue between the Real-World and the Operational Model,” 185–188.
-- **One quote worth lifting (≤2 lines):** “the design process is thus a dialogue between the real-world and the operational model” (p. 194).
-- **One paraphrase worth keeping:** Boyd Davis and Gristwood argue that Archer’s 1968 thesis already contains the seeds of his later revision, because large, complex projects forced him to recognise changing requirements, imperfect information, and the inadequacy of a purely linear operational model. (pp. 185–188, 195–200)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Boyd Davis, “Design as an Interesting Phenomenon”
-- Archer, *Systematic Method for Designers*
+- **Key pages to reuse:** 185–191, 194–200
+- **First full note:** Stephen Boyd Davis and Simone Gristwood, “A Dialogue between the Real-World and the Operational Model: The Realities of Design in Bruce Archer’s 1968 Doctoral Thesis,” *Design Studies* 56 (2018): 185–204.
+- **Short note form:** Boyd Davis and Gristwood, “A Dialogue between the Real-World and the Operational Model,” 194–200.
+- **One quote worth lifting:** “the design process is thus a dialogue between the real-world and the operational model” (p. 194).
+- **One paraphrase worth keeping:** Boyd Davis and Gristwood show that Archer's highly formal 1968 thesis already contains concessions to changing objectives, incomplete data and real-world feedback that later became central to his revised view of design research. [@BoydDavis2017DialogueRealworldOperational, pp. 194–200]
+
+# Related works
+
+- Archer, *Systematic Method for Designers*.
 - Archer, “Whatever Became of Design Methodology?”
-- Archer, *A View of the Nature of Design Research*
-- Patterson, “Hospital Design: Equipment and Buildings”
+- Cross, “A History of Design Methodology.”
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: Archer’s 1968 thesis directly, or one hospital-bed project file that lets me test the article’s claims about complexity and shifting requirements.
-- What I will test or write next: Draft the paragraph that treats Archer’s thesis as a hinge document, then anchor that reading in one thesis diagram and one practical DDR case rather than leaving it at secondary interpretation.
+# Follow-ups
+
+- **What I will test next:** Triangulate the article's account with the 1968 thesis and hospital-bed archive before using it for DDR-specific causal claims.
