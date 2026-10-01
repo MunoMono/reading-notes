@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T13:34:21+00:00
+Generated: 2026-10-01T13:39:16+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,20 +8,20 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 31 |
+| COMPLIANT | 32 |
 | SECOND PASS REQUIRED | 17 |
-| FIRST PASS REQUIRED | 6 |
+| FIRST PASS REQUIRED | 4 |
 | REVIEW MATCH | 0 |
 
-**Active Zotero items in scope:** 54
-**Deferred placeholder-only items (d/e):** 32
-**Repo-only theoretical-framework notes needing parity review:** 2
+**Active Zotero items in scope:** 53
+**Deferred placeholder-only items (d/e):** 33
+**Repo-only theoretical-framework notes needing parity review:** 1
 
 ## Active Zotero collection counts
 
 | Collection path | Top-level items |
 | --- | ---: |
-| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | 4 |
+| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | 3 |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | 7 |
 | Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature | 1 |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | 10 |
@@ -53,6 +53,7 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | Theoretical framework / 1. Critical design histriography / d) Z | Introduction: design research – history, theory, practice: histories for future - focused thinking | 2016 |
 | Theoretical framework / 1. Critical design histriography / d) Z | New design knowledge and the fifth order of design | 2022 |
 | Theoretical framework / 1. Critical design histriography / e) ADD | It's personal: subjectivity in design history | 2015 |
+| Theoretical framework / 1. Critical design histriography / e) ADD | The design of everyday things | 2013 |
 | Theoretical framework / 1. Critical design histriography / e) ADD | The state of design history, part I: mapping the field | 1984 |
 | Theoretical framework / 1. Critical design histriography / e) ADD | The state of design history, part II: problems and possibilities | 1984 |
 | Theoretical framework / 2. Critical archival theory / d) Z | General international standard archival description | 2000 |
@@ -109,10 +110,8 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Design history and the history of design | 1990 |  | no matching reading note |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Objects of desire: design and society since 1750 | 1992 |  | no matching reading note |
-| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | The design of everyday things | 2013 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Machine learners: archaeology of a data practice | 2017 |  | no matching reading note |
-| Theoretical framework / 3. Critical computational approaches / b) Operational literature | Explainable search and discovery of visual cultural heritage collections with multimodal large language models | 2024 |  | no matching reading note |
 
 ## REVIEW MATCH
 
@@ -153,6 +152,7 @@ _None._
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Critical questions for archives as (big) data | 2019 | public/docs/M/Mordell2019CriticalQuestionsArchivesData.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Humanities approaches to graphical display | 2011 | public/docs/D/Drucker2011HumanitiesApproachesGraphical.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | End-to-end information extraction from archival records with multimodal large language models | 2025 | public/docs/V/Vafaie2025EndtoendInformationExtraction.md | meets current structural and completeness checks |
+| Theoretical framework / 3. Critical computational approaches / b) Operational literature | Explainable search and discovery of visual cultural heritage collections with multimodal large language models | 2024 | public/docs/A/ArnoldExplainableSearchDiscovery.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
@@ -160,7 +160,6 @@ These GitHub notes declare theoretical-framework metadata but did not match an i
 
 | Note | Title | Filing path |
 | --- | --- | --- |
-| public/docs/A/ArnoldExplainableSearchDiscovery.md | Explainable search and discovery | Theoretical framework / Critical computational approaches / Operational literature |
 | public/docs/H/2026SituatedKnowledgesScience.md | Situated knowledges: the science question in feminism and the privilege of partial perspective | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage |
 
 ## Interpretation

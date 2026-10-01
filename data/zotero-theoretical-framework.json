@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:34:21+00:00",
+  "generated_at": "2026-10-01T13:39:16+00:00",
   "zotero_user_id": "3436801",
   "scope": {
     "root_collection_name": "Theoretical framework",
@@ -17,11 +17,11 @@
     ]
   },
   "collection_item_counts": {
-    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 4,
+    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 3,
     "Theoretical framework / 1. Critical design histriography / b) Operational literature": 7,
     "Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature": 1,
     "Theoretical framework / 1. Critical design histriography / d) Z": 5,
-    "Theoretical framework / 1. Critical design histriography / e) ADD": 3,
+    "Theoretical framework / 1. Critical design histriography / e) ADD": 4,
     "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage": 10,
     "Theoretical framework / 2. Critical archival theory / b) Operational literature": 4,
     "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature": 5,
@@ -38,7 +38,7 @@
     "Theoretical framework / 4. Feminist + situated knowledge / e) ADD": 13
   },
   "active_collection_item_counts": {
-    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 4,
+    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 3,
     "Theoretical framework / 1. Critical design histriography / b) Operational literature": 7,
     "Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature": 1,
     "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage": 10,
@@ -52,8 +52,8 @@
     "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature": 1
   },
   "item_count": 86,
-  "active_item_count": 54,
-  "deferred_placeholder_item_count": 32,
+  "active_item_count": 53,
+  "deferred_placeholder_item_count": 33,
   "items": [
     {
       "zotero_item_key": "37YPQUR4",
@@ -132,39 +132,6 @@
         "Great Britain",
         "History",
         "Industrial design"
-      ],
-      "citation_key": "",
-      "collection_paths": [
-        "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage"
-      ]
-    },
-    {
-      "zotero_item_key": "Y3BXJLU4",
-      "version": 8660,
-      "item_type": "book",
-      "title": "The design of everyday things",
-      "creators": "Norman, Donald A.",
-      "creators_raw": [
-        {
-          "creatorType": "author",
-          "firstName": "Donald A.",
-          "lastName": "Norman"
-        }
-      ],
-      "date": "2013",
-      "year": "2013",
-      "publisher": "Basic Books",
-      "publication_title": "",
-      "doi": "",
-      "isbn": "9780465050659",
-      "url": "",
-      "tags": [
-        "BUSINESS & ECONOMICS / Industries / Retailing",
-        "DESIGN / Product",
-        "Human engineering",
-        "Industrial design",
-        "PSYCHOLOGY / Applied Psychology",
-        "Psychological aspects"
       ],
       "citation_key": "",
       "collection_paths": [
@@ -603,6 +570,39 @@
       "isbn": "",
       "url": "https://www.tandfonline.com/doi/full/10.2752/175470715X14153615623565",
       "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "Y3BXJLU4",
+      "version": 8665,
+      "item_type": "book",
+      "title": "The design of everyday things",
+      "creators": "Norman, Donald A.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Donald A.",
+          "lastName": "Norman"
+        }
+      ],
+      "date": "2013",
+      "year": "2013",
+      "publisher": "Basic Books",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780465050659",
+      "url": "",
+      "tags": [
+        "BUSINESS & ECONOMICS / Industries / Retailing",
+        "DESIGN / Product",
+        "Human engineering",
+        "Industrial design",
+        "PSYCHOLOGY / Applied Psychology",
+        "Psychological aspects"
+      ],
       "citation_key": "",
       "collection_paths": [
         "Theoretical framework / 1. Critical design histriography / e) ADD"
