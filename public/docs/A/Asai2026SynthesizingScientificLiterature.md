@@ -5,20 +5,13 @@ year: 2026
 journal: "Nature"
 citation_key: asaiSynthesizingScientificLiterature2026
 doi: "10.1038/s41586-025-10072-4"
-url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "15 Sep 2026, 00:00"
-last_updated: "16 Sept 2026, 11:14"
-north_star_source: "project/north-star.yml"
-north_star_mtime: "15 Sep 2026, 00:00"
-north_star_sha1: "placeholder"
-category: "S3: Surfacing and reactivating traces computationally"
+last_updated: "01 Oct 2026"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
-project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
@@ -27,143 +20,148 @@ source_type: "Context / supporting"
 project_tags:
   - "Turin"
   - "Thesis"
-literature_clusters:
-  - "02 LLM epistemic risk and persuasive fluency"
-  - "03 RAG, retrieval and source attribution"
-constraints_source: "project/constraints.md"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.3 Retrieval-augmented inference  
-**Source type:** Context / supporting  
-**Project/output tags:** Turin, Thesis  
-**Literature clusters:** 02 LLM epistemic risk and persuasive fluency; 03 RAG, retrieval and source attribution  
-
-**Seam to watch:** When computational methods clarify or distort contested traces
-
-# Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-
+  - "Theoretical framework"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+constraints_source: "project/constraints.md"
 ---
 
-# Thesis job (do this first)
+# Thesis job
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source moves the primary research question forward:** Asai et al. show that retrieval, reranking, iterative feedback, further retrieval and citation checking can be separate stages in an inference-time synthesis pipeline. This gives the DDR project direct support for describing retrieval as evidential input to a subsequent inference process rather than as a guarantee of interpretation.
 
-**Why I’m reading this now (1 sentence):**  
-I need recent scholarship that distinguishes a retrieval-plus-inference pipeline from standard retrieve-then-generate RAG and provides empirical evidence that intermediate reasoning, reranking and verification stages affect the quality of the final synthesis.
+**Where it sits in my argument:** S3.3 retrieval-augmented inference and the Turin methodological framing.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin methodological framing. It provides direct support for describing retrieval as the evidential input to a subsequent inference process rather than treating retrieved passages merely as additional context for one-step generation.
+**My benchmark for using it:** Use it to justify staged retrieval-plus-inference architecture and to separate retrieval quality, synthesis quality and citation support. Do not treat model self-feedback as independent historical validation.
 
-**Why this term, not alternatives (1–2 lines):**  
-Asai et al. explicitly use the phrase *retrieval-augmented inference pipelines* for the inference-time process connecting retrieval to generated output. I can therefore use *retrieval-augmented inference* as a defensible description of system architecture, while avoiding the stronger claim that it is already an established field distinct from RAG.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use it where I need evidence that retrieval, reranking, iterative refinement and attribution can form distinct stages of an inference pipeline. Do not use it as evidence that self-generated reasoning is inherently transparent, historically valid or sufficient for archival interpretation.
+Asai et al. address scientific literature synthesis with OpenScholar, an open retrieval-augmented system using a 45-million-paper data store, trained retrieval and reranking, iterative self-feedback and citation checking. They evaluate the system with ScholarQABench across computer science, physics, neuroscience and biomedicine. [@asaiSynthesizingScientificLiterature2026, pp. 857–862]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Asai et al. write from contemporary NLP, information retrieval and scientific knowledge synthesis. Their intervention addresses the difficulty of answering research questions whose evidence is dispersed across a rapidly growing scientific literature. OpenScholar therefore treats retrieval, synthesis and attribution as a connected inference-time problem rather than relying on the parametric knowledge of a language model.
+They extend one-step retrieval-augmented generation into a staged inference pipeline in which retrieved evidence is ranked, synthesized, critiqued, supplemented by further retrieval and checked for citation support. [@asaiSynthesizingScientificLiterature2026, pp. 857–865]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-A simple retrieve-then-generate account of RAG no longer captures the full architecture of systems such as OpenScholar. By 2026, retrieval can be followed by reranking, model critique, additional retrieval, iterative revision and citation verification; however, these extra stages remain computational operations whose epistemic status still requires scrutiny.
-
-# The author’s main move (1 sentence)
-
-They extend standard retrieval-augmented generation with specialised retrieval, reranking, iterative self-feedback, further retrieval and citation verification in order to produce more accurate and better-attributed multi-document scientific syntheses.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Retrieval-augmented inference can contain distinct reasoning and refinement stages beyond standard retrieve-then-generate RAG.
-- **Evidence (quote/paraphrase + page):** Asai et al. explicitly distinguish standard RAG baselines, in which retrieved passages are concatenated with the query for generation, from OpenScholar's “custom inference pipeline”. `[@asaiSynthesizingScientificLiterature2026, p. 859]` In the Methods they describe “standard retrieval-augmented inference pipelines” and then extend that process through reranking, iterative self-feedback, additional retrieval and citation verification. `[@asaiSynthesizingScientificLiterature2026, pp. 864–865]`
-- **Warrant (my words):** Retrieval does not have to terminate in a single generative act. Retrieved evidence can enter a multi-stage inference process in which the system evaluates an initial response, seeks further evidence and revises the synthesis before output.
-- **So what for my thesis (a reusable sentence):** Retrieval-augmented inference describes an architecture in which retrieved traces provide evidence for a subsequent, staged process of interpretation and refinement rather than functioning only as context for one-step generation.
-- **Practice cross-check:** Turin research design: the DDR system retrieves evidence before synthesis and subjects the resulting relationship to provenance, source-type and evidential-limit checks; where synthesis is not supportable, the workflow preserves the evidence without completing the relation.
+- **Claim (plain):** Retrieval-augmented inference can contain distinct stages beyond retrieve-then-generate.
+- **Author claim:** OpenScholar combines retrieval, reranking, generation, self-feedback, further retrieval and citation checking.
+- **Evidence-supported claim:** The system description and Methods distinguish standard RAG from a multi-step inference pipeline. [@asaiSynthesizingScientificLiterature2026, pp. 857–859, 864–865]
+- **Researcher inference:** Retrieved passages can function as evidence within a staged inference process rather than merely as prompt context.
+- **Evidence (quote/paraphrase + page):** The Methods describe initial generation, feedback, optional additional retrieval, iterative revision and a final citation-support check. [@asaiSynthesizingScientificLiterature2026, pp. 864–865]
+- **Warrant (my words):** Retrieval and interpretation are separable operations.
+- **Boundary:** The task is scientific synthesis, not archival history.
+- **Consequence:** Describe DDR RAI as staged evidence handling rather than one-step generation.
+- **Practice cross-check:** DDR retrieves evidence before synthesis and can stop at bounded evidence when interpretation is not warranted.
 
 ## Claim 2
-
-- **Claim (plain):** The intermediate stages of the inference pipeline materially affect the correctness and evidential attribution of the final response.
-- **Evidence (quote/paraphrase + page):** Ablation experiments show reductions in correctness and citation accuracy when reranking, self-feedback or citation verification are removed; removing reranking produces especially large losses in citation accuracy. `[@asaiSynthesizingScientificLiterature2026, p. 860]` The paper also finds that simply increasing the number of retrieved passages can reduce correctness and citation accuracy, showing that more retrieved context is not automatically better. `[@asaiSynthesizingScientificLiterature2026, p. 860]`
-- **Warrant (my words):** Output quality depends on what happens between initial retrieval and final generation. Selection, ordering, refinement and attribution are methodological decisions rather than incidental implementation details.
-- **So what for my thesis:** The evidential quality of an archive-facing AI system depends on how retrieved traces are selected, structured and tested during inference, not simply on whether retrieval has occurred.
-- **Practice cross-check:** Turin retrieval routes distinguish known relationships, contested interpretations and scoped missingness rather than passing an undifferentiated set of retrieved chunks directly to the language model.
+- **Claim (plain):** Retrieval quality and reranking materially affect the final answer.
+- **Author claim:** Domain-specialized retrieval and reranking are core parts of OpenScholar.
+- **Evidence-supported claim:** Ablations show lower correctness and citation accuracy when reranking or retrieval components are removed. [@asaiSynthesizingScientificLiterature2026, p. 860]
+- **Researcher inference:** Retrieval is an epistemic bottleneck because unseen evidence cannot constrain later synthesis.
+- **Evidence (quote/paraphrase + page):** The paper reports measurable losses when retrieval and reranking components are weakened. [@asaiSynthesizingScientificLiterature2026, p. 860]
+- **Warrant (my words):** The evidence surface shapes the answer space.
+- **Boundary:** Benchmark effects do not transfer numerically to DDR.
+- **Consequence:** Evaluate DDR retrieval separately from prose quality.
+- **Practice cross-check:** UAT first asks whether relevant traces were retrieved before judging synthesis.
 
 ## Claim 3
+- **Claim (plain):** More retrieved context is not automatically better.
+- **Author claim:** The authors test passage-count and retrieval variants rather than assuming context quantity improves performance.
+- **Evidence-supported claim:** Their ablations show that adding more passages can reduce correctness and citation accuracy. [@asaiSynthesizingScientificLiterature2026, p. 860]
+- **Researcher inference:** Evidence selection requires precision and boundedness, not maximal context accumulation.
+- **Evidence (quote/paraphrase + page):** Increasing retrieved material sometimes degrades performance rather than improving it. [@asaiSynthesizingScientificLiterature2026, p. 860]
+- **Warrant (my words):** Additional context can introduce noise and competing evidence.
+- **Boundary:** The optimal passage count is task-specific.
+- **Consequence:** Keep DDR retrieval scoped to the question and evidence route.
+- **Practice cross-check:** Known-relationship, contested-interpretation and missingness routes use different bounded retrieval behaviours.
 
-- **Claim (plain):** Iterative inference improves synthesis but does not remove uncertainty, retrieval bias or unsupported generation.
-- **Evidence (quote/paraphrase + page):** The authors acknowledge that OpenScholar does not always retrieve the most representative or relevant papers and that its outputs can still contain factual inaccuracies or unsupported information. `[@asaiSynthesizingScientificLiterature2026, p. 862]` They also report that the initial response was preferred over the iteratively refined response in about 20% of synthetic-data cases because repeated refinement could introduce over-editing or redundancy. `[@asaiSynthesizingScientificLiterature2026, p. 865]`
-- **Warrant (my words):** Self-feedback is itself generated by the model. Adding an inference loop therefore improves performance without turning the reasoning process into independent evidential validation.
-- **So what for my thesis:** Retrieval-augmented inference remains an interpretive process whose outputs require externally visible provenance, evidential boundaries and researcher judgement; iterative model reasoning cannot by itself determine whether an archival relationship is historically warranted.
-- **Practice cross-check:** Turin protocol: documentary claims are checked against retrieved quotations and provenance, and unsupported cross-source relations are withheld or compiled deterministically rather than accepted because a model has iteratively refined them.
+## Claim 4
+- **Claim (plain):** Citation quality must be evaluated independently from answer fluency.
+- **Author claim:** OpenScholar evaluates whether references genuinely support generated claims.
+- **Evidence-supported claim:** The paper separates correctness from citation accuracy and reports substantial gains from retrieval-grounded citation handling. [@asaiSynthesizingScientificLiterature2026, pp. 857, 859–860]
+- **Researcher inference:** A citation marker is not itself provenance; support must be inspectable.
+- **Evidence (quote/paraphrase + page):** The benchmark checks whether cited papers support the statements to which they are attached. [@asaiSynthesizingScientificLiterature2026, pp. 859–860]
+- **Warrant (my words):** Scholarly claims require traceable evidential support.
+- **Boundary:** OpenScholar's checking is still model-mediated.
+- **Consequence:** Bind DDR claims to source passages and document records.
+- **Practice cross-check:** DDR source cards expose the passage and PID-backed record behind a claim.
 
-# Definitions / terms this changes (only the ones that matter)
+## Claim 5
+- **Claim (plain):** Iterative self-feedback can improve synthesis without becoming independent validation.
+- **Author claim:** OpenScholar uses model-generated feedback to revise answers and retrieve more information when needed.
+- **Evidence-supported claim:** The Methods describe feedback-driven revision and additional retrieval, but the initial answer is preferred to the final revised answer in about 20% of synthetic-data cases because later iterations can over-edit or add redundancy. [@asaiSynthesizingScientificLiterature2026, p. 865]
+- **Researcher inference:** Model self-critique is useful but not epistemically external to the model.
+- **Evidence (quote/paraphrase + page):** Their own filtering retains initial drafts in a substantial minority of cases. [@asaiSynthesizingScientificLiterature2026, p. 865]
+- **Warrant (my words):** Iteration can correct and also introduce error.
+- **Boundary:** The reported proportion belongs to their data-generation setting.
+- **Consequence:** Put external evidence checks after iterative synthesis.
+- **Practice cross-check:** DDR accepts synthesis only where retrieved evidence continues to support the final claim.
 
-- **Retrieval-augmented inference:** an inference-time process in which a query triggers retrieval from an external corpus and retrieved passages become evidence for subsequent generation; Asai et al. explicitly use the phrase when describing the standard retrieval-to-generation pipeline. `[@asaiSynthesizingScientificLiterature2026, p. 864]`
-- **Self-feedback inference:** an iterative process in which the model drafts an answer, generates natural-language feedback on that answer, performs further retrieval where required, revises the response and finally verifies citations. `[@asaiSynthesizingScientificLiterature2026, p. 865]`
-- **Citation verification:** a final inference-stage operation in which citation-worthy statements are checked for support from retrieved passages and citations can be inserted where support is available. `[@asaiSynthesizingScientificLiterature2026, p. 865]`
+## Claim 6
+- **Claim (plain):** Retrieval-augmented synthesis remains limited by representativeness and unsupported output.
+- **Author claim:** The authors acknowledge that OpenScholar can miss representative papers and still produce inaccurate or unsupported information.
+- **Evidence-supported claim:** The limitations section identifies retrieval coverage and residual factual error as unresolved problems. [@asaiSynthesizingScientificLiterature2026, p. 862]
+- **Researcher inference:** A strong retrieval pipeline raises evidential quality without eliminating uncertainty.
+- **Evidence (quote/paraphrase + page):** OpenScholar does not always retrieve the most relevant evidence and does not guarantee complete factual support. [@asaiSynthesizingScientificLiterature2026, p. 862]
+- **Warrant (my words):** Retrieval improves access to evidence but does not settle interpretation.
+- **Boundary:** Scientific literature has different publication and metadata structures from archives.
+- **Consequence:** Preserve ambiguity and scoped missingness in DDR outputs.
+- **Practice cross-check:** Unsupported relations are withheld rather than completed for fluency.
 
-# My response (no antithesis; state positives)
+# Definitions / terms this changes
 
-- **What I take from this (1–3 bullets):**
-  - The paper gives me direct recent scholarly usage of *retrieval-augmented inference*, which strengthens the terminology used in the Turin paper.
-  - Its strongest contribution for my purposes is architectural: retrieval, reranking, feedback, further retrieval and attribution are separable operations between question and final synthesis.
-  - The ablation results provide empirical support for treating these intermediate operations as consequential rather than describing them as implementation detail.
+- **Retrieval-augmented inference:** an inference-time process in which external retrieval supplies evidence to subsequent generation and refinement stages. [@asaiSynthesizingScientificLiterature2026, pp. 864–865]
+- **Self-feedback inference:** iterative answer revision driven by model-generated feedback, with further retrieval where required. [@asaiSynthesizingScientificLiterature2026, p. 865]
+- **Citation checking:** an inference-stage test of whether citation-worthy statements are supported by retrieved passages. [@asaiSynthesizingScientificLiterature2026, p. 865]
 
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - For the DDR I use *inference* more narrowly than OpenScholar: inference must remain bounded by the evidential status, date, provenance and source type of archival traces.
-  - I treat citation verification as provenance support. Historical warrant requires a further interpretive judgement about what the cited record actually establishes.
+# My response
 
-- **What question it raises next (1–2 bullets):**
-  - How can the reasoning that occurs after retrieval be made inspectable rather than remaining within a model-generated self-feedback loop?
-  - Can supporting, conflicting and insufficient evidence be represented explicitly so that the final inference remains contestable? This is the point at which Zhu et al.'s argumentation approach becomes particularly relevant.
+This paper gives the thesis a defensible operational basis for RAI while also supplying the boundary condition: better retrieval and iterative refinement improve synthesis, but neither makes the output self-validating. The DDR system should therefore treat retrieval as evidential input, synthesis as a separate interpretive operation, and provenance/limits as necessary checks on the final answer.
 
-# Integration hooks (make it actionable)
+# Integration hooks
 
-- **Where I will cite it (exact paragraph/job):** In the Turin methodological framing immediately after introducing *retrieval-augmented inference*, to establish that contemporary retrieval systems can include explicit inference-time stages beyond standard retrieve-then-generate RAG. Cite again in Research Design when explaining why retrieval, evidence selection, synthesis and provenance validation are treated as separate stages.
-- **Where I will name the title in running text (first-use rule):** “Asai et al.'s *Synthesizing scientific literature with retrieval-augmented language models* provides a recent example of what the authors explicitly describe as a retrieval-augmented inference pipeline.”
-- **Link to my practice evidence (one concrete cross-reference):** Turin findings matrix and research-design workflow: retrieved DDR chunks → source/evidence typing → bounded synthesis or deterministic fallback → quotation and provenance validation → explicit statement of evidential limit.
-- **Workstreams →** retrieval-augmented inference; source attribution; provenance; bounded synthesis
-- **Deliverables →** Turin methodological justification; thesis S3 computational method; retrieval/inference terminology
-- **Stakeholders →** archival researchers; digital-humanities researchers; cultural-heritage institutions; AI/IR researchers
+**Where I will cite it:** RAI architecture; retrieval/reranking; citation support; iterative inference; limitations.
 
-# Boundary + risk (short, practical)
+**Workstreams →** RAI; UAT; scoped missingness; provenance.  
+**Deliverables →** Turin paper; methods chapter; system design.
 
-- **Boundary (1 sentence):** OpenScholar works with scientific publications whose claims and citation conventions are substantially more standardised than the heterogeneous, retrospective and institutionally mediated records of the DDR archive.
-- **Risk if misused (1 sentence):** Treating OpenScholar's self-feedback and citation verification as equivalent to historical reasoning would give model-generated refinement an evidential authority that the paper itself does not establish.
+# Boundary + risk
 
-# Methods spine tags (tick what it actually touches)
+**Boundary:** OpenScholar is built for current scientific literature, not heterogeneous historical archives.
+
+**Risk if misused:** Strong benchmark performance could be mistaken for proof that staged model inference is historically valid without source criticism.
+
+# Cross-source / cross-lens synthesis
+
+Asai et al. provide the operational bridge from retrieval to staged inference. Bender et al. caution that fluent model output is not grounded understanding; Selyshcheva carries that warning into historical source criticism; Mordell reminds us that the underlying archive-as-data has already been shaped by selection and description. Together they support a DDR architecture in which retrieved traces constrain but do not determine interpretation.
+
+# Methods spine tags
 
 - [x] Framing and theory
 - [x] Study design
-- [ ] Data collection and instruments
+- [x] Data collection and instruments
 - [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
+# Chicago NB payload
 
-- **Key pages to reuse:** pp. 859–860, 864–865, 862
-- **First full note (write it out here):** Akari Asai et al., “Synthesizing Scientific Literature with Retrieval-Augmented Language Models,” *Nature* 650 (2026): 857–868, https://doi.org/10.1038/s41586-025-10072-4.
-- **Short note form:** Asai et al., “Synthesizing Scientific Literature,” [page].
-- **One quote worth lifting (≤2 lines):** “one-step generation can lead to unsupported claims or incomplete output” (p. 865).
-- **One paraphrase worth keeping:** OpenScholar extends a standard retrieval-augmented inference pipeline by reranking retrieved evidence, critiquing an initial response, retrieving further material where needed, iteratively revising the synthesis and verifying citation support. (pp. 864–865)
+- **Key pages to reuse:** 857–865
+- **First full note:** Akari Asai et al., “Synthesizing Scientific Literature with Retrieval-Augmented Language Models,” *Nature* 650 (2026): 857–868.
+- **Short note form:** Asai et al., “Synthesizing Scientific Literature,” 864–865.
+- **One paraphrase worth keeping:** Retrieval, reranking, iterative feedback and citation checking improve evidence-linked synthesis while leaving residual retrieval and factual uncertainty. [@asaiSynthesizingScientificLiterature2026, pp. 860, 862, 865]
 
-# Related works (only if it directly connects)
+# Related works
 
-- Wang et al. (2025), *RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning* — extends the distinction by making an explicit reasoning stage responsible for deciding how retrieved knowledge should be applied.
-- Zhu et al. (2025), *ArgRAG: Explainable Retrieval Augmented Generation Using Quantitative Bipolar Argumentation* — pushes beyond model-internal self-feedback by structuring supporting and conflicting evidence through an inspectable argumentation mechanism.
-- Asai et al. (2024), *Self-RAG* — earlier work on retrieval, generation and self-reflection that provides part of the technical lineage for OpenScholar.
+- Bender et al., “On the Dangers of Stochastic Parrots.”
+- Selyshcheva, “Generative AI as a Historical Source.”
+- Mordell, “Critical Questions for Archives as (Big) Data.”
 
-# Follow-ups (next actions, not vibes)
+# Follow-ups
 
-- **What I will read next:** Wang et al. (2025) to test whether application-aware reasoning provides a stronger conceptual separation between retrieval and inference than Asai et al.'s self-feedback architecture.
-- **What I will test or write next:** Build the three-paper progression explicitly: Asai establishes inference-time terminology and iterative reasoning after retrieval → Wang makes post-retrieval reasoning an explicit application-aware stage → Zhu makes the evidential reasoning structure inspectable through supporting and conflicting evidence.
+- **What I will test next:** Compare DDR answer quality before and after explicit retrieval/reranking checks while holding the final synthesis model constant.
