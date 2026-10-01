@@ -42,7 +42,9 @@ jobs:
         run: npm run predeploy
 
       - name: Publish to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          npx gh-pages -d dist -b gh-pages -f --dotfiles -m 'deploy: publish reading notes'
+          npx gh-pages -d dist -b gh-pages -f --dotfiles -m 'deploy: publish reading notes' -r "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
