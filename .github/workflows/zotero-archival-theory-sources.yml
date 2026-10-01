@@ -1,0 +1,56 @@
+name: Fetch archival theory Zotero PDFs
+
+on:
+  push:
+    branches:
+      - zotero-theoretical-framework-audit
+    paths:
+      - '.github/workflows/zotero-archival-theory-sources.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { key: '65Q335LQ', slug: 'ketelaar-2008' }
+          - { key: '755QNF73', slug: 'schwartz-cook-2002' }
+          - { key: 'JKMQB7QJ', slug: 'caswell-2017' }
+          - { key: 'PBZ5IK9L', slug: 'bearman-1992' }
+          - { key: 'TKUL75BN', slug: 'duranti-1992' }
+          - { key: 'T9HHJABC', slug: 'gilliland-2016' }
+          - { key: 'IUAPFIMI', slug: 'bowker-star-1999' }
+          - { key: '3Z5N7MNB', slug: 'nesmith-2015-a' }
+          - { key: '6BJ4TQW2', slug: 'nesmith-2015-b' }
+          - { key: 'SXFHK5BB', slug: 'cook-1997' }
+          - { key: '3B3UX7NI', slug: 'archival-silences-2021' }
+          - { key: 'MMUI582X', slug: 'thomson-2007' }
+          - { key: 'RVFXV4B6', slug: 'carter-2006' }
+          - { key: 'K2DTNN4G', slug: 'portelli-2009' }
+          - { key: 'UM2LPE9I', slug: 'ai-digital-archives-2023' }
+          - { key: 'CYWH7ZLG', slug: 'jaillant-2024' }
+          - { key: 'QMNBGWZB', slug: 'cifor-2017' }
+          - { key: 'WIESNQ8L', slug: 'ortolja-baird-2022' }
+          - { key: '3VRUUL5N', slug: 'moss-2018' }
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch PDF from Zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+          ZOTERO_ITEM_KEY: ${{ matrix.key }}
+        run: python3 scripts/zotero_fetch_pdf.py
+      - name: Upload source artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zotero-source-${{ matrix.slug }}
+          path: tmp/zotero-source
+          retention-days: 1
