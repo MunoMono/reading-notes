@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:41:49+00:00",
+  "generated_at": "2026-10-01T13:46:00+00:00",
   "zotero_user_id": "3436801",
   "scope": {
     "root_collection_name": "Theoretical framework",
@@ -17,11 +17,11 @@
     ]
   },
   "collection_item_counts": {
-    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 3,
+    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 1,
     "Theoretical framework / 1. Critical design histriography / b) Operational literature": 7,
     "Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature": 1,
     "Theoretical framework / 1. Critical design histriography / d) Z": 5,
-    "Theoretical framework / 1. Critical design histriography / e) ADD": 4,
+    "Theoretical framework / 1. Critical design histriography / e) ADD": 6,
     "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage": 10,
     "Theoretical framework / 2. Critical archival theory / b) Operational literature": 4,
     "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature": 5,
@@ -38,7 +38,7 @@
     "Theoretical framework / 4. Feminist + situated knowledge / e) ADD": 13
   },
   "active_collection_item_counts": {
-    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 3,
+    "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage": 1,
     "Theoretical framework / 1. Critical design histriography / b) Operational literature": 7,
     "Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature": 1,
     "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage": 10,
@@ -52,35 +52,9 @@
     "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature": 1
   },
   "item_count": 86,
-  "active_item_count": 53,
-  "deferred_placeholder_item_count": 33,
+  "active_item_count": 51,
+  "deferred_placeholder_item_count": 35,
   "items": [
-    {
-      "zotero_item_key": "37YPQUR4",
-      "version": 8648,
-      "item_type": "book",
-      "title": "Design history and the history of design",
-      "creators": "Walker, John Albert",
-      "creators_raw": [
-        {
-          "creatorType": "author",
-          "firstName": "John Albert",
-          "lastName": "Walker"
-        }
-      ],
-      "date": "1990",
-      "year": "1990",
-      "publisher": "Pluto Pr",
-      "publication_title": "",
-      "doi": "",
-      "isbn": "97807453052269780745302744",
-      "url": "",
-      "tags": [],
-      "citation_key": "",
-      "collection_paths": [
-        "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage"
-      ]
-    },
     {
       "zotero_item_key": "ZV4YNL9B",
       "version": 8501,
@@ -106,36 +80,6 @@
       "collection_paths": [
         "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage",
         "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage"
-      ]
-    },
-    {
-      "zotero_item_key": "4JL7AV7X",
-      "version": 8644,
-      "item_type": "book",
-      "title": "Objects of desire: design and society since 1750",
-      "creators": "Forty, Adrian",
-      "creators_raw": [
-        {
-          "creatorType": "author",
-          "firstName": "Adrian",
-          "lastName": "Forty"
-        }
-      ],
-      "date": "1992",
-      "year": "1992",
-      "publisher": "Thames and Hudson",
-      "publication_title": "",
-      "doi": "",
-      "isbn": "9780500274125",
-      "url": "",
-      "tags": [
-        "Great Britain",
-        "History",
-        "Industrial design"
-      ],
-      "citation_key": "",
-      "collection_paths": [
-        "Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage"
       ]
     },
     {
@@ -545,6 +489,32 @@
       ]
     },
     {
+      "zotero_item_key": "37YPQUR4",
+      "version": 8669,
+      "item_type": "book",
+      "title": "Design history and the history of design",
+      "creators": "Walker, John Albert",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "John Albert",
+          "lastName": "Walker"
+        }
+      ],
+      "date": "1990",
+      "year": "1990",
+      "publisher": "Pluto Pr",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "97807453052269780745302744",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / e) ADD"
+      ]
+    },
+    {
       "zotero_item_key": "SPHY7TLP",
       "version": 8611,
       "item_type": "journalArticle",
@@ -570,6 +540,36 @@
       "isbn": "",
       "url": "https://www.tandfonline.com/doi/full/10.2752/175470715X14153615623565",
       "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Theoretical framework / 1. Critical design histriography / e) ADD"
+      ]
+    },
+    {
+      "zotero_item_key": "4JL7AV7X",
+      "version": 8667,
+      "item_type": "book",
+      "title": "Objects of desire: design and society since 1750",
+      "creators": "Forty, Adrian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Adrian",
+          "lastName": "Forty"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "Thames and Hudson",
+      "publication_title": "",
+      "doi": "",
+      "isbn": "9780500274125",
+      "url": "",
+      "tags": [
+        "Great Britain",
+        "History",
+        "Industrial design"
+      ],
       "citation_key": "",
       "collection_paths": [
         "Theoretical framework / 1. Critical design histriography / e) ADD"
