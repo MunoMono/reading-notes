@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T13:27:51+00:00
+Generated: 2026-10-01T13:34:21+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,12 +8,12 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 30 |
-| SECOND PASS REQUIRED | 18 |
-| FIRST PASS REQUIRED | 5 |
+| COMPLIANT | 31 |
+| SECOND PASS REQUIRED | 17 |
+| FIRST PASS REQUIRED | 6 |
 | REVIEW MATCH | 0 |
 
-**Active Zotero items in scope:** 53
+**Active Zotero items in scope:** 54
 **Deferred placeholder-only items (d/e):** 32
 **Repo-only theoretical-framework notes needing parity review:** 2
 
@@ -21,7 +21,7 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Collection path | Top-level items |
 | --- | ---: |
-| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | 3 |
+| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | 4 |
 | Theoretical framework / 1. Critical design histriography / b) Operational literature | 7 |
 | Theoretical framework / 1. Critical design histriography / c) Contemporary bridge literature | 1 |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | 10 |
@@ -85,7 +85,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 3. Critical computational approaches / b) Operational literature | End-to-end information extraction from archival records with multimodal large language models | 2025 | public/docs/V/Vafaie2025EndtoendInformationExtraction.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation | 2021 | public/docs/D/Davis2021LinkedDataCulturalHeritage.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | On the literary landscapes of vector embeddings | 2025 | public/docs/R/Rockmore2025LiteraryLandscapesVector.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | UMAP: uniform manifold approximation and projection for dimension reduction | 2020 | public/docs/M/McInnesUMAPUniformManifold.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -110,6 +109,7 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Design history and the history of design | 1990 |  | no matching reading note |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Objects of desire: design and society since 1750 | 1992 |  | no matching reading note |
+| Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | The design of everyday things | 2013 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Machine learners: archaeology of a data practice | 2017 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | Explainable search and discovery of visual cultural heritage collections with multimodal large language models | 2024 |  | no matching reading note |
@@ -152,6 +152,7 @@ _None._
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | The reconfiguration of the archive as data to be mined | 2018 | public/docs/M/Moss2018ReconfigurationArchiveData.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Critical questions for archives as (big) data | 2019 | public/docs/M/Mordell2019CriticalQuestionsArchivesData.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Humanities approaches to graphical display | 2011 | public/docs/D/Drucker2011HumanitiesApproachesGraphical.md | meets current structural and completeness checks |
+| Theoretical framework / 3. Critical computational approaches / b) Operational literature | End-to-end information extraction from archival records with multimodal large language models | 2025 | public/docs/V/Vafaie2025EndtoendInformationExtraction.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
