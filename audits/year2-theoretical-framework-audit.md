@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T13:39:16+00:00
+Generated: 2026-10-01T13:41:49+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -86,7 +86,7 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 3. Critical computational approaches / b) Operational literature | Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation | 2021 | public/docs/D/Davis2021LinkedDataCulturalHeritage.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
+| Theoretical framework / 3. Critical computational approaches / b) Operational literature | Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation | 2021 | public/docs/D/Davis2021LinkedDataCulturalHeritage.md | missing Zotero-parity framework metadata |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | On the literary landscapes of vector embeddings | 2025 | public/docs/R/Rockmore2025LiteraryLandscapesVector.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | UMAP: uniform manifold approximation and projection for dimension reduction | 2020 | public/docs/M/McInnesUMAPUniformManifold.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | A systematic review of fairness, accountability, transparency, and ethics in information retrieval | 2025 | public/docs/B/Bernard2025SystematicReviewFairness.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
