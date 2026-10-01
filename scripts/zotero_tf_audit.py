@@ -345,6 +345,34 @@ def build_audit(items, notes):
     repo_only = [{"path": n["path"], "title": n["title"], "year": n["year"], "theoretical_framework_area": n["theoretical_framework_area"], "literature_cluster": n["literature_cluster"], "zotero_filing_path": n["zotero_filing_path"]} for n in notes if n["is_theoretical_framework"] and n["path"] not in matched]
     return results, repo_only
 
+def is_active_cluster_path(path: str) -> bool:
+    return bool(re.search(r" / [abc]\\) ", path))
+
+
+def split_active_and_deferred(items):
+    active, deferred = [], []
+    for item in items:
+        active_paths = [p for p in item.get("collection_paths", []) if is_active_cluster_path(p)]
+        placeholder_paths = [p for p in item.get("collection_paths", []) if not is_active_cluster_path(p)]
+        clone = dict(item)
+        clone["active_collection_paths"] = active_paths
+        clone["placeholder_collection_paths"] = placeholder_paths
+        if active_paths:
+            clone["collection_paths"] = active_paths
+            active.append(clone)
+        else:
+            deferred.append(clone)
+    return active, deferred
+
+
+def collection_parity_warnings(collection_paths):
+    warnings = []
+    for path in collection_paths:
+        if "histriography" in path.casefold():
+            warnings.append({"path": path, "warning": "Zotero collection label appears misspelled: 'histriography' should match North Star 'historiography'."})
+    return warnings
+
+
 def write_json(path, payload):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -354,12 +382,24 @@ def esc(value):
 
 def build_markdown(payload):
     summary = payload["summary"]
-    lines = ["# Year 2 Critical Literature Pass — Theoretical framework audit", "", f"Generated: {payload['generated_at']}", "", "Scoped only to Zotero **Theoretical framework** and descendants. Zotero access is read-only; this audit does not rewrite notes.", "", "## Status summary", "", "| Status | Count |", "| --- | ---: |"]
+    lines = ["# Year 2 Critical Literature Pass — Theoretical framework audit", "", f"Generated: {payload['generated_at']}", "", "Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.", "", "## Status summary", "", "| Status | Count |", "| --- | ---: |"]
     for status in ["COMPLIANT", "SECOND PASS REQUIRED", "FIRST PASS REQUIRED", "REVIEW MATCH"]:
         lines.append(f"| {status} | {summary['status_counts'].get(status, 0)} |")
-    lines += ["", f"**Unique Zotero items in scope:** {summary['zotero_item_count']}", f"**Repo-only theoretical-framework notes needing parity review:** {summary['repo_only_note_count']}", "", "## Zotero collection counts", "", "| Collection path | Top-level items |", "| --- | ---: |"]
+    lines += ["", f"**Active Zotero items in scope:** {summary['zotero_item_count']}", f"**Deferred placeholder-only items (d/e):** {summary['deferred_placeholder_item_count']}", f"**Repo-only theoretical-framework notes needing parity review:** {summary['repo_only_note_count']}", "", "## Active Zotero collection counts", "", "| Collection path | Top-level items |", "| --- | ---: |"]
     for path, count in payload["collection_item_counts"].items():
         lines.append(f"| {esc(path)} | {count} |")
+    if payload.get("collection_parity_warnings"):
+        lines += ["", "## Collection parity warnings", ""]
+        for w in payload["collection_parity_warnings"]:
+            lines.append(f"- {esc(w['warning'])} — {esc(w['path'])}")
+    lines += ["", "## Deferred placeholder inventory", ""]
+    deferred = payload.get("deferred_placeholder_items", [])
+    if not deferred:
+        lines.append("_None._")
+    else:
+        lines += ["These sources live only in placeholder folders **d) Z** or **e) ADD** and are not part of the active Year 2 pass until re-filed into a/b/c.", "", "| Zotero path | Source | Year |", "| --- | --- | ---: |"]
+        for item in deferred:
+            lines.append(f"| {esc('<br>'.join(item.get('collection_paths', [])))} | {esc(item.get('title',''))} | {esc(item.get('year',''))} |")
     by_status = defaultdict(list)
     for r in payload["results"]:
         by_status[r["status"]].append(r)
@@ -398,13 +438,15 @@ def main():
     generated_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
     collections = load_collections()
     root_collection, selected, path_for = select_collection_tree(collections)
-    items, counts = fetch_items_for_tree(selected, path_for)
-    manifest = {"generated_at": generated_at, "zotero_user_id": USER_ID, "scope": {"root_collection_name": root_collection["name"], "root_collection_key": root_collection["key"], "collection_count": len(selected), "read_only": True}, "collection_item_counts": counts, "item_count": len(items), "items": items}
+    all_items, all_counts = fetch_items_for_tree(selected, path_for)
+    items, deferred_items = split_active_and_deferred(all_items)
+    active_counts = {path: count for path, count in all_counts.items() if is_active_cluster_path(path)}
+    manifest = {"generated_at": generated_at, "zotero_user_id": USER_ID, "scope": {"root_collection_name": root_collection["name"], "root_collection_key": root_collection["key"], "collection_count": len(selected), "read_only": True, "active_clusters": ["a", "b", "c"], "placeholder_clusters": ["d", "e"]}, "collection_item_counts": all_counts, "active_collection_item_counts": active_counts, "item_count": len(all_items), "active_item_count": len(items), "deferred_placeholder_item_count": len(deferred_items), "items": all_items}
     write_json(MANIFEST_PATH, manifest)
     notes = scan_notes()
     results, repo_only = build_audit(items, notes)
     status_counts = Counter(r["status"] for r in results)
-    payload = {"generated_at": generated_at, "scope": manifest["scope"], "collection_item_counts": counts, "summary": {"zotero_item_count": len(items), "github_note_count_scanned": len(notes), "status_counts": {s: status_counts.get(s, 0) for s in ["COMPLIANT", "SECOND PASS REQUIRED", "FIRST PASS REQUIRED", "REVIEW MATCH"]}, "repo_only_note_count": len(repo_only)}, "results": results, "repo_only_theoretical_framework_notes": repo_only}
+    payload = {"generated_at": generated_at, "scope": manifest["scope"], "collection_item_counts": active_counts, "collection_parity_warnings": collection_parity_warnings(all_counts.keys()), "deferred_placeholder_items": deferred_items, "summary": {"zotero_item_count": len(items), "deferred_placeholder_item_count": len(deferred_items), "github_note_count_scanned": len(notes), "status_counts": {s: status_counts.get(s, 0) for s in ["COMPLIANT", "SECOND PASS REQUIRED", "FIRST PASS REQUIRED", "REVIEW MATCH"]}, "repo_only_note_count": len(repo_only)}, "results": results, "repo_only_theoretical_framework_notes": repo_only}
     write_json(AUDIT_JSON_PATH, payload)
     AUDIT_MD_PATH.parent.mkdir(parents=True, exist_ok=True)
     AUDIT_MD_PATH.write_text(build_markdown(payload), encoding="utf-8")
