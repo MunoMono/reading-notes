@@ -3,139 +3,189 @@ title: "Origin and development of the concept of archival description"
 authors: "Duranti, Luciana"
 year: 1992
 journal: "Archivaria"
-issue: "35"
-pages: "47–54"
+volume: "35"
+pages: "47-54"
 citation_key: Duranti1992OriginConceptArchivalDescription
 doi: ""
 url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "19 Mar 2026"
+generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Recording, organising, and obscuring traces"
-model_subcluster: "S2.3 Archival reconstruction and institutional memory"
+theoretical_framework_area_id: "2"
+theoretical_framework_area: "Critical archival theory"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
 source_type: "Core text"
 project_tags:
-  - "Turin"
-last_updated: "16 Sept 2026, 12:14"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Recording, organising, and obscuring traces  
-**Sub-cluster:** S2.3 Archival reconstruction and institutional memory  
-**Source type:** Core text  
-
-**Seams to watch (optional, pick 1):**
-- How archival description concepts shape retrieval, context, and power
-
-# Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-
+  - "Theoretical framework"
 ---
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a foundational history of archival description so I can explain how the descriptive systems around the DDR archive shape what can be found, understood, and reactivated.  
-**Where it sits in my argument (chapter/section + what it helps me say):** S2 archival reconstruction and institutional memory; it helps me say that archival description is historically variable, bound up with changing users and functions, and increasingly oriented toward revealing context rather than merely listing items.  
-**Why this term, not alternatives (1–2 lines):** Duranti’s focus on the **concept of archival description** is more useful than generic metadata language because she shows how description changed from copying and inventorying toward contextual representation and standards.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where I need to show that archival finding systems are historically made and where contextual description, not item summary alone, is necessary for interpreting DDR traces.
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage  
+**Source type:** Core text
 
-# Position + moment (2–4 lines)
-Duranti writes from diplomatics and European archival theory, addressing Canadian archivists in 1992 at a moment when descriptive standards debates were intensifying. She situates contemporary definitions from the 1970s to early 1990s against a much longer international history stretching from ancient repertories to twentieth-century standards. Her problem-space is conceptual clarification: what archival description actually is, when the concept emerged, and how it changed. `[@Duranti1992OriginConceptArchivalDescription, pp. 47–48]`  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is especially useful because it refuses to naturalise modern descriptive practice. It shows that “description” has never had a stable meaning and has always reflected the record creator, the user, and the archival society of the time. `[@Duranti1992OriginConceptArchivalDescription, pp. 52–54]`
+# Constraints (anti-bloat / anti-hallucination)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# The author’s main move (1 sentence)
-They try to historicise the concept of archival description by tracing its changing purposes, products, and relation to arrangement in order to show that description is a shifting means of preservation and communication rather than a timeless archival function. `[@Duranti1992OriginConceptArchivalDescription, pp. 47–54]`
+# Thesis job
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**How this source moves the primary research question forward:** Duranti historicises description itself, showing that descriptive systems arise from changing institutional purposes and social conceptions of archives. This gives the thesis a basis for treating DDR catalogue metadata as a historical layer, not a transparent map of the record.
+
+**How this source bears on the secondary question:** It clarifies that access, context and interpretation are historically variable archival functions, which matters when contemporary computational interfaces reorganise the same records again.
+
+**Why I’m reading this now:** The DDR project depends heavily on catalogue descriptions, metadata and digitised finding structures; Duranti helps define their evidential status.
+
+**Where it sits in my argument:** Canon + intellectual lineage. It is a history of archival description that reveals how description changes with users, archival institutions and technology.
+
+**My benchmark for using it:** I will treat description as evidence about archival organisation and interpretation, not as evidence that a described relationship or activity necessarily occurred.
+
+# Position + moment
+
+Duranti writes in the context of early-1990s debates about descriptive standards. Rather than defining a timeless archival function, she reconstructs description historically from ancient inventories through modern contextual systems and asks whether description has ever been a stable archival function at all. [@Duranti1992OriginConceptArchivalDescription, pp. 47–53]
+
+# The author’s main move
+
+Duranti argues that archival description has never had one stable form or purpose: descriptive practices have changed with administrative, juridical, historical and user needs, while the enduring archival functions are preservation and communication of records. [@Duranti1992OriginConceptArchivalDescription, pp. 47–53]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Duranti argues that archival description was not even clearly conceptualised until the late twentieth century, despite much older descriptive practices.
-- **Evidence (quote/paraphrase + page):** On page 47 she says that the question of what archival description involves was “non-existent until the 1980s,” and that the term itself was not defined until the 1970s, citing the 1974 SAA glossary and later 1989–1990 definitions. She then contrasts these modern definitions with much older descriptive records such as the repertory from Nuzi around 1500 BC. `[@Duranti1992OriginConceptArchivalDescription, pp. 47–48]`
-- **Warrant (my words):** This matters because it separates descriptive practice from conceptual self-awareness. Archivists have long made inventories and guides, but the modern concept of “archival description” is comparatively recent and historically contingent.
-- **So what for my thesis (a reusable sentence):** Duranti lets me argue that the descriptive systems around the DDR archive should be treated as historically specific frameworks, not as neutral or self-evident mechanisms of access.
-- **Practice cross-check:** Turin source metadata and document-level provenance treat archival description as intellectual mediation rather than neutral metadata applied afterwards.
+- **Claim (plain):** The modern concept of archival description is historically recent.
+- **Author claim:** Duranti says the issue of what archival description involves was effectively absent until the 1980s and the term itself was not formally defined until the 1970s.
+- **Evidence-supported claim:** Page 47 contrasts modern definitions with a much longer history of descriptive practices.
+- **Researcher inference:** Current archive interfaces and metadata standards should not be naturalised as inevitable or timeless forms of archival access.
+- **Evidence (quote/paraphrase + page):** Duranti traces modern definitions from the 1974 SAA glossary through late-1980s process-oriented definitions. [@Duranti1992OriginConceptArchivalDescription, pp. 47–48]
+- **Warrant (my words):** A practice can exist for centuries before the profession stabilises its conceptual boundaries.
+- **Boundary:** Duranti is tracing archival discourse, not claiming earlier archivists lacked all self-conscious descriptive methods.
+- **Consequence:** The thesis should identify the historical provenance of descriptive categories used in the DDR archive.
+- **Practice cross-check:** Separate repository-native descriptive fields from research-added metadata in the corpus.
 
 ## Claim 2
-- **Claim (plain):** Duranti argues that the purposes of archival description changed radically over time in relation to creators, users, and uses of archives.
-- **Evidence (quote/paraphrase + page):** She shows that ancient repertories primarily helped preserve stock or avoid direct consultation; medieval and early modern inventories provided evidence of existence, control, and juridical “perpetual memory”; eighteenth-century descriptions were reshaped by historical scholarship and universal classification; and twentieth-century description shifted toward contextual representation for broader publics. She summarises on page 52 that the purposes of description moved from surrogacy and stock control to perpetual memory, research guidance, contextual illumination, and user independence. `[@Duranti1992OriginConceptArchivalDescription, pp. 48–52]`
-- **Warrant (my words):** This is the historical core of the essay. Description is shown to change because archives themselves change: who creates them, who uses them, and what kinds of memory or evidence they are meant to support.
-- **So what for my thesis:** Duranti gives me a strong basis for reading DDR descriptive systems as products of particular archival and intellectual priorities, including what kinds of users and research they were imagined to serve.
-- **Practice cross-check:** The archival description, provenance, and evidential-context workstreams support source-integration methodology and thesis archival-method framing.
+- **Claim (plain):** The purposes of description change with the social and institutional uses of archives.
+- **Author claim:** Duranti traces description from stock control and avoidance of direct consultation through juridical evidence, administrative retrieval, historical research and modern contextual access.
+- **Evidence-supported claim:** Pages 48–52 show successive shifts in why descriptive tools were created.
+- **Researcher inference:** DDR catalogue structures reflect particular institutional purposes and cannot be assumed to capture every historically relevant relationship.
+- **Evidence (quote/paraphrase + page):** Duranti shows inventories serving different purposes across ancient, medieval, monarchical and modern archival contexts. [@Duranti1992OriginConceptArchivalDescription, pp. 48–52]
+- **Warrant (my words):** What description records depends on what the archive expects users and custodians to need.
+- **Boundary:** The historical sequence is broad and compresses regional differences.
+- **Consequence:** Missing metadata may reflect descriptive purpose rather than absence of underlying activity.
+- **Practice cross-check:** Treat sparse description of a person/project as a retrieval condition, not proof of historical insignificance.
 
 ## Claim 3
-- **Claim (plain):** Duranti argues that modern archival description increasingly becomes representation of contextual relationships rather than surrogate summary of individual documents.
-- **Evidence (quote/paraphrase + page):** On page 51 she states that with open fonds and wider public use, description “begins to act as a ‘representation,’ rather than a surrogate, of the material in its intellectual order; description becomes one with arrangement.” She adds that the primary purpose of writing about records becomes illuminating “provenancial and contextual relationships,” and on page 52 says description proper is the “representation of the records in their fragmented contextual relationships.” `[@Duranti1992OriginConceptArchivalDescription, pp. 51–52]`
-- **Warrant (my words):** This is the paper’s most useful claim for your project. Description is no longer just a list or abstract; it becomes a structured representation of relationships that make records intelligible as evidence.
-- **So what for my thesis:** Duranti helps me justify provenance-aware, relational, and contextual ways of surfacing the DDR archive, because what matters is not only what a document says but how it sits within creators, functions, and record histories.
-- **Practice cross-check:** Turin’s source metadata and document-level provenance retain contextual relationships as records move into retrieval and interpretation.
+- **Claim (plain):** Description is shaped by conceptions of archival order and provenance.
+- **Author claim:** Duranti shows how eighteenth-century subject reclassification disrupted original documentary relationships and how later provenance-based approaches reconnected arrangement and context.
+- **Evidence-supported claim:** The middle of the essay traces the move from subject-oriented systems toward respect for fonds and historically grounded arrangement. [@Duranti1992OriginConceptArchivalDescription, pp. 50–52]
+- **Researcher inference:** Computational regrouping of DDR records by topic or semantic similarity must not be mistaken for the archive's original order or creator context.
+- **Evidence (quote/paraphrase + page):** Duranti contrasts externally imposed subject classifications with later historically based archival organisation. [@Duranti1992OriginConceptArchivalDescription, pp. 50–52]
+- **Warrant (my words):** Reclassification can create useful access while simultaneously obscuring relationships embodied in original recordkeeping structures.
+- **Boundary:** Original order itself is not always complete, stable or recoverable.
+- **Consequence:** Semantic views should sit alongside provenance and archival hierarchy rather than replacing them.
+- **Practice cross-check:** Keep UMAP clusters explicitly labelled as derived semantic projections.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Archival description:** literally “writing about archival material,” embracing representation, identification, and organization; I will use this historically, not as a fixed modern standard. `[@Duranti1992OriginConceptArchivalDescription, p. 47]`
-- **Perpetual memory:** the juridical concept that archives preserve authentic and permanent evidence of past actions; I will use this term for older evidential justifications of description and preservation. `[@Duranti1992OriginConceptArchivalDescription, pp. 49–50]`
-- **Representation rather than surrogate:** Duranti’s key modern shift, where description no longer stands in for the record’s content but represents the record in contextual and intellectual order; I will use this as a core term for provenance-aware archival activation. `[@Duranti1992OriginConceptArchivalDescription, p. 51]`
-- **Structural inventory:** a finding aid centred on contextual and relational structure rather than content summary; I will use this term where archive description foregrounds creator history and inner record relationships. `[@Duranti1992OriginConceptArchivalDescription, pp. 51–52]`
-- **Description proper:** Duranti’s phrase for the representation of records in contextual relationships, distinct from accession registers, location lists, indexes, and retrieval aids; I will use this to separate archival meaning-making from purely administrative controls. `[@Duranti1992OriginConceptArchivalDescription, p. 52]`
+## Claim 4
+- **Claim (plain):** Modern description increasingly separates contextual representation, administrative control and user access.
+- **Author claim:** Duranti argues that description fragmented into activities concerned with preserving meaning, exercising control and providing access.
+- **Evidence-supported claim:** Pages 52–53 distinguish these functions while noting that new technology may reintegrate them in multipurpose systems.
+- **Researcher inference:** The DDR research system should distinguish source description, management metadata and researcher-facing interpretation even when one interface displays them together.
+- **Evidence (quote/paraphrase + page):** Duranti identifies three families of descriptive instruments corresponding to preservation of meaning, control and access. [@Duranti1992OriginConceptArchivalDescription, pp. 52–53]
+- **Warrant (my words):** Different descriptive outputs answer different institutional questions and carry different evidential implications.
+- **Boundary:** Digital systems can blur these boundaries in practice.
+- **Consequence:** Interface layers should label source metadata separately from generated summaries and analytical annotations.
+- **Practice cross-check:** Preserve explicit separation of source, metadata, testimony and synthesis in RAI outputs.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a careful historical account of how archival description changed in purpose and form.
-  - It is especially useful because it links description to creators, users, arrangement, and contextual representation.
-  - It strengthens the argument that archival access systems are historically constructed and epistemically active.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat DDR description and finding systems as historically contingent representations rather than transparent surrogates of the records.
-  - I will use Duranti to justify contextual, provenance-aware, and relation-rich approaches to archive activation.
-- **What question it raises next (1–2 bullets):**
-  - Which parts of the DDR archive still operate through surrogate-like description, and which already support contextual representation?
-  - How can I document relationships in the DDR archive without implying a false completeness of contextual recovery?
+## Claim 5
+- **Claim (plain):** Description is a means, not an enduring archival end in itself.
+- **Author claim:** Duranti concludes that description has never been a permanent archival function; it is one means of accomplishing preservation and communication.
+- **Evidence-supported claim:** Page 53 gives the conclusion directly and explains the absence of one universally recognised description concept.
+- **Researcher inference:** The value of DDR metadata should be judged by how well it preserves meaning and communicates evidence, not by conformity to one descriptive form.
+- **Evidence (quote/paraphrase + page):** Duranti names preservation and communication as the two permanent archival functions. [@Duranti1992OriginConceptArchivalDescription, p. 53]
+- **Warrant (my words):** Descriptive techniques are historically contingent tools serving more fundamental archival purposes.
+- **Boundary:** Other archival theorists may define enduring functions differently.
+- **Consequence:** New computational descriptions can be legitimate if they preserve provenance and improve evidence-aware communication.
+- **Practice cross-check:** Evaluate semantic/RAI outputs against provenance preservation and intelligibility rather than novelty alone.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the S2 archival reconstruction section where I historicise archival description, and in the methods chapter where I justify relation-rich descriptive and retrieval work over flat item-level summary.
-- **Where I will name the title in running text (first-use rule):** First mention in the archival-description section: *In “Origin and Development of the Concept of Archival Description” (1992), Luciana Duranti argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside Turin source metadata and document-level provenance, which retain creator history and record interrelationships.
-- **Workstreams →** Archival reconstruction; institutional memory; provenance; retrieval; methods framing.
-- **Deliverables →** S2 paragraph on archival description; methods note on contextual representation; literature map node; footnote trail on description history.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; design history readers; digital humanities readers.
+## Claim 6
+- **Claim (plain):** Descriptive products reflect the society's current conception of archives.
+- **Author claim:** Duranti closes by arguing that description is carried out according to specific needs, conditions and attitudes and that its products consistently reflect contemporary conceptions of archives.
+- **Evidence-supported claim:** The final paragraph links descriptive variation directly to social understandings of what archives are for. [@Duranti1992OriginConceptArchivalDescription, p. 53]
+- **Researcher inference:** The DDR archive's current digital representation is itself historically situated and may later be read as evidence of twenty-first-century archival priorities.
+- **Evidence (quote/paraphrase + page):** Duranti says descriptive products reflect “the conceptions about archives held by the society of the time.” [@Duranti1992OriginConceptArchivalDescription, p. 53]
+- **Warrant (my words):** Description is an interpretative institutional act embedded in a particular knowledge culture.
+- **Boundary:** This does not mean individual descriptive statements are arbitrary or useless.
+- **Consequence:** The thesis should critically read existing descriptions while documenting its own additional transformations.
+- **Practice cross-check:** Record model versions, corpus boundaries and derived metadata so the research layer remains inspectable.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This article is strongest as a history of the concept of archival description and less directly concerned with power, politics, or the specific interpretative conflicts of one archive like DDR.
-- **Risk if misused (1 sentence):** If I use Duranti too schematically, I could turn description history into a linear story of progress and underplay the ongoing coexistence of surrogate, control, retrieval, and contextual functions in real archival systems.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Archival description:** historically variable processes/products for identifying, controlling, contextualising and enabling use of archival holdings. [@Duranti1992OriginConceptArchivalDescription, pp. 47–53]
+- **Perpetual memory:** juridical idea that preserved documents serve as authentic and enduring evidence of past actions. [@Duranti1992OriginConceptArchivalDescription, p. 49]
+- **Descriptive instrument:** a tool produced for preservation of meaning, administrative control or external access. [@Duranti1992OriginConceptArchivalDescription, pp. 52–53]
+
+# My response
+
+Duranti provides a useful corrective to any temptation to treat DDR catalogue metadata as transparent ground truth. Description is historically made for purposes, and those purposes determine what becomes explicit. Her conclusion also helps position the thesis's own computational descriptions: derived semantic or RAI layers are not inherently illegitimate because they are new, but they must be understood as purpose-built representations rather than replacements for archival order and provenance.
+
+# Integration hooks
+
+**Where I will cite it:** Catalogue/metadata critique; provenance versus semantic grouping; source-status separation; and the historical contingency of archival access systems.
+
+**Link to my practice evidence:** RCA/V&A descriptive metadata and the derived PID-backed corpus can be compared as two different descriptive layers.
+
+**Workstreams →** Archival description; provenance; metadata; computational interface.  
+**Deliverables →** Theoretical framework; methods chapter; metadata limitations.
+
+# Boundary + risk
+
+**Boundary:** Duranti offers a conceptual history of description rather than a critical theory of power comparable to later archival scholarship.
+
+**Risk if misused:** Historical contingency could be overstated into relativism, obscuring the evidential value that provenance and contextual description can preserve.
+
+# Cross-source / cross-lens synthesis
+
+Duranti historicises the descriptive mechanisms that Bearman simultaneously sought to redesign. Bearman emphasises activity-centred evidence; Duranti shows why no single descriptive form has remained stable across archival history. Caswell and Ketelaar add the political and participatory consequences of such systems. For DDR, the combined lesson is that descriptive metadata is evidence about archival organisation, not a direct substitute for evidence of historical action. Computational regrouping can extend access only if provenance and source status remain visible.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
-- [ ] Data collection and instruments
+- [x] Data collection and instruments
 - [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 47–48, 50–54
-- **First full note (write it out here):**  
-  Luciana Duranti, “Origin and Development of the Concept of Archival Description,” *Archivaria* 35 (1992): 47–54.
-- **Short note form:**  
-  Duranti, “Origin and Development of the Concept of Archival Description,” 51–52.
-- **One quote worth lifting (≤2 lines):** “description begins to act as a ‘representation,’ rather than a surrogate” (p. 51).
-- **One paraphrase worth keeping:** Duranti argues that archival description has changed historically with creators, users, and archival purposes, and that modern description increasingly serves to represent records in their provenancial and contextual relationships rather than merely summarising them. (pp. 47–54)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Bearman, “Documenting Documentation”
-- Grigg, “Archival Practice and the Foundations of Historical Method”
-- Cook, “What Is Past Is Prologue”
-- Turin source-integration methodology connects this directly to DDR finding-aid and provenance work.
+- **Key pages to reuse:** 47–53
+- **First full note:** Luciana Duranti, “Origin and Development of the Concept of Archival Description,” *Archivaria* 35 (1992): 47–54.
+- **Short note form:** Duranti, “Origin and Development,” 47–53.
+- **One quote worth lifting:** descriptive products “reflect the conceptions about archives held by the society of the time.” (p. 53)
+- **One paraphrase worth keeping:** Duranti argues that archival description is historically contingent: its purposes and forms change with institutional needs, users, conceptions of order and technology, while preservation and communication remain more enduring archival functions. [@Duranti1992OriginConceptArchivalDescription, pp. 47–53]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A standards- or systems-oriented text that shows how this historical concept of description becomes operational in digital archival environments.
-- What I will test or write next: Draft the paragraph that distinguishes surrogate description from contextual representation in the DDR archive, then anchor it in one concrete finding aid or catalogue example.
+# Related works
+
+- Bearman, “Documenting Documentation.”
+- Cook, “What Is Past Is Prologue.”
+- Ketelaar, “Archives as Spaces of Memory.”
+
+# Follow-ups
+
+- **What I will test next:** Identify which DDR research claims currently rest only on descriptive metadata and therefore require document-level confirmation.

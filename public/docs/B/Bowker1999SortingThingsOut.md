@@ -11,124 +11,182 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Bridge text"
-model_subcluster: "S2.1 Bridge text"
-source_type: "Core text"
-project_tags:
-  - "Theoretical framework"
 theoretical_framework_area_id: "2"
 theoretical_framework_area: "Critical archival theory"
 literature_cluster_id: "a"
 literature_cluster: "Canon + intellectual lineage"
-zotero_filing_path: "Theoretical framework / Critical archival theory / Canon + intellectual lineage"
-last_updated: "18 Mar 2026, 15:23"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Bridge text  
-**Sub-cluster:** S2.1 Bridge text  
-**Source type:** Core text  
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
+source_type: "Core text"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- Classification as ethics and politics
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- Major canonical source → normally 6–8 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a core STS account of classification as an ethical and political practice so I can read the DDR archive’s order, metadata, and exclusions critically rather than as neutral description.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Bridge section; it helps me say that archival categories, standards, and data structures do not merely record design knowledge but actively shape what becomes visible, comparable, retrievable, and consequential.  
-**Why this term, not alternatives (1–2 lines):** Bowker and Star’s language of **classification**, **boundary infrastructure**, and **consequences** is more useful than generic “archival bias” because it links categories to work, institutions, and moral order.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Bowker and Star where a classification, filing order, metadata field, or computational grouping in the archive has visible consequences for inclusion, exclusion, comparability, or accountability.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Bowker and Star write from late-1990s STS, information studies, and infrastructure studies, at a moment when classification and standards were being newly examined as sociotechnical and political arrangements rather than merely technical tools. Their move is to treat classification systems as historical, material, symbolic, and infrastructural artifacts embedded in work and bureaucracy. `[@Bowker1999SortingThingsOut, pp. 285–286, 319–326]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text still matters because it refuses the fantasy that categories are innocent containers. That is even more relevant now, when archival metadata, search systems, and computational models can naturalise categories at speed and scale. `[@Bowker1999SortingThingsOut, pp. 313–314, 326]`
+**How this source moves the primary research question forward:** Bowker and Star provide the thesis's strongest account of classification as sociotechnical and ethical infrastructure. Their work makes archival series, metadata fields and computational clusters part of the historical problem rather than neutral containers for DDR evidence.
 
-# The author’s main move (1 sentence)
-They argue that classification systems are infrastructural and consequential in order to show that categories are never merely descriptive but are moral, political, and organizational acts that shape lives, work, and knowledge.
+**How this source bears on the secondary question:** It supplies a contemporary lens for revisiting DDR systems thinking: classificatory and information infrastructures have consequences for what becomes visible, comparable and actionable.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** The DDR project relies on inherited archive classifications and creates new computational groupings; I need a framework that makes both analytically accountable.
+
+**Where it sits in my argument:** Canon + intellectual lineage. It bridges STS, information infrastructure and critical archival theory.
+
+**My benchmark for using it:** I will identify the specific classification, constituency and consequence at issue rather than invoking “classification is political” generically.
+
+# Position + moment
+
+Bowker and Star write from STS and information studies, examining classifications as infrastructures embedded in work, institutions and everyday practice. The Zotero attachment contains the complete text in a web-converted PDF, including the book's concluding chapters and design implications. [@Bowker1999SortingThingsOut, pp. 285–326]
+
+# The author’s main move
+
+They argue that classification systems are historical, material and political technologies whose categories become especially consequential when embedded invisibly in infrastructure, where they distribute recognition, exclusion and work. [@Bowker1999SortingThingsOut, pp. 285–326]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Bowker and Star argue that classification systems are historical and political artifacts, not neutral descriptions of the world.
-- **Evidence (quote/paraphrase + page):** In Chapter 9 they state that they examine “classification systems as historical and political artifacts,” and that assigning things, people, or actions to categories is part of the work of the modern bureaucratic state. They add that categories arise from work and from organized activity, including conflicts over meaning. In the conclusion they say classifications are “powerful technologies” and should be recognised as “the significant site of political and ethical work that they are.” `[@Bowker1999SortingThingsOut, pp. 285–286, 319]`
-- **Warrant (my words):** This is the book’s foundation. Classification is not treated as a passive mirror of reality. It is made through work, conflict, and institutional need, and then fed back into the world as if it were natural.
-- **So what for my thesis (a reusable sentence):** Bowker and Star let me treat the DDR archive’s classifications and documentary order as historically produced interventions that shape what design knowledge appears to be.  
-- **Practice cross-check:** This is directly relevant to archive cataloguing, box order, series structure, subject headings, and any computational clustering I use to surface “themes” or “relations” in the DDR material. TODO (needs exact archive example).
+- **Claim (plain):** Classification systems are historical and political artefacts, not neutral descriptions.
+- **Author claim:** Bowker and Star examine classification as part of organised activity and bureaucratic work.
+- **Evidence-supported claim:** Chapter 9 explicitly describes classification systems as historical and political artefacts and the conclusion calls classifications “powerful technologies.” [@Bowker1999SortingThingsOut, pp. 285–286, 319]
+- **Researcher inference:** DDR archive categories should be analysed as historical interventions that shape what design knowledge becomes visible.
+- **Evidence (quote/paraphrase + page):** The authors link categories to work, conflict over meaning and the bureaucratic state. [@Bowker1999SortingThingsOut, pp. 285–286]
+- **Warrant (my words):** Categories are produced through institutional decisions and then act back on the world they classify.
+- **Boundary:** Not every classification has the same political stakes or effects.
+- **Consequence:** The thesis should name the concrete category and consequence under analysis.
+- **Practice cross-check:** Inspect DDR series, subject headings and staff/project metadata for what they foreground and collapse.
 
 ## Claim 2
-- **Claim (plain):** Their key analytical move is that classifications become most powerful when they sink into infrastructure and disappear from view.
-- **Evidence (quote/paraphrase + page):** They describe boundary infrastructures as arrangements that serve multiple communities of practice at once, allowing local variation while still supporting bureaucratic tools such as forms and statistics. In the conclusion they say classifications become “relatively invisible” when embedded in working infrastructures without losing any of their power, and that everyday categories disappear “into infrastructure, into habit, into the taken for granted.” `[@Bowker1999SortingThingsOut, pp. 313–314, 319–320]`
-- **Warrant (my words):** This matters because the most effective classifications are often the least visible. Once categories are infrastructural, they no longer need to argue for themselves. They operate as background conditions of action, retrieval, and recognition.
-- **So what for my thesis:** Bowker and Star help me explain why archival systems matter even when they seem mundane: what looks like neutral filing or metadata may already be structuring what can be found, compared, and narrated.  
-- **Practice cross-check:** This is especially useful for reading archive finding aids, database fields, and digitisation choices, as well as any later institutional histories that inherit earlier classificatory structures without naming them. TODO (needs archive-system cross-link).
+- **Claim (plain):** Classifications become especially powerful when they disappear into infrastructure.
+- **Author claim:** The authors argue that categories can become relatively invisible while retaining their force.
+- **Evidence-supported claim:** They describe everyday classifications sinking into habit and taken-for-granted infrastructure. [@Bowker1999SortingThingsOut, pp. 313–314, 319–320]
+- **Researcher inference:** Archive database fields and computational defaults may structure DDR retrieval precisely because users stop noticing them.
+- **Evidence (quote/paraphrase + page):** Boundary infrastructures support multiple communities while making standards routine and backgrounded. [@Bowker1999SortingThingsOut, pp. 313–314]
+- **Warrant (my words):** Invisible infrastructure is difficult to contest because its assumptions appear natural.
+- **Boundary:** Invisibility varies by user; archivists may see categories that researchers do not.
+- **Consequence:** Interface design should expose important derivation and classification choices.
+- **Practice cross-check:** Display corpus scope, data-source fields and derived groupings rather than hiding them behind visual polish.
 
 ## Claim 3
-- **Claim (plain):** Bowker and Star argue that classification is an ethical and political issue because visibility for one group often depends on exclusion, residual categories, and someone else’s suffering.
-- **Evidence (quote/paraphrase + page):** They ask what “moral and political consequences” attend different informational arrangements and insist that a richer vocabulary is needed than standardisation alone. Later they argue that the moral questions arise when “the categories of the powerful become the taken for granted,” when policy is layered into inaccessible structures, and when “one group’s visibility comes at the expense of another’s suffering.” Their design implications include “rendering voice retrievable” and being sensitive to exclusions, especially residual categories and the question of who gets defined as “other.” `[@Bowker1999SortingThingsOut, pp. 293–294, 320–325]`
-- **Warrant (my words):** This is the ethical core of the book. Classification is not only about order and interoperability. It distributes silence, misfit, residuality, and institutional pain.
-- **So what for my thesis:** Bowker and Star give me a strong basis for reading contested design knowledge in the DDR archive through what is excluded, residual, or made hard to retrieve, not only through what is prominently classified and preserved.  
-- **Practice cross-check:** This speaks directly to the gender-gap thread, to overlooked contributors such as Patterson, to support and editorial labour, and to any archive category that lumps work into background “other” functions rather than recognized design research. TODO (needs gender-gap / personnel note cross-link).
+- **Claim (plain):** Classification is ethical because visibility and standardisation create residual categories and exclusions.
+- **Author claim:** Bowker and Star ask what moral and political consequences attend informational arrangements and how “other” categories distribute suffering and recognition.
+- **Evidence-supported claim:** The final chapters emphasise exclusions, residual categories and the costs of one group's visibility to another. [@Bowker1999SortingThingsOut, pp. 293–294, 320–325]
+- **Researcher inference:** DDR's marginal contributors may be difficult to retrieve not only because records are absent but because archival categories were built around other kinds of significance.
+- **Evidence (quote/paraphrase + page):** The authors explicitly recommend “rendering voice retrievable” and examining who is placed in residual categories. [@Bowker1999SortingThingsOut, pp. 320–325]
+- **Warrant (my words):** Information systems allocate legibility by deciding which differences deserve named categories.
+- **Boundary:** Marginality cannot be inferred from one metadata field alone; documentary evidence is required.
+- **Consequence:** Feminist critique should test category structure alongside document survival.
+- **Practice cross-check:** Compare named authorship/project roles with acknowledgements, staff lists and support labour.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Classification system:** a historically situated and consequential arrangement for assigning people, things, or actions to categories; I will use this for archival metadata, documentary ordering, and computational grouping alike. `[@Bowker1999SortingThingsOut, pp. 285–286, 319]`
-- **Boundary infrastructure:** an infrastructure that serves multiple communities of practice at once through regimes of boundary objects, allowing local variation alongside bureaucratic consistency; I will use this to think about archival systems shared across researchers, cataloguers, institutions, and later users. `[@Bowker1999SortingThingsOut, pp. 313–314]`
-- **Categorical work:** the often invisible work of managing multiple memberships, meanings, and naturalisations across communities; I will use this for the labour involved in keeping archival and institutional categories usable. `[@Bowker1999SortingThingsOut, pp. 309–311]`
-- **Residual category / “other”:** the classificatory remainder that reveals the structure of a scheme by showing what it cannot comfortably contain; I will use this term when reading exclusions and archival leftovers. `[@Bowker1999SortingThingsOut, pp. 300–301, 325]`
-- **Built moral environment:** the infrastructural condition in which apparently technical systems shape moral and political life; I will use this to frame archive systems as ethically consequential environments rather than passive storage. `[@Bowker1999SortingThingsOut, p. 326]`
-- **Living classification:** a classification that retains traces of its construction and can be reworked as constituencies and institutions change; I will use this as a positive benchmark for archive activation and computational modelling. `[@Bowker1999SortingThingsOut, p. 326]`
+## Claim 4
+- **Claim (plain):** Classification requires continuous, often invisible categorical work.
+- **Author claim:** Bowker and Star analyse the labour needed to reconcile multiple memberships and local practices with standard categories.
+- **Evidence-supported claim:** Their discussion of categorical work and boundary infrastructure shows that classification remains workable only through negotiation, maintenance and translation. [@Bowker1999SortingThingsOut, pp. 309–314]
+- **Researcher inference:** DDR metadata and research datasets should be understood as maintained constructions rather than finished representations.
+- **Evidence (quote/paraphrase + page):** The authors show categories being made compatible across communities without eliminating local difference. [@Bowker1999SortingThingsOut, pp. 309–314]
+- **Warrant (my words):** Standardised data appear stable because someone performs the labour of aligning messy cases with categories.
+- **Boundary:** The historical DDR archive may not preserve who performed all classificatory labour.
+- **Consequence:** Data cleaning and authority reconciliation in the thesis should be documented as interpretative work.
+- **Practice cross-check:** Log entity-normalisation and metadata-mapping decisions rather than treating them as neutral preprocessing.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me the strongest bridge from feminist and STS critique into the politics of archive order.
-  - It helps me treat metadata, filing systems, and classifications as part of the knowledge claim, not as neutral support.
-  - It gives me a concrete ethical vocabulary for exclusions, residual categories, and retrievability.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat the DDR archive as a classificatory infrastructure with consequences, not just a container of historical traces.
-  - I will frame computational activation as intervention in classification, which means it must be argued ethically as well as methodologically.
-- **What question it raises next (1–2 bullets):**
-  - Which archival categories in the DDR material most strongly shape what can be seen, counted, or connected?
-  - How can I make new visual or computational classifications more revisable, retrievable, and accountable than the systems I inherit?
+## Claim 5
+- **Claim (plain):** Boundary infrastructures enable interoperability by tolerating local variation.
+- **Author claim:** The authors describe infrastructures that support several communities through shared standards and boundary objects while allowing different local meanings.
+- **Evidence-supported claim:** Pages 313–314 define the logic of boundary infrastructures across communities of practice.
+- **Researcher inference:** DDR research can preserve repository-native metadata while building a cross-archive analytical layer, provided the mapping does not erase source-specific meaning.
+- **Evidence (quote/paraphrase + page):** Bowker and Star show how shared forms and standards coordinate work without requiring identical local practice. [@Bowker1999SortingThingsOut, pp. 313–314]
+- **Warrant (my words):** Interoperability need not require flattening every distinction into one universal schema.
+- **Boundary:** Crosswalks always lose or transform some local meaning.
+- **Consequence:** RCA and V&A source rights, identifiers and descriptions should remain separately recoverable after integration.
+- **Practice cross-check:** Keep repository-specific provenance fields beneath the unified PID-backed corpus.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the bridge section where I move from feminist/STS critique to archive classification, and in the methods chapter where I justify reading archival metadata and computational groupings as ethical-political acts.
-- **Where I will name the title in running text (first-use rule):** First mention in the bridge section: *In* Sorting Things Out *(1999), Geoffrey Bowker and Susan Leigh Star argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside the DDR archive catalogue structure, team lists, subject headings, and any visual/computational model that groups documents, actors, or themes. TODO (needs exact cross-reference).
-- **Workstreams →** Bridge text; archive interpretation; methods framing; computational activation; gender-gap thread.
-- **Deliverables →** Bridge section draft; methods paragraph on classification; archive-reading rationale; footnote trail on metadata politics.
-- **Stakeholders →** Examiners; supervisors; STS readers; digital humanities readers; design history readers.
+## Claim 6
+- **Claim (plain):** Good classificatory design should remain visible, revisable and accountable.
+- **Author claim:** The conclusion calls for classifications that preserve traces of their construction and remain open to reworking as constituencies change.
+- **Evidence-supported claim:** Page 326 describes the possibility of “living classifications” and a built moral environment whose design matters.
+- **Researcher inference:** Computational clustering in the DDR project should be treated as a revisable analytical proposal rather than a final taxonomy.
+- **Evidence (quote/paraphrase + page):** The authors advocate systems sensitive to exclusions and capable of retaining memory of how categories were built. [@Bowker1999SortingThingsOut, pp. 325–326]
+- **Warrant (my words):** Reversibility and provenance make classificatory power easier to inspect and challenge.
+- **Boundary:** No classification can make all constituencies equally visible at once.
+- **Consequence:** Derived ML groupings should retain model/version information and permit return to underlying records.
+- **Practice cross-check:** UMAP clusters remain exploratory views; no cluster label becomes canonical archive metadata.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This book is strongest as a general STS framework for classification and infrastructure, but it does not by itself explain the specific archival history of DDR.
-- **Risk if misused (1 sentence):** If I use Bowker and Star too loosely, I could label every archive arrangement “political” without showing the specific category, exclusion, or infrastructural consequence at stake.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Classification system:** a historically situated arrangement for assigning people, things or actions to categories with practical consequences. [@Bowker1999SortingThingsOut, pp. 285–286, 319]
+- **Boundary infrastructure:** shared classificatory infrastructure that coordinates multiple communities while allowing local variation. [@Bowker1999SortingThingsOut, pp. 313–314]
+- **Categorical work:** labour required to maintain categories across changing cases and memberships. [@Bowker1999SortingThingsOut, pp. 309–314]
+- **Residual category / other:** the remainder through which a scheme manages cases it cannot comfortably contain. [@Bowker1999SortingThingsOut, pp. 300–301, 325]
+- **Living classification:** a revisable system retaining traces of its construction rather than presenting categories as natural. [@Bowker1999SortingThingsOut, p. 326]
+
+# My response
+
+Bowker and Star give the thesis a concrete account of why archive order and computational grouping matter. The crucial move is from “bias” as a vague defect to classification as work: categories are built, maintained, embedded and consequential. That is directly applicable to DDR, where both repository metadata and new machine-learning views distribute visibility. Their positive idea of living classification also gives the project a useful design benchmark: derived structures should remain revisable and connected to their source evidence.
+
+# Integration hooks
+
+**Where I will cite it:** Classification/metadata politics; gendered archival visibility; corpus normalisation; and computational clustering.
+
+**Link to my practice evidence:** Repository crosswalks, authority reconciliation and UMAP cluster labels are all classificatory interventions that can be documented and tested.
+
+**Workstreams →** Critical archival theory; feminist critique; data modelling; UMAP.  
+**Deliverables →** Theoretical framework; methods chapter; interface design rationale.
+
+# Boundary + risk
+
+**Boundary:** The book is a general STS theory of classification, not a history of DDR archival organisation.
+
+**Risk if misused:** Calling every organisational choice “political” without specifying the category, constituency and consequence would empty the framework of analytical value.
+
+# Cross-source / cross-lens synthesis
+
+Bowker and Star sharpen Duranti's historical account of description by showing how categories become infrastructural and morally consequential. Bearman's relational model offers one alternative to record-centred cataloguing, while Caswell et al. make the justice implications explicit. For DDR, the combination is powerful: inherited metadata can be treated as a classificatory infrastructure, and the thesis's own computational groupings as new, accountable classifications whose provenance and exclusions must remain visible.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
-- [ ] Data collection and instruments
+- [x] Data collection and instruments
 - [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 285–286, 313–314, 319–326
-- **First full note (write it out here):**  
-  Geoffrey C. Bowker and Susan Leigh Star, *Sorting Things Out: Classification and Its Consequences* (Cambridge, MA: MIT Press, 1999), 285–326.
-- **Short note form:**  
-  Bowker and Star, *Sorting Things Out*, 319–326.
-- **One quote worth lifting (≤2 lines):** “Classifications are powerful technologies.” (p. 319)
-- **One paraphrase worth keeping:** Bowker and Star argue that classification systems are historical and political artifacts that become especially powerful when embedded in infrastructure, where they shape visibility, exclusion, and accountability while appearing merely technical. (pp. 285–286, 313–314, 319–325)
+# Chicago NB payload
+
+- **Key pages to reuse:** 285–286, 309–314, 319–326
+- **First full note:** Geoffrey C. Bowker and Susan Leigh Star, *Sorting Things Out: Classification and Its Consequences* (Cambridge, MA: MIT Press, 1999).
+- **Short note form:** Bowker and Star, *Sorting Things Out*, 319–326.
+- **One quote worth lifting:** “Classifications are powerful technologies.” (p. 319)
+- **One paraphrase worth keeping:** Bowker and Star argue that classifications become most consequential when embedded in infrastructure, where they make some people and activities visible while rendering other cases residual, difficult or invisible. [@Bowker1999SortingThingsOut, pp. 313–326]
+
+# Related works
+
+- Duranti, “Origin and Development of the Concept of Archival Description.”
+- Caswell, Punzalan, and Sangwand, “Critical Archival Studies.”
+- Cifor and Wood, “Critical Feminism in the Archives.”
+
+# Follow-ups
+
+- **What I will test next:** Audit the DDR analytical pipeline for residual categories, hidden defaults and unlogged classificatory work.

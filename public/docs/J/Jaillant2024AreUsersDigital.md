@@ -4,7 +4,7 @@ authors: "Jaillant, Lise; Aske, Katherine"
 year: 2024
 journal: "Journal on Computing and Cultural Heritage"
 volume: "16"
-number: "4"
+issue: "4"
 pages: "Article 87, 1-16"
 citation_key: Jaillant2024AreUsersDigital
 doi: "10.1145/3631125"
@@ -13,111 +13,160 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Recording, organising, and obscuring traces"
-model_subcluster: "S2.3 Archival reconstruction and institutional memory"
-source_type: "Core text"
-project_tags:
-  - "Theoretical framework"
 theoretical_framework_area_id: "2"
 theoretical_framework_area: "Critical archival theory"
 literature_cluster_id: "c"
 literature_cluster: "Contemporary bridge literature"
-zotero_filing_path: "Theoretical framework / Critical archival theory / Contemporary bridge literature"
-last_updated: "18 Mar 2026, 15:23"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Recording, organising, and obscuring traces  
-**Sub-cluster:** S2.3 Archival reconstruction and institutional memory  
-**Source type:** Core text  
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature"
+source_type: "Core text"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- When computational methods clarify or distort contested traces
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** c) Contemporary bridge literature  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a current core text that connects digital archives, user practice, computational methods, and AI-era infrastructure, because it helps me frame archive activation as both a methodological opportunity and a usability problem.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Bridge/methods section on archival reconstruction and institutional memory; it helps me say that digital archives do not become computationally usable simply by being digitised, because access regimes, metadata quality, training, and institutional infrastructures shape what can actually be done with them.  
-**Why this term, not alternatives (1–2 lines):** Jaillant and Aske’s emphasis on **user experience**, **computational methods**, and **AI-era readiness** is more useful than generic “digital archives” language because it links technical possibility to actual scholarly practice, skills, and institutional constraint.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where I need to show that archive activation depends on access, infrastructure, metadata, transparency, and training, and where I need to justify mixed methods rather than assuming computational scale is automatically possible or desirable.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Jaillant and Aske write from digital archives, digital humanities, and computational cultural heritage studies in the early AI era, drawing on survey and interview research with archivists, librarians, digital humanists, literary scholars, historians, and computer scientists. Their problem-space is practical rather than abstract: they ask how and why users are, or are not, using computational methods on digitised and born-digital archives, and what institutional obstacles prevent this. `[@Jaillant2024AreUsersDigital, pp. 1–3]`  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This paper is useful because it resists two easy assumptions at once: that computational methods are naturally the future of archival research, and that traditional close analysis can simply continue unchanged in digital environments. It shows instead that both depend on access, infrastructure, and explicit methodological support. `[@Jaillant2024AreUsersDigital, pp. 1–5, 12–14]`
+**How this source moves the primary research question forward:** Jaillant and Aske show that archive activation in the AI era is constrained by access, data quality, infrastructure, skills and research culture before model choice even begins.
 
-# The author’s main move (1 sentence)
-They try to assess whether users of digital archives are actually prepared for the AI era by analysing access, skills, infrastructure, and research cultures in order to argue for training, collaboration, and better archival systems rather than technological solutionism alone.
+**How this source bears on the secondary question:** Revisiting DDR computationally requires making the digital evidence surface usable and transparent, otherwise contemporary methods may amplify archival and technical distortions rather than illuminate older design knowledge.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It connects critical archival theory to the practical conditions under which computational archive research is actually possible.
+
+**Where it sits in my argument:** Contemporary bridge literature. It is the user/infrastructure counterpart to Jaillant and Rees's trust/ethics argument.
+
+**My benchmark for using it:** I will use the paper to identify concrete readiness conditions and workflow controls, not to claim that AI is necessary for all archival research.
+
+# Position + moment
+
+Jaillant and Aske write from digital archives, digital humanities and computational cultural heritage, using survey and interview research with archivists, librarians, historians, literary scholars, digital humanists and computer scientists. Their question is deliberately practical: what prevents users from applying computational methods to digital archives, and what conditions would improve that situation? [@Jaillant2024AreUsersDigital, pp. 1–3]
+
+# The author’s main move
+
+They argue that AI-era archival research depends less on technological novelty than on access, usable data, transparent preprocessing, skills, collaboration and durable infrastructure, and that these conditions are currently uneven. [@Jaillant2024AreUsersDigital, pp. 1–14]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Jaillant and Aske argue that the first obstacle to computational archive use is not skill but access.
-- **Evidence (quote/paraphrase + page):** They state that “the first problem to solve is the issue of access to these collections” and that “without access or with limited access, it is difficult to scale up training in computational methods.” Their survey findings reinforce this: the highest reported issue was “limited availability of digital records” at 86%, followed by discoverability, online accessibility, and the availability of data for computational work. `[@Jaillant2024AreUsersDigital, pp. 2–5]`
-- **Warrant (my words):** This matters because it reframes the problem. The barrier is not simply that humanities scholars lack technical skills; it is that archives are often inaccessible, incomplete, or unusable in ways that make both traditional and computational work difficult.
-- **So what for my thesis (a reusable sentence):** Jaillant and Aske help me argue that mobilising the DDR archive computationally is first an access and infrastructure question, not just a matter of choosing the right tools.
-- **Practice cross-check:** This is directly relevant if the DDR archive is only partially catalogued, unevenly digitised, or difficult to export into forms usable for analysis. TODO (needs exact DDR archive access example).
+- **Claim (plain):** Access is the first condition of computational archival research.
+- **Author claim:** Jaillant and Aske explicitly say “the first problem to solve is the issue of access.”
+- **Evidence-supported claim:** Their survey reports limited availability of digital records as the highest-ranked obstacle (86%), alongside discoverability and online/data access barriers. [@Jaillant2024AreUsersDigital, pp. 2–5]
+- **Researcher inference:** DDR computational analysis is bounded first by which records are digitised, exportable and legally/repository-accessible.
+- **Evidence (quote/paraphrase + page):** The authors state that limited access makes it difficult even to scale training in computational methods. [@Jaillant2024AreUsersDigital, pp. 2–5]
+- **Warrant (my words):** Methodological possibility depends on the evidence surface being available in usable form.
+- **Boundary:** Access alone does not make a collection methodologically ready.
+- **Consequence:** The thesis must define the exact PID-backed corpus and its exclusions.
+- **Practice cross-check:** Non-PID text stays outside vector scope; repository source boundaries remain visible.
 
 ## Claim 2
-- **Claim (plain):** The paper argues that digital archives require substantial hidden labour and preprocessing before they become usable, and that bias, OCR problems, and metadata gaps continue to distort research.
-- **Evidence (quote/paraphrase + page):** The authors stress that data rarely arrive ready to use; interviewees say “data always needs to be worked out” and that digitised material is not “immediately usable.” They discuss dirty OCR, inaccessible born-digital collections, incomplete digitisation, skewed representation in digitised newspapers, and metadata problems that make sources invisible or misleading. They also note that digitisation can intensify risks of bias and misrepresentation unless transparency improves. `[@Jaillant2024AreUsersDigital, pp. 3–4, 7–9]`
-- **Warrant (my words):** This is crucial because it breaks the myth that digital archives are straightforward research environments. What appears computable is already the result of archival labour, technical mediation, and representational compromise.
-- **So what for my thesis:** Jaillant and Aske give me a strong basis for treating the DDR archive’s digital forms, metadata, and retrieval systems as interpretative layers that must themselves be analysed rather than taken for granted.
-- **Practice cross-check:** This connects directly to Bowker and Star, Schwartz and Cook, and Kizhner et al., and it supports making OCR quality, metadata completeness, and dataset construction explicit in any DDR computational workflow. TODO (needs S3/data pipeline cross-link).
+- **Claim (plain):** Digital archives require substantial hidden labour before computation.
+- **Author claim:** The authors stress that digitised and born-digital data are rarely ready for direct analysis.
+- **Evidence-supported claim:** Interviewees describe OCR cleaning, format conversion, metadata repair and preprocessing; the article also discusses incomplete digitisation and skewed digital representation. [@Jaillant2024AreUsersDigital, pp. 3–4, 7–9]
+- **Researcher inference:** DDR cleaning, chunking, authority mapping and metadata normalisation are interpretative methodological steps, not invisible engineering.
+- **Evidence (quote/paraphrase + page):** Interviewees say data “always needs to be worked out” and is not automatically usable after digitisation. [@Jaillant2024AreUsersDigital, pp. 3–4]
+- **Warrant (my words):** Computational inputs already embody choices and transformations before any model runs.
+- **Boundary:** Preprocessing can improve consistency without necessarily introducing unacceptable distortion.
+- **Consequence:** Transformations should be documented and reproducible.
+- **Practice cross-check:** Keep release receipts, source counts, excluded records and pipeline versions.
 
 ## Claim 3
-- **Claim (plain):** Their positive proposal is that AI-era archive use requires embedded training, cross-disciplinary collaboration, transparency, and infrastructures tailored to archival research rather than the solo researcher model.
-- **Evidence (quote/paraphrase + page):** In the recommendations, they argue that computational training should be embedded in postgraduate humanities and social-science programmes, that advanced training should be available, that cross-disciplinary collaborations should be more valued, and that funding agencies should support infrastructures that make archives accessible and usable. They also emphasise documenting tools, versions, keywords, and workflows so research can be checked and replayed. `[@Jaillant2024AreUsersDigital, pp. 2–3, 8–14]`
-- **Warrant (my words):** This matters because the article moves beyond diagnosis. It offers a practical model of responsible AI-era archival work built on mixed expertise, methodological transparency, and institutional change.
-- **So what for my thesis:** Jaillant and Aske help me justify a methods position in which computational activation of the DDR archive remains collaborative, transparent, and accountable rather than being presented as a solitary or frictionless technical exercise.
-- **Practice cross-check:** This strongly supports your own combined method of close reading, archival interpretation, and computational modelling, and it suggests being explicit about tools, versions, prompts, transformations, and limits. TODO (needs methods chapter cross-link).
+- **Claim (plain):** AI/computational readiness is uneven across archive users and disciplines.
+- **Author claim:** Jaillant and Aske show that computational methods are far from routine among many humanities/archive users.
+- **Evidence-supported claim:** Survey/interview findings describe uneven confidence, skills and practical uptake despite high awareness of digital methods. [@Jaillant2024AreUsersDigital, pp. 4–8]
+- **Researcher inference:** DDR outputs should remain usable by historians/design researchers who are not machine-learning specialists.
+- **Evidence (quote/paraphrase + page):** The authors repeatedly distinguish theoretical interest in computational methods from users' ability to deploy them on real archive data. [@Jaillant2024AreUsersDigital, pp. 4–8]
+- **Warrant (my words):** A research interface fails archivally if its evidential logic is intelligible only to technical experts.
+- **Boundary:** The study population does not represent every archival user.
+- **Consequence:** Interface and thesis explanations should privilege inspectability over technical spectacle.
+- **Practice cross-check:** Evidence cards, named sources and plain-language boundaries accompany computational views.
 
-# Definitions / terms this changes (only the ones that matter)
-- **User experience of digital archives:** the actual practices, barriers, expectations, and frustrations of people using digitised and born-digital archives; I will use this to keep the thesis grounded in what archive users can really do, not only in what systems theoretically allow. `[@Jaillant2024AreUsersDigital, pp. 1–4]`
-- **Computational research methods:** methods such as text and data mining, data visualisation, natural language processing, and AI-assisted analysis applied to digital archives at scale; I will use this term broadly but always with attention to access and preprocessing. `[@Jaillant2024AreUsersDigital, pp. 1–2]`
-- **Solo researcher model:** the humanities norm in which one researcher is expected to carry the full project and skillset alone; I will use this as a term for a structural obstacle to computational archive work. `[@Jaillant2024AreUsersDigital, pp. 10–13]`
-- **Transparency / reproducibility:** explicit documentation of tools, versions, searches, and workflows so others can understand and potentially replay the process; I will use this as a benchmark for computational work in the thesis. `[@Jaillant2024AreUsersDigital, pp. 8–9]`
-- **Datafying archives:** turning archival materials into structured data that can be explored with software and visualisation tools; I will use this term cautiously, because the paper shows that this depends on labour, infrastructure, and choices about representation. `[@Jaillant2024AreUsersDigital, pp. 13–14]`
+## Claim 4
+- **Claim (plain):** The solo-researcher model is structurally poorly suited to advanced computational archive work.
+- **Author claim:** The article argues for embedded training and recognises that one humanities researcher cannot reasonably master archival, domain and technical expertise alone.
+- **Evidence-supported claim:** Pages 10–13 discuss postgraduate training, advanced support and the limitations of the solo-researcher norm.
+- **Researcher inference:** The DDR computational strand is strongest when domain knowledge, archival method and technical design are treated as distinct forms of expertise that must be integrated.
+- **Evidence (quote/paraphrase + page):** Jaillant and Aske recommend training plus collaborative models rather than expecting individuals to acquire every skill. [@Jaillant2024AreUsersDigital, pp. 10–13]
+- **Warrant (my words):** Complex archival computation combines methods whose quality controls come from different disciplines.
+- **Boundary:** Collaboration can also create coordination and reproducibility challenges.
+- **Consequence:** Roles, assumptions and technical dependencies should be documented.
+- **Practice cross-check:** Keep steering documents, frozen scope and UAT criteria explicit so expertise is coordinated around one evidence model.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a current, practical account of why digital archives remain difficult to use well, even in the AI era.
-  - It is especially useful for showing that access, preprocessing, and institutional support matter as much as tools.
-  - It offers a strong bridge between archival critique and your own computational methods section.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat computational activation of the DDR archive as a workflow and infrastructure problem, not only an interpretative problem.
-  - I will describe my methods in a way that makes hidden labour, preprocessing, and tool choice visible.
-- **What question it raises next (1–2 bullets):**
-  - Which parts of the DDR archive are actually ready for computational work, and which would need substantial reconstruction first?
-  - How can I document my own archive transformations so that the computational strand remains transparent and accountable?
+## Claim 5
+- **Claim (plain):** Institutional infrastructure and collaboration are part of methodological validity.
+- **Author claim:** Jaillant and Aske recommend cross-disciplinary collaboration, funding and infrastructures tailored to archival research.
+- **Evidence-supported claim:** Pages 10–14 connect sustainable computational use to support systems rather than short-lived tool experiments.
+- **Researcher inference:** DDR computational research should be evaluated as a workflow/ecosystem, not only by model output quality.
+- **Evidence (quote/paraphrase + page):** The article calls for infrastructure that makes archives accessible and usable and for collaboration to be recognised and supported. [@Jaillant2024AreUsersDigital, pp. 10–14]
+- **Warrant (my words):** Reproducible archival computation depends on stable data access, tools, expertise and documentation.
+- **Boundary:** A PhD prototype cannot solve sector-wide infrastructure deficits.
+- **Consequence:** Claims should remain bounded to the implemented corpus and workflow.
+- **Practice cross-check:** Frozen scope, canonical corpus and reproducible release process define the research environment.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the bridge/methods section where I explain why digital archival work is constrained by access, training, and infrastructure, and where I justify mixed methods plus explicit workflow documentation.
-- **Where I will name the title in running text (first-use rule):** First mention in the archival reconstruction section: *In “Are Users of Digital Archives Ready for the AI Era?” (2024), Lise Jaillant and Katherine Aske argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside your DDR archive handling notes and any pilot computational workflow where access, export formats, OCR, metadata, or preprocessing become visible bottlenecks. TODO (needs exact cross-reference).
-- **Workstreams →** Bridge text; archival reconstruction; methods framing; computational activation.
-- **Deliverables →** Methods paragraph on access and preprocessing; archival reconstruction section draft; footnote trail on AI-era archive usability; workflow transparency note.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; digital humanities readers; cultural heritage computing readers.
+## Claim 6
+- **Claim (plain):** Transparency and reproducibility require documenting searches, tools and transformations.
+- **Author claim:** The authors emphasise recording tools, versions, keywords and workflows so research can be checked and replayed.
+- **Evidence-supported claim:** Pages 8–9 and recommendations link methodological transparency to trustworthy computational archival research.
+- **Researcher inference:** DDR retrieval results should be reproducible enough to identify why a source appeared and which model/pipeline generated a synthesis.
+- **Evidence (quote/paraphrase + page):** Jaillant and Aske call for explicit documentation of computational research processes rather than treating software operations as black boxes. [@Jaillant2024AreUsersDigital, pp. 8–9]
+- **Warrant (my words):** Without workflow transparency, computational claims cannot be adequately scrutinised.
+- **Boundary:** Exact deterministic replay may be difficult with some generative systems.
+- **Consequence:** Versioning, provenance and source bindings become necessary even where generation is probabilistic.
+- **Practice cross-check:** Store model/version, retrieval settings, evidence cards and provenance bindings for UAT outputs.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This article is strongest as a contemporary study of user experience and infrastructure around digital archives, but it does not directly address the historical specificity of the DDR archive.
-- **Risk if misused (1 sentence):** If I use it too generally, I could overstate the readiness or relevance of AI methods for my own archive without showing which parts of the DDR material are actually computable and why.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **AI-era readiness:** the combined condition of access, usable data, skills, collaboration, infrastructure and transparent workflow required for computational archival research. [@Jaillant2024AreUsersDigital, pp. 1–14]
+- **Solo researcher model:** expectation that one scholar independently supplies all domain, archival and technical expertise. [@Jaillant2024AreUsersDigital, pp. 10–13]
+- **Transparency / reproducibility:** documentation of tools, versions, searches and transformations sufficient for methodological scrutiny. [@Jaillant2024AreUsersDigital, pp. 8–9]
+- **Datafying archives:** transforming archival materials into structured computational inputs, with attendant labour and representational choices. [@Jaillant2024AreUsersDigital, pp. 13–14]
+
+# My response
+
+Jaillant and Aske are useful because they make computational archive work look like what it actually is: a socio-technical workflow with upstream dependencies, hidden labour and institutional constraints. For DDR, this validates a research design in which preprocessing, corpus definition and provenance are part of the method rather than background preparation. It also reinforces a key design objective: the system should make archival computation inspectable to non-specialist researchers rather than requiring faith in technical expertise.
+
+# Integration hooks
+
+**Where I will cite it:** Corpus readiness; preprocessing; reproducibility; collaboration; interface usability.
+
+**Link to my practice evidence:** The PID-backed corpus, release receipts, model/version controls and UAT workflow directly instantiate the paper's readiness conditions.
+
+**Workstreams →** Critical archival theory; computational methods; provenance; UAT.  
+**Deliverables →** Theoretical framework; research design; limitations.
+
+# Boundary + risk
+
+**Boundary:** The article studies broad digital-archive user communities rather than this specific DDR corpus.
+
+**Risk if misused:** “AI readiness” could become a generic checklist that distracts from the historical questions the computational system is meant to serve.
+
+# Cross-source / cross-lens synthesis
+
+Jaillant and Aske complement Jaillant and Rees: the 2023 paper foregrounds trust and shared ethics, while the 2024 paper foregrounds access, labour, training and infrastructure. Bowker and Star help explain why preprocessing and metadata are classificatory work rather than neutral preparation. Together these sources make the DDR computational strand an archival workflow whose validity depends on transparent evidence transformation as much as on retrieval performance.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -125,22 +174,20 @@ They try to assess whether users of digital archives are actually prepared for t
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 1–5, 8–10, 12–14
-- **First full note (write it out here):**  
-  Lise Jaillant and Katherine Aske, “Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities,” *Journal on Computing and Cultural Heritage* 16, no. 4 (2024): Article 87, 1–16.
-- **Short note form:**  
-  Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?,” 2–5.
-- **One quote worth lifting (≤2 lines):** “the first problem to solve is the issue of access to these collections.” (p. 2)
-- **One paraphrase worth keeping:** Jaillant and Aske argue that digital archives do not become computationally usable simply because they are digitised; access barriers, preprocessing labour, metadata problems, lack of training, and the solo researcher model all limit meaningful AI-era use. (pp. 2–5, 8–14)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Foka and Griffin, “AI, Cultural Heritage, and Bias”
-- Kizhner et al., “Ethnic Minorities in Online Museum Collections”
-- Bowker and Star, *Sorting Things Out*
-- Schwartz and Cook, “Archives, Records, and Power”
-- Drucker, “Humanities Approaches to Graphical Display”
+- **Key pages to reuse:** 1–5, 8–14
+- **First full note:** Lise Jaillant and Katherine Aske, “Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities,” *Journal on Computing and Cultural Heritage* 16, no. 4 (2024): Article 87, 1–16, https://doi.org/10.1145/3631125.
+- **Short note form:** Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?,” 2–5.
+- **One quote worth lifting:** “the first problem to solve is the issue of access to these collections.” (p. 2)
+- **One paraphrase worth keeping:** Jaillant and Aske argue that meaningful AI-era archival research depends on access, preprocessing, transparent workflows, training, collaboration and infrastructure rather than digitisation or tool availability alone. [@Jaillant2024AreUsersDigital, pp. 1–14]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A practice-specific text on reconstructing or preparing archival corpora for computational analysis, ideally one that deals with metadata repair or archival reconstruction directly.
-- What I will test or write next: Draft the methods paragraph that states what parts of the DDR archive are computationally workable, what preprocessing they require, and how you will document those transformations.
+# Related works
+
+- Jaillant and Rees, “Applying AI to Digital Archives.”
+- Bowker and Star, *Sorting Things Out*.
+- Moss, Thomas, and Gollins, “The Reconfiguration of the Archive as Data to Be Mined.”
+
+# Follow-ups
+
+- **What I will test next:** Audit the DDR pipeline against the six readiness conditions and document any remaining weakness as a method limitation.

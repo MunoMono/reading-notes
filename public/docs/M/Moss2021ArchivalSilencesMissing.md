@@ -1,256 +1,191 @@
 ---
-title: "Theorising the silences"
-authors: "Moss, Michael and Thomas, David"
+title: "Archival silences: missing, lost and, uncreated archives"
+authors: "Moss, Michael; Thomas, David"
 year: 2021
-journal: "In Archival Silences: Missing, Lost and Uncreated Archives"
+journal: "Routledge"
 citation_key: Moss2021ArchivalSilencesMissing
-doi: "10.4324/9781003003618-2"
-url: "https://www.taylorfrancis.com/books/9781000385199"
+doi: "10.4324/9781003003618"
+url: ""
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-generated_at: "28 May 2026, 11:46"
-last_updated: "16 Sept 2026, 12:14"
+generated_at: "28 May 2026"
+last_updated: "01 Oct 2026"
 north_star_source: "project/north-star.yml"
-north_star_mtime: "16 Mar 2026, 12:22"
-north_star_sha1: "46ff0ae0f623"
+constraints_source: "project/constraints.md"
 
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Recording, organising, and obscuring traces"
-model_subcluster: "S2.1 Classification as ethics and politics"
-source_type: "Core text"
-project_tags:
-  - "Turin"
-  - "Theoretical framework"
 theoretical_framework_area_id: "2"
 theoretical_framework_area: "Critical archival theory"
-literature_cluster_id: "a"
-literature_cluster: "Canon + intellectual lineage"
-zotero_filing_path: "Theoretical framework / Critical archival theory / Canon + intellectual lineage"
-constraints_source: "project/constraints.md"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Recording, organising, and obscuring traces  
-**Sub-cluster:** S2.1 Classification as ethics and politics  
-**Source type:** Core text  
-
-**Seams to watch:**
-- Where historical contestation meets archive structure
-- How organisation choices reveal or hide contested knowledge
-- How absence can be missing, lost, uncreated, digitised, politicised, or silenced through textualisation
-
-# Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
-
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / b) Operational literature"
+source_type: "Core text / edited volume framing"
+project_tags:
+  - "Theoretical framework"
 ---
 
-# Thesis job (do this first)
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / b) Operational literature  
+**Source type:** Core text / edited volume framing
 
-**Project research question(s) this serves:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+# Constraints (anti-bloat / anti-hallucination)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
+- This Year 2 note analyses the editors' opening chapter, **“Theorising the Silences” (pp. 10–25)**, as the conceptual framing of the edited volume; it does not pretend to synthesise every case chapter in the 272-page book.
 
-**Why I’m reading this now:**  
-I need a broader conceptual frame for Chapter 1, “Theorising the Silences,” that distinguishes different kinds of archival absence rather than treating all gaps as the same thing.
+# Thesis job
 
-**Where it sits in my argument:**  
-S2.1 Classification as ethics and politics: this chapter helps me move from singular archival silence toward a richer account of missing, lost, uncreated, digitised, politicised and performative absences.
+**How this source moves the primary research question forward:** Moss and Thomas give the thesis a differentiated theory of archival silence: missingness can enter at creation, assembly, retrieval, historical interpretation, digitisation or textualisation. This directly supports scoped missingness in the DDR archive.
 
-**Why this term, not alternatives:**  
-“Archival silence” is useful, but on its own it can become too blunt. Moss and Thomas help me ask what kind of silence is at stake: a silence made at the point of source creation, archive assembly, retrieval, historical interpretation, digitisation, or performance.
+**How this source bears on the secondary question:** It shows that revisiting historical ideas depends on understanding how access systems and surviving record forms reshape the past, not merely on finding more documents.
 
-**My benchmark for using it:**  
-I will use this chapter if it helps me sort DDR absences into analytically different categories and keeps me from collapsing loss, exclusion, non-creation, digitisation bias and interpretive overreach into one undifferentiated silence.
+**Why I’m reading this now:** The thesis needs a practical typology that prevents “silence” from becoming a catch-all for every archival gap.
+
+**Where it sits in my argument:** Operational literature. The editors' opening chapter translates Trouillot and later archival debates into a usable diagnostic vocabulary.
+
+**My benchmark for using it:** A DDR absence will be classified only where the evidence supports a particular mechanism; otherwise the thesis will record the cause as unknown.
 
 # Position + moment
 
-This is Chapter 1 of *Archival Silences: Missing, Lost and Uncreated Archives*, edited by Michael Moss and David Thomas. It sits within critical archival studies and explicitly builds from Michel-Rolph Trouillot’s account of silencing as part of the production of history.
-
-The chapter is useful because it does not simply repeat the claim that archives silence the marginalised. It complicates that claim by asking when silences come into existence, whether ending silence resolves anything, who is affected by silence, how states use erasure, how digitisation creates new silences, and how textual archival practice can silence records that were originally spoken or performed.
-
-**Canon assumptions to problematise / update for 2026:**  
-The chapter helps me avoid a morally simple recovery narrative. It warns that finding or releasing records does not necessarily heal contested histories, and that digitisation may reproduce rather than solve archival inequality.
+The edited volume *Archival Silences* is framed by Moss and Thomas's opening chapter “Theorising the Silences.” They begin from Trouillot's account of silence in historical production but explicitly complicate any simple recovery narrative by considering political erasure, access, digitisation, performance and the possibility that ending silence does not resolve conflict. [@Moss2021ArchivalSilencesMissing, pp. 10–25]
 
 # The author’s main move
 
-Moss and Thomas extend Trouillot’s theory of archival silencing by showing that silences are not one thing: they can be produced through fact creation, archival assembly, retrieval, historical significance, political erasure, digitisation, textualisation and the loss of performance.
+Moss and Thomas argue that archival silence is not a single absence but a family of conditions generated at different moments in the production, preservation, retrieval and later interpretation of records, and that digitisation or disclosure can create new silences as readily as they remove old ones. [@Moss2021ArchivalSilencesMissing, pp. 10–22]
 
-# Three-claim evidence ledger
-
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim:**  
-  Archival silences are made at multiple points, not only when records are missing from an archive.
-
-- **Evidence:**  
-  Moss and Thomas begin from Trouillot’s argument that silences are created at four moments: fact creation, fact assembly, fact retrieval and retrospective significance [@Moss2021ArchivalSilencesMissing, p. 10]. They accept Trouillot’s theory but argue that the situation is more nuanced than the assumption that silences are always present, that users are normally correct about missing evidence, or that the ending of silence necessarily heals [@Moss2021ArchivalSilencesMissing, pp. 10–11].
-
-- **Warrant:**  
-  This supports the claim because silence is not located only in the physical absence of a document. It can arise when something is not recognised as worth recording, when records are not assembled, when researchers fail to retrieve them, or when history later decides what counts as significant.
-
-- **So what for my thesis:**  
-  DDR absences should be diagnosed by stage: was the trace never created, not retained, poorly described, hard to retrieve, or later made insignificant by design-history narratives?
-
-- **Practice cross-check:**  
-  The Absences / Scoped Missingness workbench provides the scoped-missingness conceptual framework for diagnosing archival silence and evidential limits.
+- **Claim (plain):** Silence can enter historical knowledge at several different stages.
+- **Author claim:** Moss and Thomas begin from Trouillot's four moments: fact creation, fact assembly, fact retrieval and retrospective significance.
+- **Evidence-supported claim:** Page 10 explicitly lays out these four moments as different points at which silences are produced.
+- **Researcher inference:** DDR missingness should be diagnosed by stage rather than described generically as “absence.”
+- **Evidence (quote/paraphrase + page):** The editors summarise Trouillot's model and use it as the starting framework for the volume. [@Moss2021ArchivalSilencesMissing, p. 10]
+- **Warrant (my words):** A record never created poses a different historical problem from a record present but undiscoverable.
+- **Boundary:** The four moments are a heuristic and later examples add further forms of silence.
+- **Consequence:** The thesis should report the evidential mechanism when known.
+- **Practice cross-check:** Tag missingness cases as non-created, non-surviving, poorly described, unretrieved or retrospectively marginalised where evidence permits.
 
 ## Claim 2
-
-- **Claim:**  
-  Ending archival silence does not necessarily produce resolution, justice or closure.
-
-- **Evidence:**  
-  Moss and Thomas argue that the discovery or release of previously silenced archives does not always have a healing effect [@Moss2021ArchivalSilencesMissing, pp. 10–11]. Their discussion of the “Comfort Women” records shows that the discovery of Japanese military documents helped establish state involvement, but did not resolve the political dispute because apology, compensation, legal responsibility and national memory remained contested [@Moss2021ArchivalSilencesMissing, pp. 12–14]. They conclude that the release of previously silenced records does not necessarily ensure resolution or reconciliation [@Moss2021ArchivalSilencesMissing, p. 14].
-
-- **Warrant:**  
-  This matters because archival evidence does not enter a neutral field. Once records are found, they can become part of continuing political struggle. The existence of evidence does not guarantee shared interpretation, accountability or closure.
-
-- **So what for my thesis:**  
-  Activating the DDR archive should not be framed as solving the archive or settling design-history disputes; it can make traces available for interpretation while leaving contestation visible.
-
-- **Practice cross-check:**  
-  The Turin method treats silence as a condition to diagnose and preserve where necessary, rather than as a blank requiring computational completion.
+- **Claim (plain):** Researchers can misdiagnose silence by assuming that expected evidence must once have existed.
+- **Author claim:** Moss and Thomas caution against treating users' sense of a gap as proof that a document or archive is missing.
+- **Evidence-supported claim:** Pages 10–11 argue that the relationship between silence, expectation and evidence is more nuanced than a simple absent/present binary.
+- **Researcher inference:** A failed DDR search cannot be converted into a claim that a management decision, reception record or attribution document once existed and was lost.
+- **Evidence (quote/paraphrase + page):** The editors explicitly challenge the assumption that users are necessarily correct about what is “missing.” [@Moss2021ArchivalSilencesMissing, pp. 10–11]
+- **Warrant (my words):** Historical expectation is not itself evidence of prior record creation.
+- **Boundary:** External evidence can sometimes establish that a missing document once existed.
+- **Consequence:** Scoped missingness should state what the defined corpus cannot establish, not what history necessarily lacked.
+- **Practice cross-check:** Keep “no evidence found under these retrieval conditions” distinct from “record did not exist.”
 
 ## Claim 3
+- **Claim (plain):** Ending archival silence does not necessarily create closure, justice or agreement.
+- **Author claim:** The editors argue that release or discovery of previously unavailable records can leave political conflict unresolved.
+- **Evidence-supported claim:** Their discussion of “Comfort Women” documents shows that new evidence concerning state involvement did not settle disputes over apology, compensation, responsibility and national memory. [@Moss2021ArchivalSilencesMissing, pp. 12–14]
+- **Researcher inference:** Activating DDR records should not be framed as settling contested design history.
+- **Evidence (quote/paraphrase + page):** Moss and Thomas conclude that ending silence “does not always solve anything.” [@Moss2021ArchivalSilencesMissing, pp. 11–14]
+- **Warrant (my words):** Evidence enters existing political and interpretative frameworks rather than compelling one final reading.
+- **Boundary:** Some discoveries do resolve narrower factual questions.
+- **Consequence:** The thesis should preserve contestation even when new traces improve the evidence base.
+- **Practice cross-check:** RAI outputs should distinguish documentary support from interpretative conclusion.
 
-- **Claim:**  
-  Digitisation and textualisation can create new silences even while appearing to improve access.
+## Claim 4
+- **Claim (plain):** Political and institutional processes can actively create archival erasure.
+- **Author claim:** The chapter considers deliberate destruction, withholding and state practices that make particular histories difficult or impossible to document.
+- **Evidence-supported claim:** Across the chapter's cases, silences are shown to arise not only accidentally but through decisions about record creation, survival and access. [@Moss2021ArchivalSilencesMissing, pp. 10–17]
+- **Researcher inference:** Where DDR evidence of deliberate exclusion or suppression exists, the mechanism should be documented rather than inferred from outcome alone.
+- **Evidence (quote/paraphrase + page):** The editors connect archival silence to political power while also warning that different silences have different causes. [@Moss2021ArchivalSilencesMissing, pp. 10–17]
+- **Warrant (my words):** Intentional erasure is analytically distinct from routine non-creation or archival loss.
+- **Boundary:** No such intention can be assigned to DDR without source evidence.
+- **Consequence:** The thesis should keep motive separate from observable absence.
+- **Practice cross-check:** Add “intent evidenced? yes/no/unknown” to silence analysis.
 
-- **Evidence:**  
-  Moss and Thomas argue that digitisation can silence records because scholars at wealthy northern universities have access to material unavailable to scholars in poorer universities, and because digitisation programmes may exclude non-western, non-canonical and everyday materials [@Moss2021ArchivalSilencesMissing, pp. 11, 17–18]. They also argue that archival practices turn records intended to be spoken aloud or performed into texts read silently, thereby robbing them of meaning [@Moss2021ArchivalSilencesMissing, pp. 11, 18–22]. Their examples include court depositions, wills and letters whose evidential force depended partly on speech, hearing, mediation and performance [@Moss2021ArchivalSilencesMissing, pp. 18–22].
+## Claim 5
+- **Claim (plain):** Digitisation can produce new archival silences while appearing to improve access.
+- **Author claim:** Moss and Thomas argue that unequal digitisation resources and canon-driven selection privilege some institutions, geographies and materials.
+- **Evidence-supported claim:** Pages 17–18 discuss how scholars at wealthy institutions may gain access unavailable elsewhere and how digitisation can skew historical attention toward what is technically and institutionally selectable.
+- **Researcher inference:** The PID-backed DDR digital corpus is an evidence surface, not the archive in its entirety.
+- **Evidence (quote/paraphrase + page):** The chapter identifies digitisation choices as a source of unequal visibility. [@Moss2021ArchivalSilencesMissing, pp. 17–18]
+- **Warrant (my words):** Searchability increases the practical visibility of digitised material relative to undigitised holdings.
+- **Boundary:** Digitisation also creates genuine new access and does not only silence.
+- **Consequence:** The thesis must define corpus boundaries and avoid treating digital absence as archival non-existence.
+- **Practice cross-check:** State explicitly that non-PID and undigitised materials lie outside the computational evidence surface.
 
-- **Warrant:**  
-  This supports a more critical account of access. Digitisation may expand availability, but it can also shift attention toward what is searchable, funded and technically convenient. Similarly, converting performed or spoken records into silent text can strip away tone, setting, rhythm, audience and embodied meaning.
-
-- **So what for my thesis:**  
-  DDR activation needs to account for what digitisation and interface design make more visible, but also what they mute: materiality, performance, oral testimony, tacit practice, embodied demonstration and archival handling.
-
-- **Practice cross-check:**  
-  Absences / Scoped Missingness retains archival silence, absence, and evidential limits as contextual conditions in Turin’s method.
+## Claim 6
+- **Claim (plain):** Textualisation can silence the performed and aural dimensions of records.
+- **Author claim:** Moss and Thomas argue that records intended to be spoken, heard or performed can lose meaning when archival practice renders them as silent text.
+- **Evidence-supported claim:** Pages 18–22 use depositions, wills and letters to show how tone, hearing, mediation and performance formed part of evidential meaning.
+- **Researcher inference:** DDR's tacit, demonstrative and oral knowledge cannot be fully represented by OCR text or transcript alone.
+- **Evidence (quote/paraphrase + page):** The chapter argues that textual archival treatment can rob performed records of dimensions of their original meaning. [@Moss2021ArchivalSilencesMissing, pp. 18–22]
+- **Warrant (my words):** Media form participates in meaning, so content extraction is not lossless.
+- **Boundary:** Textualisation is often necessary for search, accessibility and analysis.
+- **Consequence:** Computational use should retain links to original media and record materiality where possible.
+- **Practice cross-check:** Keep transcript/OCR as derivatives linked to scans, audio or other source representations.
 
 # Definitions / terms this changes
 
-- **Archival silence:**  
-  I will use this as a family of archival conditions rather than a single absence. Silence may be produced at the moments of source creation, archive assembly, retrieval or retrospective historical significance [@Moss2021ArchivalSilencesMissing, p. 10].
-
-- **Fact creation:**  
-  The point at which sources are made or not made. For DDR, this includes whether project decisions, informal methods, student labour, prototypes, meetings or failed experiments were recorded at all [@Moss2021ArchivalSilencesMissing, p. 10].
-
-- **Fact assembly:**  
-  The point at which records are gathered into archives. For DDR, this includes accession, custody, cataloguing, survival, appraisal and institutional collecting priorities [@Moss2021ArchivalSilencesMissing, p. 10].
-
-- **Fact retrieval:**  
-  The point at which material can be found and used. For DDR, this includes catalogue search, metadata, OCR, file naming, interface design and computational retrieval [@Moss2021ArchivalSilencesMissing, p. 10].
-
-- **Retrospective significance:**  
-  The later historical process through which some materials become recognised as important while others remain unmentioned or marginal [@Moss2021ArchivalSilencesMissing, p. 10].
-
-- **Uncreated archive:**  
-  I will use this for records or record formations that never came into being because the conditions for their creation, retention or recognition were absent or denied.
-
-- **Lost archive:**  
-  I will use this for materials that once existed, or were once more fully available, but have since disappeared, decayed, been destroyed or become inaccessible.
-
-- **Digitisation silence:**  
-  A silence produced when digitisation privileges some collections, formats, institutions or geographies over others, making the digitised appear more historically available than the undigitised [@Moss2021ArchivalSilencesMissing, pp. 17–18].
-
-- **Textualisation:**  
-  The transformation of spoken, performed or embodied records into silent archival text, which can reduce or distort their original meaning [@Moss2021ArchivalSilencesMissing, pp. 18–22].
+- **Fact creation / assembly / retrieval / retrospective significance:** four moments through which historical silences can enter the record and its later use. [@Moss2021ArchivalSilencesMissing, p. 10]
+- **Digitisation silence:** unequal visibility produced through decisions and resources governing digitisation. [@Moss2021ArchivalSilencesMissing, pp. 17–18]
+- **Textualisation:** conversion of spoken, performed or embodied records into silent textual forms, with potential loss of meaning. [@Moss2021ArchivalSilencesMissing, pp. 18–22]
+- **Scoped missingness:** my research method for stating what a defined evidence surface cannot establish without inferring historical non-existence.
 
 # My response
 
-- **What I take from this:**  
-  - “Silence” is too blunt on its own; I need a vocabulary of different absences.  
-  - The archive can be silent because material was never created, because it was created and lost, because it is present but not retrievable, or because it has been made silent through digitisation and textualisation.  
-  - The chapter gives me a way to write activation as diagnosis, not repair fantasy.
-
-- **What I reframe / adjust:**  
-  - I can make the DDR archive discussion more rigorous by naming what kind of silence I am dealing with in each instance.  
-  - I should treat digitisation and interface-building as double-edged: they support access while also changing what counts as visible evidence.
-
-- **What question it raises next:**  
-  - Which DDR absences are best described as uncreated, which as lost, which as present-but-muted, and which as silenced by later narratives of design research?  
-  - What parts of DDR knowledge were performed, tacit, embodied or spoken, and are therefore diminished when converted into catalogue text?
+The opening chapter is valuable because it turns archival silence into a diagnostic problem rather than an evocative metaphor. The strongest consequence for DDR is the insistence that different gaps demand different claims. A missing management decision, a poorly catalogued contributor, an undigitised file and an unrecorded teaching response are not the same evidential condition. The chapter also provides the necessary brake on digital triumphalism: making the archive searchable changes visibility but does not make the evidence surface complete.
 
 # Integration hooks
 
-- **Where I will cite it:**  
-  At the opening of the S2.1 section or Chapter 1’s “Theorising the Silences” passage. The paragraph job: define archival silence as a family of conditions rather than a single absence, then introduce DDR activation as a method for diagnosing rather than simply filling gaps.
+**Where I will cite it:** Scoped missingness definition; digital-corpus limitations; oral/performed evidence; archival silence typology.
 
-- **Where I will name the title in running text:**  
-  First use in Chapter 1: “In their opening chapter to *Archival Silences*, Moss and Thomas extend Trouillot’s account by showing that silence may be missing, lost, uncreated, digitised, politicised, or produced through the textual treatment of performed records.”
+**Link to my practice evidence:** The four missingness UAT cases can each report the stage and scope of absence rather than “no evidence” generically.
 
-- **Link to my practice evidence:**  
-  Use the Absences / Scoped Missingness workbench to diagnose the stage at which archival silence entered the record.
-
-- **Workstreams →**  
-  Silence typology; metadata audit; trace ledger; oral-history interpretation; digitisation critique; interface boundary statements; archival performance/materiality notes.
-
-- **Deliverables →**  
-  DDR silence diagnostic table; revised trace ledger fields; S2.1 theory paragraph; figure captions that distinguish absence types; interface note on what digitisation makes visible and what it mutes.
-
-- **Stakeholders →**  
-  Thesis reader; supervisors; RCA archive staff; former DDR participants; design historians; future users of the DDR archive; researchers affected by digitisation access inequalities.
+**Workstreams →** Missingness; digitisation critique; oral history; corpus design.  
+**Deliverables →** Theoretical framework; methods chapter; UAT rationale.
 
 # Boundary + risk
 
-- **Boundary:**  
-  This chapter is most useful for conceptual framing and diagnosis of absence; it does not replace close historical reconstruction of the DDR material itself.
+**Boundary:** This note uses the editors' opening theoretical chapter as the conceptual framing of the volume; it is not a synthetic reading of every contributed chapter.
 
-- **Risk if misused:**  
-  If I use it too loosely, I could label every archival difficulty a “silence” and lose precision about whether the issue is non-creation, destruction, omission, digitisation bias, retrieval failure or chosen withdrawal.
+**Risk if misused:** “Archival silence” could become over-diagnostic, assigning cause or politics to gaps whose origin is unknown.
+
+# Cross-source / cross-lens synthesis
+
+Moss and Thomas expand Carter's imposed/chosen-silence distinction into a staged diagnostic vocabulary and align strongly with Duranti's warning that descriptive systems are historically situated. Ortolja-Baird and Nyhan later show how digitisation can computationally amplify the same absences. For DDR, these sources underpin scoped missingness: define the evidence surface, diagnose the mechanism where possible, and refuse to turn retrieval failure into a claim of historical non-existence.
 
 # Methods spine tags
 
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
-- [ ] Analysis and models
+- [x] Analysis and models
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
 # Chicago NB payload
 
-- **Key pages to reuse:**  
-  pp. 10–22
-
-- **First full note:**  
-  Michael Moss and David Thomas, “Theorising the Silences,” in *Archival Silences: Missing, Lost and Uncreated Archives*, ed. Michael Moss and David Thomas (London: Routledge, 2021), 10–25, https://doi.org/10.4324/9781003003618-2.
-
-- **Short note form:**  
-  Moss and Thomas, “Theorising the Silences,” page number.
-
-- **One quote worth lifting:**  
-  “The ending of silences does not always solve anything” [@Moss2021ArchivalSilencesMissing, p. 11].
-
-- **One paraphrase worth keeping:**  
-  Moss and Thomas extend Trouillot’s theory by arguing that archival silence is more nuanced than simple absence: it can arise through creation, assembly, retrieval, retrospective significance, political erasure, digitisation and the conversion of spoken or performed records into silent texts [@Moss2021ArchivalSilencesMissing, pp. 10–22].
+- **Key pages to reuse:** 10–22
+- **First full note:** Michael Moss and David Thomas, eds., *Archival Silences: Missing, Lost and Uncreated Archives* (London: Routledge, 2021), esp. Michael Moss and David Thomas, “Theorising the Silences,” 10–25, https://doi.org/10.4324/9781003003618.
+- **Short note form:** Moss and Thomas, *Archival Silences*, 10–22.
+- **One quote worth lifting:** “The ending of silences does not always solve anything.” (p. 11)
+- **One paraphrase worth keeping:** Moss and Thomas argue that archival silence can arise at multiple stages of record creation and use and can be reproduced through digitisation and textualisation, so absence must be diagnosed rather than treated as one undifferentiated lack. [@Moss2021ArchivalSilencesMissing, pp. 10–22]
 
 # Related works
 
-- Trouillot on silencing the past.
-- Carter on archival silence and power in silence.
-- Cifor and Wood on critical feminism in the archives.
-- Putnam on digitised sources and the shadows they cast.
-- Hitchcock on digitisation and non-canonical materials.
-- Puri on aurality and oral archives.
+- Carter, “Of Things Said and Unsaid.”
+- Ortolja-Baird and Nyhan, “Encoding the Haunting of an Object Catalogue.”
+- Duranti, “Origin and Development of the Concept of Archival Description.”
 
 # Follow-ups
 
-- **What I will read next:**  
-  Trouillot, *Silencing the Past*; Putnam on text-searchable archives; Hitchcock on digitisation and non-canonical sources.
-
-- **What I will test or write next:**  
-  Draft a DDR silence taxonomy paragraph: “In this thesis, silence is not treated as a single category. DDR traces may be uncreated, lost, present-but-muted, hard to retrieve, digitised unevenly, or diminished by being converted from performed practice into searchable text.”
+- **What I will test next:** Apply the staged silence typology to all scoped-missingness UAT cases and record when cause remains unknown.
