@@ -4,7 +4,7 @@ authors: "Thomson, Alistair"
 year: 2007
 journal: "The Oral History Review"
 volume: "34"
-number: "1"
+issue: "1"
 pages: "49-70"
 citation_key: Thomson2007FourParadigmTransformations
 doi: "10.1525/ohr.2007.34.1.49"
@@ -13,112 +13,161 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Recording, organising, and obscuring traces"
-model_subcluster: "S2.2 Oral histories"
-source_type: "Supporting"
-project_tags:
-  - "Turin"
-  - "Theoretical framework"
 theoretical_framework_area_id: "2"
 theoretical_framework_area: "Critical archival theory"
-literature_cluster_id: "a"
-literature_cluster: "Canon + intellectual lineage"
-zotero_filing_path: "Theoretical framework / Critical archival theory / Canon + intellectual lineage"
-last_updated: "16 Sept 2026, 12:14"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Recording, organising, and obscuring traces  
-**Sub-cluster:** S2.2 Oral histories  
-**Source type:** Supporting  
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / b) Operational literature"
+source_type: "Supporting"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- Oral histories and situated knowledge
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 2. Critical archival theory  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 2. Critical archival theory / b) Operational literature  
+**Source type:** Supporting
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- At least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Separate author claim, evidence-supported claim and researcher inference
+- Practice cross-check or TODO for each claim
+- Final synthesis required
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a concise field history of oral history to position my use of interviews within debates on memory, subjectivity, interviewer reflexivity, politics, and digital mediation.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Bridge/oral-history methods section; it helps me say that oral history is not a stable technique but a field transformed by successive debates over evidence, memory, political voice, interview relationships, and digital form.  
-**Why this term, not alternatives (1–2 lines):** Thomson’s language of **paradigm transformations** is useful because it lets me situate oral history historically, rather than citing one methods text as if the field had always understood memory and testimony in the same way.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Thomson where I need to justify oral history as a reflexive, interpretative, and historically shifting practice, especially when explaining why interviews are not just extractive evidence-gathering.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Thomson writes as a major oral historian and then-president of the International Oral History Association, looking back across the postwar development of the field. The essay is both historiographic and methodological: it identifies four major transformations in oral history theory and practice, while also tracing the effects of politics, interdisciplinarity, memory studies, and international exchange. `[@Thomson2007FourParadigmTransformations, pp. 49–50]`  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** The article is useful not because it offers a final history of oral history, but because it shows the field repeatedly revising itself. That is important for your project, since it prevents you from treating oral history as either naïve people’s history or pure memory theory. `[@Thomson2007FourParadigmTransformations, pp. 50–51, 68–70]`
+**How this source moves the primary research question forward:** Thomson places oral history within a sequence of methodological transformations in how historians use memory, subjectivity, interview relationships and digital media. It supports oral testimony as a distinct, reflexive evidence route in DDR archive activation.
 
-# The author’s main move (1 sentence)
-They try to map four major transformations in oral history by tracing shifts in how the field understands memory, subjectivity, interviewer reflexivity, and digital media in order to explain why oral history now works as a reflexive, interdisciplinary, and politically charged practice.
+**How this source bears on the secondary question:** It shows that meanings of past experience are continually reworked through memory and media, supporting a forward-looking use of DDR testimony without treating recollection as transparent reproduction of the past.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** The thesis needs a concise field history that explains why oral history is interpretative and relational rather than a simple interview technique.
+
+**Where it sits in my argument:** Operational literature. It directly informs interview design, interpretation and the digital afterlife of DDR oral histories.
+
+**My benchmark for using it:** Thomson's four transformations are a historical map, not a coding template to be imposed on individual DDR interviews.
+
+# Position + moment
+
+Thomson writes in 2007 as a major oral historian, looking retrospectively at post-war oral-history practice. He identifies four transformations: memory as source for people's history, post-positivist approaches to memory and subjectivity, reflexive interviewer–narrator relations, and the digital revolution. [@Thomson2007FourParadigmTransformations, pp. 49–50]
+
+# The author’s main move
+
+Thomson argues that oral history has repeatedly transformed its understanding of evidence, memory, relationship and media, producing a field in which subjectivity and mediation are analytical resources rather than defects to be eliminated. [@Thomson2007FourParadigmTransformations, pp. 49–70]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Thomson argues that oral history moved from using memory mainly as a source for people’s history toward treating memory and subjectivity as objects of analysis in their own right.
-- **Evidence (quote/paraphrase + page):** He identifies as the first paradigm transformation the postwar “renaissance of memory as a source for ‘people’s history’,” especially for working-class, women’s, and black history. He then describes a second shift, from the late 1970s, toward “post-positivist approaches to memory and subjectivity,” in which oral historians argued that the so-called unreliability of memory was also its strength and that memory became “the subject as well as the source” of oral history. `[@Thomson2007FourParadigmTransformations, pp. 49–55]`
-- **Warrant (my words):** This is the core field history you need after Portelli. Thomson shows that oral history did not stop at recovering neglected voices; it also became a way to analyse how memory, ideology, and identity work through narration.
-- **So what for my thesis (a reusable sentence):** Thomson helps me justify using DDR oral histories not only to recover neglected experiences but also to analyse how participants narrate the meaning of design research, institutional life, and archival absence in retrospect.
-- **Practice cross-check:** DDR’s oral-history programme includes staff, students, and external stakeholders, and reads retrospective memory as historically situated testimony.
+- **Claim (plain):** Post-war oral history first gained force as a means of recovering experiences neglected by written archives.
+- **Author claim:** Thomson identifies the first transformation as the renaissance of memory as a source for “people's history.”
+- **Evidence-supported claim:** Pages 50–53 trace oral-history work on working-class, women's, Black and otherwise under-documented histories.
+- **Researcher inference:** DDR interviews can legitimately target staff, students and supporting actors whose experiences are thinly represented in institutional records.
+- **Evidence (quote/paraphrase + page):** Thomson shows early oral historians using memory where histories were undocumented or poorly recorded. [@Thomson2007FourParadigmTransformations, pp. 50–53]
+- **Warrant (my words):** Testimony can expand the historical evidence surface where documentary survival is uneven.
+- **Boundary:** Testimony does not automatically correct or replace documentary gaps.
+- **Consequence:** Oral-history claims need source-type labelling and triangulation.
+- **Practice cross-check:** Keep interviews as a distinct evidence route beside archive records.
 
 ## Claim 2
-- **Claim (plain):** Thomson argues that oral history became more reflexive when historians recognised the interview as an interactive relationship rather than a neutral extraction of evidence.
-- **Evidence (quote/paraphrase + page):** He identifies a third transformation in the late 1980s and 1990s around the “subjectivity of oral history relationships,” noting that oral historians increasingly questioned researcher objectivity and became alert to how interviewers affect interviews and interpretation. He cites Valerie Yow’s claim that a new oral-history paradigm permits awareness of the “interactive process of interviewer and narrator,” and stresses feminist contributions to thinking about power, language, and meaning in oral history relationships. `[@Thomson2007FourParadigmTransformations, pp. 61–63]`
-- **Warrant (my words):** This matters because it reframes oral history as co-produced. The interview is not a transparent channel to the past but a situated relationship that shapes what can be said, remembered, and interpreted.
-- **So what for my thesis:** Thomson gives me a strong basis for framing DDR oral histories as relational productions shaped by my own questions, position, and interpretative choices, not as raw testimony gathered from a distance.
-- **Practice cross-check:** The oral-history methods cross-link attends to retrospective memory, subjectivity, and the changing relationship between interviewer, narrator, and recorded testimony.
+- **Claim (plain):** Memory's subjectivity became a source of historical meaning rather than merely a reliability problem.
+- **Author claim:** Thomson's second transformation is the post-positivist turn toward memory and subjectivity.
+- **Evidence-supported claim:** Pages 53–56 describe how distortion, retrospection, silence and discrepancy came to be read for meanings connecting past and present, individual and collective memory.
+- **Researcher inference:** DDR interview divergences can reveal how the department's legacy is understood and contested now.
+- **Evidence (quote/paraphrase + page):** Thomson says memory became “the subject as well as the source” of oral history. [@Thomson2007FourParadigmTransformations, pp. 53–56]
+- **Warrant (my words):** The way an event is remembered is itself part of its historical afterlife.
+- **Boundary:** Subjective meaning does not prove disputed factual details.
+- **Consequence:** The thesis should analyse contradiction without treating all versions as factually equivalent.
+- **Practice cross-check:** Code factual corroboration separately from retrospective meaning.
 
 ## Claim 3
-- **Claim (plain):** Thomson argues that oral history is politically mobile and technologically changing, so its present form is tied both to memory politics and to digital mediation.
-- **Evidence (quote/paraphrase + page):** In the section on “political memory work in a biographical era,” Thomson shows oral history being used in community projects, social care, indigenous rights, truth commissions, and post-conflict work, where testimony becomes part of advocacy, empowerment, and justice claims. He then identifies a fourth paradigm transformation as the “digital revolution,” arguing that new technologies are changing how oral histories are recorded, preserved, catalogued, interpreted, shared, and presented. `[@Thomson2007FourParadigmTransformations, pp. 57–61, 68–70]`
-- **Warrant (my words):** This is especially useful for your project because it widens oral history beyond interview method into politics of memory and media form. Oral history is both a public memory practice and a medium shaped by technology.
-- **So what for my thesis:** Thomson helps me connect DDR oral histories to wider questions of political memory, shared authority, and digital mediation, which matters if interviews become part of your archive activation and computational strand.
-- **Practice cross-check:** Turin’s oral-history, testimonial-traces, reflexivity, and historical-memory workstreams frame the interviews as interpretative sources with a digital afterlife.
+- **Claim (plain):** Oral history participates in political memory work, not just academic reconstruction.
+- **Author claim:** Thomson discusses advocacy, empowerment, Indigenous rights, truth commissions and community projects as expanded uses of oral history.
+- **Evidence-supported claim:** Pages 57–61 show testimony entering public struggles over recognition, justice and collective memory.
+- **Researcher inference:** DDR oral histories may alter institutional memory by making overlooked labour or experiences narratable.
+- **Evidence (quote/paraphrase + page):** Thomson frames testimony as increasingly central to advocacy and public memory work. [@Thomson2007FourParadigmTransformations, pp. 57–61]
+- **Warrant (my words):** Recorded memory can have effects in the present beyond supplying historical facts.
+- **Boundary:** The DDR project's stakes are not equivalent to truth-commission or Indigenous-rights contexts.
+- **Consequence:** The thesis should describe recognition effects proportionately and distinguish them from evidential findings.
+- **Practice cross-check:** Separate “what the archive establishes” from “what interview participation/visibility changes.”
 
-# Definitions / terms this changes (only the ones that matter)
-- **People’s history:** the early oral-history use of memory to recover histories of those neglected in official archives; I will use this historically, not as the final definition of oral history. `[@Thomson2007FourParadigmTransformations, pp. 50–53]`
-- **Post-positivist approaches to memory and subjectivity:** approaches that treat memory’s selectivity and subjectivity as interpretative resources rather than merely weaknesses; I will use this to frame oral histories as sources of meaning, not only fact. `[@Thomson2007FourParadigmTransformations, pp. 53–56]`
-- **Subjectivity of oral history relationships:** the recognition that interviews are shaped by the interaction between interviewer and narrator; I will use this as a method term for reflexive interview practice. `[@Thomson2007FourParadigmTransformations, pp. 61–63]`
-- **Political memory work:** oral history’s use in advocacy, empowerment, recognition, and public struggles over the past; I will use this for oral histories that do more than document, especially where institutional memory is contested. `[@Thomson2007FourParadigmTransformations, pp. 57–61]`
-- **Digital revolution in oral history:** the transformation of oral-history practice through digital recording, indexing, sharing, and interpretation; I will use this term when connecting interviews to archive activation and digital presentation. `[@Thomson2007FourParadigmTransformations, pp. 68–70]`
+## Claim 4
+- **Claim (plain):** The interview is a co-produced relationship, not neutral extraction.
+- **Author claim:** Thomson's third transformation concerns the subjectivity of interviewer–narrator relations and rejection of unexamined researcher objectivity.
+- **Evidence-supported claim:** Pages 61–63 emphasise interaction, feminist critiques of power and interviewer reflexivity.
+- **Researcher inference:** The researcher's own age, institutional position, questions and framing form part of the DDR oral-history evidence context.
+- **Evidence (quote/paraphrase + page):** Thomson cites the new paradigm's awareness of the “interactive process of interviewer and narrator.” [@Thomson2007FourParadigmTransformations, pp. 61–63]
+- **Warrant (my words):** What is remembered and how it is narrated is partly conditioned by the social situation of the interview.
+- **Boundary:** Reflexivity should not become self-absorption that displaces the narrator.
+- **Consequence:** Interview notes should record context, prompts and researcher interventions relevant to interpretation.
+- **Practice cross-check:** Preserve discussion guides and interview metadata with transcripts.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a clear field map for situating oral history historically.
-  - It complements Portelli by showing that oral history’s concern with meaning emerged through specific paradigm shifts.
-  - It is especially useful for connecting oral history to reflexivity, politics, and digital mediation.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will present oral history in the thesis as a changing field with internal debates, not as a single stable method.
-  - I will use Thomson to connect interviews to both memory politics and the contemporary conditions of digital archival use.
-- **What question it raises next (1–2 bullets):**
-  - Which of Thomson’s transformations most strongly shape the kind of oral-history work I want to do with DDR participants?
-  - How will digital access, transcription, and future reuse change what it means to interview people about a contested institutional past?
+## Claim 5
+- **Claim (plain):** Oral history is shaped by international and interdisciplinary circulation.
+- **Author claim:** Thomson repeatedly connects shifts in oral history to folklore, psychology, cultural studies, feminism, memory studies and international exchange.
+- **Evidence-supported claim:** The article's framing and later sections show concepts moving across disciplines and national traditions rather than developing in one linear Anglo-American lineage. [@Thomson2007FourParadigmTransformations, pp. 49–50, 53–68]
+- **Researcher inference:** DDR interview analysis can draw on memory, feminist and archival theory without pretending oral history is methodologically self-contained.
+- **Evidence (quote/paraphrase + page):** Thomson names interdisciplinarity and evolving internationalism as forces shaping the field. [@Thomson2007FourParadigmTransformations, pp. 49–50]
+- **Warrant (my words):** Oral history's interpretative practices were built through cross-disciplinary dialogue.
+- **Boundary:** Thomson does not offer a comprehensive global history.
+- **Consequence:** The thesis should state which theoretical lenses inform interpretation rather than calling all interview analysis simply “oral history.”
+- **Practice cross-check:** Pair Portelli/Thomson with feminist situated-knowledge and archival-silence lenses.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the oral-history methods section where I need a concise field history after Portelli, and in the paragraph where I discuss interviewer reflexivity and the digital afterlife of interviews.
-- **Where I will name the title in running text (first-use rule):** First mention in the oral-history bridge section: *In “Four Paradigm Transformations in Oral History” (2007), Alistair Thomson argues...*
-- **Link to my practice evidence (one concrete cross-reference):** The DDR interviews are approached as historically situated acts of remembering whose meanings are produced through the interview encounter as well as through the past experiences being recalled.
-- **Workstreams →** Bridge text; oral-history method; archive interpretation; computational activation.
-- **Deliverables →** Oral-history methods paragraph; bridge section draft; footnote trail on oral history field history; interview rationale.
-- **Stakeholders →** Examiners; supervisors; oral historians; archival studies readers; design history readers.
+## Claim 6
+- **Claim (plain):** Digital technologies transform the form, preservation and interpretation of oral history.
+- **Author claim:** Thomson identifies a fourth transformation as the digital revolution of the late 1990s and early 2000s.
+- **Evidence-supported claim:** Pages 68–70 discuss changes in recording, cataloguing, access, interpretation and presentation.
+- **Researcher inference:** Digitised DDR testimony acquires a new archival life whose searchability and interface treatment shape later use.
+- **Evidence (quote/paraphrase + page):** Thomson says digital technologies are changing how oral histories are recorded, preserved, shared and interpreted. [@Thomson2007FourParadigmTransformations, pp. 68–70]
+- **Warrant (my words):** Media transformation affects not only storage but what parts of testimony become findable and reusable.
+- **Boundary:** The article predates current speech AI and generative retrieval.
+- **Consequence:** Contemporary computational use of transcripts requires later AI/archival ethics sources as well.
+- **Practice cross-check:** Preserve audio/transcript provenance and avoid treating transcript text as the totality of testimony.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This text is strongest as a broad field history of oral history and less useful for the fine-grained interpretation of any single interview.
-- **Risk if misused (1 sentence):** If I use Thomson too schematically, I could force my oral-history practice into his four-paradigm narrative instead of showing the specific demands of the DDR case.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **People's history:** use of memory to recover histories underrepresented in official documentation. [@Thomson2007FourParadigmTransformations, pp. 50–53]
+- **Post-positivist memory:** treatment of memory's selectivity and subjectivity as interpretative evidence. [@Thomson2007FourParadigmTransformations, pp. 53–56]
+- **Subjectivity of oral-history relationships:** recognition that interviewer and narrator co-produce the interview. [@Thomson2007FourParadigmTransformations, pp. 61–63]
+- **Political memory work:** public uses of oral history in struggles over recognition, identity and justice. [@Thomson2007FourParadigmTransformations, pp. 57–61]
+- **Digital revolution in oral history:** technological transformation of recording, preservation, access and interpretation. [@Thomson2007FourParadigmTransformations, pp. 68–70]
+
+# My response
+
+Thomson gives the thesis a disciplined way to avoid two bad extremes: treating interviews as transparent fact deposits or treating them as free-floating memory narratives. Oral history became methodologically stronger by learning to work with subjectivity, interaction and digital mediation while preserving historical questions. For DDR, that means interview evidence can expand and complicate the archive, but its retrospective and co-produced status must remain visible.
+
+# Integration hooks
+
+**Where I will cite it:** Oral-history methods; evidence hierarchy; interview reflexivity; digital testimony preservation.
+
+**Link to my practice evidence:** The twelve DDR interviews and their master discussion guides can be documented as co-produced, digitally mediated evidence.
+
+**Workstreams →** Oral history; institutional memory; feminist critique; digital archive.  
+**Deliverables →** Methods chapter; oral-history analysis framework.
+
+# Boundary + risk
+
+**Boundary:** Thomson provides a broad field history, not a protocol for interpreting a particular DDR narrator.
+
+**Risk if misused:** The four transformations could be imposed schematically on interviews instead of responding to the specific evidence.
+
+# Cross-source / cross-lens synthesis
+
+Thomson historicises the interpretative position that Portelli demonstrates in practice. Carter adds the archival politics of whose voices become recordable or remain silent, while Ketelaar distinguishes memory-truth from historical proof. Together these sources justify oral history as a separate but connected evidential layer: it can surface meanings and experiences absent from institutional files while remaining distinct from contemporary documentary evidence.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -126,21 +175,20 @@ They try to map four major transformations in oral history by tracing shifts in 
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 49–50, 53–56, 57–63, 68–70
-- **First full note (write it out here):**  
-  Alistair Thomson, “Four Paradigm Transformations in Oral History,” *The Oral History Review* 34, no. 1 (2007): 49–70.
-- **Short note form:**  
-  Thomson, “Four Paradigm Transformations in Oral History,” 53–56.
-- **One quote worth lifting (≤2 lines):** “memory became the subject as well as the source of oral history.” (p. 55)
-- **One paraphrase worth keeping:** Thomson argues that oral history has been transformed by successive shifts from people’s history to post-positivist memory work, from interviewer objectivity to reflexive relationship, and from analogue recording to digital mediation. (pp. 49–50, 53–56, 61–63, 68–70)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Portelli, “What Makes Oral History Different”
-- Frisch, *A Shared Authority*
-- Passerini, *Fascism in Popular Memory*
-- Suchman, “Located Accountabilities in Technology Production”
+- **Key pages to reuse:** 49–56, 57–63, 68–70
+- **First full note:** Alistair Thomson, “Four Paradigm Transformations in Oral History,” *The Oral History Review* 34, no. 1 (2007): 49–70, https://doi.org/10.1525/ohr.2007.34.1.49.
+- **Short note form:** Thomson, “Four Paradigm Transformations,” 53–56.
+- **One quote worth lifting:** “memory became the subject as well as the source of oral history.” (p. 55)
+- **One paraphrase worth keeping:** Thomson argues that oral history evolved from recovering under-recorded lives toward analysing memory and subjectivity, reflexively understanding the interview relationship and confronting digital mediation. [@Thomson2007FourParadigmTransformations, pp. 49–70]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A shared-authority or interview-reflexivity text that gets closer to participatory oral-history practice.
-- What I will test or write next: Draft the oral-history methods paragraph that pairs Portelli’s emphasis on meaning with Thomson’s field history of subjectivity, reflexivity, and digital change.
+# Related works
+
+- Portelli, “What Makes Oral History Different.”
+- Carter, “Of Things Said and Unsaid.”
+- Ketelaar, “Archives as Spaces of Memory.”
+
+# Follow-ups
+
+- **What I will test next:** Add explicit reflexivity and media/provenance fields to the DDR interview analysis template.
