@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 09:45"
-last_updated: "14 Sept 2026, 15:50"
+last_updated: "01 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -30,7 +30,7 @@ theoretical_framework_area_id: "3"
 theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "b"
 literature_cluster: "Operational literature"
-zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
@@ -55,155 +55,124 @@ constraints_source: "project/constraints.md"---
 
 ---
 
-# Thesis job (do this first)
+# Thesis job
 
-**Project research question(s) this serves:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source moves the primary research question forward:** McInnes, Healy and Melville provide the technical basis for UMAP as the dimensional-reduction method used to turn high-dimensional DDR embeddings into inspectable exploratory maps.
 
-**Why I’m reading this now:**  
-I am reading this to ground my use of UMAP as a dimensional-reduction method for embedding-based visual analytics, pattern mapping and hypothesis generation.
+**How this source bears on the secondary question:** UMAP can help revisit historical design knowledge by surfacing neighbourhoods, transitions and anomalies, but the paper itself makes clear that projection geometry is parameter-dependent, locally prioritised and potentially misleading.
 
-**Where it sits in my argument:**  
-S3.1 Visual analytics: this source provides the technical citation for reducing high-dimensional embedding spaces into two-dimensional or low-dimensional maps that can be inspected, compared and used to guide archival enquiry.
+**Why I’m reading this now:** It is the core technical source for the semantic atlas and neighbourhood views.
 
-**Why this term, not alternatives:**  
-“Dimensional reduction” is useful because it describes the operation precisely: high-dimensional relationships are projected into a lower-dimensional representation. “Pattern mapping” is useful for my writing because it names the interpretive use of the projection, while keeping the technical process and the thesis claim distinct.
+**Where it sits in my argument:** Operational literature.
 
-**My benchmark for using it:**  
-I will use UMAP maps as exploratory instruments. I will not use proximity, cluster shape or visual separation as standalone evidence unless the pattern is checked against metadata, archival context and close reading of the underlying records.
+**My benchmark for using it:** I will use UMAP for hypothesis generation and navigation, not as standalone evidence of historical relation or conceptual structure.
 
 # Position + moment
 
-McInnes, Healy and Melville write from mathematics, computing and machine learning. Their paper introduces UMAP as a manifold-learning technique for dimensional reduction, grounded in Riemannian geometry, algebraic topology and fuzzy simplicial sets.
-
-The paper belongs to a technical machine-learning context, but it is directly useful for humanities-facing visual analytics because UMAP has become a standard way of projecting high-dimensional embeddings into inspectable maps. Its relevance to this thesis is methodological rather than theoretical in the design-historical sense.
-
-**Canon assumptions to problematise / update for 2026:**  
-The paper helps challenge the assumption that a two-dimensional map transparently shows the “real” structure of a corpus. UMAP is a constructed projection whose parameters, assumptions and local-structure priorities shape what becomes visible.
+McInnes, Healy and Melville introduce UMAP as a scalable manifold-learning method grounded in Riemannian geometry, topology and fuzzy simplicial sets. The paper combines theoretical derivation, implementation details, comparative benchmarks and an unusually explicit weaknesses section. [@McInnesUMAPUniformManifold, pp. 1–3, 44–49]
 
 # The author’s main move
 
-McInnes, Healy and Melville introduce UMAP as a scalable manifold-learning algorithm that constructs a weighted local-neighbourhood graph and optimises a low-dimensional layout in order to preserve the topological structure of high-dimensional data.
+UMAP constructs a weighted local-neighbourhood representation of high-dimensional data and optimises a lower-dimensional layout intended to preserve important aspects of that structure efficiently enough for large datasets. [@McInnesUMAPUniformManifold, pp. 13–23]
 
-# Three-claim evidence ledger
-
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim:**  
-  UMAP is suitable for visualising high-dimensional data because it reduces complex structures into lower-dimensional layouts while prioritising local neighbourhood relations.
-
-- **Evidence:**  
-  The authors describe UMAP as a manifold-learning technique for dimension reduction that is competitive with t-SNE for visualisation quality, preserves more global structure, and has superior runtime performance [@McInnesUMAPUniformManifold, p. 1]. They explain computationally that UMAP constructs a weighted k-neighbour graph and then computes a low-dimensional layout of that graph [@McInnesUMAPUniformManifold, pp. 13–17].
-
-- **Warrant:**  
-  This supports the claim because UMAP does not simply flatten data arbitrarily. It builds a neighbourhood graph from high-dimensional relationships and then finds a lower-dimensional arrangement that preserves aspects of that structure. For visual analytics, this makes it useful as a way of seeing possible local groupings, transitions and anomalies in a corpus.
-
-- **So what for my thesis:**  
-  UMAP can support DDR activation by turning high-dimensional text, image or metadata embeddings into visual fields where candidate clusters, outliers and relationships can be inspected before returning to the archive.
-
-- **Practice cross-check:**  
-  TODO: produce a UMAP projection for one bounded DDR subset. Annotate at least three clusters or outliers, then check whether those visual groupings correspond to archival actors, projects, genres, media types or institutional categories.
+- **Claim (plain):** UMAP is a neighbourhood-based dimensional-reduction method rather than a direct visualisation of source features.
+- **Author claim:** The algorithm constructs a high-dimensional fuzzy neighbourhood graph and optimises a lower-dimensional representation of it.
+- **Evidence-supported claim:** The computational description and implementation sections show approximate nearest-neighbour construction followed by stochastic optimisation of the low-dimensional embedding. [@McInnesUMAPUniformManifold, pp. 13–23]
+- **Researcher inference:** A DDR UMAP map visualises modelled relationships among embeddings, not archival records in their original informational form.
+- **Evidence (quote/paraphrase + page):** UMAP is described as a manifold-learning technique that builds local neighbourhood structure before laying it out in reduced dimensions. [@McInnesUMAPUniformManifold, pp. 1–2, 13–17]
+- **Warrant (my words):** The visual field is downstream of both the original embedding and UMAP's neighbourhood construction.
+- **Boundary:** The method can still preserve useful relational structure even though it is derivative.
+- **Consequence:** Every map caption should describe UMAP as a projection over embeddings, not as “the archive.”
+- **Practice cross-check:** DDR atlas points remain linked to PID-backed documents and the bge-m3 representation is documented upstream.
 
 ## Claim 2
-
-- **Claim:**  
-  UMAP is useful for hypothesis generation, but its maps are parameter-sensitive and should be treated as exploratory.
-
-- **Evidence:**  
-  McInnes et al. identify key hyperparameters, including the number of neighbours and minimum distance [@McInnesUMAPUniformManifold, pp. 22–24]. They explain that the number of neighbours involves a trade-off between fine-grained local structure and larger-scale manifold features, while `min-dist` affects how tightly points are packed and is especially important for visual appearance [@McInnesUMAPUniformManifold, p. 23]. Their visual examples on pages 24, 26 and 27 show how changing these parameters produces visibly different embeddings [@McInnesUMAPUniformManifold, pp. 24, 26–27].
-
-- **Warrant:**  
-  This matters because visual pattern is not independent of method. A DDR map may show clusters or separation partly because of parameter choices. The map can guide questions, but the thesis must not treat the resulting visual pattern as unmediated evidence.
-
-- **So what for my thesis:**  
-  When I use UMAP, I need to report the parameter settings and describe the map as a pattern-finding device. Any claim produced from the map must be validated through the underlying archival records.
-
-- **Practice cross-check:**  
-  TODO: rerun a DDR UMAP projection with at least two neighbour settings and two `min-dist` settings. Note which clusters remain stable and which appear only under one configuration.
+- **Claim (plain):** The number-of-neighbours parameter determines the scale of structure UMAP prioritises.
+- **Author claim:** McInnes et al. interpret n-neighbours as the local scale at which the manifold is approximated.
+- **Evidence-supported claim:** Small values preserve finer local structure but lose the “big picture”; larger values capture larger-scale structure while averaging away detail. [@McInnesUMAPUniformManifold, pp. 22–24]
+- **Researcher inference:** Choosing k/n-neighbours is part of the analytical framing of a DDR map, not a cosmetic setting.
+- **Evidence (quote/paraphrase + page):** The paper explicitly describes n as a trade-off between fine-grained and large-scale manifold features. [@McInnesUMAPUniformManifold, p. 23]
+- **Warrant (my words):** The parameter changes which relations survive the projection as visually salient.
+- **Boundary:** There is no universally correct value independent of research purpose and data structure.
+- **Consequence:** DDR parameter settings should be recorded and sensitivity-tested.
+- **Practice cross-check:** The semantic-neighbourhood k slider is confined to that view and does not silently redefine the global atlas.
 
 ## Claim 3
+- **Claim (plain):** min-dist changes the visual packing of points and therefore the apparent compactness of clusters.
+- **Author claim:** The authors call min-dist an essentially aesthetic parameter governing how closely points can pack in the low-dimensional layout.
+- **Evidence-supported claim:** Low min-dist permits dense regions; larger values spread points out and can compress distinctions between groups in visual examples. [@McInnesUMAPUniformManifold, pp. 23–27]
+- **Researcher inference:** Apparent DDR cluster tightness cannot be interpreted independently of min-dist.
+- **Evidence (quote/paraphrase + page):** McInnes et al. explicitly state that min-dist is especially important for visualisation appearance. [@McInnesUMAPUniformManifold, p. 23]
+- **Warrant (my words):** A visually compact cluster may partly reflect layout settings rather than stronger historical coherence.
+- **Boundary:** min-dist does not arbitrarily invent all neighbourhood structure; it modifies the low-dimensional representation of an already constructed graph.
+- **Consequence:** Visual rhetoric of compactness/separation should never substitute for document-level evidence.
+- **Practice cross-check:** Figure/method notes should report min-dist whenever UMAP maps are used analytically.
 
-- **Claim:**  
-  UMAP has important interpretive limits: its axes do not carry direct meaning and it may find structure in noise.
+## Claim 4
+- **Claim (plain):** UMAP deliberately prioritises local structure over long-range global distance.
+- **Author claim:** The paper states that local distance is more important than long-range distance in UMAP's design.
+- **Evidence-supported claim:** The weaknesses section says UMAP primarily represents local structure, even though the authors argue it can preserve more global structure than t-SNE/LargeVis. [@McInnesUMAPUniformManifold, pp. 45–49]
+- **Researcher inference:** Local DDR neighbourhoods may be more defensible than reading exact distances between remote parts of the atlas.
+- **Evidence (quote/paraphrase + page):** The authors explicitly caution that UMAP may not be the best technique when accurate global structure is the main interest. [@McInnesUMAPUniformManifold, pp. 45–49]
+- **Warrant (my words):** The objective function is designed around local neighbourhood fidelity, so long-range geometry carries weaker interpretative warrant.
+- **Boundary:** “More global structure” in benchmark comparisons is not the same as globally meaningful coordinates.
+- **Consequence:** Separate local-neighbourhood questions from global visual impressions.
+- **Practice cross-check:** DDR uses a dedicated neighbourhood view rather than treating whole-map distance as a single evidential scale.
 
-- **Evidence:**  
-  In their weaknesses section, McInnes et al. state that UMAP lacks the interpretability of PCA because the dimensions of the UMAP embedding space have no specific meaning, and because UMAP is based on distances between observations rather than source features [@McInnesUMAPUniformManifold, p. 45]. They also warn that UMAP can find manifold structure within noisy data, producing a “constellation” effect in which apparent structure may be spurious [@McInnesUMAPUniformManifold, p. 45]. The authors further state that UMAP prioritises local structure over long-range distances, so it may not be the best choice when global structure is the main interest [@McInnesUMAPUniformManifold, pp. 45–49].
+## Claim 5
+- **Claim (plain):** UMAP's axes have no direct semantic meaning and apparent structure can be spurious.
+- **Author claim:** The authors identify limited interpretability and the “constellation effect” as weaknesses.
+- **Evidence-supported claim:** Page 45 states that UMAP dimensions have no specific meaning, lacks feature loadings like PCA, and may detect manifold structure in noisy data, especially with small/noisy samples. [@McInnesUMAPUniformManifold, p. 45]
+- **Researcher inference:** DDR axis labels, inferred directions or visually striking “islands” would be epistemically unjustified without independent evidence.
+- **Evidence (quote/paraphrase + page):** The paper warns that UMAP can find structured constellations in noise and that detecting spurious embeddings remains an open problem. [@McInnesUMAPUniformManifold, p. 45]
+- **Warrant (my words):** Visually coherent form is not proof that the source corpus contains the same intrinsic geometry.
+- **Boundary:** Larger samples and corroborating evidence can reduce, but not eliminate, this interpretative risk.
+- **Consequence:** Any cluster/outlier claim must be checked against metadata and source documents.
+- **Practice cross-check:** UAT treats UMAP as candidate-generation; final historical claims come from retrieved/close-read evidence.
 
-- **Warrant:**  
-  This supports a cautious methodological position. UMAP maps can be visually persuasive, but the axes, distances and cluster shapes cannot be read in the same way as a chart with defined variables. The map is an exploratory projection, not an explanation.
-
-- **So what for my thesis:**  
-  I should write UMAP outputs as prompts for interpretation: they help me notice candidate relations among DDR traces, but they do not by themselves explain those relations or establish historical significance.
-
-- **Practice cross-check:**  
-  TODO: add a short caution below any DDR UMAP figure: axes are arbitrary; proximity is model- and parameter-dependent; claims are based on follow-up archival reading, not on the projection alone.
+## Claim 6
+- **Claim (plain):** Operational stability and scalability justify UMAP as a research instrument, not the truth of any particular interpretation.
+- **Author claim:** McInnes et al. benchmark speed, large-scale performance and stability under subsampling against alternatives.
+- **Evidence-supported claim:** UMAP is described as scalable and faster than t-SNE; in the flow-cytometry subsampling experiment it shows substantially lower Procrustes error and greater structural stability than t-SNE. [@McInnesUMAPUniformManifold, pp. 1–2, 32–36]
+- **Researcher inference:** UMAP is operationally suitable for a 27,997-chunk DDR corpus, but technical stability does not establish historical validity of a cluster.
+- **Evidence (quote/paraphrase + page):** After a 5% subsample of one million points, UMAP's per-point error was already below any value achieved by t-SNE in that experiment. [@McInnesUMAPUniformManifold, pp. 35–36]
+- **Warrant (my words):** A method must be computationally usable and reasonably stable before its outputs can function as repeatable research prompts.
+- **Boundary:** Stability is demonstrated on particular benchmark datasets and does not transfer automatically to DDR semantics.
+- **Consequence:** Evaluate DDR stability empirically and keep epistemic validation separate from computational performance.
+- **Practice cross-check:** Save UMAP parameters/seeds and compare whether key neighbourhood findings persist across sensible settings.
 
 # Definitions / terms this changes
 
-- **UMAP:**  
-  A manifold-learning technique for dimensional reduction that constructs a fuzzy topological representation of high-dimensional data and optimises a low-dimensional layout to approximate that structure [@McInnesUMAPUniformManifold, pp. 1, 4, 13–17].
-
-- **Dimensional reduction:**  
-  I will use this to mean the transformation of high-dimensional data, such as text or image embeddings, into a lower-dimensional representation for visualisation, analysis or downstream tasks [@McInnesUMAPUniformManifold, pp. 1–2].
-
-- **k-neighbour graph:**  
-  UMAP constructs a weighted k-neighbour graph as the computational representation of local data structure before laying it out in lower-dimensional space [@McInnesUMAPUniformManifold, pp. 13–17].
-
-- **n-neighbours:**  
-  A UMAP hyperparameter controlling the local scale at which the manifold is approximated. Smaller values foreground fine local structure; larger values attend more to larger-scale structure, at the cost of detail [@McInnesUMAPUniformManifold, p. 23].
-
-- **min-dist:**  
-  A UMAP hyperparameter controlling how tightly points can pack together in the low-dimensional representation. The authors describe it as largely aesthetic and especially relevant for visualisation [@McInnesUMAPUniformManifold, p. 23].
-
-- **Embedding stability:**  
-  The paper evaluates stability under subsampling using Procrustes distance and finds UMAP more stable than t-SNE and LargeVis in their Flow Cytometry comparison [@McInnesUMAPUniformManifold, pp. 31–37].
-
-- **Constellation effect:**  
-  The risk that UMAP identifies apparent structure in noise, especially with small or noisy datasets [@McInnesUMAPUniformManifold, p. 45].
+- **UMAP:** manifold-learning method that constructs a fuzzy neighbourhood representation and optimises a lower-dimensional layout. [@McInnesUMAPUniformManifold, pp. 1–2, 13–23]
+- **n-neighbours:** parameter setting the local scale used to approximate structure. [@McInnesUMAPUniformManifold, pp. 22–24]
+- **min-dist:** parameter controlling how tightly nearby points may pack in the output layout. [@McInnesUMAPUniformManifold, p. 23]
+- **Constellation effect:** risk that UMAP presents noise as apparent manifold structure. [@McInnesUMAPUniformManifold, p. 45]
+- **Projection stability:** consistency of low-dimensional structure under repeated/subsampled embedding, assessed in the paper using Procrustes distance. [@McInnesUMAPUniformManifold, pp. 32–36]
 
 # My response
 
-- **What I take from this:**  
-  - UMAP gives me the technical basis for turning embeddings into visual maps that support exploration and hypothesis generation.  
-  - The paper gives me the language to be precise about what the method is doing: constructing local neighbourhoods, laying out a graph and preserving aspects of topological structure.  
-  - The weaknesses section is as useful as the algorithm itself because it gives me the caution I need for thesis prose.
-
-- **What I reframe / adjust:**  
-  - I should stop writing as if a UMAP map “shows” the archive. It shows a projection produced by a particular model, metric and parameter setting.  
-  - I should place UMAP figures in the thesis as navigational or diagnostic artefacts, not as final evidential exhibits.
-
-- **What question it raises next:**  
-  - Which DDR patterns remain stable across UMAP settings, and which are artefacts of parameter choice?  
-  - What combination of metadata, labels and close reading makes a UMAP cluster interpretable enough to write about?
+UMAP is valuable to the thesis precisely because the paper provides both the technique and the cautions needed to use it responsibly. It is fast, scalable and useful for local neighbourhood exploration, but its map is an engineered projection: scale is parameterised, cluster compactness is visually adjustable, axes have no intrinsic meaning and noise can look structured. That makes UMAP a navigational research instrument rather than historical evidence in its own right.
 
 # Integration hooks
 
-- **Where I will cite it:**  
-  In the S3.1 visual analytics section when introducing UMAP as the dimensional-reduction method used to map embedding spaces. The paragraph job: explain that UMAP reduces high-dimensional embeddings into inspectable projections for pattern discovery, while preserving local neighbourhood structure and requiring cautious interpretation.
+**Where I will cite it:** UMAP method; semantic atlas/neighbourhood rationale; parameter sensitivity; figure caveats.
 
-- **Where I will name the title in running text:**  
-  First use in method: “I use UMAP, introduced by McInnes, Healy and Melville as a scalable manifold-learning method for dimensional reduction, to project high-dimensional DDR embeddings into two-dimensional exploratory maps.”
+**Link to my practice evidence:** bge-m3 embeddings → UMAP projection → neighbourhood/cluster prompt → source retrieval and close reading.
 
-- **Link to my practice evidence:**  
-  TODO: link to DDR embedding map / UMAP figure. Candidate evidence: map showing clusters of actors, project descriptions, visual captions or institutional categories, with a corresponding table of checked archival records.
-
-- **Workstreams →**  
-  Embedding creation; dimensional reduction; UMAP parameter testing; visual analytics; pattern annotation; archival validation.
-
-- **Deliverables →**  
-  DDR UMAP map; parameter log; cluster annotation table; stability comparison; caption or figure note explaining methodological limits.
-
-- **Stakeholders →**  
-  Thesis reader; supervisors; design history researchers; archive staff; digital humanities readers; future users of DDR exploratory tools.
+**Workstreams →** UMAP; visual analytics; semantic neighbourhoods.  
+**Deliverables →** Methods chapter; figures; interface rationale.
 
 # Boundary + risk
 
-- **Boundary:**  
-  This source is useful for the technical basis of dimensional reduction and visual analytics, but it does not address archival interpretation, design history or contested knowledge.
+**Boundary:** The paper validates a mathematical/ML method on benchmark data, not archival or humanities interpretation.
 
-- **Risk if misused:**  
-  If I treat UMAP proximity as historical evidence, I risk turning a projection into an argument; the safer use is to treat UMAP as a hypothesis-generating map whose patterns must be checked against records.
+**Risk if misused:** Visually persuasive clusters may be mistaken for historically meaningful categories, particularly when parameters and source checks are hidden.
+
+# Cross-source / cross-lens synthesis
+
+UMAP supplies the operational projection technique that Drucker requires us to interpret critically and that Rockmore treats as part of an exploratory embedding landscape. Mordell adds that both the embedding and projection sit inside a wider process of archival datafication. The DDR framework therefore treats UMAP as one reversible view over a provenance-preserving corpus: useful for finding questions and candidate relationships, insufficient for settling them.
 
 # Methods spine tags
 
@@ -216,34 +185,17 @@ McInnes, Healy and Melville introduce UMAP as a scalable manifold-learning algor
 
 # Chicago NB payload
 
-- **Key pages to reuse:**  
-  pp. 1–2, 13–17, 22–24, 29–31, 45–49
-
-- **First full note:**  
-  Leland McInnes, John Healy, and James Melville, “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction,” September 21, 2020.
-
-- **Short note form:**  
-  McInnes, Healy, and Melville, “UMAP,” page number.
-
-- **One quote worth lifting:**  
-  “the dimensions of the UMAP embedding space have no specific meaning” [@McInnesUMAPUniformManifold, p. 45].
-
-- **One paraphrase worth keeping:**  
-  McInnes, Healy and Melville present UMAP as a scalable dimensional-reduction method that constructs local neighbourhood graphs and optimises a low-dimensional layout, making it useful for visualisation while requiring caution because its axes are not directly interpretable and its projections can reveal spurious structure in noisy data [@McInnesUMAPUniformManifold, pp. 13–17, 45].
+- **Key pages to reuse:** 1–2, 13–17, 22–24, 32–36, 45–49
+- **First full note:** Leland McInnes, John Healy, and James Melville, “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction,” arXiv:1802.03426, rev. September 21, 2020.
+- **Short note form:** McInnes, Healy, and Melville, “UMAP,” 22–24.
+- **One quote worth lifting:** “the dimensions of the UMAP embedding space have no specific meaning” (p. 45).
+- **One paraphrase worth keeping:** UMAP constructs and projects local neighbourhood structure efficiently, but its visual geometry is parameter-sensitive, locally prioritised and potentially vulnerable to spurious structure, so its maps are best used for exploratory hypothesis generation. [@McInnesUMAPUniformManifold, pp. 22–24, 45–49]
 
 # Related works
 
-- van der Maaten and Hinton on t-SNE.
-- Rockmore et al. on embedding spaces as literary landscapes.
-- Arnold and Tilton on multimodal embeddings for visual cultural heritage discovery.
-- Smits and Wevers on multimodal exploration of historical visual collections.
-- Whitelaw on generous interfaces.
-- Jaillant, Aske and Caputo on AI, access, risk and trust in cultural heritage organisations.
+- Drucker, “Humanities Approaches to Graphical Display.”
+- Rockmore et al., “On the Literary Landscapes of Vector Embeddings.”
 
 # Follow-ups
 
-- **What I will read next:**  
-  van der Maaten and Hinton on t-SNE; Kobak and Berens on using t-SNE; one humanities-facing account of dimensional reduction in visual analytics.
-
-- **What I will test or write next:**  
-  Add a DDR UMAP methods note: “UMAP is used here as a dimensional-reduction and visual analytics technique. Its projections guide pattern discovery and hypothesis generation, but the axes are not semantically meaningful and any apparent cluster must be checked against archival records.”
+- **What I will test next:** Run a DDR parameter-sensitivity check and record which candidate neighbourhoods remain stable across reasonable n-neighbours/min-dist choices.
