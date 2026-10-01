@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-01T11:23:02+00:00
+Generated: 2026-10-01T11:24:36+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,14 +8,14 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 21 |
+| COMPLIANT | 22 |
 | SECOND PASS REQUIRED | 25 |
-| FIRST PASS REQUIRED | 7 |
+| FIRST PASS REQUIRED | 6 |
 | REVIEW MATCH | 0 |
 
 **Active Zotero items in scope:** 53
 **Deferred placeholder-only items (d/e):** 32
-**Repo-only theoretical-framework notes needing parity review:** 3
+**Repo-only theoretical-framework notes needing parity review:** 2
 
 ## Active Zotero collection counts
 
@@ -117,7 +117,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 | --- | --- | ---: | --- | --- |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Design history and the history of design | 1990 |  | no matching reading note |
 | Theoretical framework / 1. Critical design histriography / a) Canon + intellectual lineage | Objects of desire: design and society since 1750 | 1992 |  | no matching reading note |
-| Theoretical framework / 2. Critical archival theory / b) Operational literature | Archival silences: missing, lost and, uncreated archives | 2021 |  | no matching reading note |
 | Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature | Applying AI to digital archives: trust, collaboration and shared professional ethics | 2023 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | A View from the interior: feminism, women, and design | 1989 |  | no matching reading note |
 | Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage | Machine learners: archaeology of a data practice | 2017 |  | no matching reading note |
@@ -149,6 +148,7 @@ _None._
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Toward the archival stage in the history of knowledge | 2015 | public/docs/N/Nesmith2015ArchivalStageHistoryKnowledge.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | Toward the archival stage in the history of knowledge | 2015 | public/docs/N/Nesmith2015ArchivalStageHistoryKnowledge.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage | What is past is prologue: a history of archival ideas since 1898, and the future paradigm shift | 1997 | public/docs/C/Cook1997WhatIsPastPrologue.md | meets current structural and completeness checks |
+| Theoretical framework / 2. Critical archival theory / b) Operational literature | Archival silences: missing, lost and, uncreated archives | 2021 | public/docs/M/Moss2021ArchivalSilencesMissing.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Four paradigm transformations in oral history | 2007 | public/docs/T/Thomson2007FourParadigmTransformations.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | Of things said and unsaid: power, archival silences, and power in silence | 2006 | public/docs/C/CarterThingsSaidUnsaid.md | meets current structural and completeness checks |
 | Theoretical framework / 2. Critical archival theory / b) Operational literature | What makes oral history different | 2009 | public/docs/P/Portelli2009WhatMakesOralHistoryDifferent.md | meets current structural and completeness checks |
@@ -161,7 +161,6 @@ These GitHub notes declare theoretical-framework metadata but did not match an i
 | --- | --- | --- |
 | public/docs/A/ArnoldExplainableSearchDiscovery.md | Explainable search and discovery | Theoretical framework / Critical computational approaches / Operational literature |
 | public/docs/H/2026SituatedKnowledgesScience.md | Situated knowledges: the science question in feminism and the privilege of partial perspective | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage |
-| public/docs/M/Moss2021ArchivalSilencesMissing.md | Theorising the silences | Theoretical framework / Critical archival theory / Canon + intellectual lineage |
 
 ## Interpretation
 
