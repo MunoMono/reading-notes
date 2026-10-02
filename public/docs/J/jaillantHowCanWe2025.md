@@ -1,8 +1,10 @@
 ---
 title: "How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions"
-authors: "Jaillant, Lise and Mitchell, Olivia and Ewoh-Opu, Eric and Hidalgo Urbaneja, Maribel"
+authors: "Jaillant, Lise; Mitchell, Olivia; Ewoh-Opu, Eric; Hidalgo Urbaneja, Maribel"
 year: 2025
 journal: "AI & SOCIETY"
+volume: "40"
+pages: "4447–4459"
 citation_key: jaillantHowCanWe2025
 doi: "10.1007/s00146-025-02222-z"
 url: "https://link.springer.com/10.1007/s00146-025-02222-z"
@@ -10,132 +12,165 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sept 2026, 00:00"
-last_updated: "16 Sept 2026, 12:14"
-model_strand: "S3"
-model_strand_label: "Surfacing and reactivating traces computationally"
-model_subcluster: "S3.2 Scoped missingness"
+last_updated: "02 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
+project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
+project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
+project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
+model_title: "Mobilising contested design knowledge in the DDR archive"
+model_strand: "S4"
+model_strand_label: "Feminist + situated knowledge"
+model_subcluster: "S4.2 Diversity, discoverability and computationally introduced absence"
 source_type: "Context / supporting"
+theoretical_framework_area_id: "4"
+theoretical_framework_area: "Feminist + situated knowledge"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature"
 project_tags:
+  - "Theoretical framework"
   - "Turin"
   - "Thesis"
-  - "Theoretical framework"
-theoretical_framework_area_id: "3"
-theoretical_framework_area: "Critical computational approaches"
-literature_cluster_id: "c"
-literature_cluster: "Contemporary bridge literature"
-zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
-constraints_source: "project/constraints.md"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.2 Scoped missingness  
-**Source type:** Context / supporting  
-**Project/output tags:** Turin, Thesis  
-**Literature clusters:** 05 Archival partiality, silence and absence; 07 Interface authority, ranking and retrieval bias; 09 Human judgement and practice-led computational research; 11 Uncertainty and provenance display in interfaces; 12 Digitisation, reconstruction and archival completion  
+---
 
-**Seam to watch:** How organisation choices reveal or hide contested knowledge
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 4. Feminist + situated knowledge  
+**Literature cluster:** b) Operational literature  
+**Zotero filing path:** Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature  
+**Source type:** Context / supporting
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- No page cite → write TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
-
----
 
 # Thesis job
 
-**Why I am reading this now:**  
-I need contemporary archival research showing that computational tools can both surface underrepresented material and reproduce or create new forms of archival invisibility through biased data, metadata, model design and access decisions.
+**How this source moves the primary research question forward:** Jaillant et al. show that archival visibility is produced through collecting, staffing, description, ownership, metadata and computational processing. AI can create new descriptive and retrieval layers, but it can also reproduce inherited bias or introduce new forms of absence. This directly strengthens the thesis's account of scoped missingness and feminist archival legibility.
 
-**Where it sits in my argument:**  
-S3.2 scoped missingness and the Turin discussion of computational visibility. It helps establish that missingness is not limited to records that never existed or did not survive; records can also become effectively absent because of poor description, biased metadata, language barriers, ranking systems, safety filters or computational tools that fail to recognise them.
+**How this source bears on the secondary question:** Revisiting DDR-period ideas computationally can make overlooked voices more discoverable, but only if archival professionals retain control over how AI is designed, trained, deployed and interpreted.
 
-**Why this term, not alternatives:**  
-I use *scoped missingness* rather than simply *lack of diversity* because the method concerns what a defined evidence surface makes present, difficult to retrieve or impossible to establish. Diversity is one important axis of this problem, but the DDR also requires attention to gender, class, role, status, authorship and institutional visibility.
+**Why I’m reading this now:** It provides contemporary empirical evidence from archival professionals about the opportunities and risks of AI for diversity and discoverability.
 
-**My benchmark for using it:**  
-Use Jaillant et al. to establish that archival visibility is historically and technically produced, that AI can create new descriptive layers, and that human archival judgement remains necessary. Do not treat AI-enhanced discoverability as equivalent to repairing historical underrepresentation.
+**Where it sits in my argument:** Operational literature for Feminist + situated knowledge, connecting archival diversity to computational mediation and professional control.
+
+**My benchmark for using it:** I will use Jaillant et al. to distinguish historical underrepresentation from descriptive/computational invisibility and to justify collaboration and human judgement; I will not claim that increased AI discoverability repairs records that were never created or preserved.
 
 # Position + moment
 
-Jaillant, Mitchell, Ewoh-Opu and Hidalgo Urbaneja write across archival studies, digital humanities and cultural-heritage AI. Their 2025 study draws on interviews with twenty academics, archivists, curators and other professionals across the UK, Europe and USA to examine how AI might address — or reinforce — lack of diversity in collections.
+Jaillant, Mitchell, Ewoh-Opu and Hidalgo Urbaneja draw on interviews with twenty academics, archivists, curators and other professionals across the UK, Europe and the USA. The paper explicitly asks whether AI compounds or alleviates lack of diversity in archives and argues for close collaboration between technology developers and cultural-heritage professionals. [@jaillantHowCanWe2025, pp. 4447–4449]
 
-The paper occupies a deliberately pragmatic middle position between technological solutionism and categorical suspicion of AI: computational tools can assist with metadata, discoverability and scale, but their ethical value depends on archival expertise, source-community participation and institutional control.
+# The author’s main move
 
-**Canon assumptions to problematise / update for 2026:**  
-The paper operationalises diversity principally through race and ethnicity after its interviewees repeatedly foregrounded those categories. For the DDR, I need to reopen the category to include gender, class, institutional role, student status, professional hierarchy and forms of labour that may be historically obscured for different reasons.
+The authors argue that AI can improve metadata and discoverability at scale, but its value for archival diversity depends on human judgement, professional and source-community participation, transparent tools and cultural-heritage control over system design and use. [@jaillantHowCanWe2025, pp. 4451–4457]
 
-# The author's main move
-
-They examine whether AI can help diversify archival collections by improving description and discoverability while arguing that responsible use requires close collaboration between AI developers, archivists, librarians and source communities.
-
-# Three-claim evidence ledger
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Archival underrepresentation is produced not only by what was collected, but by how surviving records were described, prioritised and made discoverable.
-- **Evidence (quote/paraphrase + page):** The authors identify three interconnected causes of archival diversity problems: historical underrepresentation of records; lack of diversity among archival professionals shaping priorities; and contested ownership and interpretation, particularly where inherited metadata contains racist or otherwise problematic terminology. `[@jaillantHowCanWe2025, pp. 4451–4452]` They stress that collections may contain different voices without those voices necessarily being heard or made accessible. `[@jaillantHowCanWe2025, pp. 4450–4452]`
-- **Warrant (my words):** Archival presence and archival visibility are different conditions. Material may survive physically yet remain difficult to discover or interpret because descriptive systems and institutional priorities privilege other records, vocabularies and viewpoints.
-- **So what for my thesis:** Missingness in the DDR archive should include forms of *computational and descriptive invisibility*: a trace can exist in the corpus yet remain functionally absent if metadata, terminology or retrieval practices make it difficult to surface.
-- **Practice cross-check:** Turin Semantic Atlas / Absences workbench: compare what is physically present in the indexed corpus with who and what becomes computationally prominent through metadata, embeddings, ranking and query formulation.
+- **Claim (plain):** Archival underrepresentation is produced through several linked mechanisms, not only through missing records.
+- **Author claim:** Interviewees identify historical under-collection, lack of workforce diversity and contested ownership/interpretation as interconnected causes of diversity problems.
+- **Evidence-supported claim:** Pages 4450–4452 distinguish records that were never foregrounded or collected, professional priorities shaped by a predominantly white archival workforce, and metadata that can preserve racist or otherwise problematic terminology. [@jaillantHowCanWe2025, pp. 4450–4452]
+- **Researcher inference:** DDR missingness should include descriptive and institutional invisibility as well as documentary non-survival.
+- **Evidence (quote/paraphrase + page):** The paper stresses that archives may contain different voices without those voices necessarily being heard or made accessible. [@jaillantHowCanWe2025, pp. 4450–4452]
+- **Warrant (my words):** Presence in a collection and practical legibility to researchers are different conditions.
+- **Boundary:** The paper's empirical framing focuses mainly on race and ethnicity; DDR feminist analysis also concerns gender, role, authorship and labour.
+- **Consequence:** The thesis should diagnose whether an apparent absence arises from record creation, collection, description or retrieval.
+- **Practice cross-check:** Separate “not in corpus,” “present but weakly described,” and “present but not retrieved” in scoped missingness.
 
 ## Claim 2
-
-- **Claim (plain):** AI can increase archival discoverability by creating new descriptive layers, but it can also reproduce the biases embedded in archival data and computational systems.
-- **Evidence (quote/paraphrase + page):** The authors describe AI applications including automated metadata creation, tagging, linking, cross-referencing, computer vision, speech recognition and handwritten-text recognition. `[@jaillantHowCanWe2025, pp. 4451–4453]` They also document failures such as OCR performing poorly on Sami languages and models trained on historical newspapers reproducing prejudicial representations of Indigenous communities. `[@jaillantHowCanWe2025, pp. 4453–4454]` Interviewees repeatedly warn that biased archival collections can feed those same biases into subsequent AI systems.
-- **Warrant (my words):** Computational processing operates downstream of archival survival, description and digitisation. AI can expose overlooked material, but it also learns from and operationalises the existing distribution of visibility and language in the collection.
-- **So what for my thesis:** Computational activation cannot be assumed to correct archival imbalance: the same methods that surface neglected DDR traces can amplify already prominent actors, terminology and institutional narratives unless retrieval and representation are critically examined.
-- **Practice cross-check:** Turin semantic-neighbourhood testing: examine whether well-documented senior staff repeatedly dominate results while students, women, technicians, administrators or less-described contributors remain peripheral despite appearing in the corpus.
+- **Claim (plain):** AI can increase discoverability by creating new descriptive layers and processing previously inaccessible material.
+- **Author claim:** Jaillant et al. describe AI uses including metadata generation, tagging, linking, speech/handwriting recognition and computer vision.
+- **Evidence-supported claim:** Pages 4451–4453 give examples of adding contextual metadata to problematic colonial descriptions, accelerating catalogue-level description, enriching Sami-language speech recognition through community annotation, and using computer vision to locate neglected or sensitive collection material. [@jaillantHowCanWe2025, pp. 4451–4453]
+- **Researcher inference:** Computational methods can make weak DDR traces more findable without changing their original evidential status.
+- **Evidence (quote/paraphrase + page):** Interviewees describe AI as helping create new metadata at scale while retaining a need for human inputs and community knowledge. [@jaillantHowCanWe2025, pp. 4452–4453]
+- **Warrant (my words):** New descriptive layers can improve access to records that already exist but are hard to retrieve.
+- **Boundary:** Improved discoverability is not the same as a more representative historical archive.
+- **Consequence:** AI-generated descriptors should supplement rather than overwrite original archival description.
+- **Practice cross-check:** Preserve catalogue metadata separately from derived semantic tags/embeddings.
 
 ## Claim 3
+- **Claim (plain):** AI can reproduce and amplify the biases of the archival data on which it is trained.
+- **Author claim:** Interviewees repeatedly warn that cultural-heritage models are not neutral and may encode the prejudices of historical collections and dominant regions.
+- **Evidence-supported claim:** Page 4454 describes black-box systems, opaque training data, newspaper-trained models reproducing prejudice against Indigenous communities, and concern that Global North training data misrepresent other cultures. [@jaillantHowCanWe2025, p. 4454]
+- **Researcher inference:** DDR computational visibility may amplify already dominant staff, projects or vocabularies unless retrieval behaviour is explicitly tested.
+- **Evidence (quote/paraphrase + page):** Javier de la Rosa describes models as “biased machines” that exploit patterns in the text rather than neutral artefacts. [@jaillantHowCanWe2025, p. 4454]
+- **Warrant (my words):** Machine learning operationalises the distribution of evidence it receives.
+- **Boundary:** The interview evidence identifies plausible and observed risks but does not quantify bias across one controlled archival benchmark.
+- **Consequence:** Diversity/visibility claims should be validated against source distributions and alternative retrieval routes.
+- **Practice cross-check:** Test whether senior or heavily documented DDR figures systematically dominate results.
 
-- **Claim (plain):** AI systems can themselves create new historical absences when technical or safety decisions suppress, refuse or reshape access to difficult archival content.
-- **Evidence (quote/paraphrase + page):** Nicole Coleman describes an attempt to use Gemini to transcribe nineteenth-century diplomatic correspondence concerning slavery, where the model stopped processing passages its safety settings classified as harmful. She argues that such engineering decisions can transfer control from the researcher to the AI system and “remake our understanding of content, potentially of the past.” `[@jaillantHowCanWe2025, p. 4455]` The authors consequently argue throughout the paper for human judgement, transparent tools and cultural-heritage professionals retaining control over AI-mediated access. `[@jaillantHowCanWe2025, pp. 4455–4457]`
-- **Warrant (my words):** Computational absence need not originate in the historical archive. It can be introduced at the point of digitisation, transcription, moderation, retrieval or generation when a system elects not to process or expose particular material.
-- **So what for my thesis:** Scoped missingness must distinguish between absence in the historical record and absence introduced by the computational pipeline, because a failure to retrieve or display evidence does not prove that the evidence is historically absent.
-- **Practice cross-check:** Turin UAT should distinguish at least four states: material absent from the defined corpus; present but not retrieved; retrieved but filtered or rejected by the inference layer; and retrieved but insufficient to establish the requested relation.
+## Claim 4
+- **Claim (plain):** AI systems can create new historical absences through filtering and safety decisions.
+- **Author claim:** The paper presents an example where an LLM refused to transcribe nineteenth-century correspondence concerning slavery because its safety settings classified passages as harmful.
+- **Evidence-supported claim:** Page 4455 reports that Gemini stopped the transcription task and quotes Nicole Coleman arguing that engineering decisions can “remake our understanding of content, potentially of the past.” [@jaillantHowCanWe2025, p. 4455]
+- **Researcher inference:** Computational absence may be introduced after digitisation even when the underlying source exists.
+- **Evidence (quote/paraphrase + page):** The example transfers control from researcher to model at the point of access/transcription. [@jaillantHowCanWe2025, p. 4455]
+- **Warrant (my words):** A system-level refusal can make evidence functionally unavailable without any archival loss.
+- **Boundary:** This is one interview-reported case and should not be generalised to all safety systems.
+- **Consequence:** Scoped missingness must include filtering/refusal as a distinct computational state.
+- **Practice cross-check:** Log model refusals, retrieval failures and post-retrieval filters separately.
+
+## Claim 5
+- **Claim (plain):** Cultural-heritage professionals need control over AI tools rather than dependence on opaque vendor systems.
+- **Author claim:** Interviewees argue that closed systems fragment professional work, that under-resourced institutions over-rely on profit-driven generic models and that archivists/librarians should help direct tool design.
+- **Evidence-supported claim:** Pages 4455–4456 describe mistrust of tech giants, resource-driven dependence on off-the-shelf models and calls for “power tools for librarians” developed through collaboration with technologists. [@jaillantHowCanWe2025, pp. 4455–4456]
+- **Researcher inference:** DDR research infrastructure should preserve researcher/archivist agency over corpus, retrieval and evidence policy.
+- **Evidence (quote/paraphrase + page):** Coleman argues that technology should be directed by librarians rather than by tool manufacturers. [@jaillantHowCanWe2025, p. 4456]
+- **Warrant (my words):** Domain expertise is needed to define what counts as adequate description, context and evidence.
+- **Boundary:** Local control alone does not guarantee ethical or accurate systems.
+- **Consequence:** The project should document and govern model behaviour rather than outsource methodological decisions to default platform settings.
+- **Practice cross-check:** Keep corpus boundary, source policy, retrieval settings and UAT under researcher control.
+
+## Claim 6
+- **Claim (plain):** Responsible archival AI requires interdisciplinary training, developer education and shared professional guidelines.
+- **Author claim:** The conclusion identifies lack of collaboration as a major obstacle and proposes three concrete forms of response.
+- **Evidence-supported claim:** Page 4457 recommends interdisciplinary AI training for archivists, education of developers about archival data and professional guidelines for applying AI to diversity problems; it also states that human judgement remains essential for context, ethics, provenance and authenticity. [@jaillantHowCanWe2025, p. 4457]
+- **Researcher inference:** Feminist computational accountability is institutional and procedural, not merely a model property.
+- **Evidence (quote/paraphrase + page):** The authors call for co-design between AI professionals and cultural-heritage workers so technology works for humans rather than the reverse. [@jaillantHowCanWe2025, p. 4457]
+- **Warrant (my words):** Responsible system behaviour depends on expertise, governance and collaborative practice around the model.
+- **Boundary:** Recommendations reflect professional interviews and argument rather than experimental proof of one optimal governance structure.
+- **Consequence:** The thesis should frame UAT, archival expertise and documentation as part of the method itself.
+- **Practice cross-check:** Retain human evaluation of evidence quality, ambiguity and missingness after model output.
 
 # Definitions / terms this changes
 
-- **Archival diversity:** in the paper, primarily the representation and accessibility of racial and ethnic communities within archival collections and descriptive systems. `[@jaillantHowCanWe2025, pp. 4447–4449]`
-- **Discoverability:** the practical ability of users to locate relevant records through description, metadata, transcription, tagging, linking and retrieval.
-- **Technological bias:** systematic failure or distortion introduced when tools are trained or optimised around dominant languages, collections or populations, illustrated by poor OCR performance for Sami materials. `[@jaillantHowCanWe2025, p. 4453]`
-- **Human judgement:** archival expertise required for contextual interpretation, ethical decision-making, provenance and authenticity that the authors argue cannot be replaced by automated systems. `[@jaillantHowCanWe2025, pp. 4451, 4457]`
-- **Computationally introduced missingness:** my extension: evidence rendered effectively absent through OCR failure, metadata deficiency, retrieval bias, filtering, moderation or model behaviour rather than through historical non-survival.
+- **Archival diversity:** representation and accessibility of communities within collections and descriptive systems; empirically the paper focuses mainly on race/ethnicity. [@jaillantHowCanWe2025, pp. 4447–4449]
+- **Discoverability:** practical ability to locate records through description, transcription, tagging, linking and retrieval.
+- **Technological bias:** distortion/failure introduced where tools encode dominant training distributions or under-serve minority languages/collections. [@jaillantHowCanWe2025, pp. 4453–4454]
+- **Computationally introduced missingness:** my term for evidence made effectively absent through OCR/transcription failure, retrieval bias, filtering, safety refusal or model behaviour.
+- **Professional control:** archival and library practitioners retaining meaningful authority over the design, deployment and interpretation of computational tools. [@jaillantHowCanWe2025, pp. 4455–4457]
 
 # My response
 
-- **What I take from this:**
-  - The paper substantially expands my concept of missingness: absence can be historical, descriptive, institutional or computational.
-  - AI-mediated discoverability is potentially valuable precisely because existing collections contain voices that archival description has not made equally visible.
-  - The Coleman example is especially important because it demonstrates that “responsible AI” mechanisms can themselves intervene in the evidential record and alter what researchers are permitted to encounter.
-
-- **What I reframe / adjust:**
-  - I separate *diversifying access to an existing archive* from *repairing the historical archive itself*. AI can help surface material but cannot retroactively produce voices or records that were never collected.
-  - For the DDR I retain a broader intersectional understanding of representational absence than the article's mainly racial/ethnic empirical framing, including gendered labour, institutional status, authorship, student voice and professional hierarchy.
-
-- **What question it raises next:**
-  - Can the Turin system determine whether an apparent absence originates in the archive, the metadata, digitisation, retrieval or the inference layer?
-  - How can computational methods surface marginalised traces without allowing machine-generated metadata or relations to overwrite the historical descriptions and provenance they are intended to supplement?
+Jaillant et al. sharpen the thesis's concept of missingness by showing that absence can be historical, descriptive, institutional or computational. Their most useful contribution is the distinction between using AI to surface material already present and imagining that AI can repair the historical archive itself. For DDR, derived metadata and semantic retrieval can improve legibility, but original descriptions, provenance and human judgement must remain visible.
 
 # Integration hooks
 
-- **Where I will cite it:** In the Turin scoped-missingness section when distinguishing historical absence from computational invisibility, and in the thesis discussion of how AI may both reveal and reproduce archival structures of representation.
-- **Where I will name the title in running text:** “Jaillant et al.'s *How Can We Improve the Diversity of Archival Collections with AI?* demonstrates that AI-mediated discoverability can expose neglected archival material while simultaneously reproducing or introducing new forms of representational bias.”
-- **Link to my practice evidence:** Turin Absences / Semantic Atlas / Sources Integration: archive → digitisation → metadata → embeddings → retrieval → inference, with missingness diagnosed against the stage at which evidence disappears from view.
-- **Workstreams →** scoped missingness; Semantic Atlas; archival diversity; retrieval bias; human judgement; provenance
-- **Deliverables →** Turin theoretical framing; thesis S3 critical-method section; missingness taxonomy; archival-inference UAT
-- **Stakeholders →** archivists; historians; source communities; cultural-heritage practitioners; AI developers
+**Where I will cite it:** Scoped missingness; diversity/discoverability; derived metadata; AI refusal/filtering; professional control.
+
+**Link to my practice evidence:** The DDR pipeline can diagnose where evidence falls out of view across corpus → description → embedding → retrieval → synthesis.
+
+**Workstreams →** feminist critique; scoped missingness; retrieval bias; human judgement; provenance.  
+**Deliverables →** Theoretical framework; methods; missingness taxonomy; UAT.  
+**Stakeholders →** Archivists; historians; source communities; AI developers.
 
 # Boundary + risk
 
-- **Boundary:** The study is interview-based, concentrated on large institutions in the UK, Europe and USA, and explicitly acknowledges limited representation from the Global South; its findings describe professional concerns and opportunities rather than experimentally measured effects of archival AI systems.
-- **Risk if misused:** Treating increased AI discoverability as evidence that an archive has become genuinely more representative would conflate surfacing existing material with repairing historical collecting practices and could obscure records, lives and forms of labour that were never documented in the first place.
+**Boundary:** The study is interview-based, centred on large Western institutions and focused primarily on racial/ethnic diversity rather than the full set of DDR representational concerns.
+
+**Risk if misused:** Increased AI discoverability could be mistaken for repair of historical exclusion, obscuring records and labour that were never documented or preserved.
+
+# Cross-source / cross-lens synthesis
+
+Jaillant et al. connect feminist archival critique to computational visibility. Cifor and Wood make archival power and situated care explicit; Suchman locates accountability in specific working relations; Foka and Griffin show how heritage AI inherits and amplifies bias; Kizhner et al. show empirically how metadata and subcollections skew digital representation; Bender et al. warn against treating model outputs as neutral understanding. Together, these sources establish a feminist computational stance for DDR: improve discoverability where possible, preserve original evidence and provenance, diagnose where invisibility enters the pipeline, and keep human archival judgement in control of interpretation.
 
 # Methods spine tags
 
@@ -148,23 +183,19 @@ They examine whether AI can help diversify archival collections by improving des
 
 # Chicago NB payload
 
-- **Key pages to reuse:** pp. 4449–4451, 4452–4457
+- **Key pages to reuse:** 4449–4457
 - **First full note:** Lise Jaillant, Olivia Mitchell, Eric Ewoh-Opu, and Maribel Hidalgo Urbaneja, “How Can We Improve the Diversity of Archival Collections with AI? Opportunities, Risks, and Solutions,” *AI & SOCIETY* 40 (2025): 4447–4459, https://doi.org/10.1007/s00146-025-02222-z.
 - **Short note form:** Jaillant et al., “How Can We Improve the Diversity of Archival Collections with AI?,” [page].
 - **One quote worth lifting:** “the engineering decisions effectively remake our understanding of content, potentially of the past” (p. 4455).
-- **One paraphrase worth keeping:** AI can create new descriptive and retrieval layers that expose neglected archival records, but because those systems operate over historically biased collections and metadata, they can also reproduce or introduce new patterns of exclusion and invisibility. (pp. 4451–4455)
+- **One paraphrase worth keeping:** AI can expose neglected archival material while also reproducing inherited bias or introducing new forms of invisibility through opaque training, retrieval and safety decisions. [@jaillantHowCanWe2025, pp. 4451–4457]
 
 # Related works
 
-- Carter (2006), *Of Things Said and Unsaid* — provides the archival-theoretical basis for understanding silence, power and unheard voices within collections.
-- Ortolja-Baird and Nyhan (2022), *Encoding the Haunting of an Object Catalogue* — especially close methodological companion: digitisation may perpetuate inherited silences but can also make patterns of absence computationally legible.
-- Colavizza et al. (2022), *Archives and AI* — broader mapping of AI applications and debates in archival practice.
-- Jaillant and Rees (2023), *Applying AI to Digital Archives: Trust, Collaboration and Shared Professional Ethics* — direct precursor to the collaboration and professional-control argument developed here.
-- Bernard and Balog (2025), *A Systematic Review of Fairness, Accountability, Transparency, and Ethics in Information Retrieval* — provides the complementary IR account of how ranking and exposure distribute computational visibility.
-- Pan et al. (2007), *In Google We Trust* — establishes the behavioural mechanism through which interface ranking affects what information users inspect and select.
-- Selyshcheva (2026), *Generative AI as a Historical Source* — adds the historical-method requirement that computational representations remain subject to source criticism and independent verification.
+- Cifor and Wood, “Critical Feminism in the Archives.”
+- Foka and Griffin, “AI, Cultural Heritage, and Bias.”
+- Kizhner et al., “Ethnic Minorities in Online Museum Collections.”
+- Bernard and Balog, “A Systematic Review of Fairness, Accountability, Transparency, and Ethics in Information Retrieval.”
 
 # Follow-ups
 
-- **What I will read next:** No additional general AI-and-archives source is immediately required; pair Jaillant et al. with Ortolja-Baird and Nyhan, Carter and Bernard/Balog when formalising scoped missingness.
-- **What I will test or write next:** Build a missingness provenance diagnostic for Turin that asks, for every apparent absence: was the material never recorded; not preserved; not digitised; poorly described; not retrieved; filtered by the system; or retrieved but insufficient to warrant the requested inference?
+- **What I will test next:** Build a missingness diagnostic that identifies whether a failed DDR query reflects non-recording, non-survival, non-digitisation, weak description, retrieval failure, filtering or insufficient evidence.
