@@ -1,8 +1,9 @@
 ---
 title: "Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks"
-authors: "Radharapu, Bhaktipriya and Revel, Manon and Ung, Megan and Ruder, Sebastian and Williams, Adina"
+authors: "Radharapu, Bhaktipriya; Revel, Manon; Ung, Megan; Ruder, Sebastian; Williams, Adina"
 year: 2025
 journal: "Findings of the Association for Computational Linguistics: ACL 2025"
+pages: "4677–4731"
 citation_key: RadharapuArbitersAmbivalenceChallenges
 doi: ""
 url: ""
@@ -10,11 +11,9 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
-north_star_mtime: "14 Sep 2026, 16:11"
-north_star_sha1: "9df80fcd2e16"
-
+constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
@@ -24,129 +23,155 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Methodological anchor"
-project_tags:
-  - "Turin"
-  - "Thesis"
-  - "Theoretical framework"
 theoretical_framework_area_id: "3"
 theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "c"
 literature_cluster: "Contemporary bridge literature"
-zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
-constraints_source: "project/constraints.md"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.3 Retrieval-augmented inference  
-**Source type:** Methodological anchor  
-**Project/output tags:** Turin, Thesis  
-**Literature clusters:** 02 LLM epistemic risk and persuasive fluency; 09 Human judgement and practice-led computational research; 11 Uncertainty and provenance display in interfaces  
-
-**Seam to watch:** When computational methods clarify or distort contested traces
-
-# Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
-
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+project_tags:
+  - "Theoretical framework"
+  - "Turin"
+  - "Thesis"
 ---
 
-# Thesis job (do this first)
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 3. Critical computational approaches  
+**Literature cluster:** c) Contemporary bridge literature  
+**Zotero filing path:** Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature  
+**Source type:** Methodological anchor
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+# Constraints (anti-bloat / anti-hallucination)
+- No page cite → write TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
 
-**Why I’m reading this now (1 sentence):**  
-I need empirical evidence about whether LLMs preserve genuine disagreement and ambiguity when they move from generating possible interpretations to judging, ranking or resolving between them.
+# Thesis job
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin discussion of plural historical inquiry. It helps establish that computational synthesis should not automatically resolve competing interpretations into a single preferred account, particularly where the evidence supports legitimate disagreement.
+**How this source moves the primary research question forward:** Radharapu et al. provide direct empirical evidence that LLMs can preserve nuance when generating responses yet lose that nuance when recast as judges or debaters. This is highly relevant to DDR because contested design knowledge should not be computationally forced into a single winner where the archival evidence remains genuinely unresolved.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *interpretive plurality* rather than *neutrality* for the DDR because historical readings need not be symmetrical or value-neutral. The methodological requirement is to preserve materially supported competing interpretations without forcing premature consensus.
+**How this source bears on the secondary question:** Revisiting historical ideas responsibly requires the system to preserve meaningful disagreement rather than smoothing historical plurality into one apparently settled answer.
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use Radharapu et al. as empirical evidence that LLM judging and debate can collapse valid disagreement and that explicit affordances for ambiguity materially change model behaviour. Do not equate every historical disagreement with two equally supported positions.
+**Why I’m reading this now:** It supplies an experimental basis for treating ambiguity as an explicit output state and for separating generation from adjudication.
 
-# Position + moment (2–4 lines)
+**Where it sits in my argument:** Contemporary bridge literature on pluralistic inference, human judgement and the epistemic risks of LLM-as-judge architectures.
 
-Radharapu et al. write from contemporary NLP, model evaluation and pluralistic-alignment research. Their ACL 2025 study responds to growing use of LLMs as substitutes for human annotators, evaluators and judges by asking whether those systems preserve disagreement in tasks where humans themselves lack consensus. They construct a No-Consensus Benchmark covering moral, causal, linguistic, scientific, subjective, controversial and cultural/social ambiguity and test five LLMs as answer generators, judges and debaters.
+**My benchmark for using it:** I will use the paper to justify explicit ambiguity/plurality handling, not to claim that all disagreements are equally valid or that neutrality is always the correct response.
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-High agreement with human majorities on conventional benchmarks should not be treated as evidence that a model can represent plural human judgement. Evaluation systems built around choosing winners may structurally suppress precisely the ambiguity that contested historical inquiry needs to retain.
+# Position + moment
 
-# The author’s main move (1 sentence)
+Radharapu et al. write from contemporary NLP and model-evaluation research. Their No-Consensus Benchmark spans seven classes of disagreement and tests multiple LLMs as answer generators, pointwise judges, pairwise judges and debaters. The study is designed specifically to ask whether models preserve human disagreement when role and evaluation structure change. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4682]
 
-They try to test whether LLMs can preserve human disagreement by moving the same models across answer-generation, judging and debate roles on deliberately no-consensus questions and measuring how often they retain rather than resolve ambiguity.
+# The author’s main move
 
-# Three-claim evidence ledger (max 3 claims)
+The authors show that model behaviour is role-dependent: systems that can generate nuanced or balanced answers become markedly more decisive when asked to judge or debate, and explicit affordances for neutrality materially change the rate at which ambiguity survives. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4685]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** An LLM's ability to give a nuanced answer does not mean it will preserve that nuance when asked to judge between competing positions.
-- **Evidence (quote/paraphrase + page):** Across five models, neutrality was generally highest when models generated answers directly and fell substantially when those same models acted as pairwise judges, pointwise judges or debate judges. The authors observe a significant decrease across all models and datasets in pairwise judging and describe that configuration as potentially ill-suited to no-consensus tasks. `[@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4683]` Figure 1 on p. 4677 and the heatmaps in Figure 3 on p. 4683 make the role-dependent drop especially clear.
-- **Warrant (my words):** Producing several legitimate perspectives and selecting between those perspectives are different computational operations. A system capable of articulating ambiguity can still erase it when the interface or inference procedure demands a winner.
-- **So what for my thesis (a reusable sentence):** The capacity of an LLM to articulate competing historical interpretations should not be confused with an ability to adjudicate responsibly between them; the act of computational judging can itself collapse evidentially legitimate ambiguity.
-- **Practice cross-check:** Turin comparative and research-query modes should expose competing DDR traces or interpretations side by side where warranted rather than asking a model to rank one historical reading as definitively superior.
+- **Claim (plain):** Nuanced generation does not imply nuanced judging.
+- **Author claim:** Radharapu et al. find that LLM neutrality is generally highest in answer-generation mode and drops substantially in judging and debate modes.
+- **Evidence-supported claim:** Across models and datasets, pairwise judging produces the largest reductions in neutrality relative to direct answer generation, with pointwise judging and debate also often reducing neutrality. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4684]
+- **Researcher inference:** A DDR model that can articulate several plausible readings should not automatically be trusted to rank those readings responsibly.
+- **Evidence (quote/paraphrase + page):** The authors state that models provide nuanced assessments as generators but tend to take a stance when used as judges or debaters. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4679]
+- **Warrant (my words):** Generation and adjudication are distinct computational operations with different failure modes.
+- **Boundary:** Neutrality is an operational metric in a benchmark, not a universal measure of good historical interpretation.
+- **Consequence:** Comparative DDR interpretations should remain separately evidenced before any human or model adjudication.
+- **Practice cross-check:** Keep comparative views able to display competing trace families side by side without requiring a ranked winner.
 
 ## Claim 2
-
-- **Claim (plain):** LLMs can generate persuasive arguments for opposing positions, so rhetorical quality is not sufficient evidence that one interpretation is better warranted.
-- **Evidence (quote/paraphrase + page):** In the steerability analysis, models generated well-articulated arguments for both sides of no-consensus questions. Pointwise judges generally rated both positions highly, and the mean absolute difference between winning and losing stances was only 1.13 points across tasks and models. `[@RadharapuArbitersAmbivalenceChallenges, p. 4696]` The sample material later in the paper shows the same model constructing plausible, confident arguments for directly opposing answers. `[@RadharapuArbitersAmbivalenceChallenges, pp. 4727–4731]`
-- **Warrant (my words):** Fluency, coherence and evidential presentation can be manufactured for mutually incompatible positions. Persuasiveness therefore cannot serve as a proxy for historical warrant.
-- **So what for my thesis:** Retrieval-augmented historical inference should privilege the relationship between interpretation and source evidence over the rhetorical completeness or apparent persuasiveness of the generated account.
-- **Practice cross-check:** Turin: when two interpretations of DDR evidence can each be narrated convincingly, compare their supporting traces, chronology, provenance and contradictions rather than allowing generative fluency to determine which interpretation appears authoritative.
+- **Claim (plain):** Persuasive argument quality is not a proxy for evidential warrant.
+- **Author claim:** The authors show that models are steerable enough to construct strong arguments for opposing positions.
+- **Evidence-supported claim:** Pointwise judges often rate both opposing responses highly, and the reported mean absolute score difference between winning and losing stances is small; qualitative examples show similarly fluent arguments on both sides. [@RadharapuArbitersAmbivalenceChallenges, p. 4696; pp. 4727–4731]
+- **Researcher inference:** In archival synthesis, fluency and completeness must not determine which historical interpretation appears better supported.
+- **Evidence (quote/paraphrase + page):** The steerability analysis finds that models can produce comparably persuasive arguments for contrasting perspectives. [@RadharapuArbitersAmbivalenceChallenges, p. 4696]
+- **Warrant (my words):** Language-model rhetoric is generated independently of whether one side has stronger source evidence.
+- **Boundary:** The benchmark does not test archival provenance or historical source criticism directly.
+- **Consequence:** DDR interpretation quality should be assessed against trace provenance, chronology and contradiction, not prose quality.
+- **Practice cross-check:** Compare claim-to-source bindings before accepting any synthesized interpretation as stronger.
 
 ## Claim 3
+- **Claim (plain):** Ambiguity often must be represented explicitly in the output schema.
+- **Author claim:** Radharapu et al. find that models do not reliably choose neutrality in open-ended settings but do so much more often when a neutral/both option is explicitly available.
+- **Evidence-supported claim:** Constrained generation with an explicit neutral outcome substantially increases neutrality relative to open-ended generation across multiple tasks. [@RadharapuArbitersAmbivalenceChallenges, pp. 4681, 4700]
+- **Researcher inference:** “Unresolved,” “multiple supported readings,” and “corpus-insufficient” should be first-class DDR outcomes rather than rare fallback phrases.
+- **Evidence (quote/paraphrase + page):** The ablation shows neutrality rising when the prompt explicitly permits it. [@RadharapuArbitersAmbivalenceChallenges, p. 4700]
+- **Warrant (my words):** Output structure influences whether a model preserves uncertainty or converts it into selection.
+- **Boundary:** Making neutrality available can also encourage unnecessary hedging.
+- **Consequence:** Ambiguity states need explicit criteria tied to evidence rather than generic caution.
+- **Practice cross-check:** Add structured outputs for conflicting evidence, multiple plausible readings and scoped missingness.
 
-- **Claim (plain):** Ambiguity often has to be explicitly represented as an available outcome; models do not reliably preserve it by default.
-- **Evidence (quote/paraphrase + page):** The authors' initial open-ended experiments found that models frequently selected a stance rather than remaining neutral. When neutrality was made an explicit output option, neutrality increased substantially across most datasets—for GPT-4o, for example, ConflictingQA rose from 31% neutral in open-ended generation to 85% under constrained generation, and Known Unknowns from 30.95% to 79.76%. `[@RadharapuArbitersAmbivalenceChallenges, pp. 4681, 4700]`
-- **Warrant (my words):** Interface and prompt structure shape whether unresolved ambiguity survives the inference process. If an output schema only affords affirmative alternatives, the model is encouraged to transform uncertainty into selection.
-- **So what for my thesis:** Ambiguity and insufficient evidence should be first-class outcomes of retrieval-augmented historical inquiry rather than exceptional fallbacks that a model must infer on its own.
-- **Practice cross-check:** Turin scoped missingness and comparative inquiry should explicitly permit outputs such as multiple supported readings, conflicting evidence, unresolved relation and corpus-insufficient, rather than requiring every query to terminate in one historical conclusion.
+## Claim 4
+- **Claim (plain):** Neutrality is not a stable property of a model; it changes with role, model choice and task.
+- **Author claim:** The authors report substantial heterogeneity across model families and evaluation roles.
+- **Evidence-supported claim:** Open-source and closed-source models differ in answer-generation neutrality, different models are more or less neutral as pointwise judges or debaters, and task categories show different patterns. [@RadharapuArbitersAmbivalenceChallenges, pp. 4683–4684]
+- **Researcher inference:** DDR should not treat a model-level benchmark score as a guarantee that ambiguity will be preserved in every workflow state.
+- **Evidence (quote/paraphrase + page):** The results show role- and task-specific neutrality differences rather than one consistent model ordering. [@RadharapuArbitersAmbivalenceChallenges, pp. 4683–4684]
+- **Warrant (my words):** Behaviour emerges from the interaction of model, prompt, role and task.
+- **Boundary:** The tested models and benchmark reflect 2025 systems and do not generalise mechanically to every future model.
+- **Consequence:** UAT must test the actual DDR pipeline in its actual roles rather than rely on generic model reputation.
+- **Practice cross-check:** Test the same contested DDR question under answer, comparison and adjudication prompts and compare evidential behaviour.
 
-# Definitions / terms this changes (only the ones that matter)
+## Claim 5
+- **Claim (plain):** Greater decisiveness can make LLM judgments less representative of genuinely distributed human disagreement.
+- **Author claim:** Radharapu et al. compare model label distributions with known human distributions and find that more decisive pairwise judges align less well with high-entropy human disagreement.
+- **Evidence-supported claim:** Page 4684 reports that pairwise judges are generally more decisive and less neutral and that lower-entropy judge distributions align less well with high-entropy human distributions. [@RadharapuArbitersAmbivalenceChallenges, p. 4684]
+- **Researcher inference:** A single decisive historical answer can be less faithful to the evidential situation than an explicitly plural output.
+- **Evidence (quote/paraphrase + page):** The authors use Jensen-Shannon divergence to show poorer alignment where judges collapse distributed disagreement. [@RadharapuArbitersAmbivalenceChallenges, p. 4684]
+- **Warrant (my words):** Consistency is not automatically epistemic quality when the underlying phenomenon is genuinely plural.
+- **Boundary:** Historical archival disagreement is not equivalent to crowdsourced human label distributions.
+- **Consequence:** Evaluation should reward preserved evidential plurality when the record supports it, rather than rewarding decisiveness alone.
+- **Practice cross-check:** Add a plurality-preservation UAT family for questions known to have competing DDR formulations.
 
-- **No-consensus question:** a question for which multiple answers are considered valid and human annotators are likely to disagree. `[@RadharapuArbitersAmbivalenceChallenges, p. 4680]`
-- **Neutrality:** in the authors' operationalisation, the proportion of cases in which the model retains a neutral/tie/both outcome rather than selecting one of two stances. `[@RadharapuArbitersAmbivalenceChallenges, p. 4682]`
-- **Steerability:** the demonstrated ability of a model to produce comparably strong arguments supporting opposing positions. `[@RadharapuArbitersAmbivalenceChallenges, p. 4696]`
-- **Interpretive plurality:** my historical extension: preserving multiple evidentially warranted readings and their differences without assuming that disagreement must be computationally resolved.
-- **Premature adjudication:** my term for an inference step that converts an evidentially unresolved or legitimately contested relationship into a preferred historical conclusion because the system architecture demands selection.
+## Claim 6
+- **Claim (plain):** “No consensus” does not mean a model should always remain neutral.
+- **Author claim:** The authors explicitly caution that some disputed questions may still warrant a system taking a position and that task-level “no agreement” labels can themselves be too coarse.
+- **Evidence-supported claim:** Pages 4684–4685 state that disagreement alone is not a sufficient reason for neutrality and discuss meta-disagreement about whether examples should count as no-consensus cases in the first place. [@RadharapuArbitersAmbivalenceChallenges, pp. 4684–4685]
+- **Researcher inference:** DDR interpretive plurality should preserve asymmetries in evidence: several readings may remain visible without being treated as equally supported.
+- **Evidence (quote/paraphrase + page):** The limitations section warns that designating entire tasks as “no agreement” can obscure disagreement about the designation itself. [@RadharapuArbitersAmbivalenceChallenges, p. 4685]
+- **Warrant (my words):** Responsible ambiguity preservation requires discriminating among contested, weakly supported and unsupported claims.
+- **Boundary:** The article’s binary stance structure is simpler than multi-source historical interpretation.
+- **Consequence:** The DDR system should preserve plural readings while still attaching differentiated evidential strength and source status.
+- **Practice cross-check:** Render interpretations as supported / partially supported / unresolved rather than “both sides equally valid.”
 
-# My response (no antithesis; state positives)
+# Definitions / terms this changes
 
-- **What I take from this (1–3 bullets):**
-  - This gives me direct empirical support for preserving ambiguity as an explicit system state rather than assuming a sufficiently capable LLM will do so automatically.
-  - The distinction between generator and judge roles is critical for Turin: generative plurality can disappear as soon as the model is asked to evaluate or rank the alternatives it has produced.
-  - Their steerability findings reinforce the need to separate persuasive argumentation from evidential warrant.
+- **No-consensus question:** a question for which multiple answers may be valid and human annotators are likely to disagree. [@RadharapuArbitersAmbivalenceChallenges, p. 4680]
+- **Neutrality:** the authors’ operational measure of retaining a neutral/tie/both outcome rather than selecting one stance. [@RadharapuArbitersAmbivalenceChallenges, p. 4682]
+- **Steerability:** ability to generate strong arguments for opposing positions. [@RadharapuArbitersAmbivalenceChallenges, p. 4696]
+- **Interpretive plurality:** my historical extension: preserving multiple evidentially warranted readings without assuming that disagreement must be computationally resolved.
+- **Premature adjudication:** my term for converting an evidentially unresolved relation into a preferred conclusion because the system architecture demands selection.
 
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I translate their binary *neutrality* into archival *interpretive plurality*: competing readings may have unequal evidential support, but the system should preserve those differences rather than force a binary winner.
-  - I treat ambiguity as evidence about the state of the historical record. Where sources genuinely conflict or remain incomplete, preserving that unresolved state is an analytical result.
+# My response
 
-- **What question it raises next (1–2 bullets):**
-  - How should Turin represent several interpretations when they are plausible but not equally supported by the available evidence?
-  - Can the inference layer distinguish *conflicting evidence*, *multiple plausible readings*, *insufficient evidence* and *genuine consensus* without reducing them to a single confidence score?
+This paper gives the thesis a particularly strong empirical reason to avoid “winner-takes-all” synthesis. Its importance is not that neutrality is always desirable; rather, model role and interface design materially affect whether ambiguity survives. For DDR, the most defensible move is to preserve competing interpretations with their evidential differences and leave adjudication to the point where the sources actually support it.
 
-# Integration hooks (make it actionable)
+# Integration hooks
 
-- **Where I will cite it (exact paragraph/job):** In the Turin discussion of plural historical inquiry and retrieval-augmented inference, immediately after establishing that synthesis can strengthen claims beyond their evidence. Use Radharapu et al. to show that an additional adjudication step can also convert genuine ambiguity into a definite stance.
-- **Where I will name the title in running text (first-use rule):** “Radharapu et al.'s *Arbiters of Ambivalence* demonstrates that LLMs capable of producing nuanced responses can become markedly more decisive when recast as judges of competing positions.”
-- **Link to my practice evidence (one concrete cross-reference):** Turin Comparative Views / Critical Inquiry: retrieve competing DDR traces → construct separately evidenced interpretations → display agreement, tension or unresolved ambiguity → researcher adjudication where appropriate.
-- **Workstreams →** retrieval-augmented inference; comparative inquiry; scoped missingness; interpretive plurality; researcher-in-the-loop
-- **Deliverables →** Turin methodological argument; thesis S3 critical-method section; comparative-inference UAT
-- **Stakeholders →** archival researchers; historians; digital-humanities researchers; designers of research-facing AI systems
+**Where I will cite it:** Retrieval-augmented inference; comparative views; ambiguity handling; UAT design; researcher-in-the-loop justification.
 
-# Boundary + risk (short, practical)
+**Link to my practice evidence:** The system can separate retrieval, claim construction and final synthesis, allowing competing evidence families to remain visible before any final interpretation.
 
-- **Boundary (1 sentence):** The benchmark constrains disagreement largely to two possible stances and operationalises neutrality through ties or explicit neutral responses, whereas historical interpretation may involve several asymmetrical, temporally situated and unequally evidenced accounts.
-- **Risk if misused (1 sentence):** Treating all disagreement as requiring neutrality would be as problematic as forcing consensus: the authors themselves caution that some no-consensus questions may legitimately require a system to take a position, and disagreement alone does not make competing claims equally warranted.
+**Workstreams →** RAI; comparative inquiry; scoped missingness; interpretive plurality; UAT.  
+**Deliverables →** Methods; evaluation protocol; interface behaviour; limitations.  
+**Stakeholders →** Archival researchers; historians; AI-evaluation researchers.
 
-# Methods spine tags (tick what it actually touches)
+# Boundary + risk
+
+**Boundary:** The benchmark operationalises disagreement largely through two stances and tie/neutral outcomes, whereas historical interpretation may involve several asymmetrical and temporally situated accounts.
+
+**Risk if misused:** Treating all disagreement as equally valid would erase evidential differences just as surely as forced consensus would erase ambiguity.
+
+# Cross-source / cross-lens synthesis
+
+Radharapu et al. extend the computational critique from retrieval into adjudication. Bernard and Balog show that ranking constructs the evidence surface; Asai et al. show that retrieval-augmented synthesis can improve citation-grounded generation but remains bounded by retrieval and synthesis design; Bender et al. warn against treating fluent language as understanding; Portelli and Thomson show that historical testimony itself can sustain meaningful divergence. Together, these sources support a DDR architecture in which retrieval, interpretation and adjudication remain separable and ambiguity is preserved as an evidential state rather than a model failure.
+
+# Methods spine tags
 
 - [x] Framing and theory
 - [x] Study design
@@ -155,24 +180,21 @@ They try to test whether LLMs can preserve human disagreement by moving the same
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
+# Chicago NB payload
 
-- **Key pages to reuse:** pp. 4677–4685, 4694–4700
-- **First full note (write it out here):** Bhaktipriya Radharapu, Manon Revel, Megan Ung, Sebastian Ruder, and Adina Williams, “Arbiters of Ambivalence: Challenges of Using LLMs in No-Consensus Tasks,” in *Findings of the Association for Computational Linguistics: ACL 2025* (2025), 4677–4731.
+- **Key pages to reuse:** 4677–4685, 4696, 4700
+- **First full note:** Bhaktipriya Radharapu, Manon Revel, Megan Ung, Sebastian Ruder, and Adina Williams, “Arbiters of Ambivalence: Challenges of Using LLMs in No-Consensus Tasks,” in *Findings of the Association for Computational Linguistics: ACL 2025* (2025), 4677–4731.
 - **Short note form:** Radharapu et al., “Arbiters of Ambivalence,” [page].
-- **One quote worth lifting (≤2 lines):** “models do not naturally adopt a neutral stance” (p. 4679).
-- **One paraphrase worth keeping:** LLMs that produce nuanced responses in open-ended generation become substantially more decisive when placed in judge or debate roles, while explicit provision for a neutral outcome materially increases preservation of ambiguity. (pp. 4677–4685, 4700)
+- **One quote worth lifting:** “models do not naturally adopt a neutral stance” (p. 4679).
+- **One paraphrase worth keeping:** LLMs that generate nuanced answers often become substantially more decisive when recast as judges or debaters, while explicit neutral options materially increase preservation of ambiguity. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4685]
 
-# Related works (only if it directly connects)
+# Related works
 
-- Pavlick and Kwiatkowski (2019), *Inherent Disagreements in Human Textual Inferences* — important conceptual precursor establishing that disagreement can reflect genuine interpretive variation rather than annotation error.
-- Plank (2022), *The “Problem” of Human Label Variation* — directly relevant to rejecting the assumption that one majority label necessarily constitutes ground truth.
-- Sorensen et al. (2024), *A Roadmap to Pluralistic Alignment* — provides the pluralistic-alignment vocabulary through which Radharapu et al. interpret answer generation, judging and distributional representation.
-- Isch et al. (2026), *Quantifying the Prevalence and Impact of Overreaching Causal Claims in Social Science* — complementary evidence that synthesis can strengthen relations beyond their evidential warrant; Radharapu et al. show that adjudication can separately collapse legitimate ambiguity.
-- Ortolja-Baird and Nyhan (2022), *Encoding the Haunting of an Object Catalogue* — archival counterpart showing why ambiguity, absence and incomplete evidence should be made analytically visible rather than automatically resolved.
-- Qian and Wexler (2024), *Take It, Leave It, or Fix It* — supports retaining active human judgement because users can become behaviourally dependent on AI even when consciously sceptical of it.
+- Bernard and Balog, “A Systematic Review of Fairness, Accountability, Transparency, and Ethics in Information Retrieval.”
+- Bender et al., “On the Dangers of Stochastic Parrots.”
+- Asai et al., “Synthesizing Scientific Literature with Retrieval-Augmented Language Models.”
+- Ortolja-Baird and Nyhan, “Encoding the Haunting of an Object Catalogue.”
 
-# Follow-ups (next actions, not vibes)
+# Follow-ups
 
-- **What I will read next:** Pavlick and Kwiatkowski (2019) or Plank (2022) selectively, because they provide the human-annotation theory beneath the claim that disagreement may constitute meaningful evidence rather than noise to be resolved.
-- **What I will test or write next:** Add a *plurality preservation* test to Turin UAT: construct queries for which DDR sources support competing readings and test whether the system (1) retrieves evidence for each, (2) preserves differences in evidential support, (3) avoids selecting a winner without warrant, and (4) exposes the unresolved relationship to the researcher.
+- **What I will test next:** Build a plurality-preservation UAT set where DDR sources support competing readings and verify that the system preserves evidence for each without forcing unsupported resolution.
