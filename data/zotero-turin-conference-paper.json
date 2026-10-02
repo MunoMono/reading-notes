@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:40:59+00:00",
+  "generated_at": "2026-10-02T09:57:06+00:00",
   "zotero_user_id": "3436801",
   "scope": {
     "root_collection_name": "Turin conference paper",
@@ -23,6 +23,61 @@
     "Turin conference paper / 12 Digitisation, reconstruction and archival completion": 3
   },
   "item_count": 40,
+  "active_reading_count": 39,
+  "container_count": 1,
+  "containers": [
+    {
+      "zotero_item_key": "WNZKFRMU",
+      "version": 8542,
+      "item_type": "book",
+      "title": "Navigating artificial intelligence for cultural heritage organisations",
+      "creators": "Jaillant, Lise; Warwick, C; Gooding, P; Aske, P; Layne- Worthey, G; Downie, J. S.",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "C",
+          "lastName": "Warwick"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Gooding"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "G",
+          "lastName": "Layne- Worthey"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "J. S.",
+          "lastName": "Downie"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "UCL Press",
+      "publication_title": "",
+      "doi": "10.14324/111.9781800088375",
+      "isbn": "9781800088375",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    }
+  ],
   "items": [
     {
       "zotero_item_key": "CMIM3HAW",

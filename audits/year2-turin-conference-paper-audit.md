@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Turin conference paper audit
 
-Generated: 2026-10-02T09:40:59+00:00
+Generated: 2026-10-02T09:57:06+00:00
 
 Scoped to the complete Zotero **Turin conference paper** collection tree. Duplicate/cross-listed sources are matched to one canonical GitHub reading note; a newer theoretical-framework note therefore remains the canonical note rather than being overwritten by an older Turin version.
 
@@ -9,7 +9,7 @@ Scoped to the complete Zotero **Turin conference paper** collection tree. Duplic
 | Status | Count |
 | --- | ---: |
 | COMPLIANT | 20 |
-| SECOND PASS REQUIRED | 20 |
+| SECOND PASS REQUIRED | 19 |
 | FIRST PASS REQUIRED | 0 |
 | REVIEW MATCH | 0 |
 
@@ -42,7 +42,6 @@ Scoped to the complete Zotero **Turin conference paper** collection tree. Duplic
 | Turin conference paper / 01 Synthetic heritage and cultural memory | HARF: a human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering | 2026 | public/docs/A/Arzomand2026HARFHumanAI.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Turin conference paper / 01 Synthetic heritage and cultural memory | Quantifying the prevalence and impact of overreaching causal claims in social science | 2026 | public/docs/I/Isch2026QuantifyingPrevalenceImpact.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Turin conference paper / 02 LLM epistemic risk and persuasive fluency | Do multi-document summarization models <i>synthesize</i> ? | 2024 | public/docs/D/DeYoung2024MultiDocumentSummarizationModels.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Turin conference paper / 03 RAG, retrieval and source attribution | Navigating artificial intelligence for cultural heritage organisations | 2025 | public/docs/J/JaillantNavigatingArtificialIntelligence.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Turin conference paper / 03 RAG, retrieval and source attribution | The national archives (UK) | 2025 | public/docs/J/JaillantNavigatingArtificialIntelligence.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning | ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation | 2025 | public/docs/Z/Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning | RAG+: enhancing retrieval-augmented generation with application-aware reasoning | 2025 | public/docs/W/Wang2025RAGPlusEnhancingRetrievalAugmentedGeneration.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |

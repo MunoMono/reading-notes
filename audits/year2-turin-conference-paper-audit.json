@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:40:59+00:00",
+  "generated_at": "2026-10-02T09:57:06+00:00",
   "scope": {
     "root_collection_name": "Turin conference paper",
     "root_collection_key": "KY66I3S8",
@@ -21,13 +21,68 @@
     "Turin conference paper / 11 Uncertainty and provenance display in interfaces": 3,
     "Turin conference paper / 12 Digitisation, reconstruction and archival completion": 3
   },
+  "containers": [
+    {
+      "zotero_item_key": "WNZKFRMU",
+      "version": 8542,
+      "item_type": "book",
+      "title": "Navigating artificial intelligence for cultural heritage organisations",
+      "creators": "Jaillant, Lise; Warwick, C; Gooding, P; Aske, P; Layne- Worthey, G; Downie, J. S.",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "C",
+          "lastName": "Warwick"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Gooding"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "G",
+          "lastName": "Layne- Worthey"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "J. S.",
+          "lastName": "Downie"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "UCL Press",
+      "publication_title": "",
+      "doi": "10.14324/111.9781800088375",
+      "isbn": "9781800088375",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    }
+  ],
   "summary": {
     "zotero_item_count": 40,
+    "active_reading_count": 39,
+    "container_count": 1,
     "github_note_count_scanned": 84,
     "theoretical_framework_overlap_count": 20,
     "status_counts": {
       "COMPLIANT": 20,
-      "SECOND PASS REQUIRED": 20,
+      "SECOND PASS REQUIRED": 19,
       "FIRST PASS REQUIRED": 0,
       "REVIEW MATCH": 0
     }
@@ -1185,180 +1240,6 @@
         "reasons": []
       },
       "overlaps_theoretical_framework": true
-    },
-    {
-      "status": "SECOND PASS REQUIRED",
-      "item": {
-        "zotero_item_key": "WNZKFRMU",
-        "version": 8542,
-        "item_type": "book",
-        "title": "Navigating artificial intelligence for cultural heritage organisations",
-        "creators": "Jaillant, Lise; Warwick, C; Gooding, P; Aske, P; Layne- Worthey, G; Downie, J. S.",
-        "creators_raw": [
-          {
-            "creatorType": "editor",
-            "firstName": "Lise",
-            "lastName": "Jaillant"
-          },
-          {
-            "creatorType": "editor",
-            "firstName": "C",
-            "lastName": "Warwick"
-          },
-          {
-            "creatorType": "editor",
-            "firstName": "P",
-            "lastName": "Gooding"
-          },
-          {
-            "creatorType": "editor",
-            "firstName": "P",
-            "lastName": "Aske"
-          },
-          {
-            "creatorType": "editor",
-            "firstName": "G",
-            "lastName": "Layne- Worthey"
-          },
-          {
-            "creatorType": "editor",
-            "firstName": "J. S.",
-            "lastName": "Downie"
-          }
-        ],
-        "date": "2025",
-        "year": "2025",
-        "publisher": "UCL Press",
-        "publication_title": "",
-        "doi": "10.14324/111.9781800088375",
-        "isbn": "9781800088375",
-        "url": "",
-        "tags": [],
-        "citation_key": "",
-        "collection_paths": [
-          "Turin conference paper / 03 RAG, retrieval and source attribution"
-        ]
-      },
-      "note_path": "public/docs/J/JaillantNavigatingArtificialIntelligence.md",
-      "match_score": 100,
-      "match_reasons": [
-        "DOI exact",
-        "title + year exact"
-      ],
-      "audit": {
-        "compliant": false,
-        "complete_claims": 0,
-        "claim_checks": {
-          "1": {
-            "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
-          },
-          "2": {
-            "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
-          },
-          "3": {
-            "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
-          },
-          "4": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
-          },
-          "5": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
-          },
-          "6": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
-          }
-        },
-        "synthesis_complete": false,
-        "required_markers": {
-          "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
-          "chicago_payload": true
-        },
-        "reasons": [
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
-        ]
-      },
-      "overlaps_theoretical_framework": false
     },
     {
       "status": "SECOND PASS REQUIRED",
