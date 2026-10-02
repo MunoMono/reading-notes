@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-02T09:27:25+00:00
+Generated: 2026-10-02T09:29:17+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 48 |
-| SECOND PASS REQUIRED | 1 |
+| COMPLIANT | 49 |
+| SECOND PASS REQUIRED | 0 |
 | FIRST PASS REQUIRED | 1 |
 | REVIEW MATCH | 0 |
 
@@ -87,9 +87,7 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 ## SECOND PASS REQUIRED
 
-| Zotero path | Source | Year | Existing note | Why |
-| --- | --- | ---: | --- | --- |
-| Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions | 2025 | public/docs/J/jaillantHowCanWe2025.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
+_None._
 
 ## FIRST PASS REQUIRED
 
@@ -153,6 +151,7 @@ _None._
 | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | Located accountabilities in technology production | 2002 | public/docs/S/Suchman2002LocatedAccountabilities.md | meets current structural and completeness checks |
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | AI, cultural heritage, and bias: some key queries that arise from the use of GenAI | 2024 | public/docs/F/Foka2024AICulturalHeritageBias.md | meets current structural and completeness checks |
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | Ethnic minorities in online museum collections: skews and bias in digital material culture | 2025 | public/docs/K/Kizhner2025EthnicMinoritiesCollections.md | meets current structural and completeness checks |
+| Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions | 2025 | public/docs/J/jaillantHowCanWe2025.md | meets current structural and completeness checks |
 
 ## Repo-only theoretical-framework notes
 
