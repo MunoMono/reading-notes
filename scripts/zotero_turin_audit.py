@@ -134,17 +134,25 @@ def build_md(payload):
 def main():
     generated=dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
     cols=base.load_collections(); root,selected,path_for=select_root(cols)
-    items,counts=base.fetch_items_for_tree(selected,path_for)
+    all_items,counts=base.fetch_items_for_tree(selected,path_for)
+    # Treat edited volumes as bibliographic containers, not duplicate critical readings,
+    # when a Turin bookSection shares the same DOI. The substantive chapter remains
+    # the canonical reading unit.
+    section_dois={x.get("doi") for x in all_items if x.get("item_type")=="bookSection" and x.get("doi")}
+    containers=[x for x in all_items if x.get("item_type")=="book" and x.get("doi") in section_dois]
+    container_keys={x["zotero_item_key"] for x in containers}
+    items=[x for x in all_items if x["zotero_item_key"] not in container_keys]
     notes=base.scan_notes(); results=build(items,notes)
     status=Counter(r["status"] for r in results)
-    manifest={"generated_at":generated,"zotero_user_id":base.USER_ID,"scope":{"root_collection_name":root["name"],"root_collection_key":root["key"],"collection_count":len(selected),"read_only":True},"collection_item_counts":counts,"item_count":len(items),"items":items}
+    manifest={"generated_at":generated,"zotero_user_id":base.USER_ID,"scope":{"root_collection_name":root["name"],"root_collection_key":root["key"],"collection_count":len(selected),"read_only":True},"collection_item_counts":counts,"item_count":len(all_items),"active_reading_count":len(items),"container_count":len(containers),"containers":containers,"items":all_items}
     base.write_json(MANIFEST_PATH,manifest)
     payload={"generated_at":generated,"scope":manifest["scope"],"collection_item_counts":counts,
-             "summary":{"zotero_item_count":len(items),"github_note_count_scanned":len(notes),
+             "containers":containers,
+             "summary":{"zotero_item_count":len(all_items),"active_reading_count":len(items),"container_count":len(containers),"github_note_count_scanned":len(notes),
                         "theoretical_framework_overlap_count":sum(1 for r in results if r.get("overlaps_theoretical_framework")),
                         "status_counts":{s:status.get(s,0) for s in ["COMPLIANT","SECOND PASS REQUIRED","FIRST PASS REQUIRED","REVIEW MATCH"]}},
              "results":results}
     base.write_json(AUDIT_JSON_PATH,payload); AUDIT_MD_PATH.parent.mkdir(parents=True,exist_ok=True); AUDIT_MD_PATH.write_text(build_md(payload),encoding="utf-8")
-    print("Turin audit:",len(items),"items;",", ".join(f"{s}={status.get(s,0)}" for s in ["COMPLIANT","SECOND PASS REQUIRED","FIRST PASS REQUIRED","REVIEW MATCH"]))
+    print("Turin audit:",len(items),"active readings +",len(containers),"container(s);",", ".join(f"{s}={status.get(s,0)}" for s in ["COMPLIANT","SECOND PASS REQUIRED","FIRST PASS REQUIRED","REVIEW MATCH"]))
 
 if __name__=="__main__": main()
