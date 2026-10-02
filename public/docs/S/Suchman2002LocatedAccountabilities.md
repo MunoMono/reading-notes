@@ -3,6 +3,9 @@ title: "Located accountabilities in technology production"
 authors: "Suchman, Lucy"
 year: 2002
 journal: "Scandinavian Journal of Information Systems"
+volume: "14"
+number: "2"
+pages: "91–105"
 citation_key: Suchman2002LocatedAccountabilities
 doi: ""
 url: ""
@@ -10,107 +13,168 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "02 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
-model_strand: "S2"
-model_strand_label: "Bridge text"
-model_subcluster: "S2.1 Bridge text"
+model_strand: "S4"
+model_strand_label: "Feminist + situated knowledge"
+model_subcluster: "S4.1 Located accountability"
 source_type: "Core text"
+theoretical_framework_area_id: "4"
+theoretical_framework_area: "Feminist + situated knowledge"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage"
 project_tags:
+  - "Theoretical framework"
   - "Turin"
-last_updated: "16 Sept 2026, 12:14"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S2 — Bridge text  
-**Sub-cluster:** S2.1 Bridge text  
-**Source type:** Core text  
+---
 
-**Seams to watch (optional, pick 1):**
-- How organisation choices reveal or hide contested knowledge
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 4. Feminist + situated knowledge  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage  
+**Source type:** Core text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- No page cite → write TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a feminist STS bridge text that lets me move from Buckley’s critique of patriarchal design history to a sharper account of accountability, invisible work, and boundary-making in technology production.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Bridge section; it helps me say that contested design knowledge is produced through situated working relations, partial translations, and unevenly visible labour rather than by detached designers acting from nowhere.  
-**Why this term, not alternatives (1–2 lines):** Suchman’s **located accountability** is more useful than generic participation or teamwork language because it names responsibility as tied to position, mediation, and the specific sociomaterial relations through which technologies are made and used.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Suchman where archival material shows boundary work between designers, users, researchers, institutions, or support staff, and where I need to ask who is made responsible, who is rendered invisible, and what forms of knowledge are treated as sufficient.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Suchman writes from feminist STS and CSCW/HCI, drawing on Haraway, Star, participatory design, and workplace studies to rethink technology production as a sociomaterial and political process. The paper emerges from early-2000s debates over participation, systems development, and situated knowledge, but its target is older and broader: the detached, objectivist mythology of professional design itself. `[@Suchman2002LocatedAccountabilities, pp. 91–93]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** Suchman should not be reduced to a general plea for participation. Her stronger intervention is that technology production depends on boundaries, invisible articulation work, and partial translations, so accountability cannot rest on abstract claims of designer authority or neutral expertise. `[@Suchman2002LocatedAccountabilities, pp. 93–95, 100–101]`
+**How this source moves the primary research question forward:** Suchman provides a feminist STS account of how technical knowledge is produced through situated working relations, boundary-crossing, invisible labour and partial translation. This gives the thesis a theoretical basis for reading DDR testamentary traces as products of differentiated relations rather than isolated statements by named designers.
 
-# The author’s main move (1 sentence)
-She reframes technology production as a situated, relational, and accountable practice in order to replace the myth of detached design with a politics of boundary-crossing, partial translation, and responsibility for sociomaterial relations.
+**How this source bears on the secondary question:** Revisiting DDR-period ideas requires attention not only to formal design concepts but also to who produced, translated, maintained, tested and used them, and to which forms of labour became visible or invisible in institutional accounts.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** Suchman is a canonical bridge between feminist situated knowledge and the politics of design practice, directly supporting the thesis's attention to labour, attribution, positionality and researcher accountability.
+
+**Where it sits in my argument:** Canon + intellectual lineage for Feminist + situated knowledge.
+
+**My benchmark for using it:** I will use Suchman where archival evidence shows relations among designers, users, researchers, administrators or support staff, and where my own computational interventions need to be explicitly located rather than presented as neutral.
+
+# Position + moment
+
+Suchman writes from feminist STS, CSCW and HCI, drawing especially on Donna Haraway, Scandinavian participatory design and workplace studies. Her central target is a professional design mythology that separates autonomous designers from abstract users and deletes the sociomaterial relations through which technologies are actually produced and put into use. [@Suchman2002LocatedAccountabilities, pp. 91–96]
+
+# The author’s main move
+
+Suchman replaces “design from nowhere” with located accountability: a feminist politics of technology production grounded in partial, locatable knowledge, boundary-crossing, visible and invisible work, mutual learning and responsibility for what designers learn how to see and build. [@Suchman2002LocatedAccountabilities, pp. 91–101]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Suchman argues that technology production is organised through boundaries that hide the working relations on which technical systems depend.
-- **Evidence (quote/paraphrase + page):** She defines working relations as the “sociomaterial connections that sustain the visible and invisible work required to construct coherent technologies and put them into use,” then argues that the prevailing order of technology production denies these networks in favour of the myth of the lone creator and passive recipients. She says the simple designer/user opposition has gone largely unchallenged, even though it misdescribes the lived reality of systems development and use. `[@Suchman2002LocatedAccountabilities, pp. 91–93]`
-- **Warrant (my words):** This is foundational because it shifts analysis away from isolated designers or finished artefacts and toward the distributed labour, mediations, and relations that make technical systems possible.
-- **So what for my thesis (a reusable sentence):** Suchman helps me read the DDR archive as a record of sociomaterial working relations rather than only a repository of named designers’ ideas or finished institutional outputs.
-- **Practice cross-check:** DDR actors and institutional relationships are surfaced through Semantic Atlas and Comparative Views while retaining source provenance.
+- **Claim (plain):** Technology production depends on visible and invisible working relations that professional design discourse tends to erase.
+- **Author claim:** Suchman defines working relations as sociomaterial connections sustaining the visible and invisible work required to construct coherent technologies and put them into use.
+- **Evidence-supported claim:** Pages 91–92 contrast these networks with the prevailing myth of the lone creator and passive recipient and argue that the simple designer/user opposition misdescribes the lived reality of systems development. [@Suchman2002LocatedAccountabilities, pp. 91–92]
+- **Researcher inference:** DDR authorship and project history should be read through networks of contribution rather than only through named principal designers.
+- **Evidence (quote/paraphrase + page):** Working relations include the sociomaterial connections that make technical systems possible, while professional discourse denies those networks. [@Suchman2002LocatedAccountabilities, pp. 91–92]
+- **Warrant (my words):** If production is distributed, historical attribution based only on formal authorship will systematically underdescribe some contributions.
+- **Boundary:** Suchman’s industrial technology context is not direct evidence of DDR’s labour structure.
+- **Consequence:** The archive analysis should search for acknowledgements, support roles, correspondence, testing and coordination as evidentially distinct contributions.
+- **Practice cross-check:** Compare staff lists, acknowledgements, project files and oral testimony before assigning labour or authorship.
 
 ## Claim 2
-- **Claim (plain):** Suchman rejects “design from nowhere” and argues that responsible design requires located accountability.
-- **Evidence (quote/paraphrase + page):** She describes the prevailing stance as “design from nowhere,” where unlocatable designers intervene on equally unlocatable users. Against that she draws on Haraway to argue for “views from somewhere,” stating that located accountability means identifying one’s participation in the mediations that define technology production and use, analysing how boundaries are constructed and maintained, and becoming “answerable for what we learn how to see” and, as she adds, for “what we learn how to build.” `[@Suchman2002LocatedAccountabilities, pp. 95–97]`
-- **Warrant (my words):** This matters because Suchman is not only critiquing bad epistemology. She is proposing a practical ethics of design in which responsibility depends on recognising one’s own position within networks of production and use.
-- **So what for my thesis:** Suchman gives me a powerful bridge for treating archive activation and interpretation as accountable acts, where I must state my own mediations and not pretend to recover DDR knowledge from a neutral view-from-nowhere.
-- **Practice cross-check:** Accountability in the Turin workflow remains located in the researcher–archive–system relation rather than being displaced onto an apparently autonomous AI output.
+- **Claim (plain):** Objectivity is achieved through situated, partial perspectives rather than a view from nowhere.
+- **Author claim:** Drawing on Haraway, Suchman reframes objectivity as an accomplishment of multiple, located, partial perspectives brought into ongoing debate.
+- **Evidence-supported claim:** Page 92 rejects a single asituated master perspective and emphasises partial translation among power-differentiated communities. [@Suchman2002LocatedAccountabilities, p. 92]
+- **Researcher inference:** The thesis should state the position from which DDR evidence is selected, modelled and interpreted rather than claiming a neutral computational overview.
+- **Evidence (quote/paraphrase + page):** Suchman presents collective knowledge of specifically located perspectives as the route to objectivity. [@Suchman2002LocatedAccountabilities, pp. 92, 96]
+- **Warrant (my words):** Making position visible enables claims to be examined against the conditions under which they were produced.
+- **Boundary:** Situated knowledge is not a licence for treating all interpretations as equally valid.
+- **Consequence:** Computational outputs must remain accountable to source provenance, research choices and evidential limits.
+- **Practice cross-check:** Document corpus boundaries, model choices and researcher-defined evidence routes as part of method.
 
 ## Claim 3
-- **Claim (plain):** Suchman argues that useful technology depends on boundary-crossing, partial translation, and recognition of invisible articulation work rather than hand-offs between closed worlds.
-- **Evidence (quote/paraphrase + page):** She says useful systems must be developed through “deliberate creation of situations that allow for the meeting of different partial knowledges,” and that developers must give up the illusion of control and ask instead how to proceed responsibly. In the conclusion she contrasts a hand-off model of technology stabilization across discontinuous worlds with an alternative based on awareness of the work required to achieve stabilization, partial translations, and “artful integrations” rather than universal standards or domination. `[@Suchman2002LocatedAccountabilities, pp. 94–95, 99–101]`
-- **Warrant (my words):** This is the positive methodological core of the essay. Suchman is saying that design succeeds not by eliminating difference but by working through heterogeneous relations, translations, and local configurations.
-- **So what for my thesis:** Suchman helps me frame contested design knowledge as something generated and stabilised through translation work across different communities, not as a pre-existing body of facts later deposited in the archive.
-- **Practice cross-check:** The situated-accountability, human-judgement, and system-design workstreams retain source provenance as relationships are surfaced across the archive.
+- **Claim (plain):** Useful design requires boundary-crossing and deliberate meetings among different partial knowledges.
+- **Author claim:** Suchman argues that no clean boundary exists between design and use and that useful systems arise through relations between professional designers and situated practitioners.
+- **Evidence-supported claim:** Pages 93–94 describe Scandinavian participatory design and conclude that useful systems require “the deliberate creation of situations that allow for the meeting of different partial knowledges.” [@Suchman2002LocatedAccountabilities, pp. 93–94]
+- **Researcher inference:** DDR design knowledge should be analysed as something negotiated across institutional and professional boundaries rather than as a self-contained body of expert doctrine.
+- **Evidence (quote/paraphrase + page):** Boundary crossing entails entering unfamiliar territory and becoming responsible for locating oneself within extended sociomaterial relations. [@Suchman2002LocatedAccountabilities, p. 94]
+- **Warrant (my words):** Knowledge becomes operational through translation among differently situated participants.
+- **Boundary:** Participation does not automatically equal equitable power or successful design.
+- **Consequence:** The thesis should identify where DDR records evidence translation, disagreement or collaboration across roles.
+- **Practice cross-check:** Use comparative evidence routes to distinguish formal design statements from traces of user/practitioner interaction.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Located accountability:** responsibility grounded in one’s specific position within sociomaterial relations of production and use; I will use this as a method term for reading archive traces and for framing my own interpretative role. `[@Suchman2002LocatedAccountabilities, pp. 96–97]`
-- **Working relations:** the sociomaterial connections that sustain visible and invisible work in the construction and use of technical systems; I will use this to widen the field of relevant archive actors and documents. `[@Suchman2002LocatedAccountabilities, p. 91]`
-- **Design from nowhere:** Suchman’s critique of detached professional design that treats designers and users as abstract opposites; I will use this as a warning against neutralised archive narration. `[@Suchman2002LocatedAccountabilities, pp. 95–96]`
-- **Partial translation:** movement between different communities and knowledges without assuming a universal language; I will use this for both archive interpretation and cross-domain design research. `[@Suchman2002LocatedAccountabilities, pp. 94, 100]`
-- **Artful integration:** the achievement of heterogeneous technical and social fit without subsuming everything into one dominant system; useful for thinking about both design practice and archive reactivation. `[@Suchman2002LocatedAccountabilities, pp. 99–100]`
-- **Invisible work / articulation work:** the often unrecognised labour needed to stabilise technologies across boundaries; I will use this to read support roles, maintenance, editing, coordination, and other undervalued archive traces. `[@Suchman2002LocatedAccountabilities, pp. 91, 94, 100–101]`
+## Claim 4
+- **Claim (plain):** “Design from nowhere” makes responsibility difficult to locate.
+- **Author claim:** Suchman describes professional designers as anonymous and unlocatable actors who define decontextualised users and problems while obscuring their own positions.
+- **Evidence-supported claim:** Page 95 argues that the view from nowhere encourages designers to ignore their positions in the social relations that comprise technical systems and thereby supports the impossibility of specifically locating responsibility. [@Suchman2002LocatedAccountabilities, p. 95]
+- **Researcher inference:** AI-mediated archive interpretation can reproduce “design from nowhere” if model outputs hide who selected the corpus, configured retrieval or framed the question.
+- **Evidence (quote/paraphrase + page):** Suchman asks “Who is doing what to whom here?” and critiques unlocatable designers delivering solutions to unlocatable users. [@Suchman2002LocatedAccountabilities, p. 95]
+- **Warrant (my words):** Responsibility requires identifiable positions, decisions and relationships.
+- **Boundary:** Not every abstraction or generalisation is irresponsible; the issue is whether mediations are concealed.
+- **Consequence:** The DDR system should expose researcher and system interventions instead of attributing authority to an autonomous “AI.”
+- **Practice cross-check:** Keep source policies, retrieval rules, model versions and research decisions attributable.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a strong feminist STS language for accountability, invisible work, and boundary-crossing.
-  - It is an excellent bridge between Buckley’s historiographic critique and my archive method.
-  - It helps me connect DDR’s institutional traces to later critiques of designer authority and user abstraction.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat the DDR archive less as a storehouse of stable design knowledge and more as evidence of situated working relations and contested accountabilities.
-  - I will use Suchman to make my own interpretative and computational methods more explicitly accountable.
-- **What question it raises next (1–2 bullets):**
-  - Which DDR documents best reveal invisible articulation work and partial translations across institutional boundaries?
-  - How can I make my own archive activation practices answerable without collapsing into self-description or method theatre?
+## Claim 5
+- **Claim (plain):** Professional categories can hide the interpretive labour of lower-status or less visible workers.
+- **Author claim:** In the law-firm case, Suchman shows that “users” are heterogeneous and that status hierarchies can render some work literally and conceptually invisible.
+- **Evidence-supported claim:** Page 98 describes litigation-support workers whose document coding was characterised by attorneys as “mindless labor,” while direct observation revealed substantial interpretive and judgmental work. [@Suchman2002LocatedAccountabilities, p. 98]
+- **Researcher inference:** DDR role labels may similarly conceal interpretive, technical, clerical or coordination labour that materially shaped projects.
+- **Evidence (quote/paraphrase + page):** The document analysts’ work involved translations and transformations between paper and electronic media requiring interpretation and judgment. [@Suchman2002LocatedAccountabilities, p. 98]
+- **Warrant (my words):** Institutional status labels can misdescribe the epistemic content of work.
+- **Boundary:** The law-firm hierarchy cannot be mapped directly onto DDR staff or students without evidence.
+- **Consequence:** Feminist analysis should test what kinds of labour are described, credited, omitted or naturalised in DDR documentation.
+- **Practice cross-check:** Compare role titles against documented actions before inferring contribution from occupational label alone.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the bridge section where I move from feminist design-history critique to feminist STS, and in the methods chapter where I justify an accountable, situated reading of archive traces and visual/computational outputs.
-- **Where I will name the title in running text (first-use rule):** First mention in the bridge section: *In “Located Accountabilities in Technology Production” (2002), Lucy Suchman argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside Semantic Atlas and Comparative Views, which surface DDR actors and institutional relationships with source provenance retained.
-- **Workstreams →** Bridge text; archive interpretation; feminist critique; methods framing; computational activation.
-- **Deliverables →** Bridge section draft; methods paragraph on accountability; footnote trail linking Buckley to Suchman; archive-reading rationale.
-- **Stakeholders →** Examiners; supervisors; design history readers; feminist STS readers; digital humanities readers.
+## Claim 6
+- **Claim (plain):** Located accountability culminates in partial translation, heterogeneity and visible articulation work rather than seamless hand-off.
+- **Author claim:** Suchman closes by proposing five principles: recognise visible/invisible work, understand use as recontextualisation, accept limited control, integrate through partial translations and value heterogeneity through “artful integration.”
+- **Evidence-supported claim:** Pages 99–101 contrast a hand-off model across discontinuous worlds with a practice that acknowledges the articulation work required at each boundary and the partial translations needed to stabilise technology. [@Suchman2002LocatedAccountabilities, pp. 99–101]
+- **Researcher inference:** DDR computational activation should integrate heterogeneous evidence without forcing it into one universal descriptive language or synthesis.
+- **Evidence (quote/paraphrase + page):** Suchman explicitly notes that articulation work at boundary crossings is largely invisible and advocates artful integration over homogeneity and domination. [@Suchman2002LocatedAccountabilities, pp. 100–101]
+- **Warrant (my words):** Heterogeneous evidence becomes accountable when translation work remains visible rather than disappearing behind a unified output.
+- **Boundary:** Heterogeneity does not preclude standardisation where standards are useful and transparent.
+- **Consequence:** The thesis should preserve distinctions among catalogue metadata, contemporary records, retrospective testimony and generated synthesis.
+- **Practice cross-check:** Maintain separate evidence types and provenance bindings instead of flattening all traces into one confidence score.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This text is strongest as a feminist STS framework for reading technology production and accountability, but it is not direct historical evidence about DDR itself.
-- **Risk if misused (1 sentence):** If I apply Suchman too loosely, I could turn every archive relation into a generic story of boundary-crossing and lose the specific institutional and historical texture of the DDR materials.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Located accountability:** responsibility grounded in one's specific position within sociomaterial relations of production and use. [@Suchman2002LocatedAccountabilities, pp. 96–97]
+- **Working relations:** sociomaterial connections sustaining visible and invisible work in technology production/use. [@Suchman2002LocatedAccountabilities, p. 91]
+- **Design from nowhere:** detached professional design that obscures designers’ own location and constructs abstract users. [@Suchman2002LocatedAccountabilities, p. 95]
+- **Partial translation:** movement among different knowledges without imposing one universal language. [@Suchman2002LocatedAccountabilities, pp. 94, 97, 100]
+- **Artful integration:** heterogeneous technical and social fit achieved without subsuming difference into one dominant system. [@Suchman2002LocatedAccountabilities, pp. 99–101]
+- **Articulation work:** often invisible labour required to make boundary crossings and hand-offs function. [@Suchman2002LocatedAccountabilities, pp. 100–101]
+
+# My response
+
+Suchman gives the thesis a way to connect feminist epistemology to concrete practices of design, attribution and method. Her strongest contribution is not simply “participation,” but the insistence that responsibility follows from locating the relations and translations through which knowledge and technology are produced. For DDR, this makes invisible work, differentiated role, boundary-crossing and the researcher’s own computational interventions legitimate objects of analysis.
+
+# Integration hooks
+
+**Where I will cite it:** Feminist/situated framework; gendered and invisible labour; methodological positionality; accountability of computational intervention.
+
+**Link to my practice evidence:** Semantic and retrieval views can surface relations among DDR actors, but the thesis must retain role, action and provenance distinctions rather than turning proximity into contribution.
+
+**Workstreams →** feminist critique; attribution; situated knowledge; computational accountability.  
+**Deliverables →** Theoretical framework; methods; feminist UAT; discussion of labour and authorship.  
+**Stakeholders →** Examiners; design historians; feminist STS readers; archivists.
+
+# Boundary + risk
+
+**Boundary:** Suchman theorises technology production and workplace relations rather than the historical DDR archive itself.
+
+**Risk if misused:** A generic story of invisible labour or boundary-crossing could be imposed on DDR records without demonstrating the specific people, actions and institutional relations involved.
+
+# Cross-source / cross-lens synthesis
+
+Suchman connects Buckley’s feminist critique of design historiography to the thesis’s archival and computational methods. Buckley asks how historiographic rules exclude women and particular forms of labour; Cifor and Wood extend feminist responsibility into archival practice; Schwartz and Cook show that archival mediation shapes memory; Bender et al. make situated responsibility relevant to computational systems. Suchman provides the hinge: knowledge, design and technology are produced from located positions through working relations and partial translations. For DDR, activation therefore means making relations legible without pretending that either the archive or the researcher occupies a view from nowhere.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [ ] Data collection and instruments
@@ -118,11 +182,21 @@ She reframes technology production as a situated, relational, and accountable pr
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 91–95, 96–97, 99–101
-- **First full note (write it out here):**  
-  Lucy Suchman, “Located Accountabilities in Technology Production,” *Scandinavian Journal of Information Systems* 14, no. 2 (2002): 91–105.
-- **Short note form:**  
-  Suchman, “Located Accountabilities in Technology Production,” 91–97.
-- **One quote worth lifting (≤2 lines):** “answerable for what we learn how to see” and “what we learn how to build.” (p. 96)
-- **One paraphrase worth keeping:** Suchman argues that technology production should be understood as a boundary-crossing sociomaterial practice grounded in partial knowledges, invisible work, and located accountability rather than in detached designer authority or simple designer/user oppositions. (pp. 91–97, 99–101)
+# Chicago NB payload
+
+- **Key pages to reuse:** 91–101
+- **First full note:** Lucy Suchman, “Located Accountabilities in Technology Production,” *Scandinavian Journal of Information Systems* 14, no. 2 (2002): 91–105.
+- **Short note form:** Suchman, “Located Accountabilities,” [page].
+- **One quote worth lifting:** “answerable for what we learn how to see” and, Suchman adds, “what we learn how to build” (p. 96).
+- **One paraphrase worth keeping:** Technology production is sustained by situated working relations, invisible articulation work and partial translations whose locations and responsibilities should be made explicit rather than hidden behind detached designer authority. [@Suchman2002LocatedAccountabilities, pp. 91–101]
+
+# Related works
+
+- Buckley, “Made in Patriarchy.”
+- Cifor and Wood, “Critical Feminism in the Archives.”
+- Haraway, “Situated Knowledges.”
+- Bender et al., “On the Dangers of Stochastic Parrots.”
+
+# Follow-ups
+
+- **What I will test next:** Identify DDR examples where formal role labels obscure the actual distribution of interpretive, technical or coordination work.
