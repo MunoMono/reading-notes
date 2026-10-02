@@ -86,37 +86,37 @@ They try to make AI-generated cultural-heritage content methodologically account
 # Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Visually persuasive generative outputs can remain historically unreliable.
+- **Author claim:** Visually persuasive generative outputs can remain historically unreliable.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** The authors argue that increasing visual sophistication has not been matched by safeguards for historical veracity and that apparently persuasive outputs may contain stylistic inaccuracies, anachronisms and documentary inconsistencies. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371]` Their comparison of seven AI-generated Corinthian capitals in Figs. 1 and 2 shows recurrent proportional distortions, stylistic hybridisations and historically inappropriate details. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 371]`
+- **Warrant (my words):** Representational coherence and historical validity are separate properties. A generated artefact may look convincing while introducing features that the historical evidence does not support.
 - **Boundary:** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Fluency and representational plausibility cannot serve as proxies for historical warrant; AI-mediated interpretations require independent scrutiny against the evidence from which they claim to derive.
+- **Practice cross-check:** Turin research queries: a coherent generated relationship between DDR people, ideas or events is not accepted because it reads plausibly; the cited archival traces must actually support the relation.
 
 ## Claim 2
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Historical validation should explicitly include documentary justification, traceability and uncertainty rather than relying on output quality alone.
+- **Author claim:** Historical validation should explicitly include documentary justification, traceability and uncertainty rather than relying on output quality alone.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** The paper identifies five core parameters for rigorous digital-heritage assessment, including historical rigour grounded in “source identification, documentary justification, and explicit levels of interpretive certainty”, together with transparency and traceability through methods, metadata and paradata. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]`
+- **Warrant (my words):** Evaluation therefore concerns the evidential status and provenance of a representation as well as its formal qualities. A historically responsible system must expose why an output is warranted and where certainty ends.
 - **Boundary:** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Retrieval-augmented inference should make source identification, documentary justification and the limits of interpretive certainty visible as part of the research output rather than treating provenance as a secondary technical record.
+- **Practice cross-check:** Turin citations expose source passages and metadata, while scoped missingness states where the defined DDR evidence surface does not support a stronger conclusion.
 
 ## Claim 3
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Expert judgement and computational evaluation can be combined, but automated assessment remains subordinate to human historical scrutiny.
+- **Author claim:** Expert judgement and computational evaluation can be combined, but automated assessment remains subordinate to human historical scrutiny.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** The proposed Evaluation phase combines independent interdisciplinary expert assessment with multimodal AI review across five dimensions. The authors state explicitly that automated evaluation “does not replace expert input” but operates as a secondary validation layer. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376]` Figure 7 on p. 379 places expert and digital evaluation in parallel within the Evaluation stage before statistical and thematic analysis.
+- **Warrant (my words):** Computational cross-checking can identify convergences or discrepancies, but the same class of generative systems being evaluated cannot independently determine historical truth. Human expertise remains necessary to interpret evidential adequacy and contextual significance.
 - **Boundary:** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Computational validation can support archival interpretation by surfacing consistency, contradiction and provenance, while responsibility for deciding what the evidence warrants remains with the researcher.
+- **Practice cross-check:** Turin workflow: retrieval and model-assisted synthesis can structure and compare traces, but researcher review of quotation, provenance, chronology and archival context remains necessary before historical interpretation is accepted.
 
 ## Claim 4
 - **Claim (plain):** A controlled generation protocol can reduce researcher selection effects before evaluation begins.
