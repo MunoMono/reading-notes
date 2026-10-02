@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Turin conference paper audit
 
-Generated: 2026-10-02T10:08:40+00:00
+Generated: 2026-10-02T10:12:23+00:00
 
 Scoped to the complete Zotero **Turin conference paper** collection tree. Duplicate/cross-listed sources are matched to one canonical GitHub reading note; a newer theoretical-framework note therefore remains the canonical note rather than being overwritten by an older Turin version.
 
@@ -8,8 +8,8 @@ Scoped to the complete Zotero **Turin conference paper** collection tree. Duplic
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 20 |
-| SECOND PASS REQUIRED | 19 |
+| COMPLIANT | 23 |
+| SECOND PASS REQUIRED | 16 |
 | FIRST PASS REQUIRED | 0 |
 | REVIEW MATCH | 0 |
 
@@ -38,9 +38,6 @@ Scoped to the complete Zotero **Turin conference paper** collection tree. Duplic
 
 | Zotero path | Source | Year | Canonical note | TF overlap | Why |
 | --- | --- | ---: | --- | --- | --- |
-| Turin conference paper / 01 Synthetic heritage and cultural memory | A methodological protocol for the generation and evaluation of AI-generated cultural heritage content | 2026 | public/docs/G/Galindo-Duran2026MethodologicalProtocolGeneration.md | no | only 3/6 claims pass completeness check |
-| Turin conference paper / 01 Synthetic heritage and cultural memory | HARF: a human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering | 2026 | public/docs/A/Arzomand2026HARFHumanAI.md | no | only 3/6 claims pass completeness check |
-| Turin conference paper / 01 Synthetic heritage and cultural memory | Quantifying the prevalence and impact of overreaching causal claims in social science | 2026 | public/docs/I/Isch2026QuantifyingPrevalenceImpact.md | no | only 3/6 claims pass completeness check |
 | Turin conference paper / 02 LLM epistemic risk and persuasive fluency | Do multi-document summarization models <i>synthesize</i> ? | 2024 | public/docs/D/DeYoung2024MultiDocumentSummarizationModels.md | no | only 3/6 claims pass completeness check |
 | Turin conference paper / 03 RAG, retrieval and source attribution | The national archives (UK) | 2025 | public/docs/J/JaillantNavigatingArtificialIntelligence.md | no | only 3/6 claims pass completeness check |
 | Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning | ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation | 2025 | public/docs/Z/Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration.md | no | only 5/6 claims pass completeness check |
@@ -70,7 +67,10 @@ _None._
 
 | Zotero path | Source | Year | Canonical note | TF overlap | Why |
 | --- | --- | ---: | --- | --- | --- |
+| Turin conference paper / 01 Synthetic heritage and cultural memory | A methodological protocol for the generation and evaluation of AI-generated cultural heritage content | 2026 | public/docs/G/Galindo-Duran2026MethodologicalProtocolGeneration.md | no | meets Year 2 six-claim standard |
 | Turin conference paper / 01 Synthetic heritage and cultural memory | Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history | 2026 | public/docs/S/Selyshcheva2026GenerativeAIHistorical.md | yes | meets Year 2 six-claim standard |
+| Turin conference paper / 01 Synthetic heritage and cultural memory | HARF: a human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering | 2026 | public/docs/A/Arzomand2026HARFHumanAI.md | no | meets Year 2 six-claim standard |
+| Turin conference paper / 01 Synthetic heritage and cultural memory | Quantifying the prevalence and impact of overreaching causal claims in social science | 2026 | public/docs/I/Isch2026QuantifyingPrevalenceImpact.md | no | meets Year 2 six-claim standard |
 | Turin conference paper / 01 Synthetic heritage and cultural memory | Synthetic heritage: online platforms, deceptive genealogy and the ethics of algorithmically generated memory | 2024 | public/docs/N/NietoMcAvoy2024SyntheticHeritageOnline.md | yes | meets Year 2 six-claim standard |
 | Turin conference paper / 02 LLM epistemic risk and persuasive fluency | Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks | 2025 | public/docs/R/RadharapuArbitersAmbivalenceChallenges.md | yes | meets Year 2 six-claim standard |
 | Turin conference paper / 02 LLM epistemic risk and persuasive fluency | On the dangers of stochastic parrots: can language models be too big? 🦜 | 2021 | public/docs/B/Bender2021DangersStochasticParrots.md | yes | meets Year 2 six-claim standard |

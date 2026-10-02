@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:08:40+00:00",
+  "generated_at": "2026-10-02T10:12:23+00:00",
   "scope": {
     "root_collection_name": "Turin conference paper",
     "root_collection_key": "KY66I3S8",
@@ -81,15 +81,15 @@
     "github_note_count_scanned": 84,
     "theoretical_framework_overlap_count": 20,
     "status_counts": {
-      "COMPLIANT": 20,
-      "SECOND PASS REQUIRED": 19,
+      "COMPLIANT": 23,
+      "SECOND PASS REQUIRED": 16,
       "FIRST PASS REQUIRED": 0,
       "REVIEW MATCH": 0
     }
   },
   "results": [
     {
-      "status": "SECOND PASS REQUIRED",
+      "status": "COMPLIANT",
       "item": {
         "zotero_item_key": "CMIM3HAW",
         "version": 7597,
@@ -133,32 +133,23 @@
         "title + year exact"
       ],
       "audit": {
-        "compliant": false,
-        "complete_claims": 3,
+        "compliant": true,
+        "complete_claims": 6,
         "claim_checks": {
           "1": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "2": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "3": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "4": {
             "present": true,
@@ -184,9 +175,7 @@
           "synthesis_section": true,
           "chicago_payload": true
         },
-        "reasons": [
-          "only 3/6 claims pass completeness check"
-        ]
+        "reasons": []
       },
       "overlaps_theoretical_framework": false
     },
@@ -272,7 +261,7 @@
       "overlaps_theoretical_framework": true
     },
     {
-      "status": "SECOND PASS REQUIRED",
+      "status": "COMPLIANT",
       "item": {
         "zotero_item_key": "TU5SUA8E",
         "version": 8584,
@@ -316,32 +305,23 @@
         "title + year exact"
       ],
       "audit": {
-        "compliant": false,
-        "complete_claims": 3,
+        "compliant": true,
+        "complete_claims": 6,
         "claim_checks": {
           "1": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "2": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "3": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "4": {
             "present": true,
@@ -367,14 +347,12 @@
           "synthesis_section": true,
           "chicago_payload": true
         },
-        "reasons": [
-          "only 3/6 claims pass completeness check"
-        ]
+        "reasons": []
       },
       "overlaps_theoretical_framework": false
     },
     {
-      "status": "SECOND PASS REQUIRED",
+      "status": "COMPLIANT",
       "item": {
         "zotero_item_key": "5VWYHG4S",
         "version": 7604,
@@ -428,32 +406,23 @@
         "title + year exact"
       ],
       "audit": {
-        "compliant": false,
-        "complete_claims": 3,
+        "compliant": true,
+        "complete_claims": 6,
         "claim_checks": {
           "1": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "2": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "3": {
             "present": true,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Practice cross-check",
-              "page reference or TODO"
-            ]
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "4": {
             "present": true,
@@ -479,9 +448,7 @@
           "synthesis_section": true,
           "chicago_payload": true
         },
-        "reasons": [
-          "only 3/6 claims pass completeness check"
-        ]
+        "reasons": []
       },
       "overlaps_theoretical_framework": false
     },
