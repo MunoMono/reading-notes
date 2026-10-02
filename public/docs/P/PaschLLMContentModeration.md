@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -46,7 +46,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -81,31 +81,73 @@ Conversational systems are frequently evaluated through a norm of responsiveness
 
 They try to quantify the user cost of LLM boundary-setting by distinguishing ethical and technical refusals from qualified disclaimers and analysing how those response types affect nearly 50,000 real-world pairwise user preferences.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Users strongly penalise outright refusals compared with responses that attempt to answer.
-- **Evidence (quote/paraphrase + page):** Across 49,938 Chatbot Arena comparisons, normal responses achieved a 36% win rate, compared with 8% for ethical refusals and 16% for technical refusals. When an ethical refusal was directly paired with a normal response, its win rate fell to 4%. `[@PaschLLMContentModeration, pp. 16–18]` Figure 2 on p. 17 makes this contrast particularly visible.
-- **Warrant (my words):** Conversational users reward responsiveness and task completion. A boundary expressed simply as non-performance therefore competes with an established expectation that the assistant should attempt to help.
-- **So what for my thesis (a reusable sentence):** Evidential non-completion in an archival research system should be communicated as a substantive research outcome rather than as an unexplained conversational refusal.
-- **Practice cross-check:** Turin scoped missingness: instead of terminating with “I cannot answer”, the system should state that the defined corpus does not establish the relationship and then surface the nearest relevant archival traces and their provenance.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Pasch studies safety- and capability-based refusals in general-purpose LLM interactions, not evidence-bounded historical research, so the refusal penalty cannot be assumed to apply identically to archival statements of uncertainty or missingness.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Users are more accepting of boundary-setting when the system continues to provide qualified assistance rather than refusing outright.
-- **Evidence (quote/paraphrase + page):** Pasch distinguishes refusals, which withhold meaningful engagement with the requested task, from disclaimers, which identify a limitation but continue with a partial, hypothetical or qualified response. `[@PaschLLMContentModeration, pp. 9–11]` In the Arena data, disclaimer responses were penalised substantially less than outright refusals; ethical disclaimers achieved an overall 38% win rate, compared with 8% for ethical refusals. `[@PaschLLMContentModeration, pp. 16–17]`
-- **Warrant (my words):** Boundary-setting does not have to terminate inquiry. A system can preserve the epistemic limit while remaining useful by explaining what it can responsibly provide within that limit.
-- **So what for my thesis:** Scoped missingness should combine evidential restraint with continued assistance: state the unsupported claim, identify the boundary and return whatever relevant evidence can still be established.
-- **Practice cross-check:** Turin: a failed attribution query can return “the available corpus does not establish authorship”, followed by dated references, adjacent testimony and potentially conflicting records, without converting any of those traces into a definitive attribution.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Pasch studies safety- and capability-based refusals in general-purpose LLM interactions, not evidence-bounded historical research, so the refusal penalty cannot be assumed to apply identically to archival statements of uncertainty or missingness.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Pasch studies safety- and capability-based refusals in general-purpose LLM interactions, not evidence-bounded historical research, so the refusal penalty cannot be assumed to apply identically to archival statements of uncertainty or missingness.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** The presentation of a boundary affects how users respond to it.
-- **Evidence (quote/paraphrase + page):** Among ethical refusals, greater semantic alignment with the user's prompt was associated with higher win rates, while a one-standard-deviation increase in response length corresponded to a nine-percentage-point increase in win rate. `[@PaschLLMContentModeration, pp. 18–19]` Pasch interprets this as evidence that generic refusals are received less favourably than responses that contextualise the limitation, explain it or offer constructive alternatives. `[@PaschLLMContentModeration, pp. 21–23]`
-- **Warrant (my words):** Users respond not simply to the existence of a limit but to whether the system demonstrates that it has understood the specific request and can explain why the boundary applies.
-- **So what for my thesis:** An evidential limit should be specific to the research question and evidence surface: the system should explain exactly what cannot be established and why, rather than falling back to generic uncertainty language.
-- **Practice cross-check:** Turin scoped-missingness UAT: distinguish “no relevant evidence retrieved”, “relevant but insufficient evidence”, and “conflicting evidence”, with each producing a contextual explanation tied to the actual archival material.
+## Claim 4
+- **Claim (plain):** Users penalise ethically motivated refusals more strongly than ordinary or technical non-answers.
+- **Author claim:** Pasch identifies a statistically significant 'refusal penalty' in Chatbot Arena preferences, especially for safety/ethical refusals.
+- **Evidence-supported claim:** Ethical refusals receive lower win rates than technical refusals and standard responses.
+- **Researcher inference:** DDR missingness responses may be judged negatively if they appear moralising or arbitrary rather than evidentially necessary.
+- **Evidence (quote/paraphrase + page):** Across the Chatbot Arena sample, refusals due to ethical concerns receive significantly lower preference than technical refusals and ordinary responses. `[@PaschLLMContentModeration, pp. 1, 12–14]`
+- **Warrant (my words):** Users interpret the reason for non-compliance, not merely the absence of an answer.
+- **Boundary:** Safety moderation and historical evidential insufficiency are different phenomena and should not be conflated.
+- **Consequence:** Scoped-missingness language should explain the corpus/evidence reason for withholding a claim rather than sound like a generic refusal.
+- **Practice cross-check:** Return 'the defined corpus does not establish X' with nearest traces and source scope, not a bare 'I cannot answer'.
+
+## Claim 5
+- **Claim (plain):** Refusal acceptability depends on context and presentation.
+- **Author claim:** The study finds that refusals are received more favourably for highly sensitive prompts and when explanations are detailed and contextually aligned.
+- **Evidence-supported claim:** The refusal penalty is heterogeneous rather than universal.
+- **Researcher inference:** DDR abstention should be designed as a useful research response whose rationale is proportionate to the question.
+- **Evidence (quote/paraphrase + page):** Pasch reports that refusals are evaluated more favourably when the prompt is highly sensitive and when the refusal is more detailed and contextually aligned. `[@PaschLLMContentModeration, pp. 14–18]`
+- **Warrant (my words):** Users are more likely to accept a boundary when they can understand why it applies.
+- **Boundary:** The observed effect concerns safety refusals in a general-purpose chatbot arena, not evidence-bounded research systems.
+- **Consequence:** Missingness responses should identify the evidential boundary and, where possible, show what can still be established.
+- **Practice cross-check:** Pair abstention with nearest relevant traces, alternative formulations or a statement of what additional evidence would be needed.
+
+## Claim 6
+- **Claim (plain):** Safety, helpfulness and user satisfaction can conflict, so refusal policy is a design trade-off rather than a single optimisation target.
+- **Author claim:** Pasch concludes that alignment behaviours may reduce preference and calls for adaptive moderation sensitive to context and phrasing.
+- **Evidence-supported claim:** The study frames refusal quality as a sociotechnical problem involving both safety goals and conversational expectations.
+- **Researcher inference:** DDR should optimise for evidential responsibility even when bounded answers are less satisfying than confident completion.
+- **Evidence (quote/paraphrase + page):** The paper characterises a core tension between safety-aligned behaviour and user expectations and argues for more adaptive, context-aware moderation strategies. `[@PaschLLMContentModeration, pp. 1, 20–22]`
+- **Warrant (my words):** A system can be more responsible while being less immediately gratifying to the user.
+- **Boundary:** User preference is not a measure of historical truth or archival ethics.
+- **Consequence:** The thesis should not treat user satisfaction as the primary success criterion for answers that appropriately preserve limits.
+- **Practice cross-check:** In UAT, count correctly bounded non-answers as passes even if they are less fluent or satisfying than speculative answers.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -143,6 +185,10 @@ They try to quantify the user cost of LLM boundary-setting by distinguishing eth
 
 - **Boundary (1 sentence):** Pasch studies safety- and capability-based refusals in general-purpose LLM interactions, not evidence-bounded historical research, so the refusal penalty cannot be assumed to apply identically to archival statements of uncertainty or missingness.
 - **Risk if misused (1 sentence):** Using the refusal penalty to justify answering whenever possible would invert the methodological lesson for historical research, where user satisfaction must remain subordinate to evidential warrant.
+
+# Cross-source / cross-lens synthesis
+
+Pasch helps explain the interactional cost of the thesis's scoped-missingness principle. DeYoung supports abstention when synthesis cannot represent the evidence; Zaagsma shows why digital absence must be carefully scoped; Grimes shows that expectations frame evaluations. Pasch adds that users distinguish reasons and presentation for refusals. DDR should therefore make abstention informative and evidentially specific, while resisting the temptation to trade historical warrant for a more satisfying completed narrative.
 
 # Methods spine tags (tick what it actually touches)
 
