@@ -85,37 +85,37 @@ They try to make generative heritage reconstruction historically defensible by c
 # Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Generative heritage systems produce a credibility problem when visually persuasive outputs exceed the historical evidence supporting them.
+- **Author claim:** Generative heritage systems produce a credibility problem when visually persuasive outputs exceed the historical evidence supporting them.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** Arzomand et al. describe a “credibility gap” between visual plausibility and historical authenticity, identifying stylistic drift, historical anachronism and cultural misrepresentation as recurring risks in generative reconstruction. `[@Arzomand2026HARFHumanAI, p. 2]`
+- **Warrant (my words):** A generated object can look coherent without being historically warranted. Fluency or realism therefore cannot function as evidence of historical validity.
 - **Boundary:** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** In computationally activated archives, representational plausibility must remain subordinate to the evidential status of the traces from which an interpretation is produced.
+- **Practice cross-check:** Turin experiment: the research interface separates retrieved documentary passages, archival metadata, later testimony and generated synthesis so that a fluent answer cannot silently acquire the status of recovered historical fact.
 
 ## Claim 2
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Evidential boundaries can be designed into a generative workflow rather than appended as a disclaimer after generation.
+- **Author claim:** Evidential boundaries can be designed into a generative workflow rather than appended as a disclaimer after generation.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** HARF admits only elements supported by verifiable documentation into its operational layers, records uncertainty as paradata and leaves features with insufficient evidence indeterminate; the authors describe this as establishing an evidentiary boundary between reconstruction and speculation. `[@Arzomand2026HARFHumanAI, p. 3]`
+- **Warrant (my words):** The important methodological move happens before and during generation. Source scope, admissible evidence and uncertainty are part of the computational procedure itself.
 - **Boundary:** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Evidential restraint can be treated as system architecture: the available corpus defines what inference may responsibly establish, while unsupported relations remain unresolved.
+- **Practice cross-check:** Turin *scoped missingness*: closure, reception and attribution queries explicitly report what the defined digitised DDR evidence surface does not establish rather than filling the missing relation.
 
 ## Claim 3
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Human expertise remains necessary because computational measures cannot determine cultural or historical adequacy on their own.
+- **Author claim:** Human expertise remains necessary because computational measures cannot determine cultural or historical adequacy on their own.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** Several reconstructions that scored well computationally were rejected during expert review, and the authors state that this exposed the limits of algorithmic metrics and the continuing need for informed human judgement. `[@Arzomand2026HARFHumanAI, p. 5]` The paper later notes that PSI measures schema completeness rather than completeness of the historical record. `[@Arzomand2026HARFHumanAI, p. 10]`
+- **Warrant (my words):** A system can test compliance with encoded constraints while remaining unable to judge whether the underlying evidence is sufficient, culturally appropriate or historically complete.
 - **Boundary:** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Researcher judgement is constitutive of archival inference because computational consistency cannot determine whether a surviving trace warrants a historical claim.
+- **Practice cross-check:** Turin protocol: the researcher defines questions and retrieval routes, reads returned evidence and validates quotation provenance; deterministic fallback is used where generative synthesis exceeds the permitted evidence structure.
 
 ## Claim 4
 - **Claim (plain):** Prompt sufficiency can be tested before generation rather than judged only after an image has been produced.
