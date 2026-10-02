@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -48,7 +48,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -83,31 +83,73 @@ The protocol assumes that historical veracity can be operationalised through com
 
 They try to make AI-generated cultural-heritage content methodologically accountable by standardising generation, expert evaluation, automated cross-checking and subsequent analysis within a traceable and reproducible protocol.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Visually persuasive generative outputs can remain historically unreliable.
-- **Evidence (quote/paraphrase + page):** The authors argue that increasing visual sophistication has not been matched by safeguards for historical veracity and that apparently persuasive outputs may contain stylistic inaccuracies, anachronisms and documentary inconsistencies. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371]` Their comparison of seven AI-generated Corinthian capitals in Figs. 1 and 2 shows recurrent proportional distortions, stylistic hybridisations and historically inappropriate details. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 371]`
-- **Warrant (my words):** Representational coherence and historical validity are separate properties. A generated artefact may look convincing while introducing features that the historical evidence does not support.
-- **So what for my thesis (a reusable sentence):** Fluency and representational plausibility cannot serve as proxies for historical warrant; AI-mediated interpretations require independent scrutiny against the evidence from which they claim to derive.
-- **Practice cross-check:** Turin research queries: a coherent generated relationship between DDR people, ideas or events is not accepted because it reads plausibly; the cited archival traces must actually support the relation.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Historical validation should explicitly include documentary justification, traceability and uncertainty rather than relying on output quality alone.
-- **Evidence (quote/paraphrase + page):** The paper identifies five core parameters for rigorous digital-heritage assessment, including historical rigour grounded in “source identification, documentary justification, and explicit levels of interpretive certainty”, together with transparency and traceability through methods, metadata and paradata. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]`
-- **Warrant (my words):** Evaluation therefore concerns the evidential status and provenance of a representation as well as its formal qualities. A historically responsible system must expose why an output is warranted and where certainty ends.
-- **So what for my thesis:** Retrieval-augmented inference should make source identification, documentary justification and the limits of interpretive certainty visible as part of the research output rather than treating provenance as a secondary technical record.
-- **Practice cross-check:** Turin citations expose source passages and metadata, while scoped missingness states where the defined DDR evidence surface does not support a stronger conclusion.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Expert judgement and computational evaluation can be combined, but automated assessment remains subordinate to human historical scrutiny.
-- **Evidence (quote/paraphrase + page):** The proposed Evaluation phase combines independent interdisciplinary expert assessment with multimodal AI review across five dimensions. The authors state explicitly that automated evaluation “does not replace expert input” but operates as a secondary validation layer. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376]` Figure 7 on p. 379 places expert and digital evaluation in parallel within the Evaluation stage before statistical and thematic analysis.
-- **Warrant (my words):** Computational cross-checking can identify convergences or discrepancies, but the same class of generative systems being evaluated cannot independently determine historical truth. Human expertise remains necessary to interpret evidential adequacy and contextual significance.
-- **So what for my thesis:** Computational validation can support archival interpretation by surfacing consistency, contradiction and provenance, while responsibility for deciding what the evidence warrants remains with the researcher.
-- **Practice cross-check:** Turin workflow: retrieval and model-assisted synthesis can structure and compare traces, but researcher review of quotation, provenance, chronology and archival context remains necessary before historical interpretation is accepted.
+## Claim 4
+- **Claim (plain):** A controlled generation protocol can reduce researcher selection effects before evaluation begins.
+- **Author claim:** The authors standardise image generation through zero-shot prompting, a first-output rule and fixed technical parameters.
+- **Evidence-supported claim:** The protocol explicitly uses zero-shot prompting to avoid iterative influence and retains the first output to prevent cherry-picking.
+- **Researcher inference:** For DDR, comparable controls should be used whenever model outputs are compared so that apparent quality is not produced by selective regeneration.
+- **Evidence (quote/paraphrase + page):** The Generation phase specifies zero-shot prompting, first-output selection and standardised parameters as controls against iterative influence and cherry-picking. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]`
+- **Warrant (my words):** Evaluation is only interpretable when differences in outputs are not confounded by unequal prompt iteration or selective retention.
+- **Boundary:** These controls address generation-selection bias in image experiments; they do not remove bias in source selection, prompts, models or interpretation.
+- **Consequence:** The thesis should document fixed generation conditions for comparative AI tests and distinguish them from exploratory prompt development.
+- **Practice cross-check:** For Turin/UAT comparisons, keep prompt, model, temperature and first-response policy fixed unless the experiment explicitly studies those variables.
+
+## Claim 5
+- **Claim (plain):** Historical evaluation is multidimensional and should combine formal, contextual and didactic criteria rather than a single quality score.
+- **Author claim:** Galindo-Durán et al. operationalise five evaluation dimensions through a 12-item expert instrument.
+- **Evidence-supported claim:** The source specifies dimensions covering historical/formal rigour, contextual coherence, text-image correspondence and didactic reliability, with item-level qualitative notes.
+- **Researcher inference:** DDR evaluation likewise needs several evidential criteria because relevance, provenance, ambiguity and historical warrant are not reducible to one score.
+- **Evidence (quote/paraphrase + page):** The expert instrument uses 12 items linked to five evaluation dimensions, and the scoring sheets retain item-specific qualitative notes. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 376]`
+- **Warrant (my words):** A multidimensional instrument prevents visually or rhetorically strong outputs from masking weaknesses in historical or contextual validity.
+- **Boundary:** The paper's dimensions are tailored to synthetic heritage imagery and cannot be imported unchanged into textual archival inference.
+- **Consequence:** The thesis should retain separate UAT judgements for relevant traces, evidential status, ambiguity and recognised limits rather than collapse them into one performance metric.
+- **Practice cross-check:** Keep qualitative failure notes alongside any quantitative retrieval or answer-quality measures.
+
+## Claim 6
+- **Claim (plain):** The proposed protocol is a methodological framework for future validation, not empirical proof that the evaluated approach is historically reliable.
+- **Author claim:** The authors explicitly state that their principal contribution is the framework itself and call for future implementation across cases, panels and models.
+- **Evidence-supported claim:** The conclusion describes the protocol as transparent, adaptable and reproducible while reserving empirical validation for future work.
+- **Researcher inference:** A research framework should therefore be presented as a testable method whose credibility comes from transparent application and evidence, not from the authority of the framework label.
+- **Evidence (quote/paraphrase + page):** The article states that its contribution lies in defining a methodological framework rather than reporting comparative results, and its conclusion calls for future implementation and validation across cases and expert panels. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 378–379]`
+- **Warrant (my words):** Methodological explicitness makes evaluation reproducible but does not substitute for empirical performance evidence.
+- **Boundary:** The paper itself does not report a completed multi-case validation of the protocol.
+- **Consequence:** In the thesis, the DDR framework and UAT should be described as evaluated practice with stated tests and results, not as self-validating methodology.
+- **Practice cross-check:** Keep the distinction between proposed controls, implemented controls and observed UAT findings explicit.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +186,10 @@ They try to make AI-generated cultural-heritage content methodologically account
 
 - **Boundary (1 sentence):** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
 - **Risk if misused (1 sentence):** Presenting the framework as demonstrated evidence of historical reliability, or treating AI-based secondary evaluation as independent validation, would overstate what the article establishes and could create circular assurance between generative systems.
+
+# Cross-source / cross-lens synthesis
+
+Galindo-Durán et al. sit productively beside Borůvková and HARF: all three insist that synthetic heritage needs visible evidential boundaries, expert scrutiny and reproducible process. Read with Selyshcheva and Nieto McAvoy & Kidd, the key transfer to DDR is that generative plausibility is never itself historical warrant. The paper therefore strengthens the evaluation layer of retrieval-augmented inference: source traceability, explicit uncertainty and human judgement must be designed into the method rather than added after a persuasive output has been produced.
 
 # Methods spine tags (tick what it actually touches)
 
