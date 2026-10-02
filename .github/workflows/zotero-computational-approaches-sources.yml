@@ -1,4 +1,4 @@
-name: Fetch computational approaches Zotero PDFs
+name: Fetch feminist situated Zotero PDFs
 
 on:
   push:
@@ -16,17 +16,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { key: 'S8RBKWVC', slug: 'davis-2021-linked-data' }
-          - { key: 'XGW459UJ', slug: 'bernard-2025-fairness-ir' }
-          - { key: 'Z9IN3FCV', slug: 'radharapu-2025-ambivalence' }
-          - { key: 'JFAP2JSU', slug: 'colavizza-2022-archives-ai' }
-          - { key: '5C923R7Y', slug: 'zaagsma-2023-politics-digitization' }
-          - { key: 'ZJVVPAYV', slug: 'selyshcheva-2026-generative-ai-source' }
-          - { key: 'QW5HNSPT', slug: 'hedges-2022-cas-intro' }
-          - { key: 'QI2I6HJQ', slug: 'bender-2021-stochastic-parrots' }
-          - { key: 'CVVHJD52', slug: 'asai-2026-rai-synthesis' }
-          - { key: 'PUUPT229', slug: 'nieto-mcavoy-2024-synthetic-heritage' }
-          - { key: 'LUVAUXT2', slug: 'marciano-2022-cas-discipline' }
+          - { key: '6BDU2AYY', slug: 'suchman-2002' }
+          - { key: 'DQ8RKDNB', slug: 'foka-griffin-2024' }
+          - { key: '5UBBLRJS', slug: 'kizhner-2025' }
+          - { key: 'G852R4UM', slug: 'jaillant-2025-diversity-ai' }
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
