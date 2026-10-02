@@ -22,7 +22,17 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Core text"
-last_updated: "19 Mar 2026, 09:18"---
+last_updated: "01 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
+project_tags:
+  - "Theoretical framework"
+---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -35,84 +45,136 @@ last_updated: "19 Mar 2026, 09:18"---
 - How linked data participation and collaboration shape archival interoperability and reuse
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- No page cite → write TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
 
 ---
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a linked-data review that shows who actually builds these infrastructures in cultural heritage, why they do so, and what barriers remain, because my computational strand depends on interoperable relations but cannot assume the infrastructure is evenly available or neutral.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Methods / S3.2 interpretability, provenance, and retrieval; it helps me say that linked data in cultural heritage is as much a social and institutional infrastructure question as a technical one, shaped by collaboration patterns, resourcing, and motivations for reuse.  
-**Why this term, not alternatives (1–2 lines):** Davis and Heravi’s focus on **participation, collaboration, and motivation** is more useful than purely technical linked-data literature because it shows how infrastructure uptake is socially uneven and institutionally conditioned.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where I need to justify relation-rich archival structures while also showing that interoperability depends on training, resourcing, collaboration, and user-led motivations rather than on technology alone.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Davis and Heravi write from information and communication studies and digital cultural heritage in 2021, reviewing linked-data implementation projects across GLAM and related cultural-heritage settings. Their problem-space is adoption rather than theory alone: they ask which organisations are participating, how collaborative projects really are, and what motivations drive implementation. The article is therefore especially useful as an infrastructural map of practice rather than as a conceptual essay on linked data itself. `[@Davis2021LinkedDataCulturalHeritage, pp. 1–4]`
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is strongest when used against the assumption that linked data naturally diffuses wherever it is useful. Its main finding is that participation is uneven, university-led, and still marked by barriers for smaller GLAM institutions. `[@Davis2021LinkedDataCulturalHeritage, pp. 11–15]`
+**How this source moves the primary research question forward:** Davis and Heravi show that linked-data infrastructures in cultural heritage are shaped by institutional capacity, collaboration and motivation rather than emerging automatically from interoperable technology. That matters for DDR because relation-rich computational access is also an organisational practice.
 
-# The author’s main move (1 sentence)
-They try to assess linked-data implementation in the cultural heritage sector through a systematic review of case studies in order to show who participates, how collaboration works, and what motivations are actually driving adoption.
+**How this source bears on the secondary question:** Linked structures can reconnect historical ideas across collections, but the ability to build and sustain those relations depends on uneven resources, skills and institutional participation.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It provides a sector-level evidence base for the conditions under which semantic/linked cultural-heritage systems are actually implemented.
+
+**Where it sits in my argument:** Operational literature.
+
+**My benchmark for using it:** I will use the review to discuss adoption and infrastructure, not as evidence that linked data itself guarantees better historical interpretation.
+
+# Position + moment
+
+Davis and Heravi systematically review 42 implemented linked-data projects in cultural heritage published between 2009 and 2018, asking who participates, how collaboration occurs and what motivates implementation. [@Davis2021LinkedDataCulturalHeritage, pp. 3–6]
+
+# The author’s main move
+
+The review shows that linked-data adoption in cultural heritage is collaborative but uneven: universities and national institutions dominate, motivations vary, and barriers of resources, skills and infrastructure continue to limit broader participation. [@Davis2021LinkedDataCulturalHeritage, pp. 7–14]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Linked-data implementation in cultural heritage is dominated by universities and national institutions rather than evenly spread across the sector.
-- **Evidence (quote/paraphrase + page):** The review finds that university departments were involved in 24 projects and university libraries in 11, while national GLAM organisations were the second most frequently represented category. The discussion then states there is a “significant lack of diversity” in the organisation types involved and highlights under-representation of smaller public libraries, museums, and galleries. The chart on page 8 visually reinforces this dominance, with “University” and “University Library” clearly the largest categories. `[@Davis2021LinkedDataCulturalHeritage, pp. 7–8, 11–13]`
-- **Warrant (my words):** This matters because it shows linked data is not simply a universally accessible archival infrastructure. It is being built mainly where research capacity, funding, and technical expertise already exist.
-- **So what for my thesis (a reusable sentence):** Davis and Heravi help me argue that relation-rich archival infrastructures are shaped by institutional capacity, so any linked-data-like approach to the DDR archive must account for uneven participation and not imagine interoperability as a frictionless baseline.
-- **Practice cross-check:** This is directly relevant if the DDR archive sits within a university context with better chances of experimentation than smaller GLAM settings, and it helps me avoid generalising from a research-rich case to the whole sector. TODO (needs exact DDR institutional-capacity note).
+- **Claim (plain):** Linked-data implementation is institutionally concentrated rather than evenly distributed across cultural heritage.
+- **Author claim:** The authors identify universities as the dominant organisational participants.
+- **Evidence-supported claim:** 35 of 42 reviewed projects involved a university; university departments appear in 24 projects and university libraries in 11, while national GLAM organisations form the next most represented category. [@Davis2021LinkedDataCulturalHeritage, pp. 7–8]
+- **Researcher inference:** Relation-rich archive infrastructures reflect available technical and research capacity as much as conceptual merit.
+- **Evidence (quote/paraphrase + page):** Public libraries and smaller organisations are sparsely represented compared with universities and national bodies. [@Davis2021LinkedDataCulturalHeritage, pp. 7–8]
+- **Warrant (my words):** Implementation requires skills, infrastructure and time that are distributed unevenly across institutions.
+- **Boundary:** Publication data may undercount projects undertaken outside academia.
+- **Consequence:** The thesis should not describe semantic/linked approaches as a frictionless sector baseline.
+- **Practice cross-check:** DDR infrastructure claims remain bounded to the RCA/V&A evidence and the implemented research system.
 
 ## Claim 2
-- **Claim (plain):** Most linked-data projects in cultural heritage are collaborative, but the rhetoric of collaboration does not automatically produce shared or inclusive practice.
-- **Evidence (quote/paraphrase + page):** On pages 8–9 the authors divide projects into collaborative-stated, collaborative-not-stated, and non-collaborative, finding that 31 of 42 studies showed collaboration, sometimes involving very large consortia. At the same time, the existence of nine non-collaborative studies is described as surprising given the usual rhetoric around linked data and collaboration. The chart on page 9 shows this mixed picture visually. `[@Davis2021LinkedDataCulturalHeritage, pp. 8–9, 12–13]`
-- **Warrant (my words):** This matters because it complicates an easy story that linked data naturally equals openness and collaboration. Collaboration is common, but not guaranteed, and it varies in scale and depth.
-- **So what for my thesis:** Davis and Heravi give me a way to frame linked structures in the DDR project as requiring deliberate collaborative design across archives, users, and technical work, rather than assuming linked data itself guarantees shared knowledge production.
-- **Practice cross-check:** This aligns with your need to connect archival records, oral histories, and computational modelling without assuming that interoperability alone produces meaningful collaboration. TODO (needs cross-link to oral-history / S3 workflow note).
+- **Claim (plain):** Collaboration is common in linked-data projects but is neither automatic nor always documented.
+- **Author claim:** Davis and Heravi classify projects as collaborative-stated, collaborative-not-stated or non-collaborative.
+- **Evidence-supported claim:** 31 of 42 studies show collaboration, yet the authors often had to use acknowledgements or external project information because publications did not state participants clearly. [@Davis2021LinkedDataCulturalHeritage, pp. 8–9]
+- **Researcher inference:** Technical infrastructures can conceal the distributed labour and institutional relations that produced them.
+- **Evidence (quote/paraphrase + page):** The review's collaboration coding itself exposes incomplete attribution in project reports. [@Davis2021LinkedDataCulturalHeritage, pp. 8–9]
+- **Warrant (my words):** Collaboration cannot be evaluated if participants and roles are not made visible.
+- **Boundary:** The review measures evidence of collaboration, not its quality or power relations.
+- **Consequence:** DDR computational work should record contributors, roles and dependencies explicitly.
+- **Practice cross-check:** Release receipts and steering documents should identify human/technical contributors rather than treating the system as an autonomous tool.
 
 ## Claim 3
-- **Claim (plain):** The most common motivations for linked-data projects are research needs, exploratory interest in linked data itself, user needs, and discoverability, rather than preservation or broad sector transformation.
-- **Evidence (quote/paraphrase + page):** On pages 9–11 the authors identify eight motivation categories. Research needs appear in 23 studies, exploration of linked data in 15, user needs in 11, and discoverability in 8, with interoperability, education, GLAM needs, and preservation appearing less often. The bar chart on page 11 makes this distribution very clear, with research needs dominating. In the discussion they note that this pattern likely reflects strong university involvement and exploratory early-stage adoption. `[@Davis2021LinkedDataCulturalHeritage, pp. 9–11, 13–15]`
-- **Warrant (my words):** This is useful because it shows linked-data adoption is often pragmatic and local rather than purely ideological. Projects are driven by concrete research and access problems, not just by grand semantic-web visions.
-- **So what for my thesis:** Davis and Heravi support framing relation-rich archival modelling in the DDR case around concrete research, user, and discoverability needs rather than around linked data as a value in itself.
-- **Practice cross-check:** This directly supports your thesis architecture, where linked structures should serve retrieval, provenance, actor relations, and interpretability, not become a technical end in themselves. TODO (needs exact S3 use-case cross-link).
+- **Claim (plain):** Linked-data projects are motivated by local research and discovery needs as much as by semantic-web ideals.
+- **Author claim:** The authors identify eight motivation categories.
+- **Evidence-supported claim:** Research needs are the most frequent motivation, followed by exploration of linked data, user needs and discoverability; preservation and broad interoperability are less dominant than rhetoric might suggest. [@Davis2021LinkedDataCulturalHeritage, pp. 9–11]
+- **Researcher inference:** DDR should justify structured relations through concrete research questions rather than appeal to “linkedness” as a value in itself.
+- **Evidence (quote/paraphrase + page):** The review finds substantial diversity in project motivations and concludes that they do not always align with the most cited ideals of the semantic web. [@Davis2021LinkedDataCulturalHeritage, pp. 9–11, 13–14]
+- **Warrant (my words):** Infrastructure is more defensible when its design follows a defined use case.
+- **Boundary:** Motivation categories do not measure whether projects achieved those goals.
+- **Consequence:** Each DDR relationship/view should have an explicit thesis job.
+- **Practice cross-check:** The five frozen UMAP/interface views already map to specific researcher use cases.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Linked data:** publication of data in machine-readable, semantically queryable forms so they can be linked, shared, and reused across systems; I will use this as an infrastructural rather than purely ideological term. `[@Davis2021LinkedDataCulturalHeritage, pp. 1–2]`
-- **Participation:** the kinds of institutions actually involved in implementing linked-data projects; I will use this to ask who gets to shape archival infrastructures and who is excluded. `[@Davis2021LinkedDataCulturalHeritage, pp. 7–8, 11–14]`
-- **Collaboration:** the extent to which linked-data projects are built across organisations; I will use this carefully, since the paper shows collaboration is common but uneven and not universal. `[@Davis2021LinkedDataCulturalHeritage, pp. 8–9, 12–13]`
-- **Motivational factors:** the practical drivers behind project adoption, especially research, exploration, user needs, and discoverability; I will use this to keep the DDR computational strand grounded in actual archival/research problems. `[@Davis2021LinkedDataCulturalHeritage, pp. 9–11]`
-- **Barriers to adoption:** the financial, human, training, and infrastructure limits that may prevent smaller GLAM organisations from participating; I will use this as a reminder that interoperability is socially uneven. `[@Davis2021LinkedDataCulturalHeritage, pp. 14–15]`
+## Claim 4
+- **Claim (plain):** Cultural-heritage linked data remained an early-stage and uncertain technology despite substantial interest.
+- **Author claim:** Davis and Heravi interpret many projects as exploratory and question the maturity of the technology for widespread adoption.
+- **Evidence-supported claim:** The discussion describes experimentation and enthusiasm but notes a publication peak followed by decline and concludes that adoption is still at an early stage. [@Davis2021LinkedDataCulturalHeritage, pp. 11–14]
+- **Researcher inference:** A technically plausible DDR semantic architecture should not be described as settled best practice.
+- **Evidence (quote/paraphrase + page):** The conclusion says sufficient maturity for widespread application remains questionable. [@Davis2021LinkedDataCulturalHeritage, pp. 13–14]
+- **Warrant (my words):** Sector experimentation and stable infrastructural adoption are different phenomena.
+- **Boundary:** The review ends in 2018 and cannot establish the state of the field after that period.
+- **Consequence:** Contemporary DDR claims should be about the tested research instrument, not universal GLAM adoption.
+- **Practice cross-check:** Treat linked/graph-like representation as one bounded method alongside retrieval and archive hierarchy.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a useful social map of linked-data adoption in cultural heritage.
-  - It is especially helpful because it shows that interoperability infrastructure is shaped by participation and capacity, not just by standards.
-  - It keeps linked-data work tied to concrete motivations like research and discoverability.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will use linked or graph-like structures in the thesis as pragmatic supports for access, relation, and retrieval, not as technical ideals in themselves.
-  - I will keep visible the institutional and labour conditions needed to build such structures around the DDR archive.
-- **What question it raises next (1–2 bullets):**
-  - Which linked-data or relation-rich parts of the DDR workflow are genuinely motivated by user and research needs, and which are only technically attractive?
-  - How can I avoid reproducing a university-led model of interoperability that would not translate beyond a well-supported research environment?
+## Claim 5
+- **Claim (plain):** Wider participation is constrained by probable barriers in resources, training and infrastructure.
+- **Author claim:** The recommendations call for explicit research into why smaller museums, libraries and galleries are underrepresented.
+- **Evidence-supported claim:** The authors identify possible barriers including limited financial/human resources, unmet training needs and inadequate technical infrastructure. [@Davis2021LinkedDataCulturalHeritage, p. 13]
+- **Researcher inference:** Computational heritage methods have a participation politics created partly by who can afford to build and maintain them.
+- **Evidence (quote/paraphrase + page):** The recommendations state that linked-data use needs to be democratised and barriers lowered. [@Davis2021LinkedDataCulturalHeritage, p. 13]
+- **Warrant (my words):** An access technology that only well-resourced institutions can implement may reproduce institutional inequality.
+- **Boundary:** These barriers are proposed as hypotheses requiring further survey evidence.
+- **Consequence:** The thesis should distinguish prototype feasibility from institutional sustainability.
+- **Practice cross-check:** Document the technical dependencies and maintenance burden of the DDR system as limitations.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the S3.2 section where I discuss linked structures, interoperability, and provenance-rich retrieval, and in any methods paragraph where I need to justify why relation-building should be driven by research and user needs rather than by semantic-web rhetoric alone.
-- **Where I will name the title in running text (first-use rule):** First mention in the linked-data/interoperability section: *In “Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation” (2021), Edie Davis and Bahareh Heravi argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside any DDR graph, actor-relation, or linked-entity workflow, especially where you need to explain who the users are, why the relations matter, and what infrastructure they depend on. TODO (needs exact cross-reference).
-- **Workstreams →** Interpretability; provenance; retrieval; linked data; computational activation.
-- **Deliverables →** S3.2 paragraph on linked structures and interoperability; literature map node; methods note on user- and research-led relation modelling.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; digital humanities readers; GLAM / linked-data readers.
+## Claim 6
+- **Claim (plain):** The published literature may itself overrepresent academic participation.
+- **Author claim:** Davis and Heravi explicitly consider publication behaviour as an explanation for university dominance.
+- **Evidence-supported claim:** Page 13 notes that university staff and academic librarians are more likely or required to publish, while other cultural-heritage professionals may share work through different channels. [@Davis2021LinkedDataCulturalHeritage, p. 13]
+- **Researcher inference:** A systematic literature review of computational heritage does not automatically represent the full landscape of operational practice.
+- **Evidence (quote/paraphrase + page):** The recommendations call for research into information-sharing behaviour across institution types. [@Davis2021LinkedDataCulturalHeritage, p. 13]
+- **Warrant (my words):** The evidence base is shaped by what kinds of institutions convert practice into peer-reviewed publications.
+- **Boundary:** The article does not quantify unpublished linked-data activity.
+- **Consequence:** The thesis should use the review as evidence of published practice, not a census of all cultural-heritage implementations.
+- **Practice cross-check:** Keep sector-level literature claims distinct from direct observations of RCA/V&A practice.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This article is strongest as a systematic review of linked-data adoption patterns in cultural heritage and less useful as a deep technical or theoretical account of how linked-data systems should be designed for one archive.
-- **Risk if misused (1 sentence):** If I use it too broadly, I could let a review of adoption patterns stand in for a method argument and fail to specify what linked structures in the DDR case actually do and why they are warranted.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Linked data:** structured, machine-readable relations intended to connect entities/resources across datasets.
+- **Collaborative-stated / collaborative-not-stated:** the authors' distinction between collaboration explicit in a paper and collaboration inferred from supplementary evidence. [@Davis2021LinkedDataCulturalHeritage, pp. 8–9]
+- **Institutional capacity:** my synthesis of the resource, training and infrastructure conditions the authors identify as possible adoption barriers. [@Davis2021LinkedDataCulturalHeritage, p. 13]
+
+# My response
+
+The review is useful because it de-romanticises linked data. Semantic relationships do not produce collaboration or openness by themselves; they are built by institutions with uneven resources, and even the published record may overrepresent those institutions most able to write about their work. For DDR, this reinforces a use-case-first approach: relational structures should serve historical inquiry and remain maintainable rather than being justified through interoperability rhetoric alone.
+
+# Integration hooks
+
+**Where I will cite it:** Semantic/linked-data infrastructure; collaboration; sustainability; institutional capacity.
+
+**Link to my practice evidence:** DDR relationship modelling and provenance links can be framed as research-specific infrastructure rather than a claim to sector-wide semantic-web transformation.
+
+**Workstreams →** Linked structures; collaboration; sustainability.  
+**Deliverables →** Methods and limitations.
+
+# Boundary + risk
+
+**Boundary:** This is a systematic review of published implementation case studies through 2018, not a technical benchmark or later sector census.
+
+**Risk if misused:** University dominance in the literature could be mistaken for proof that smaller institutions are not implementing linked-data approaches.
+
+# Cross-source / cross-lens synthesis
+
+Davis and Heravi add an institutional layer to the computational framework. Mordell asks how archives become data; Arnold/Tilton and Vafaie show specific technical pipelines; Davis and Heravi show who is positioned to build relation-rich infrastructures and why. For DDR, computational activation is therefore simultaneously technical, archival and organisational.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -120,22 +182,19 @@ They try to assess linked-data implementation in the cultural heritage sector th
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 1–4, 7–15
-- **First full note (write it out here):**  
-  Edie Davis and Bahareh Heravi, “Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation,” *Journal on Computing and Cultural Heritage* 14, no. 2 (2021): 1–18.
-- **Short note form:**  
-  Davis and Heravi, “Linked Data and Cultural Heritage,” 7–15.
-- **One quote worth lifting (≤2 lines):** “there may be some barriers preventing smaller GLAM institutions from implementing linked data projects.” (p. 2)
-- **One paraphrase worth keeping:** Davis and Heravi argue that linked-data implementation in cultural heritage has been led mainly by universities and national institutions, is often collaborative but unevenly so, and is most commonly motivated by research, exploration, user needs, and discoverability rather than by universal adoption of semantic-web ideals. (pp. 2, 7–15)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Colavizza et al., “Archives and AI”
-- Mordell, “Critical Questions for Archives As (Big) Data”
-- Hedges, Marciano, and Goudarouli, “Introduction to the Special Issue on Computational Archival Science”
-- Moss, Thomas, and Gollins, “The Reconfiguration of the Archive as Data to Be Mined”
-- TODO: connect directly to your DDR relation-model or graph workflow note.
+- **Key pages to reuse:** 7–14
+- **First full note:** Edie Davis and Bahareh Heravi, “Linked Data and Cultural Heritage: A Systematic Review of Participation, Collaboration, and Motivation,” *Journal on Computing and Cultural Heritage* 14, no. 2 (2021): 1–18, https://doi.org/10.1145/3429458.
+- **Short note form:** Davis and Heravi, “Linked Data and Cultural Heritage,” 7–14.
+- **One quote worth lifting:** TODO (prefer paraphrase; no short quotation needed).
+- **One paraphrase worth keeping:** Published linked-data projects in cultural heritage are dominated by universities and national institutions, usually collaborative, and motivated by research/discovery needs, while broader participation remains constrained by probable resource, training and infrastructure barriers. [@Davis2021LinkedDataCulturalHeritage, pp. 7–14]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A more technical linked-data or graph-based archival paper that shows how participation and interoperability claims translate into one concrete retrieval design.
-- What I will test or write next: Draft the paragraph that explains why linked structures in your DDR workflow are being built, for whom, and with what practical research or user need in view.
+# Related works
+
+- Marciano, “Towards a New Discipline of Computational Archival Science.”
+- Mordell, “Critical Questions for Archives as (Big) Data.”
+
+# Follow-ups
+
+- **What I will test next:** Document the maintenance and institutional dependencies of the DDR computational prototype, not only its analytical capabilities.

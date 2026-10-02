@@ -13,103 +13,165 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "19 Mar 2026"
+last_updated: "02 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
-project_rq_secondary: "To what extent the ideas that were current at the time ought to be revisited, and what the lessons of that period can tell us about how we should be thinking about design and design research today?"
+project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
 project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Bridge text"
-last_updated: "19 Mar 2026, 09:18"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent the ideas that were current at the time ought to be revisited, and what the lessons of that period can tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.2 Interpretability, provenance, and retrieval  
-**Source type:** Bridge text  
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- How CAS frames archival principles and computational methods together
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 3. Critical computational approaches  
+**Literature cluster:** c) Contemporary bridge literature  
+**Zotero filing path:** Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature  
+**Source type:** Bridge text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- No page cite → write TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a concise field-positioning text that names Computational Archival Science as a transdisciplinary space where archival thinking and computational thinking are intentionally combined.  
-**Where it sits in my argument (chapter/section + what it helps me say):** S3 bridge into methods; it helps me say that my computational work is not an external add-on to the archive but sits within an emerging field concerned with archival contextualisation, large-scale processing, and accountable access.  
-**Why this term, not alternatives (1–2 lines):** The phrase **Computational Archival Science** is more useful than generic AI-for-archives language because it keeps archival theory, recordkeeping functions, and computational methods in the same sentence.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where I need to define the field frame for S3 and where I need to show that computational methods must remain tied to archival context, provenance, and quality rather than to technical novelty alone.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Hedges, Marciano, and Goudarouli write as guest editors introducing a special issue devoted to Computational Archival Science in *JOCCH*. The editorial is short and programmatic: it identifies digitisation, born-digital archives, and changing researcher and public expectations as pressures on traditional archival theory and practice, while arguing that these same pressures create new opportunities for scholarship through the integration of computational and archival thinking. :contentReference[oaicite:2]{index=2}  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is best used as a field declaration rather than as a detailed method. Its value is that it names the agenda, the institutional network, and the main problems—contextualisation, scale, provenance, ethics—without pretending to solve them. :contentReference[oaicite:3]{index=3}
+**How this source moves the primary research question forward:** It supplies a concise field definition for Computational Archival Science (CAS) that keeps archival theory, archival functions, and computational methods in the same frame. That matters for DDR because it positions computational activation as archival-computational practice rather than detached data analysis.
 
-# The author’s main move (1 sentence)
-They try to define and legitimise Computational Archival Science as a transdisciplinary field by linking archival and computational thinking in order to address large-scale archival processing, access, contextualisation, and research engagement. :contentReference[oaicite:4]{index=4}
+**How this source bears on the secondary question:** It suggests that revisiting past design knowledge computationally is credible only when digital processing preserves context, provenance, interpretative accountability and the distinction between quantity and historical meaning.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** The editorial provides a compact field-setting statement for S3 and explicitly names contextualisation, analytic provenance, interpretation, privacy and ethics as computational archival concerns.
+
+**Where it sits in my argument:** Contemporary bridge literature connecting archival theory to computational methods.
+
+**My benchmark for using it:** I will use this editorial to define the CAS field frame and its core concerns, but not as a detailed technical method or as evidence that computation itself produces historical understanding.
+
+# Position + moment
+
+Hedges, Marciano and Goudarouli introduce a 2022 special issue of *Journal on Computing and Cultural Heritage* devoted to Computational Archival Science. The editorial responds to large-scale digitisation, born-digital archives and changing forms of researcher and public engagement by arguing for an explicit conjunction of “computational thinking” and “archival thinking.” [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+
+# The author’s main move
+
+The editors define CAS as a transdisciplinary field that integrates archival and computational theories, methods and resources while foregrounding contextualisation, provenance, interpretation, privacy and the problem of producing meaningful knowledge from large-scale archival data. [@Hedges2022IntroductionComputationalArchivalScience, pp. 1–2]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** The editorial defines CAS as a transdisciplinary field that integrates computational and archival theories, methods, and resources.
-- **Evidence (quote/paraphrase + page):** On page 1 they give a working definition of CAS as “a transdisciplinary field” integrating computational and archival theories, methods, and resources to support reliable and authentic records and to address large-scale processing, analysis, storage, and access in support of appraisal, arrangement and description, preservation, access, and research engagement. `[@Hedges2022IntroductionComputationalArchivalScience, p. 1]` :contentReference[oaicite:5]{index=5}
-- **Warrant (my words):** This matters because it frames CAS as more than tool use. The field is defined around archival functions and reliability, not just around computational capacity.
-- **So what for my thesis (a reusable sentence):** Hedges, Marciano, and Goudarouli help me position S3 as archival-computational work grounded in recordkeeping functions, not as detached data science applied after the fact.
-- **Practice cross-check:** This aligns directly with Marciano’s larger CAS argument and with your need to keep provenance, retrieval, and interpretability visible across the DDR workflow. TODO (needs exact S3 workflow cross-link).
+- **Claim (plain):** CAS is defined as an integration of archival and computational thinking rather than as technology applied to archives from the outside.
+- **Author claim:** Hedges, Marciano and Goudarouli define CAS as “a transdisciplinary field” integrating computational and archival theories, methods and resources.
+- **Evidence-supported claim:** Their working definition explicitly links computational methods to reliable/authentic records, large-scale processing, analysis, storage, access, appraisal, arrangement and description, preservation and research engagement. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Researcher inference:** DDR computational work should be framed through archival functions and evidential responsibilities, not merely through model performance.
+- **Evidence (quote/paraphrase + page):** The article defines CAS around the integration of computational and archival theories, methods and resources. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Warrant (my words):** A field definition that embeds computation inside archival functions changes the methodological question from “what can the model do?” to “what archival task is being transformed, and under what evidential conditions?”
+- **Boundary:** This is a field-setting definition, not an empirical demonstration that every computational heritage project satisfies these archival requirements.
+- **Consequence:** S3 should explicitly map each computational operation to its archival purpose and evidential constraint.
+- **Practice cross-check:** Map retrieval, UMAP neighbourhoods, source linking and synthesis back to access, contextualisation and provenance functions.
 
 ## Claim 2
-- **Claim (plain):** The authors argue that the archive is becoming an increasingly digital and contextualisation-intensive space.
-- **Evidence (quote/paraphrase + page):** They state that large-scale digitisation, diverse born-digital archives, and new forms of user engagement are disrupting traditional archival theories and practices. They add that the CAS network focused particularly on “the application of computational methods to the contextualisation of records within archival collections at a time when the archive is becoming an increasingly digital space.” `[@Hedges2022IntroductionComputationalArchivalScience, p. 1]` :contentReference[oaicite:6]{index=6}
-- **Warrant (my words):** This is useful because it centres contextualisation rather than raw automation. The challenge is not only more data, but how records are situated and made meaningful within digital archival environments.
-- **So what for my thesis:** This editorial supports my argument that activating the DDR archive computationally must involve contextualisation and not just extraction, search, or visual display.
-- **Practice cross-check:** This connects strongly to Bearman, Duranti, and Boyd Davis/Vane/Kräutli, especially where your methods must keep contextual relations visible rather than flattening them into isolated metadata points. TODO (needs provenance/context cross-link).
+- **Claim (plain):** Large-scale digitisation and born-digital archives are disrupting established archival theory and practice.
+- **Author claim:** The editors argue that digitisation, born-digital archives and changing modes of engagement are disruptive to traditional archival theories and practices.
+- **Evidence-supported claim:** Page 1 identifies these changes as challenges for archival practitioners and researchers while also presenting enhanced possibilities for scholarship. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Researcher inference:** Computational methods are not simply optional embellishments to digital archives; they respond to changed scale, format and use conditions.
+- **Evidence (quote/paraphrase + page):** The editorial describes large-scale digitisation, born-digital forms and new user engagement as simultaneously disruptive and opportunity-producing. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Warrant (my words):** When the documentary environment changes, archival method must adapt while retaining evidential disciplines.
+- **Boundary:** The article does not establish that traditional archival approaches are obsolete or that computational methods are always preferable.
+- **Consequence:** DDR computational work should be justified by the specific affordances and constraints of the digitised corpus rather than by novelty.
+- **Practice cross-check:** State clearly what the 27,997 PID-backed chunks enable that box-by-box reading alone does not, while preserving return paths to source records.
 
 ## Claim 3
-- **Claim (plain):** The editorial frames CAS as a field concerned not only with scale and opportunity, but with provenance, interpretation, privacy, and the problem of producing knowledge from quantity.
-- **Evidence (quote/paraphrase + page):** On page 2 the editors say the special issue aims to address “questions and concerns” about interpretation raised by computational methods, including “producing quality—meaning, knowledge, and value—from quantity,” tracing data and analytic provenance across complex knowledge-production ecosystems, and addressing privacy and other ethical issues. `[@Hedges2022IntroductionComputationalArchivalScience, p. 2]` :contentReference[oaicite:7]{index=7}
-- **Warrant (my words):** This is the most useful caution in the piece. CAS is not framed as pure efficiency; it is framed around the epistemic and ethical difficulty of turning large-scale archival computation into trustworthy knowledge.
-- **So what for my thesis:** Hedges, Marciano, and Goudarouli give me a concise warrant for making provenance, interpretability, and ethics explicit in S3 rather than treating them as optional afterthoughts.
-- **Practice cross-check:** This aligns directly with Colavizza et al., Jaillant and Aske, Boyd Davis/Vane/Kräutli, and Bender et al., and supports your distinction between exploratory surfacing and historical interpretation. TODO (needs methods limitations cross-link).
+- **Claim (plain):** Contextualisation is a central computational archival problem.
+- **Author claim:** The editors identify the CAS research network’s particular focus as applying computational methods to the contextualisation of records within archival collections.
+- **Evidence-supported claim:** Page 1 explicitly places contextualisation at the centre of computational archival work “at a time when the archive is becoming an increasingly digital space.” [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Researcher inference:** DDR computation should reconnect records to people, projects, time, documentary relationships and provenance rather than extract isolated semantic fragments.
+- **Evidence (quote/paraphrase + page):** The CAS network focused on computational methods for contextualising records within archival collections. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Warrant (my words):** Archival meaning depends on relational context; computational extraction that strips that context can reduce rather than increase historical legibility.
+- **Boundary:** The editorial does not specify one preferred computational architecture for contextualisation.
+- **Consequence:** Retrieval and visualisation should preserve record relationships and source context as first-class outputs.
+- **Practice cross-check:** Keep evidence cards linked to document PID, record metadata and related project/person context.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Computational Archival Science (CAS):** a transdisciplinary field integrating computational and archival theories, methods, and resources for reliable recordkeeping, large-scale processing, access, and research engagement; I will use this as a field frame for S3. `[@Hedges2022IntroductionComputationalArchivalScience, p. 1]` :contentReference[oaicite:8]{index=8}
-- **Computational thinking + archival thinking:** the editorial’s core conjunction, useful for naming a method space where technical processing remains tied to archival principles and functions. `[@Hedges2022IntroductionComputationalArchivalScience, p. 1]` :contentReference[oaicite:9]{index=9}
-- **Contextualisation of records:** the application of computational methods to situating records within archival collections and knowledge ecologies; I will use this term to resist flat extraction models in the DDR archive. `[@Hedges2022IntroductionComputationalArchivalScience, p. 1]` :contentReference[oaicite:10]{index=10}
-- **Analytic provenance:** the traceability of data transformations and analytical processes across complex knowledge-production ecosystems; I will use this as a central S3.2 design criterion. `[@Hedges2022IntroductionComputationalArchivalScience, p. 2]` :contentReference[oaicite:11]{index=11}
+## Claim 4
+- **Claim (plain):** CAS is framed as an institutional and collaborative field-building project, not merely a technical research agenda.
+- **Author claim:** The editors describe the CAS Initiative, annual IEEE Big Data workshops and an international UK-US research network linking universities and national/state archives.
+- **Evidence-supported claim:** Page 1 records sustained workshops, nearly 60 research works and a collaborative network spanning King’s College London, The National Archives, the University of Maryland and the Maryland State Archives. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Researcher inference:** Credible computational archival work depends on collaboration across archival, humanities and technical expertise.
+- **Evidence (quote/paraphrase + page):** The field is presented as emerging through repeated interdisciplinary and cross-institutional activity. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Warrant (my words):** Archival interpretation, systems design and machine-learning implementation require different forms of expertise and institutional knowledge.
+- **Boundary:** Institutional collaboration does not by itself guarantee good epistemic or ethical practice.
+- **Consequence:** The thesis should make visible the division of labour and expertise involved in building and validating the DDR system.
+- **Practice cross-check:** Record archival, design-historical and technical contributions in release notes and methodology rather than presenting the tool as autonomous.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a concise field definition for CAS that I can use in S3.
-  - It is especially useful because it foregrounds contextualisation, provenance, and knowledge quality rather than only efficiency.
-  - It works well as a bridge between archival theory and your computational methods chapter.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will use this text to define the field frame for S3, but not to carry the full method argument by itself.
-  - I will treat CAS in the thesis as a provenance- and context-aware practice, not a generic label for AI work on archives.
-- **What question it raises next (1–2 bullets):**
-  - Which parts of the DDR computational workflow genuinely count as CAS, and which are better described more narrowly as visualization, retrieval, or extraction work?
-  - How can I show, concretely, that my S3 strand produces quality from quantity without overstating what computation can interpret?
+## Claim 5
+- **Claim (plain):** Computational archival methods should be judged by the new questions and research consequences they produce, not only by technical capability.
+- **Author claim:** The special issue aims to explore the conjunction of computational/analytical technologies with archival practice and their consequences for historical, social, scientific and cultural research.
+- **Evidence-supported claim:** The editors say the purpose is to identify potential and examine the new questions that these methods provoke. [@Hedges2022IntroductionComputationalArchivalScience, pp. 1–2]
+- **Researcher inference:** DDR methods should be evaluated by whether they make historically significant relationships, contradictions or absences newly investigable.
+- **Evidence (quote/paraphrase + page):** The editorial explicitly connects computational methods with changed forms of research engagement and question formation. [@Hedges2022IntroductionComputationalArchivalScience, pp. 1–2]
+- **Warrant (my words):** A computational intervention has scholarly value when it changes what can be asked and evidenced, not merely when it accelerates processing.
+- **Boundary:** The editorial does not define a formal evaluation framework for judging research value.
+- **Consequence:** UAT should test evidential usefulness and question-answering quality, not only latency or model accuracy.
+- **Practice cross-check:** Retain evaluation criteria of relevant traces, evidential status, ambiguity and recognised limits.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the opening of the S3 methods chapter where I define CAS as the field frame for the computational strand, and in the paragraph that foregrounds contextualisation and analytic provenance.
-- **Where I will name the title in running text (first-use rule):** First mention in the CAS framing paragraph: *In “Introduction to the Special Issue on Computational Archival Science” (2022), Hedges, Marciano, and Goudarouli define CAS as...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside your S3 workflow map and conceptual framework, especially where extraction, retrieval, and visualization remain tied back to archival context and source-traceability. TODO (needs exact cross-reference).
-- **Workstreams →** Provenance; retrieval; interpretability; computational activation; CAS framing.
-- **Deliverables →** S3 opening paragraph; CAS field-definition note; literature map node; footnote trail on contextualisation and analytic provenance.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; digital humanities readers; AI/heritage readers.
+## Claim 6
+- **Claim (plain):** CAS must confront the epistemic and ethical problem of turning archival quantity into trustworthy knowledge.
+- **Author claim:** The editors identify interpretation, “quality—meaning, knowledge, and value—from quantity,” data and analytic provenance, privacy and other ethical issues as central concerns.
+- **Evidence-supported claim:** Page 2 explicitly names these as questions and concerns raised by computational archival scholarship. [@Hedges2022IntroductionComputationalArchivalScience, p. 2]
+- **Researcher inference:** The DDR system should treat provenance, uncertainty and limits as constitutive parts of computational interpretation rather than as post-hoc disclaimers.
+- **Evidence (quote/paraphrase + page):** The editors foreground producing meaning and value from quantity while tracing data and analytic provenance across complex knowledge-production ecosystems. [@Hedges2022IntroductionComputationalArchivalScience, p. 2]
+- **Warrant (my words):** Large-scale processing can increase reach while simultaneously multiplying transformations between source and claim.
+- **Boundary:** The editorial identifies the problem but does not prescribe a specific provenance standard, AI architecture or interface design.
+- **Consequence:** The thesis needs explicit source bindings, transformation provenance and bounded claims at the point of synthesis.
+- **Practice cross-check:** Preserve source passage, metadata, evidence route, model synthesis and provenance binding as separable layers.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This editorial is strongest as a concise field-defining statement and weaker as a detailed method or critical analysis of any one archival technique.
-- **Risk if misused (1 sentence):** If I rely on it too heavily, I could let the name CAS do too much work without showing the exact archival mechanisms, transformations, and evidential constraints in the DDR case.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Computational Archival Science (CAS):** a transdisciplinary field integrating archival and computational theories, methods and resources in support of recordkeeping, archival processing, preservation, access and research. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Computational thinking + archival thinking:** the editors’ core conjunction for describing computational methods that remain answerable to archival principles and functions. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Contextualisation of records:** computationally supported work that situates records within archival collections and their relationships rather than treating them as isolated data points. [@Hedges2022IntroductionComputationalArchivalScience, p. 1]
+- **Analytic provenance:** traceability of data transformations and analytical processes across knowledge-production ecosystems. [@Hedges2022IntroductionComputationalArchivalScience, p. 2]
+
+# My response
+
+This editorial is valuable precisely because it is compact. It does not give the thesis a finished method; it gives S3 a defensible field location. Its strongest contribution is the insistence that computation, archival function, contextualisation and provenance belong together. For DDR, that means the computational strand should be judged by whether it improves historical legibility while keeping the route from source to transformed evidence inspectable.
+
+# Integration hooks
+
+**Where I will cite it:** Opening definition of the computational strand; CAS field framing; provenance/contextualisation rationale; evaluation discussion.
+
+**Link to my practice evidence:** The DDR pipeline already separates source, metadata, retrieval evidence and synthesis and can therefore be described as a computational archival workflow rather than a generic AI application.
+
+**Workstreams →** CAS framing; provenance; contextualisation; retrieval; computational activation.  
+**Deliverables →** Theoretical framework; methods; UAT/evaluation; limitations.  
+**Stakeholders →** Examiners; supervisors; archivists; digital-humanities and computational-heritage readers.
+
+# Boundary + risk
+
+**Boundary:** The editorial is a two-page field introduction and should be used for framing, not as detailed evidence about the performance or validity of any specific computational technique.
+
+**Risk if misused:** CAS could become an umbrella label that hides the distinct evidential risks of embeddings, dimensionality reduction, retrieval and generative synthesis. Those operations still require method-specific scrutiny.
+
+# Cross-source / cross-lens synthesis
+
+Hedges, Marciano and Goudarouli provide the field-level bridge between archival theory and the computational strand. Mordell shows that turning archives into data is itself interpretative; Drucker challenges reductive certainty in graphical display; McInnes et al. provide the technical basis for UMAP; Rockmore et al. demonstrate what vector spaces can reveal while also showing their interpretative dependence; Colavizza et al. survey AI’s archival opportunities and risks; Jaillant and Aske show that access, preprocessing and infrastructure condition computational research; Bender et al. expose the social and environmental risks of large language models; Asai et al. show the value and remaining limits of retrieval-augmented synthesis. Read together, the computational framework for DDR becomes a chain of accountable transformations: datafication → contextualisation → modelling/retrieval → interpretation → provenance-aware synthesis.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [ ] Data collection and instruments
@@ -117,22 +179,21 @@ They try to define and legitimise Computational Archival Science as a transdisci
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 1–2
-- **First full note (write it out here):**  
-  Mark Hedges, Richard Marciano, and Eirini Goudarouli, “Introduction to the Special Issue on Computational Archival Science,” *Journal on Computing and Cultural Heritage* 15, no. 1 (2022): Article 1, 1–2.
-- **Short note form:**  
-  Hedges, Marciano, and Goudarouli, “Introduction to the Special Issue on Computational Archival Science,” 1–2.
-- **One quote worth lifting (≤2 lines):** “the integration of ‘computational thinking’ with ‘archival thinking’” (p. 1).
-- **One paraphrase worth keeping:** Hedges, Marciano, and Goudarouli define CAS as a transdisciplinary field that integrates archival and computational thinking to address reliable recordkeeping, large-scale archival processing, contextualisation, analytic provenance, and ethically grounded research engagement. (pp. 1–2)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Marciano, “Towards a New Discipline of Computational Archival Science (CAS)”
-- Colavizza et al., “Archives and AI”
+- **Key pages to reuse:** 1–2
+- **First full note:** Mark Hedges, Richard Marciano, and Eirini Goudarouli, “Introduction to the Special Issue on Computational Archival Science,” *Journal on Computing and Cultural Heritage* 15, no. 1 (2022): Article 1, 1–2, https://doi.org/10.1145/3495004.
+- **Short note form:** Hedges, Marciano, and Goudarouli, “Introduction to the Special Issue,” 1–2.
+- **One quote worth lifting:** “integration of ‘computational thinking’ with ‘archival thinking’” (p. 1).
+- **One paraphrase worth keeping:** CAS integrates archival and computational thinking while treating contextualisation, analytic provenance, interpretation, privacy and the production of meaning from scale as central methodological concerns. [@Hedges2022IntroductionComputationalArchivalScience, pp. 1–2]
+
+# Related works
+
+- Marciano, “Towards a New Discipline of Computational Archival Science.”
+- Colavizza et al., “Archives and AI.”
 - Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?”
-- Boyd Davis, Vane, and Kräutli, “Can I Believe What I See?”
-- TODO: connect directly to your S3 workflow note and CAS-framing paragraph.
+- Mordell, “Critical Questions for Archives as (Big) Data.”
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A provenance-aware CAS case study that goes beyond field framing into one concrete workflow.
-- What I will test or write next: Draft the opening paragraph of S3 using this text and Marciano together, then specify which exact parts of your DDR method are archival, which are computational, and where they meet.
+# Follow-ups
+
+- **What I will test next:** Use Hedges et al. and Marciano together to define exactly which parts of the DDR workflow constitute computational archival practice and where method-specific limitations must be stated.

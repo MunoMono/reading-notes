@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 09:09"
-last_updated: "14 Sept 2026, 15:50"
+last_updated: "01 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -30,7 +30,7 @@ theoretical_framework_area_id: "3"
 theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "b"
 literature_cluster: "Operational literature"
-zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
 constraints_source: "project/constraints.md"---
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
@@ -55,149 +55,119 @@ constraints_source: "project/constraints.md"---
 
 ---
 
-# Thesis job (do this first)
+# Thesis job
 
-**Project research question(s) this serves:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source moves the primary research question forward:** Rockmore et al. give the thesis a defensible account of embeddings as exploratory spaces for finding candidate relations, not as self-validating historical evidence.
 
-**Why I’m reading this now:**  
-I am reading this to develop a defensible humanities-facing account of vector embeddings as exploratory surfaces for comparison, classification and discovery.
+**How this source bears on the secondary question:** Embedding methods can make large textual corpora newly navigable, while model choice and category uncertainty shape the resulting landscape.
 
-**Where it sits in my argument:**  
-S3.1 Visual analytics: this source helps me describe embedding spaces as navigable interpretive landscapes that can support archival exploration, while keeping the evidential burden on subsequent close reading and provenance checks.
+**Why I’m reading this now:** It directly informs DDR semantic neighbourhoods and atlas views.
 
-**Why this term, not alternatives:**  
-“Landscape” is useful because it names the spatial and exploratory character of embeddings without pretending that the space is a neutral map of meaning. It lets me talk about proximity, clustering and routes through material while still treating those relations as constructed by modelling choices.
+**Where it sits in my argument:** Operational literature.
 
-**My benchmark for using it:**  
-I will use this source only where I need to explain why vector-based proximity can help generate candidate relationships. I will not use it to claim that embeddings prove historical influence, intellectual continuity or archival significance on their own.
+**My benchmark for using it:** Vector proximity may prompt investigation; archival claims still require provenance and close reading.
 
 # Position + moment
 
-Rockmore, Chen, Jebelli, Riddell and Stropkay write from computational humanities, mathematics, informatics and applied research. Their article is positioned in a 2025 computational humanities moment shaped by transformer embeddings, large text corpora and renewed attention to classification, distant reading and machine-aided comparison.
-
-The article compares older bag-of-words and TF-IDF approaches with newer transformer-based embeddings across a large literary corpus. Its problem-space is not archival in the strict institutional sense, but it is highly relevant to archive-facing work because it asks how high-dimensional representations can organise, classify and make explorable large collections of text.
-
-**Canon assumptions to problematise / update for 2026:**  
-The article extends the distant-reading tradition by shifting attention from topic models and word counts to embedding spaces. For my project, the important update is that computational surfaces can be interpretive aids, but their apparent spatial clarity should not be mistaken for historical explanation.
+The authors compare traditional and transformer-based text representations on a large literary corpus, testing whether vector spaces preserve book, author and genre structure. [@Rockmore2025LiteraryLandscapesVector, pp. 1–2]
 
 # The author’s main move
 
-They compare vector representations of literary text by testing how well different embeddings preserve genre, authorship and book-level similarity in order to argue that embedding spaces can support classification, comparison, discovery and exploratory literary analysis.
+Multiple embedding methods create useful textual landscapes, with transformer embeddings generally strongest for genre and authorship, while uncertainty and local structure remain analytically important. [@Rockmore2025LiteraryLandscapesVector, pp. 1, 8–13]
 
-# Three-claim evidence ledger
-
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim:**  
-  Vector embeddings can make large textual collections explorable as landscapes of proximity.
-
-- **Evidence:**  
-  The authors describe vector space as an enduring framework for machine-aided text analysis, from TF-IDF to transformer-based embeddings [@Rockmore2025LiteraryLandscapesVector, p. 1]. They frame embeddings as coordinates in a high-dimensional space where books or chunks of books become points that can be compared by distance [@Rockmore2025LiteraryLandscapesVector, p. 1].
-
-- **Warrant:**  
-  This supports the claim because the article treats embeddings as more than classification machinery. It treats them as a spatial form of organisation. Texts become comparable because they are placed into a constructed space where proximity can be inspected, measured and visualised.
-
-- **So what for my thesis:**  
-  I can describe embedding-based DDR work as the construction of an exploratory surface: a way to find possible relationships among traces before returning to the archive to test their historical and interpretive value.
-
-- **Practice cross-check:**  
-  TODO: test with one DDR corpus subset. Compare whether embedding proximity groups texts, captions, catalogue notes or testimonies around shared design concerns that are not already obvious from catalogue categories.
+- **Claim (plain):** Embeddings make large text collections explorable through proximity.
+- **Author claim:** Text chunks become points in vector spaces where distance acts as a similarity proxy.
+- **Evidence-supported claim:** The paper evaluates whether related books, authors and genres occupy nearby regions. [@Rockmore2025LiteraryLandscapesVector, pp. 1–2]
+- **Researcher inference:** DDR embeddings can surface candidate relationships among traces.
+- **Evidence (quote/paraphrase + page):** The authors call the result a “literary landscape.” [@Rockmore2025LiteraryLandscapesVector, p. 1]
+- **Warrant (my words):** Spatialised similarity creates exploratory routes unavailable to keyword search alone.
+- **Boundary:** Vector distance is not archival relationship.
+- **Consequence:** Neighbours require provenance checks.
+- **Practice cross-check:** DDR neighbourhoods link to source passages.
 
 ## Claim 2
-
-- **Claim:**  
-  Embedding spaces are useful for exploratory classification, but their results remain model-dependent.
-
-- **Evidence:**  
-  Rockmore et al. compare TF-IDF, Doc2Vec and transformer-based embeddings, finding that transformer-based embeddings perform best at preserving genre and authorship, although most techniques produce “sensible constructions” of a literary landscape [@Rockmore2025LiteraryLandscapesVector, p. 1]. Their results show that classification performance varies by model, classifier and genre, with transformer-based models generally outperforming traditional models in KNN classification tasks [@Rockmore2025LiteraryLandscapesVector, pp. 8–9].
-
-- **Warrant:**  
-  This matters because the landscape is not singular. Different embedding models produce different neighbourhoods, boundaries and degrees of separability. Any interpretive use of such a landscape needs to name the model and method that produced it.
-
-- **So what for my thesis:**  
-  When I use embeddings to surface DDR traces, I need to report the method as part of the claim: the relation was surfaced by a particular model, distance measure and corpus construction, not discovered as a self-evident archival fact.
-
-- **Practice cross-check:**  
-  TODO: for one DDR test set, run or compare at least two exploratory routes: keyword search and embedding proximity. Note where they converge and where they produce different candidate clusters.
+- **Claim (plain):** There is no single natural embedding landscape.
+- **Author claim:** The article compares TF-IDF, Doc2Vec and transformer models.
+- **Evidence-supported claim:** Transformer models usually perform best, but most methods produce plausible structures and differ by task/classifier. [@Rockmore2025LiteraryLandscapesVector, pp. 1, 8–9]
+- **Researcher inference:** DDR neighbourhoods depend on model, corpus and metric.
+- **Evidence (quote/paraphrase + page):** Model families produce different classification profiles. [@Rockmore2025LiteraryLandscapesVector, pp. 8–9]
+- **Warrant (my words):** Representation choice changes which relations become salient.
+- **Boundary:** Genre performance does not prove archival fitness.
+- **Consequence:** Model choice belongs in the evidential account.
+- **Practice cross-check:** DDR fixes and records bge-m3/version for UAT.
 
 ## Claim 3
+- **Claim (plain):** Local and global geometry support different analytical behaviours.
+- **Author claim:** The paper contrasts KNN and logistic-regression classifiers.
+- **Evidence-supported claim:** KNN benefits from strong local clustering, while logistic regression relies on globally separable boundaries. [@Rockmore2025LiteraryLandscapesVector, pp. 8–9]
+- **Researcher inference:** A DDR neighbourhood and a global atlas are not simply the same structure at different zoom levels.
+- **Evidence (quote/paraphrase + page):** The discussion distinguishes local relative distances from global class separation. [@Rockmore2025LiteraryLandscapesVector, p. 9]
+- **Warrant (my words):** Useful neighbours can exist even where global classes blur.
+- **Boundary:** This classifier result is not a direct UMAP validation.
+- **Consequence:** Evaluate local retrieval separately from global visual clustering.
+- **Practice cross-check:** The k-neighbourhood slider is confined to the neighbourhood view.
 
-- **Claim:**  
-  The main value of embeddings for humanities work lies in generating candidates for closer interpretation.
+## Claim 4
+- **Claim (plain):** Classification uncertainty can expose ambiguous categories rather than only model failure.
+- **Author claim:** Rockmore et al. use prediction entropy to identify unstable genre labels.
+- **Evidence-supported claim:** High-entropy categories overlap with neighbouring genres; some high-entropy books are deliberately mixed or genre-blurring. [@Rockmore2025LiteraryLandscapesVector, pp. 9–11]
+- **Researcher inference:** DDR instability may sometimes point toward contested/hybrid knowledge.
+- **Evidence (quote/paraphrase + page):** Entropy reveals less distinct category boundaries. [@Rockmore2025LiteraryLandscapesVector, pp. 9–10]
+- **Warrant (my words):** Uncertainty can signal mismatch between material and imposed categories.
+- **Boundary:** It can also signal weak data or representation.
+- **Consequence:** Treat instability as a research prompt, not evidence by itself.
+- **Practice cross-check:** Mixed DDR clusters require document-level checking.
 
-- **Evidence:**  
-  The authors argue that embeddings could support “reader-directed exploration” of book space and provide a foundation for information retrieval useful to literary research [@Rockmore2025LiteraryLandscapesVector, pp. 12–13]. They describe this as a way for scholars to search large bodies of literature using example-based queries and to discover new sources for close reading [@Rockmore2025LiteraryLandscapesVector, p. 13].
+## Claim 5
+- **Claim (plain):** Embeddings preserve several overlapping scales of similarity.
+- **Author claim:** The authors test intra-book, inter-book and genre structure.
+- **Evidence-supported claim:** Chunks from the same book sit closer together while transformer spaces also preserve broader genre/style patterns. [@Rockmore2025LiteraryLandscapesVector, pp. 5–8, 11–12]
+- **Researcher inference:** DDR proximity may reflect document, project, actor or topic at different times.
+- **Evidence (quote/paraphrase + page):** The paper reports tight intra-book clustering within broader genre regions. [@Rockmore2025LiteraryLandscapesVector, pp. 5–8]
+- **Warrant (my words):** One vector space can encode multiple relations.
+- **Boundary:** Which relations bge-m3 preserves in DDR must be tested.
+- **Consequence:** Do not assign one universal meaning to proximity.
+- **Practice cross-check:** Compare neighbours with project, actor and document-type metadata.
 
-- **Warrant:**  
-  The evidence supports a modest methodological use. Embeddings do not replace interpretation; they produce routes, neighbours and anomalies that can be followed up. This is especially important for contested archival knowledge, where proximity may suggest a relation but cannot establish its meaning without provenance, context and close reading.
-
-- **So what for my thesis:**  
-  Embedding spaces can help activate the DDR archive by surfacing candidate traces and relationships, but the thesis must make its claims from interpreted archival evidence, not from vector proximity alone.
-
-- **Practice cross-check:**  
-  TODO: choose one embedding-neighbour result and write the full interpretive chain: query item → nearest neighbours → archival check → historical context → claim accepted, revised or rejected.
+## Claim 6
+- **Claim (plain):** Embeddings are most defensible as discovery tools feeding later interpretation.
+- **Author claim:** The authors propose reader-driven exploration and example-based retrieval.
+- **Evidence-supported claim:** Pages 12–13 describe surfacing little-known books for later comparison and reading. [@Rockmore2025LiteraryLandscapesVector, pp. 12–13]
+- **Researcher inference:** DDR embeddings are route-making, not proof-making.
+- **Evidence (quote/paraphrase + page):** The paper presents embeddings as aids to discovery and traditional comparative analysis. [@Rockmore2025LiteraryLandscapesVector, pp. 12–13]
+- **Warrant (my words):** Discovery value does not require the model to settle meaning.
+- **Boundary:** Literary recommendation carries different stakes from archive historiography.
+- **Consequence:** Candidate relations must be accepted, revised or rejected after source checking.
+- **Practice cross-check:** UAT rewards supported claims, not semantic proximity alone.
 
 # Definitions / terms this changes
 
-- **Vector embedding:**  
-  I will use this to mean a numerical representation of text that places words, chunks or documents into a mathematical space where distance can be used as a proxy for similarity [@Rockmore2025LiteraryLandscapesVector, p. 1].
-
-- **Literary landscape:**  
-  I will adapt this as “archival landscape” or “trace landscape” when discussing DDR material. It means an exploratory spatial arrangement created by embeddings, not a natural map of the archive [@Rockmore2025LiteraryLandscapesVector, pp. 1, 11–13].
-
-- **Intra-book / inter-book similarity:**  
-  The article uses these measures to test whether chunks from the same book sit closer together than chunks from different books [@Rockmore2025LiteraryLandscapesVector, pp. 5–7]. For DDR, an analogous test might ask whether traces from the same actor, project or institutional setting cluster together.
-
-- **Genre prediction entropy:**  
-  The authors use entropy to measure classification uncertainty where genre boundaries are blurred or where a book contains diverse material [@Rockmore2025LiteraryLandscapesVector, pp. 10–11]. For DDR, this may be useful as a way of identifying contested, hybrid or unstable records.
-
-- **Example-based query:**  
-  I will use this to describe a search route where a known text, trace or record is used to find nearby material in the embedding space, rather than searching by keyword alone [@Rockmore2025LiteraryLandscapesVector, p. 13].
+- **Vector embedding:** numerical representation locating text in a high-dimensional similarity space. [@Rockmore2025LiteraryLandscapesVector, p. 1]
+- **Embedding landscape:** exploratory spatial organisation produced by a representation and distance function.
+- **Prediction entropy:** measure of classification uncertainty used to identify unstable/overlapping categories. [@Rockmore2025LiteraryLandscapesVector, pp. 9–11]
 
 # My response
 
-- **What I take from this:**  
-  - The article gives me a strong humanities-facing way to describe embeddings as exploratory landscapes rather than black-box results.  
-  - It supports a cautious account of computational surfacing: embeddings can identify neighbourhoods, anomalies and candidate relationships, but they do not settle interpretation.  
-  - The use of entropy is especially useful for thinking about contested knowledge, because uncertainty and mixed classification may signal complexity rather than failure.
-
-- **What I reframe / adjust:**  
-  - I should describe visual analytics as route-making, not proof-making.  
-  - I should treat clusters and neighbours as prompts for archival interpretation, with each computational result followed by a provenance and close-reading step.
-
-- **What question it raises next:**  
-  - What kinds of DDR traces become newly visible when proximity replaces keyword matching as the first route into the material?  
-  - Can areas of high uncertainty or mixed classification help identify contested design knowledge rather than merely messy data?
+Rockmore et al. support a modest but powerful use of embeddings: they create candidate neighbourhoods and show where imposed categories become unstable. For DDR the computational value lies in surfacing relations worth testing, while the historical claim remains downstream of provenance and close reading.
 
 # Integration hooks
 
-- **Where I will cite it:**  
-  In the methods chapter or S3.1 section, where I explain why embedding spaces can be used to generate candidate relationships among archival traces. The paragraph job: establish embeddings as exploratory surfaces for comparison and discovery, then set a boundary that they require close-reading validation.
+**Where I will cite it:** Semantic atlas; neighbourhoods; uncertainty; example-based discovery.
 
-- **Where I will name the title in running text:**  
-  First use in the visual analytics section: “Rockmore et al.’s account of the ‘literary landscapes’ of vector embeddings is useful here because it treats high-dimensional text spaces as aids to exploration and comparison rather than as self-sufficient evidence.”
-
-- **Link to my practice evidence:**  
-  TODO: link to DDR visual analytics output: embedding map, nearest-neighbour table, alluvial diagram or network map. Candidate: one cluster where a designer, institution or research concern is surfaced across apparently separate catalogue categories.
-
-- **Workstreams →**  
-  Embedding experiments; visual analytics; nearest-neighbour search; cluster interpretation; uncertainty/entropy notes; close-reading validation.
-
-- **Deliverables →**  
-  DDR embedding landscape; candidate trace table; provenance-checked neighbour list; paragraph explaining why computational proximity is exploratory.
-
-- **Stakeholders →**  
-  Thesis reader; supervisors; archive staff; design historians; digital humanities readers; future users of the DDR archive.
+**Link to my practice evidence:** bge-m3 neighbourhood retrieval and UMAP views.
 
 # Boundary + risk
 
-- **Boundary:**  
-  This source is useful for explaining vector spaces, classification and exploratory landscapes, but it does not directly address archives, provenance, design history or institutional contestation.
+**Boundary:** The source studies contemporary books with publisher genre labels, not heterogeneous archival records.
 
-- **Risk if misused:**  
-  If I overuse it, I could make the DDR archive sound like a literary corpus and imply that similarity in embedding space is equivalent to historical relationship.
+**Risk if misused:** The landscape metaphor can make model-produced geometry appear natural.
+
+# Cross-source / cross-lens synthesis
+
+Rockmore operationalises Drucker's and Mordell's caution that computational spaces are constructed. UMAP supplies a projection technique; Asai later addresses synthesis after retrieval. DDR should therefore retain the sequence embedding → candidate neighbourhood → source check → interpretation.
 
 # Methods spine tags
 
@@ -210,34 +180,12 @@ They compare vector representations of literary text by testing how well differe
 
 # Chicago NB payload
 
-- **Key pages to reuse:**  
-  pp. 1–2, 5–13
-
-- **First full note:**  
-  Daniel Rockmore, Jiayi Chen, Mohammad Javad Latifi Jebelli, Allen Riddell, and Harrison Stropkay, “On the Literary Landscapes of Vector Embeddings,” *Computational Humanities Research* 1 (2025): e18, https://doi.org/10.1017/chr.2025.10015.
-
-- **Short note form:**  
-  Rockmore et al., “On the Literary Landscapes,” page number.
-
-- **One quote worth lifting:**  
-  “a potential tool for book discovery and as an aid to various forms of more traditional comparative textual analysis” [@Rockmore2025LiteraryLandscapesVector, p. 1].
-
-- **One paraphrase worth keeping:**  
-  Rockmore et al. show that transformer-based embeddings can preserve meaningful neighbourhoods of genre and authorship, making them useful for exploratory comparison, discovery and follow-up close reading [@Rockmore2025LiteraryLandscapesVector, pp. 8–13].
-
-# Related works
-
-- Moretti on distant reading.
-- Blei, Ng and Jordan on topic modelling.
-- Bamman et al. on classification in cultural analytics.
-- Wilkens on computational genre analysis.
-- Walsh, Preus and Antoniak on model-based genre recognition in poetry.
-- Jaillant, Aske and Caputo on AI, access, risk and trust in cultural heritage organisations.
+- **Key pages to reuse:** 1–2, 5–13
+- **First full note:** Daniel Rockmore et al., “On the Literary Landscapes of Vector Embeddings,” *Computational Humanities Research* 1 (2025): e18, https://doi.org/10.1017/chr.2025.10015.
+- **Short note form:** Rockmore et al., “On the Literary Landscapes,” 8–13.
+- **One quote worth lifting:** “a potential tool for book discovery” (p. 1).
+- **One paraphrase worth keeping:** Embedding spaces preserve useful local and categorical structure while remaining model-dependent, making them best used for discovery and follow-up interpretation. [@Rockmore2025LiteraryLandscapesVector, pp. 8–13]
 
 # Follow-ups
 
-- **What I will read next:**  
-  Bamman et al. on classification with large language models in cultural analytics; Wilkens on genre, computation and twentieth-century fiction; Moretti on distant reading.
-
-- **What I will test or write next:**  
-  Write a short methods paragraph: “In this thesis, embedding spaces are used as exploratory surfaces. They help identify candidate relations among DDR traces, but each relation must be checked against archival provenance, record context and close reading before it becomes evidence.”
+- **What I will test next:** Compare one DDR semantic neighbourhood with direct keyword retrieval.

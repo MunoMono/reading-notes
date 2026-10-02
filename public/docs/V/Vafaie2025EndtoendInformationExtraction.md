@@ -45,77 +45,126 @@ last_updated: "18 Mar 2026, 15:23"---
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a current archival MLLM paper that shows what multimodal models can realistically do with heterogeneous historical records, because my computational strand needs a defensible account of extraction, prompting, scalability, and evidence-linking.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Methods / S3.3 multimodal machine learning; it helps me say that MLLMs can be useful for archival extraction and semantic enrichment when documents are noisy, layout-diverse, and OCR-resistant, but that performance depends on dataset design, prompting strategy, deployment infrastructure, and careful post-processing.  
-**Why this term, not alternatives (1–2 lines):** Vafaie et al.’s focus on **end-to-end information extraction** is more useful than generic OCR or document-AI language because it explicitly treats the record image itself as input and avoids assuming a clean text layer already exists.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use this text where multimodal models are helping with extraction, structuring, or access from complex archival images, and where I can preserve provenance and avoid collapsing archival interpretation into automated key-value capture.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Vafaie and colleagues write from document understanding, information extraction, and archival digitisation, with contributors from Karlsruhe Institute of Technology, University of Mannheim, and the German Federal Archives. The paper sits in a practical archival-access problem-space: historical index cards are hard to process because of degraded print, handwriting, stamps, marginalia, inconsistent formats, and privacy-sensitive constraints, yet large-scale access depends on extracting usable structure from them. `[@Vafaie2025EndtoendInformationExtraction, pp. 2–3]` :contentReference[oaicite:2]{index=2}  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This paper is useful because it resists two easy assumptions: first, that OCR plus rules is enough for historical records; second, that bigger MLLMs automatically perform better. Its results show that archival multimodality is a very specific operational problem rather than a generic AI capability demo. `[@Vafaie2025EndtoendInformationExtraction, pp. 2, 7–8]` :contentReference[oaicite:3]{index=3}
+**How this source moves the primary research question forward:** Vafaie et al. provide a concrete archival case in which multimodal models extract structured information directly from heterogeneous digitised records and feed that output into a knowledge graph. It shows what an operational AI-to-access pipeline can do and where it fails.
 
-# The author’s main move (1 sentence)
-They try to demonstrate that end-to-end key information extraction from heterogeneous archival records can be improved with multimodal large language models by introducing a new archival dataset, comparing models and prompting strategies, and connecting extraction outputs to knowledge-graph generation in order to support broader archival access. `[@Vafaie2025EndtoendInformationExtraction, pp. 2–3, 5–8]` :contentReference[oaicite:4]{index=4}
+**How this source bears on the secondary question:** The paper demonstrates how contemporary models can make historical records newly searchable and relational, while also showing that field structure, prompting, privacy and ambiguous historical markings constrain what the technology can reliably recover.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It is a strong operational comparator for the DDR pipeline: source image → machine extraction → structured representation → discovery infrastructure.
+
+**Where it sits in my argument:** Operational literature. It is evidence about implementation and evaluation rather than a theoretical account of historical interpretation.
+
+**My benchmark for using it:** I will use this paper for extraction/access claims only; I will not treat key-value extraction as equivalent to historical inference about contested design knowledge.
+
+# Position + moment
+
+The authors test multimodal large language models on approximately 1.9 million digitised German compensation index cards. The records combine print, handwriting, stamps, corrections and inconsistent layouts, making them a deliberately difficult real-world document-understanding case. [@Vafaie2025EndtoendInformationExtraction, pp. 1–2]
+
+# The author’s main move
+
+Vafaie et al. argue that MLLM-based, OCR-free key-information extraction can outperform older document-understanding approaches on heterogeneous archival records, but that performance depends on model configuration, field type, prompting strategy and deployment context rather than model scale alone. [@Vafaie2025EndtoendInformationExtraction, pp. 1–8]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Multimodal models can outperform OCR-dependent and older document-understanding approaches on noisy archival records, but only under carefully tuned conditions.
-- **Evidence (quote/paraphrase + page):** The paper frames historical index cards as especially difficult for conventional KIE because they mix printed text, handwriting, stamps, annotations, and inconsistent layouts. In the experiments, InternVL2.5-38B achieves the best overall results on BZKOpen with NED 0.080, exact match 83%, partial match 88% at t=1, and 91% at t=3, clearly outperforming Donut-base and Donut-base-finetuned, which remain around 56–59% exact match. The discussion also notes that fine-tuning Donut on a small dataset does not close the performance gap with MLLMs. `[@Vafaie2025EndtoendInformationExtraction, pp. 2–3, 7–8]` :contentReference[oaicite:5]{index=5}
-- **Warrant (my words):** This supports the claim because the paper does not merely assert that MLLMs are promising; it shows, in a real archival case, that OCR-free multimodal extraction can outperform older transformer and OCR-dependent baselines when the document class is visually messy and heterogeneous.
-- **So what for my thesis (a reusable sentence):** Vafaie et al. let me argue that multimodal models may be justified for extracting structure from complex DDR records where OCR or rule-based methods would be brittle, incomplete, or too labour-intensive.
-- **Practice cross-check:** This is relevant if the DDR archive includes forms, cards, diagrams, marginalia, or mixed visual-textual records, but it needs testing against DDR-specific document types rather than assumed transfer. TODO (needs archive material type note).
+- **Claim (plain):** Multimodal models can substantially outperform older document-understanding baselines on heterogeneous archival records.
+- **Author claim:** The authors present MLLMs as a way to avoid brittle OCR/layout pipelines for degraded, semi-structured historical documents.
+- **Evidence-supported claim:** InternVL2.5-38B produces the strongest reported zero-shot results (NED 0.080; 83% exact match; 88% partial match at edit distance 1; 91% at distance 3), markedly outperforming Donut baselines around 56–59% exact match. [@Vafaie2025EndtoendInformationExtraction, pp. 1–2, 6–7]
+- **Researcher inference:** Multimodal models may be appropriate where DDR source forms combine layout, handwriting, marginalia or visual structure that text-only OCR pipelines flatten.
+- **Evidence (quote/paraphrase + page):** The paper's experiments show open-source InternVL2.5-38B outperforming both larger variants and the tested proprietary alternative on BZKOpen. [@Vafaie2025EndtoendInformationExtraction, pp. 6–7]
+- **Warrant (my words):** Direct image-language modelling can exploit visual and textual context that a staged OCR pipeline may lose.
+- **Boundary:** The task is predefined key-value extraction from index cards, not interpretative historical reasoning.
+- **Consequence:** DDR multimodal use should be justified only for document types where visual structure contributes materially to extraction.
+- **Practice cross-check:** Current DDR vector scope remains text/PID based; any multimodal extension should be evaluated separately rather than assumed superior.
 
 ## Claim 2
-- **Claim (plain):** Prompting strategy and model configuration matter more than raw model size, and different fields may require different extraction tactics.
-- **Evidence (quote/paraphrase + page):** The authors explicitly report that increasing model size does not necessarily improve performance: InternVL2.5-38B outperforms the larger 78B model, and InternVL2.0-40B outperforms the 76B model. Table 3 shows that two-shot few-shot prompting with prompt 9 improves InternVL2.5-38B to NED 0.060 and exact match 86%, while zero-shot remains slightly worse. The discussion further notes that structured fields benefit from few-shot prompting, while more open-ended fields such as names and locations can be better handled in zero-shot mode, suggesting a hybrid strategy. `[@Vafaie2025EndtoendInformationExtraction, pp. 5–8]` :contentReference[oaicite:6]{index=6}
-- **Warrant (my words):** This matters because it shows archival MLLM work is not just a matter of selecting the biggest model. Performance emerges from an interaction between field type, prompt design, example selection, and model architecture.
-- **So what for my thesis:** This paper helps me justify a field-sensitive and workflow-specific use of multimodal models in S3, rather than a one-model-fits-all approach to DDR extraction or classification.
-- **Practice cross-check:** This supports designing different prompting or extraction strategies for different DDR record types or metadata fields, especially if names, dates, project codes, and narrative notes behave differently. TODO (needs extraction schema cross-link).
+- **Claim (plain):** Larger models do not necessarily perform better on archival extraction.
+- **Author claim:** The authors explicitly reject model size as a reliable proxy for task performance.
+- **Evidence-supported claim:** InternVL2-40B and InternVL2.5-38B outperform their 76B/78B counterparts, and the authors attribute results to component quality/configuration and training rather than parameter count alone. [@Vafaie2025EndtoendInformationExtraction, pp. 6–7]
+- **Researcher inference:** DDR model selection should be task- and evidence-driven rather than organised around model scale or prestige.
+- **Evidence (quote/paraphrase + page):** The discussion states that “larger models do not necessarily provide better performance across all tasks.” [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Warrant (my words):** Domain performance emerges from architecture, training and task fit, not raw parameter count.
+- **Boundary:** The comparison covers a limited family of models and one archival dataset.
+- **Consequence:** Benchmark actual DDR tasks before changing models.
+- **Practice cross-check:** UAT evaluates retrieval/synthesis behaviour on defined archival cases rather than inferring quality from model size.
 
 ## Claim 3
-- **Claim (plain):** The paper’s real contribution is not just extraction accuracy but a pipeline view in which archival images become structured data and then linked knowledge.
-- **Evidence (quote/paraphrase + page):** Methodologically, the paper defines two pipelines: a rule-based OCR-dependent baseline and a transformer/MLLM end-to-end route. After extraction, outputs are post-processed into standardised JSON key-value structures and then converted into subject-predicate-object triples for integration into a knowledge graph. In the conclusion, the authors state that the extracted data from 1.9 million cards will feed a knowledge graph to broaden access and support exploratory querying, with about 70% planned for public availability and later entity linking. `[@Vafaie2025EndtoendInformationExtraction, pp. 5–6, 8]` :contentReference[oaicite:7]{index=7}
-- **Warrant (my words):** This is important because it places MLLMs inside an archival-access infrastructure. The model is not the endpoint; it is one stage in a chain from image to structured data to semantic retrieval.
-- **So what for my thesis:** Vafaie et al. give me a concrete model for how multimodal extraction might support archive activation in the DDR case, but only if the resulting structures remain linked back to source records and are treated as access scaffolding rather than settled interpretation.
-- **Practice cross-check:** This aligns with Marciano on computational archival science and with Boyd Davis/Vane/Kräutli on whole-pipeline trust; it suggests that any DDR knowledge graph or retrieval layer must preserve provenance to source images and transformation steps. TODO (needs S3 provenance cross-link).
+- **Claim (plain):** Prompting strategy should vary by field type rather than follow one universal recipe.
+- **Author claim:** The authors compare zero-shot and few-shot prompting and propose hybrid prompting for different extraction fields.
+- **Evidence-supported claim:** Few-shot examples improve structured predictable fields such as reference numbers and offices, whereas open-ended fields such as names and geographic locations can suffer example-induced bias and perform better zero-shot. [@Vafaie2025EndtoendInformationExtraction, pp. 6–7]
+- **Researcher inference:** Computational archive workflows should adapt inference strategies to the evidential structure of the field or question rather than use one prompt across all tasks.
+- **Evidence (quote/paraphrase + page):** The paper concludes that a hybrid strategy based on expected values can improve overall accuracy. [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Warrant (my words):** Structured identifiers and open-ended historical names impose different constraints on model prediction.
+- **Boundary:** Field-specific prompting can itself encode assumptions and requires independent validation.
+- **Consequence:** DDR extraction, retrieval and synthesis prompts should be task-specific and versioned.
+- **Practice cross-check:** Named-person/project retrieval and scoped-missingness prompts are already separated as different evidence routes.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Key Information Extraction (KIE):** the automated identification and structuring of meaningful information as key-value pairs from semi-structured documents; I will use this specifically for extraction-oriented archival tasks, not for higher-level interpretation. `[@Vafaie2025EndtoendInformationExtraction, pp. 3–4]` :contentReference[oaicite:8]{index=8}
-- **End-to-end extraction:** extraction directly from document images without relying on intermediate OCR transcripts or layout encodings; I will use this where the image itself is the primary evidential surface. `[@Vafaie2025EndtoendInformationExtraction, pp. 2, 5]` :contentReference[oaicite:9]{index=9}
-- **BZKOpen:** a German-language dataset of 516 historical index cards with 19 annotated attributes across more than 40 layout types; I will use it as evidence that archival MLLM evaluation needs domain-specific benchmark data rather than generic document sets. `[@Vafaie2025EndtoendInformationExtraction, pp. 4–5]` :contentReference[oaicite:10]{index=10}
-- **Iterative context-aware prompting:** a prompt-engineering approach in which earlier prompt failures are analysed and prompts refined with additional hints; I will use this as a reminder that archival MLLM performance depends on active design, not passive prompting. `[@Vafaie2025EndtoendInformationExtraction, pp. 5–6]` :contentReference[oaicite:11]{index=11}
-- **Hybrid prompting strategy:** the paper’s practical conclusion that different fields may benefit from different prompting modes, with structured fields benefiting from few-shot examples and open-ended fields sometimes performing better in zero-shot mode; I will use this as a practical design principle rather than a general law. `[@Vafaie2025EndtoendInformationExtraction, pp. 7–8]` :contentReference[oaicite:12]{index=12}
-- **Knowledge graph generation:** the conversion of extracted key-value data into RDF triples for linked, exploratory archival access; I will use this as a downstream access layer, not as a substitute for archival context. `[@Vafaie2025EndtoendInformationExtraction, p. 6]` :contentReference[oaicite:13]{index=13}
+## Claim 4
+- **Claim (plain):** MLLMs are not universally preferable; rule-based methods remain competitive where record structure is stable.
+- **Author claim:** The authors explicitly compare MLLMs with rule-based and document-transformer approaches.
+- **Evidence-supported claim:** In the discussion, the rule-based approach outperforms the document transformer and smaller MLLMs and is judged preferable when layouts are consistent and extensive rule creation is unnecessary because it is precise and computationally cheaper. [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Researcher inference:** The correct archival method may be the least complex method that reliably preserves the required evidence.
+- **Evidence (quote/paraphrase + page):** The authors recommend rule-based KIE for stable layouts rather than treating MLLMs as a universal replacement. [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Warrant (my words):** Model sophistication has costs in hardware, opacity and failure behaviour that are unnecessary when deterministic structure already solves the task.
+- **Boundary:** Rule-based systems become expensive and brittle as layouts diversify.
+- **Consequence:** DDR should retain deterministic metadata/authority operations where possible and reserve generative/multimodal methods for genuinely ambiguous tasks.
+- **Practice cross-check:** Corpus identity, PID linking and provenance binding remain deterministic rather than delegated to a language model.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a concrete, current archival use case for multimodal extraction rather than abstract AI promise.
-  - It is especially useful because it combines dataset creation, model comparison, prompting, scalability, and semantic enrichment in one paper.
-  - It helps me separate extraction and access support from interpretation, which is important for your thesis.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat multimodal ML in the DDR project primarily as a way to structure and surface records, not as a system that can directly resolve contested meaning.
-  - I will use this text to justify field-sensitive prompting, careful post-processing, and provenance-aware downstream modelling.
-- **What question it raises next (1–2 bullets):**
-  - Which DDR document classes are close enough to index-card-like archival records for this kind of end-to-end extraction to work well?
-  - How can I stop extracted key-value structures from being mistaken for the meaning of the record rather than one operational layer built from it?
+## Claim 5
+- **Claim (plain):** The hardest extraction failures can arise from historical ambiguity and correction, not simply poor image quality.
+- **Author claim:** The authors inspect failure cases rather than attributing errors only to handwriting or unusual fonts.
+- **Evidence-supported claim:** The discussion identifies crossed-out and replaced values and cards referring to multiple people where the model extracts only one as salient failures. [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Researcher inference:** Archival marks of revision, multiplicity and contradiction are precisely the features most at risk of being normalised away by structured extraction.
+- **Evidence (quote/paraphrase + page):** Failure analysis points to overwritten values and multi-person records rather than only stamps or handwriting. [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Warrant (my words):** A key-value schema tends to demand one clean value even where the historical document preserves contested or sequential states.
+- **Boundary:** The paper's examples concern specific index-card conventions and do not establish all archival ambiguity types.
+- **Consequence:** DDR extraction should retain original traces and avoid overwriting alternate names, roles or revisions with a single normalised value.
+- **Practice cross-check:** Source passages remain accessible beneath any structured entity representation.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the methods chapter section on S3.3 multimodal machine learning where I justify extraction from heterogeneous archival images and describe how extraction outputs could feed structured access layers.
-- **Where I will name the title in running text (first-use rule):** First mention in the S3.3 section: *In “End-to-end Information Extraction from Archival Records with Multimodal Large Language Models” (2025), Vafaie et al. argue...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside any DDR pilot workflow that moves from image records to structured metadata, entity linking, or knowledge-graph-like retrieval. TODO (needs exact cross-reference).
-- **Workstreams →** Multimodal machine learning; interpretability; provenance; retrieval; computational activation.
-- **Deliverables →** S3.3 methods paragraph; extraction pipeline note; provenance-aware access rationale; literature map node.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; digital humanities readers; document-AI readers.
+## Claim 6
+- **Claim (plain):** Extraction becomes archival infrastructure only through downstream structuring, access controls and provenance-aware deployment.
+- **Author claim:** The authors convert extracted data to JSON/triples, plan a knowledge graph, entity linking and public exploratory search, while retaining privacy restrictions.
+- **Evidence-supported claim:** The pipeline moves from image extraction to structured data and triples; the conclusion states that roughly 70% of the 1.9 million-card data can be public while 30% remains restricted for privacy, and future work must test other languages/domains. [@Vafaie2025EndtoendInformationExtraction, pp. 5–8]
+- **Researcher inference:** Archive AI should be judged as a whole evidence-to-access system, not only by benchmark accuracy.
+- **Evidence (quote/paraphrase + page):** The extracted cards are intended to populate a knowledge graph for exploratory querying, with explicit privacy and generalisability constraints. [@Vafaie2025EndtoendInformationExtraction, p. 8]
+- **Warrant (my words):** A technically accurate extraction has archival value only when its source relation, access conditions and downstream semantics remain governed.
+- **Boundary:** The paper does not demonstrate historical interpretative accuracy of the resulting knowledge graph.
+- **Consequence:** DDR structured/computational outputs should remain linked to source records and carry rights/provenance constraints.
+- **Practice cross-check:** RAI evidence cards and canonical PID/repository links preserve the source layer beneath synthesis.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This paper is strongest as a model for extraction and access over structured archival record images, but it is less useful for the interpretative, historiographic, and contested dimensions of design knowledge in the DDR archive.
-- **Risk if misused (1 sentence):** If I lean on it too heavily, I could let key-value extraction stand in for historical understanding and underplay the ambiguity, absence, and contextual richness of the records.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Key information extraction (KIE):** automated extraction of predefined key-value information from semi-structured documents. [@Vafaie2025EndtoendInformationExtraction, pp. 1–2]
+- **Multimodal large language model (MLLM):** model combining visual and language representations for direct document-image interpretation.
+- **Hybrid prompting:** use of different zero-/few-shot strategies according to field structure and expected values. [@Vafaie2025EndtoendInformationExtraction, p. 7]
+- **Structured archival derivative:** my term for JSON/triples/knowledge-graph representations produced from source records and requiring traceability back to them.
+
+# My response
+
+Vafaie et al. are most useful as an antidote to both hype and blanket scepticism. The study shows that multimodal models can be materially better on difficult historical forms, yet the strongest method depends on document structure, field semantics, prompt design and deployment cost. The most important archival lesson is in the failure cases: corrections and multiplicity are not noise but historical structure, and a clean extraction schema can erase them. For DDR, multimodal or generative extraction should therefore remain a derivative access mechanism whose outputs are inspectable against the original record.
+
+# Integration hooks
+
+**Where I will cite it:** Operational AI comparison; multimodal extraction; prompt/task specificity; structured derivatives and knowledge graphs.
+
+**Link to my practice evidence:** It provides a comparator for future multimodal DDR work but does not justify changing the current text-bounded corpus without a separate evaluation.
+
+**Workstreams →** Critical computational approaches; information extraction; provenance; interface.  
+**Deliverables →** Methods chapter; limitations; future work.
+
+# Boundary + risk
+
+**Boundary:** This is a KIE benchmark over one class of German historical index cards; it does not evaluate contested historical synthesis, retrieval bias or archive-wide interpretation.
+
+**Risk if misused:** High extraction accuracy could be mistaken for historical understanding and encourage structured fields to replace ambiguous source traces.
+
+# Cross-source / cross-lens synthesis
+
+Vafaie et al. operationalise a part of the pipeline that Mordell theorises as datafication. Their system demonstrates practical benefits of transforming archival images into machine-readable structures, while Mordell and Drucker explain why those structures must remain recognised as constructed. Later RAI sources such as Asai address synthesis over retrieved evidence, a substantially different task. For DDR, the distinction is important: extraction, retrieval and interpretation require separate evaluation and should not inherit one another's accuracy claims.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -123,22 +172,20 @@ They try to demonstrate that end-to-end key information extraction from heteroge
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 2–3, 5–8
-- **First full note (write it out here):**  
-  Mahsa Vafaie, Sven Hertling, Inger Banse-Strobel, Kevin Dubout, and Harald Sack, “End-to-End Information Extraction from Archival Records with Multimodal Large Language Models,” in *Proceedings of the 34th ACM International Conference on Information and Knowledge Management* (New York: ACM, 2025), 6075–6083.
-- **Short note form:**  
-  Vafaie et al., “End-to-End Information Extraction from Archival Records with Multimodal Large Language Models,” 6077–6081.
-- **One quote worth lifting (≤2 lines):** “larger models do not necessarily provide better performance across all tasks.” (p. 8)
-- **One paraphrase worth keeping:** Vafaie et al. argue that archival multimodal extraction works best when model choice, prompt design, post-processing, and deployment are treated as a whole pipeline, and that strong results on heterogeneous historical records do not come simply from using larger models. (pp. 7–8)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
-- Marciano, “Towards a New Discipline of Computational Archival Science (CAS)”
-- Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?”
-- Boyd Davis, Vane, and Kräutli, “Can I Believe What I See?”
-- Foka and Griffin, “AI, Cultural Heritage, and Bias”
-- TODO: connect directly to any DDR image-extraction pilot or metadata-enrichment experiment.
+- **Key pages to reuse:** 1–2, 5–8
+- **First full note:** Mahsa Vafaie et al., “End-to-End Information Extraction from Archival Records with Multimodal Large Language Models,” in *Proceedings of the 34th ACM International Conference on Information and Knowledge Management* (2025), 6075–6083, https://doi.org/10.1145/3746252.3761503.
+- **Short note form:** Vafaie et al., “End-to-End Information Extraction,” 6079–6082.
+- **One quote worth lifting:** “larger models do not necessarily provide better performance across all tasks” (paper p. 7).
+- **One paraphrase worth keeping:** Vafaie et al. show that multimodal archival extraction can outperform older baselines, but performance depends on field type, prompting, model configuration and document ambiguity rather than model scale alone. [@Vafaie2025EndtoendInformationExtraction, pp. 6–8]
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A multimodal archival or document-AI paper that is less extraction-focused and more concerned with retrieval, explanation, or uncertainty.
-- What I will test or write next: Draft the S3.3 paragraph that defines multimodal ML in your thesis as an extraction-and-access scaffold, then specify which DDR document types are suitable for that workflow and which are not.
+# Related works
+
+- Mordell, “Critical Questions for Archives as (Big) Data.”
+- Marciano, “Towards a New Discipline of Computational Archival Science.”
+- Arnold and Tilton, “Explainable Search and Discovery of Visual Cultural Heritage Collections.”
+
+# Follow-ups
+
+- **What I will test next:** If multimodal extraction is later introduced into DDR, create a UAT set specifically for corrections, multiple actors and visual marginalia rather than evaluating only clean field accuracy.

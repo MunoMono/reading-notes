@@ -10,6 +10,9 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
+last_updated: "02 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
@@ -19,102 +22,154 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Bridge text"
-project_tags:
-  - "Theoretical framework"
 theoretical_framework_area_id: "3"
 theoretical_framework_area: "Critical computational approaches"
-literature_cluster_id: "b"
-literature_cluster: "Operational literature"
-zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
-last_updated: "18 Mar 2026, 15:23"---
-**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
-**Model title:** Mobilising contested design knowledge in the DDR archive  
-**Primary strand:** S3 — Surfacing and reactivating traces computationally  
-**Sub-cluster:** S3.2 Interpretability, provenance, and retrieval  
-**Source type:** Bridge text  
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+project_tags:
+  - "Theoretical framework"
+---
 
-**Seams to watch (optional, pick 1):**
-- When computational methods clarify or distort contested traces
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 3. Critical computational approaches  
+**Literature cluster:** c) Contemporary bridge literature  
+**Zotero filing path:** Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature  
+**Source type:** Bridge text
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- No page cite → write TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
 
-# Thesis job (do this first)
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Why I’m reading this now (1 sentence):** I need a bridge text that explicitly connects archival science to computational methods, because my S3 strand depends on making archival processing, retrieval, and analysis legible as an archival as well as technical problem.  
-**Where it sits in my argument (chapter/section + what it helps me say):** Methods / S3.2 interpretability, provenance, and retrieval; it helps me say that computational work on archives should be framed as a transdisciplinary archival practice rather than as external data-science applied to passive records.  
-**Why this term, not alternatives (1–2 lines):** Marciano’s term **Computational Archival Science (CAS)** is more useful than generic digital archives or AI-for-archives language because it explicitly combines archival principles, computational methods, and training infrastructures into one field claim.  
-**My benchmark for using it (1–2 criteria I will apply):** I will use Marciano where computational methods are tied to archival functions such as appraisal, arrangement, description, preservation, and access, and where workflows preserve interpretability rather than treating archives as generic datasets.
+# Thesis job
 
-# Position + moment (2–4 lines)
-Marciano writes as one of the main advocates of Computational Archival Science, from library and information science, archival science, and big-data/digital-curation training contexts. As an afterword to Jaillant’s collection, he uses the volume’s concerns with scale, “dark” archives, and skills gaps to argue for a more formal transdisciplinary articulation of computational archival work. The chapter is partly theoretical, partly infrastructural, and partly pedagogic, moving between examples, workshop initiatives, training models, and a field-defining statement.  
-**Canon assumptions to problematise / update for 2026 (1–2 lines):** This text is most useful when read as a field-building intervention rather than a neutral description of current archival practice. Its strongest move is not simply “archives need AI,” but that archival principles and computational methods must be integrated hand in hand.
+**How this source moves the primary research question forward:** Marciano provides a concrete bridge between archival science and computation. He frames cultural collections as large-scale data, makes datafication and analysis visible as separate stages, and defines Computational Archival Science (CAS) as a blend of computational and archival thinking. This helps the thesis justify computational activation as an archival method rather than an external analytics layer.
 
-# The author’s main move (1 sentence)
-They try to formalise Computational Archival Science as a new transdisciplinary field by linking archival principles, computational thinking, and scalable processing pipelines in order to make large-scale archival access, analysis, and preservation more tractable.
+**How this source bears on the secondary question:** Revisiting DDR-period design knowledge computationally requires methods that preserve context and provenance while making large, heterogeneous record systems more tractable. Marciano’s field-building argument gives a contemporary vocabulary for doing this without abandoning archival principles.
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+**Why I’m reading this now:** It is a core bridge text for S3 because it joins scale, workflow transparency, training, archival concepts and computational methods in one field claim.
+
+**Where it sits in my argument:** Contemporary bridge literature linking archival theory to computational practice.
+
+**My benchmark for using it:** I will use Marciano where computational processing is tied to an identifiable archival function and where the transformations between source record and analytical output remain inspectable.
+
+# Position + moment
+
+Written as the afterword to *Archives, Access and Artificial Intelligence*, Marciano consolidates a decade of workshop, training and network-building activity around Computational Archival Science. The chapter responds to three linked problems: scale, “dark” archives, and skills gaps in data science and AI, while arguing that archival principles and computational methods should be developed together. [@Marciano2022NewDisciplineComputational, pp. 205–216]
+
+# The author’s main move
+
+Marciano argues for CAS as a transdisciplinary practice in which computational thinking and archival thinking are deliberately integrated across datafication, analysis, description, preservation, access and training, with interdisciplinary collaboration treated as part of the field’s infrastructure. [@Marciano2022NewDisciplineComputational, pp. 206–216]
+
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Marciano argues that cultural collections are inherently big data, and that scale changes what archival methods are possible.
-- **Evidence (quote/paraphrase + page):** Using digitized city directories from North Carolina as an example, he estimates that a single scanned directory can yield close to 2GB of data, that a statewide corpus could reach roughly 2TB, and that a rough U.S.-wide extrapolation could approach 100TB, concluding that “cultural collections are inherently ‘big data.’” He adds that methods suitable for small archival holdings may not scale to very large ones. `[@Marciano2022NewDisciplineComputational, pp. 206–207]`
-- **Warrant (my words):** This matters because it reframes computational treatment as a structural necessity of scale rather than an optional enhancement. The archival problem is not only interpretation but the volume and interconnection of records.
-- **So what for my thesis (a reusable sentence):** Marciano helps me argue that computational activation of the DDR archive is justified not by novelty alone but by the need to work across scale, interconnection, and layered record systems that exceed purely manual handling.
-- **Practice cross-check:** This is useful if I move between box/file-level archive work and larger corpus-level patterns, but it should be checked against the actual size and heterogeneity of the DDR corpus rather than assumed from much larger heritage datasets. TODO (needs corpus-scale note).
+- **Claim (plain):** Scale changes which archival methods are practical.
+- **Author claim:** Marciano argues that digitised cultural collections can quickly reach terabyte and petabyte scales and that methods suited to small holdings may not scale to very large ones.
+- **Evidence-supported claim:** Using historical city directories, he estimates approximately 2 GB for one scanned volume, roughly 2 TB for a statewide corpus and around 100 TB for a rough US-wide extrapolation, concluding that cultural collections are inherently “big data.” [@Marciano2022NewDisciplineComputational, pp. 205–206]
+- **Researcher inference:** The DDR computational layer should be justified by the problem of working across a large linked corpus, not by technological novelty.
+- **Evidence (quote/paraphrase + page):** Marciano states that “cultural collections are inherently ‘big data’” and notes that methods that work for small holdings may fail at larger scale. [@Marciano2022NewDisciplineComputational, p. 206]
+- **Warrant (my words):** Scale changes the feasibility of manual browsing, cross-document comparison and relationship tracing.
+- **Boundary:** DDR is substantially smaller than the petabyte-scale examples in this chapter, so the argument supports computational tractability rather than a claim that DDR itself is “big data” in the strongest sense.
+- **Consequence:** The thesis should state the actual DDR corpus size and explain what forms of cross-corpus inquiry computation enables.
+- **Practice cross-check:** Tie the claim to the 27,997 PID-backed chunks and the need to move between individual source records and corpus-level patterns.
 
 ## Claim 2
-- **Claim (plain):** Marciano argues that unlocking archives computationally requires going inside the “black box” of datafication and analysis rather than treating AI tools as magic.
-- **Evidence (quote/paraphrase + page):** In his classroom example, Marciano describes a two-phase processing pipeline: first datafication through OCR, cleaning/transformation, and NLP/NER tagging; then data analysis through mapping, dashboard visualization, and network modelling. He explicitly says students are asked to go inside and steer processes “too often considered ‘black box’ processes.” `[@Marciano2022NewDisciplineComputational, pp. 207–209]`
-- **Warrant (my words):** This is important because it makes interpretability a workflow issue. Computational archival work is not trustworthy if the stages of transformation remain opaque.
-- **So what for my thesis:** Marciano gives me a strong rationale for documenting the DDR computational pipeline step by step, from digitisation and cleaning through modelling and visualisation, instead of presenting outputs as if they emerged transparently from the archive.
-- **Practice cross-check:** This aligns directly with Boyd Davis, Vane, and Kräutli on interrogability, Jaillant and Aske on preprocessing labour, and Foka and Griffin on AI bias in cultural heritage workflows. TODO (needs S3 pipeline cross-link).
+- **Claim (plain):** “Dark archive” is an unstable term and should not be used casually.
+- **Author claim:** Marciano distinguishes the formal archival meaning of a dark archive—preserved but inaccessible or restricted—from the looser use in the volume to mean collections whose accessibility may be improved through AI.
+- **Evidence-supported claim:** Pages 206–207 explicitly quote the Society of American Archivists definition and then note that the book uses “dark archives” more broadly in relation to improved access. [@Marciano2022NewDisciplineComputational, pp. 206–207]
+- **Researcher inference:** DDR should avoid metaphorically labelling poorly retrievable or weakly described material “dark” when the actual condition is sparse description, digitisation boundary or retrieval failure.
+- **Evidence (quote/paraphrase + page):** Marciano identifies gradations such as “light” and “dim” archives and separates restricted access from AI-enabled discoverability. [@Marciano2022NewDisciplineComputational, p. 207]
+- **Warrant (my words):** Precise terminology matters because different forms of inaccessibility imply different evidential and technical remedies.
+- **Boundary:** The chapter does not provide a complete taxonomy of archival inaccessibility.
+- **Consequence:** The thesis should retain specific terms such as scoped missingness, sparse description and retrieval failure rather than collapsing them into “darkness.”
+- **Practice cross-check:** Use the source-status hierarchy to distinguish not-digitised, not-described, not-retrieved and genuinely absent evidence.
 
 ## Claim 3
-- **Claim (plain):** Marciano’s central field claim is that Computational Archival Science should formally integrate archival thinking and computational thinking.
-- **Evidence (quote/paraphrase + page):** He defines CAS as “a transdisciplinary field” concerned with applying computational methods and resources to large-scale records and archives processing, analysis, storage, preservation, and access, to improve support for appraisal, arrangement and description, preservation, and access decisions. He also states that computational archival science is “a blend of computational and archival thinking” and shows mappings between archival concepts and computational methods, including provenance with ontology construction, recordkeeping with auto-classification, and structured archival interfaces with APIs and graph databases. `[@Marciano2022NewDisciplineComputational, pp. 212–214]`
-- **Warrant (my words):** This is the key conceptual contribution. Marciano is not simply proposing more technology in archives; he is arguing for a field where archival functions and computational methods are co-developed.
-- **So what for my thesis:** Marciano helps me position the computational strand as archival reconstruction and access work grounded in archival functions, not as a separate analytics layer detached from provenance, appraisal, and description.
-- **Practice cross-check:** This is especially relevant if I want S3 to remain accountable to archival order, provenance, and interpretability rather than drifting into decontextualized pattern-mining. TODO (needs provenance/retrieval cross-link).
+- **Claim (plain):** Datafication and analysis are distinct stages that should remain visible.
+- **Author claim:** Marciano describes a two-phase pipeline: datafication through OCR, cleaning/transformation and NLP/NER; then analysis through mapping, dashboards and network modelling.
+- **Evidence-supported claim:** Pages 207–208 show the workflow explicitly and say students are asked to “go inside and steer” processes too often treated as black boxes. [@Marciano2022NewDisciplineComputational, pp. 207–208]
+- **Researcher inference:** DDR should document preprocessing and modelling as separate transformations rather than presenting semantic outputs as if they emerged directly from archival records.
+- **Evidence (quote/paraphrase + page):** The pipeline moves from digitisation and structured text creation to spatial, visual and network analysis. [@Marciano2022NewDisciplineComputational, pp. 207–208]
+- **Warrant (my words):** Each stage can change what is represented, omitted or made analytically salient.
+- **Boundary:** Marciano’s classroom pipeline is illustrative rather than a validated universal workflow.
+- **Consequence:** The computational methods chapter should identify preprocessing, embedding, dimensionality reduction, retrieval and synthesis as discrete steps.
+- **Practice cross-check:** Preserve model/version and transformation provenance for bge-m3 embeddings, UMAP, retrieval and Qwen synthesis.
 
-# Definitions / terms this changes (only the ones that matter)
-- **Computational Archival Science (CAS):** a transdisciplinary field applying computational methods to archival processing, analysis, preservation, and access in support of core archival functions; I will use this as a bridge term for positioning S3 as archival-computational rather than merely technical. `[@Marciano2022NewDisciplineComputational, pp. 212–213]`
-- **Dark archives:** Marciano notes the formal archival meaning of repositories or collections preserved for future use but with restricted or no current access, while also observing that the term is being used in the volume more broadly to mean archives whose accessibility may be improved computationally; I will use the term carefully and specify which meaning is in play. `[@Marciano2022NewDisciplineComputational, pp. 206–207]`
-- **Datafication:** the conversion of archival materials into structured or enriched data through OCR, cleaning, transformation, and tagging; I will use this as a named stage in any DDR computational workflow. `[@Marciano2022NewDisciplineComputational, pp. 207–209]`
-- **Computational thinking + archival thinking:** Marciano’s claim that record-keeping innovation and technological development must progress together; I will use this as a concise way to justify combining archival principles with computational methods. `[@Marciano2022NewDisciplineComputational, pp. 209–210, 214]`
-- **Interdisciplinary team-building:** the cultivation of collaborative work across archives, LIS, humanities, HCI, and computation; I will use this as a practical benchmark for how computational archival work should be organised. `[@Marciano2022NewDisciplineComputational, pp. 209–211, 214–215]`
+## Claim 4
+- **Claim (plain):** AI cannot be separated from the archival and representational conditions of the records it processes.
+- **Author claim:** Marciano warns that AI must be contextualised within recordkeeping and uses digitisation examples to show how technical limitations can amplify marginalisation or erasure, especially around race, gender and class.
+- **Evidence-supported claim:** Pages 208–209 discuss how digitisation and processing may obscure visual or written features and explicitly state that if marginalised people are erased from historical records, AI/ML cannot simply recover what is not there. [@Marciano2022NewDisciplineComputational, pp. 208–209]
+- **Researcher inference:** Computational recovery of DDR marginality is bounded by what was recorded, preserved and digitised; models cannot legitimately “fill” historical absence.
+- **Evidence (quote/paraphrase + page):** Marciano frames technical erasure as a problem that begins before inference, in source material and digitisation. [@Marciano2022NewDisciplineComputational, pp. 208–209]
+- **Warrant (my words):** Model outputs inherit the evidence surface available to them.
+- **Boundary:** The chapter raises the problem through examples rather than providing a systematic bias-evaluation framework.
+- **Consequence:** Feminist and missingness analyses must distinguish archival absence from computational invisibility.
+- **Practice cross-check:** Maintain nearest-trace and scoped-missingness behaviours instead of speculative completion.
 
-# My response (no antithesis; state positives)
-- **What I take from this (1–3 bullets):**
-  - It gives me a clean field label for connecting archival science and computation in S3.
-  - It is especially useful because it insists on process visibility and training, not just tool adoption.
-  - It provides a good bridge from archival theory into workflow design, provenance, and retrieval practice.
-- **What I reframe / adjust (1–2 bullets, stated positively):**
-  - I will treat computational activation of the DDR archive as archival work conducted through computational methods, not as external data science applied after the fact.
-  - I will describe the computational strand as a sequence of archival-computational transformations that need to remain visible and interpretable.
-- **What question it raises next (1–2 bullets):**
-  - Which parts of Marciano’s CAS framing translate well to a historically interpretative design archive, and which remain too oriented toward scale and operational efficiency?
-  - How can I keep archival principles such as provenance and original order active inside a computational workflow without freezing the archive into static categories?
+## Claim 5
+- **Claim (plain):** CAS depends on a deliberate blend of computational and archival thinking.
+- **Author claim:** Marciano defines CAS as a transdisciplinary field and explicitly states that it is “a blend of computational and archival thinking.”
+- **Evidence-supported claim:** Pages 212–214 map archival concepts such as provenance, appraisal, recordkeeping and structured access to computational methods including ontology construction, predictive coding, classification, APIs and graph databases. [@Marciano2022NewDisciplineComputational, pp. 212–214]
+- **Researcher inference:** DDR’s computational strand should preserve archival concepts as design constraints on technical method.
+- **Evidence (quote/paraphrase + page):** The chapter places provenance, appraisal, recordkeeping and access alongside corresponding computational techniques. [@Marciano2022NewDisciplineComputational, pp. 212–214]
+- **Warrant (my words):** Computational methods become archivally credible when their outputs remain accountable to archival context and functions.
+- **Boundary:** A mapping table does not prove that any specific technical method automatically respects archival principles.
+- **Consequence:** The thesis should show where provenance, appraisal boundaries and contextual description are retained inside each computational operation.
+- **Practice cross-check:** Treat source PID, metadata, evidence route and synthesis provenance as non-negotiable constraints on retrieval-augmented inference.
 
-# Integration hooks (make it actionable)
-- **Where I will cite it (exact paragraph/job):** In the S3.2 methods section where I define the computational strand as archival-computational work, and in the workflow paragraph where I justify explicit stages of datafication, modelling, retrieval, and interpretation.
-- **Where I will name the title in running text (first-use rule):** First mention in the S3 bridge section: *In “Towards a New Discipline of Computational Archival Science (CAS)” (2022), Richard Marciano argues...*
-- **Link to my practice evidence (one concrete cross-reference):** Use alongside any DDR workflow note that moves from scans or metadata through cleaning, structuring, modelling, and visualisation, especially where provenance trails or source-linked outputs are part of the design. TODO (needs exact cross-reference).
-- **Workstreams →** Interpretability; provenance; retrieval; workflow design; computational activation.
-- **Deliverables →** S3.2 methods paragraph; CAS bridge note; workflow architecture rationale; literature map node.
-- **Stakeholders →** Examiners; supervisors; archival studies readers; digital humanities readers; computational heritage readers.
+## Claim 6
+- **Claim (plain):** Computational archival work is infrastructurally collaborative.
+- **Author claim:** Marciano argues that skills development and field maturation require interdisciplinary team-building and sustained networks linking archivists, researchers, educators and technologists.
+- **Evidence-supported claim:** Pages 209–216 describe computational-thinking training, interdisciplinary student teams, the international CAS network and a practitioner/educator network built around shared case studies. [@Marciano2022NewDisciplineComputational, pp. 209–216]
+- **Researcher inference:** The DDR system should be represented as the outcome of distributed archival, historical, design and technical labour rather than as an autonomous AI artifact.
+- **Evidence (quote/paraphrase + page):** The chapter repeatedly links CAS development to multidisciplinary collaboration, shared training and cross-institutional networks. [@Marciano2022NewDisciplineComputational, pp. 209–216]
+- **Warrant (my words):** Different forms of expertise are required to judge historical relevance, archival context, technical behaviour and interface legibility.
+- **Boundary:** Collaboration itself does not guarantee sound method or equal power among participants.
+- **Consequence:** Methodological reporting should identify who contributes which forms of expertise and where validation occurs.
+- **Practice cross-check:** Keep release receipts, UAT decisions and source-policy decisions attributable rather than treating them as invisible system behaviour.
 
-# Boundary + risk (short, practical)
-- **Boundary (1 sentence):** This chapter is strongest as a field-building argument for computational archival science and weaker as a guide to the interpretative, contested, and historiographic dimensions of one design archive.
-- **Risk if misused (1 sentence):** If I import Marciano too directly, I could overstate efficiency, scale, and process architecture at the expense of ambiguity, absence, and contested meaning in the DDR materials.
+# Definitions / terms this changes
 
-# Methods spine tags (tick what it actually touches)
+- **Computational Archival Science (CAS):** a transdisciplinary field combining archival and computational thinking across processing, analysis, preservation and access. [@Marciano2022NewDisciplineComputational, pp. 212–214]
+- **Dark archives:** formally, preserved archival material with restricted/no current access; Marciano notes a looser AI-access usage and warns through his discussion that the meanings should not be conflated. [@Marciano2022NewDisciplineComputational, pp. 206–207]
+- **Datafication:** the conversion of archival material into machine-processable structured data through digitisation, cleaning/transformation and tagging. [@Marciano2022NewDisciplineComputational, pp. 207–208]
+- **Computational thinking + archival thinking:** the paired intellectual basis of CAS. [@Marciano2022NewDisciplineComputational, pp. 209–214]
+- **Interdisciplinary team-building:** the organisational capacity to combine archival, computational and domain expertise. [@Marciano2022NewDisciplineComputational, pp. 209–216]
+
+# My response
+
+Marciano is most useful to this thesis when read as a field-building and workflow argument rather than as a celebration of AI. He insists on visible processing stages, archival context, interdisciplinary skill and a mapping between archival concepts and computational techniques. That combination gives S3 a defensible institutional and methodological location while also clarifying a limit: computation can expand access and relational inquiry, but it cannot repair documentary absences that precede it.
+
+# Integration hooks
+
+**Where I will cite it:** CAS field definition; datafication/workflow transparency; provenance-aware computational methods; limitations of AI recovery; interdisciplinary infrastructure.
+
+**Link to my practice evidence:** The DDR pipeline already separates corpus construction, embeddings, UMAP, retrieval and synthesis and can therefore be described as an archival-computational workflow rather than an opaque end-to-end model.
+
+**Workstreams →** CAS framing; interpretability; provenance; retrieval; training; bias/missingness.  
+**Deliverables →** Theoretical framework; methods; limitations; UAT rationale.  
+**Stakeholders →** Examiners; supervisors; archivists; computational heritage researchers.
+
+# Boundary + risk
+
+**Boundary:** This chapter is a field-building afterword drawing on training and network initiatives; it does not empirically validate the historical accuracy of any specific computational technique.
+
+**Risk if misused:** Its emphasis on scale and capability could encourage the thesis to overstate the need for automation or understate interpretative ambiguity in a historically specific design archive.
+
+# Cross-source / cross-lens synthesis
+
+Marciano extends the CAS field framing supplied by Hedges, Marciano and Goudarouli by making the pipeline and institutional infrastructure concrete. Mordell shows that archives-as-data are constructed through modelling decisions; Drucker cautions against graphical certainty; McInnes et al. provide the technical basis for UMAP; Rockmore et al. show how vector spaces can reveal literary structure; Colavizza et al. survey archival AI opportunities and risks; Jaillant and Aske expose infrastructural and preprocessing barriers; Bender et al. make model-scale harms explicit. For DDR, the combined implication is that computational activation should be built as a visible chain of archival-computational transformations whose sources, assumptions and limits remain inspectable.
+
+# Methods spine tags
+
 - [x] Framing and theory
 - [x] Study design
 - [x] Data collection and instruments
@@ -122,22 +177,21 @@ They try to formalise Computational Archival Science as a new transdisciplinary 
 - [x] Synthesis and interpretation
 - [x] Reporting and communications
 
-# Chicago NB payload (capture what you’ll need later)
-- **Key pages to reuse:** p. 206–210, 212–215
-- **First full note (write it out here):**  
-  Richard Marciano, “Afterword: Towards a New Discipline of Computational Archival Science (CAS),” in *Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections*, ed. Lise Jaillant (Bielefeld: Bielefeld University Press, 2022), 205–218. TODO (confirm opening page from final volume if needed)
-- **Short note form:**  
-  Marciano, “Towards a New Discipline of Computational Archival Science (CAS),” 212–214.
-- **One quote worth lifting (≤2 lines):** “computational archival science is a blend of computational and archival thinking.” (p. 214)
-- **One paraphrase worth keeping:** Marciano argues that computational archival science should formally integrate archival principles and computational methods across large-scale processing, description, preservation, and access, and that this requires visible pipelines, computational thinking, and interdisciplinary collaboration. (pp. 207–214)
+# Chicago NB payload
 
-# Related works (only if it directly connects)
+- **Key pages to reuse:** 205–216
+- **First full note:** Richard Marciano, “Afterword: Towards a New Discipline of Computational Archival Science (CAS),” in *Archives, Access and Artificial Intelligence: Working with Born-Digital and Digitized Archival Collections*, ed. Lise Jaillant (Bielefeld: Bielefeld University Press, 2022), 205–218.
+- **Short note form:** Marciano, “Towards a New Discipline of Computational Archival Science,” 205–216.
+- **One quote worth lifting:** “computational archival science is a blend of computational and archival thinking” (p. 213).
+- **One paraphrase worth keeping:** CAS joins archival principles with explicit computational workflows, training and collaboration so that large-scale archival processing remains connected to provenance, context and access. [@Marciano2022NewDisciplineComputational, pp. 207–216]
+
+# Related works
+
+- Hedges, Marciano, and Goudarouli, “Introduction to the Special Issue on Computational Archival Science.”
+- Mordell, “Critical Questions for Archives as (Big) Data.”
 - Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?”
-- Boyd Davis, Vane, and Kräutli, “Can I Believe What I See?”
-- Foka and Griffin, “AI, Cultural Heritage, and Bias”
-- Bowker and Star, *Sorting Things Out*
-- TODO: connect directly to your S3 workflow note and any provenance-aware retrieval design.
+- Colavizza et al., “Archives and AI.”
 
-# Follow-ups (next actions, not vibes)
-- What I will read next: A more interpretative CAS-adjacent case study that deals with provenance-aware retrieval or archival reconstruction in practice.
-- What I will test or write next: Draft the S3.2 paragraph that defines your workflow as archival-computational and then specify where provenance, description, and interpretability are preserved across each stage.
+# Follow-ups
+
+- **What I will test next:** Map each DDR computational stage to an archival function and identify where a transformation could obscure context, provenance or marginal traces.

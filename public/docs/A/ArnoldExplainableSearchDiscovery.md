@@ -1,8 +1,8 @@
 ---
-title: "Explainable search and discovery"
+title: "Explainable search and discovery of visual cultural heritage collections with multimodal large language models"
 authors: "Arnold, Taylor and Tilton, Lauren"
 year: 
-journal: ""
+journal: "Computational Humanities Research 2024"
 citation_key: ArnoldExplainableSearchDiscovery
 doi: ""
 url: ""
@@ -10,14 +10,14 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 09:24"
-last_updated: "14 Sept 2026, 17:08"
+last_updated: "01 Oct 2026"
 project_tags:
   - "Theoretical framework"
 theoretical_framework_area_id: "3"
 theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "b"
 literature_cluster: "Operational literature"
-zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -55,152 +55,123 @@ constraints_source: "project/constraints.md"---
 
 ---
 
-# Thesis job (do this first)
+# Thesis job
 
-**Project research question(s) this serves:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source moves the primary research question forward:** Arnold and Tilton show how multimodal captions can make large visual collections searchable, clusterable and explainable while preserving a route back to the source image.
 
-**Why I’m reading this now:**  
-I am reading this to develop a methodologically cautious account of multimodal discovery for visual cultural heritage collections, especially where images need to be searched, clustered and recommended beyond existing metadata.
+**How this source bears on the secondary question:** The paper demonstrates how contemporary multimodal methods can reopen historical visual collections, but also how generated descriptions introduce new interpretative risks.
 
-**Where it sits in my argument:**  
-S3.2 Interpretability, provenance and retrieval, with a strong bridge to S3.1 Visual analytics: this source helps me describe how image collections can be activated through multimodal captions, text embeddings, recommendation and explainable clustering.
+**Why I’m reading this now:** It is a practical comparator for any future visual extension of the DDR computational system.
 
-**Why this term, not alternatives:**  
-“Explainable search and discovery” is useful because it joins two things my project needs: computational surfacing and human-readable rationale. It is more precise than “visual AI” because it focuses on the interface between image retrieval, recommendation and explanation.
+**Where it sits in my argument:** Operational literature.
 
-**My benchmark for using it:**  
-I will use this source where I need to justify multimodal discovery across visual archive material. I will not use it to claim that machine captions are neutral descriptions or that visual similarity equals historical relation.
+**My benchmark for using it:** Generated captions and recommendations are discovery aids, not archival metadata or historical evidence.
 
 # Position + moment
 
-Arnold and Tilton write from computational humanities, data science, linguistics, rhetoric and communication studies. Their work sits within distant viewing, visual cultural analytics and cultural heritage interface design.
-
-The paper responds to a practical problem: many institutions have digitised large visual collections, but users often lack generous, flexible ways to explore them when granular metadata is absent. The authors test whether multimodal LLMs can generate captions that make visual collections searchable, clusterable and explainable.
-
-**Canon assumptions to problematise / update for 2026:**  
-The paper updates earlier image-embedding approaches by inserting a captioning layer between image and embedding. This shifts visual discovery from opaque visual vectors toward text-mediated, explainable relations, while still leaving serious questions about caption error, bias and institutional acceptability.
+The paper addresses digitised visual collections whose metadata is too sparse for rich exploration. The proposed method inserts a generated-caption layer between each image and downstream text-analysis tools. [@ArnoldExplainableSearchDiscovery, PDF pp. 1–3]
 
 # The author’s main move
 
-Arnold and Tilton use multimodal LLMs to generate rich captions for cultural heritage images, then turn those captions into text embeddings and explanatory terms in order to support search, clustering and recommendations for visual collections.
+The pipeline is **image → caption → text embedding + top terms**, enabling full-text search, recommendation, clustering and textual explanation. [@ArnoldExplainableSearchDiscovery, PDF pp. 3–4]
 
-# Three-claim evidence ledger
-
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim:**  
-  Multimodal captions can make visual collections more searchable and explainable.
-
-- **Evidence:**  
-  Arnold and Tilton argue that large digitised visual collections are difficult to explore, especially where granular metadata is absent [@ArnoldExplainableSearchDiscovery, p. 1]. Their method converts each image into a generated caption, then converts that caption into text embeddings and top terms: “image → caption → text embedding + top terms” [@ArnoldExplainableSearchDiscovery, p. 3].
-
-- **Warrant:**  
-  This supports the claim because the caption becomes an intermediate interpretive layer. The image is no longer only a visual object or an opaque vector. It becomes a text-bearing object that can be searched, compared, clustered and explained in ways that are legible to users.
-
-- **So what for my thesis:**  
-  For the DDR archive, multimodal captioning may help activate visual traces by producing searchable descriptions and candidate relationships, but those descriptions must be treated as generated annotations requiring human review.
-
-- **Practice cross-check:**  
-  TODO: select a small DDR image subset and test whether generated captions surface design-relevant features that are missing from catalogue metadata. Compare generated captions with archival descriptions and my own visual reading.
+- **Claim (plain):** Multimodal captions create a searchable intermediate representation for visual archives.
+- **Author claim:** Generated captions can act as textual surrogates for image collections.
+- **Evidence-supported claim:** The method explicitly maps image to caption and then to text embeddings/top terms. [@ArnoldExplainableSearchDiscovery, PDF pp. 3–4]
+- **Researcher inference:** A future DDR visual layer could expose content absent from catalogue metadata.
+- **Evidence (quote/paraphrase + page):** “image → caption → text embedding + top terms.” [@ArnoldExplainableSearchDiscovery, PDF p. 3]
+- **Warrant (my words):** Textual surrogates unlock search and NLP methods unavailable to raw images.
+- **Boundary:** The caption is generated interpretation.
+- **Consequence:** Any DDR caption must remain visibly linked to the source image.
+- **Practice cross-check:** TODO (separate visual UAT if multimodal work enters scope).
 
 ## Claim 2
-
-- **Claim:**  
-  Caption-based embeddings can support recommendations that are both more precise and more explainable than image-only embeddings.
-
-- **Evidence:**  
-  Arnold and Tilton compare recommendations based on image embeddings with recommendations based on multimodal caption embeddings. In their example recommendations, caption-based results are described as generally more precise and more diverse, such as finding images with shared contextual features rather than only visually obvious elements [@ArnoldExplainableSearchDiscovery, pp. 7–9]. Their tables show that multimodal recommendations have higher rates of symmetric recommendation than image-based recommendations, ranging from 36.5% to 49.8% compared with 22.4% to 28.9% [@ArnoldExplainableSearchDiscovery, pp. 8–9].
-
-- **Warrant:**  
-  This matters because archival discovery often needs more than visual resemblance. A recommendation system that can connect images through described activities, settings, materials or relations may better support historical exploration than one that only retrieves visually similar shapes, colours or compositions.
-
-- **So what for my thesis:**  
-  I can frame DDR image recommendations as a way to generate candidate pathways through visual material: not as proof that images belong together, but as a method for finding possible relations across projects, actors, places, artefacts or institutional settings.
-
-- **Practice cross-check:**  
-  TODO: create a nearest-neighbour table for one DDR image or design artefact. Record whether the recommended neighbours share visual form, institutional context, subject matter, material process or only superficial similarity.
+- **Claim (plain):** Caption-based recommendations can capture semantic context beyond image-only similarity.
+- **Author claim:** The authors compare caption-derived and image-derived recommendation structures.
+- **Evidence-supported claim:** Caption methods produce higher reciprocal recommendation rates and often connect images through contextual features. [@ArnoldExplainableSearchDiscovery, PDF pp. 7–9]
+- **Researcher inference:** Semantic visual discovery may surface useful contextual relations.
+- **Evidence (quote/paraphrase + page):** Caption approaches report 36.5–49.8% symmetric recommendations versus 22.4–28.9% for image-based approaches. [@ArnoldExplainableSearchDiscovery, PDF pp. 8–9]
+- **Warrant (my words):** Captions encode semantic attributes that direct visual vectors may not isolate.
+- **Boundary:** Reciprocal recommendation is not proof of historical relevance.
+- **Consequence:** DDR neighbours would still require source validation.
+- **Practice cross-check:** Mark any future neighbour as visual, semantic and/or historically supported.
 
 ## Claim 3
+- **Claim (plain):** Textual explanation makes computational similarity easier to inspect.
+- **Author claim:** Top terms can explain why images are associated.
+- **Evidence-supported claim:** The recommender system provides human-readable explanatory terms for recommendations. [@ArnoldExplainableSearchDiscovery, PDF pp. 9–10]
+- **Researcher inference:** Similarity becomes more researchable when its proposed basis can be challenged.
+- **Evidence (quote/paraphrase + page):** The paper contrasts explainable caption-based recommendations with opaque image-vector proximity. [@ArnoldExplainableSearchDiscovery, PDF pp. 9–10]
+- **Warrant (my words):** A readable rationale gives the researcher a testable proposition.
+- **Boundary:** Explanation can rationalise an incorrect generated description.
+- **Consequence:** Explainability must sit beside provenance.
+- **Practice cross-check:** DDR evidence cards continue to expose underlying records.
 
-- **Claim:**  
-  Explainable visual discovery still needs safeguards because generated captions can reproduce errors and bias.
+## Claim 4
+- **Claim (plain):** Caption-mediated clustering supports both collection overview and local discovery.
+- **Author claim:** The authors generate 32 clusters and descriptive terms and propose navigation between clusters and individual recommendations.
+- **Evidence-supported claim:** Their interface concept combines a global cluster grid with local recommendation pages. [@ArnoldExplainableSearchDiscovery, PDF pp. 10–12]
+- **Researcher inference:** This resembles the DDR distinction between semantic atlas and semantic neighbourhoods.
+- **Evidence (quote/paraphrase + page):** Users can move iteratively between cluster-level and item-level views. [@ArnoldExplainableSearchDiscovery, PDF pp. 10–12]
+- **Warrant (my words):** Overview and neighbourhood views answer different exploratory questions.
+- **Boundary:** Cluster labels are generated summaries, not archival taxonomy.
+- **Consequence:** Labels should remain provisional.
+- **Practice cross-check:** Keep the frozen atlas/neighbourhood views distinct but connected.
 
-- **Evidence:**  
-  Arnold and Tilton note that generated captions are not foolproof: one example incorrectly infers a worker’s gender and misidentifies glass objects as plastic [@ArnoldExplainableSearchDiscovery, p. 4]. In the conclusion, they warn that gendered terms such as “man” and “girl” can cause recommender systems to associate images by inferred gender, sometimes on the basis of inaccurate stereotypes [@ArnoldExplainableSearchDiscovery, p. 12].
+## Claim 5
+- **Claim (plain):** Generated descriptions can introduce factual and social classification errors.
+- **Author claim:** The authors report caption mistakes and biased associations.
+- **Evidence-supported claim:** Examples include mistaken object/attribute descriptions and recommendation patterns driven by generated identity labels. [@ArnoldExplainableSearchDiscovery, PDF pp. 4, 12]
+- **Researcher inference:** Searchable generated text can amplify errors that were not present in the source metadata.
+- **Evidence (quote/paraphrase + page):** The paper documents caption error and problematic recommendation cues. [@ArnoldExplainableSearchDiscovery, PDF pp. 4, 12]
+- **Warrant (my words):** Once embedded, a generated error propagates through similarity and clustering.
+- **Boundary:** The paper also shows that such errors can be audited.
+- **Consequence:** Generated annotations need review and uncertainty handling.
+- **Practice cross-check:** TODO (manual caption audit if used).
 
-- **Warrant:**  
-  This supports a cautious position because explanation does not remove risk. The fact that a recommendation can be labelled or described does not make it correct, neutral or ethically safe. Caption-mediated systems can make errors more readable, but they can also make them easier to circulate.
-
-- **So what for my thesis:**  
-  If I use multimodal captioning in DDR work, I need a correction and boundary protocol: generated captions are provisional, gendered or identity-related terms require scrutiny, and visual recommendations must be validated against archival provenance and human interpretation.
-
-- **Practice cross-check:**  
-  TODO: when testing DDR image captions, flag inferred identity terms, uncertain object labels and interpretive language. Keep a manual correction log and decide which generated terms are safe to expose or cite.
+## Claim 6
+- **Claim (plain):** Safeguards alter the generated representation and therefore remain modelling decisions.
+- **Author claim:** The authors suggest filtering or replacing problematic terms before embedding and adding notices to generated captions.
+- **Evidence-supported claim:** The conclusion says such mitigation can reduce but not entirely remove problematic associations. [@ArnoldExplainableSearchDiscovery, PDF p. 12]
+- **Researcher inference:** Safety transformations should themselves be logged and inspectable.
+- **Evidence (quote/paraphrase + page):** The proposed safeguards operate between caption generation and embedding. [@ArnoldExplainableSearchDiscovery, PDF p. 12]
+- **Warrant (my words):** Changing the surrogate changes the similarity space.
+- **Boundary:** The study does not compare multiple mitigation strategies experimentally.
+- **Consequence:** Preserve raw and transformed derivatives separately.
+- **Practice cross-check:** Apply the same provenance principle used elsewhere in DDR.
 
 # Definitions / terms this changes
 
-- **Generous interface:**  
-  Arnold and Tilton draw on Whitelaw’s term for rich, browsable interfaces that reveal the scale and complexity of digital heritage collections [@ArnoldExplainableSearchDiscovery, p. 2]. I can use this to describe the kind of DDR interface or method that helps users explore rather than only search.
-
-- **Multimodal caption layer:**  
-  I will use this to mean a generated textual description that sits between the image and downstream computational methods. It enables full-text search, text embeddings, clustering and explainable recommendations [@ArnoldExplainableSearchDiscovery, pp. 3–4].
-
-- **Caption-based embedding:**  
-  An embedding made from generated image captions rather than directly from pixels. For DDR, this may be useful where the historical or design-relevant relation is semantic rather than purely visual.
-
-- **Explainable recommendation:**  
-  A recommendation supported by generated terms or textual rationale that helps users understand why one image has been associated with another [@ArnoldExplainableSearchDiscovery, pp. 9–10].
-
-- **Symmetric recommendation:**  
-  A measure of whether image A recommends image B and image B recommends image A. Arnold and Tilton use this as one indirect way to assess whether a recommendation structure is meaningful [@ArnoldExplainableSearchDiscovery, pp. 8–9].
-
-- **Cluster description:**  
-  A set of generated terms that names the distinctive content of an image cluster. In their Documerica case, the authors generate 32 clusters and label them with terms such as “landfill; environmental; waste; pollution; debris; garbage” [@ArnoldExplainableSearchDiscovery, pp. 10–11].
+- **Generous interface:** a browsable interface that reveals collection scale and complexity. [@ArnoldExplainableSearchDiscovery, PDF p. 2]
+- **Multimodal caption layer:** generated text positioned between image and downstream analysis. [@ArnoldExplainableSearchDiscovery, PDF pp. 3–4]
+- **Explainable recommendation:** recommendation accompanied by human-readable terms indicating the basis of similarity. [@ArnoldExplainableSearchDiscovery, PDF pp. 9–10]
+- **Symmetric recommendation:** reciprocal recommendation used as one indirect structural metric. [@ArnoldExplainableSearchDiscovery, PDF pp. 8–9]
 
 # My response
 
-- **What I take from this:**  
-  - The paper gives me a practical bridge between visual archives and text-based computational methods.  
-  - It supports the use of generated captions as a discovery layer, provided the generated descriptions remain inspectable and correctable.  
-  - The recommender-system model is useful for DDR because it suggests local pathways through visual material rather than only global maps or static categories.
-
-- **What I reframe / adjust:**  
-  - I should treat multimodal captioning as provisional metadata, not description.  
-  - I should write visual discovery as a process of generating candidate relations and then checking them against provenance, context and close visual reading.
-
-- **What question it raises next:**  
-  - What visual features of the DDR archive are currently invisible because they are not named in metadata?  
-  - Can caption-mediated search surface design practices, materials, room settings, equipment, bodies, prototypes or institutional scenes that the catalogue does not foreground?
+The paper provides a useful visual analogue for the DDR computational strategy: modelled relations become more useful when the user can inspect why objects were linked. Its main warning is equally important: the explanatory layer is generated and can be wrong. Multimodal captions should therefore be treated as provisional derivatives whose corrections and provenance remain visible.
 
 # Integration hooks
 
-- **Where I will cite it:**  
-  In the S3.2 section on interpretability and retrieval, or in an S3.1 visual analytics passage. The paragraph job: explain how multimodal captioning can convert visual archive material into searchable and explainable discovery surfaces, while requiring safeguards around caption error and bias.
+**Where I will cite it:** Multimodal future work; explainable discovery; generous interfaces.
 
-- **Where I will name the title in running text:**  
-  First use in the visual discovery section: “Arnold and Tilton’s work on explainable search and discovery for visual cultural heritage collections is useful here because it shows how multimodal captions can support clustering, recommendation and search without relying only on opaque image embeddings.”
+**Link to my practice evidence:** The current semantic atlas/neighbourhood design offers a textual analogue; a visual extension would need its own UAT.
 
-- **Link to my practice evidence:**  
-  TODO: link to DDR visual corpus test. Candidate evidence: a small set of generated captions, nearest-neighbour recommendations and manual checks for visual/design relevance.
-
-- **Workstreams →**  
-  Visual corpus preparation; multimodal captioning; caption audit; embedding-based recommendation; cluster labelling; interface sketching; bias and correction protocol.
-
-- **Deliverables →**  
-  DDR image caption sample; visual nearest-neighbour table; cluster term list; caption correction log; visual discovery method paragraph.
-
-- **Stakeholders →**  
-  Thesis reader; supervisors; archive staff; design historians; cultural heritage interface researchers; future users of the DDR archive.
+**Workstreams →** Visual archive; multimodal AI; explainability.  
+**Deliverables →** Future-work/method rationale.
 
 # Boundary + risk
 
-- **Boundary:**  
-  This source is useful for visual cultural heritage discovery, but its case study is a documentary photography collection rather than a design research archive with mixed records, artefacts, diagrams and institutional documentation.
+**Boundary:** The study concerns documentary photographs, not heterogeneous design-research records or historical synthesis.
 
-- **Risk if misused:**  
-  If I use it too strongly, I could make generated captions sound like authoritative metadata; the safer claim is that they are provisional discovery aids that need correction and archival validation.
+**Risk if misused:** Generated captions could be mistaken for institutional description or model explanations for historical evidence.
+
+# Cross-source / cross-lens synthesis
+
+Arnold and Tilton complement Vafaie et al.: Vafaie extract predefined fields, while Arnold and Tilton generate open-ended descriptions for discovery. Drucker and Mordell explain why both outputs remain constructed data layers. For DDR, multimodal AI is therefore best treated as a reversible access layer rather than a substitute for archival evidence.
 
 # Methods spine tags
 
@@ -213,34 +184,17 @@ Arnold and Tilton use multimodal LLMs to generate rich captions for cultural her
 
 # Chicago NB payload
 
-- **Key pages to reuse:**  
-  pp. 1–4, 7–12
-
-- **First full note:**  
-  Taylor Arnold and Lauren Tilton, “Explainable Search and Discovery of Visual Cultural Heritage Collections with Multimodal Large Language Models,” paper presented at CHR 2024: Computational Humanities Research Conference, Aarhus University, December 4–6, 2024.
-
-- **Short note form:**  
-  Arnold and Tilton, “Explainable Search and Discovery,” page number.
-
-- **One quote worth lifting:**  
-  “image → caption → text embedding + top terms” [@ArnoldExplainableSearchDiscovery, p. 3].
-
-- **One paraphrase worth keeping:**  
-  Arnold and Tilton show that multimodal LLM captions can act as an intermediate layer between visual collections and computational discovery, enabling search, clustering, recommendation and textual explanation while still requiring safeguards against caption error and bias [@ArnoldExplainableSearchDiscovery, pp. 3–4, 12].
+- **Key pages to reuse:** PDF 1–4, 7–12
+- **First full note:** Taylor Arnold and Lauren Tilton, “Explainable Search and Discovery of Visual Cultural Heritage Collections with Multimodal Large Language Models,” paper presented at CHR 2024: Computational Humanities Research Conference, Aarhus University, December 4–6, 2024.
+- **Short note form:** Arnold and Tilton, “Explainable Search and Discovery,” PDF 3–12.
+- **One quote worth lifting:** “image → caption → text embedding + top terms” (PDF p. 3).
+- **One paraphrase worth keeping:** Multimodal captions can make visual collections searchable, clusterable and explainable while also introducing generated errors that require explicit review and provenance. [@ArnoldExplainableSearchDiscovery, PDF pp. 3–12]
 
 # Related works
 
-- Arnold and Tilton on distant viewing.
-- Whitelaw on generous interfaces.
-- Smits and Wevers on multimodal approaches to visual historical collections.
-- Coleman on managing bias when collections become data.
-- Rockmore et al. on embedding spaces as exploratory landscapes.
-- Jaillant, Aske and Caputo on AI, access, risk and trust in cultural heritage organisations.
+- Vafaie et al., “End-to-End Information Extraction from Archival Records.”
+- Drucker, “Humanities Approaches to Graphical Display.”
 
 # Follow-ups
 
-- **What I will read next:**  
-  Whitelaw on generous interfaces; Arnold and Tilton on distant viewing; Smits and Wevers on the multimodal turn in digital humanities; Coleman on bias in library collections as data.
-
-- **What I will test or write next:**  
-  Build a small DDR visual discovery test: generate captions for 20 images, create nearest-neighbour recommendations, identify the top explanatory terms, then manually mark which recommendations are historically useful, visually superficial or ethically risky.
+- **What I will test next:** Only if visual multimodal work enters current scope, build a separate DDR image-caption UAT.
