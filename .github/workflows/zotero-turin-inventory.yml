@@ -1,0 +1,109 @@
+name: Inventory Turin Zotero collections
+
+on:
+  push:
+    branches:
+      - zotero-theoretical-framework-audit
+    paths:
+      - '.github/workflows/zotero-turin-inventory.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inventory Turin collections and items
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse, pathlib
+          uid=os.environ["ZOTERO_USER_ID"].strip()
+          key=os.environ["ZOTERO_API_KEY"].strip()
+          base="https://api.zotero.org"
+          headers={"Zotero-API-Key":key,"Zotero-API-Version":"3","Accept":"application/json","User-Agent":"reading-notes-turin-inventory/1.0"}
+          def get(path, params=None):
+              q=urllib.parse.urlencode(params or {})
+              req=urllib.request.Request(base+path+("?" + q if q else ""),headers=headers)
+              with urllib.request.urlopen(req,timeout=60) as r:
+                  return json.loads(r.read().decode())
+          def paged(path):
+              out=[]; start=0
+              while True:
+                  rows=get(path,{"limit":100,"start":start})
+                  out += rows
+                  if len(rows)<100: return out
+                  start += 100
+          cols={}
+          for row in paged(f"/users/{uid}/collections"):
+              d=row.get("data",{})
+              k=d.get("key") or row.get("key")
+              cols[k]={"key":k,"name":d.get("name",""),"parent":d.get("parentCollection") or None}
+          matches=[c for c in cols.values() if "turin" in c["name"].lower()]
+          children={}
+          for c in cols.values():
+              children.setdefault(c["parent"],[]).append(c["key"])
+          def path_for(k):
+              names=[]; seen=set()
+              while k and k not in seen:
+                  seen.add(k); c=cols.get(k)
+                  if not c: break
+                  names.append(c["name"]); k=c["parent"]
+              return " / ".join(reversed(names))
+          result={"matching_collections":[]}
+          for root in matches:
+              selected=set(); stack=[root["key"]]
+              while stack:
+                  k=stack.pop()
+                  if k in selected: continue
+                  selected.add(k); stack.extend(children.get(k,[]))
+              items={}
+              counts={}
+              for ck in sorted(selected,key=path_for):
+                  p=path_for(ck)
+                  rows=paged(f"/users/{uid}/collections/{ck}/items/top")
+                  counts[p]=len(rows)
+                  for row in rows:
+                      d=row.get("data",{})
+                      ik=d.get("key") or row.get("key")
+                      rec=items.setdefault(ik,{
+                          "zotero_item_key":ik,
+                          "item_type":d.get("itemType",""),
+                          "title":d.get("title",""),
+                          "date":d.get("date",""),
+                          "doi":d.get("DOI",""),
+                          "isbn":d.get("ISBN",""),
+                          "url":d.get("url",""),
+                          "creators":d.get("creators",[]),
+                          "tags":[t.get("tag","") for t in d.get("tags",[]) if t.get("tag")],
+                          "collection_paths":[]
+                      })
+                      if p not in rec["collection_paths"]: rec["collection_paths"].append(p)
+              result["matching_collections"].append({
+                  "root":root,
+                  "root_path":path_for(root["key"]),
+                  "selected_collection_count":len(selected),
+                  "collection_item_counts":counts,
+                  "item_count":len(items),
+                  "items":sorted(items.values(),key=lambda x:(x["title"].lower(),x["zotero_item_key"]))
+              })
+          out=pathlib.Path("tmp/turin-inventory")
+          out.mkdir(parents=True,exist_ok=True)
+          (out/"inventory.json").write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding="utf-8")
+          print("Found",len(matches),"Turin-named collections")
+          for m in result["matching_collections"]:
+              print(m["root_path"],m["item_count"])
+          PY
+      - name: Upload Turin inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: zotero-turin-inventory
+          path: tmp/turin-inventory
+          retention-days: 1

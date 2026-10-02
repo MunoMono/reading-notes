@@ -1,0 +1,63 @@
+name: Zotero theoretical framework audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - zotero-theoretical-framework-audit
+    paths:
+      - '.github/workflows/zotero-theoretical-framework-audit.yml'
+      - 'scripts/zotero_tf_audit.py'
+      - 'project/**'
+      - 'public/docs/**/*.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zotero-theoretical-framework-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run read-only Zotero audit
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+          ZOTERO_ROOT_COLLECTION: 'Theoretical framework'
+        run: python3 scripts/zotero_tf_audit.py
+
+      - name: Upload audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: year2-theoretical-framework-audit
+          path: |
+            data/zotero-theoretical-framework.json
+            audits/year2-theoretical-framework-audit.json
+            audits/year2-theoretical-framework-audit.md
+
+      - name: Commit refreshed manifest and audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/zotero-theoretical-framework.json \
+                  audits/year2-theoretical-framework-audit.json \
+                  audits/year2-theoretical-framework-audit.md
+          if git diff --cached --quiet; then
+            echo 'No audit changes to commit.'
+          else
+            git commit -m 'chore: refresh Zotero theoretical framework audit'
+            git push
+          fi

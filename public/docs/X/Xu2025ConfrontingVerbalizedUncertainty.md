@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -47,7 +47,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -82,31 +82,73 @@ Making uncertainty visible is not automatically beneficial. The form, intensity 
 
 They try to determine how different linguistic levels of expressed uncertainty influence human trust, satisfaction and decision performance by independently manipulating LLM accuracy and verbalized uncertainty in an AI-assisted task.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
 - **Claim (plain):** The way an LLM verbalizes uncertainty materially changes how users trust and respond to its suggestions.
+- **Author claim:** The way an LLM verbalizes uncertainty materially changes how users trust and respond to its suggestions.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** In a six-condition experiment with 156 participants, verbalized uncertainty had a statistically significant main effect on reported trust and behavioural compliance. Trust was highest in the medium condition (M = 4.776), compared with high uncertainty (M = 4.484) and low uncertainty/high certainty (M = 4.345); compliance after seeing the AI suggestion followed the same pattern. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 8–9]` Figure 4 on p. 9 summarises the effects across trust, satisfaction and performance.
 - **Warrant (my words):** Evidential communication is performative as well as descriptive: changing the wording surrounding a claim can change how readily users accept or act upon that claim even when the substantive task remains the same.
-- **So what for my thesis (a reusable sentence):** Uncertainty in an archive-facing AI system is an interface property as well as an evidential property, because its linguistic presentation influences how researchers interpret and rely upon generated claims.
+- **Boundary:** The experiment uses a low-stakes word-association game, pre-generated responses and US participants, while its uncertainty conditions manipulate linguistic style rather than the evidential status of real historical claims.
+- **Consequence:** Uncertainty in an archive-facing AI system is an interface property as well as an evidential property, because its linguistic presentation influences how researchers interpret and rely upon generated claims.
 - **Practice cross-check:** Turin Research Query: statements such as “the corpus establishes”, “the evidence suggests”, “sources conflict”, and “the available corpus does not establish” should communicate distinct evidential states rather than applying a generic hedging style across all outputs.
 
 ## Claim 2
-
 - **Claim (plain):** Both excessive certainty and excessive hesitation can undermine effective human–AI judgement.
+- **Author claim:** Both excessive certainty and excessive hesitation can undermine effective human–AI judgement.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** Qualitative responses show that strongly certain language was sometimes interpreted as overconfidence and prompted scepticism, while high verbalized uncertainty caused users to doubt the system and rely more heavily on their own intuition. Participants described the medium condition as balancing confidence and caution. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 9–11]` Satisfaction was significantly highest under medium verbalized uncertainty (M = 5.404), and decision times were also significantly shorter than in both high- and low-uncertainty conditions. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 10–11]`
 - **Warrant (my words):** A research interface can miscommunicate evidential status in two directions: categorical prose can make a contingent inference appear settled, while excessive hedging can make a well-supported claim appear less usable than the evidence warrants.
-- **So what for my thesis:** Historical uncertainty should be proportionate to the evidence: responsible synthesis requires neither artificial confidence nor indiscriminate hesitation, but language matched to the strength and character of the available traces.
+- **Boundary:** The experiment uses a low-stakes word-association game, pre-generated responses and US participants, while its uncertainty conditions manipulate linguistic style rather than the evidential status of real historical claims.
+- **Consequence:** Historical uncertainty should be proportionate to the evidence: responsible synthesis requires neither artificial confidence nor indiscriminate hesitation, but language matched to the strength and character of the available traces.
 - **Practice cross-check:** Turin should distinguish a strongly documented date or quotation from a plausible interpretative relation, contradictory testimony and scoped missingness rather than giving all four the same linguistic confidence profile.
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The experiment uses a low-stakes word-association game, pre-generated responses and US participants, while its uncertainty conditions manipulate linguistic style rather than the evidential status of real historical claims.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Verbalized uncertainty is not equivalent to calibrated evidential uncertainty.
-- **Evidence (quote/paraphrase + page):** The study's medium condition was generated using plain expressions without explicit strengtheners or weakeners, whereas low uncertainty inserted strong certainty markers and high uncertainty inserted explicit weakeners such as “I’m not sure” or “I cannot say for certain”. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 5, 14–15]` The authors subsequently found that participants often perceived the nominally medium condition as confident language and note that current LLMs struggle to use epistemic markers in calibrated ways. `[@Xu2025ConfrontingVerbalizedUncertainty, p. 12]`
-- **Warrant (my words):** Linguistic tone can create an impression of confidence without reliably encoding the actual epistemic status of a claim. Surface hedging therefore cannot substitute for a method that determines what the evidence supports.
-- **So what for my thesis:** Retrieval-augmented historical inference should derive uncertainty from the state of the evidence and then communicate that state linguistically; it should not infer evidential status from how confident or hesitant the generated prose sounds.
-- **Practice cross-check:** Turin scoped missingness: the distinction between supported, qualified, conflicting and unsupported claims should be computed from retrieved evidence and provenance before being rendered into appropriate language in the interface.
+## Claim 4
+- **Claim (plain):** Moderate verbalized uncertainty can produce better trust, satisfaction and task performance than either strong certainty or strong uncertainty.
+- **Author claim:** Xu et al. find a non-linear effect of uncertainty language in their controlled user study.
+- **Evidence-supported claim:** Across the six conditions, medium verbalized uncertainty performs best on several user outcomes.
+- **Researcher inference:** DDR uncertainty should be calibrated and evidentially meaningful rather than maximally hedged or maximally confident.
+- **Evidence (quote/paraphrase + page):** The experiment reports that medium verbalized uncertainty consistently leads to higher trust, satisfaction and task performance than both high and low uncertainty conditions. `[@Xu2025ConfrontingVerbalizedUncertainty, p. 1]`
+- **Warrant (my words):** Users interpret linguistic certainty as an interface signal, and extremes can undermine either credibility or usefulness.
+- **Boundary:** The task is a low-stakes Codenames game with pre-generated expressions, not archival research.
+- **Consequence:** The thesis should use precise evidential formulations ('suggests', 'does not establish', 'conflicting traces') instead of generic high/medium/low confidence prose.
+- **Practice cross-check:** Tie uncertainty wording to evidence-state categories, not to a model's stylistic preference.
+
+## Claim 5
+- **Claim (plain):** The effect of uncertainty language depends on whether the AI is actually accurate.
+- **Author claim:** The study finds interactions between verbalized uncertainty and the underlying accuracy condition.
+- **Evidence-supported claim:** Participants experience the same level of expressed uncertainty differently depending on whether the system's suggestions are more or less accurate.
+- **Researcher inference:** A DDR interface should not treat confidence display as an independent trust feature; it must be calibrated to evidential performance.
+- **Evidence (quote/paraphrase + page):** The authors report that participants' responses to verbalized uncertainty differ significantly across the high- and low-accuracy conditions, including effects on trust and satisfaction. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 10–13]`
+- **Warrant (my words):** Appropriate uncertainty is relational: the communication cue is useful only when it tracks the reliability of the underlying decision process.
+- **Boundary:** Study accuracy is experimentally controlled and objectively scoreable, whereas historical adequacy may be plural or incomplete.
+- **Consequence:** DDR uncertainty labels should be driven by source support and missingness diagnostics rather than inferred model self-confidence.
+- **Practice cross-check:** Calibrate output labels against UAT evidence states and audit cases where confident wording accompanies weak support.
+
+## Claim 6
+- **Claim (plain):** Uncertainty communication should be adaptive rather than one fixed linguistic style.
+- **Author claim:** Xu et al. conclude that LLMs should adapt verbalized uncertainty to system accuracy and decision context.
+- **Evidence-supported claim:** Their design implications reject one universal certainty style and frame uncertainty expression as an interaction-design variable.
+- **Researcher inference:** DDR needs differentiated uncertainty behaviours for factual, interpretative, contested and missingness queries.
+- **Evidence (quote/paraphrase + page):** The conclusion proposes adaptive strategies for expressing verbalized uncertainty based on the LLM's accuracy and the interaction context. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 14–15]`
+- **Warrant (my words):** Different evidence states impose different communication requirements.
+- **Boundary:** The article does not define archival categories or source-critical uncertainty states.
+- **Consequence:** The thesis should use discrete evidential language tied to question type rather than a single numerical confidence badge.
+- **Practice cross-check:** For factual attribution show source support; for contested interpretation show competing traces; for insufficient evidence state the corpus limit explicitly.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +186,10 @@ They try to determine how different linguistic levels of expressed uncertainty i
 
 - **Boundary (1 sentence):** The experiment uses a low-stakes word-association game, pre-generated responses and US participants, while its uncertainty conditions manipulate linguistic style rather than the evidential status of real historical claims.
 - **Risk if misused (1 sentence):** Treating “medium uncertainty is best” as a universal design rule would confuse stylistic preference with epistemic calibration; in historical research, the appropriate expression should depend on what the underlying evidence actually warrants.
+
+# Cross-source / cross-lens synthesis
+
+Xu et al. complement Drucker's probabilistic/interpretative view of humanities data and Radharapu et al.'s plurality findings by showing that uncertainty is also an interface phenomenon. Their user-study result does not tell the thesis how uncertain a historical claim is, but it does show that wording changes user judgement. In DDR, uncertainty should therefore be grounded upstream in evidential status and communicated downstream in source-critical language, not presented as a free-floating model confidence signal.
 
 # Methods spine tags (tick what it actually touches)
 

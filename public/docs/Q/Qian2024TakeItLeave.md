@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -47,7 +47,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -82,31 +82,73 @@ Human oversight should not be assumed to provide an automatic safeguard against 
 
 They try to measure the effects of conversational AI on productivity and trust by comparing how software engineers actually use, accept, reject and revise AI advice across task types and levels of expertise.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
 - **Claim (plain):** Users can feel more productive and efficient with conversational AI even when measured efficiency does not improve.
+- **Author claim:** Users can feel more productive and efficient with conversational AI even when measured efficiency does not improve.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** Participants spent significantly more time using Bard than conventional resources, particularly on solve-type questions, yet reported that Bard made them faster, reduced mental effort and reduced time spent searching for information. `[@Qian2024TakeItLeave, pp. 374–375]` Table 2 on p. 374 makes the divergence particularly clear: perceived productivity and reduced cognitive effort increased despite the measured time cost.
 - **Warrant (my words):** Ease of interaction and reduced cognitive effort can be experienced as productivity independently of objective task performance. Perceived usefulness is therefore an unreliable proxy for epistemic quality.
-- **So what for my thesis (a reusable sentence):** The apparent fluency and convenience of AI-mediated archival research should not be treated as evidence that the resulting interpretation is more efficient, accurate or methodologically sound.
+- **Boundary:** The experiment concerns 76 software engineers completing a short Java assessment with Bard, so its behavioural findings cannot be assumed to transfer directly to expert historical research or sustained archival interpretation.
+- **Consequence:** The apparent fluency and convenience of AI-mediated archival research should not be treated as evidence that the resulting interpretation is more efficient, accurate or methodologically sound.
 - **Practice cross-check:** Turin: a fluent research answer may feel faster and more useful than manually examining multiple DDR sources, but citation, provenance and researcher validation remain necessary before that synthesis is accepted.
 
 ## Claim 2
-
 - **Claim (plain):** Human users can increasingly depend on AI even while becoming less trusting of it.
+- **Author claim:** Human users can increasingly depend on AI even while becoming less trusting of it.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** Participants increasingly relied on Bard as the exam progressed, particularly novices, even though post-task self-reports showed significantly reduced trust in the system. `[@Qian2024TakeItLeave, pp. 375–376]` The authors describe this mismatch between demonstrated and perceived behaviour as evidence that users are not fully cognisant of their interaction with the system. Table 6 on p. 379 summarises the result as increasing dependence despite susceptibility to inappropriate trust.
 - **Warrant (my words):** Self-reported scepticism does not guarantee cautious behaviour. Repeated exposure, convenience and cognitive delegation can produce reliance even when users consciously recognise system limitations.
-- **So what for my thesis:** Researcher-in-the-loop design must support observable verification behaviours rather than assuming that critical awareness alone will prevent overreliance on AI-mediated interpretation.
+- **Boundary:** The experiment concerns 76 software engineers completing a short Java assessment with Bard, so its behavioural findings cannot be assumed to transfer directly to expert historical research or sustained archival interpretation.
+- **Consequence:** Researcher-in-the-loop design must support observable verification behaviours rather than assuming that critical awareness alone will prevent overreliance on AI-mediated interpretation.
 - **Practice cross-check:** Turin interface: requiring access to source passages, preserving provenance and making evidential limits explicit gives the researcher concrete opportunities to verify or reject generated synthesis rather than relying on a general instruction to remain critical.
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The experiment concerns 76 software engineers completing a short Java assessment with Bard, so its behavioural findings cannot be assumed to transfer directly to expert historical research or sustained archival interpretation.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Expertise changes how people use AI, but expertise does not eliminate susceptibility to misleading advice.
-- **Evidence (quote/paraphrase + page):** Experts were more likely than novices to distrust Bard and rely on conventional documentation, particularly for search-type questions. However, participants across expertise levels were equally likely to be led astray and incorrectly trust Bard, and both experts and novices sometimes changed correct answers to incorrect answers after consulting the AI. `[@Qian2024TakeItLeave, pp. 373, 375–376]` The authors consequently recommend designing for “appropriate trust, not greater trust”. `[@Qian2024TakeItLeave, p. 378]`
-- **Warrant (my words):** Domain expertise improves some decisions about when to reject automation but does not make the expert immune to confident or confirmatory machine output.
-- **So what for my thesis:** Expert researcher oversight remains essential but should itself be supported by evidentially transparent system design; expertise should not be treated as a sufficient safeguard against generated overreach.
-- **Practice cross-check:** Turin: the historian or researcher retains interpretative authority, while citations, source previews, uncertainty and scoped missingness provide concrete evidence against which AI-generated relationships can be tested.
+## Claim 4
+- **Claim (plain):** Users can become more dependent on conversational AI over the course of a task even while reporting that they intend to trust it less.
+- **Author claim:** Qian and Wexler observe increasing behavioural dependence on Bard, particularly among novices, despite qualitative expressions of scepticism.
+- **Evidence-supported claim:** The trust analysis distinguishes demonstrated reliance from self-reported trust and finds they can diverge.
+- **Researcher inference:** DDR evaluation should measure what users do with generated answers, not only whether they say they understand or distrust AI limitations.
+- **Evidence (quote/paraphrase + page):** Participants increased dependence on Bard over the task while post-task attitudes became less trusting; the authors interpret this as calibration but also document behavioural reliance. `[@Qian2024TakeItLeave, pp. 374–375]`
+- **Warrant (my words):** Stated scepticism does not guarantee appropriately cautious behaviour.
+- **Boundary:** The study concerns a short programming exam with 76 software engineers.
+- **Consequence:** The thesis should evaluate whether provenance and missingness cues change verification behaviour, not just perceived trust.
+- **Practice cross-check:** Record source-opening, answer revision and rejection behaviour in future interface UAT where feasible.
+
+## Claim 5
+- **Claim (plain):** Conversational AI can induce automation complacency and confirmation-seeking.
+- **Author claim:** The authors identify blind question copying, effort substitution, confirmation bias and automation complacency in participant behaviour.
+- **Evidence-supported claim:** Users often delegated cognitive work to Bard and sought a second opinion without recognising that agreement could reinforce an error.
+- **Researcher inference:** A fluent DDR answer can reduce the researcher's incentive to inspect archival sources unless the interface actively supports verification.
+- **Evidence (quote/paraphrase + page):** The discussion documents effort substitution and confirmation bias and concludes that the observed behaviour meets criteria for automation complacency when delegation is not reliably beneficial. `[@Qian2024TakeItLeave, pp. 376–377]`
+- **Warrant (my words):** Convenience can shift effort away from independent checking even when users know the system is imperfect.
+- **Boundary:** The exam task has immediate right/wrong feedback that historical research often lacks.
+- **Consequence:** DDR design should make source inspection part of the normal answer-reading path rather than an optional expert feature.
+- **Practice cross-check:** Keep citations and evidence cards adjacent to claims and make unsupported synthesis visibly harder to accept at a glance.
+
+## Claim 6
+- **Claim (plain):** The appropriate design goal is calibrated trust, not maximal trust.
+- **Author claim:** Qian and Wexler recommend designing for appropriate trust, displaying suitable confidence, customising support and citing sources.
+- **Evidence-supported claim:** Their design recommendations respond to both overreliance and excessive distrust, including the finding that expertise changes resource-use behaviour.
+- **Researcher inference:** The DDR system should aim for justified reliance: users should trust source-grounded outputs and reject unsupported ones.
+- **Evidence (quote/paraphrase + page):** The authors' summary recommends 'design for appropriate trust', display an appropriate degree of confidence and cite sources; they also note that source attribution may improve intentionality and verification. `[@Qian2024TakeItLeave, pp. 378–379]`
+- **Warrant (my words):** Trust is useful only when it tracks system performance and evidence quality.
+- **Boundary:** The paper does not test a provenance-rich archival interface or establish which citation design produces calibrated trust.
+- **Consequence:** The thesis should evaluate source verifiability and successful rejection of weak claims rather than celebrate higher user trust as an outcome.
+- **Practice cross-check:** Include deliberately weak/insufficient UAT cases and reward the system/user for withholding acceptance.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +186,10 @@ They try to measure the effects of conversational AI on productivity and trust b
 
 - **Boundary (1 sentence):** The experiment concerns 76 software engineers completing a short Java assessment with Bard, so its behavioural findings cannot be assumed to transfer directly to expert historical research or sustained archival interpretation.
 - **Risk if misused (1 sentence):** Treating the study as evidence that AI necessarily reduces expert performance would overstate the results: effects varied substantially by expertise and task type, and AI improved novice performance on some open-ended questions.
+
+# Cross-source / cross-lens synthesis
+
+Qian and Wexler make the human-in-the-loop claim behaviourally concrete. Suchman frames accountability as located in relations of production and use; Cho, Carl and Łajewska show how provenance presentation affects verification; Qian and Wexler show why that matters—users can be sceptical yet still delegate effort and become dependent. For DDR, the design target is therefore calibrated research behaviour, not trust promotion: the system should make well-supported interpretations easy to verify and unsupported completion easy to reject.
 
 # Methods spine tags (tick what it actually touches)
 

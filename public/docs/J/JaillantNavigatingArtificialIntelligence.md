@@ -1,6 +1,6 @@
 ---
-title: "Navigating artificial intelligence for cultural heritage organisations"
-authors: "Lise Jaillant, Katherine Aske, and Annalina Caputo"
+title: "The National Archives (UK)"
+authors: "Jaillant, Lise; Aske, Katherine; Caputo, Annalina"
 year: 2025
 journal: "UCL Press"
 citation_key: JaillantNavigatingArtificialIntelligence
@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 08:52"
-last_updated: "16 Sept 2026, 12:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -46,7 +46,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -83,60 +83,73 @@ The chapter usefully unsettles any nostalgic assumption that paper archives were
 
 They examine TNA’s AI-related projects in order to show how cultural heritage organisations can use computational methods to manage born-digital scale while still attending to access, risk, uncertainty, ethics and trust.
 
-# Three-claim evidence ledger
-
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim:**  
-  AI becomes relevant to archives when inherited paper-based workflows no longer scale.
-
-- **Evidence:**  
-  Jaillant, Aske and Caputo argue that the transition from print to digital has forced TNA to “rethink the record”, because older methods such as manual sensitivity review cannot deal with born-digital scale [@JaillantNavigatingArtificialIntelligence, p. 16]. They also cite the problem that recent government records are often “poorly organised, scattered across different systems and almost impossible to search effectively” [@JaillantNavigatingArtificialIntelligence, p. 17].
-
-- **Warrant:**  
-  This supports the claim because the problem is not simply volume. The archival object has changed. Records now sit across email accounts, shared drives, web archives, file systems and datasets. The archive therefore needs methods that can identify, rank, cluster and interpret traces before they can be meaningfully read.
-
-- **So what for my thesis:**  
-  The DDR archive can be framed as a site where activation depends not only on interpretation but also on the practical conditions of discovery: what can be surfaced, how it is described, and what remains hidden by inherited archival structures.
-
-- **Practice cross-check:**  
-  Turin’s researcher-in-the-loop workflow supports explicit source inspection across record types, descriptions, and visual traces.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** This source is useful for framing AI, discovery, access and trust in institutional archives, but it does not directly address design research, the RCA, or contested design knowledge.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim:**  
-  Computational retrieval can support archival discovery, but it also changes the conditions under which evidence is encountered.
-
-- **Evidence:**  
-  The chapter describes topic modelling as a way to group words into clusters and identify underlying topics across a dataset, using Christopher Day’s work on General Board of Health catalogue data as an example [@JaillantNavigatingArtificialIntelligence, p. 20]. It also notes that keyword search becomes ineffective when large datasets return hundreds of thousands of results, because users may not know where to begin [@JaillantNavigatingArtificialIntelligence, p. 17].
-
-- **Warrant:**  
-  Topic modelling, clustering and other computational methods do not merely speed up search. They alter the researcher’s route into the archive. They can reveal patterns that are hard to see through item-by-item reading, but they also depend on modelling choices, available metadata and the user’s interpretation of machine-generated groupings.
-
-- **So what for my thesis:**  
-  I can use this source to justify computational surfacing as one strand of DDR activation, provided I treat the output as a guided route into evidence rather than as evidence in itself.
-
-- **Practice cross-check:**  
-  Turin’s researcher-in-the-loop workflow compares retrieval routes through explicit source inspection and human judgement.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** This source is useful for framing AI, discovery, access and trust in institutional archives, but it does not directly address design research, the RCA, or contested design knowledge.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** This source is useful for framing AI, discovery, access and trust in institutional archives, but it does not directly address design research, the RCA, or contested design knowledge.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim:**  
-  Responsible archival activation requires explainability, provenance and risk management, not only access.
+## Claim 4
+- **Claim (plain):** Sensitivity review is a probabilistic risk-management problem rather than a binary technical filter.
+- **Author claim:** Jaillant, Aske and Caputo describe TNA's exploration of automated sensitivity review and emphasise institutional risk appetite and contextual judgement.
+- **Evidence-supported claim:** The chapter shows that automatic review must combine textual signals with metadata and organisational risk decisions rather than treating 'sensitive' as a context-free label.
+- **Researcher inference:** DDR access and disclosure decisions should likewise remain traceable to repository policy and contextual judgement rather than appearing as automatic model truth.
+- **Evidence (quote/paraphrase + page):** The chapter's sensitivity-review section frames automation in relation to TNA's stated 'risk appetite' and explains that systems may use both document text and contextual information when estimating sensitivity. `[@JaillantNavigatingArtificialIntelligence, pp. 21–24]`
+- **Warrant (my words):** Archival openness is governed by consequences, legal/ethical context and institutional responsibilities, not by classification accuracy alone.
+- **Boundary:** TNA manages government records with legal and sensitivity regimes unlike the public DDR research corpus.
+- **Consequence:** The thesis should distinguish evidential availability from permission to expose or reuse material and state the policy basis for each.
+- **Practice cross-check:** Keep rights/repository status and access constraints separate from semantic relevance in the DDR evidence pipeline.
 
-- **Evidence:**  
-  The authors argue that opening digital collections creates questions of authenticity, sensitivity and potential misuse. They discuss blockchain and distributed ledger technologies as ways to establish record integrity and provenance [@JaillantNavigatingArtificialIntelligence, pp. 29–32]. They also argue that explainable AI must be understood in human and institutional context, because trust is not only an algorithmic property [@JaillantNavigatingArtificialIntelligence, pp. 34–35].
+## Claim 5
+- **Claim (plain):** Explainability in archives is a human and institutional relationship, not only an algorithmic property.
+- **Author claim:** The authors distinguish interpretability from explainability and argue that useful XAI must account for people and the environments in which systems operate.
+- **Evidence-supported claim:** Their discussion of human-centred XAI rejects purely technical transparency as sufficient for trust.
+- **Researcher inference:** DDR provenance should be designed around what a researcher can inspect and challenge, rather than around an abstract claim that the model is 'explainable'.
+- **Evidence (quote/paraphrase + page):** The chapter defines interpretability as understanding what an algorithm does and explainability as supporting a trust relationship with users, then argues that explainable AI must consider individuals and context rather than algorithms alone. `[@JaillantNavigatingArtificialIntelligence, pp. 34–35]`
+- **Warrant (my words):** An explanation has epistemic value only if it helps situated users understand or verify a decision.
+- **Boundary:** The chapter surveys XAI concepts rather than experimentally testing a specific archival explanation interface.
+- **Consequence:** The DDR interface should prioritise source-linked external verification, provenance and visible constraints over claims to reveal internal model reasoning.
+- **Practice cross-check:** Let users reopen evidence, inspect metadata and see why the corpus can or cannot establish a claim.
 
-- **Warrant:**  
-  This matters because an archive-facing method must be accountable to users, subjects and institutions. A computationally surfaced trace needs a visible chain of reasoning: where it came from, how it was selected, what the model or method did to it, and what risks attach to its reuse.
-
-- **So what for my thesis:**  
-  DDR activation should be written as an accountable method: I need to show how traces are located, linked, interpreted and bounded, rather than simply claiming that computational methods make hidden knowledge visible.
-
-- **Practice cross-check:**  
-  Turin methodological safeguards retain source inspection, organisational expertise, responsible implementation, human oversight, and explicit provenance.
+## Claim 6
+- **Claim (plain):** AI adoption can amplify archival and algorithmic bias even when it improves access.
+- **Author claim:** The chapter concludes that AI can reinforce stereotypes, filter niche views and induce decisions from uncertain assumptions, and calls for bias management rather than fantasies of complete removal.
+- **Evidence-supported claim:** The conclusion explicitly links archival practice, fairness/accountability/transparency and human context while arguing for pragmatic management of bias.
+- **Researcher inference:** Computational activation of DDR should treat visibility gains and new distortions as simultaneous possibilities.
+- **Evidence (quote/paraphrase + page):** The conclusion warns that AI can amplify data and algorithmic bias, statistically privilege popular topics, filter niche views and act on uncertain assumptions; it then argues for shifting from 'removing' bias to managing it. `[@JaillantNavigatingArtificialIntelligence, pp. 35–36]`
+- **Warrant (my words):** Making more material computationally accessible does not neutralise the structures embedded in data, description or modelling.
+- **Boundary:** The chapter's examples are institutional and cross-sectoral rather than an empirical bias audit of DDR.
+- **Consequence:** The thesis should evaluate who and what becomes more or less visible under retrieval/model choices and preserve that as a methodological limitation.
+- **Practice cross-check:** Compare computational prominence against document density, catalogue description and known marginal/under-described DDR roles.
 
 # Definitions / terms this changes
 
@@ -197,6 +210,10 @@ They examine TNA’s AI-related projects in order to show how cultural heritage 
 
 - **Risk if misused:**  
   If I cite it too generally, it could make the thesis sound as if it is about AI adoption in archives rather than about mobilising specific testamentary traces in the DDR archive.
+
+# Cross-source / cross-lens synthesis
+
+This TNA chapter connects the archival and computational strands at institutional scale. Bearman and Duranti explain why description and provenance matter; Zaagsma shows that digitisation and search constitute a selective evidence surface; Bernard and Balog show that retrieval ranks visibility; Suchman adds the requirement that accountability be located in people and institutions. Jaillant, Aske and Caputo bring these concerns together in operational archival AI: scale motivates automation, but access, sensitivity, bias, trust and explanation remain human-governed archival problems.
 
 # Methods spine tags
 

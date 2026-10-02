@@ -24,7 +24,7 @@ model_subcluster: "S3.2 Scoped missingness"
 source_type: "Core text"
 project_tags:
   - "Turin"
-last_updated: "16 Sept 2026, 12:14"---
+last_updated: "02 Oct 2026"
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -38,7 +38,7 @@ last_updated: "16 Sept 2026, 12:14"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -57,29 +57,73 @@ The authors write from design research, research software engineering, and digit
 # The author’s main move (1 sentence)
 They try to rethink trust in humanities data visualization by tracing omission and bias, naming and classification, and certainty and precision across data, digitisation, and visualisation in order to argue for interrogability, interdisciplinarity, and an ethical commitment to eliciting scepticism. `[@BoydDavis2021CanBelieveWhat, pp. 524, 535–538]`
 
-# Three-claim evidence ledger (max 3 claims)
-> Keep claims plain. Always attach page numbers when you can. If unsure: TODO (needs page).
+# Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** Trust in humanities visualisation is shaped by problems already present in source data and then transformed or intensified by digitisation and visualisation.
-- **Evidence (quote/paraphrase + page):** On page 524, the authors state that cultural history is marked by subjectivity, lack of precision, and conflict of opinion, and that the task is seldom to maximise trust but rather to reveal how data and transformations may be untrustworthy. Table 1 on page 524 explicitly lays out three categories of problem — omission and bias, naming and classification, certainty and precision — across three phases: source data, digitisation/computation, and visualization. `[@BoydDavis2021CanBelieveWhat, pp. 523–524]`
-- **Warrant (my words):** This is the paper’s structural argument. It refuses the idea that mistrust is introduced only at the visual end. Instead, trust problems travel across a pipeline, where each stage can propagate or add new distortions.
-- **So what for my thesis (a reusable sentence):** Boyd Davis, Vane, and Kräutli let me argue that any visual activation of the DDR archive must be analysed as a pipeline of transformations, not as a final image that either succeeds or fails on its own.
-- **Practice cross-check:** Semantic Atlas, Semantic Neighbourhoods, and Comparative Views make each transformation into an argumentative representation rather than a transparent view of data.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** This article is strongest as a framework for trust in humanities visualization and does not by itself provide a specific method for modelling contested design knowledge in one archive.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-- **Claim (plain):** Different users, goals, and institutional contexts produce different thresholds of trust, so no single visualization can be assumed trustworthy in the same way for everyone.
-- **Evidence (quote/paraphrase + page):** The introduction notes that end-users in museums, archives, and libraries may be public visitors, curators, educators, historians, researchers, or administrators, and that their role significantly affects expectations of trust. Later examples show incompatible trust criteria between curators and digital staff around colour-based visualization at Cooper Hewitt, and divergent historian views on relevance ranking in the Wellcome Library project. `[@BoydDavis2021CanBelieveWhat, pp. 522, 526–530]`
-- **Warrant (my words):** This matters because it breaks any universal design claim about trust. A visualization that is acceptable as exploratory browsing for a public user may be unusable or misleading for a historian or curator whose standards of completeness and explanation are much stricter.
-- **So what for my thesis:** This article helps me distinguish between visual tools for exploratory engagement with the DDR archive and tools meant to support scholarly interpretation, provenance tracking, or evidential claims.
-- **Practice cross-check:** Semantic Atlas, Semantic Neighbourhoods, and Comparative Views support visualisation, interface authority, and evidential representation workstreams across differing research uses.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** This article is strongest as a framework for trust in humanities visualization and does not by itself provide a specific method for modelling contested design knowledge in one archive.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
-- **Claim (plain):** The authors’ positive proposal is that humanities visualization should be interrogable and should ethically foster scepticism rather than hide uncertainty behind apparent clarity.
-- **Evidence (quote/paraphrase + page):** In the conclusions, they recommend principles and policies, interdisciplinary working, interrogability of data/processes/systems, and “an ethical commitment to eliciting scepticism.” They explicitly say the task is usually not to increase trust in data and transformation but to “accept and reveal the extent to which they may be untrustworthy.” They also argue that design is not a cosmetic finish but a contributor to the whole process. `[@BoydDavis2021CanBelieveWhat, pp. 522, 535–538]`
-- **Warrant (my words):** This is the practical and ethical payoff of the paper. Visualization should not try to smooth away ambiguity, hidden process, or missing provenance. Instead, it should help users ask better questions of the data and the system.
-- **So what for my thesis:** Boyd Davis, Vane, and Kräutli give me a strong warrant for designing any DDR archive visualisation to expose provenance, filtering, omissions, and uncertainty rather than present a falsely settled map of the past.
-- **Practice cross-check:** The Semantic Atlas design principles and Turin visual-method discussion make the visual interface accountable for how it frames evidential relations.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** This article is strongest as a framework for trust in humanities visualization and does not by itself provide a specific method for modelling contested design knowledge in one archive.
+- **Consequence:** 
+- **Practice cross-check:** 
+
+## Claim 4
+- **Claim (plain):** Trust criteria differ by user, purpose and disciplinary role.
+- **Author claim:** Boyd Davis, Vane and Kräutli show that curators, digital staff and other users can judge the same computational output by incompatible standards.
+- **Evidence-supported claim:** Their V&A colour case demonstrates that a result can be acceptable for public engagement yet unreliable for curatorial or scientific analysis.
+- **Researcher inference:** DDR interfaces should state the intended research use of a computational view because exploratory discovery and historical claim-making require different trust thresholds.
+- **Evidence (quote/paraphrase + page):** In the V&A colour project, curators described colour data as 'very unreliable' while Digital staff judged the technique successful; the authors explain that standards would have differed if the output were intended for curatorial/scientific rather than public-facing use. `[@BoydDavis2021CanBelieveWhat, pp. 527–528]`
+- **Warrant (my words):** Trust is relational to task and user rather than an intrinsic property of a visualisation.
+- **Boundary:** The case concerns visualised museum colour data, not retrieval-augmented textual inference.
+- **Consequence:** The thesis should distinguish exploratory semantic views from evidence suitable for supporting a historical claim.
+- **Practice cross-check:** Label UMAP/semantic proximity as exploratory and require source-level verification before interpretive use.
+
+## Claim 5
+- **Claim (plain):** Historians value transparency and control over filtering because relevance ranking can hide material.
+- **Author claim:** The authors report divergent historian views on relevance ranking but broad agreement that filtering must be explicit and removable.
+- **Evidence-supported claim:** Interviewed historians wanted to know when results were omitted and retain the option to see the complete result set.
+- **Researcher inference:** DDR ranking should remain inspectable and reversible so researchers can distinguish algorithmic filtering from archival absence.
+- **Evidence (quote/paraphrase + page):** In the Wellcome Library project, historians disagreed about relevance ranking but agreed that removal of results should be explicit and that users should be able to see all results; trust and transparency in retrieval were described as professionally consequential. `[@BoydDavis2021CanBelieveWhat, pp. 529–530]`
+- **Warrant (my words):** Hidden filtering turns an interface decision into an apparent property of the evidence base.
+- **Boundary:** The interviews arose from one humanities visualisation/search project and do not establish universal historian preferences.
+- **Consequence:** The thesis should expose filters, top-k limits and complete-source options wherever practical.
+- **Practice cross-check:** Allow users to expand from a semantic neighbourhood or ranked result to the underlying full candidate/source set.
+
+## Claim 6
+- **Claim (plain):** For humanities data, trustworthy design often means revealing uncertainty rather than maximising confidence.
+- **Author claim:** The authors argue that subjectivity, vagueness and conflicting opinion are inherent to historical material and that visualisation should expose possible untrustworthiness.
+- **Evidence-supported claim:** Their framework treats omission/bias, naming/classification and certainty/precision as problems propagated and sometimes introduced across the digital pipeline.
+- **Researcher inference:** DDR should design uncertainty and provenance as positive research outputs rather than as defects to be hidden for interface polish.
+- **Evidence (quote/paraphrase + page):** The article states that uncertainty and conflict are fundamental to historical work and that the task is often to reveal the extent to which data and transformations may be untrustworthy; it then maps problems across source, computation and visualisation. `[@BoydDavis2021CanBelieveWhat, pp. 524–525]`
+- **Warrant (my words):** Humanities evidence is not made more trustworthy by suppressing the conditions under which it is partial or imprecise.
+- **Boundary:** The authors offer a design-epistemology framework rather than a validated metric of trustworthiness.
+- **Consequence:** The thesis can justify ambiguity, source-status and scoped-missingness displays as trust-supporting rather than confidence-reducing features.
+- **Practice cross-check:** Preserve contradictory evidence and uncertain dates/attributions rather than normalising them into one clean visual or verbal answer.
 
 # Definitions / terms this changes (only the ones that matter)
 - **Trust in visualization:** not blind confidence in output, but a situated judgement shaped by the user, the purpose, and the transformations applied to data; I will use this relationally rather than as a fixed property of a graphic. `[@BoydDavis2021CanBelieveWhat, pp. 522–523, 529–530]`
@@ -111,6 +155,10 @@ They try to rethink trust in humanities data visualization by tracing omission a
 # Boundary + risk (short, practical)
 - **Boundary (1 sentence):** This article is strongest as a framework for trust in humanities visualization and does not by itself provide a specific method for modelling contested design knowledge in one archive.
 - **Risk if misused (1 sentence):** If I use it too generally, I could repeat the rhetoric of trust and scepticism without showing the concrete transformations, filters, classifications, or date problems at work in the DDR case.
+
+# Cross-source / cross-lens synthesis
+
+Boyd Davis, Vane and Kräutli supply a design-humanities hinge between Drucker's critique of quantitative certainty, Zaagsma's digital selectivity and Pan/Bernard's ranking authority. Their key move is to make trust dependent on use, user and visible transformation. For DDR, this supports a layered interface in which exploratory maps, ranked retrieval and generated synthesis carry different evidential statuses, while filters, uncertainty and source provenance remain inspectable.
 
 # Methods spine tags (tick what it actually touches)
 - [x] Framing and theory

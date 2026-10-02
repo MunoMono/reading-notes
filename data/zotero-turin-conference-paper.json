@@ -1,0 +1,1766 @@
+{
+  "generated_at": "2026-10-02T10:12:23+00:00",
+  "zotero_user_id": "3436801",
+  "scope": {
+    "root_collection_name": "Turin conference paper",
+    "root_collection_key": "KY66I3S8",
+    "collection_count": 14,
+    "read_only": true
+  },
+  "collection_item_counts": {
+    "Turin conference paper / 01 Synthetic heritage and cultural memory": 5,
+    "Turin conference paper / 02 LLM epistemic risk and persuasive fluency": 3,
+    "Turin conference paper / 03 RAG, retrieval and source attribution": 5,
+    "Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning": 3,
+    "Turin conference paper / 04 Archival description, mediation and discoverability": 3,
+    "Turin conference paper / 05 Archival partiality, silence and absence": 3,
+    "Turin conference paper / 06 Oral history, temporality and retrospective testimony": 2,
+    "Turin conference paper / 07 Interface authority, ranking and retrieval bias": 4,
+    "Turin conference paper / 08 Ambiguity, uncertainty and plural interpretation": 3,
+    "Turin conference paper / 09 Human judgement and practice-led computational research": 4,
+    "Turin conference paper / 10 Conversational AI and completion norms": 3,
+    "Turin conference paper / 11 Uncertainty and provenance display in interfaces": 3,
+    "Turin conference paper / 12 Digitisation, reconstruction and archival completion": 3
+  },
+  "item_count": 40,
+  "active_reading_count": 39,
+  "container_count": 1,
+  "containers": [
+    {
+      "zotero_item_key": "WNZKFRMU",
+      "version": 8542,
+      "item_type": "book",
+      "title": "Navigating artificial intelligence for cultural heritage organisations",
+      "creators": "Jaillant, Lise; Warwick, C; Gooding, P; Aske, P; Layne- Worthey, G; Downie, J. S.",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "C",
+          "lastName": "Warwick"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Gooding"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "G",
+          "lastName": "Layne- Worthey"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "J. S.",
+          "lastName": "Downie"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "UCL Press",
+      "publication_title": "",
+      "doi": "10.14324/111.9781800088375",
+      "isbn": "9781800088375",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "zotero_item_key": "CMIM3HAW",
+      "version": 7597,
+      "item_type": "journalArticle",
+      "title": "A methodological protocol for the generation and evaluation of AI-generated cultural heritage content",
+      "creators": "Galindo-Durán, Alejandro; Oliver-López, Cristina Prego De; Bernal-Bravo, César",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alejandro",
+          "lastName": "Galindo-Durán"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cristina Prego De",
+          "lastName": "Oliver-López"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "César",
+          "lastName": "Bernal-Bravo"
+        }
+      ],
+      "date": "09/2026",
+      "year": "2026",
+      "publisher": "Elsevier Masson SAS",
+      "publication_title": "Journal of Cultural Heritage",
+      "doi": "10.1016/j.culher.2026.08.010",
+      "isbn": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1296207426001767",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 01 Synthetic heritage and cultural memory"
+      ]
+    },
+    {
+      "zotero_item_key": "ZJVVPAYV",
+      "version": 8034,
+      "item_type": "journalArticle",
+      "title": "Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history",
+      "creators": "Selyshcheva, Iryna A.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Iryna A.",
+          "lastName": "Selyshcheva"
+        }
+      ],
+      "date": "2026-03-21",
+      "year": "2026",
+      "publisher": "Academy of Cognitive and Natural Sciences (ACNS)",
+      "publication_title": "CTE Workshop Proceedings",
+      "doi": "10.55056/cte.1438",
+      "isbn": "",
+      "url": "https://acnsci.org/journal/index.php/cte/article/view/1438",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 01 Synthetic heritage and cultural memory"
+      ]
+    },
+    {
+      "zotero_item_key": "TU5SUA8E",
+      "version": 8584,
+      "item_type": "journalArticle",
+      "title": "HARF: a human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering",
+      "creators": "Arzomand, Kawsar; Kalganova, Tatiana; Rustell, Michael",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Kawsar",
+          "lastName": "Arzomand"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tatiana",
+          "lastName": "Kalganova"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Rustell"
+        }
+      ],
+      "date": "09/2026",
+      "year": "2026",
+      "publisher": "Elsevier Ltd",
+      "publication_title": "Digital Applications in Archaeology and Cultural Heritage",
+      "doi": "10.1016/j.daach.2026.e00554",
+      "isbn": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 01 Synthetic heritage and cultural memory"
+      ]
+    },
+    {
+      "zotero_item_key": "5VWYHG4S",
+      "version": 7604,
+      "item_type": "journalArticle",
+      "title": "Quantifying the prevalence and impact of overreaching causal claims in social science",
+      "creators": "Isch, Calvin; Dörr, Timothy; Fasching, Neil; Jennings, Grace; Watts, Duncan J.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Calvin",
+          "lastName": "Isch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Dörr"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Neil",
+          "lastName": "Fasching"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Grace",
+          "lastName": "Jennings"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Duncan J.",
+          "lastName": "Watts"
+        }
+      ],
+      "date": "2026-08-24",
+      "year": "2026",
+      "publisher": "Springer Nature SharedIt content-sharing initiative",
+      "publication_title": "Nature Human Behaviour",
+      "doi": "10.1038/s41562-026-02553-x",
+      "isbn": "",
+      "url": "https://www.nature.com/articles/s41562-026-02553-x",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 01 Synthetic heritage and cultural memory"
+      ]
+    },
+    {
+      "zotero_item_key": "PUUPT229",
+      "version": 8586,
+      "item_type": "journalArticle",
+      "title": "Synthetic heritage: online platforms, deceptive genealogy and the ethics of algorithmically generated memory",
+      "creators": "Nieto McAvoy, Eva; Kidd, Jenny",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Eva",
+          "lastName": "Nieto McAvoy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenny",
+          "lastName": "Kidd"
+        }
+      ],
+      "date": "2024",
+      "year": "2024",
+      "publisher": "Cambridge University Press",
+      "publication_title": "Memory, Mind & Media",
+      "doi": "10.1017/mem.2024.10",
+      "isbn": "",
+      "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 01 Synthetic heritage and cultural memory"
+      ]
+    },
+    {
+      "zotero_item_key": "Z9IN3FCV",
+      "version": 8572,
+      "item_type": "journalArticle",
+      "title": "Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks",
+      "creators": "Radharapu, Bhaktipriya; Revel, Manon; Ung, Megan; Ruder, Sebastian; Williams, Adina",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Bhaktipriya",
+          "lastName": "Radharapu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Manon",
+          "lastName": "Revel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Megan",
+          "lastName": "Ung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sebastian",
+          "lastName": "Ruder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adina",
+          "lastName": "Williams"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "Association for Computational Linguistics",
+      "publication_title": "Findings of the Association for Computational Linguistics",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [
+        "to-ingest"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 02 LLM epistemic risk and persuasive fluency"
+      ]
+    },
+    {
+      "zotero_item_key": "SHSGT8G9",
+      "version": 8574,
+      "item_type": "journalArticle",
+      "title": "Do multi-document summarization models <i>synthesize</i> ?",
+      "creators": "DeYoung, Jay; Martinez, Stephanie C.; Marshall, Iain J.; Wallace, Byron C.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Jay",
+          "lastName": "DeYoung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephanie C.",
+          "lastName": "Martinez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Iain J.",
+          "lastName": "Marshall"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Byron C.",
+          "lastName": "Wallace"
+        }
+      ],
+      "date": "2024-09-04",
+      "year": "2024",
+      "publisher": "MIT Press",
+      "publication_title": "Transactions of the Association for Computational Linguistics",
+      "doi": "10.1162/tacl_a_00687",
+      "isbn": "",
+      "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00687/124262/Do-Multi-Document-Summarization-Models-Synthesize",
+      "tags": [
+        "to-ingest"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 02 LLM epistemic risk and persuasive fluency"
+      ]
+    },
+    {
+      "zotero_item_key": "QI2I6HJQ",
+      "version": 8413,
+      "item_type": "conferencePaper",
+      "title": "On the dangers of stochastic parrots: can language models be too big? 🦜",
+      "creators": "Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Emily M.",
+          "lastName": "Bender"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timnit",
+          "lastName": "Gebru"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Angelina",
+          "lastName": "McMillan-Major"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shmargaret",
+          "lastName": "Shmitchell"
+        }
+      ],
+      "date": "2021-03-03",
+      "year": "2021",
+      "publisher": "ACM",
+      "publication_title": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "doi": "10.1145/3442188.3445922",
+      "isbn": "9781450383097",
+      "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+      "tags": [
+        "LLM-as-method",
+        "to-read"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 02 LLM epistemic risk and persuasive fluency"
+      ]
+    },
+    {
+      "zotero_item_key": "JFAP2JSU",
+      "version": 8523,
+      "item_type": "journalArticle",
+      "title": "Archives and AI: an overview of current debates and future perspectives",
+      "creators": "Colavizza, Giovanni; Blanke, Tobias; Jeurgens, Charles; Noordegraaf, Julia",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Giovanni",
+          "lastName": "Colavizza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tobias",
+          "lastName": "Blanke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Charles",
+          "lastName": "Jeurgens"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julia",
+          "lastName": "Noordegraaf"
+        }
+      ],
+      "date": "2022",
+      "year": "2022",
+      "publisher": "",
+      "publication_title": "Journal on Computing and Cultural Heritage",
+      "doi": "10.1145/3479010",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3479010",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    },
+    {
+      "zotero_item_key": "PBZ5IK9L",
+      "version": 8003,
+      "item_type": "journalArticle",
+      "title": "Documenting documentation",
+      "creators": "Bearman, David A.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "David A.",
+          "lastName": "Bearman"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution",
+        "Turin conference paper / 04 Archival description, mediation and discoverability"
+      ]
+    },
+    {
+      "zotero_item_key": "WNZKFRMU",
+      "version": 8542,
+      "item_type": "book",
+      "title": "Navigating artificial intelligence for cultural heritage organisations",
+      "creators": "Jaillant, Lise; Warwick, C; Gooding, P; Aske, P; Layne- Worthey, G; Downie, J. S.",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "C",
+          "lastName": "Warwick"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Gooding"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "P",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "G",
+          "lastName": "Layne- Worthey"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "J. S.",
+          "lastName": "Downie"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "UCL Press",
+      "publication_title": "",
+      "doi": "10.14324/111.9781800088375",
+      "isbn": "9781800088375",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    },
+    {
+      "zotero_item_key": "6WYW49HX",
+      "version": 8604,
+      "item_type": "bookSection",
+      "title": "The national archives (UK)",
+      "creators": "Jaillant, Lise; Aske, Katherine; Caputo, Annalina; Jaillant, Lise; Warwick, Claire; Gooding, Paul; Aske, Katherine; Layne-Worthey, G.; Stephen Downie, J.",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katherine",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Annalina",
+          "lastName": "Caputo"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Claire",
+          "lastName": "Warwick"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Paul",
+          "lastName": "Gooding"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Katherine",
+          "lastName": "Aske"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "G.",
+          "lastName": "Layne-Worthey"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "J.",
+          "lastName": "Stephen Downie"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "UCL Press",
+      "publication_title": "Navigating Artificial Intelligence for Cultural Heritage Organisations",
+      "doi": "10.14324/111.9781800088375",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    },
+    {
+      "zotero_item_key": "3VRUUL5N",
+      "version": 8012,
+      "item_type": "journalArticle",
+      "title": "The reconfiguration of the archive as data to be mined",
+      "creators": "Moss, Michael; Thomas, Davis; Gollins, Tim",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Moss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Davis",
+          "lastName": "Thomas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tim",
+          "lastName": "Gollins"
+        }
+      ],
+      "date": "2018",
+      "year": "2018",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution"
+      ]
+    },
+    {
+      "zotero_item_key": "Y855GGLW",
+      "version": 8600,
+      "item_type": "preprint",
+      "title": "ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation",
+      "creators": "Zhu, Yuqicheng; Potyka, Nico; Hernández, Daniel; He, Yuan; Ding, Zifeng; Xiong, Bo; Zhou, Dongzhuoran; Kharlamov, Evgeny; Staab, Steffen",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yuqicheng",
+          "lastName": "Zhu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nico",
+          "lastName": "Potyka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Hernández"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuan",
+          "lastName": "He"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zifeng",
+          "lastName": "Ding"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bo",
+          "lastName": "Xiong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dongzhuoran",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgeny",
+          "lastName": "Kharlamov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Steffen",
+          "lastName": "Staab"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "10.48550/arxiv.2508.20131",
+      "isbn": "",
+      "url": "https://arxiv.org/abs/2508.20131",
+      "tags": [
+        "Artificial Intelligence (cs.AI)",
+        "FOS: Computer and information sciences",
+        "Machine Learning (cs.LG)"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning"
+      ]
+    },
+    {
+      "zotero_item_key": "BRLTPXXT",
+      "version": 8602,
+      "item_type": "preprint",
+      "title": "RAG+: enhancing retrieval-augmented generation with application-aware reasoning",
+      "creators": "Wang, Yu; Zhao, Shiwan; Wang, Zhihu; Fan, Ming; Zhang, Xicheng; Zhang, Yubo; Wang, Zhengfan; Huang, Heyuan; Liu, Ting",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Yu",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shiwan",
+          "lastName": "Zhao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhihu",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ming",
+          "lastName": "Fan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xicheng",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yubo",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhengfan",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Heyuan",
+          "lastName": "Huang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ting",
+          "lastName": "Liu"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "10.48550/arxiv.2506.11555",
+      "isbn": "",
+      "url": "https://arxiv.org/abs/2506.11555",
+      "tags": [
+        "Artificial Intelligence (cs.AI)",
+        "Computation and Language (cs.CL)",
+        "FOS: Computer and information sciences"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning"
+      ]
+    },
+    {
+      "zotero_item_key": "CVVHJD52",
+      "version": 8032,
+      "item_type": "journalArticle",
+      "title": "Synthesizing scientific literature with retrieval-augmented language models",
+      "creators": "Asai, Akari; He, Jacqueline; Shao, Rulin; Shi, Weijia; Singh, Amanpreet; Chang, Joseph Chee; Lo, Kyle; Soldaini, Luca; Feldman, Sergey; D’Arcy, Mike; Wadden, David; Latzke, Matt; Sparks, Jenna; Hwang, Jena D.; Kishore, Varsha; Tian, Minyang; Ji, Pan; Liu, Shengyan; Tong, Hao; Wu, Bohao; Xiong, Yanyu; Zettlemoyer, Luke; Neubig, Graham; Weld, Daniel S.; Downey, Doug; Yih, Wen-tau; Koh, Pang Wei; Hajishirzi, Hannaneh",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Akari",
+          "lastName": "Asai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jacqueline",
+          "lastName": "He"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rulin",
+          "lastName": "Shao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Weijia",
+          "lastName": "Shi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amanpreet",
+          "lastName": "Singh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joseph Chee",
+          "lastName": "Chang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kyle",
+          "lastName": "Lo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luca",
+          "lastName": "Soldaini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sergey",
+          "lastName": "Feldman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mike",
+          "lastName": "D’Arcy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wadden"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matt",
+          "lastName": "Latzke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenna",
+          "lastName": "Sparks"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jena D.",
+          "lastName": "Hwang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Varsha",
+          "lastName": "Kishore"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Minyang",
+          "lastName": "Tian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pan",
+          "lastName": "Ji"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengyan",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Tong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bohao",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yanyu",
+          "lastName": "Xiong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luke",
+          "lastName": "Zettlemoyer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Graham",
+          "lastName": "Neubig"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel S.",
+          "lastName": "Weld"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Doug",
+          "lastName": "Downey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wen-tau",
+          "lastName": "Yih"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pang Wei",
+          "lastName": "Koh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hannaneh",
+          "lastName": "Hajishirzi"
+        }
+      ],
+      "date": "2026-02-26",
+      "year": "2026",
+      "publisher": "",
+      "publication_title": "Nature",
+      "doi": "10.1038/s41586-025-10072-4",
+      "isbn": "",
+      "url": "https://www.nature.com/articles/s41586-025-10072-4",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 03 RAG, retrieval and source attribution / 03.1 Retrieval-augmented inference and reasoning"
+      ]
+    },
+    {
+      "zotero_item_key": "TKUL75BN",
+      "version": 8515,
+      "item_type": "journalArticle",
+      "title": "Origin and development of the concept of archival description",
+      "creators": "Duranti, Luciana",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Luciana",
+          "lastName": "Duranti"
+        }
+      ],
+      "date": "1992",
+      "year": "1992",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 04 Archival description, mediation and discoverability"
+      ]
+    },
+    {
+      "zotero_item_key": "K2DTNN4G",
+      "version": 8502,
+      "item_type": "bookSection",
+      "title": "What makes oral history different",
+      "creators": "Portelli, Alessandro; Giudice, Luisa Del",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alessandro",
+          "lastName": "Portelli"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Luisa Del",
+          "lastName": "Giudice"
+        }
+      ],
+      "date": "2009",
+      "year": "2009",
+      "publisher": "Palgrave Macmillan US",
+      "publication_title": "Oral History, Oral Culture, and Italian Americans",
+      "doi": "10.1057/9780230101395_2",
+      "isbn": "9780230101395",
+      "url": "https://doi.org/10.1057/9780230101395_2",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 04 Archival description, mediation and discoverability",
+        "Turin conference paper / 06 Oral history, temporality and retrospective testimony"
+      ]
+    },
+    {
+      "zotero_item_key": "3B3UX7NI",
+      "version": 8384,
+      "item_type": "book",
+      "title": "Archival silences: missing, lost and, uncreated archives",
+      "creators": "Moss, Michael; Thomas, David",
+      "creators_raw": [
+        {
+          "creatorType": "editor",
+          "firstName": "Michael",
+          "lastName": "Moss"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "David",
+          "lastName": "Thomas"
+        }
+      ],
+      "date": "2021-4-2",
+      "year": "2021",
+      "publisher": "Routledge",
+      "publication_title": "",
+      "doi": "10.4324/9781003003618",
+      "isbn": "9781003003618",
+      "url": "https://www.taylorfrancis.com/books/9781000385199",
+      "tags": [
+        "archives-infra",
+        "classification",
+        "core",
+        "missingness"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 05 Archival partiality, silence and absence",
+        "Turin conference paper / 08 Ambiguity, uncertainty and plural interpretation"
+      ]
+    },
+    {
+      "zotero_item_key": "755QNF73",
+      "version": 8422,
+      "item_type": "journalArticle",
+      "title": "Archives, records, and power: the making of modern memory",
+      "creators": "Schwartz, Joan M.; Cook, Terry",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Joan M.",
+          "lastName": "Schwartz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Terry",
+          "lastName": "Cook"
+        }
+      ],
+      "date": "3/2002",
+      "year": "2002",
+      "publisher": "",
+      "publication_title": "Archival Science",
+      "doi": "10.1007/bf02435628",
+      "isbn": "",
+      "url": "http://link.springer.com/10.1007/BF02435628",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 05 Archival partiality, silence and absence"
+      ]
+    },
+    {
+      "zotero_item_key": "RVFXV4B6",
+      "version": 8401,
+      "item_type": "journalArticle",
+      "title": "Of things said and unsaid: power, archival silences, and power in silence",
+      "creators": "Carter, Rodney G S",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Rodney G S",
+          "lastName": "Carter"
+        }
+      ],
+      "date": "2006",
+      "year": "2006",
+      "publisher": "",
+      "publication_title": "Archivaria",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 05 Archival partiality, silence and absence"
+      ]
+    },
+    {
+      "zotero_item_key": "MMUI582X",
+      "version": 8433,
+      "item_type": "journalArticle",
+      "title": "Four paradigm transformations in oral history",
+      "creators": "Thomson, Alistair",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alistair",
+          "lastName": "Thomson"
+        }
+      ],
+      "date": "2007-01-01",
+      "year": "2007",
+      "publisher": "",
+      "publication_title": "The Oral History Review",
+      "doi": "10.1525/ohr.2007.34.1.49",
+      "isbn": "",
+      "url": "https://www.tandfonline.com/doi/full/10.1525/ohr.2007.34.1.49",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 06 Oral history, temporality and retrospective testimony"
+      ]
+    },
+    {
+      "zotero_item_key": "XGW459UJ",
+      "version": 8576,
+      "item_type": "journalArticle",
+      "title": "A systematic review of fairness, accountability, transparency, and ethics in information retrieval",
+      "creators": "Bernard, Nolwenn; Balog, Krisztian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Nolwenn",
+          "lastName": "Bernard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Krisztian",
+          "lastName": "Balog"
+        }
+      ],
+      "date": "2025-06-30",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "ACM Computing Surveys",
+      "doi": "10.1145/3637211",
+      "isbn": "",
+      "url": "https://dl.acm.org/doi/10.1145/3637211",
+      "tags": [
+        "to-ingest"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 07 Interface authority, ranking and retrieval bias"
+      ]
+    },
+    {
+      "zotero_item_key": "TMQGA95Q",
+      "version": 8580,
+      "item_type": "journalArticle",
+      "title": "Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making",
+      "creators": "Xu, Zhengtao; Song, Tianqi; Lee, Yi-Chieh",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Zhengtao",
+          "lastName": "Xu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tianqi",
+          "lastName": "Song"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yi-Chieh",
+          "lastName": "Lee"
+        }
+      ],
+      "date": "03/2025",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "International Journal of Human-Computer Studies",
+      "doi": "10.1016/j.ijhcs.2025.103455",
+      "isbn": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 07 Interface authority, ranking and retrieval bias"
+      ]
+    },
+    {
+      "zotero_item_key": "M8VSY2TX",
+      "version": 8578,
+      "item_type": "journalArticle",
+      "title": "In google we trust: users’ decisions on rank, position, and relevance",
+      "creators": "Pan, Bing; Hembrooke, Helene; Joachims, Thorsten; Lorigo, Lori; Gay, Geri; Granka, Laura",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Bing",
+          "lastName": "Pan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Helene",
+          "lastName": "Hembrooke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thorsten",
+          "lastName": "Joachims"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lori",
+          "lastName": "Lorigo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Geri",
+          "lastName": "Gay"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laura",
+          "lastName": "Granka"
+        }
+      ],
+      "date": "04/2007",
+      "year": "2007",
+      "publisher": "",
+      "publication_title": "Journal of Computer-Mediated Communication",
+      "doi": "10.1111/j.1083-6101.2007.00351.x",
+      "isbn": "",
+      "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 07 Interface authority, ranking and retrieval bias"
+      ]
+    },
+    {
+      "zotero_item_key": "8E7X95ID",
+      "version": 8582,
+      "item_type": "conferencePaper",
+      "title": "Take it, leave it, or fix it: measuring productivity and trust in human-AI collaboration",
+      "creators": "Qian, Crystal; Wexler, James",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Crystal",
+          "lastName": "Qian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "James",
+          "lastName": "Wexler"
+        }
+      ],
+      "date": "2024-03-18",
+      "year": "2024",
+      "publisher": "ACM",
+      "publication_title": "Proceedings of the 29th International Conference on Intelligent User Interfaces",
+      "doi": "10.1145/3640543.3645198",
+      "isbn": "9798400705083",
+      "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 07 Interface authority, ranking and retrieval bias"
+      ]
+    },
+    {
+      "zotero_item_key": "YKTM4IGL",
+      "version": 7444,
+      "item_type": "journalArticle",
+      "title": "Can I believe what I see? Data visualization and trust in the humanities",
+      "creators": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Stephen",
+          "lastName": "Boyd Davis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivia",
+          "lastName": "Vane"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Florian",
+          "lastName": "Kräutli"
+        }
+      ],
+      "date": "2021-10-02",
+      "year": "2021",
+      "publisher": "",
+      "publication_title": "Interdisciplinary Science Reviews",
+      "doi": "10.1080/03080188.2021.1872874",
+      "isbn": "",
+      "url": "https://journals.sagepub.com/doi/full/10.1080/03080188.2021.1872874",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 08 Ambiguity, uncertainty and plural interpretation"
+      ]
+    },
+    {
+      "zotero_item_key": "3Q945HJ4",
+      "version": 8421,
+      "item_type": "journalArticle",
+      "title": "Humanities approaches to graphical display",
+      "creators": "Drucker, Johanna",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Johanna",
+          "lastName": "Drucker"
+        }
+      ],
+      "date": "2011",
+      "year": "2011",
+      "publisher": "",
+      "publication_title": "Digital Humanities Quarterly",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 08 Ambiguity, uncertainty and plural interpretation",
+        "Turin conference paper / 09 Human judgement and practice-led computational research"
+      ]
+    },
+    {
+      "zotero_item_key": "6SZQRR2Y",
+      "version": 8558,
+      "item_type": "bookSection",
+      "title": "Evaluation of retrieval-augmented generation: a survey",
+      "creators": "Yu, Hao; Gan, Aoran; Zhang, Kai; Tong, Shiwei; Liu, Qi; Liu, Zhaofeng",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aoran",
+          "lastName": "Gan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kai",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shiwei",
+          "lastName": "Tong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qi",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhaofeng",
+          "lastName": "Liu"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "Springer Nature Singapore",
+      "publication_title": "Big Data: 12th CCF Conference, BigData 2024, Qingdao, China, August 9–11, 2024, Proceedings",
+      "doi": "10.1007/978-981-96-1024-2_8",
+      "isbn": "",
+      "url": "http://arxiv.org/abs/2405.07437",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 09 Human judgement and practice-led computational research"
+      ]
+    },
+    {
+      "zotero_item_key": "G852R4UM",
+      "version": 8118,
+      "item_type": "journalArticle",
+      "title": "How can we improve the diversity of archival collections with AI? Opportunities, risks, and solutions",
+      "creators": "Jaillant, Lise; Mitchell, Olivia; Ewoh-Opu, Eric; Hidalgo Urbaneja, Maribel",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lise",
+          "lastName": "Jaillant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivia",
+          "lastName": "Mitchell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric",
+          "lastName": "Ewoh-Opu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maribel",
+          "lastName": "Hidalgo Urbaneja"
+        }
+      ],
+      "date": "08/2025",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "AI & SOCIETY",
+      "doi": "10.1007/s00146-025-02222-z",
+      "isbn": "",
+      "url": "https://link.springer.com/10.1007/s00146-025-02222-z",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 09 Human judgement and practice-led computational research"
+      ]
+    },
+    {
+      "zotero_item_key": "6BDU2AYY",
+      "version": 8113,
+      "item_type": "journalArticle",
+      "title": "Located accountabilities in technology production",
+      "creators": "Suchman, Lucy",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Lucy",
+          "lastName": "Suchman"
+        }
+      ],
+      "date": "2002",
+      "year": "2002",
+      "publisher": "",
+      "publication_title": "Scandinavian Journal of Information Systems",
+      "doi": "",
+      "isbn": "",
+      "url": "",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 09 Human judgement and practice-led computational research"
+      ]
+    },
+    {
+      "zotero_item_key": "B4EXS6SV",
+      "version": 7625,
+      "item_type": "journalArticle",
+      "title": "Addressing trust requirements in the design of an open-source multi-agent LLM-based domain-specific chatbot",
+      "creators": "Axetorn, Jonatan; Edholm, Felix; Dobslaw, Felix; Gren, Lucas",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Jonatan",
+          "lastName": "Axetorn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Felix",
+          "lastName": "Edholm"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Felix",
+          "lastName": "Dobslaw"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lucas",
+          "lastName": "Gren"
+        }
+      ],
+      "date": "06/2026",
+      "year": "2026",
+      "publisher": "Springer",
+      "publication_title": "Requirements Engineering",
+      "doi": "10.1007/s00766-026-00457-w",
+      "isbn": "",
+      "url": "https://link.springer.com/10.1007/s00766-026-00457-w",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 10 Conversational AI and completion norms"
+      ]
+    },
+    {
+      "zotero_item_key": "2NMIIM9E",
+      "version": 8588,
+      "item_type": "journalArticle",
+      "title": "LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena",
+      "creators": "Pasch, Stefan",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Stefan",
+          "lastName": "Pasch"
+        }
+      ],
+      "date": "2025",
+      "year": "2025",
+      "publisher": "arXiv",
+      "publication_title": "",
+      "doi": "10.48550/arxiv.2501.03266",
+      "isbn": "",
+      "url": "https://arxiv.org/abs/2501.03266",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 10 Conversational AI and completion norms"
+      ]
+    },
+    {
+      "zotero_item_key": "V9N3GDSQ",
+      "version": 7634,
+      "item_type": "journalArticle",
+      "title": "Mental models and expectation violations in conversational AI interactions",
+      "creators": "Grimes, G. Mark; Schuetzler, Ryan M.; Giboney, Justin Scott",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "G. Mark",
+          "lastName": "Grimes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ryan M.",
+          "lastName": "Schuetzler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Justin Scott",
+          "lastName": "Giboney"
+        }
+      ],
+      "date": "05/2021",
+      "year": "2021",
+      "publisher": "Elsevier B.V.",
+      "publication_title": "Decision Support Systems",
+      "doi": "10.1016/j.dss.2021.113515",
+      "isbn": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 10 Conversational AI and completion norms"
+      ]
+    },
+    {
+      "zotero_item_key": "WIXAF3FN",
+      "version": 8594,
+      "item_type": "journalArticle",
+      "title": "Enhancing clinicians’ trust in large language models via transparent source attribution: a randomized controlled evaluation in uro-oncology",
+      "creators": "Carl, Nicolas; Hetz, Martin Joachim; Wies, Christoph; Haggenmüller, Sarah; Winterstein, Jana Theres; Mangold, Maurin Helen; Maywald, Lasse; Worst, Thomas Stefan; Westhoff, Niklas; Michel, Maurice Stephan; Wessels, Frederik; Brinker, Titus Josef",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Nicolas",
+          "lastName": "Carl"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin Joachim",
+          "lastName": "Hetz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Wies"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sarah",
+          "lastName": "Haggenmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jana Theres",
+          "lastName": "Winterstein"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maurin Helen",
+          "lastName": "Mangold"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lasse",
+          "lastName": "Maywald"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas Stefan",
+          "lastName": "Worst"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Niklas",
+          "lastName": "Westhoff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maurice Stephan",
+          "lastName": "Michel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Frederik",
+          "lastName": "Wessels"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Titus Josef",
+          "lastName": "Brinker"
+        }
+      ],
+      "date": "01/2026",
+      "year": "2026",
+      "publisher": "",
+      "publication_title": "European Journal of Cancer",
+      "doi": "10.1016/j.ejca.2025.116168",
+      "isbn": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804925010548",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 11 Uncertainty and provenance display in interfaces"
+      ]
+    },
+    {
+      "zotero_item_key": "75LAP993",
+      "version": 8590,
+      "item_type": "journalArticle",
+      "title": "How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts",
+      "creators": "Cho, Junho; Lim, Dokshin",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Junho",
+          "lastName": "Cho"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dokshin",
+          "lastName": "Lim"
+        }
+      ],
+      "date": "2026-08-14",
+      "year": "2026",
+      "publisher": "",
+      "publication_title": "Journal of Eye Movement Research",
+      "doi": "10.3390/jemr19040089",
+      "isbn": "",
+      "url": "https://www.mdpi.com/1995-8692/19/4/89",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 11 Uncertainty and provenance display in interfaces"
+      ]
+    },
+    {
+      "zotero_item_key": "MRE2QMJ7",
+      "version": 8592,
+      "item_type": "preprint",
+      "title": "Trust me on this: a user study of trustworthiness for RAG responses",
+      "creators": "Łajewska, Weronika; Balog, Krisztian",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Weronika",
+          "lastName": "Łajewska"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Krisztian",
+          "lastName": "Balog"
+        }
+      ],
+      "date": "2026",
+      "year": "2026",
+      "publisher": "",
+      "publication_title": "",
+      "doi": "10.48550/arxiv.2601.14460",
+      "isbn": "",
+      "url": "https://arxiv.org/abs/2601.14460",
+      "tags": [
+        "FOS: Computer and information sciences",
+        "Information Retrieval (cs.IR)"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 11 Uncertainty and provenance display in interfaces"
+      ]
+    },
+    {
+      "zotero_item_key": "5C923R7Y",
+      "version": 8596,
+      "item_type": "journalArticle",
+      "title": "Digital history and the politics of digitization",
+      "creators": "Zaagsma, Gerben",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Gerben",
+          "lastName": "Zaagsma"
+        }
+      ],
+      "date": "2023-05-31",
+      "year": "2023",
+      "publisher": "",
+      "publication_title": "Digital Scholarship in the Humanities",
+      "doi": "10.1093/llc/fqac050",
+      "isbn": "",
+      "url": "https://academic.oup.com/dsh/article/38/2/830/6702047",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 12 Digitisation, reconstruction and archival completion"
+      ]
+    },
+    {
+      "zotero_item_key": "WIESNQ8L",
+      "version": 8115,
+      "item_type": "journalArticle",
+      "title": "Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive",
+      "creators": "Ortolja-Baird, Alexandra; Nyhan, Julianne",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "Ortolja-Baird"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julianne",
+          "lastName": "Nyhan"
+        }
+      ],
+      "date": "2022-08-23",
+      "year": "2022",
+      "publisher": "",
+      "publication_title": "Digital Scholarship in the Humanities",
+      "doi": "10.1093/llc/fqab065",
+      "isbn": "",
+      "url": "https://academic.oup.com/dsh/article/37/3/844/6401182",
+      "tags": [],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 12 Digitisation, reconstruction and archival completion"
+      ]
+    },
+    {
+      "zotero_item_key": "EW4I5WU3",
+      "version": 8598,
+      "item_type": "journalArticle",
+      "title": "Ethical aspects of digital reconstruction of the historical cultural heritage",
+      "creators": "Borůvková, Barbora",
+      "creators_raw": [
+        {
+          "creatorType": "author",
+          "firstName": "Barbora",
+          "lastName": "Borůvková"
+        }
+      ],
+      "date": "2025-09-05",
+      "year": "2025",
+      "publisher": "",
+      "publication_title": "Digital Presentation and Preservation of Cultural and Scientific Heritage",
+      "doi": "10.55630/dipp.2025.15.20",
+      "isbn": "",
+      "url": "https://dipp.math.bas.bg/dipp/article/view/dipp.2025.15.20",
+      "tags": [
+        "Cultural Heritage",
+        "Digital Editing",
+        "Digital Reconstruction",
+        "Digital Technologies",
+        "Ethics"
+      ],
+      "citation_key": "",
+      "collection_paths": [
+        "Turin conference paper / 12 Digitisation, reconstruction and archival completion"
+      ]
+    }
+  ]
+}

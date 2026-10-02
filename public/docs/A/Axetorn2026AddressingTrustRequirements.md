@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -48,7 +48,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -82,31 +82,73 @@ The study assumes a bounded knowledge base whose contents can function as ground
 
 They try to engineer user trust into an LLM system by translating empirically elicited trust requirements into specialised retrieval, generation, verification and refusal mechanisms and then evaluating whether those mechanisms satisfy the requirements.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** A retrieval-augmented system can be explicitly designed to withhold an answer when its evidence is insufficient.
-- **Evidence (quote/paraphrase + page):** The authors specify reliability as a requirement that includes refusal when relevant information cannot be retrieved and report workshop agreement that “it is better to give no answer than a wrong one”. `[@Axetorn2026AddressingTrustRequirements, pp. 13–14]` Their implemented judge agent applies a relevance threshold and returns a refusal when no retrieved segment exceeds it. `[@Axetorn2026AddressingTrustRequirements, pp. 15–16]`
-- **Warrant (my words):** Non-completion is implemented as intended behaviour. The system therefore treats insufficient evidence as an outcome that should be communicated rather than a gap that generation must fill.
-- **So what for my thesis (a reusable sentence):** A retrieval-augmented research system can treat evidential insufficiency as a valid result, withholding synthesis when the available material does not warrant an answer.
-- **Practice cross-check:** Turin scoped-missingness cases: closure, reception and attribution questions return the nearest relevant traces and state what the defined DDR corpus does not establish rather than generating a plausible historical completion.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study evaluates a small enterprise chatbot against synthetic HR documents whose contents are known to the researchers, so its notion of “no answer” does not model the archival problem of partial survival, uneven digitisation or contested historical evidence.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Separating retrieval, generation and verification makes evidential control more inspectable than a single-pass RAG interaction.
-- **Evidence (quote/paraphrase + page):** The implemented architecture separates a judge that filters retrieved segments, a generator constrained to use the retained evidence and a checker that tests grounding, source citation and relevance before release. Failed checks return the answer for revision. `[@Axetorn2026AddressingTrustRequirements, pp. 15–17]` In their discussion, the authors argue that separation improves controllability, testability, observability and auditability because evidence selection, composition and checking occur in distinct components. `[@Axetorn2026AddressingTrustRequirements, p. 29]`
-- **Warrant (my words):** Decomposing the pipeline exposes decisions that a conventional chatbot can collapse into one opaque generation step. It becomes possible to identify whether failure occurred in evidence selection, synthesis or validation.
-- **So what for my thesis:** Archival inference becomes more accountable when retrieval, evidential selection, synthesis and validation remain distinguishable operations whose outputs can be inspected separately.
-- **Practice cross-check:** Turin workflow: retrieval → evidence/source typing → bounded inference or deterministic compilation → quotation/provenance validation → statement of limit. The DDR implementation performs a related separation without requiring that each stage be an autonomous LLM agent.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study evaluates a small enterprise chatbot against synthetic HR documents whose contents are known to the researchers, so its notion of “no answer” does not model the archival problem of partial survival, uneven digitisation or contested historical evidence.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study evaluates a small enterprise chatbot against synthetic HR documents whose contents are known to the researchers, so its notion of “no answer” does not model the archival problem of partial survival, uneven digitisation or contested historical evidence.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Source citation alone does not communicate the limits of a system's knowledge.
-- **Evidence (quote/paraphrase + page):** Evaluation participants valued citations, but the authors found that provenance did not fully satisfy their transparency requirement. Users also wanted visible statements explaining what the chatbot could and could not do, its data sources and when they were last updated. `[@Axetorn2026AddressingTrustRequirements, p. 20]` The discussion consequently distinguishes provenance transparency from explicit communication of partial or limited information. `[@Axetorn2026AddressingTrustRequirements, p. 28]`
-- **Warrant (my words):** A cited answer can still imply completeness. Transparency therefore requires communication of both the basis of a claim and the boundary beyond which the system cannot responsibly speak.
-- **So what for my thesis:** Evidential provenance should be paired with an explicit account of evidential scope: showing where a claim comes from does not by itself show what the available corpus cannot establish.
-- **Practice cross-check:** Turin interface: source citations make generated claims reopenable, while scoped missingness separately states the limits of the retrieved and digitised evidence surface.
+## Claim 4
+- **Claim (plain):** Trust requirements can be elicited and engineered as system requirements rather than treated as a post-deployment attitude.
+- **Author claim:** Axetorn et al. use a two-cycle design-science process to derive trust factors from literature, employee interviews and an expert workshop before implementing a prototype.
+- **Evidence-supported claim:** The study turns external and internal trust factors into design requirements and then evaluates the resulting artifact.
+- **Researcher inference:** DDR trust/provenance requirements should be specified before interface implementation and tested through UAT.
+- **Evidence (quote/paraphrase + page):** Cycle 1 triangulates a systematic review, six employee interviews and a five-expert workshop to elicit trust requirements; Cycle 2 implements and evaluates those requirements in a multi-agent prototype. `[@Axetorn2026AddressingTrustRequirements, pp. 1–3]`
+- **Warrant (my words):** Requirements make normative goals testable and traceable to design decisions.
+- **Boundary:** The participants and domain concern enterprise HR, not historians or archivists.
+- **Consequence:** The thesis can treat provenance, source verifiability, ambiguity and abstention as explicit non-functional research requirements.
+- **Practice cross-check:** Map each critical-literature principle to a UI/system requirement and at least one UAT check.
+
+## Claim 5
+- **Claim (plain):** Trust in LLM systems is multidimensional, spanning reliability, provenance, privacy, transparency and organisational safeguards.
+- **Author claim:** The authors refine a taxonomy of internal and external trust factors rather than reducing trust to answer accuracy.
+- **Evidence-supported claim:** Reliability emerges as a primary adoption factor, but model provenance, bias, transparency, third-party security and organisational protections remain distinct.
+- **Researcher inference:** DDR should not use a single 'trust score' as a proxy for research accountability.
+- **Evidence (quote/paraphrase + page):** The study reports a refined taxonomy of external factors (including transparency, organisational safeguards and third-party security) and internal factors (including model provenance, bias risk and reliability), with reliability the primary determinant of adoption. `[@Axetorn2026AddressingTrustRequirements, pp. 1, 6–8]`
+- **Warrant (my words):** Users can judge one dimension favourably while another remains weak.
+- **Boundary:** The taxonomy is validated in a small organisational context and contains enterprise privacy/security concerns not central to DDR.
+- **Consequence:** The thesis should report evidential reliability, provenance and transparency separately from usability or general trust.
+- **Practice cross-check:** Keep technical health checks, citation correctness and user-facing source traceability as separate acceptance criteria.
+
+## Claim 6
+- **Claim (plain):** A prototype can score well on trust-aligned metrics yet still require small-sample, context-specific interpretation.
+- **Author claim:** The implemented system achieves strong metric scores and positive deployment judgments, while the paper also discusses threats to validity.
+- **Evidence-supported claim:** Nine of eleven participants endorsed field readiness and trust-aligned metrics exceeded 0.86, but the evaluation remains a bounded organisational case.
+- **Researcher inference:** DDR UAT success should be reported as evidence about the tested corpus and tasks, not as proof of general trustworthy AI.
+- **Evidence (quote/paraphrase + page):** The prototype achieved at least 0.86 on the trust-aligned measures and was endorsed by 9/11 participants as ready for field deployment. `[@Axetorn2026AddressingTrustRequirements, p. 1]` The study separately discusses threats to validity and domain dependence. `[@Axetorn2026AddressingTrustRequirements, pp. 25–27]`
+- **Warrant (my words):** Evaluation results inherit the scope of participants, data and tasks used to produce them.
+- **Boundary:** Synthetic HR documents and a small user sample offer a much cleaner evidence environment than heterogeneous historical archives.
+- **Consequence:** The thesis should make UAT scope and corpus boundaries explicit whenever reporting successful performance.
+- **Practice cross-check:** State which DDR case families passed and avoid extrapolating those results to untested archival questions.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -143,6 +185,10 @@ They try to engineer user trust into an LLM system by translating empirically el
 
 - **Boundary (1 sentence):** The study evaluates a small enterprise chatbot against synthetic HR documents whose contents are known to the researchers, so its notion of “no answer” does not model the archival problem of partial survival, uneven digitisation or contested historical evidence.
 - **Risk if misused (1 sentence):** Importing its refusal logic without qualification could turn failure to retrieve from the DDR evidence surface into an unjustified claim that the information or event itself did not exist.
+
+# Cross-source / cross-lens synthesis
+
+Axetorn et al. are most useful as a requirements-engineering bridge. Suchman locates accountability in sociotechnical relations; Carl and Cho operationalise source transparency; Yu separates evaluation layers. Axetorn et al. show how such concerns can be turned into design requirements before implementation. For DDR, the transfer is not their enterprise trust taxonomy wholesale, but the discipline of mapping epistemic requirements—provenance, reliability, abstention and visibility—to concrete architecture and tests.
 
 # Methods spine tags (tick what it actually touches)
 

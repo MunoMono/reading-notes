@@ -1,0 +1,46 @@
+name: Zotero Turin conference paper audit
+
+on:
+  push:
+    branches:
+      - zotero-theoretical-framework-audit
+    paths:
+      - 'scripts/zotero_turin_audit.py'
+      - 'scripts/zotero_tf_audit.py'
+      - 'public/docs/**'
+      - '.github/workflows/zotero-turin-conference-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run read-only Zotero Turin audit
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+        run: python3 scripts/zotero_turin_audit.py
+      - name: Upload audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: year2-turin-conference-audit
+          path: |
+            data/zotero-turin-conference-paper.json
+            audits/year2-turin-conference-paper-audit.json
+            audits/year2-turin-conference-paper-audit.md
+          retention-days: 7
+      - name: Commit refreshed manifest and audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/zotero-turin-conference-paper.json audits/year2-turin-conference-paper-audit.json audits/year2-turin-conference-paper-audit.md
+          git diff --cached --quiet && exit 0
+          git commit -m "audit: refresh Turin conference paper Year 2 baseline"
+          git push

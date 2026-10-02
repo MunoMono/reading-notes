@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 15:39"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 15:20"
 north_star_sha1: "63baed23b960"
@@ -48,7 +48,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -82,31 +82,73 @@ The paper updates established London Charter and Seville Principles concerns wit
 
 They try to make generative heritage reconstruction historically defensible by converting verified documentary, dimensional and iconographic evidence into explicit generative constraints, recording interpretive decisions and retaining expert judgement throughout the workflow.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
 - **Claim (plain):** Generative heritage systems produce a credibility problem when visually persuasive outputs exceed the historical evidence supporting them.
+- **Author claim:** Generative heritage systems produce a credibility problem when visually persuasive outputs exceed the historical evidence supporting them.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** Arzomand et al. describe a “credibility gap” between visual plausibility and historical authenticity, identifying stylistic drift, historical anachronism and cultural misrepresentation as recurring risks in generative reconstruction. `[@Arzomand2026HARFHumanAI, p. 2]`
 - **Warrant (my words):** A generated object can look coherent without being historically warranted. Fluency or realism therefore cannot function as evidence of historical validity.
-- **So what for my thesis (a reusable sentence):** In computationally activated archives, representational plausibility must remain subordinate to the evidential status of the traces from which an interpretation is produced.
+- **Boundary:** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
+- **Consequence:** In computationally activated archives, representational plausibility must remain subordinate to the evidential status of the traces from which an interpretation is produced.
 - **Practice cross-check:** Turin experiment: the research interface separates retrieved documentary passages, archival metadata, later testimony and generated synthesis so that a fluent answer cannot silently acquire the status of recovered historical fact.
 
 ## Claim 2
-
 - **Claim (plain):** Evidential boundaries can be designed into a generative workflow rather than appended as a disclaimer after generation.
+- **Author claim:** Evidential boundaries can be designed into a generative workflow rather than appended as a disclaimer after generation.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** HARF admits only elements supported by verifiable documentation into its operational layers, records uncertainty as paradata and leaves features with insufficient evidence indeterminate; the authors describe this as establishing an evidentiary boundary between reconstruction and speculation. `[@Arzomand2026HARFHumanAI, p. 3]`
 - **Warrant (my words):** The important methodological move happens before and during generation. Source scope, admissible evidence and uncertainty are part of the computational procedure itself.
-- **So what for my thesis:** Evidential restraint can be treated as system architecture: the available corpus defines what inference may responsibly establish, while unsupported relations remain unresolved.
+- **Boundary:** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
+- **Consequence:** Evidential restraint can be treated as system architecture: the available corpus defines what inference may responsibly establish, while unsupported relations remain unresolved.
 - **Practice cross-check:** Turin *scoped missingness*: closure, reception and attribution queries explicitly report what the defined digitised DDR evidence surface does not establish rather than filling the missing relation.
 
 ## Claim 3
-
 - **Claim (plain):** Human expertise remains necessary because computational measures cannot determine cultural or historical adequacy on their own.
+- **Author claim:** Human expertise remains necessary because computational measures cannot determine cultural or historical adequacy on their own.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** Several reconstructions that scored well computationally were rejected during expert review, and the authors state that this exposed the limits of algorithmic metrics and the continuing need for informed human judgement. `[@Arzomand2026HARFHumanAI, p. 5]` The paper later notes that PSI measures schema completeness rather than completeness of the historical record. `[@Arzomand2026HARFHumanAI, p. 10]`
 - **Warrant (my words):** A system can test compliance with encoded constraints while remaining unable to judge whether the underlying evidence is sufficient, culturally appropriate or historically complete.
-- **So what for my thesis:** Researcher judgement is constitutive of archival inference because computational consistency cannot determine whether a surviving trace warrants a historical claim.
+- **Boundary:** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
+- **Consequence:** Researcher judgement is constitutive of archival inference because computational consistency cannot determine whether a surviving trace warrants a historical claim.
 - **Practice cross-check:** Turin protocol: the researcher defines questions and retrieval routes, reads returned evidence and validates quotation provenance; deterministic fallback is used where generative synthesis exceeds the permitted evidence structure.
+
+## Claim 4
+- **Claim (plain):** Prompt sufficiency can be tested before generation rather than judged only after an image has been produced.
+- **Author claim:** HARF introduces a Prompt Sufficiency Index (PSI) that scores documentary completeness before allowing generation.
+- **Evidence-supported claim:** Prompts reaching a defined threshold qualify for generation, while insufficiently evidenced prompts are withheld or refined.
+- **Researcher inference:** For DDR, evidence sufficiency should likewise be assessed before synthesis so that generation is not used to compensate for weak retrieval.
+- **Evidence (quote/paraphrase + page):** HARF requires prompts to reach 24 out of 30 on the PSI before generation, establishing a pre-generation quality threshold intended to reduce hallucination and trial-and-error prompting. `[@Arzomand2026HARFHumanAI, p. 4]`
+- **Warrant (my words):** A pre-generation gate changes insufficiency from a post-hoc disclaimer into an operational constraint.
+- **Boundary:** The PSI is specific to a visual reconstruction schema with measurable structural and iconographic components.
+- **Consequence:** The thesis can justify an evidence-packet sufficiency gate before synthesis, especially for questions asking for relationships that retrieval has not established.
+- **Practice cross-check:** Do not call the synthesis model when required evidence families are absent; return scoped missingness or request further retrieval.
+
+## Claim 5
+- **Claim (plain):** High computational scores can still fail expert historical review.
+- **Author claim:** The authors report cases where reconstructions scoring well on computational measures were rejected by specialist reviewers.
+- **Evidence-supported claim:** Expert review detected cultural or historical inadequacies that quantitative similarity and algorithmic metrics did not capture.
+- **Researcher inference:** DDR automated checks can validate structure and consistency but cannot replace design-historical and archival judgement about what a trace means.
+- **Evidence (quote/paraphrase + page):** HARF reports that some reconstructions with favourable algorithmic scores were rejected in expert review, demonstrating the limits of automated metrics and the continuing necessity of informed human judgement. `[@Arzomand2026HARFHumanAI, p. 5]`
+- **Warrant (my words):** Metrics measure operationalised properties; experts may detect contextual or cultural errors outside those properties.
+- **Boundary:** Expert judgement is itself situated and can disagree; it should be documented rather than treated as infallible.
+- **Consequence:** The thesis should treat automated validation as secondary evidence and preserve researcher review as the final interpretive checkpoint.
+- **Practice cross-check:** Record when UAT reviewers reject a technically valid output for evidential or historical reasons and retain that disagreement in the evaluation record.
+
+## Claim 6
+- **Claim (plain):** Reproducible generative heritage work requires paradata documenting both evidence and model decisions.
+- **Author claim:** HARF versions outputs and records generation parameters, inference rationales and uncertainty as part of its reproducibility strategy.
+- **Evidence-supported claim:** The workflow archives seeds, token/guidance settings, compositing logic and interpretive rationale, while its limitations section frames uncertainty as unavoidable.
+- **Researcher inference:** DDR provenance should include analytic and model paradata, not only bibliographic source metadata.
+- **Evidence (quote/paraphrase + page):** The workflow versions generations and records paradata on seeds, token length, guidance scale and compositing logic; its methodological limitations section also requires interpretive uncertainty and rationale to be explicitly annotated. `[@Arzomand2026HARFHumanAI, pp. 4, 7, 10]`
+- **Warrant (my words):** Without paradata, later researchers cannot distinguish source-driven findings from artefacts of model configuration or researcher choice.
+- **Boundary:** Exact image-generation parameters do not map one-to-one onto a textual RAI pipeline, but the reproducibility principle transfers.
+- **Consequence:** The thesis should preserve corpus version, retrieval settings, model version and synthesis configuration alongside source provenance.
+- **Practice cross-check:** Treat release receipts and evidence-route metadata as part of the scholarly record of each computational experiment.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -142,6 +184,10 @@ They try to make generative heritage reconstruction historically defensible by c
 
 - **Boundary (1 sentence):** HARF concerns expert-guided visual reconstruction of a destroyed monument with measurable geometric and iconographic anchors, so its claims cannot establish the validity of textual historical inference across contested archival records.
 - **Risk if misused (1 sentence):** Treating HARF as direct validation of my system could collapse the difference between reconstructing a visual object towards measurable fidelity and interpreting plural, incomplete and sometimes contradictory documentary traces.
+
+# Cross-source / cross-lens synthesis
+
+HARF operationalises several concerns that recur across the Turin literature: Borůvková's distinction between evidence and reconstruction, Galindo-Durán et al.'s structured validation, Suchman's located accountability and Selyshcheva's source-critical demand for citation integrity. Its strongest contribution to DDR is architectural rather than visual: evidence sufficiency, explicit uncertainty, versioned paradata and expert review can be built into a generative workflow. That supports the thesis's bounded RAI model, while HARF's monument-reconstruction context remains an important limit on direct transfer.
 
 # Methods spine tags (tick what it actually touches)
 
