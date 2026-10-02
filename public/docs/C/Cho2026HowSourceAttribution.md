@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -46,7 +46,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -81,31 +81,73 @@ Source attribution should not be treated as a binary property that is either pre
 
 They try to determine how source-attribution layout affects the visual preconditions of verification by comparing discoverability, attention, perceived trust and user preference across four chatbot citation interfaces.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** The layout of source attribution materially changes whether and when users notice source cues.
-- **Evidence (quote/paraphrase + page):** The card-list format was discovered almost immediately, with a mean time to first fixation of 0.96 seconds, while raw hyperlinks were discovered last at 15.65 seconds; the overall layout effect on discoverability was statistically significant. `[@Cho2026HowSourceAttribution, pp. 16–18]` Figure 6 on p. 17 visualises the large differences in time to first fixation across layouts.
-- **Warrant (my words):** Provenance cannot support verification if users do not notice it. The spatial and visual organisation of source cues therefore forms part of the evidential architecture of the interface.
-- **So what for my thesis (a reusable sentence):** Evidential traceability depends not only on attaching sources to generated claims but on presenting those sources so that researchers can discover and inspect them during the normal reading flow.
-- **Practice cross-check:** Turin source integration: citations and source links should remain adjacent enough to the generated interpretation that a researcher does not have to leave the reading path or search a separate panel to establish provenance.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study measures the visual preconditions of verification in static simulated screens with 23 young, experienced AI users and does not test whether participants actually opened sources, detected incorrect citations or verified historical claims successfully.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Attention to sources does not automatically indicate successful verification or increased trust.
-- **Evidence (quote/paraphrase + page):** The side panel and card-list layouts attracted substantially more fixation time than the inline and hyperlink formats, but self-reported trust did not differ significantly across the four layouts. `[@Cho2026HowSourceAttribution, pp. 18–19, 24]` The authors report that neither discovery latency nor dwell time significantly tracked trust and describe this as an attention–preference dissociation. `[@Cho2026HowSourceAttribution, pp. 19, 27–28]`
-- **Warrant (my words):** Longer inspection can reflect friction, confusion or the effort required to map a source to its claim rather than deeper or more successful evidential engagement.
-- **So what for my thesis:** Interface evaluation should distinguish source visibility, source attention, claim–source mapping and successful verification rather than collapsing them into a single measure of transparency or trust.
-- **Practice cross-check:** Turin UAT should not treat citation clicks, dwell time or source-panel use as sufficient evidence that provenance works; the researcher must be able to identify what evidence supports which interpretative claim.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study measures the visual preconditions of verification in static simulated screens with 23 young, experienced AI users and does not test whether participants actually opened sources, detected incorrect citations or verified historical claims successfully.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study measures the visual preconditions of verification in static simulated screens with 23 young, experienced AI users and does not test whether participants actually opened sources, detected incorrect citations or verified historical claims successfully.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Users need pre-click source identity and explicit claim–source mapping if provenance is to function as a verification mechanism rather than a credibility badge.
-- **Evidence (quote/paraphrase + page):** In interviews, participants repeatedly requested visible source titles or institutional identities before clicking and explicit mapping between individual claims and source material. `[@Cho2026HowSourceAttribution, pp. 25–26]` The authors consequently propose three design principles: pre-click identification, sentence-level claim–source mapping and in situ source preview. `[@Cho2026HowSourceAttribution, pp. 29–32]`
-- **Warrant (my words):** A citation has limited evidential value if the user cannot tell what kind of source it is or which statement it supports. Semantic identity and claim-level linkage reduce the effort required to assess provenance.
-- **So what for my thesis:** Provenance should be designed as a claim-to-evidence relationship: the interface should identify the source, show which interpretation it supports and allow the underlying passage to be inspected without excessive navigation.
-- **Practice cross-check:** Turin citation design: generated claims should map to named DDR records and previewable source passages, while conflicting or insufficient evidence should remain visible rather than being hidden behind an undifferentiated citation list.
+## Claim 4
+- **Claim (plain):** Attribution layout changes how quickly users notice sources, even when the answer content is identical.
+- **Author claim:** Cho et al. find large differences in time-to-first-fixation across four source-attribution layouts.
+- **Evidence-supported claim:** Card-style source presentation is noticed much earlier than visually remote link-list layouts.
+- **Researcher inference:** DDR provenance can be technically present yet practically invisible if it is placed outside the user's normal reading path.
+- **Evidence (quote/paraphrase + page):** The eye-tracking study reports markedly faster source discovery for card-style attribution, with median first-fixation around 0.96 seconds versus 15.65 seconds for the link-list layout. `[@Cho2026HowSourceAttribution, pp. 16–18]`
+- **Warrant (my words):** Verification cannot occur before the user notices that evidence is available.
+- **Boundary:** The study uses static simulated chatbot screens and young experienced AI users; noticing is not the same as successful verification.
+- **Consequence:** The thesis should evaluate provenance discoverability as well as provenance availability.
+- **Practice cross-check:** Place evidence cues beside the claim they support and test whether users notice/open them during UAT.
+
+## Claim 5
+- **Claim (plain):** More visual attention to sources does not automatically produce greater perceived trust.
+- **Author claim:** The study observes strong gaze differences across layouts without a corresponding simple ranking of perceived trustworthiness.
+- **Evidence-supported claim:** Attention, discoverability and trust behave as distinct constructs rather than one causal chain.
+- **Researcher inference:** DDR should not design citations as persuasive trust badges; their purpose is verification and contestability.
+- **Evidence (quote/paraphrase + page):** Despite layout-driven differences in source attention and discovery, perceived trustworthiness did not simply track the amount of source gaze, leading the authors to separate attention from trust. `[@Cho2026HowSourceAttribution, pp. 18–19, 24]`
+- **Warrant (my words):** Users may attend to a source because it needs checking, while trust can also be inflated by mere citation presence.
+- **Boundary:** The experiment does not test whether sources are correct or whether participants successfully detect bad citations.
+- **Consequence:** The thesis should evaluate source-checking behaviour independently of self-reported trust.
+- **Practice cross-check:** Measure whether source inspection leads to correct acceptance/rejection of claims, not whether citation-rich layouts 'feel' more trustworthy.
+
+## Claim 6
+- **Claim (plain):** Verification-oriented attribution needs pre-click source identity, sentence-level claim–source mapping and in-situ preview.
+- **Author claim:** Cho et al. synthesise the eye-tracking and interview findings into a Notice–Attend–Map–Act pathway and three design principles.
+- **Evidence-supported claim:** Their two-stage architecture combines fast evidence cues in the answer with deeper detail on demand.
+- **Researcher inference:** DDR provenance should make the claim-to-trace relationship legible before requiring navigation into a document.
+- **Evidence (quote/paraphrase + page):** The authors propose three design principles—pre-click identifiability, sentence-level claim–source mapping and in-situ preview—within a two-stage attribution architecture. `[@Cho2026HowSourceAttribution, pp. 30–32]`
+- **Warrant (my words):** Users need to know what a source is and which claim it supports before deciding whether deeper verification is worth the effort.
+- **Boundary:** The proposed framework is derived from one laboratory eye-tracking study and remains to be tested in archival research.
+- **Consequence:** The thesis can justify source cards that reveal document identity, local claim binding and passage preview while retaining a route to the full archival object.
+- **Practice cross-check:** Map every citation marker to one claim and show minimal source identity plus preview without leaving the synthesis view.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -143,6 +185,10 @@ They try to determine how source-attribution layout affects the visual precondit
 
 - **Boundary (1 sentence):** The study measures the visual preconditions of verification in static simulated screens with 23 young, experienced AI users and does not test whether participants actually opened sources, detected incorrect citations or verified historical claims successfully.
 - **Risk if misused (1 sentence):** Treating the preferred or most-viewed layout as the most trustworthy design would reproduce the exact category error the paper warns against: gaze, preference, trust and successful verification are distinct outcomes.
+
+# Cross-source / cross-lens synthesis
+
+Cho et al. turn provenance from a back-end requirement into an interaction-design problem. Pan explains why interface position allocates authority; Carl demonstrates the value of source-text previews; Łajewska shows that explanations can alter trust choices. Cho adds the process-level distinction among noticing, attending, mapping and acting. For DDR, this supports provenance that is visible enough to invite checking but not styled as a trust badge: claim-to-source mapping should facilitate source criticism, not manufacture confidence.
 
 # Methods spine tags (tick what it actually touches)
 
