@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -48,7 +48,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -83,31 +83,73 @@ Summarisation cannot be treated as epistemically neutral compression. LLMs may m
 
 They try to quantify narrative overreach and its consequences by detecting causal language at scale and experimentally testing whether human readers and LLM summaries preserve, amplify or correct the inferential strength of source claims.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** LLM summarisation can introduce stronger causal claims than the source material supports.
-- **Evidence (quote/paraphrase + page):** Across model experiments, summaries frequently converted associational evidence into unhedged causal language. Under basic, simplified and practical prompts, models often produced more direct causal claims than appeared in the source abstracts; Fig. 6 shows explicit examples such as “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances”. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]`
-- **Warrant (my words):** The synthesis operation changes epistemic force. The model does not merely shorten the source; it can transform the relationship asserted by the source into a stronger proposition.
-- **So what for my thesis (a reusable sentence):** AI-mediated synthesis can alter the evidential status of a relationship during generation, making an inference appear more historically settled than the traces from which it was produced.
-- **Practice cross-check:** Turin: semantic proximity, co-occurrence or sequential appearance across DDR records must not be rendered automatically as influence, collaboration, responsibility or causation unless those stronger relationships are explicitly supported by the retrieved evidence.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Qualification and hedging are vulnerable to being lost during synthesis.
-- **Evidence (quote/paraphrase + page):** The authors find that conditional causal claims containing qualification are frequently transformed into unhedged causal statements in model-generated summaries. Figure 6 tracks the movement between descriptive, conditional and direct causal categories and shows conditional claims dropping substantially during ordinary summarisation. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]`
-- **Warrant (my words):** Hedges such as *may*, *suggests* or *is associated with* encode genuine limits on what evidence permits. Removing them changes the proposition rather than merely simplifying its wording.
-- **So what for my thesis:** Uncertainty language is evidential content: retrieval-augmented historical synthesis must preserve qualifications, contradiction and provisionality rather than smoothing them away in the pursuit of fluent narrative.
-- **Practice cross-check:** Turin answers should preserve distinctions such as “the record suggests”, “X recalls”, “these documents are associated”, and “the available corpus does not establish” rather than normalising them into declarative historical statements.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** More source context does not by itself prevent inferential overreach, whereas explicit caution materially changes model behaviour.
-- **Evidence (quote/paraphrase + page):** In the second LLM experiment, the authors found no significant difference in causal-language distributions between summaries generated from full texts and those generated from titles and abstracts across model–prompt configurations. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13]` By contrast, a prompt explicitly requesting methodological caution reduced unhedged causal language across the tested models, with a mean causal rate of about 5% in the careful condition. `[@Isch2026QuantifyingPrevalenceImpact, pp. 6–7]`
-- **Warrant (my words):** Retrieval breadth and inferential discipline are separate problems. Giving a model more evidence does not guarantee that it will represent the evidential relationship accurately; the synthesis procedure itself requires constraint.
-- **So what for my thesis:** Retrieval augmentation cannot be assumed to solve epistemic overreach: bounded inference requires explicit instructions and validation governing how retrieved evidence may be connected and expressed.
-- **Practice cross-check:** Turin: expanding top-k retrieval or including full source text should not be treated as sufficient protection against overinterpretation; inference rules, scoped missingness and provenance checks remain necessary after retrieval.
+## Claim 4
+- **Claim (plain):** Causal overreach is not an isolated wording error but a patterned feature of how correlational social-science findings are communicated.
+- **Author claim:** Isch et al. find substantial causal language in cross-sectional research and show that its prevalence increased markedly over time.
+- **Evidence-supported claim:** Their large-scale analysis reports causal language across disciplines and a strong rise in its prevalence by the 2020s.
+- **Researcher inference:** Archival AI should be evaluated for systematic strengthening of relations, not only for obviously fabricated facts.
+- **Evidence (quote/paraphrase + page):** Across the cross-sectional corpus, causal language remained around 20% for decades and then rose sharply, tripling by the 2020s across disciplines. `[@Isch2026QuantifyingPrevalenceImpact, p. 3]`
+- **Warrant (my words):** A recurring linguistic tendency can distort an evidence base even when every individual sentence appears plausible.
+- **Boundary:** The study concerns social-science causal language, not historical relations such as authorship, influence or responsibility.
+- **Consequence:** The DDR evaluation should include relation-strength tests that check whether association, chronology or recollection is being upgraded into causation or agency.
+- **Practice cross-check:** Flag shifts such as 'associated with' → 'caused', 'appears with' → 'worked on', or retrospective recollection → contemporary fact.
+
+## Claim 5
+- **Claim (plain):** Readers are influenced by causal framing even when the underlying design cannot support causal inference.
+- **Author claim:** The human experiment shows that language and methodological framing affect whether readers judge a cross-sectional study as providing causal evidence.
+- **Evidence-supported claim:** Rewriting causal language or adding methodological notes reduced causal interpretation, but none of the interventions eliminated it.
+- **Researcher inference:** Interface and wording choices in DDR outputs can change users' epistemic judgements independently of the underlying archive.
+- **Evidence (quote/paraphrase + page):** Participants' causal interpretations fell when abstracts were rewritten associationally or accompanied by methodological/AI feedback, yet causal framing persisted across conditions. `[@Isch2026QuantifyingPrevalenceImpact, pp. 4–6]`
+- **Warrant (my words):** Users infer evidential strength from linguistic presentation as well as from study/source design.
+- **Boundary:** The experiment uses scientific abstracts and causal-evidence judgements, not archival interfaces.
+- **Consequence:** DDR answers should preserve evidential qualifiers in the prose itself rather than relying on a separate limitations panel to correct an overconfident narrative.
+- **Practice cross-check:** Render source-status language ('the record suggests', 'later recollection', 'catalogue association') inside the claim sentence.
+
+## Claim 6
+- **Claim (plain):** Mitigating inferential overreach requires changing communication norms as well as model prompts.
+- **Author claim:** The authors argue that clearer journal guidance and enforcement are needed and note that LLMs can be both part of the problem and part of mitigation.
+- **Evidence-supported claim:** Their discussion frames narrative license as a systemic communication problem rather than a defect confined to one model or author.
+- **Researcher inference:** DDR safeguards should combine prompt constraints with interface, evaluation and writing conventions that preserve evidential status.
+- **Evidence (quote/paraphrase + page):** The discussion argues for clearer standards on permissible causal language and notes that causal interpretation reflects broader narrative and professional incentives, not only model behaviour. `[@Isch2026QuantifyingPrevalenceImpact, pp. 6–8]`
+- **Warrant (my words):** If overstatement is reinforced by communicative conventions, a single careful prompt cannot provide durable protection.
+- **Boundary:** The paper does not prescribe archival-specific governance or interface standards.
+- **Consequence:** The thesis should specify evidence-status language and UAT rules as system-level governance rather than as one-off prompt engineering.
+- **Practice cross-check:** Test outputs under multiple prompts/models against the same evidential rubric and reject overreach even when it is rhetorically attractive.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +186,10 @@ They try to quantify narrative overreach and its consequences by detecting causa
 
 - **Boundary (1 sentence):** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
 - **Risk if misused (1 sentence):** Generalising their results into a claim that all LLM synthesis necessarily distorts evidence would overstate the study, particularly because careful prompting substantially reduced overclaiming and model behaviour varied across systems.
+
+# Cross-source / cross-lens synthesis
+
+Isch et al. give a quantitative counterpart to Radharapu et al. and Bender et al.: fluent synthesis can change the epistemic force of source material without inventing a wholly new fact. Read with Portelli and Thomson, this is especially important for DDR because testimony, association and later recollection carry different evidential statuses that should survive synthesis. Retrieval therefore solves only access; bounded inference must also preserve qualifications and prevent relation-strength inflation.
 
 # Methods spine tags (tick what it actually touches)
 
