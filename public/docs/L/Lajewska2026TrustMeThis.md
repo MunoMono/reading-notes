@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -47,7 +47,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -82,31 +82,73 @@ Objective response quality does not translate automatically into perceived trust
 
 They try to test whether explanations can calibrate user trust by revealing differences in source attribution, statement-level grounding and information coverage between objectively higher- and lower-quality RAG responses.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Explanations can shift users towards more reliable RAG responses.
-- **Evidence (quote/paraphrase + page):** Across 300 comparisons, participants selected the reliable response as more trustworthy in 84 cases without explanations and 165 cases once explanations were shown. Explanations also shifted preference from the unreliable to the reliable response in 69 cases. `[@Lajewska2026TrustMeThis, p. 6]`
-- **Warrant (my words):** Making evidential quality visible changes user judgement. The support structure surrounding a generated response therefore affects whether users can distinguish a well-grounded answer from one that merely appears convincing.
-- **So what for my thesis (a reusable sentence):** Provenance and grounding cues can help researchers distinguish better-supported AI-mediated interpretations, making evidential visibility part of the research method rather than a cosmetic interface feature.
-- **Practice cross-check:** Turin citation architecture: generated answers expose linked archival passages beneath the synthesis so that users can judge support rather than relying solely on the fluency of the generated text.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study uses 21 Mechanical Turk workers, 30 TREC information-seeking queries and deliberately manipulated high- versus limited-quality responses, so its findings should not be assumed to transfer directly to expert historians evaluating contested archival interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Trust in a generated response is influenced by textual qualities that may compete with objective evidential quality.
-- **Evidence (quote/paraphrase + page):** The authors report that participants often preferred objectively limited-quality responses when those responses were clearer, more detailed or more actionable; concrete examples could also increase perceived trust regardless of factual quality. `[@Lajewska2026TrustMeThis, pp. 6–7]`
-- **Warrant (my words):** Fluency, specificity and usefulness act as trust cues independently of provenance. A weakly supported answer can therefore appear preferable because its rhetorical form makes it easier to understand or act upon.
-- **So what for my thesis:** Evidential traceability is necessary precisely because persuasive textual qualities can make an unsupported historical synthesis appear more authoritative than its sources warrant.
-- **Practice cross-check:** Turin: a fluent account connecting DDR actors or ideas should never be treated as stronger evidence than a less polished output that accurately preserves contradiction, uncertainty or missingness.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study uses 21 Mechanical Turk workers, 30 TREC information-seeking queries and deliberately manipulated high- versus limited-quality responses, so its findings should not be assumed to transfer directly to expert historians evaluating contested archival interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study uses 21 Mechanical Turk workers, 30 TREC information-seeking queries and deliberately manipulated high- versus limited-quality responses, so its findings should not be assumed to transfer directly to expert historians evaluating contested archival interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** The usefulness of provenance explanations depends on the task and on what the user already believes they know.
-- **Evidence (quote/paraphrase + page):** Source attribution influenced trust particularly in fact-based contexts, where participants valued the ability to verify claims, but was often dismissed for subjective questions. Users also relied on prior knowledge when assessing competing answers, sometimes disregarding explanations when they believed they already knew the topic. `[@Lajewska2026TrustMeThis, p. 7]`
-- **Warrant (my words):** Explanations are interpreted rather than mechanically consumed. Their epistemic effect depends on whether users consider verification relevant and whether their own prior knowledge overrides the evidential cues provided by the interface.
-- **So what for my thesis:** Provenance design should respond to the epistemic character of the research question: factual, attributional, interpretative and missingness queries may require different forms of explanation and different levels of evidential visibility.
-- **Practice cross-check:** Turin interface: factual questions may foreground exact source passages, while contested or interpretative questions should expose multiple traces, differing source types and evidential limits rather than presenting one citation as dispositive.
+## Claim 4
+- **Claim (plain):** Explanations can materially shift users from a less reliable response toward a more reliable one.
+- **Author claim:** Łajewska and Balog find that adding explanation cues changes pairwise trust judgements in favour of the deliberately higher-quality RAG response.
+- **Evidence-supported claim:** Reliable responses were preferred far more often after explanations were shown, with many individual judgements switching direction.
+- **Researcher inference:** DDR provenance and limitation explanations can improve epistemic choice if they make evidence quality legible.
+- **Evidence (quote/paraphrase + page):** Participants chose the reliable response as more trustworthy in 165/300 comparisons with explanations versus 84/300 without; 69/300 cases shifted from the unreliable to the reliable response after explanation. `[@Lajewska2026TrustMeThis, p. 6]`
+- **Warrant (my words):** Users can update trust when given information about source grounding and response quality.
+- **Boundary:** The study deliberately manipulates response quality and uses 21 crowd workers on TREC questions, not expert archival interpretation.
+- **Consequence:** The thesis should test whether evidence/status explanations help users distinguish supported from unsupported historical synthesis.
+- **Practice cross-check:** Use UAT pairs or seeded defects to test whether provenance cues lead users toward the better-supported DDR answer.
+
+## Claim 5
+- **Claim (plain):** Clarity and actionability can override objective response quality in users' trust judgements.
+- **Author claim:** The qualitative analysis finds that participants sometimes prefer a limited-quality response because it is clearer, more concrete or more actionable.
+- **Evidence-supported claim:** Specific examples and confident presentation can increase perceived usefulness even when factual/source quality is weaker.
+- **Researcher inference:** A polished DDR narrative may be preferred to a more cautious evidentially faithful one, creating pressure toward synthetic over-completion.
+- **Evidence (quote/paraphrase + page):** Participants sometimes favoured limited-quality responses because they offered practical named resources or clear examples, illustrating a tension between objective quality and perceived usability. `[@Lajewska2026TrustMeThis, p. 6]`
+- **Warrant (my words):** Human trust decisions combine evidential cues with rhetorical and usability cues.
+- **Boundary:** The study's 'objective quality' is experimentally constructed rather than historiographically contested.
+- **Consequence:** The thesis should not use user preference or readability as the primary validation of historical answers.
+- **Practice cross-check:** Score evidential status before prose quality and retain cautious wording even where a more confident answer is more attractive.
+
+## Claim 6
+- **Claim (plain):** The usefulness of source attribution depends on query type and user prior knowledge.
+- **Author claim:** The study finds source attribution especially influential for factual/technical questions but often ignored for subjective questions, while background knowledge also shapes trust decisions.
+- **Evidence-supported claim:** Users selectively attend to provenance according to whether they think the question requires external verification.
+- **Researcher inference:** DDR explanation design should match the epistemic character of the query rather than apply one generic citation/trust treatment.
+- **Evidence (quote/paraphrase + page):** Source attribution had its strongest positive effect in factual or technical contexts and was often dismissed in subjective queries; participants also relied on their own topic knowledge when accepting or ignoring explanations. `[@Lajewska2026TrustMeThis, pp. 2, 7]`
+- **Warrant (my words):** Verification needs vary with the kind of claim being made and the user's confidence in their own knowledge.
+- **Boundary:** Subjective information-seeking questions are not equivalent to contested historical interpretation, where sources remain important even when no single answer exists.
+- **Consequence:** DDR should distinguish factual attribution, interpretive plurality and scoped missingness while keeping provenance available in all three.
+- **Practice cross-check:** For interpretive queries, show sources not as proof of one 'correct' answer but as the trace basis for each competing reading.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +186,10 @@ They try to test whether explanations can calibrate user trust by revealing diff
 
 - **Boundary (1 sentence):** The study uses 21 Mechanical Turk workers, 30 TREC information-seeking queries and deliberately manipulated high- versus limited-quality responses, so its findings should not be assumed to transfer directly to expert historians evaluating contested archival interpretations.
 - **Risk if misused (1 sentence):** Treating the study as evidence that displaying sources automatically produces trustworthy judgement would ignore its central finding that clarity, actionability, query type and prior knowledge continue to shape trust even when explanations are present.
+
+# Cross-source / cross-lens synthesis
+
+Łajewska and Balog show that trust calibration is not solved by simply adding citations. Qian and Wexler show behavioural overreliance; Carl and Cho show how source attribution can support verification; Radharapu shows that contested tasks require plural outputs. The DDR design implication is therefore conditional: provenance must help users discriminate evidential quality without allowing clarity, confidence or citation presence to substitute for source criticism.
 
 # Methods spine tags (tick what it actually touches)
 
