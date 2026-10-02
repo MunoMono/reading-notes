@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 12:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -48,7 +48,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -83,31 +83,73 @@ Conventional summarisation assumes that preserving salient content is sufficient
 
 They try to distinguish synthesis from ordinary multi-document summarisation by testing whether generated summaries accurately track an aggregate property across potentially conflicting inputs and by introducing an inference-time generate–select–abstain procedure when ordinary decoding fails to do so.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Multi-document synthesis is not equivalent to producing a fluent summary of several documents; the output must respond appropriately to the collective composition of the evidence.
-- **Evidence (quote/paraphrase + page):** The authors define synthesis as aggregation of potentially conflicting information and argue that a valid summary should both align with the aggregate property represented by the inputs and change appropriately when that input composition changes. In their examples, a film meta-review should reflect the balance of positive and negative criticism, while a systematic-review narrative should reflect the balance of trial evidence. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1043–1045]`
-- **Warrant (my words):** A synthesis makes a claim about the relation among several inputs. Its validity therefore depends not merely on whether individual source content appears in the output but on whether the collective evidential pattern has been represented appropriately.
-- **So what for my thesis (a reusable sentence):** Retrieval of multiple archival traces does not itself constitute historical synthesis: the resulting interpretation must remain responsive to how those traces collectively support, qualify or contradict the relationship being proposed.
-- **Practice cross-check:** Turin Research Query / Comparative Views: several retrieved DDR documents mentioning the same actor or idea should not automatically be compressed into a consensus account; the synthesis must expose whether the traces corroborate, differ or remain insufficient to establish the requested relation.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Both experimental tasks possess an externally measurable aggregate target—review sentiment or meta-analytic treatment effect—whereas contested archival traces may not admit a meaningful average, consensus score or singular ground-truth synthesis.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Generated synthesis can be affected by irrelevant presentation order while remaining insufficiently responsive to substantive changes in the evidence.
-- **Evidence (quote/paraphrase + page):** When identical input documents were repeatedly permuted, generated summaries changed in the sentiment or treatment effect they communicated even though synthesis should have been invariant to ordering. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050]` Figure 3 on p. 1049 visualises this spread across models. Conversely, when the authors deliberately altered the ratio of positive and negative reviews or changed the trial set sufficiently to alter the meta-analytic conclusion, models were generally under-sensitive to the changed input composition. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1051]` Figure 5 on p. 1051 shows model outputs varying much less than the underlying review composition.
-- **Warrant (my words):** The generated narrative can therefore respond to accidental properties of how evidence is supplied while failing to respond proportionately to changes that should materially alter the synthesis. Fluency conceals this instability.
-- **So what for my thesis:** Historical synthesis should be tested for invariance to irrelevant ordering and sensitivity to material evidential change, because a stable-looking narrative may otherwise reflect input arrangement more strongly than the archival evidence itself.
-- **Practice cross-check:** Turin UAT: reorder retrieved DDR passages without changing the evidence set and test whether the substantive interpretation changes; then add or remove a materially contradictory trace and test whether the synthesis appropriately changes or preserves disagreement.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Both experimental tasks possess an externally measurable aggregate target—review sentiment or meta-analytic treatment effect—whereas contested archival traces may not admit a meaningful average, consensus score or singular ground-truth synthesis.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
+- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** Both experimental tasks possess an externally measurable aggregate target—review sentiment or meta-analytic treatment effect—whereas contested archival traces may not admit a meaningful average, consensus score or singular ground-truth synthesis.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Synthesis can be improved by making inference an explicit selection process and by allowing the system to abstain when no generated candidate adequately represents the evidence.
-- **Evidence (quote/paraphrase + page):** DeYoung et al. generate a diverse set of candidate summaries, estimate the relevant aggregate property of each and select the candidate that best matches the expected property derived from the inputs. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1052]` Figure 7 on p. 1052 makes the inference-time architecture explicit and includes the option to abstain when no suitable candidate is available. In the systematic-review experiments, this generate–select approach improves synthesis metrics while producing substantial abstention where no candidate matches the expected result. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1052–1054]`
-- **Warrant (my words):** The final synthesis need not be whatever text the model produces first. Generation can be subordinated to an explicit evidential criterion, and failure to satisfy that criterion can legitimately terminate synthesis.
-- **So what for my thesis:** Retrieval-augmented historical inference can treat non-completion as a valid methodological outcome: where generated interpretations fail to correspond to the available evidential structure, the system should expose the traces and preserve the unresolved state rather than select a fluent but unsupported narrative.
-- **Practice cross-check:** Turin scoped missingness: retrieval → candidate interpretation → evidence/provenance validation → accept, qualify or reject; where no interpretation is adequately warranted, return the evidential boundary and relevant sources rather than forcing generative completion.
+## Claim 4
+- **Claim (plain):** Human-written summaries align with aggregate evidence better than most tested model summaries.
+- **Author claim:** DeYoung et al. compare generated and human summaries against measurable aggregate targets in movie reviews and systematic reviews.
+- **Evidence-supported claim:** Human summaries show stronger alignment with aggregate sentiment and meta-analytic treatment-effect conclusions than most generated summaries, with GPT-4 performing comparatively well but still imperfectly.
+- **Researcher inference:** DDR should not assume that an LLM's ability to compress many documents implies reliable synthesis across them.
+- **Evidence (quote/paraphrase + page):** For movie reviews, human meta-reviews correlate more strongly with aggregate sentiment than most model outputs; for systematic reviews, human summaries more often match the meta-analytic result than model-generated summaries. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1049]`
+- **Warrant (my words):** Summarization quality and evidence aggregation are distinct capabilities.
+- **Boundary:** These tasks have measurable aggregate targets that contested archival interpretation often lacks.
+- **Consequence:** DDR evaluation should test whether synthesis tracks the balance and contradiction of retrieved evidence, not only whether the prose is relevant and readable.
+- **Practice cross-check:** Create UAT cases where evidence composition is deliberately changed and check whether the answer changes in the warranted direction.
+
+## Claim 5
+- **Claim (plain):** Standard text-overlap metrics do not directly measure whether a model has synthesised evidence correctly.
+- **Author claim:** The paper distinguishes synthesis targets from conventional summarization objectives such as ROUGE.
+- **Evidence-supported claim:** Its method introduces latent aggregate measures because n-gram overlap can reward textual similarity without establishing that the output reflects the balance of evidence.
+- **Researcher inference:** DDR answer evaluation cannot rely on lexical similarity or generic answer-quality metrics to judge historical synthesis.
+- **Evidence (quote/paraphrase + page):** The authors describe ROUGE as a standard but flawed summary-quality measure and introduce separate sentiment/treatment-effect measures to assess synthesis itself. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1043–1045]`
+- **Warrant (my words):** A metric must correspond to the epistemic property being evaluated.
+- **Boundary:** DDR lacks a universal numerical analogue of sentiment or meta-analytic treatment effect.
+- **Consequence:** The thesis needs evidence-specific UAT criteria—relevant traces, preserved status, ambiguity and limits—rather than a single generic generation score.
+- **Practice cross-check:** Keep retrieval metrics separate from human evaluation of whether the final historical claim is warranted.
+
+## Claim 6
+- **Claim (plain):** Improving synthesis creates trade-offs and abstention is a legitimate system behaviour.
+- **Author claim:** The authors' candidate-selection method improves alignment with aggregate targets but they warn that optimising one synthesis measure may harm other summary qualities and explicitly discuss abstention.
+- **Evidence-supported claim:** The conclusion presents synthesis robustness as an unresolved challenge and notes that systems may need to abstain when no candidate adequately represents the target.
+- **Researcher inference:** A DDR system should be allowed to withhold synthesis when available traces cannot support a stable or sufficiently evidenced answer.
+- **Evidence (quote/paraphrase + page):** The conclusion states that existing models synthesise only partially, remain sensitive to perturbations, and that optimisation for one measure can trade off against other qualities; it also identifies abstention as a useful design option. `[@DeYoung2024MultiDocumentSummarizationModels, p. 1056]`
+- **Warrant (my words):** Forcing an answer converts model availability into unwarranted epistemic completion.
+- **Boundary:** The paper's abstention criterion depends on measurable task targets and cannot define DDR insufficiency by itself.
+- **Consequence:** Scoped missingness should be treated as successful bounded behaviour, not as a failure to answer.
+- **Practice cross-check:** Return 'insufficient / conflicting evidence in the defined corpus' when no candidate claim satisfies the evidential packet.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -145,6 +187,10 @@ They try to distinguish synthesis from ordinary multi-document summarisation by 
 
 - **Boundary (1 sentence):** Both experimental tasks possess an externally measurable aggregate target—review sentiment or meta-analytic treatment effect—whereas contested archival traces may not admit a meaningful average, consensus score or singular ground-truth synthesis.
 - **Risk if misused (1 sentence):** Treating historical disagreement as an aggregation problem could erase asymmetry, chronology and positional difference by converting several situated archival voices into an artificial computational consensus.
+
+# Cross-source / cross-lens synthesis
+
+DeYoung et al. clarify the distinction between summarisation and synthesis that underpins the thesis's use of RAI. Their findings complement Asai et al.'s retrieval-grounded synthesis and Radharapu et al.'s warning about forced adjudication: evidence can be present yet still be aggregated badly, and fluent output can remain insensitive to meaningful changes in the source set. For DDR, this supports perturbation testing, explicit synthesis criteria and abstention/scoped missingness as part of the evaluation design.
 
 # Methods spine tags (tick what it actually touches)
 
