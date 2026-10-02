@@ -86,37 +86,37 @@ They try to quantify narrative overreach and its consequences by detecting causa
 # Six-claim evidence ledger
 
 ## Claim 1
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** LLM summarisation can introduce stronger causal claims than the source material supports.
+- **Author claim:** LLM summarisation can introduce stronger causal claims than the source material supports.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** Across model experiments, summaries frequently converted associational evidence into unhedged causal language. Under basic, simplified and practical prompts, models often produced more direct causal claims than appeared in the source abstracts; Fig. 6 shows explicit examples such as “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances”. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]`
+- **Warrant (my words):** The synthesis operation changes epistemic force. The model does not merely shorten the source; it can transform the relationship asserted by the source into a stronger proposition.
 - **Boundary:** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** AI-mediated synthesis can alter the evidential status of a relationship during generation, making an inference appear more historically settled than the traces from which it was produced.
+- **Practice cross-check:** Turin: semantic proximity, co-occurrence or sequential appearance across DDR records must not be rendered automatically as influence, collaboration, responsibility or causation unless those stronger relationships are explicitly supported by the retrieved evidence.
 
 ## Claim 2
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** Qualification and hedging are vulnerable to being lost during synthesis.
+- **Author claim:** Qualification and hedging are vulnerable to being lost during synthesis.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** The authors find that conditional causal claims containing qualification are frequently transformed into unhedged causal statements in model-generated summaries. Figure 6 tracks the movement between descriptive, conditional and direct causal categories and shows conditional claims dropping substantially during ordinary summarisation. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]`
+- **Warrant (my words):** Hedges such as *may*, *suggests* or *is associated with* encode genuine limits on what evidence permits. Removing them changes the proposition rather than merely simplifying its wording.
 - **Boundary:** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Uncertainty language is evidential content: retrieval-augmented historical synthesis must preserve qualifications, contradiction and provisionality rather than smoothing them away in the pursuit of fluent narrative.
+- **Practice cross-check:** Turin answers should preserve distinctions such as “the record suggests”, “X recalls”, “these documents are associated”, and “the available corpus does not establish” rather than normalising them into declarative historical statements.
 
 ## Claim 3
-- **Claim (plain):** 
-- **Author claim:** 
-- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not by itself establish the DDR-specific extension made below.
-- **Researcher inference:** I extend this source-specific finding to the DDR as a methodological proposition that must remain answerable to the archive rather than being treated as established by this source.
-- **Evidence (quote/paraphrase + page):** 
-- **Warrant (my words):** 
+- **Claim (plain):** More source context does not by itself prevent inferential overreach, whereas explicit caution materially changes model behaviour.
+- **Author claim:** More source context does not by itself prevent inferential overreach, whereas explicit caution materially changes model behaviour.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** In the second LLM experiment, the authors found no significant difference in causal-language distributions between summaries generated from full texts and those generated from titles and abstracts across model–prompt configurations. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13]` By contrast, a prompt explicitly requesting methodological caution reduced unhedged causal language across the tested models, with a mean causal rate of about 5% in the careful condition. `[@Isch2026QuantifyingPrevalenceImpact, pp. 6–7]`
+- **Warrant (my words):** Retrieval breadth and inferential discipline are separate problems. Giving a model more evidence does not guarantee that it will represent the evidential relationship accurately; the synthesis procedure itself requires constraint.
 - **Boundary:** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
-- **Consequence:** 
-- **Practice cross-check:** 
+- **Consequence:** Retrieval augmentation cannot be assumed to solve epistemic overreach: bounded inference requires explicit instructions and validation governing how retrieved evidence may be connected and expressed.
+- **Practice cross-check:** Turin: expanding top-k retrieval or including full source text should not be treated as sufficient protection against overinterpretation; inference rules, scoped missingness and provenance checks remain necessary after retrieval.
 
 ## Claim 4
 - **Claim (plain):** Causal overreach is not an isolated wording error but a patterned feature of how correlational social-science findings are communicated.
