@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Theoretical framework audit
 
-Generated: 2026-10-02T09:13:33+00:00
+Generated: 2026-10-02T09:15:17+00:00
 
 Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + intellectual lineage**, **b) Operational literature**, and **c) Contemporary bridge literature**. Placeholder folders **d) Z** and **e) ADD** are inventoried separately, in parity with the North Star. Zotero access is read-only; this audit does not rewrite notes.
 
@@ -8,8 +8,8 @@ Scoped to the active Zotero **Theoretical framework** clusters **a) Canon + inte
 
 | Status | Count |
 | --- | ---: |
-| COMPLIANT | 43 |
-| SECOND PASS REQUIRED | 6 |
+| COMPLIANT | 44 |
+| SECOND PASS REQUIRED | 5 |
 | FIRST PASS REQUIRED | 1 |
 | REVIEW MATCH | 0 |
 
@@ -89,7 +89,6 @@ These sources live only in placeholder folders **d) Z** or **e) ADD** and are no
 
 | Zotero path | Source | Year | Existing note | Why |
 | --- | --- | ---: | --- | --- |
-| Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks | 2025 | public/docs/R/RadharapuArbitersAmbivalenceChallenges.md | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Synthetic heritage: online platforms, deceptive genealogy and the ethics of algorithmically generated memory | 2024 | public/docs/N/NietoMcAvoy2024SyntheticHeritageOnline.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage | Located accountabilities in technology production | 2002 | public/docs/S/Suchman2002LocatedAccountabilities.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
 | Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature | AI, cultural heritage, and bias: some key queries that arise from the use of GenAI | 2024 | public/docs/F/Foka2024AICulturalHeritageBias.md | missing Zotero-parity framework metadata; missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
@@ -146,6 +145,7 @@ _None._
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | On the literary landscapes of vector embeddings | 2025 | public/docs/R/Rockmore2025LiteraryLandscapesVector.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / b) Operational literature | UMAP: uniform manifold approximation and projection for dimension reduction | 2020 | public/docs/M/McInnesUMAPUniformManifold.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | A systematic review of fairness, accountability, transparency, and ethics in information retrieval | 2025 | public/docs/B/Bernard2025SystematicReviewFairness.md | meets current structural and completeness checks |
+| Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Arbiters of ambivalence: challenges of using LLMs in no-consensus tasks | 2025 | public/docs/R/RadharapuArbitersAmbivalenceChallenges.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Archives and AI: an overview of current debates and future perspectives | 2022 | public/docs/C/Colavizza2022ArchivesAIOverview.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Digital history and the politics of digitization | 2023 | public/docs/Z/Zaagsma2023DigitalHistoryPolitics.md | meets current structural and completeness checks |
 | Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature | Generative AI as a historical source: source criticism, citation integrity, and the jagged frontier of digital history | 2026 | public/docs/S/Selyshcheva2026GenerativeAIHistorical.md | meets current structural and completeness checks |
