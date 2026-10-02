@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sep 2026, 00:00"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "15 Sep 2026, 00:00"
 north_star_sha1: "placeholder"
@@ -48,7 +48,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -83,31 +83,73 @@ The paper challenges the assumption that adding explanations or chain-of-thought
 
 They replace model-internal post-retrieval reasoning with an explicit argument graph in which retrieved evidence supports or attacks a claim and deterministic inference computes the resulting strength while allowing users to inspect and contest the structure.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
 - **Claim (plain):** Retrieved evidence can be noisy or contradictory, and simply placing that evidence in an LLM context can make RAG less reliable rather than more reliable.
+- **Author claim:** Retrieved evidence can be noisy or contradictory, and simply placing that evidence in an LLM context can make RAG less reliable rather than more reliable.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** Zhu et al. argue that retrievers optimise primarily for lexical or semantic relevance rather than factual consistency and can therefore return irrelevant or contradictory passages that mislead generation. `[@zhuArgRAGExplainableRetrieval2025, pp. 1–2]` In their experiments, every conventional RAG baseline performed worse than the corresponding no-retrieval baseline on PubHealth and RAGuard, whereas ArgRAG was the only retrieval-based method to outperform no-retrieval across all tested settings. `[@zhuArgRAGExplainableRetrieval2025, pp. 8–9]`
 - **Warrant (my words):** Retrieval adds evidence, not correctness. When retrieved traces conflict or contain noise, the reasoning stage must distinguish their roles rather than assuming that more context automatically produces a better answer.
-- **So what for my thesis (a reusable sentence):** Retrieval should be treated as the acquisition of an evidential field rather than the completion of historical inquiry, because relevant, contradictory and misleading traces may coexist within the same retrieved context.
+- **Boundary:** ArgRAG is evaluated as binary fact verification on PubHealth and RAGuard, and its current relation vocabulary reduces each retrieved chunk to a single support, attack or irrelevant argument, whereas archival traces may contain several internally conflicting propositions and support multiple historically situated interpretations.
+- **Consequence:** Retrieval should be treated as the acquisition of an evidential field rather than the completion of historical inquiry, because relevant, contradictory and misleading traces may coexist within the same retrieved context.
 - **Practice cross-check:** Turin Research Query: retrieved DDR passages should be typed as supporting, qualifying, contradictory, irrelevant or insufficient before they are permitted to contribute to historical synthesis.
 
 ## Claim 2
-
 - **Claim (plain):** Post-retrieval reasoning can be externalised into an inspectable structure rather than remaining embedded within autoregressive generation.
+- **Author claim:** Post-retrieval reasoning can be externalised into an inspectable structure rather than remaining embedded within autoregressive generation.
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
 - **Evidence (quote/paraphrase + page):** ArgRAG uses an LLM to classify claim–evidence and evidence–evidence relations as support, contradiction or irrelevance, then represents the remaining material as a QBAF and computes final argument strengths using deterministic gradual semantics. `[@zhuArgRAGExplainableRetrieval2025, pp. 2, 4–6]` Figure 1 on p. 2 makes the distinction visible: retrieval is followed by QBAF construction, score calculation and prediction rather than direct answer generation. The authors explicitly contrast this with generated explanations that may merely rationalise an opaque decision. `[@zhuArgRAGExplainableRetrieval2025, p. 5]`
 - **Warrant (my words):** The relation between evidence and outcome becomes an inspectable computational object. A researcher can see which passages support or attack the claim and how their interactions affect the resulting judgement.
-- **So what for my thesis:** Retrieval-augmented inference can make the structure of an interpretation externally legible by separating retrieved traces from the relations inferred between them and from the subsequent reasoning performed over those relations.
+- **Boundary:** ArgRAG is evaluated as binary fact verification on PubHealth and RAGuard, and its current relation vocabulary reduces each retrieved chunk to a single support, attack or irrelevant argument, whereas archival traces may contain several internally conflicting propositions and support multiple historically situated interpretations.
+- **Consequence:** Retrieval-augmented inference can make the structure of an interpretation externally legible by separating retrieved traces from the relations inferred between them and from the subsequent reasoning performed over those relations.
 - **Practice cross-check:** Turin Comparative Views / Critical Inquiry: retrieved traces → explicit relation type → supporting and conflicting evidence → bounded synthesis or unresolved state, with the evidence structure visible to the researcher.
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** ArgRAG is evaluated as binary fact verification on PubHealth and RAGuard, and its current relation vocabulary reduces each retrieved chunk to a single support, attack or irrelevant argument, whereas archival traces may contain several internally conflicting propositions and support multiple historically situated interpretations.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** Contestability requires users to be able to alter assumptions about evidence and observe how the inference changes.
-- **Evidence (quote/paraphrase + page):** ArgRAG allows users to contest either an argument's base score or its polarity as supporting, attacking or neutral; the framework then recomputes the outcome. `[@zhuArgRAGExplainableRetrieval2025, pp. 5–7]` The authors demonstrate that changing the assumed strengths of two evidence items can move the claim strength from acceptance to 0.46 and therefore reverse the decision. `[@zhuArgRAGExplainableRetrieval2025, p. 7]` Their ablation study further shows that modelling evidence–evidence relations improves accuracy, particularly where conflicting evidence is present. `[@zhuArgRAGExplainableRetrieval2025, p. 9]`
-- **Warrant (my words):** An explanation becomes contestable when the user can challenge how evidence has been characterised and see the consequences of that challenge rather than merely receiving a narrative justification after the fact.
-- **So what for my thesis:** An archive-facing inference system should allow researchers to interrogate and revise computationally proposed relationships between traces, preserving interpretative authority with the researcher rather than freezing model classifications into an authoritative result.
-- **Practice cross-check:** Turin Semantic Atlas / Critical Inquiry: permit the researcher to inspect why records are being treated as related, conflicting or irrelevant and to compare alternative readings without silently overwriting the underlying archival evidence.
+## Claim 4
+- **Claim (plain):** Noisy retrieval can make ordinary RAG worse than using no retrieved evidence at all.
+- **Author claim:** Zhu et al. find that all tested baseline RAG variants underperform a no-retrieval baseline on their fact-verification benchmarks.
+- **Evidence-supported claim:** The result is attributed to LLM sensitivity to irrelevant and contradictory retrieved material; ArgRAG is the only RAG-based approach that exceeds no-retrieval performance across all tested settings.
+- **Researcher inference:** For DDR, increasing the amount of retrieved archival material can reduce answer quality when the evidence packet contains unrelated or conflicting traces that the synthesis model cannot discriminate.
+- **Evidence (quote/paraphrase + page):** Across PubHealth and RAGuard, all baseline RAG methods perform worse than the no-retrieval baseline, whereas ArgRAG achieves the highest accuracy and is the only RAG-based method to outperform no retrieval across all settings. `[@Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration, p. 8]`
+- **Warrant (my words):** Retrieval improves access but also introduces new opportunities for contradiction and distraction.
+- **Boundary:** The benchmarks are binary fact verification tasks and do not model open-ended historical interpretation.
+- **Consequence:** The thesis should evaluate evidence-packet quality and contradiction handling rather than assume that higher top-k retrieval is inherently safer.
+- **Practice cross-check:** Test DDR questions with deliberately noisy/contradictory additions and verify that unsupported traces do not strengthen the final claim.
+
+## Claim 5
+- **Claim (plain):** Relations among evidence items matter, and retriever confidence is not a reliable proxy for evidential trustworthiness.
+- **Author claim:** The ArgRAG ablation finds that modelling evidence–evidence relations improves performance and that uniform base scores outperform retriever-score initialization.
+- **Evidence-supported claim:** The full argument graph performs better than claim–evidence relations alone, especially on the contradiction-rich RAGuard benchmark.
+- **Researcher inference:** DDR retrieval scores should be treated as discovery signals, while evidential status must be established through provenance, source type and relational scrutiny.
+- **Evidence (quote/paraphrase + page):** The FULL graph outperforms claim–evidence-only reasoning, and initializing argument strength from retriever scores performs worse than uniform initialization, indicating that retriever confidence may not align with relevance or trustworthiness. `[@Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration, p. 9]`
+- **Warrant (my words):** Similarity is a retrieval property; historical warrant depends on what sources assert and how those assertions relate.
+- **Boundary:** ArgRAG's support/attack relations are much simpler than the temporal and documentary relations in DDR.
+- **Consequence:** The thesis should not translate embedding similarity or rank directly into evidence weight.
+- **Practice cross-check:** Display semantic similarity separately from archival provenance and claim support.
+
+## Claim 6
+- **Claim (plain):** Argumentative reasoning remains lossy when a whole retrieved chunk is treated as one argument.
+- **Author claim:** The authors acknowledge that one chunk may contain multiple or contradictory arguments and identify finer-grained argument mining as future work.
+- **Evidence-supported claim:** Their discussion also notes unresolved conflicts between model-internal and external knowledge.
+- **Researcher inference:** DDR evidence cards should avoid assigning one undifferentiated stance to a complex archival passage when different sentences have different evidential roles.
+- **Evidence (quote/paraphrase + page):** The conclusion states that ArgRAG currently treats each retrieved chunk as a single argument even though a passage may contain multiple, contradictory arguments, and proposes finer-grained extraction in future work. `[@Zhu2025ArgRAGExplainableRetrievalAugmentedGeneration, p. 10]`
+- **Warrant (my words):** Chunk-level labels can flatten internal ambiguity just as document-level summaries can.
+- **Boundary:** The paper does not implement the finer-grained solution it proposes.
+- **Consequence:** Claim construction in DDR should bind specific passages to specific claims rather than use document-level 'support' as a blanket status.
+- **Practice cross-check:** Split multi-proposition passages into separate evidence cards when they support, qualify and contradict different claims.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -146,6 +188,10 @@ They replace model-internal post-retrieval reasoning with an explicit argument g
 
 - **Boundary (1 sentence):** ArgRAG is evaluated as binary fact verification on PubHealth and RAGuard, and its current relation vocabulary reduces each retrieved chunk to a single support, attack or irrelevant argument, whereas archival traces may contain several internally conflicting propositions and support multiple historically situated interpretations.
 - **Risk if misused (1 sentence):** Translating contested archival evidence directly into numeric strengths and a single computed verdict could replace opaque generative authority with overly formal symbolic authority, giving an appearance of precision to relations that remain interpretative and historically contingent.
+
+# Cross-source / cross-lens synthesis
+
+Zhu et al. provide a concrete computational counterpart to the archival principle that evidence relations matter more than retrieval presence alone. Bernard and Balog show that ranking allocates visibility; Radharapu et al. show that adjudication can collapse disagreement; DeYoung et al. show that multi-source synthesis can mishandle composition. ArgRAG adds an inspectable support/attack layer, but its binary fact-verification ontology remains too coarse for DDR. The thesis can therefore borrow the principles of explicit relation typing and contestability without treating QBAF scores as historical truth.
 
 # Methods spine tags (tick what it actually touches)
 
