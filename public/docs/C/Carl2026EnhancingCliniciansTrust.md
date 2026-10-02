@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "02 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -44,7 +44,7 @@ constraints_source: "project/constraints.md"---
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
+- Substantive source → at least 6 critical claims with explicit voice separation
 - Each claim must include a practice cross-check (or TODO)
 - No antithesis lists: write Boundary + Risk
 - If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
@@ -79,31 +79,73 @@ Much explainable-AI research attempts to make model reasoning intelligible. Carl
 
 They try to improve the trustworthiness of LLM-supported clinical recommendations by coupling retrieval-augmented generation with inline citations and previewable source passages so that clinicians can directly inspect the evidence underlying generated claims.
 
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Provenance can be made a direct user-facing property of a generated answer rather than an invisible backend function.
-- **Evidence (quote/paraphrase + page):** UroBot links inline references directly to “source text previews” showing the original retrieved guideline segment used to produce the answer, allowing clinicians to verify and cross-check the generated information against the source material. `[@Carl2026EnhancingCliniciansTrust, p. 2]` Figure 1 demonstrates the interaction visually: a citation embedded in the answer expands to reveal the corresponding guideline text and recommendation evidence.
-- **Warrant (my words):** Provenance becomes actionable when the user can move immediately from a generated claim to the evidential passage associated with it. A bibliography or generic source label offers weaker scrutiny because the user must independently locate the supporting material.
-- **So what for my thesis (a reusable sentence):** Evidential provenance is most useful when it operates as an interaction: the researcher should be able to move directly from an AI-mediated interpretation to the archival trace on which that interpretation depends.
-- **Practice cross-check:** Turin citation system: generated claims include hyperlinks to the underlying DDR source passages, allowing the researcher to reopen and inspect the evidence rather than accepting a citation label at face value.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study evaluates clinical recommendations against a curated contemporary guideline corpus in which correctness can be judged against an authoritative standard, whereas historical interpretation of DDR traces may remain plural, incomplete and contested.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 2
-
-- **Claim (plain):** Specific, directly inspectable source attribution substantially improves users’ ability to verify generated outputs.
-- **Evidence (quote/paraphrase + page):** In the blinded reader study, 84% of UroBot outputs were rated fully verifiable compared with 35% for ChatGPT, while full source attribution was 74% versus 30%. `[@Carl2026EnhancingCliniciansTrust, pp. 3–4]` The qualitative analysis found that 28% of ChatGPT's source attributions were non-existent and 83% of its valid citations lacked a specific section, whereas UroBot consistently linked recommendations to specific source segments. `[@Carl2026EnhancingCliniciansTrust, pp. 4–5]`
-- **Warrant (my words):** Citation presence and citation quality are different properties. A source name can create an appearance of authority while leaving the user unable to establish whether the cited material actually supports the generated statement.
-- **So what for my thesis:** Traceability requires passage-level evidence, not merely bibliographic citation: a generated historical claim should be inspectable against the specific archival material from which it was inferred.
-- **Practice cross-check:** Turin answers link citations to retrieved passages beneath the answer rather than citing only document-level metadata; this permits quotation-level checking against the source.
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study evaluates clinical recommendations against a curated contemporary guideline corpus in which correctness can be judged against an authoritative standard, whereas historical interpretation of DDR traces may remain plural, incomplete and contested.
+- **Consequence:** 
+- **Practice cross-check:** 
 
 ## Claim 3
+- **Claim (plain):** 
+- **Author claim:** 
+- **Evidence-supported claim:** The cited material supports this claim at the stated scope and pages; it does not itself establish the DDR-specific extension below.
+- **Researcher inference:** I extend this source-specific finding to DDR as a methodological proposition that must remain answerable to the archive.
+- **Evidence (quote/paraphrase + page):** 
+- **Warrant (my words):** 
+- **Boundary:** The study evaluates clinical recommendations against a curated contemporary guideline corpus in which correctness can be judged against an authoritative standard, whereas historical interpretation of DDR traces may remain plural, incomplete and contested.
+- **Consequence:** 
+- **Practice cross-check:** 
 
-- **Claim (plain):** External verification provides a practical alternative to claims that opaque model reasoning itself has been explained.
-- **Evidence (quote/paraphrase + page):** Carl et al. acknowledge that LLM reasoning remains fundamentally opaque and state that their approach shifts the emphasis from interpreting internal model dynamics towards “external verification through traceable references”. `[@Carl2026EnhancingCliniciansTrust, p. 5]` Clinicians significantly preferred UroBot for source verifiability and trust, while no corresponding advantage occurred for basic summarisation. `[@Carl2026EnhancingCliniciansTrust, pp. 4–5]`
-- **Warrant (my words):** The epistemically important interface question is not necessarily whether the model can narrate its own reasoning, but whether the user can independently inspect the evidence associated with the resulting claim.
-- **So what for my thesis:** For archival research, accountable AI need not promise access to an LLM's internal reasoning; it can instead expose the evidential route from retrieved trace to generated interpretation so that the researcher retains responsibility for judgement.
-- **Practice cross-check:** Turin does not present chain-of-thought as historical explanation. Its citations, source previews and provenance metadata allow the researcher to inspect the documentary basis of the answer independently of the model's internal generation process.
+## Claim 4
+- **Claim (plain):** Source-grounded RAG can improve both recommendation correctness and users' ability to verify evidence.
+- **Author claim:** Carl et al. find that their guideline-grounded UroBot outperforms ChatGPT on recommendation correctness, source attribution and source verifiability.
+- **Evidence-supported claim:** The randomized clinician evaluation reports substantial differences across all three measures and stronger preference for the source-grounded system.
+- **Researcher inference:** For DDR, source attribution should be evaluated not as decoration but by whether it helps users verify claims against the underlying archive.
+- **Evidence (quote/paraphrase + page):** UroBot achieved 73% recommendation correctness versus 50% for ChatGPT, 74% versus 30% for source attribution, and 84% versus 35% for source verifiability. `[@Carl2026EnhancingCliniciansTrust, p. 1]`
+- **Warrant (my words):** Retrieval and precise provenance can improve both content quality and the practical auditability of generated output.
+- **Boundary:** The system uses a curated authoritative contemporary guideline corpus with objectively assessable clinical recommendations, unlike contested historical evidence.
+- **Consequence:** The thesis should treat verifiability as a first-class outcome alongside answer quality.
+- **Practice cross-check:** UAT should check whether each substantive DDR claim opens to the exact supporting passage and correct document metadata.
+
+## Claim 5
+- **Claim (plain):** Inline references are more useful when they expose the original source text rather than merely naming a source.
+- **Author claim:** UroBot links inline citations to expandable previews of the retrieved guideline text, evidence summaries and recommendation levels.
+- **Evidence-supported claim:** The interface lets clinicians reassess the original material used to generate an answer, enabling direct cross-validation.
+- **Researcher inference:** DDR citations should minimise the effort required to move from synthesis back to the testamentary trace.
+- **Evidence (quote/paraphrase + page):** The RAG interface provides inline references directly linked to source-text previews so users can inspect the original retrieved content and cross-validate the answer. `[@Carl2026EnhancingCliniciansTrust, pp. 2–3]`
+- **Warrant (my words):** A citation label signals provenance; a source preview supports verification.
+- **Boundary:** The study does not isolate source-preview effects from other differences between UroBot and ChatGPT.
+- **Consequence:** The DDR interface should surface passage-level evidence in situ rather than requiring users to navigate away to discover what a citation actually supports.
+- **Practice cross-check:** Use evidence cards/previews with passage, PID, document title and source status adjacent to generated claims.
+
+## Claim 6
+- **Claim (plain):** Citation presence is insufficient when references are vague, outdated or non-existent.
+- **Author claim:** The qualitative analysis identifies citation-quality failures in ChatGPT responses despite the appearance of sourcing.
+- **Evidence-supported claim:** A substantial share of ChatGPT citations were non-existent or outdated and most lacked section-level specificity, whereas UroBot aligned references to guideline subsection/page.
+- **Researcher inference:** DDR provenance quality must be tested for binding correctness, not inferred from the presence of citation markers.
+- **Evidence (quote/paraphrase + page):** The study reports that 28% of ChatGPT citations were non-existent or outdated and 83% lacked specific sections, while UroBot achieved complete guideline subsection/page alignment. `[@Carl2026EnhancingCliniciansTrust, pp. 1, 4–5]`
+- **Warrant (my words):** False precision in citation presentation can increase apparent trustworthiness while weakening actual auditability.
+- **Boundary:** Clinical guidelines provide stable section/page anchors that heterogeneous archival documents may not always possess.
+- **Consequence:** The thesis should distinguish citation formatting from citation integrity and provenance binding.
+- **Practice cross-check:** Regression-test that every rendered citation maps to a source actually used by the supported claim and never to an unused evidence card.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -141,6 +183,10 @@ They try to improve the trustworthiness of LLM-supported clinical recommendation
 
 - **Boundary (1 sentence):** The study evaluates clinical recommendations against a curated contemporary guideline corpus in which correctness can be judged against an authoritative standard, whereas historical interpretation of DDR traces may remain plural, incomplete and contested.
 - **Risk if misused (1 sentence):** Treating increased clinician trust as proof that visible citations make an AI output trustworthy would conflate perceived trust, evidential verifiability and historical validity; moreover, the intervention bundles RAG, curated retrieval, inline citation and source preview, so their individual causal effects are not isolated.
+
+# Cross-source / cross-lens synthesis
+
+Carl et al. provide strong empirical support for the interface layer already motivated by archival theory. Duranti and Bearman make provenance foundational; Asai makes source-grounded synthesis computationally relevant; Cho and Łajewska examine how attribution is perceived by users. Carl et al. show that source text previews can make verification operational. The transfer to DDR is therefore specific: citations must bind to exact traces and permit return to them, while the medical study's single authoritative corpus warns against overclaiming equivalent 'correctness' for contested historical interpretation.
 
 # Methods spine tags (tick what it actually touches)
 
