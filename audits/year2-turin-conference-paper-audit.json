@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:06:35+00:00",
+  "generated_at": "2026-10-02T10:08:40+00:00",
   "scope": {
     "root_collection_name": "Turin conference paper",
     "root_collection_key": "KY66I3S8",
@@ -3515,104 +3515,58 @@
       ],
       "audit": {
         "compliant": false,
-        "complete_claims": 0,
+        "complete_claims": 3,
         "claim_checks": {
           "1": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "2": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "3": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "4": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "5": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "6": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           }
         },
-        "synthesis_complete": false,
+        "synthesis_complete": true,
         "required_markers": {
           "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
           "chicago_payload": true
         },
         "reasons": [
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
+          "only 3/6 claims pass completeness check"
         ]
       },
       "overlaps_theoretical_framework": false
@@ -3658,104 +3612,58 @@
       ],
       "audit": {
         "compliant": false,
-        "complete_claims": 0,
+        "complete_claims": 3,
         "claim_checks": {
           "1": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "2": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "3": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "4": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "5": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "6": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           }
         },
-        "synthesis_complete": false,
+        "synthesis_complete": true,
         "required_markers": {
           "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
           "chicago_payload": true
         },
         "reasons": [
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
+          "only 3/6 claims pass completeness check"
         ]
       },
       "overlaps_theoretical_framework": false
@@ -3804,104 +3712,58 @@
       ],
       "audit": {
         "compliant": false,
-        "complete_claims": 0,
+        "complete_claims": 3,
         "claim_checks": {
           "1": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "2": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "3": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "4": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "5": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "6": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           }
         },
-        "synthesis_complete": false,
+        "synthesis_complete": true,
         "required_markers": {
           "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
           "chicago_payload": true
         },
         "reasons": [
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
+          "only 3/6 claims pass completeness check"
         ]
       },
       "overlaps_theoretical_framework": false
@@ -4115,104 +3977,58 @@
       ],
       "audit": {
         "compliant": false,
-        "complete_claims": 0,
+        "complete_claims": 3,
         "claim_checks": {
           "1": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "2": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "3": {
             "present": true,
             "complete": false,
             "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Consequence",
-              "Evidence-supported claim",
-              "Researcher inference"
+              "Practice cross-check",
+              "page reference or TODO"
             ]
           },
           "4": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "5": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           },
           "6": {
-            "present": false,
-            "complete": false,
-            "missing_or_placeholder": [
-              "Author claim",
-              "Boundary",
-              "Claim (plain)",
-              "Consequence",
-              "Evidence (quote/paraphrase + page)",
-              "Evidence-supported claim",
-              "Practice cross-check",
-              "Researcher inference",
-              "Warrant (my words)",
-              "page reference or TODO"
-            ]
+            "present": true,
+            "complete": true,
+            "missing_or_placeholder": []
           }
         },
-        "synthesis_complete": false,
+        "synthesis_complete": true,
         "required_markers": {
           "thesis_job": true,
-          "six_claim_ledger": false,
-          "voice_separation": false,
-          "synthesis_section": false,
+          "six_claim_ledger": true,
+          "voice_separation": true,
+          "synthesis_section": true,
           "chicago_payload": true
         },
         "reasons": [
-          "missing structure: six_claim_ledger",
-          "missing structure: voice_separation",
-          "missing structure: synthesis_section",
-          "only 0/6 claims pass completeness check",
-          "final synthesis is missing, placeholder, or TODO"
+          "only 3/6 claims pass completeness check"
         ]
       },
       "overlaps_theoretical_framework": false

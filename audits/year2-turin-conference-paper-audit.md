@@ -1,6 +1,6 @@
 # Year 2 Critical Literature Pass — Turin conference paper audit
 
-Generated: 2026-10-02T10:06:35+00:00
+Generated: 2026-10-02T10:08:40+00:00
 
 Scoped to the complete Zotero **Turin conference paper** collection tree. Duplicate/cross-listed sources are matched to one canonical GitHub reading note; a newer theoretical-framework note therefore remains the canonical note rather than being overwritten by an older Turin version.
 
@@ -53,10 +53,10 @@ Scoped to the complete Zotero **Turin conference paper** collection tree. Duplic
 | Turin conference paper / 10 Conversational AI and completion norms | Addressing trust requirements in the design of an open-source multi-agent LLM-based domain-specific chatbot | 2026 | public/docs/A/Axetorn2026AddressingTrustRequirements.md | no | only 3/6 claims pass completeness check |
 | Turin conference paper / 10 Conversational AI and completion norms | LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena | 2025 | public/docs/P/PaschLLMContentModeration.md | no | only 3/6 claims pass completeness check |
 | Turin conference paper / 10 Conversational AI and completion norms | Mental models and expectation violations in conversational AI interactions | 2021 | public/docs/G/Grimes2021MentalModelsExpectation.md | no | only 3/6 claims pass completeness check |
-| Turin conference paper / 11 Uncertainty and provenance display in interfaces | Enhancing clinicians’ trust in large language models via transparent source attribution: a randomized controlled evaluation in uro-oncology | 2026 | public/docs/C/Carl2026EnhancingCliniciansTrust.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Turin conference paper / 11 Uncertainty and provenance display in interfaces | How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts | 2026 | public/docs/C/Cho2026HowSourceAttribution.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Turin conference paper / 11 Uncertainty and provenance display in interfaces | Trust me on this: a user study of trustworthiness for RAG responses | 2026 | public/docs/L/Lajewska2026TrustMeThis.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
-| Turin conference paper / 12 Digitisation, reconstruction and archival completion | Ethical aspects of digital reconstruction of the historical cultural heritage | 2025 | public/docs/B/Boruvkova2025EthicalAspectsDigital.md | no | missing structure: six_claim_ledger; missing structure: voice_separation; missing structure: synthesis_section; only 0/6 claims pass completeness check; final synthesis is missing, placeholder, or TODO |
+| Turin conference paper / 11 Uncertainty and provenance display in interfaces | Enhancing clinicians’ trust in large language models via transparent source attribution: a randomized controlled evaluation in uro-oncology | 2026 | public/docs/C/Carl2026EnhancingCliniciansTrust.md | no | only 3/6 claims pass completeness check |
+| Turin conference paper / 11 Uncertainty and provenance display in interfaces | How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts | 2026 | public/docs/C/Cho2026HowSourceAttribution.md | no | only 3/6 claims pass completeness check |
+| Turin conference paper / 11 Uncertainty and provenance display in interfaces | Trust me on this: a user study of trustworthiness for RAG responses | 2026 | public/docs/L/Lajewska2026TrustMeThis.md | no | only 3/6 claims pass completeness check |
+| Turin conference paper / 12 Digitisation, reconstruction and archival completion | Ethical aspects of digital reconstruction of the historical cultural heritage | 2025 | public/docs/B/Boruvkova2025EthicalAspectsDigital.md | no | only 3/6 claims pass completeness check |
 
 ## FIRST PASS REQUIRED
 
