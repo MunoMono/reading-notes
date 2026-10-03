@@ -54,11 +54,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -78,68 +82,26 @@ Pasch analyses nearly 50,000 Chatbot Arena comparisons to distinguish ethical re
 
 They quantify how refusal type and presentation affect user preference, showing that outright non-completion and qualified boundary-setting are received differently. [@PaschLLMContentModeration, pp. 16–23]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Users strongly penalise outright refusals relative to normal responses.
-- **Author claim:** Refusals receive much lower pairwise preference rates.
-- **Evidence-supported claim:** Normal responses won far more often than ethical or technical refusals across the Arena dataset. [@PaschLLMContentModeration, pp. 16–18]
-- **Researcher inference:** A DDR evidential limit should not be presented as an unexplained dead end.
-- **Warrant:** Conversational interaction carries a strong expectation of continued assistance.
-- **Boundary:** These refusals concern safety and general capability, not archival warrant.
-- **Consequence:** Missingness should still return useful evidence and explanation.
-- **Practice cross-check:** Turin returns nearest relevant traces with the limit statement.
 
+**Claim.** Users strongly penalise outright refusals relative to normal responses. **Author claim.** Refusals receive much lower pairwise preference rates. **Evidence.** Normal responses won far more often than ethical or technical refusals across the Arena dataset. [@PaschLLMContentModeration, pp. 16–18] **Evidence-supported claim.** Normal responses won far more often than ethical or technical refusals across the Arena dataset. [@PaschLLMContentModeration, pp. 16–18] **Researcher inference.** A DDR evidential limit should not be presented as an unexplained dead end. **Warrant.** Conversational interaction carries a strong expectation of continued assistance. **Boundary.** These refusals concern safety and general capability, not archival warrant. **Consequence.** Missingness should still return useful evidence and explanation. **Practice cross-check.** Turin returns nearest relevant traces with the limit statement.
 ## Claim 2
-- **Claim:** Technical and ethical refusals are interactionally distinct categories.
-- **Author claim:** The paper separates refusals based on normative safety constraints from those based on functional limitation.
-- **Evidence-supported claim:** Its coding scheme distinguishes ethical and technical refusal types. [@PaschLLMContentModeration, pp. 9–10]
-- **Researcher inference:** Archival scoped missingness should be framed as evidential limitation, not policy refusal.
-- **Warrant:** Different reasons for non-completion imply different user interpretations.
-- **Boundary:** Technical refusal still differs from historical missingness.
-- **Consequence:** Interface wording should name the evidential basis of the boundary.
-- **Practice cross-check:** Turin should say the corpus does not establish a relation rather than “I cannot answer.”
 
+**Claim.** Technical and ethical refusals are interactionally distinct categories. **Author claim.** The paper separates refusals based on normative safety constraints from those based on functional limitation. **Evidence.** Its coding scheme distinguishes ethical and technical refusal types. [@PaschLLMContentModeration, pp. 9–10] **Evidence-supported claim.** Its coding scheme distinguishes ethical and technical refusal types. [@PaschLLMContentModeration, pp. 9–10] **Researcher inference.** Archival scoped missingness should be framed as evidential limitation, not policy refusal. **Warrant.** Different reasons for non-completion imply different user interpretations. **Boundary.** Technical refusal still differs from historical missingness. **Consequence.** Interface wording should name the evidential basis of the boundary. **Practice cross-check.** Turin should say the corpus does not establish a relation rather than “I cannot answer.”
 ## Claim 3
-- **Claim:** Disclaimers preserve more user acceptance than hard refusals.
-- **Author claim:** Qualified responses that state a boundary but continue to assist are evaluated more favourably.
-- **Evidence-supported claim:** Ethical disclaimers achieved much higher win rates than ethical refusals. [@PaschLLMContentModeration, pp. 16–17]
-- **Researcher inference:** Scoped missingness can remain useful by exposing related evidence while preserving the limit.
-- **Warrant:** Boundary-setting and assistance are compatible.
-- **Boundary:** User preference is not evidence of epistemic correctness.
-- **Consequence:** The design objective is constructive restraint, not maximal satisfaction.
-- **Practice cross-check:** Turin can return dated traces and conflicting evidence after stating insufficient warrant.
 
+**Claim.** Disclaimers preserve more user acceptance than hard refusals. **Author claim.** Qualified responses that state a boundary but continue to assist are evaluated more favourably. **Evidence.** Ethical disclaimers achieved much higher win rates than ethical refusals. [@PaschLLMContentModeration, pp. 16–17] **Evidence-supported claim.** Ethical disclaimers achieved much higher win rates than ethical refusals. [@PaschLLMContentModeration, pp. 16–17] **Researcher inference.** Scoped missingness can remain useful by exposing related evidence while preserving the limit. **Warrant.** Boundary-setting and assistance are compatible. **Boundary.** User preference is not evidence of epistemic correctness. **Consequence.** The design objective is constructive restraint, not maximal satisfaction. **Practice cross-check.** Turin can return dated traces and conflicting evidence after stating insufficient warrant.
 ## Claim 4
-- **Claim:** Context-specific explanation improves acceptance of a refusal.
-- **Author claim:** More semantically aligned refusal responses performed better.
-- **Evidence-supported claim:** Greater alignment with the user's prompt was associated with higher win rates. [@PaschLLMContentModeration, pp. 18–19]
-- **Researcher inference:** DDR limits should explain exactly which requested relation remains unsupported.
-- **Warrant:** A specific boundary demonstrates that the system understood the research question.
-- **Boundary:** Preference effects do not establish optimal explanatory depth.
-- **Consequence:** Generic uncertainty boilerplate should be avoided.
-- **Practice cross-check:** Turin should distinguish no retrieval, insufficient evidence and conflicting evidence.
 
+**Claim.** Context-specific explanation improves acceptance of a refusal. **Author claim.** More semantically aligned refusal responses performed better. **Evidence.** Greater alignment with the user's prompt was associated with higher win rates. [@PaschLLMContentModeration, pp. 18–19] **Evidence-supported claim.** Greater alignment with the user's prompt was associated with higher win rates. [@PaschLLMContentModeration, pp. 18–19] **Researcher inference.** DDR limits should explain exactly which requested relation remains unsupported. **Warrant.** A specific boundary demonstrates that the system understood the research question. **Boundary.** Preference effects do not establish optimal explanatory depth. **Consequence.** Generic uncertainty boilerplate should be avoided. **Practice cross-check.** Turin should distinguish no retrieval, insufficient evidence and conflicting evidence.
 ## Claim 5
-- **Claim:** Explanation length can affect how boundary-setting is received.
-- **Author claim:** Longer ethical refusals were associated with higher preference.
-- **Evidence-supported claim:** A one-standard-deviation increase in response length corresponded to a substantial increase in win rate. [@PaschLLMContentModeration, pp. 18–19]
-- **Researcher inference:** A minimal “not enough evidence” message may underserve archival users.
-- **Warrant:** Users benefit from enough context to understand why the limit applies and what remains available.
-- **Boundary:** Longer responses can also create verbosity and false reassurance.
-- **Consequence:** Scoped-missingness explanations should be concise but evidentially specific.
-- **Practice cross-check:** Turin can include reason, nearest traces and suggested next inquiry without padding.
 
+**Claim.** Explanation length can affect how boundary-setting is received. **Author claim.** Longer ethical refusals were associated with higher preference. **Evidence.** A one-standard-deviation increase in response length corresponded to a substantial increase in win rate. [@PaschLLMContentModeration, pp. 18–19] **Evidence-supported claim.** A one-standard-deviation increase in response length corresponded to a substantial increase in win rate. [@PaschLLMContentModeration, pp. 18–19] **Researcher inference.** A minimal “not enough evidence” message may underserve archival users. **Warrant.** Users benefit from enough context to understand why the limit applies and what remains available. **Boundary.** Longer responses can also create verbosity and false reassurance. **Consequence.** Scoped-missingness explanations should be concise but evidentially specific. **Practice cross-check.** Turin can include reason, nearest traces and suggested next inquiry without padding.
 ## Claim 6
-- **Claim:** Conversational completion norms can conflict with evidential responsibility.
-- **Author claim:** The Arena data show a broad preference for attempted completion over refusal.
-- **Evidence-supported claim:** Normal responses dominate refusal types in pairwise preference. [@PaschLLMContentModeration, pp. 16–18]
-- **Researcher inference:** A research system must sometimes resist the interactional pressure to complete a narrative.
-- **Warrant:** User preference and historical warrant can point in different directions.
-- **Boundary:** Pasch does not study scholarly research tasks.
-- **Consequence:** DDR success criteria should reward justified non-completion even when it is less conversationally satisfying.
-- **Practice cross-check:** Turin evaluates scoped missingness as a positive evidential outcome.
 
+**Claim.** Conversational completion norms can conflict with evidential responsibility. **Author claim.** The Arena data show a broad preference for attempted completion over refusal. **Evidence.** Normal responses dominate refusal types in pairwise preference. [@PaschLLMContentModeration, pp. 16–18] **Evidence-supported claim.** Normal responses dominate refusal types in pairwise preference. [@PaschLLMContentModeration, pp. 16–18] **Researcher inference.** A research system must sometimes resist the interactional pressure to complete a narrative. **Warrant.** User preference and historical warrant can point in different directions. **Boundary.** Pasch does not study scholarly research tasks. **Consequence.** DDR success criteria should reward justified non-completion even when it is less conversationally satisfying. **Practice cross-check.** Turin evaluates scoped missingness as a positive evidential outcome.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Refusal:** a response in which the model explicitly rejects the requested task and withholds meaningful engagement with it. `[@PaschLLMContentModeration, pp. 9–10]`
