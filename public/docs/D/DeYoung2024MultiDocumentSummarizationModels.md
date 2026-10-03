@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ DeYoung, Martinez, Marshall and Wallace write from NLP and biomedical evidence s
 
 They distinguish synthesis from ordinary summarisation by testing order invariance and composition sensitivity, then introduce a generate–select–abstain procedure when ordinary decoding fails those requirements. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1054]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Multi-document synthesis requires representing relations across inputs, not merely compressing them.
-- **Author claim:** The authors define synthesis as aggregation of potentially conflicting information.
-- **Evidence-supported claim:** Their film and clinical examples require outputs to track the collective balance of the source set. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1043–1045]
-- **Researcher inference:** DDR synthesis must represent support, qualification and contradiction among traces.
-- **Warrant:** A synthesis claims something about the relation among several sources.
-- **Boundary:** Historical evidence may not admit a computable aggregate property.
-- **Consequence:** Evaluation must inspect evidential relations rather than fluency alone.
-- **Practice cross-check:** Turin comparative views should preserve whether traces corroborate, differ or remain insufficient.
 
+**Claim.** Multi-document synthesis requires representing relations across inputs, not merely compressing them. **Author claim.** The authors define synthesis as aggregation of potentially conflicting information. **Evidence.** Their film and clinical examples require outputs to track the collective balance of the source set. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1043–1045] **Evidence-supported claim.** Their film and clinical examples require outputs to track the collective balance of the source set. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1043–1045] **Researcher inference.** DDR synthesis must represent support, qualification and contradiction among traces. **Warrant.** A synthesis claims something about the relation among several sources. **Boundary.** Historical evidence may not admit a computable aggregate property. **Consequence.** Evaluation must inspect evidential relations rather than fluency alone. **Practice cross-check.** Turin comparative views should preserve whether traces corroborate, differ or remain insufficient.
 ## Claim 2
-- **Claim:** A valid synthesis should be invariant to arbitrary source ordering.
-- **Author claim:** Reordering identical documents should not alter the substantive aggregate conclusion.
-- **Evidence-supported claim:** Repeated permutations changed communicated sentiment or treatment effect across models. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050]
-- **Researcher inference:** DDR outputs should be tested against shuffled retrieval order.
-- **Warrant:** Ordering is presentation noise when evidence content is unchanged.
-- **Boundary:** Legitimate chronology is not arbitrary order and should not be erased.
-- **Consequence:** Robustness testing must distinguish arbitrary sequence from historically meaningful sequence.
-- **Practice cross-check:** Turin can permute retrieved passage order while preserving dates and provenance.
 
+**Claim.** A valid synthesis should be invariant to arbitrary source ordering. **Author claim.** Reordering identical documents should not alter the substantive aggregate conclusion. **Evidence.** Repeated permutations changed communicated sentiment or treatment effect across models. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050] **Evidence-supported claim.** Repeated permutations changed communicated sentiment or treatment effect across models. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050] **Researcher inference.** DDR outputs should be tested against shuffled retrieval order. **Warrant.** Ordering is presentation noise when evidence content is unchanged. **Boundary.** Legitimate chronology is not arbitrary order and should not be erased. **Consequence.** Robustness testing must distinguish arbitrary sequence from historically meaningful sequence. **Practice cross-check.** Turin can permute retrieved passage order while preserving dates and provenance.
 ## Claim 3
-- **Claim:** Synthesis should respond when the composition of the evidence materially changes.
-- **Author claim:** The authors test whether outputs track altered ratios of positive/negative reviews and changed trial sets.
-- **Evidence-supported claim:** Models were generally under-sensitive to these substantive composition changes. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1051]
-- **Researcher inference:** Adding a materially contradictory DDR trace should change or qualify the synthesis.
-- **Warrant:** A synthesis that ignores changed evidence is not evidence-responsive.
-- **Boundary:** One new archival trace may matter because of source status or chronology rather than numerical weight.
-- **Consequence:** Historical composition sensitivity must be qualitative as well as quantitative.
-- **Practice cross-check:** Turin can add or remove contradictory evidence and inspect whether the answer changes appropriately.
 
+**Claim.** Synthesis should respond when the composition of the evidence materially changes. **Author claim.** The authors test whether outputs track altered ratios of positive/negative reviews and changed trial sets. **Evidence.** Models were generally under-sensitive to these substantive composition changes. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1051] **Evidence-supported claim.** Models were generally under-sensitive to these substantive composition changes. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1051] **Researcher inference.** Adding a materially contradictory DDR trace should change or qualify the synthesis. **Warrant.** A synthesis that ignores changed evidence is not evidence-responsive. **Boundary.** One new archival trace may matter because of source status or chronology rather than numerical weight. **Consequence.** Historical composition sensitivity must be qualitative as well as quantitative. **Practice cross-check.** Turin can add or remove contradictory evidence and inspect whether the answer changes appropriately.
 ## Claim 4
-- **Claim:** Fluency can conceal sensitivity to irrelevant factors.
-- **Author claim:** The paper shows that outputs can remain coherent while responding to arbitrary ordering.
-- **Evidence-supported claim:** Order-driven shifts occur despite unchanged evidence sets. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050]
-- **Researcher inference:** Stable prose quality is not evidence of stable historical reasoning.
-- **Warrant:** Linguistic coherence does not reveal what variable actually drove the output.
-- **Boundary:** The paper does not isolate all possible causes of model instability.
-- **Consequence:** DDR evaluation should include perturbation tests, not only expert reading of one output.
-- **Practice cross-check:** Turin UAT should compare repeated answers under controlled source-order changes.
 
+**Claim.** Fluency can conceal sensitivity to irrelevant factors. **Author claim.** The paper shows that outputs can remain coherent while responding to arbitrary ordering. **Evidence.** Order-driven shifts occur despite unchanged evidence sets. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050] **Evidence-supported claim.** Order-driven shifts occur despite unchanged evidence sets. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1048–1050] **Researcher inference.** Stable prose quality is not evidence of stable historical reasoning. **Warrant.** Linguistic coherence does not reveal what variable actually drove the output. **Boundary.** The paper does not isolate all possible causes of model instability. **Consequence.** DDR evaluation should include perturbation tests, not only expert reading of one output. **Practice cross-check.** Turin UAT should compare repeated answers under controlled source-order changes.
 ## Claim 5
-- **Claim:** Generation can be subordinated to an external synthesis criterion.
-- **Author claim:** The authors generate multiple candidates and select the one closest to the expected aggregate property.
-- **Evidence-supported claim:** Their generate–select method improves synthesis metrics compared with ordinary generation. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1054]
-- **Researcher inference:** DDR generation should be accepted only after evidential/provenance checks external to the first model output.
-- **Warrant:** The first generated answer need not be the final research result.
-- **Boundary:** DDR lacks a single scalar criterion equivalent to sentiment or treatment effect.
-- **Consequence:** Selection criteria should use evidential state, provenance and contradiction rather than a numeric consensus target.
-- **Practice cross-check:** Turin gates synthesis through citation and evidential-status validation.
 
+**Claim.** Generation can be subordinated to an external synthesis criterion. **Author claim.** The authors generate multiple candidates and select the one closest to the expected aggregate property. **Evidence.** Their generate–select method improves synthesis metrics compared with ordinary generation. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1054] **Evidence-supported claim.** Their generate–select method improves synthesis metrics compared with ordinary generation. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1050–1054] **Researcher inference.** DDR generation should be accepted only after evidential/provenance checks external to the first model output. **Warrant.** The first generated answer need not be the final research result. **Boundary.** DDR lacks a single scalar criterion equivalent to sentiment or treatment effect. **Consequence.** Selection criteria should use evidential state, provenance and contradiction rather than a numeric consensus target. **Practice cross-check.** Turin gates synthesis through citation and evidential-status validation.
 ## Claim 6
-- **Claim:** Abstention is a legitimate synthesis outcome.
-- **Author claim:** Their inference procedure can abstain when no candidate matches the expected synthesis criterion.
-- **Evidence-supported claim:** The systematic-review experiments show substantial abstention where suitable candidates are unavailable. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1052–1054]
-- **Researcher inference:** DDR should preserve unresolved evidence rather than force a fluent historical account.
-- **Warrant:** Failure to meet an evidential criterion is information about the limits of synthesis.
-- **Boundary:** Abstention in their task is judged against an external aggregate target.
-- **Consequence:** Historical abstention should become scoped missingness rather than a generic refusal.
-- **Practice cross-check:** Turin returns evidential limits and relevant traces when no adequate interpretation is warranted.
 
+**Claim.** Abstention is a legitimate synthesis outcome. **Author claim.** Their inference procedure can abstain when no candidate matches the expected synthesis criterion. **Evidence.** The systematic-review experiments show substantial abstention where suitable candidates are unavailable. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1052–1054] **Evidence-supported claim.** The systematic-review experiments show substantial abstention where suitable candidates are unavailable. [@DeYoung2024MultiDocumentSummarizationModels, pp. 1052–1054] **Researcher inference.** DDR should preserve unresolved evidence rather than force a fluent historical account. **Warrant.** Failure to meet an evidential criterion is information about the limits of synthesis. **Boundary.** Abstention in their task is judged against an external aggregate target. **Consequence.** Historical abstention should become scoped missingness rather than a generic refusal. **Practice cross-check.** Turin returns evidential limits and relevant traces when no adequate interpretation is warranted.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Multi-document synthesis:** producing a concise account that represents an aggregate property or relation across multiple potentially conflicting source documents rather than merely concatenating or compressing their content. `[@DeYoung2024MultiDocumentSummarizationModels, pp. 1043–1045]`
