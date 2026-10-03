@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sep 2026, 00:00"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "15 Sep 2026, 00:00"
 north_star_sha1: "placeholder"
@@ -25,15 +25,23 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Methodological anchor"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "02 LLM epistemic risk and persuasive fluency"
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -47,67 +55,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Zhu et al. provide a technical precedent for making post-retrieval evidence relationships explicit and contestable rather than leaving them hidden inside generated prose.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It offers a way to revisit DDR evidence computationally while preserving researcher visibility over how support and contradiction are being constructed.
 
-**Why I’m reading this now (1 sentence):**  
-I need evidence that post-retrieval inference can be made structurally inspectable and contestable by explicitly representing how retrieved evidence supports, contradicts or fails to bear on a claim.
+**Where it sits in my argument:** Critical computational approaches / contemporary bridge literature, especially contestable inference.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference. It provides the strongest technical precedent in this cluster for separating retrieval from a subsequent bounded reasoning process whose evidential structure can be inspected and modified rather than remaining hidden inside generated prose.
+**My benchmark for using it:** Use to establish explicit support/attack structure and contestability; do not import binary fact verification or numeric truth strengths directly into historical interpretation.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *retrieval-augmented inference* because Zhu et al. move beyond retrieve-then-generate: retrieved passages are transformed into an explicit evidence structure and inference is then performed over that structure. I use *contestable inference* for the further requirement that a researcher can challenge the relations or assumptions producing the outcome.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use ArgRAG to establish that support, contradiction and evidence interactions can be represented explicitly after retrieval. Do not treat its binary fact-verification framework or numeric argument strengths as a ready-made model of historical interpretation.
+Zhu et al. combine retrieval, LLM-based relation extraction and symbolic quantitative bipolar argumentation to address noisy retrieval and opaque reasoning. [@zhuArgRAGExplainableRetrieval2025, pp. 1–7]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Zhu et al. write from neurosymbolic AI, argumentation theory and retrieval-augmented reasoning. Their 2025 paper responds to two weaknesses in conventional RAG: sensitivity to noisy or contradictory retrieved material and the opacity of autoregressive reasoning. ArgRAG therefore combines neural retrieval and LLM-based relation extraction with symbolic, deterministic inference over a Quantitative Bipolar Argumentation Framework.
+They convert retrieved passages into an explicit support/attack graph, perform deterministic inference over that structure and allow users to contest assumptions and recompute the result. [@zhuArgRAGExplainableRetrieval2025, pp. 2, 5–7]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-The paper challenges the assumption that adding explanations or chain-of-thought makes model reasoning transparent. At the same time, its fact-verification setting assumes that evidence can ultimately support a binary decision, whereas contested archival inquiry may require plurality, unresolved contradiction and missingness to remain legitimate final states.
-
-# The author’s main move (1 sentence)
-
-They replace model-internal post-retrieval reasoning with an explicit argument graph in which retrieved evidence supports or attacks a claim and deterministic inference computes the resulting strength while allowing users to inspect and contest the structure.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Retrieved evidence can be noisy or contradictory, and simply placing that evidence in an LLM context can make RAG less reliable rather than more reliable.
-- **Evidence (quote/paraphrase + page):** Zhu et al. argue that retrievers optimise primarily for lexical or semantic relevance rather than factual consistency and can therefore return irrelevant or contradictory passages that mislead generation. `[@zhuArgRAGExplainableRetrieval2025, pp. 1–2]` In their experiments, every conventional RAG baseline performed worse than the corresponding no-retrieval baseline on PubHealth and RAGuard, whereas ArgRAG was the only retrieval-based method to outperform no-retrieval across all tested settings. `[@zhuArgRAGExplainableRetrieval2025, pp. 8–9]`
-- **Warrant (my words):** Retrieval adds evidence, not correctness. When retrieved traces conflict or contain noise, the reasoning stage must distinguish their roles rather than assuming that more context automatically produces a better answer.
-- **So what for my thesis (a reusable sentence):** Retrieval should be treated as the acquisition of an evidential field rather than the completion of historical inquiry, because relevant, contradictory and misleading traces may coexist within the same retrieved context.
-- **Practice cross-check:** Turin Research Query: retrieved DDR passages should be typed as supporting, qualifying, contradictory, irrelevant or insufficient before they are permitted to contribute to historical synthesis.
+- **Claim:** Retrieval can degrade performance when relevant, noisy and contradictory material are mixed.
+- **Author claim:** Standard retrievers optimise relevance rather than factual consistency.
+- **Evidence-supported claim:** Conventional RAG baselines underperformed their no-retrieval counterparts on the tested datasets, while ArgRAG improved across settings. [@zhuArgRAGExplainableRetrieval2025, pp. 1–2, 8–9]
+- **Researcher inference:** More DDR context is not automatically better if evidence roles remain undifferentiated.
+- **Warrant:** Retrieval adds material, not correctness.
+- **Boundary:** Binary fact-verification datasets differ from archival inquiry.
+- **Consequence:** Retrieved traces should be typed before synthesis.
+- **Practice cross-check:** Turin distinguishes supporting, qualifying, contradictory, irrelevant and insufficient traces.
 
 ## Claim 2
-
-- **Claim (plain):** Post-retrieval reasoning can be externalised into an inspectable structure rather than remaining embedded within autoregressive generation.
-- **Evidence (quote/paraphrase + page):** ArgRAG uses an LLM to classify claim–evidence and evidence–evidence relations as support, contradiction or irrelevance, then represents the remaining material as a QBAF and computes final argument strengths using deterministic gradual semantics. `[@zhuArgRAGExplainableRetrieval2025, pp. 2, 4–6]` Figure 1 on p. 2 makes the distinction visible: retrieval is followed by QBAF construction, score calculation and prediction rather than direct answer generation. The authors explicitly contrast this with generated explanations that may merely rationalise an opaque decision. `[@zhuArgRAGExplainableRetrieval2025, p. 5]`
-- **Warrant (my words):** The relation between evidence and outcome becomes an inspectable computational object. A researcher can see which passages support or attack the claim and how their interactions affect the resulting judgement.
-- **So what for my thesis:** Retrieval-augmented inference can make the structure of an interpretation externally legible by separating retrieved traces from the relations inferred between them and from the subsequent reasoning performed over those relations.
-- **Practice cross-check:** Turin Comparative Views / Critical Inquiry: retrieved traces → explicit relation type → supporting and conflicting evidence → bounded synthesis or unresolved state, with the evidence structure visible to the researcher.
+- **Claim:** Claim–evidence relations can be made explicit.
+- **Author claim:** ArgRAG classifies retrieved evidence as support, contradiction or irrelevance.
+- **Evidence-supported claim:** Relation extraction is an explicit stage before deterministic inference. [@zhuArgRAGExplainableRetrieval2025, pp. 2, 4–6]
+- **Researcher inference:** DDR can externalise how each trace bears on a proposed historical relation.
+- **Warrant:** Explicit relations make interpretative structure inspectable.
+- **Boundary:** One passage can contain several historically different propositions.
+- **Consequence:** Historical relation typing must be finer-grained than one label per chunk.
+- **Practice cross-check:** Turin can attach relation type at proposition/claim level.
 
 ## Claim 3
+- **Claim:** Evidence–evidence relations matter, not only evidence–claim relations.
+- **Author claim:** The framework models interactions among retrieved arguments.
+- **Evidence-supported claim:** Ablation shows evidence–evidence relations improve performance, especially where conflict is present. [@zhuArgRAGExplainableRetrieval2025, p. 9]
+- **Researcher inference:** DDR interpretation should record whether sources corroborate, qualify or contradict one another.
+- **Warrant:** Historical warrant often depends on cross-source relations.
+- **Boundary:** Formal support/attack relations simplify historical context.
+- **Consequence:** Comparative views should expose relations among traces, not only trace-to-query relevance.
+- **Practice cross-check:** Turin Critical Inquiry can display competing or corroborating source chains.
 
-- **Claim (plain):** Contestability requires users to be able to alter assumptions about evidence and observe how the inference changes.
-- **Evidence (quote/paraphrase + page):** ArgRAG allows users to contest either an argument's base score or its polarity as supporting, attacking or neutral; the framework then recomputes the outcome. `[@zhuArgRAGExplainableRetrieval2025, pp. 5–7]` The authors demonstrate that changing the assumed strengths of two evidence items can move the claim strength from acceptance to 0.46 and therefore reverse the decision. `[@zhuArgRAGExplainableRetrieval2025, p. 7]` Their ablation study further shows that modelling evidence–evidence relations improves accuracy, particularly where conflicting evidence is present. `[@zhuArgRAGExplainableRetrieval2025, p. 9]`
-- **Warrant (my words):** An explanation becomes contestable when the user can challenge how evidence has been characterised and see the consequences of that challenge rather than merely receiving a narrative justification after the fact.
-- **So what for my thesis:** An archive-facing inference system should allow researchers to interrogate and revise computationally proposed relationships between traces, preserving interpretative authority with the researcher rather than freezing model classifications into an authoritative result.
-- **Practice cross-check:** Turin Semantic Atlas / Critical Inquiry: permit the researcher to inspect why records are being treated as related, conflicting or irrelevant and to compare alternative readings without silently overwriting the underlying archival evidence.
+## Claim 4
+- **Claim:** Explicit argument structure is more inspectable than generated explanation alone.
+- **Author claim:** The authors warn that generated explanations can rationalise an opaque decision without matching the actual reasoning path.
+- **Evidence-supported claim:** ArgRAG contrasts post-hoc textual explanation with deterministic calculation over an explicit graph. [@zhuArgRAGExplainableRetrieval2025, p. 5]
+- **Researcher inference:** DDR explanation should expose evidence structure rather than rely on model prose describing its own reasoning.
+- **Warrant:** Narrative explanation can be persuasive without being causally or evidentially faithful.
+- **Boundary:** Symbolic structure can also encode mistaken classifications.
+- **Consequence:** Explanation must remain open to source inspection and correction.
+- **Practice cross-check:** Turin provenance should show traces and relation labels separately from generated synthesis.
+
+## Claim 5
+- **Claim:** Contestability requires users to alter assumptions and see the inference change.
+- **Author claim:** Users can modify argument strengths or polarities and recompute the result.
+- **Evidence-supported claim:** The paper demonstrates a changed evidence assumption reversing the computed decision. [@zhuArgRAGExplainableRetrieval2025, pp. 5–7]
+- **Researcher inference:** DDR researchers should be able to challenge computationally proposed relationships.
+- **Warrant:** Researcher-in-the-loop means more than approving final prose.
+- **Boundary:** Historical contestation should not be reduced to slider-adjusted numeric strength.
+- **Consequence:** Relation labels should be editable/reviewable without overwriting source evidence.
+- **Practice cross-check:** Turin Critical Inquiry can allow comparison of alternate relation interpretations.
+
+## Claim 6
+- **Claim:** A single computed verdict is the wrong endpoint for many contested archives.
+- **Author claim:** ArgRAG ultimately resolves fact-verification tasks through computed argument strength.
+- **Evidence-supported claim:** The framework is evaluated on binary decisions in PubHealth and RAGuard. [@zhuArgRAGExplainableRetrieval2025, pp. 7–9]
+- **Researcher inference:** DDR needs supported interpretation, competing readings, contradiction and scoped missingness as legitimate final states.
+- **Warrant:** Historical plurality can be evidence, not unresolved computational error.
+- **Boundary:** This is a deliberate departure from the paper's task framing.
+- **Consequence:** Use argument structure without importing binary adjudication.
+- **Practice cross-check:** Turin should stop at plural or conflicting outcomes where the evidence warrants them.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -146,6 +179,10 @@ They replace model-internal post-retrieval reasoning with an explicit argument g
 
 - **Boundary (1 sentence):** ArgRAG is evaluated as binary fact verification on PubHealth and RAGuard, and its current relation vocabulary reduces each retrieved chunk to a single support, attack or irrelevant argument, whereas archival traces may contain several internally conflicting propositions and support multiple historically situated interpretations.
 - **Risk if misused (1 sentence):** Translating contested archival evidence directly into numeric strengths and a single computed verdict could replace opaque generative authority with overly formal symbolic authority, giving an appearance of precision to relations that remain interpretative and historically contingent.
+
+# Cross-source / cross-lens synthesis
+
+Zhu et al. complete the Asai–Wang–Zhu technical sequence by externalising post-retrieval evidence relations into an inspectable and contestable structure. This is highly useful for DDR because it separates source evidence from the relations inferred among traces. The archival correction is equally important: contestability should preserve plural, temporal and unresolved historical states rather than converting them into numeric strengths and a single verdict.
 
 # Methods spine tags (tick what it actually touches)
 
