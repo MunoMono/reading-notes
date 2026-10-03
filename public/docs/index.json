@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T05:11:47.250Z",
+  "updatedAt": "2026-10-03T05:11:57.621Z",
   "entries": [
     {
       "letter": "A",
@@ -296,20 +296,23 @@
       "url": "",
       "citation_key": "Bearman1992DocumentingDocumentation",
       "displayTitle": "Bearman, David A. (1992). Documenting documentation — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642965.8147,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "B",
@@ -951,20 +954,23 @@
       "url": "",
       "citation_key": "Duranti1992OriginConceptArchivalDescription",
       "displayTitle": "Duranti, Luciana (1992). Origin and development of the concept of archival description — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642965.767,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "F",
@@ -1611,20 +1617,23 @@
       "url": "",
       "citation_key": "Moss2018ReconfigurationArchiveData",
       "displayTitle": "Moss, Michael; Thomas, David; Gollins, Tim (2018). The reconfiguration of the archive as data to be mined — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Contemporary bridge literature",
       "source_type": "Bridge text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642963.323,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "N",
@@ -1837,20 +1846,23 @@
       "url": "https://doi.org/10.1057/9780230101395_2",
       "citation_key": "Portelli2009WhatMakesOralHistoryDifferent",
       "displayTitle": "Portelli, Alessandro (2009). What makes oral history different — Oral History, Oral Culture, and Italian Americans",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Operational literature",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843643095.6052,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "Q",
@@ -1980,20 +1992,23 @@
       "url": "",
       "citation_key": "Schwartz2002ArchivesRecordsPower",
       "displayTitle": "Schwartz, Joan M.; Cook, Terry (2002). Archives, records, and power: the making of modern memory — Archival Science",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.0833,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "S",
@@ -2063,20 +2078,23 @@
       "url": "",
       "citation_key": "Suchman2002LocatedAccountabilities",
       "displayTitle": "Suchman, Lucy (2002). Located accountabilities in technology production — Scandinavian Journal of Information Systems",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "4",
+      "theoretical_framework_area": "Feminist + situated knowledge",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Feminist + situated knowledge / Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.1516,
-      "category": ""
+      "category": "4. Feminist + situated knowledge"
     },
     {
       "letter": "T",
@@ -2623,20 +2641,23 @@
         "url": "",
         "citation_key": "Bearman1992DocumentingDocumentation",
         "displayTitle": "Bearman, David A. (1992). Documenting documentation — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642965.8147,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "B",
@@ -3282,20 +3303,23 @@
         "url": "",
         "citation_key": "Duranti1992OriginConceptArchivalDescription",
         "displayTitle": "Duranti, Luciana (1992). Origin and development of the concept of archival description — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642965.767,
-        "category": ""
+        "category": "2. Critical archival theory"
       }
     ],
     "F": [
@@ -3931,20 +3955,23 @@
         "url": "",
         "citation_key": "Moss2018ReconfigurationArchiveData",
         "displayTitle": "Moss, Michael; Thomas, David; Gollins, Tim (2018). The reconfiguration of the archive as data to be mined — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Contemporary bridge literature",
         "source_type": "Bridge text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642963.323,
-        "category": ""
+        "category": "2. Critical archival theory"
       }
     ],
     "L": [
@@ -4221,20 +4248,23 @@
         "url": "https://doi.org/10.1057/9780230101395_2",
         "citation_key": "Portelli2009WhatMakesOralHistoryDifferent",
         "displayTitle": "Portelli, Alessandro (2009). What makes oral history different — Oral History, Oral Culture, and Italian Americans",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Operational literature",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843643095.6052,
-        "category": ""
+        "category": "2. Critical archival theory"
       }
     ],
     "Q": [
@@ -4370,20 +4400,23 @@
         "url": "",
         "citation_key": "Schwartz2002ArchivesRecordsPower",
         "displayTitle": "Schwartz, Joan M.; Cook, Terry (2002). Archives, records, and power: the making of modern memory — Archival Science",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical archival theory / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.0833,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "S",
@@ -4453,20 +4486,23 @@
         "url": "",
         "citation_key": "Suchman2002LocatedAccountabilities",
         "displayTitle": "Suchman, Lucy (2002). Located accountabilities in technology production — Scandinavian Journal of Information Systems",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "4",
+        "theoretical_framework_area": "Feminist + situated knowledge",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Feminist + situated knowledge / Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.1516,
-        "category": ""
+        "category": "4. Feminist + situated knowledge"
       }
     ],
     "T": [
