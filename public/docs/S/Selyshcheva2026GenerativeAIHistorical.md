@@ -9,10 +9,11 @@ url: "https://acnsci.org/journal/index.php/cte/article/view/1438"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-last_updated: "01 Oct 2026"
+last_updated: "03 Oct 2026"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
+project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
@@ -27,12 +28,27 @@ theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "c"
 literature_cluster: "Contemporary bridge literature"
 zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 ---
+
+# Constraints (anti-bloat / anti-hallucination)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
 **How this source moves the primary research question forward:** Selyshcheva brings generative AI inside historical method by treating model output and model conditions as objects of source criticism. This directly supports the DDR rule that generated synthesis must remain accountable to provenance, citation integrity and the limits of the record.
+
+**How this source bears on the secondary question:** It provides a source-critical test for contemporary computational revisiting of DDR ideas by insisting that chronology, attribution, provenance and inherited silences remain visible rather than being normalised by fluent synthesis.
 
 **Where it sits in my argument:** S3.3 retrieval-augmented inference and the Turin case for bounded historical synthesis.
 
@@ -46,74 +62,26 @@ Selyshcheva writes from digital history after generative AI has entered routine 
 
 She argues that the model itself should be subjected to source criticism and that responsible historical use of generative AI requires verification, provenance, attention to inherited silences and continued human interpretative authority. [@Selyshcheva2026GenerativeAIHistorical, pp. 290–295]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Generative models should be treated as historical sources whose conditions of production require criticism.
-- **Author claim:** Selyshcheva’s organizing thesis is that an LLM is not a neutral utility but an artefact shaped by an opaque, evolving and contested training corpus.
-- **Evidence-supported claim:** The paper frames the model as an “algorithmic cartography” of the digitized record and calls for reconstruction of the conditions under which its output was produced. [@Selyshcheva2026GenerativeAIHistorical, p. 290]
-- **Researcher inference:** Source criticism applies not only to retrieved archival documents but also to the computational system mediating them.
-- **Evidence (quote/paraphrase + page):** The model is described as a skewed statistical representation of digitized culture rather than a neutral sample of historical knowledge. [@Selyshcheva2026GenerativeAIHistorical, p. 290]
-- **Warrant (my words):** Mediation changes what can be seen and how confidently it is presented.
-- **Boundary:** A model’s behavior cannot reconstruct its full training corpus or provenance.
-- **Consequence:** Document model, corpus, retrieval and synthesis conditions as part of historical method.
-- **Practice cross-check:** DDR records its bounded evidence surface, embedding/retrieval stack and source-to-answer provenance.
 
+**Claim.** Generative models should be treated as historical sources whose conditions of production require criticism. **Author claim.** Selyshcheva’s organizing thesis is that an LLM is not a neutral utility but an artefact shaped by an opaque, evolving and contested training corpus. **Evidence.** The paper frames the model as an “algorithmic cartography” of the digitized record and calls for reconstruction of the conditions under which its output was produced. [@Selyshcheva2026GenerativeAIHistorical, p. 290] **Evidence-supported claim.** The paper frames the model as an “algorithmic cartography” of the digitized record and calls for reconstruction of the conditions under which its output was produced. [@Selyshcheva2026GenerativeAIHistorical, p. 290] **Researcher inference.** Source criticism applies not only to retrieved archival documents but also to the computational system mediating them. **Warrant.** Mediation changes what can be seen and how confidently it is presented. **Boundary.** A model’s behavior cannot reconstruct its full training corpus or provenance. **Consequence.** Document model, corpus, retrieval and synthesis conditions as part of historical method. **Practice cross-check.** DDR records its bounded evidence surface, embedding/retrieval stack and source-to-answer provenance.
 ## Claim 2
-- **Claim (plain):** Strong task performance can coexist with subtle historical error.
-- **Author claim:** The “jagged frontier” means model competence is uneven and factual distortion can appear inside apparently strong performance.
-- **Evidence-supported claim:** A cited OCR study found a model with strong aggregate recognition accuracy that nevertheless inserted period-inappropriate archaic characters into many eighteenth-century texts. [@Selyshcheva2026GenerativeAIHistorical, p. 291]
-- **Researcher inference:** Aggregate accuracy does not guarantee fidelity to historically meaningful distinctions.
-- **Evidence (quote/paraphrase + page):** The paper uses “over-historicised” transcription as an example of output that looks more authentic while being less faithful to the source. [@Selyshcheva2026GenerativeAIHistorical, p. 291]
-- **Warrant (my words):** Historical error may concern chronology, attribution or register even when generic metrics look strong.
-- **Boundary:** The example concerns transcription, not DDR semantic retrieval.
-- **Consequence:** Validate outputs against domain-relevant historical criteria as well as generic model metrics.
-- **Practice cross-check:** DDR UAT checks evidential status, chronology and attribution, not only retrieval relevance.
 
+**Claim.** Strong task performance can coexist with subtle historical error. **Author claim.** The “jagged frontier” means model competence is uneven and factual distortion can appear inside apparently strong performance. **Evidence.** A cited OCR study found a model with strong aggregate recognition accuracy that nevertheless inserted period-inappropriate archaic characters into many eighteenth-century texts. [@Selyshcheva2026GenerativeAIHistorical, p. 291] **Evidence-supported claim.** A cited OCR study found a model with strong aggregate recognition accuracy that nevertheless inserted period-inappropriate archaic characters into many eighteenth-century texts. [@Selyshcheva2026GenerativeAIHistorical, p. 291] **Researcher inference.** Aggregate accuracy does not guarantee fidelity to historically meaningful distinctions. **Warrant.** Historical error may concern chronology, attribution or register even when generic metrics look strong. **Boundary.** The example concerns transcription, not DDR semantic retrieval. **Consequence.** Validate outputs against domain-relevant historical criteria as well as generic model metrics. **Practice cross-check.** DDR UAT checks evidential status, chronology and attribution, not only retrieval relevance.
 ## Claim 3
-- **Claim (plain):** Generative tools can make large archival collections more legible, but scale must remain accountable.
-- **Author claim:** The paper identifies real gains in OCR, HTR, oral-history transcription and conversion of collections into machine-readable corpora.
-- **Evidence-supported claim:** Selyshcheva reviews studies where multimodal models outperform established recognition tools and projects where computational processing enables questions impractical at manual scale. [@Selyshcheva2026GenerativeAIHistorical, pp. 291–292]
-- **Researcher inference:** Computational activation is defensible when it expands access to traces while preserving inspectability and expert correction.
-- **Evidence (quote/paraphrase + page):** The article explicitly states that scale is useful only when paired with documentation and human oversight. [@Selyshcheva2026GenerativeAIHistorical, p. 292]
-- **Warrant (my words):** Access gains are methodologically valuable when errors remain detectable and reversible.
-- **Boundary:** The paper surveys heterogeneous cases rather than testing one archival workflow end-to-end.
-- **Consequence:** Treat automation as a legibility layer rather than a replacement for source evaluation.
-- **Practice cross-check:** DDR UMAP and RAI views surface candidate relations but return the researcher to PID-backed records.
 
+**Claim.** Generative tools can make large archival collections more legible, but scale must remain accountable. **Author claim.** The paper identifies real gains in OCR, HTR, oral-history transcription and conversion of collections into machine-readable corpora. **Evidence.** Selyshcheva reviews studies where multimodal models outperform established recognition tools and projects where computational processing enables questions impractical at manual scale. [@Selyshcheva2026GenerativeAIHistorical, pp. 291–292] **Evidence-supported claim.** Selyshcheva reviews studies where multimodal models outperform established recognition tools and projects where computational processing enables questions impractical at manual scale. [@Selyshcheva2026GenerativeAIHistorical, pp. 291–292] **Researcher inference.** Computational activation is defensible when it expands access to traces while preserving inspectability and expert correction. **Warrant.** Access gains are methodologically valuable when errors remain detectable and reversible. **Boundary.** The paper surveys heterogeneous cases rather than testing one archival workflow end-to-end. **Consequence.** Treat automation as a legibility layer rather than a replacement for source evaluation. **Practice cross-check.** DDR UMAP and RAI views surface candidate relations but return the researcher to PID-backed records.
 ## Claim 4
-- **Claim (plain):** Historical synthesis is vulnerable to confident changes in chronology, attribution and evidential status.
-- **Author claim:** Generative systems optimize plausible continuation rather than truth verification.
-- **Evidence-supported claim:** The paper lists historically consequential failure modes: wrong dates or chronology, omitted events, invented actors or actions, conflation of hypotheses with facts and misattribution across periods. [@Selyshcheva2026GenerativeAIHistorical, p. 292]
-- **Researcher inference:** A fluent answer can alter the historical proposition rather than merely paraphrase it.
-- **Evidence (quote/paraphrase + page):** Citation errors are treated as substantive evidential failures because plausible references can survive superficial inspection while lacking real support. [@Selyshcheva2026GenerativeAIHistorical, pp. 292–293]
-- **Warrant (my words):** Historical knowledge depends on preserving modality, chronology, attribution and provenance.
-- **Boundary:** Reported error rates vary by model and domain and should not be transferred directly to DDR.
-- **Consequence:** Verify every DDR claim against retrieved evidence and preserve uncertainty where support is incomplete.
-- **Practice cross-check:** The evidence hierarchy distinguishes catalogue association, recorded action, intent and later recollection.
 
+**Claim.** Historical synthesis is vulnerable to confident changes in chronology, attribution and evidential status. **Author claim.** Generative systems optimize plausible continuation rather than truth verification. **Evidence.** The paper lists historically consequential failure modes: wrong dates or chronology, omitted events, invented actors or actions, conflation of hypotheses with facts and misattribution across periods. [@Selyshcheva2026GenerativeAIHistorical, p. 292] **Evidence-supported claim.** The paper lists historically consequential failure modes: wrong dates or chronology, omitted events, invented actors or actions, conflation of hypotheses with facts and misattribution across periods. [@Selyshcheva2026GenerativeAIHistorical, p. 292] **Researcher inference.** A fluent answer can alter the historical proposition rather than merely paraphrase it. **Warrant.** Historical knowledge depends on preserving modality, chronology, attribution and provenance. **Boundary.** Reported error rates vary by model and domain and should not be transferred directly to DDR. **Consequence.** Verify every DDR claim against retrieved evidence and preserve uncertainty where support is incomplete. **Practice cross-check.** The evidence hierarchy distinguishes catalogue association, recorded action, intent and later recollection.
 ## Claim 5
-- **Claim (plain):** Provenance is an active response to synthetic uncertainty, not merely a citation style.
-- **Author claim:** Selyshcheva argues that synthetic media weaken assumptions of authenticity and that durable provenance should be established at capture or ingestion.
-- **Evidence-supported claim:** The article presents C2PA-style signed provenance metadata as a way to record origin and edit history and preserve evidential value against later uncertainty. [@Selyshcheva2026GenerativeAIHistorical, p. 293]
-- **Researcher inference:** Provenance should travel with digital historical evidence and with AI-mediated transformations of it.
-- **Evidence (quote/paraphrase + page):** The paper favors tamper-evident provenance at ingestion over relying solely on later forensic detection. [@Selyshcheva2026GenerativeAIHistorical, p. 293]
-- **Warrant (my words):** Evidential trust is stronger when origin and transformation history are recorded before dispute arises.
-- **Boundary:** C2PA records provenance events; it does not certify that a historical interpretation is true.
-- **Consequence:** Use provenance credentials to document evidence lineage without overstating them as epistemic validation.
-- **Practice cross-check:** The Turin C2PA benchmark signs selected outputs and records source ingredients while making no claim of historical certification.
 
+**Claim.** Provenance is an active response to synthetic uncertainty, not merely a citation style. **Author claim.** Selyshcheva argues that synthetic media weaken assumptions of authenticity and that durable provenance should be established at capture or ingestion. **Evidence.** The article presents C2PA-style signed provenance metadata as a way to record origin and edit history and preserve evidential value against later uncertainty. [@Selyshcheva2026GenerativeAIHistorical, p. 293] **Evidence-supported claim.** The article presents C2PA-style signed provenance metadata as a way to record origin and edit history and preserve evidential value against later uncertainty. [@Selyshcheva2026GenerativeAIHistorical, p. 293] **Researcher inference.** Provenance should travel with digital historical evidence and with AI-mediated transformations of it. **Warrant.** Evidential trust is stronger when origin and transformation history are recorded before dispute arises. **Boundary.** C2PA records provenance events; it does not certify that a historical interpretation is true. **Consequence.** Use provenance credentials to document evidence lineage without overstating them as epistemic validation. **Practice cross-check.** The Turin C2PA benchmark signs selected outputs and records source ingredients while making no claim of historical certification.
 ## Claim 6
-- **Claim (plain):** Responsible historical AI use must address inherited silences and retain human interpretative authority.
-- **Author claim:** The paper links training-data bias to colonial representation, introduces CARE-oriented data governance, and concludes that causal interpretation and meaning-making remain the historian’s work.
-- **Evidence-supported claim:** Selyshcheva reviews evidence of colonializing model descriptions, presents CARE as a governance response, and ends by assigning argument, causality, empathy and interpretation of archival silence to human historians. [@Selyshcheva2026GenerativeAIHistorical, pp. 294–295]
-- **Researcher inference:** Technical accessibility cannot by itself repair asymmetry in whose histories are documented, described or computationally visible.
-- **Evidence (quote/paraphrase + page):** The conclusion pairs computational assistance with manual citation checking, decolonial governance and human judgement. [@Selyshcheva2026GenerativeAIHistorical, p. 295]
-- **Warrant (my words):** Interpretation of silence requires historical and ethical judgement beyond statistical completion.
-- **Boundary:** CARE is introduced as a relevant governance framework, not empirically tested in this paper.
-- **Consequence:** Preserve missingness and community/ethical constraints rather than filling documentary gaps with plausible synthesis.
-- **Practice cross-check:** DDR scoped missingness states what the defined corpus cannot establish and the feminist strand tests obscured labour and attribution.
 
+**Claim.** Responsible historical AI use must address inherited silences and retain human interpretative authority. **Author claim.** The paper links training-data bias to colonial representation, introduces CARE-oriented data governance, and concludes that causal interpretation and meaning-making remain the historian’s work. **Evidence.** Selyshcheva reviews evidence of colonializing model descriptions, presents CARE as a governance response, and ends by assigning argument, causality, empathy and interpretation of archival silence to human historians. [@Selyshcheva2026GenerativeAIHistorical, pp. 294–295] **Evidence-supported claim.** Selyshcheva reviews evidence of colonializing model descriptions, presents CARE as a governance response, and ends by assigning argument, causality, empathy and interpretation of archival silence to human historians. [@Selyshcheva2026GenerativeAIHistorical, pp. 294–295] **Researcher inference.** Technical accessibility cannot by itself repair asymmetry in whose histories are documented, described or computationally visible. **Warrant.** Interpretation of silence requires historical and ethical judgement beyond statistical completion. **Boundary.** CARE is introduced as a relevant governance framework, not empirically tested in this paper. **Consequence.** Preserve missingness and community/ethical constraints rather than filling documentary gaps with plausible synthesis. **Practice cross-check.** DDR scoped missingness states what the defined corpus cannot establish and the feminist strand tests obscured labour and attribution.
 # Definitions / terms this changes
 
 - **Algorithmic cartography:** the model as an uneven statistical representation of digitized historical culture rather than a neutral map. [@Selyshcheva2026GenerativeAIHistorical, p. 290]
