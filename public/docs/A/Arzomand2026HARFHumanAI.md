@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ Arzomand, Kalganova and Rustell write from digital heritage, engineering and com
 
 They make generative reconstruction accountable to verified documentary, dimensional and iconographic evidence, explicit uncertainty, documented interpretation and expert validation. [@Arzomand2026HARFHumanAI, pp. 2–10]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Visual plausibility can exceed historical warrant.
-- **Author claim:** The authors identify a credibility gap between generated realism and historical authenticity.
-- **Evidence-supported claim:** They describe stylistic drift, anachronism and cultural misrepresentation as recurrent risks in generative reconstruction. [@Arzomand2026HARFHumanAI, p. 2]
-- **Researcher inference:** Fluent or coherent DDR synthesis cannot be treated as evidence of historical validity.
-- **Warrant:** Persuasive form and evidential support are different properties.
-- **Boundary:** Their case concerns visual reconstruction, not archival textual interpretation.
-- **Consequence:** Generated DDR interpretation must remain visibly subordinate to source evidence.
-- **Practice cross-check:** Turin separates retrieved passages, metadata, testimony and generated synthesis.
 
+**Claim.** Visual plausibility can exceed historical warrant. **Author claim.** The authors identify a credibility gap between generated realism and historical authenticity. **Evidence.** They describe stylistic drift, anachronism and cultural misrepresentation as recurrent risks in generative reconstruction. [@Arzomand2026HARFHumanAI, p. 2] **Evidence-supported claim.** They describe stylistic drift, anachronism and cultural misrepresentation as recurrent risks in generative reconstruction. [@Arzomand2026HARFHumanAI, p. 2] **Researcher inference.** Fluent or coherent DDR synthesis cannot be treated as evidence of historical validity. **Warrant.** Persuasive form and evidential support are different properties. **Boundary.** Their case concerns visual reconstruction, not archival textual interpretation. **Consequence.** Generated DDR interpretation must remain visibly subordinate to source evidence. **Practice cross-check.** Turin separates retrieved passages, metadata, testimony and generated synthesis.
 ## Claim 2
-- **Claim:** Evidential boundaries can be built into a generative workflow.
-- **Author claim:** HARF admits supported features into operational layers and leaves insufficiently evidenced features unresolved.
-- **Evidence-supported claim:** The paper describes an evidentiary boundary between reconstruction and speculation and preserves unsupported features as indeterminate. [@Arzomand2026HARFHumanAI, p. 3]
-- **Researcher inference:** A bounded archive can define what inference may responsibly establish.
-- **Warrant:** Constraint is most effective when it acts before and during generation rather than after it.
-- **Boundary:** A bounded corpus still cannot establish that evidence outside the corpus does not exist.
-- **Consequence:** Scoped missingness should be an intended output state.
-- **Practice cross-check:** Turin closure, reception and attribution cases report what the defined corpus does not establish.
 
+**Claim.** Evidential boundaries can be built into a generative workflow. **Author claim.** HARF admits supported features into operational layers and leaves insufficiently evidenced features unresolved. **Evidence.** The paper describes an evidentiary boundary between reconstruction and speculation and preserves unsupported features as indeterminate. [@Arzomand2026HARFHumanAI, p. 3] **Evidence-supported claim.** The paper describes an evidentiary boundary between reconstruction and speculation and preserves unsupported features as indeterminate. [@Arzomand2026HARFHumanAI, p. 3] **Researcher inference.** A bounded archive can define what inference may responsibly establish. **Warrant.** Constraint is most effective when it acts before and during generation rather than after it. **Boundary.** A bounded corpus still cannot establish that evidence outside the corpus does not exist. **Consequence.** Scoped missingness should be an intended output state. **Practice cross-check.** Turin closure, reception and attribution cases report what the defined corpus does not establish.
 ## Claim 3
-- **Claim:** Human expertise remains necessary even when computational measures indicate a strong result.
-- **Author claim:** The authors retain expert review because automated scores do not establish historical or cultural adequacy.
-- **Evidence-supported claim:** Some reconstructions that scored well computationally were rejected in expert review. [@Arzomand2026HARFHumanAI, p. 5]
-- **Researcher inference:** Computational consistency cannot determine whether a DDR trace warrants a historical claim.
-- **Warrant:** Encoded metrics test conformity to specified features, not the sufficiency of historical evidence as a whole.
-- **Boundary:** Expert judgement is itself situated and does not remove interpretative disagreement.
-- **Consequence:** Researcher corroboration remains constitutive of RAI.
-- **Practice cross-check:** Turin requires source reading and provenance validation before historical claims are accepted.
 
+**Claim.** Human expertise remains necessary even when computational measures indicate a strong result. **Author claim.** The authors retain expert review because automated scores do not establish historical or cultural adequacy. **Evidence.** Some reconstructions that scored well computationally were rejected in expert review. [@Arzomand2026HARFHumanAI, p. 5] **Evidence-supported claim.** Some reconstructions that scored well computationally were rejected in expert review. [@Arzomand2026HARFHumanAI, p. 5] **Researcher inference.** Computational consistency cannot determine whether a DDR trace warrants a historical claim. **Warrant.** Encoded metrics test conformity to specified features, not the sufficiency of historical evidence as a whole. **Boundary.** Expert judgement is itself situated and does not remove interpretative disagreement. **Consequence.** Researcher corroboration remains constitutive of RAI. **Practice cross-check.** Turin requires source reading and provenance validation before historical claims are accepted.
 ## Claim 4
-- **Claim:** Paradata documents interpretative intervention separately from technical provenance.
-- **Author claim:** HARF records the interpretive decisions involved in reconstruction rather than relying only on technical metadata.
-- **Evidence-supported claim:** The authors distinguish paradata that records interpretative choices from metadata describing technical provenance. [@Arzomand2026HARFHumanAI, pp. 7–8]
-- **Researcher inference:** DDR outputs need a visible distinction between where a source came from and what interpretative transformation was applied to it.
-- **Warrant:** Provenance of origin and provenance of interpretation answer different evidential questions.
-- **Boundary:** The paper develops paradata for reconstruction, not for generated historical prose.
-- **Consequence:** Thesis provenance should retain both source lineage and interpretative action.
-- **Practice cross-check:** Turin’s source chain separates archival passage, descriptive metadata and generated synthesis.
 
+**Claim.** Paradata documents interpretative intervention separately from technical provenance. **Author claim.** HARF records the interpretive decisions involved in reconstruction rather than relying only on technical metadata. **Evidence.** The authors distinguish paradata that records interpretative choices from metadata describing technical provenance. [@Arzomand2026HARFHumanAI, pp. 7–8] **Evidence-supported claim.** The authors distinguish paradata that records interpretative choices from metadata describing technical provenance. [@Arzomand2026HARFHumanAI, pp. 7–8] **Researcher inference.** DDR outputs need a visible distinction between where a source came from and what interpretative transformation was applied to it. **Warrant.** Provenance of origin and provenance of interpretation answer different evidential questions. **Boundary.** The paper develops paradata for reconstruction, not for generated historical prose. **Consequence.** Thesis provenance should retain both source lineage and interpretative action. **Practice cross-check.** Turin’s source chain separates archival passage, descriptive metadata and generated synthesis.
 ## Claim 5
-- **Claim:** A complete computational schema does not imply a complete historical record.
-- **Author claim:** The authors caution that their completeness measure concerns the encoded reconstruction schema.
-- **Evidence-supported claim:** They state that PSI measures schema completeness rather than completeness of the historical record. [@Arzomand2026HARFHumanAI, p. 10]
-- **Researcher inference:** High retrieval or metadata coverage in DDR cannot be converted into a claim that the archive itself is historically complete.
-- **Warrant:** Completeness is always relative to a defined representation and evidence surface.
-- **Boundary:** The paper does not provide an archival missingness taxonomy.
-- **Consequence:** Corpus coverage and historical completeness must remain separate claims.
-- **Practice cross-check:** Turin freezes a 27,997-chunk PID-backed corpus and scopes conclusions to that defined evidence surface.
 
+**Claim.** A complete computational schema does not imply a complete historical record. **Author claim.** The authors caution that their completeness measure concerns the encoded reconstruction schema. **Evidence.** They state that PSI measures schema completeness rather than completeness of the historical record. [@Arzomand2026HARFHumanAI, p. 10] **Evidence-supported claim.** They state that PSI measures schema completeness rather than completeness of the historical record. [@Arzomand2026HARFHumanAI, p. 10] **Researcher inference.** High retrieval or metadata coverage in DDR cannot be converted into a claim that the archive itself is historically complete. **Warrant.** Completeness is always relative to a defined representation and evidence surface. **Boundary.** The paper does not provide an archival missingness taxonomy. **Consequence.** Corpus coverage and historical completeness must remain separate claims. **Practice cross-check.** Turin freezes a 27,997-chunk PID-backed corpus and scopes conclusions to that defined evidence surface.
 ## Claim 6
-- **Claim:** Preserving indeterminacy can be a positive fidelity strategy.
-- **Author claim:** Features without sufficient evidence are intentionally left unresolved.
-- **Evidence-supported claim:** HARF retains uncertain features as indeterminate rather than filling them for visual completeness. [@Arzomand2026HARFHumanAI, p. 3]
-- **Researcher inference:** In DDR, unresolved archival relations may be more historically responsible than a smooth synthetic completion.
-- **Warrant:** Fidelity can require preservation of uncertainty where evidence stops.
-- **Boundary:** Indeterminacy does not explain why evidence is missing.
-- **Consequence:** The system should represent uncertainty as an evidential state, not an error condition.
-- **Practice cross-check:** Deterministic fallback and scoped-missingness outputs preserve unresolved relations instead of forcing synthesis.
 
+**Claim.** Preserving indeterminacy can be a positive fidelity strategy. **Author claim.** Features without sufficient evidence are intentionally left unresolved. **Evidence.** HARF retains uncertain features as indeterminate rather than filling them for visual completeness. [@Arzomand2026HARFHumanAI, p. 3] **Evidence-supported claim.** HARF retains uncertain features as indeterminate rather than filling them for visual completeness. [@Arzomand2026HARFHumanAI, p. 3] **Researcher inference.** In DDR, unresolved archival relations may be more historically responsible than a smooth synthetic completion. **Warrant.** Fidelity can require preservation of uncertainty where evidence stops. **Boundary.** Indeterminacy does not explain why evidence is missing. **Consequence.** The system should represent uncertainty as an evidential state, not an error condition. **Practice cross-check.** Deterministic fallback and scoped-missingness outputs preserve unresolved relations instead of forcing synthesis.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Evidentiary boundary:** the documented limit between features supported by available evidence and features that remain indeterminate or speculative. The authors make this explicit when uncertain aspects of the Bamiyan Buddha are left unresolved rather than reconstructed. `[@Arzomand2026HARFHumanAI, p. 3]`
