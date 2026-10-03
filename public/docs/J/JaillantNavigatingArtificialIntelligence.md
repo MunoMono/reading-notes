@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 08:52"
-last_updated: "16 Sept 2026, 12:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -27,10 +27,13 @@ model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Core text"
 project_tags:
   - "Turin"
+  - "Theoretical framework"
 literature_clusters:
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -216,7 +219,7 @@ They examine TNA’s AI-related projects in order to show how cultural heritage 
   Lise Jaillant, Katherine Aske, and Annalina Caputo, “The National Archives (UK),” in *Navigating Artificial Intelligence for Cultural Heritage Organisations* (London: UCL Press, 2025), 15–39, https://doi.org/10.14324/111.9781800088375.
 
 - **Short note form:**  
-  Jaillant, Aske, and Caputo, “The National Archives (UK),” page number.
+  Jaillant, Aske, and Caputo, “The National Archives (UK),” 19.
 
 - **One quote worth lifting:**  
   “Technology-assisted review is never going to be 100% accurate” [@JaillantNavigatingArtificialIntelligence, p. 19].
