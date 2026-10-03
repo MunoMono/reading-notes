@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ The authors respond to rapid adoption of generative image systems in cultural he
 
 They standardise generation, evaluation and analysis so that documentary justification, uncertainty, traceability and expert scrutiny become explicit parts of AI-generated heritage assessment. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–379]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Visual plausibility can diverge from historical validity.
-- **Author claim:** The authors argue that increasingly convincing generated heritage images can contain historical inaccuracies.
-- **Evidence-supported claim:** Their Corinthian-capital examples show proportional distortions, stylistic hybridisation and anachronistic details. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371]
-- **Researcher inference:** Coherent generated DDR narratives cannot be accepted on rhetorical plausibility.
-- **Warrant:** Representational polish and evidential warrant are separate properties.
-- **Boundary:** Their evidence concerns generated imagery.
-- **Consequence:** Historical claims require independent evidential checking.
-- **Practice cross-check:** Turin accepts a relationship only when cited traces support it.
 
+**Claim.** Visual plausibility can diverge from historical validity. **Author claim.** The authors argue that increasingly convincing generated heritage images can contain historical inaccuracies. **Evidence.** Their Corinthian-capital examples show proportional distortions, stylistic hybridisation and anachronistic details. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371] **Evidence-supported claim.** Their Corinthian-capital examples show proportional distortions, stylistic hybridisation and anachronistic details. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371] **Researcher inference.** Coherent generated DDR narratives cannot be accepted on rhetorical plausibility. **Warrant.** Representational polish and evidential warrant are separate properties. **Boundary.** Their evidence concerns generated imagery. **Consequence.** Historical claims require independent evidential checking. **Practice cross-check.** Turin accepts a relationship only when cited traces support it.
 ## Claim 2
-- **Claim:** Historical rigour requires explicit source identification.
-- **Author claim:** Source identification is one element of their historical-rigour parameter.
-- **Evidence-supported claim:** The protocol requires identifiable evidence rather than untraceable generative reference. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
-- **Researcher inference:** DDR outputs must retain source identity at passage/document level.
-- **Warrant:** A claim cannot be evaluated historically if its basis cannot be located.
-- **Boundary:** Identification alone does not establish relevance or support.
-- **Consequence:** Source identity must be paired with claim-level warrant.
-- **Practice cross-check:** Turin exposes cited passages and record metadata.
 
+**Claim.** Historical rigour requires explicit source identification. **Author claim.** Source identification is one element of their historical-rigour parameter. **Evidence.** The protocol requires identifiable evidence rather than untraceable generative reference. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Evidence-supported claim.** The protocol requires identifiable evidence rather than untraceable generative reference. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Researcher inference.** DDR outputs must retain source identity at passage/document level. **Warrant.** A claim cannot be evaluated historically if its basis cannot be located. **Boundary.** Identification alone does not establish relevance or support. **Consequence.** Source identity must be paired with claim-level warrant. **Practice cross-check.** Turin exposes cited passages and record metadata.
 ## Claim 3
-- **Claim:** Documentary justification is part of historical validity.
-- **Author claim:** The protocol requires documentary justification in addition to visual plausibility.
-- **Evidence-supported claim:** Historical rigour is defined through source identification, documentary justification and interpretive certainty. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
-- **Researcher inference:** DDR synthesis must explain why particular traces warrant the proposed relation.
-- **Warrant:** Provenance without justification can still leave the inferential step opaque.
-- **Boundary:** The paper does not supply a textual argumentation model.
-- **Consequence:** The thesis should distinguish citation from warrant.
-- **Practice cross-check:** Turin evidence routes should state how retrieved passages support or fail to support a claim.
 
+**Claim.** Documentary justification is part of historical validity. **Author claim.** The protocol requires documentary justification in addition to visual plausibility. **Evidence.** Historical rigour is defined through source identification, documentary justification and interpretive certainty. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Evidence-supported claim.** Historical rigour is defined through source identification, documentary justification and interpretive certainty. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Researcher inference.** DDR synthesis must explain why particular traces warrant the proposed relation. **Warrant.** Provenance without justification can still leave the inferential step opaque. **Boundary.** The paper does not supply a textual argumentation model. **Consequence.** The thesis should distinguish citation from warrant. **Practice cross-check.** Turin evidence routes should state how retrieved passages support or fail to support a claim.
 ## Claim 4
-- **Claim:** Historical uncertainty should be represented explicitly.
-- **Author claim:** The protocol includes explicit levels of interpretive certainty.
-- **Evidence-supported claim:** Certainty is part of the proposed historical-rigour dimension. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
-- **Researcher inference:** DDR outputs should preserve qualification, contradiction and scoped missingness.
-- **Warrant:** Suppressing uncertainty makes generated heritage appear more settled than the evidence warrants.
-- **Boundary:** A certainty label can create false precision if treated numerically.
-- **Consequence:** Use qualitative evidential states rather than pseudo-exact confidence scores.
-- **Practice cross-check:** Turin separates supported, qualified, conflicting and unestablished outcomes.
 
+**Claim.** Historical uncertainty should be represented explicitly. **Author claim.** The protocol includes explicit levels of interpretive certainty. **Evidence.** Certainty is part of the proposed historical-rigour dimension. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Evidence-supported claim.** Certainty is part of the proposed historical-rigour dimension. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Researcher inference.** DDR outputs should preserve qualification, contradiction and scoped missingness. **Warrant.** Suppressing uncertainty makes generated heritage appear more settled than the evidence warrants. **Boundary.** A certainty label can create false precision if treated numerically. **Consequence.** Use qualitative evidential states rather than pseudo-exact confidence scores. **Practice cross-check.** Turin separates supported, qualified, conflicting and unestablished outcomes.
 ## Claim 5
-- **Claim:** Traceability includes methods, metadata and paradata.
-- **Author claim:** The protocol requires transparency and traceability through documented production and evaluation processes.
-- **Evidence-supported claim:** Methods, metadata and paradata are named as components of traceability. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
-- **Researcher inference:** DDR provenance should include both source lineage and interpretative/computational transformations.
-- **Warrant:** Historical accountability depends on reconstructing how an output was produced.
-- **Boundary:** Traceability does not guarantee that a transformation was epistemically appropriate.
-- **Consequence:** Provenance records should be inspectable but still subject to judgement.
-- **Practice cross-check:** Turin separates archival source, retrieved passage, synthesis action and provenance metadata.
 
+**Claim.** Traceability includes methods, metadata and paradata. **Author claim.** The protocol requires transparency and traceability through documented production and evaluation processes. **Evidence.** Methods, metadata and paradata are named as components of traceability. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Evidence-supported claim.** Methods, metadata and paradata are named as components of traceability. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375] **Researcher inference.** DDR provenance should include both source lineage and interpretative/computational transformations. **Warrant.** Historical accountability depends on reconstructing how an output was produced. **Boundary.** Traceability does not guarantee that a transformation was epistemically appropriate. **Consequence.** Provenance records should be inspectable but still subject to judgement. **Practice cross-check.** Turin separates archival source, retrieved passage, synthesis action and provenance metadata.
 ## Claim 6
-- **Claim:** Automated evaluation should remain secondary to expert historical judgement.
-- **Author claim:** The proposed Evaluation phase places interdisciplinary expert assessment alongside multimodal AI review and explicitly says automation does not replace expert input.
-- **Evidence-supported claim:** Expert and digital evaluation appear in parallel before statistical and thematic analysis. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376, 379]
-- **Researcher inference:** DDR model-assisted checking can surface inconsistency but cannot independently adjudicate historical truth.
-- **Warrant:** A generative system cannot become an independent authority merely by evaluating another generated output.
-- **Boundary:** The protocol itself is proposed rather than empirically validated.
-- **Consequence:** Researcher judgement remains the final interpretative control.
-- **Practice cross-check:** Turin requires researcher review of chronology, provenance and quotation before accepting synthesis.
 
+**Claim.** Automated evaluation should remain secondary to expert historical judgement. **Author claim.** The proposed Evaluation phase places interdisciplinary expert assessment alongside multimodal AI review and explicitly says automation does not replace expert input. **Evidence.** Expert and digital evaluation appear in parallel before statistical and thematic analysis. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376, 379] **Evidence-supported claim.** Expert and digital evaluation appear in parallel before statistical and thematic analysis. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376, 379] **Researcher inference.** DDR model-assisted checking can surface inconsistency but cannot independently adjudicate historical truth. **Warrant.** A generative system cannot become an independent authority merely by evaluating another generated output. **Boundary.** The protocol itself is proposed rather than empirically validated. **Consequence.** Researcher judgement remains the final interpretative control. **Practice cross-check.** Turin requires researcher review of chronology, provenance and quotation before accepting synthesis.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Historical veracity:** the degree to which generated heritage content corresponds to historically defensible forms, contexts and documentary evidence rather than merely appearing plausible. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–375]`
