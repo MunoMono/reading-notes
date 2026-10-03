@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,14 +25,22 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Context / supporting"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "07 Interface authority, ranking and retrieval bias"
   - "09 Human judgement and practice-led computational research"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -46,67 +54,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Qian and Wexler show that perceived usefulness, stated trust and actual reliance can diverge in human–AI work. This supports researcher-in-the-loop DDR interpretation as an active verification practice rather than a nominal human oversight stage.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It cautions against allowing contemporary AI convenience to stand in for rigorous re-engagement with historical DDR evidence.
 
-**Why I’m reading this now (1 sentence):**  
-I need empirical evidence about how expertise, task type and conversational AI affect human judgement, especially where users may rely on generated output despite recognising that the system is fallible.
+**Where it sits in my argument:** Critical computational approaches / operational literature, especially appropriate reliance and human judgement.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin argument for researcher-in-the-loop interpretation. It helps establish that access to AI does not uniformly improve judgement and that user confidence, perceived efficiency and actual performance can diverge.
+**My benchmark for using it:** Use for behavioural evidence about reliance, effort substitution and expertise; do not generalise programming-task outcomes directly to archival interpretation.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *appropriate reliance* rather than *trust* as the primary design objective. The methodological requirement is that researchers accept useful AI assistance and reject unsupported or misleading output in proportion to its evidential quality.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use Qian and Wexler where I need behavioural evidence that human judgement remains necessary and that apparent confidence or convenience can encourage overreliance. Do not generalise programming-task performance directly to archival interpretation.
+Qian and Wexler study 76 software engineers using Bard and conventional documentation during a programming-language assessment, comparing observed behaviour with self-reported trust and productivity. [@Qian2024TakeItLeave, pp. 373–379]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Qian and Wexler write from human–computer interaction and Google Research at the beginning of widespread professional adoption of conversational generative AI. Their mixed-methods study observes 76 software engineers completing a programming-language assessment with Bard and conventional documentation. The study is valuable because it compares demonstrated behaviour with users’ own perceptions of trust, productivity and efficiency rather than treating self-report as equivalent to actual reliance.
+They measure how conversational AI changes behaviour, perceived productivity and trust across task types and expertise levels. [@Qian2024TakeItLeave, pp. 373–379]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-Human oversight should not be assumed to provide an automatic safeguard against AI error. Users may delegate cognitive effort, seek confirmation or increasingly depend on generated advice even when experience has given them reasons to distrust it.
-
-# The author’s main move (1 sentence)
-
-They try to measure the effects of conversational AI on productivity and trust by comparing how software engineers actually use, accept, reject and revise AI advice across task types and levels of expertise.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Users can feel more productive and efficient with conversational AI even when measured efficiency does not improve.
-- **Evidence (quote/paraphrase + page):** Participants spent significantly more time using Bard than conventional resources, particularly on solve-type questions, yet reported that Bard made them faster, reduced mental effort and reduced time spent searching for information. `[@Qian2024TakeItLeave, pp. 374–375]` Table 2 on p. 374 makes the divergence particularly clear: perceived productivity and reduced cognitive effort increased despite the measured time cost.
-- **Warrant (my words):** Ease of interaction and reduced cognitive effort can be experienced as productivity independently of objective task performance. Perceived usefulness is therefore an unreliable proxy for epistemic quality.
-- **So what for my thesis (a reusable sentence):** The apparent fluency and convenience of AI-mediated archival research should not be treated as evidence that the resulting interpretation is more efficient, accurate or methodologically sound.
-- **Practice cross-check:** Turin: a fluent research answer may feel faster and more useful than manually examining multiple DDR sources, but citation, provenance and researcher validation remain necessary before that synthesis is accepted.
+- **Claim:** Perceived productivity can diverge from measured efficiency.
+- **Author claim:** Participants reported feeling faster and less cognitively burdened with Bard.
+- **Evidence-supported claim:** They often spent more time using Bard than conventional resources despite reporting reduced effort and search time. [@Qian2024TakeItLeave, pp. 374–375]
+- **Researcher inference:** Fluency and convenience in DDR should not be treated as evidence of methodological efficiency or quality.
+- **Warrant:** Subjective ease and objective task performance are different outcomes.
+- **Boundary:** Programming assessment tasks differ from archival research.
+- **Consequence:** Turin evaluation should include evidential quality, not only user satisfaction.
+- **Practice cross-check:** Generated answers should still require citation and provenance checking.
 
 ## Claim 2
-
-- **Claim (plain):** Human users can increasingly depend on AI even while becoming less trusting of it.
-- **Evidence (quote/paraphrase + page):** Participants increasingly relied on Bard as the exam progressed, particularly novices, even though post-task self-reports showed significantly reduced trust in the system. `[@Qian2024TakeItLeave, pp. 375–376]` The authors describe this mismatch between demonstrated and perceived behaviour as evidence that users are not fully cognisant of their interaction with the system. Table 6 on p. 379 summarises the result as increasing dependence despite susceptibility to inappropriate trust.
-- **Warrant (my words):** Self-reported scepticism does not guarantee cautious behaviour. Repeated exposure, convenience and cognitive delegation can produce reliance even when users consciously recognise system limitations.
-- **So what for my thesis:** Researcher-in-the-loop design must support observable verification behaviours rather than assuming that critical awareness alone will prevent overreliance on AI-mediated interpretation.
-- **Practice cross-check:** Turin interface: requiring access to source passages, preserving provenance and making evidential limits explicit gives the researcher concrete opportunities to verify or reject generated synthesis rather than relying on a general instruction to remain critical.
+- **Claim:** Reduced cognitive effort can encourage effort substitution.
+- **Author claim:** Participants delegated more search and problem-solving work to the AI.
+- **Evidence-supported claim:** The authors connect lower perceived effort with greater use of Bard during tasks. [@Qian2024TakeItLeave, pp. 374, 377]
+- **Researcher inference:** Frictionless archival synthesis can discourage direct source inspection.
+- **Warrant:** Convenience changes how much active reasoning the user performs.
+- **Boundary:** Lower effort is not inherently harmful when the delegated task is reliable.
+- **Consequence:** DDR interfaces should retain productive friction around evidential checking.
+- **Practice cross-check:** Turin should make passage inspection easy but still explicit.
 
 ## Claim 3
+- **Claim:** Reported distrust does not guarantee cautious behaviour.
+- **Author claim:** Participants increasingly relied on Bard despite reporting lower trust after the task.
+- **Evidence-supported claim:** Demonstrated dependence rose while self-reported trust declined. [@Qian2024TakeItLeave, pp. 375–376]
+- **Researcher inference:** Critical awareness alone is not a sufficient safeguard against AI overreliance.
+- **Warrant:** Stated attitude and observed behaviour can diverge.
+- **Boundary:** Reliance patterns may change in expert historical work.
+- **Consequence:** Evaluation should measure verification behaviour, not just trust ratings.
+- **Practice cross-check:** Turin UAT should record whether users inspect sources before accepting a relation.
 
-- **Claim (plain):** Expertise changes how people use AI, but expertise does not eliminate susceptibility to misleading advice.
-- **Evidence (quote/paraphrase + page):** Experts were more likely than novices to distrust Bard and rely on conventional documentation, particularly for search-type questions. However, participants across expertise levels were equally likely to be led astray and incorrectly trust Bard, and both experts and novices sometimes changed correct answers to incorrect answers after consulting the AI. `[@Qian2024TakeItLeave, pp. 373, 375–376]` The authors consequently recommend designing for “appropriate trust, not greater trust”. `[@Qian2024TakeItLeave, p. 378]`
-- **Warrant (my words):** Domain expertise improves some decisions about when to reject automation but does not make the expert immune to confident or confirmatory machine output.
-- **So what for my thesis:** Expert researcher oversight remains essential but should itself be supported by evidentially transparent system design; expertise should not be treated as a sufficient safeguard against generated overreach.
-- **Practice cross-check:** Turin: the historian or researcher retains interpretative authority, while citations, source previews, uncertainty and scoped missingness provide concrete evidence against which AI-generated relationships can be tested.
+## Claim 4
+- **Claim:** Expertise changes reliance patterns.
+- **Author claim:** Experts were more likely than novices to use conventional documentation and distrust Bard in some task types.
+- **Evidence-supported claim:** Expertise affected resource choice, especially for search-oriented questions. [@Qian2024TakeItLeave, pp. 373, 375–376]
+- **Researcher inference:** Researcher expertise matters to how DDR AI support is used.
+- **Warrant:** Prior knowledge changes when users seek or reject automation.
+- **Boundary:** Expertise effects were task-specific rather than uniform.
+- **Consequence:** One interaction design may not suit all research tasks.
+- **Practice cross-check:** Turin should distinguish direct source lookup from interpretative synthesis.
+
+## Claim 5
+- **Claim:** Expertise does not eliminate susceptibility to misleading AI.
+- **Author claim:** Both experts and novices could be led astray.
+- **Evidence-supported claim:** Participants at different expertise levels sometimes changed correct answers to incorrect ones after consulting Bard. [@Qian2024TakeItLeave, pp. 375–376]
+- **Researcher inference:** Expert oversight must itself be supported by evidence transparency.
+- **Warrant:** Domain knowledge reduces some risks without eliminating automation influence.
+- **Boundary:** The magnitude of this effect may differ in archival research.
+- **Consequence:** Provenance should support rejection as well as acceptance.
+- **Practice cross-check:** Turin source previews should make it easy to contest generated synthesis.
+
+## Claim 6
+- **Claim:** Appropriate reliance is a better objective than greater trust.
+- **Author claim:** The authors explicitly recommend designing for appropriate trust.
+- **Evidence-supported claim:** Their conclusion distinguishes correct use of useful assistance from indiscriminate confidence. [@Qian2024TakeItLeave, p. 378]
+- **Researcher inference:** DDR should aim for evidence-proportionate reliance rather than persuasive confidence.
+- **Warrant:** Trust is useful only when calibrated to output quality.
+- **Boundary:** Appropriate reliance remains difficult to measure in contested interpretation.
+- **Consequence:** UAT should reward acceptance of supported outputs and rejection of unsupported ones.
+- **Practice cross-check:** Turin can test whether users preserve uncertainty and reject unwarranted claims.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +177,10 @@ They try to measure the effects of conversational AI on productivity and trust b
 
 - **Boundary (1 sentence):** The experiment concerns 76 software engineers completing a short Java assessment with Bard, so its behavioural findings cannot be assumed to transfer directly to expert historical research or sustained archival interpretation.
 - **Risk if misused (1 sentence):** Treating the study as evidence that AI necessarily reduces expert performance would overstate the results: effects varied substantially by expertise and task type, and AI improved novice performance on some open-ended questions.
+
+# Cross-source / cross-lens synthesis
+
+Qian and Wexler complicate the simple idea that a human in the loop is enough. Read with Carl and Cho, effective oversight requires concrete access to evidence; read with Grimes and Xu, user attitudes and behaviour can diverge from system reality. For DDR, appropriate reliance therefore means designing the interface so researchers can verify, reject and qualify AI-mediated interpretations rather than merely remain nominally responsible for them.
 
 # Methods spine tags (tick what it actually touches)
 
