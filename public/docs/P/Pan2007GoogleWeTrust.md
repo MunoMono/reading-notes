@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,13 +25,21 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Context / supporting"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Canon + intellectual lineage"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "07 Interface authority, ranking and retrieval bias"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -45,67 +53,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** How organisation choices reveal or hide contested knowledge
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Pan et al. provide foundational experimental evidence that displayed rank affects attention and selection independently of underlying relevance. This makes ranking part of the epistemic conditions through which DDR traces become visible.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It cautions against treating contemporary search or semantic ranking as a neutral route to historically important DDR ideas.
 
-**Why I’m reading this now (1 sentence):**  
-I need foundational empirical evidence that the ordering of retrieved results influences what users inspect and select independently of the underlying relevance of those results.
+**Where it sits in my argument:** Critical computational approaches / canon + intellectual lineage, especially ranking bias and interface authority.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin discussion of interface authority. It supports the argument that ranking is not merely a technical retrieval operation: result position influences attention and selection and therefore helps constitute the evidential field presented to the researcher.
+**My benchmark for using it:** Use as foundational evidence of position effects; pair with contemporary retrieval literature before making claims about present-day RAG or expert archival use.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *position bias* for the demonstrated tendency to privilege highly displayed results independently of judged relevance. I use *interface authority* for the wider archival consequence: visual and ranking arrangements can cause computational order to be read as evidential significance.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use Pan et al. as foundational evidence that displayed rank alters attention and choice. Do not generalise directly from 2007 Google search behaviour to contemporary RAG interfaces without pairing it with later information-retrieval and provenance studies.
+Pan et al. write across HCI, information retrieval, communication and machine learning in the period when ranked web search was becoming ordinary information infrastructure. Their experiment deliberately reorders Google results to separate displayed position from judged relevance. [@Pan2007GoogleWeTrust, pp. 805–816]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Pan et al. write across human–computer interaction, information retrieval, communication and machine learning during the period when ranked Web search was becoming an ordinary information-access infrastructure. Their eye-tracking experiment deliberately manipulates Google result order to distinguish the effects of displayed position from human-judged relevance. The study therefore provides early behavioural evidence that ranked interfaces shape users’ judgements rather than simply reflecting relevance back to them.
+They isolate position effects by manipulating result order and measuring gaze, scrutiny and click behaviour. [@Pan2007GoogleWeTrust, pp. 806–818]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-The paper treats Google search as a ranked-list interface in which users ultimately choose a document to inspect. Contemporary retrieval-augmented systems can hide this ranking behind a generated synthesis, making selection effects potentially less visible because users may never see the excluded or lower-ranked evidence.
-
-# The author’s main move (1 sentence)
-
-They try to isolate the influence of displayed rank from intrinsic relevance by experimentally reordering Google search results and measuring users’ gaze, scrutiny and click behaviour.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Display position independently influences which retrieved results users select.
-- **Evidence (quote/paraphrase + page):** The researchers manipulated Google results into Normal, Swapped and Reversed conditions while retaining the same underlying documents. In the Swapped condition, participants clicked the item displayed first almost three times as often as Google's genuinely top-ranked result after it had been moved into second position. `[@Pan2007GoogleWeTrust, pp. 806–815]` Figure 3 on p. 814 shows the steep concentration of both views and clicks towards the top displayed positions across all three conditions.
-- **Warrant (my words):** Because the underlying relevance ranking was deliberately decoupled from visual position, the resulting change in selection demonstrates that interface order itself contributes to perceived relevance and choice.
-- **So what for my thesis (a reusable sentence):** The ordering of retrieved archival traces is epistemically consequential because position influences which evidence users inspect and select independently of the evidence's underlying relevance.
-- **Practice cross-check:** Turin Semantic Atlas and Sources Integration: top-k ranking, nearest-neighbour order and evidence-panel position can privilege particular DDR documents or actors before any explicit historical judgement has been made.
+- **Claim:** Display position independently influences result selection.
+- **Author claim:** Users disproportionately choose highly displayed results even when relevance is experimentally decoupled from position.
+- **Evidence-supported claim:** In the swapped condition, the item shown first was clicked nearly three times as often as Google's original top result after it moved to second position. [@Pan2007GoogleWeTrust, pp. 806–815]
+- **Researcher inference:** Top-ranked DDR traces can acquire interpretative priority before historical judgement.
+- **Warrant:** The evidence set is unchanged while choice changes with position.
+- **Boundary:** Web search is not archival research.
+- **Consequence:** Rank order should be treated as a methodological intervention.
+- **Practice cross-check:** Turin top-k and nearest-neighbour displays should not imply historical importance.
 
 ## Claim 2
-
-- **Claim (plain):** Users may recognise that retrieval quality has deteriorated yet still remain strongly influenced by ranking.
-- **Evidence (quote/paraphrase + page):** Participants in the Reversed condition spent longer examining results, made more fixations, inspected more abstracts and returned to previously viewed results more often than participants in the Normal condition. `[@Pan2007GoogleWeTrust, pp. 812–813]` Yet their task success fell to 62%, compared with 85% in the Normal condition, and they continued to select highly positioned abstracts disproportionately. `[@Pan2007GoogleWeTrust, pp. 812–816]`
-- **Warrant (my words):** Increased scrutiny does not necessarily overcome positional authority. Users can detect that something is wrong while still allowing interface order to structure their eventual choices.
-- **So what for my thesis:** Researcher awareness of computational uncertainty cannot be assumed to neutralise ranking effects; evidence ordering itself should therefore be treated as a methodological design decision.
-- **Practice cross-check:** Turin UAT should test whether researchers continue to privilege the first or nearest semantic result when lower-ranked traces provide stronger, contradictory or more historically specific evidence.
+- **Claim:** Visual rank concentrates attention as well as clicks.
+- **Author claim:** Higher positions receive disproportionate views and scrutiny.
+- **Evidence-supported claim:** Figure 3 shows strong concentration of views and clicks toward the top across conditions. [@Pan2007GoogleWeTrust, p. 814]
+- **Researcher inference:** Semantic result order shapes which DDR evidence enters the user's active evidential field.
+- **Warrant:** Attention allocation affects what evidence is encountered and compared.
+- **Boundary:** Eye-tracking patterns vary by interface and task.
+- **Consequence:** Retrieval evaluation should consider exposure, not only relevance scores.
+- **Practice cross-check:** Turin can compare which records remain visible under changes to k and ranking.
 
 ## Claim 3
+- **Claim:** Users can detect poor rankings without fully overcoming position bias.
+- **Author claim:** Reversed rankings trigger more scrutiny but still impair performance.
+- **Evidence-supported claim:** Participants inspected more results and revisited items more often in the reversed condition, yet task success fell and high positions remained influential. [@Pan2007GoogleWeTrust, pp. 812–816]
+- **Researcher inference:** Researcher awareness of computational mediation does not automatically neutralise interface authority.
+- **Warrant:** More scrutiny and less bias are not equivalent outcomes.
+- **Boundary:** The study involved highly Google-familiar undergraduates.
+- **Consequence:** Critical literacy should be supported structurally, not assumed.
+- **Practice cross-check:** Turin should expose similarity scores/provenance and allow comparative views beyond ranked lists.
 
-- **Claim (plain):** Ranking can create feedback loops in which already-visible information becomes still more prominent.
-- **Evidence (quote/paraphrase + page):** Pan et al. connect users' reliance on ranked position to wider concerns about unequal information visibility, arguing that ranking algorithms and user trust can reinforce one another so that already prominent sites receive further attention. `[@Pan2007GoogleWeTrust, pp. 817–818]` They consequently suggest making ranking mechanisms and relationships between results more visible to users. `[@Pan2007GoogleWeTrust, p. 818]`
-- **Warrant (my words):** Ranked retrieval does not only respond to an information environment; user behaviour can reinforce the prominence created by ranking. In archival systems, computational prominence can similarly compound pre-existing visibility produced by appraisal, description and digitisation.
-- **So what for my thesis:** Computational retrieval can reproduce or amplify archival prominence, so surfacing contested design knowledge requires attention to how ranking may repeatedly foreground already-visible actors and records.
-- **Practice cross-check:** DDR feminist critique and Semantic Atlas: test whether highly documented or institutionally prominent actors consistently dominate semantic neighbourhoods while less-described labour, students or marginal voices remain peripheral.
+## Claim 4
+- **Claim:** Rank communicates an implicit judgement of relevance.
+- **Author claim:** Users appear to infer quality from Google's ordering.
+- **Evidence-supported claim:** Selection patterns persist even where experimentally manipulated order conflicts with independently judged relevance. [@Pan2007GoogleWeTrust, pp. 814–816]
+- **Researcher inference:** A numbered semantic ranking may be read as evidential strength even when it only expresses vector proximity.
+- **Warrant:** Interface order carries semantic authority beyond the retrieval calculation.
+- **Boundary:** The paper studies branded Google search, where prior trust may intensify the effect.
+- **Consequence:** DDR interfaces should label ranking semantics explicitly.
+- **Practice cross-check:** Semantic proximity should be described as computational similarity, not historical significance.
+
+## Claim 5
+- **Claim:** Ranking can create a feedback loop between visibility and future attention.
+- **Author claim:** The paper discusses how privileged position can reinforce itself through user behaviour and click data.
+- **Evidence-supported claim:** The authors connect position-driven selection to the wider dynamics of search visibility. [@Pan2007GoogleWeTrust, pp. 816–818]
+- **Researcher inference:** Metadata-rich or frequently retrieved DDR records could become increasingly dominant in exploratory research.
+- **Warrant:** Visibility influences use, and use can influence later system or researcher choices.
+- **Boundary:** The DDR research instrument does not necessarily retrain ranking from clicks.
+- **Consequence:** Repeated prominence should not be mistaken for historical centrality.
+- **Practice cross-check:** Turin should compare recurring top results against metadata density and corpus structure.
+
+## Claim 6
+- **Claim:** Position bias can be tested by deliberate perturbation.
+- **Author claim:** The experiment's methodological contribution is to manipulate ranking while holding documents constant.
+- **Evidence-supported claim:** Normal, swapped and reversed conditions separate interface order from underlying document relevance. [@Pan2007GoogleWeTrust, pp. 806–815]
+- **Researcher inference:** DDR semantic interfaces can use rank perturbation as a robustness test.
+- **Warrant:** Controlled reordering exposes whether interpretation depends on display order.
+- **Boundary:** Historical inquiry also contains legitimate ordering by chronology or provenance.
+- **Consequence:** UAT should vary arbitrary rank while preserving meaningful historical sequence.
+- **Practice cross-check:** Turin can perturb top-k/display order and record whether the same actors and relationships remain dominant.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -143,6 +176,10 @@ They try to isolate the influence of displayed rank from intrinsic relevance by 
 
 - **Boundary (1 sentence):** The study uses 16 complete datasets from highly Google-familiar Cornell undergraduates in a 2007 Web-search environment, so it establishes a foundational position effect rather than contemporary behaviour in expert archival or generative-AI systems.
 - **Risk if misused (1 sentence):** Treating Pan et al. as evidence that users blindly obey algorithmic rankings would overstate their findings: participants increased scrutiny when rankings deteriorated, even though that scrutiny did not fully overcome the effect of position.
+
+# Cross-source / cross-lens synthesis
+
+Pan et al. provide a foundational mechanism for interface authority: rank affects attention and selection independently of relevance. Read with Bernard and Balog, this becomes a contemporary fairness and exposure problem; read with Boyd Davis, it becomes a humanities trust problem. For DDR, semantic similarity and display position must therefore remain visibly distinct from historical importance, and ranking sensitivity should be tested rather than assumed neutral.
 
 # Methods spine tags (tick what it actually touches)
 
