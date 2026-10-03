@@ -8,10 +8,11 @@ doi: "10.1038/s41586-025-10072-4"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-last_updated: "01 Oct 2026"
+last_updated: "03 Oct 2026"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
+project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate testamentary traces of contested design knowledge, and to test what from that period should be revisited for design and design research today."
 model_title: "Mobilising contested design knowledge in the DDR archive"
 model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
@@ -26,12 +27,27 @@ theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "c"
 literature_cluster: "Contemporary bridge literature"
 zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
+north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 ---
+
+# Constraints (anti-bloat / anti-hallucination)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
 **How this source moves the primary research question forward:** Asai et al. show that retrieval, reranking, iterative feedback, further retrieval and citation checking can be separate stages in an inference-time synthesis pipeline. This gives the DDR project direct support for describing retrieval as evidential input to a subsequent inference process rather than as a guarantee of interpretation.
+
+**How this source bears on the secondary question:** It provides a disciplined contemporary method for revisiting bodies of knowledge through retrieval and synthesis while keeping evidence retrieval, generated interpretation and citation support analytically separable.
 
 **Where it sits in my argument:** S3.3 retrieval-augmented inference and the Turin methodological framing.
 
@@ -45,74 +61,26 @@ Asai et al. address scientific literature synthesis with OpenScholar, an open re
 
 They extend one-step retrieval-augmented generation into a staged inference pipeline in which retrieved evidence is ranked, synthesized, critiqued, supplemented by further retrieval and checked for citation support. [@asaiSynthesizingScientificLiterature2026, pp. 857–865]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Retrieval-augmented inference can contain distinct stages beyond retrieve-then-generate.
-- **Author claim:** OpenScholar combines retrieval, reranking, generation, self-feedback, further retrieval and citation checking.
-- **Evidence-supported claim:** The system description and Methods distinguish standard RAG from a multi-step inference pipeline. [@asaiSynthesizingScientificLiterature2026, pp. 857–859, 864–865]
-- **Researcher inference:** Retrieved passages can function as evidence within a staged inference process rather than merely as prompt context.
-- **Evidence (quote/paraphrase + page):** The Methods describe initial generation, feedback, optional additional retrieval, iterative revision and a final citation-support check. [@asaiSynthesizingScientificLiterature2026, pp. 864–865]
-- **Warrant (my words):** Retrieval and interpretation are separable operations.
-- **Boundary:** The task is scientific synthesis, not archival history.
-- **Consequence:** Describe DDR RAI as staged evidence handling rather than one-step generation.
-- **Practice cross-check:** DDR retrieves evidence before synthesis and can stop at bounded evidence when interpretation is not warranted.
 
+**Claim.** Retrieval-augmented inference can contain distinct stages beyond retrieve-then-generate. **Author claim.** OpenScholar combines retrieval, reranking, generation, self-feedback, further retrieval and citation checking. **Evidence.** The system description and Methods distinguish standard RAG from a multi-step inference pipeline. [@asaiSynthesizingScientificLiterature2026, pp. 857–859, 864–865] **Evidence-supported claim.** The system description and Methods distinguish standard RAG from a multi-step inference pipeline. [@asaiSynthesizingScientificLiterature2026, pp. 857–859, 864–865] **Researcher inference.** Retrieved passages can function as evidence within a staged inference process rather than merely as prompt context. **Warrant.** Retrieval and interpretation are separable operations. **Boundary.** The task is scientific synthesis, not archival history. **Consequence.** Describe DDR RAI as staged evidence handling rather than one-step generation. **Practice cross-check.** DDR retrieves evidence before synthesis and can stop at bounded evidence when interpretation is not warranted.
 ## Claim 2
-- **Claim (plain):** Retrieval quality and reranking materially affect the final answer.
-- **Author claim:** Domain-specialized retrieval and reranking are core parts of OpenScholar.
-- **Evidence-supported claim:** Ablations show lower correctness and citation accuracy when reranking or retrieval components are removed. [@asaiSynthesizingScientificLiterature2026, p. 860]
-- **Researcher inference:** Retrieval is an epistemic bottleneck because unseen evidence cannot constrain later synthesis.
-- **Evidence (quote/paraphrase + page):** The paper reports measurable losses when retrieval and reranking components are weakened. [@asaiSynthesizingScientificLiterature2026, p. 860]
-- **Warrant (my words):** The evidence surface shapes the answer space.
-- **Boundary:** Benchmark effects do not transfer numerically to DDR.
-- **Consequence:** Evaluate DDR retrieval separately from prose quality.
-- **Practice cross-check:** UAT first asks whether relevant traces were retrieved before judging synthesis.
 
+**Claim.** Retrieval quality and reranking materially affect the final answer. **Author claim.** Domain-specialized retrieval and reranking are core parts of OpenScholar. **Evidence.** Ablations show lower correctness and citation accuracy when reranking or retrieval components are removed. [@asaiSynthesizingScientificLiterature2026, p. 860] **Evidence-supported claim.** Ablations show lower correctness and citation accuracy when reranking or retrieval components are removed. [@asaiSynthesizingScientificLiterature2026, p. 860] **Researcher inference.** Retrieval is an epistemic bottleneck because unseen evidence cannot constrain later synthesis. **Warrant.** The evidence surface shapes the answer space. **Boundary.** Benchmark effects do not transfer numerically to DDR. **Consequence.** Evaluate DDR retrieval separately from prose quality. **Practice cross-check.** UAT first asks whether relevant traces were retrieved before judging synthesis.
 ## Claim 3
-- **Claim (plain):** More retrieved context is not automatically better.
-- **Author claim:** The authors test passage-count and retrieval variants rather than assuming context quantity improves performance.
-- **Evidence-supported claim:** Their ablations show that adding more passages can reduce correctness and citation accuracy. [@asaiSynthesizingScientificLiterature2026, p. 860]
-- **Researcher inference:** Evidence selection requires precision and boundedness, not maximal context accumulation.
-- **Evidence (quote/paraphrase + page):** Increasing retrieved material sometimes degrades performance rather than improving it. [@asaiSynthesizingScientificLiterature2026, p. 860]
-- **Warrant (my words):** Additional context can introduce noise and competing evidence.
-- **Boundary:** The optimal passage count is task-specific.
-- **Consequence:** Keep DDR retrieval scoped to the question and evidence route.
-- **Practice cross-check:** Known-relationship, contested-interpretation and missingness routes use different bounded retrieval behaviours.
 
+**Claim.** More retrieved context is not automatically better. **Author claim.** The authors test passage-count and retrieval variants rather than assuming context quantity improves performance. **Evidence.** Their ablations show that adding more passages can reduce correctness and citation accuracy. [@asaiSynthesizingScientificLiterature2026, p. 860] **Evidence-supported claim.** Their ablations show that adding more passages can reduce correctness and citation accuracy. [@asaiSynthesizingScientificLiterature2026, p. 860] **Researcher inference.** Evidence selection requires precision and boundedness, not maximal context accumulation. **Warrant.** Additional context can introduce noise and competing evidence. **Boundary.** The optimal passage count is task-specific. **Consequence.** Keep DDR retrieval scoped to the question and evidence route. **Practice cross-check.** Known-relationship, contested-interpretation and missingness routes use different bounded retrieval behaviours.
 ## Claim 4
-- **Claim (plain):** Citation quality must be evaluated independently from answer fluency.
-- **Author claim:** OpenScholar evaluates whether references genuinely support generated claims.
-- **Evidence-supported claim:** The paper separates correctness from citation accuracy and reports substantial gains from retrieval-grounded citation handling. [@asaiSynthesizingScientificLiterature2026, pp. 857, 859–860]
-- **Researcher inference:** A citation marker is not itself provenance; support must be inspectable.
-- **Evidence (quote/paraphrase + page):** The benchmark checks whether cited papers support the statements to which they are attached. [@asaiSynthesizingScientificLiterature2026, pp. 859–860]
-- **Warrant (my words):** Scholarly claims require traceable evidential support.
-- **Boundary:** OpenScholar's checking is still model-mediated.
-- **Consequence:** Bind DDR claims to source passages and document records.
-- **Practice cross-check:** DDR source cards expose the passage and PID-backed record behind a claim.
 
+**Claim.** Citation quality must be evaluated independently from answer fluency. **Author claim.** OpenScholar evaluates whether references genuinely support generated claims. **Evidence.** The paper separates correctness from citation accuracy and reports substantial gains from retrieval-grounded citation handling. [@asaiSynthesizingScientificLiterature2026, pp. 857, 859–860] **Evidence-supported claim.** The paper separates correctness from citation accuracy and reports substantial gains from retrieval-grounded citation handling. [@asaiSynthesizingScientificLiterature2026, pp. 857, 859–860] **Researcher inference.** A citation marker is not itself provenance; support must be inspectable. **Warrant.** Scholarly claims require traceable evidential support. **Boundary.** OpenScholar's checking is still model-mediated. **Consequence.** Bind DDR claims to source passages and document records. **Practice cross-check.** DDR source cards expose the passage and PID-backed record behind a claim.
 ## Claim 5
-- **Claim (plain):** Iterative self-feedback can improve synthesis without becoming independent validation.
-- **Author claim:** OpenScholar uses model-generated feedback to revise answers and retrieve more information when needed.
-- **Evidence-supported claim:** The Methods describe feedback-driven revision and additional retrieval, but the initial answer is preferred to the final revised answer in about 20% of synthetic-data cases because later iterations can over-edit or add redundancy. [@asaiSynthesizingScientificLiterature2026, p. 865]
-- **Researcher inference:** Model self-critique is useful but not epistemically external to the model.
-- **Evidence (quote/paraphrase + page):** Their own filtering retains initial drafts in a substantial minority of cases. [@asaiSynthesizingScientificLiterature2026, p. 865]
-- **Warrant (my words):** Iteration can correct and also introduce error.
-- **Boundary:** The reported proportion belongs to their data-generation setting.
-- **Consequence:** Put external evidence checks after iterative synthesis.
-- **Practice cross-check:** DDR accepts synthesis only where retrieved evidence continues to support the final claim.
 
+**Claim.** Iterative self-feedback can improve synthesis without becoming independent validation. **Author claim.** OpenScholar uses model-generated feedback to revise answers and retrieve more information when needed. **Evidence.** The Methods describe feedback-driven revision and additional retrieval, but the initial answer is preferred to the final revised answer in about 20% of synthetic-data cases because later iterations can over-edit or add redundancy. [@asaiSynthesizingScientificLiterature2026, p. 865] **Evidence-supported claim.** The Methods describe feedback-driven revision and additional retrieval, but the initial answer is preferred to the final revised answer in about 20% of synthetic-data cases because later iterations can over-edit or add redundancy. [@asaiSynthesizingScientificLiterature2026, p. 865] **Researcher inference.** Model self-critique is useful but not epistemically external to the model. **Warrant.** Iteration can correct and also introduce error. **Boundary.** The reported proportion belongs to their data-generation setting. **Consequence.** Put external evidence checks after iterative synthesis. **Practice cross-check.** DDR accepts synthesis only where retrieved evidence continues to support the final claim.
 ## Claim 6
-- **Claim (plain):** Retrieval-augmented synthesis remains limited by representativeness and unsupported output.
-- **Author claim:** The authors acknowledge that OpenScholar can miss representative papers and still produce inaccurate or unsupported information.
-- **Evidence-supported claim:** The limitations section identifies retrieval coverage and residual factual error as unresolved problems. [@asaiSynthesizingScientificLiterature2026, p. 862]
-- **Researcher inference:** A strong retrieval pipeline raises evidential quality without eliminating uncertainty.
-- **Evidence (quote/paraphrase + page):** OpenScholar does not always retrieve the most relevant evidence and does not guarantee complete factual support. [@asaiSynthesizingScientificLiterature2026, p. 862]
-- **Warrant (my words):** Retrieval improves access to evidence but does not settle interpretation.
-- **Boundary:** Scientific literature has different publication and metadata structures from archives.
-- **Consequence:** Preserve ambiguity and scoped missingness in DDR outputs.
-- **Practice cross-check:** Unsupported relations are withheld rather than completed for fluency.
 
+**Claim.** Retrieval-augmented synthesis remains limited by representativeness and unsupported output. **Author claim.** The authors acknowledge that OpenScholar can miss representative papers and still produce inaccurate or unsupported information. **Evidence.** The limitations section identifies retrieval coverage and residual factual error as unresolved problems. [@asaiSynthesizingScientificLiterature2026, p. 862] **Evidence-supported claim.** The limitations section identifies retrieval coverage and residual factual error as unresolved problems. [@asaiSynthesizingScientificLiterature2026, p. 862] **Researcher inference.** A strong retrieval pipeline raises evidential quality without eliminating uncertainty. **Warrant.** Retrieval improves access to evidence but does not settle interpretation. **Boundary.** Scientific literature has different publication and metadata structures from archives. **Consequence.** Preserve ambiguity and scoped missingness in DDR outputs. **Practice cross-check.** Unsupported relations are withheld rather than completed for fluency.
 # Definitions / terms this changes
 
 - **Retrieval-augmented inference:** an inference-time process in which external retrieval supplies evidence to subsequent generation and refinement stages. [@asaiSynthesizingScientificLiterature2026, pp. 864–865]
