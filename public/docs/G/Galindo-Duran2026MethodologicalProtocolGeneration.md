@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,15 +25,23 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Bridge text"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "01 Synthetic heritage and cultural memory"
   - "09 Human judgement and practice-led computational research"
   - "11 Uncertainty and provenance display in interfaces"
   - "12 Digitisation, reconstruction and archival completion"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -47,67 +55,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Galindo-Durán, Prego de Oliver-López and Bernal-Bravo provide a structured heritage methodology for separating generative plausibility from historical warrant through documentary justification, traceability, uncertainty and expert validation.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It supports contemporary re-engagement with DDR material only where representational novelty remains subject to historical and evidential scrutiny.
 
-**Why I’m reading this now (1 sentence):**  
-I need a recent cultural-heritage methodology that treats historical validity, provenance, uncertainty and expert validation as explicit requirements for evaluating AI-generated representations.
+**Where it sits in my argument:** Critical computational approaches / contemporary bridge literature, especially synthetic heritage and validation.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin synthetic-heritage discussion. It provides a methodological bridge between recognising that generative systems can produce historically persuasive but inaccurate representations and specifying how those outputs should be subjected to structured evidential scrutiny.
+**My benchmark for using it:** Use the protocol as a methodological proposal for validation dimensions; do not present it as empirically proven assurance of historical reliability.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *historical warrant* rather than *historical accuracy* for the DDR because archival interpretation rarely has a single visual reference against which correctness can be scored. The relevant question is whether an interpretation is adequately supported, qualified and traceable to the available evidence.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use the paper where it establishes validation, traceability, documentary justification and expert judgement as methodological requirements. Do not cite the proposed protocol as empirical evidence that those mechanisms have yet been validated.
+The authors respond to rapid adoption of generative image systems in cultural heritage by proposing a protocol for assessing historical veracity rather than visual quality alone. Their intervention combines controlled generation, expert evaluation, automated review and subsequent analysis. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–379]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Galindo-Durán, Prego de Oliver-López and Bernal-Bravo write from heritage, education and communication research at a moment when generative image systems are rapidly entering heritage dissemination. Their paper responds to a perceived methodological gap: image quality has advanced faster than procedures for assessing historical veracity. Their intervention is therefore protocol-driven rather than results-driven, combining a literature review, controlled generation procedure, interdisciplinary expert assessment and proposed automated validation layer.
+They standardise generation, evaluation and analysis so that documentary justification, uncertainty, traceability and expert scrutiny become explicit parts of AI-generated heritage assessment. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–379]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-The protocol assumes that historical veracity can be operationalised through comparatively stable criteria for visual heritage objects. Archival testimony requires a less singular model of validity because contradiction, retrospective interpretation and documentary silence may themselves be historically significant.
-
-# The author’s main move (1 sentence)
-
-They try to make AI-generated cultural-heritage content methodologically accountable by standardising generation, expert evaluation, automated cross-checking and subsequent analysis within a traceable and reproducible protocol.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Visually persuasive generative outputs can remain historically unreliable.
-- **Evidence (quote/paraphrase + page):** The authors argue that increasing visual sophistication has not been matched by safeguards for historical veracity and that apparently persuasive outputs may contain stylistic inaccuracies, anachronisms and documentary inconsistencies. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371]` Their comparison of seven AI-generated Corinthian capitals in Figs. 1 and 2 shows recurrent proportional distortions, stylistic hybridisations and historically inappropriate details. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 371]`
-- **Warrant (my words):** Representational coherence and historical validity are separate properties. A generated artefact may look convincing while introducing features that the historical evidence does not support.
-- **So what for my thesis (a reusable sentence):** Fluency and representational plausibility cannot serve as proxies for historical warrant; AI-mediated interpretations require independent scrutiny against the evidence from which they claim to derive.
-- **Practice cross-check:** Turin research queries: a coherent generated relationship between DDR people, ideas or events is not accepted because it reads plausibly; the cited archival traces must actually support the relation.
+- **Claim:** Visual plausibility can diverge from historical validity.
+- **Author claim:** The authors argue that increasingly convincing generated heritage images can contain historical inaccuracies.
+- **Evidence-supported claim:** Their Corinthian-capital examples show proportional distortions, stylistic hybridisation and anachronistic details. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 370–371]
+- **Researcher inference:** Coherent generated DDR narratives cannot be accepted on rhetorical plausibility.
+- **Warrant:** Representational polish and evidential warrant are separate properties.
+- **Boundary:** Their evidence concerns generated imagery.
+- **Consequence:** Historical claims require independent evidential checking.
+- **Practice cross-check:** Turin accepts a relationship only when cited traces support it.
 
 ## Claim 2
-
-- **Claim (plain):** Historical validation should explicitly include documentary justification, traceability and uncertainty rather than relying on output quality alone.
-- **Evidence (quote/paraphrase + page):** The paper identifies five core parameters for rigorous digital-heritage assessment, including historical rigour grounded in “source identification, documentary justification, and explicit levels of interpretive certainty”, together with transparency and traceability through methods, metadata and paradata. `[@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]`
-- **Warrant (my words):** Evaluation therefore concerns the evidential status and provenance of a representation as well as its formal qualities. A historically responsible system must expose why an output is warranted and where certainty ends.
-- **So what for my thesis:** Retrieval-augmented inference should make source identification, documentary justification and the limits of interpretive certainty visible as part of the research output rather than treating provenance as a secondary technical record.
-- **Practice cross-check:** Turin citations expose source passages and metadata, while scoped missingness states where the defined DDR evidence surface does not support a stronger conclusion.
+- **Claim:** Historical rigour requires explicit source identification.
+- **Author claim:** Source identification is one element of their historical-rigour parameter.
+- **Evidence-supported claim:** The protocol requires identifiable evidence rather than untraceable generative reference. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
+- **Researcher inference:** DDR outputs must retain source identity at passage/document level.
+- **Warrant:** A claim cannot be evaluated historically if its basis cannot be located.
+- **Boundary:** Identification alone does not establish relevance or support.
+- **Consequence:** Source identity must be paired with claim-level warrant.
+- **Practice cross-check:** Turin exposes cited passages and record metadata.
 
 ## Claim 3
+- **Claim:** Documentary justification is part of historical validity.
+- **Author claim:** The protocol requires documentary justification in addition to visual plausibility.
+- **Evidence-supported claim:** Historical rigour is defined through source identification, documentary justification and interpretive certainty. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
+- **Researcher inference:** DDR synthesis must explain why particular traces warrant the proposed relation.
+- **Warrant:** Provenance without justification can still leave the inferential step opaque.
+- **Boundary:** The paper does not supply a textual argumentation model.
+- **Consequence:** The thesis should distinguish citation from warrant.
+- **Practice cross-check:** Turin evidence routes should state how retrieved passages support or fail to support a claim.
 
-- **Claim (plain):** Expert judgement and computational evaluation can be combined, but automated assessment remains subordinate to human historical scrutiny.
-- **Evidence (quote/paraphrase + page):** The proposed Evaluation phase combines independent interdisciplinary expert assessment with multimodal AI review across five dimensions. The authors state explicitly that automated evaluation “does not replace expert input” but operates as a secondary validation layer. `[@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376]` Figure 7 on p. 379 places expert and digital evaluation in parallel within the Evaluation stage before statistical and thematic analysis.
-- **Warrant (my words):** Computational cross-checking can identify convergences or discrepancies, but the same class of generative systems being evaluated cannot independently determine historical truth. Human expertise remains necessary to interpret evidential adequacy and contextual significance.
-- **So what for my thesis:** Computational validation can support archival interpretation by surfacing consistency, contradiction and provenance, while responsibility for deciding what the evidence warrants remains with the researcher.
-- **Practice cross-check:** Turin workflow: retrieval and model-assisted synthesis can structure and compare traces, but researcher review of quotation, provenance, chronology and archival context remains necessary before historical interpretation is accepted.
+## Claim 4
+- **Claim:** Historical uncertainty should be represented explicitly.
+- **Author claim:** The protocol includes explicit levels of interpretive certainty.
+- **Evidence-supported claim:** Certainty is part of the proposed historical-rigour dimension. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
+- **Researcher inference:** DDR outputs should preserve qualification, contradiction and scoped missingness.
+- **Warrant:** Suppressing uncertainty makes generated heritage appear more settled than the evidence warrants.
+- **Boundary:** A certainty label can create false precision if treated numerically.
+- **Consequence:** Use qualitative evidential states rather than pseudo-exact confidence scores.
+- **Practice cross-check:** Turin separates supported, qualified, conflicting and unestablished outcomes.
+
+## Claim 5
+- **Claim:** Traceability includes methods, metadata and paradata.
+- **Author claim:** The protocol requires transparency and traceability through documented production and evaluation processes.
+- **Evidence-supported claim:** Methods, metadata and paradata are named as components of traceability. [@Galindo-Duran2026MethodologicalProtocolGeneration, p. 375]
+- **Researcher inference:** DDR provenance should include both source lineage and interpretative/computational transformations.
+- **Warrant:** Historical accountability depends on reconstructing how an output was produced.
+- **Boundary:** Traceability does not guarantee that a transformation was epistemically appropriate.
+- **Consequence:** Provenance records should be inspectable but still subject to judgement.
+- **Practice cross-check:** Turin separates archival source, retrieved passage, synthesis action and provenance metadata.
+
+## Claim 6
+- **Claim:** Automated evaluation should remain secondary to expert historical judgement.
+- **Author claim:** The proposed Evaluation phase places interdisciplinary expert assessment alongside multimodal AI review and explicitly says automation does not replace expert input.
+- **Evidence-supported claim:** Expert and digital evaluation appear in parallel before statistical and thematic analysis. [@Galindo-Duran2026MethodologicalProtocolGeneration, pp. 375–376, 379]
+- **Researcher inference:** DDR model-assisted checking can surface inconsistency but cannot independently adjudicate historical truth.
+- **Warrant:** A generative system cannot become an independent authority merely by evaluating another generated output.
+- **Boundary:** The protocol itself is proposed rather than empirically validated.
+- **Consequence:** Researcher judgement remains the final interpretative control.
+- **Practice cross-check:** Turin requires researcher review of chronology, provenance and quotation before accepting synthesis.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +177,10 @@ They try to make AI-generated cultural-heritage content methodologically account
 
 - **Boundary (1 sentence):** The article proposes rather than empirically validates its protocol and focuses primarily on generated heritage imagery whose formal and stylistic properties are more readily scored than contested textual archival interpretations.
 - **Risk if misused (1 sentence):** Presenting the framework as demonstrated evidence of historical reliability, or treating AI-based secondary evaluation as independent validation, would overstate what the article establishes and could create circular assurance between generative systems.
+
+# Cross-source / cross-lens synthesis
+
+Galindo-Durán et al. reinforce the synthetic-heritage strand by making documentary justification, traceability, uncertainty and expert review explicit components of historical validity. Read with HARF and Borůvková, the protocol supports a bounded computational workflow; read with critical archival theory, it also needs qualification because archival contradiction and silence may be historically significant rather than defects to be scored away. DDR therefore requires historical warrant, not simply historical-veracity scoring.
 
 # Methods spine tags (tick what it actually touches)
 
