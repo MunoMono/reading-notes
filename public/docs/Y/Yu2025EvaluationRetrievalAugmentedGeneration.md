@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "27 May 2026, 09:19"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "16 Mar 2026, 12:22"
 north_star_sha1: "46ff0ae0f623"
@@ -25,15 +25,23 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Core text"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "03 RAG, retrieval and source attribution"
   - "07 Interface authority, ranking and retrieval bias"
   - "09 Human judgement and practice-led computational research"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -47,67 +55,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Yu et al. provide a technical evaluation architecture that separates retrieval, generation and whole-system behaviour. This gives DDR a way to diagnose whether failure occurs in evidence acquisition, source grounding, synthesis or negative rejection.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It helps ensure that computational revisiting of DDR is evaluated for robustness and evidential behaviour rather than only for answer fluency.
 
-**Why I’m reading this now (1 sentence):**  
-I need a defensible evaluation architecture for the DDR retrieval layer so that generated historical interpretations can be diagnosed in terms of retrieval quality, source grounding, response quality and whole-system behaviour rather than accepted or rejected as undifferentiated AI outputs.
+**Where it sits in my argument:** Critical computational approaches / operational literature, especially RAG evaluation and inference validation.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin methodological evaluation section. It provides the technical spine for separating retrieval relevance and accuracy from generation relevance, faithfulness and correctness, while also identifying whole-system requirements such as diversity, robustness and negative rejection.
+**My benchmark for using it:** Use to structure technical RAG evaluation; adapt correctness and ground-truth assumptions where historical questions admit plurality or missingness.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *RAG evaluation* for testing the retrieval-and-generation substrate and *inference validation* for the additional historical judgement applied after retrieval. Yu et al.'s framework evaluates whether the system works as RAG; it does not by itself establish whether a historical interpretation is warranted.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use Yu et al. to structure evaluation into retrieval, generation and whole-system checks. Adapt rather than mechanically import correctness metrics where DDR questions admit plural interpretations or lack a singular ground truth.
+Yu et al. survey twelve RAG evaluation frameworks and propose Auepora as a unified process organised around evaluation target, dataset and metric. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 2–5]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Yu et al. write from NLP, information retrieval and industrial AI research at a moment when RAG systems were proliferating faster than shared methods for evaluating them. Their survey synthesises twelve contemporary frameworks and proposes Auepora—A Unified Evaluation Process of RAG—as a way of organising evaluation by target, dataset and metric. The contribution is therefore taxonomic and methodological rather than an evaluation of one particular RAG system.
+They separate retrieval, generation and whole-system assessment and map each to distinct evaluable relationships and robustness criteria. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 3–12]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-Much RAG evaluation assumes that relevant documents and correct answers can be specified as ground truth. Contested archival research complicates this assumption because retrieval may surface several differently situated sources, and a historically responsible output may preserve disagreement rather than converge on one reference answer.
-
-# The author’s main move (1 sentence)
-
-They try to make RAG evaluation systematic by separating retrieval, generation and whole-system assessment and mapping each evaluable output to appropriate ground truths, datasets and metrics.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** RAG quality cannot be evaluated from the generated answer alone because retrieval and generation constitute distinct sources of success and failure.
-- **Evidence (quote/paraphrase + page):** Yu et al. divide RAG into retrieval and generation components and further decompose these into indexing, search, prompting and inferencing. Figure 1 maps distinct evaluable outputs and ground truths onto these stages. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 2]` They state that evaluating hybrid RAG entails evaluating retrieval, generation and “the RAG system as a whole”. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 3–4]`
-- **Warrant (my words):** A plausible but defective answer can arise from irrelevant retrieval, incomplete retrieval, poor use of relevant evidence or unsupported generation. These failure modes require different diagnoses and remedies.
-- **So what for my thesis (a reusable sentence):** The evidential quality of a retrieval-augmented historical interpretation should be assessed stage by stage: what was retrieved, how that evidence was used and what the final synthesis subsequently claimed.
-- **Practice cross-check:** Turin evaluation log: query → retrieved DDR traces and ranks → retrieval judgement → generated interpretation → source-grounding judgement → historical/inferential judgement.
+- **Claim:** RAG cannot be evaluated from the final answer alone.
+- **Author claim:** Retrieval, generation and the complete system require separate assessment.
+- **Evidence-supported claim:** The survey decomposes indexing, search, prompting and inferencing into distinct evaluable stages. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 2–4]
+- **Researcher inference:** DDR failures should be diagnosed by stage rather than labelled generically as AI error.
+- **Warrant:** Irrelevant retrieval, poor grounding and overreaching synthesis require different remedies.
+- **Boundary:** The framework is technical rather than historical.
+- **Consequence:** Turin evaluation logs should retain retrieval and synthesis outputs separately.
+- **Practice cross-check:** Query → retrieved traces/ranks → synthesis → source-grounding → historical judgement.
 
 ## Claim 2
-
-- **Claim (plain):** Relevance, faithfulness and correctness evaluate different relationships and should not be collapsed into a single notion of answer quality.
-- **Evidence (quote/paraphrase + page):** In the Auepora target model, retrieval relevance measures the relationship between retrieved documents and the query, while generation relevance measures the relationship between response and query. Faithfulness evaluates consistency between the generated response and retrieved documents, and correctness compares the response with a sample or ground-truth response. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]` Figure 2 on p. 5 visually separates these pairwise relationships.
-- **Warrant (my words):** A response can answer the question yet misrepresent its sources; it can faithfully summarise its sources yet be based on an inadequate evidence set; and it can diverge from a reference answer because the question itself supports more than one interpretation.
-- **So what for my thesis:** Faithfulness to retrieved evidence is necessary but insufficient for historical warrant: DDR evaluation must additionally ask whether the retrieved evidence is adequate, whether relevant counter-evidence is absent and whether the relationship asserted by the synthesis exceeds what those traces establish.
-- **Practice cross-check:** Turin UAT should distinguish: retrieval relevance; retrieval coverage/adequacy; claim-to-source faithfulness; answer relevance; and historical warrant after manual source inspection.
+- **Claim:** Retrieval relevance and retrieval accuracy are different evaluation targets.
+- **Author claim:** The survey distinguishes matching the query from selecting/ranking relevant documents effectively.
+- **Evidence-supported claim:** Auepora separates these retrieval relationships explicitly. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]
+- **Researcher inference:** A relevant DDR source set can still be incomplete or badly ranked.
+- **Warrant:** Relevance does not ensure adequate coverage or exposure.
+- **Boundary:** The paper does not define archival representational adequacy.
+- **Consequence:** DDR needs retrieval adequacy in addition to standard relevance.
+- **Practice cross-check:** Turin should inspect omitted contradictory or poorly indexed traces, not only top-k relevance.
 
 ## Claim 3
+- **Claim:** Answer relevance and faithfulness are not the same thing.
+- **Author claim:** Generation relevance measures response–query fit, while faithfulness measures response–retrieved-document consistency.
+- **Evidence-supported claim:** Figure 2 distinguishes these pairwise relationships. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]
+- **Researcher inference:** A DDR answer can address the question while misrepresenting its sources, or faithfully summarise an inadequate retrieval set.
+- **Warrant:** Different evidential relationships can fail independently.
+- **Boundary:** Faithfulness to retrieved sources does not establish historical sufficiency.
+- **Consequence:** Historical warrant must be a further evaluation layer.
+- **Practice cross-check:** Turin should score answer relevance and claim-to-source faithfulness separately.
 
-- **Claim (plain):** A useful RAG system must be evaluated for its behaviour when evidence is noisy, diverse, contradictory or insufficient, not merely when it can produce an answer.
-- **Evidence (quote/paraphrase + page):** Yu et al. treat latency, diversity, noise robustness, negative rejection and counterfactual robustness as additional RAG requirements. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12]` Negative rejection is specifically defined as the system's ability to withhold a response when information is insufficient or too ambiguous, while noise robustness concerns irrelevant or misleading information and counterfactual robustness concerns detecting incorrect retrieved material. `[@Yu2025EvaluationRetrievalAugmentedGeneration, p. 12]`
-- **Warrant (my words):** Real archival inquiry includes questions whose evidence is partial, conflicting or simply unavailable. Evaluating only successful answer generation would reward exactly the completion behaviour that scoped missingness is designed to constrain.
-- **So what for my thesis:** A research-facing archival system should be evaluated partly on its capacity not to overclaim: insufficient evidence, contradiction and ambiguity must be legitimate system outcomes rather than treated as generation failures.
-- **Practice cross-check:** Turin scoped-missingness test set: include unanswerable queries, conflicting testimony, deliberately noisy retrieval, ambiguous attribution and counterfactual statements, then test whether the system qualifies or stops inference appropriately.
+## Claim 4
+- **Claim:** Reference-answer correctness can be inappropriate for contested historical questions.
+- **Author claim:** Correctness compares generated responses with designated sample or ground-truth answers.
+- **Evidence-supported claim:** Correctness is treated as one generation metric in Auepora. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]
+- **Researcher inference:** DDR often requires warrant rather than one canonical reference answer.
+- **Warrant:** Several interpretations may remain supportable from differently situated evidence.
+- **Boundary:** This limitation is my historical adaptation, not Yu et al.'s critique.
+- **Consequence:** Replace singular correctness with historical warrant where necessary.
+- **Practice cross-check:** Turin UAT should preserve competing readings instead of marking one reference wording as uniquely correct.
+
+## Claim 5
+- **Claim:** RAG evaluation should test behaviour under noisy or misleading retrieval.
+- **Author claim:** Noise and counterfactual robustness are whole-system requirements.
+- **Evidence-supported claim:** The survey includes robustness to irrelevant, misleading and incorrect retrieved material. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12]
+- **Researcher inference:** DDR should deliberately test misleading proximity, irrelevant co-occurrence and contradictory traces.
+- **Warrant:** Real archive retrieval is not a clean evidence channel.
+- **Boundary:** Benchmark noise differs from historically meaningful contradiction.
+- **Consequence:** Robustness tests should distinguish noise from genuine counter-evidence.
+- **Practice cross-check:** Turin can inject irrelevant and counterfactual traces separately from authentic conflicting evidence.
+
+## Claim 6
+- **Claim:** Negative rejection is a positive system capability.
+- **Author claim:** Systems should refrain from answering when information is insufficient or too ambiguous.
+- **Evidence-supported claim:** Negative rejection appears as an explicit RAG requirement. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12]
+- **Researcher inference:** Scoped missingness belongs inside technical evaluation rather than outside it as a narrative caveat.
+- **Warrant:** Responsible system behaviour includes knowing when not to complete.
+- **Boundary:** Technical negative rejection does not explain archival causes of missingness.
+- **Consequence:** DDR evaluation should reward warranted non-answering.
+- **Practice cross-check:** Turin includes unanswerable, ambiguous and conflicting cases in UAT.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -149,6 +182,10 @@ They try to make RAG evaluation systematic by separating retrieval, generation a
 
 - **Boundary (1 sentence):** Yu et al. provide a technical framework for evaluating RAG performance and benchmarks, not a theory of archival evidence, historical interpretation or contested knowledge.
 - **Risk if misused (1 sentence):** Treating relevance, faithfulness or reference-answer correctness as sufficient evidence of historical validity could make a technically successful RAG output appear methodologically secure even when retrieval is partial, the archive itself is biased or several historical interpretations remain warranted.
+
+# Cross-source / cross-lens synthesis
+
+Yu et al. provide the evaluation skeleton for the computational lens: retrieval, generation and whole-system behaviour must be diagnosed separately. Read with Isch and DeYoung, faithfulness alone is insufficient because synthesis can alter relation strength; read with archival theory, relevant retrieval can still reproduce partiality. The DDR evaluation model therefore needs two layers: technical RAG performance and historical evidential warrant.
 
 # Methods spine tags (tick what it actually touches)
 
