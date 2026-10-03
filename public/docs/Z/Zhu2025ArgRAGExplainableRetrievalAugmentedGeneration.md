@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ Zhu et al. combine retrieval, LLM-based relation extraction and symbolic quantit
 
 They convert retrieved passages into an explicit support/attack graph, perform deterministic inference over that structure and allow users to contest assumptions and recompute the result. [@zhuArgRAGExplainableRetrieval2025, pp. 2, 5–7]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Retrieval can degrade performance when relevant, noisy and contradictory material are mixed.
-- **Author claim:** Standard retrievers optimise relevance rather than factual consistency.
-- **Evidence-supported claim:** Conventional RAG baselines underperformed their no-retrieval counterparts on the tested datasets, while ArgRAG improved across settings. [@zhuArgRAGExplainableRetrieval2025, pp. 1–2, 8–9]
-- **Researcher inference:** More DDR context is not automatically better if evidence roles remain undifferentiated.
-- **Warrant:** Retrieval adds material, not correctness.
-- **Boundary:** Binary fact-verification datasets differ from archival inquiry.
-- **Consequence:** Retrieved traces should be typed before synthesis.
-- **Practice cross-check:** Turin distinguishes supporting, qualifying, contradictory, irrelevant and insufficient traces.
 
+**Claim.** Retrieval can degrade performance when relevant, noisy and contradictory material are mixed. **Author claim.** Standard retrievers optimise relevance rather than factual consistency. **Evidence.** Conventional RAG baselines underperformed their no-retrieval counterparts on the tested datasets, while ArgRAG improved across settings. [@zhuArgRAGExplainableRetrieval2025, pp. 1–2, 8–9] **Evidence-supported claim.** Conventional RAG baselines underperformed their no-retrieval counterparts on the tested datasets, while ArgRAG improved across settings. [@zhuArgRAGExplainableRetrieval2025, pp. 1–2, 8–9] **Researcher inference.** More DDR context is not automatically better if evidence roles remain undifferentiated. **Warrant.** Retrieval adds material, not correctness. **Boundary.** Binary fact-verification datasets differ from archival inquiry. **Consequence.** Retrieved traces should be typed before synthesis. **Practice cross-check.** Turin distinguishes supporting, qualifying, contradictory, irrelevant and insufficient traces.
 ## Claim 2
-- **Claim:** Claim–evidence relations can be made explicit.
-- **Author claim:** ArgRAG classifies retrieved evidence as support, contradiction or irrelevance.
-- **Evidence-supported claim:** Relation extraction is an explicit stage before deterministic inference. [@zhuArgRAGExplainableRetrieval2025, pp. 2, 4–6]
-- **Researcher inference:** DDR can externalise how each trace bears on a proposed historical relation.
-- **Warrant:** Explicit relations make interpretative structure inspectable.
-- **Boundary:** One passage can contain several historically different propositions.
-- **Consequence:** Historical relation typing must be finer-grained than one label per chunk.
-- **Practice cross-check:** Turin can attach relation type at proposition/claim level.
 
+**Claim.** Claim–evidence relations can be made explicit. **Author claim.** ArgRAG classifies retrieved evidence as support, contradiction or irrelevance. **Evidence.** Relation extraction is an explicit stage before deterministic inference. [@zhuArgRAGExplainableRetrieval2025, pp. 2, 4–6] **Evidence-supported claim.** Relation extraction is an explicit stage before deterministic inference. [@zhuArgRAGExplainableRetrieval2025, pp. 2, 4–6] **Researcher inference.** DDR can externalise how each trace bears on a proposed historical relation. **Warrant.** Explicit relations make interpretative structure inspectable. **Boundary.** One passage can contain several historically different propositions. **Consequence.** Historical relation typing must be finer-grained than one label per chunk. **Practice cross-check.** Turin can attach relation type at proposition/claim level.
 ## Claim 3
-- **Claim:** Evidence–evidence relations matter, not only evidence–claim relations.
-- **Author claim:** The framework models interactions among retrieved arguments.
-- **Evidence-supported claim:** Ablation shows evidence–evidence relations improve performance, especially where conflict is present. [@zhuArgRAGExplainableRetrieval2025, p. 9]
-- **Researcher inference:** DDR interpretation should record whether sources corroborate, qualify or contradict one another.
-- **Warrant:** Historical warrant often depends on cross-source relations.
-- **Boundary:** Formal support/attack relations simplify historical context.
-- **Consequence:** Comparative views should expose relations among traces, not only trace-to-query relevance.
-- **Practice cross-check:** Turin Critical Inquiry can display competing or corroborating source chains.
 
+**Claim.** Evidence–evidence relations matter, not only evidence–claim relations. **Author claim.** The framework models interactions among retrieved arguments. **Evidence.** Ablation shows evidence–evidence relations improve performance, especially where conflict is present. [@zhuArgRAGExplainableRetrieval2025, p. 9] **Evidence-supported claim.** Ablation shows evidence–evidence relations improve performance, especially where conflict is present. [@zhuArgRAGExplainableRetrieval2025, p. 9] **Researcher inference.** DDR interpretation should record whether sources corroborate, qualify or contradict one another. **Warrant.** Historical warrant often depends on cross-source relations. **Boundary.** Formal support/attack relations simplify historical context. **Consequence.** Comparative views should expose relations among traces, not only trace-to-query relevance. **Practice cross-check.** Turin Critical Inquiry can display competing or corroborating source chains.
 ## Claim 4
-- **Claim:** Explicit argument structure is more inspectable than generated explanation alone.
-- **Author claim:** The authors warn that generated explanations can rationalise an opaque decision without matching the actual reasoning path.
-- **Evidence-supported claim:** ArgRAG contrasts post-hoc textual explanation with deterministic calculation over an explicit graph. [@zhuArgRAGExplainableRetrieval2025, p. 5]
-- **Researcher inference:** DDR explanation should expose evidence structure rather than rely on model prose describing its own reasoning.
-- **Warrant:** Narrative explanation can be persuasive without being causally or evidentially faithful.
-- **Boundary:** Symbolic structure can also encode mistaken classifications.
-- **Consequence:** Explanation must remain open to source inspection and correction.
-- **Practice cross-check:** Turin provenance should show traces and relation labels separately from generated synthesis.
 
+**Claim.** Explicit argument structure is more inspectable than generated explanation alone. **Author claim.** The authors warn that generated explanations can rationalise an opaque decision without matching the actual reasoning path. **Evidence.** ArgRAG contrasts post-hoc textual explanation with deterministic calculation over an explicit graph. [@zhuArgRAGExplainableRetrieval2025, p. 5] **Evidence-supported claim.** ArgRAG contrasts post-hoc textual explanation with deterministic calculation over an explicit graph. [@zhuArgRAGExplainableRetrieval2025, p. 5] **Researcher inference.** DDR explanation should expose evidence structure rather than rely on model prose describing its own reasoning. **Warrant.** Narrative explanation can be persuasive without being causally or evidentially faithful. **Boundary.** Symbolic structure can also encode mistaken classifications. **Consequence.** Explanation must remain open to source inspection and correction. **Practice cross-check.** Turin provenance should show traces and relation labels separately from generated synthesis.
 ## Claim 5
-- **Claim:** Contestability requires users to alter assumptions and see the inference change.
-- **Author claim:** Users can modify argument strengths or polarities and recompute the result.
-- **Evidence-supported claim:** The paper demonstrates a changed evidence assumption reversing the computed decision. [@zhuArgRAGExplainableRetrieval2025, pp. 5–7]
-- **Researcher inference:** DDR researchers should be able to challenge computationally proposed relationships.
-- **Warrant:** Researcher-in-the-loop means more than approving final prose.
-- **Boundary:** Historical contestation should not be reduced to slider-adjusted numeric strength.
-- **Consequence:** Relation labels should be editable/reviewable without overwriting source evidence.
-- **Practice cross-check:** Turin Critical Inquiry can allow comparison of alternate relation interpretations.
 
+**Claim.** Contestability requires users to alter assumptions and see the inference change. **Author claim.** Users can modify argument strengths or polarities and recompute the result. **Evidence.** The paper demonstrates a changed evidence assumption reversing the computed decision. [@zhuArgRAGExplainableRetrieval2025, pp. 5–7] **Evidence-supported claim.** The paper demonstrates a changed evidence assumption reversing the computed decision. [@zhuArgRAGExplainableRetrieval2025, pp. 5–7] **Researcher inference.** DDR researchers should be able to challenge computationally proposed relationships. **Warrant.** Researcher-in-the-loop means more than approving final prose. **Boundary.** Historical contestation should not be reduced to slider-adjusted numeric strength. **Consequence.** Relation labels should be editable/reviewable without overwriting source evidence. **Practice cross-check.** Turin Critical Inquiry can allow comparison of alternate relation interpretations.
 ## Claim 6
-- **Claim:** A single computed verdict is the wrong endpoint for many contested archives.
-- **Author claim:** ArgRAG ultimately resolves fact-verification tasks through computed argument strength.
-- **Evidence-supported claim:** The framework is evaluated on binary decisions in PubHealth and RAGuard. [@zhuArgRAGExplainableRetrieval2025, pp. 7–9]
-- **Researcher inference:** DDR needs supported interpretation, competing readings, contradiction and scoped missingness as legitimate final states.
-- **Warrant:** Historical plurality can be evidence, not unresolved computational error.
-- **Boundary:** This is a deliberate departure from the paper's task framing.
-- **Consequence:** Use argument structure without importing binary adjudication.
-- **Practice cross-check:** Turin should stop at plural or conflicting outcomes where the evidence warrants them.
 
+**Claim.** A single computed verdict is the wrong endpoint for many contested archives. **Author claim.** ArgRAG ultimately resolves fact-verification tasks through computed argument strength. **Evidence.** The framework is evaluated on binary decisions in PubHealth and RAGuard. [@zhuArgRAGExplainableRetrieval2025, pp. 7–9] **Evidence-supported claim.** The framework is evaluated on binary decisions in PubHealth and RAGuard. [@zhuArgRAGExplainableRetrieval2025, pp. 7–9] **Researcher inference.** DDR needs supported interpretation, competing readings, contradiction and scoped missingness as legitimate final states. **Warrant.** Historical plurality can be evidence, not unresolved computational error. **Boundary.** This is a deliberate departure from the paper's task framing. **Consequence.** Use argument structure without importing binary adjudication. **Practice cross-check.** Turin should stop at plural or conflicting outcomes where the evidence warrants them.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Quantitative Bipolar Argumentation Framework (QBAF):** a formal argumentation structure containing arguments, explicit support and attack relations and base strengths from which final argument strengths are computed under gradual semantics. `[@zhuArgRAGExplainableRetrieval2025, pp. 3–4]`
