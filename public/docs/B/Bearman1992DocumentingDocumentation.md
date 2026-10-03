@@ -41,11 +41,15 @@ project_tags:
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- At least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
-- Separate author claim, evidence-supported claim and researcher inference
-- Practice cross-check or TODO for each claim
-- Final synthesis required
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -67,74 +71,26 @@ Bearman writes in 1992 during international debates about archival descriptive s
 
 Bearman shifts the archival information model from record-centred description toward documentation of the activities, actors and systems that generated records, arguing that archival systems should preserve evidential context and support multiple routes of user inquiry. [@Bearman1992DocumentingDocumentation, pp. 34–46]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Archival documentation should centre the activity that generated records, not the record object alone.
-- **Author claim:** Bearman distinguishes description, which constructs surrogates for units of material, from documentation, which captures the relation between activity and document necessary for evidence.
-- **Evidence-supported claim:** Pages 34–35 define documentation as linked information about activities and documentary materials with no single privileged centre in the data model.
-- **Researcher inference:** DDR mobilisation should model projects, functions, people and actions alongside documents rather than making the document card the only analytical unit.
-- **Evidence (quote/paraphrase + page):** Bearman states that documentation is focused on activity in the records-generating institution and on its relationship to documents. [@Bearman1992DocumentingDocumentation, pp. 34–35]
-- **Warrant (my words):** A record's evidential meaning depends on what action it participated in and how it relates to other records.
-- **Boundary:** Context may be incomplete or recoverable only indirectly in historical collections.
-- **Consequence:** Relational reconstruction should expose uncertainty rather than fill missing contextual links.
-- **Practice cross-check:** Require evidence bindings for each person–project or project–document relation in the DDR system.
 
+**Claim.** Archival documentation should centre the activity that generated records, not the record object alone. **Author claim.** Bearman distinguishes description, which constructs surrogates for units of material, from documentation, which captures the relation between activity and document necessary for evidence. **Evidence.** Pages 34–35 define documentation as linked information about activities and documentary materials with no single privileged centre in the data model. **Evidence-supported claim.** Pages 34–35 define documentation as linked information about activities and documentary materials with no single privileged centre in the data model. **Researcher inference.** DDR mobilisation should model projects, functions, people and actions alongside documents rather than making the document card the only analytical unit. **Warrant.** A record's evidential meaning depends on what action it participated in and how it relates to other records. **Boundary.** Context may be incomplete or recoverable only indirectly in historical collections. **Consequence.** Relational reconstruction should expose uncertainty rather than fill missing contextual links. **Practice cross-check.** Require evidence bindings for each person–project or project–document relation in the DDR system.
 ## Claim 2
-- **Claim (plain):** The evidential status of records should determine archival information-system design.
-- **Author claim:** Bearman criticises descriptive standards for overlooking records' status as evidence and borrowing too heavily from bibliographic traditions.
-- **Evidence-supported claim:** Pages 33–35 say documentation content must support the requirements for archives to serve as evidence as well as management and access needs.
-- **Researcher inference:** DDR metadata should not be treated as a generic bibliographic layer; it should preserve provenance, creation context and documentary relations needed to evaluate historical claims.
-- **Evidence (quote/paraphrase + page):** Bearman argues that archives exist to preserve and retrieve evidence of past activity with continuing value. [@Bearman1992DocumentingDocumentation, p. 35]
-- **Warrant (my words):** Information architecture shapes whether users can distinguish evidential context from mere topical association.
-- **Boundary:** Bearman's evidential emphasis reflects institutional records theory and may fit personal or informal archives less neatly.
-- **Consequence:** The thesis should differentiate catalogue association, documentary evidence and later interpretative linkage.
-- **Practice cross-check:** Preserve source type, record creator, date, repository and PID wherever available.
 
+**Claim.** The evidential status of records should determine archival information-system design. **Author claim.** Bearman criticises descriptive standards for overlooking records' status as evidence and borrowing too heavily from bibliographic traditions. **Evidence.** Pages 33–35 say documentation content must support the requirements for archives to serve as evidence as well as management and access needs. **Evidence-supported claim.** Pages 33–35 say documentation content must support the requirements for archives to serve as evidence as well as management and access needs. **Researcher inference.** DDR metadata should not be treated as a generic bibliographic layer; it should preserve provenance, creation context and documentary relations needed to evaluate historical claims. **Warrant.** Information architecture shapes whether users can distinguish evidential context from mere topical association. **Boundary.** Bearman's evidential emphasis reflects institutional records theory and may fit personal or informal archives less neatly. **Consequence.** The thesis should differentiate catalogue association, documentary evidence and later interpretative linkage. **Practice cross-check.** Preserve source type, record creator, date, repository and PID wherever available.
 ## Claim 3
-- **Claim (plain):** Data content should follow archival functions and service requirements rather than a universal catalogue template.
-- **Author claim:** Bearman argues that data elements and representations must be derived from the administrative and user tasks an archival information system needs to support.
-- **Evidence-supported claim:** Across pp. 35–43 he criticises fixed interchange-oriented descriptive records and argues that different archival requirements demand different data structures and values.
-- **Researcher inference:** The DDR research system can legitimately use data structures optimised for provenance-aware historical inquiry as long as those transformations remain auditable.
-- **Evidence (quote/paraphrase + page):** Bearman separates data-content requirements from the assumption of one catalogue-like end product. [@Bearman1992DocumentingDocumentation, pp. 35–43]
-- **Warrant (my words):** A system built around the wrong service model can preserve metadata while failing the actual evidential task.
-- **Boundary:** Purpose-built structures can become idiosyncratic if they lose interoperability with source systems.
-- **Consequence:** Transformations should preserve canonical identifiers and source metadata alongside research-specific fields.
-- **Practice cross-check:** Keep RCA/V&A identifiers and raw metadata separate from derived ML/research annotations.
 
+**Claim.** Data content should follow archival functions and service requirements rather than a universal catalogue template. **Author claim.** Bearman argues that data elements and representations must be derived from the administrative and user tasks an archival information system needs to support. **Evidence.** Across pp. 35–43 he criticises fixed interchange-oriented descriptive records and argues that different archival requirements demand different data structures and values. **Evidence-supported claim.** Across pp. 35–43 he criticises fixed interchange-oriented descriptive records and argues that different archival requirements demand different data structures and values. **Researcher inference.** The DDR research system can legitimately use data structures optimised for provenance-aware historical inquiry as long as those transformations remain auditable. **Warrant.** A system built around the wrong service model can preserve metadata while failing the actual evidential task. **Boundary.** Purpose-built structures can become idiosyncratic if they lose interoperability with source systems. **Consequence.** Transformations should preserve canonical identifiers and source metadata alongside research-specific fields. **Practice cross-check.** Keep RCA/V&A identifiers and raw metadata separate from derived ML/research annotations.
 ## Claim 4
-- **Claim (plain):** Archival information systems should capture context early in the records life cycle, not only after transfer.
-- **Author claim:** Bearman presents documentation principles as involving archivists at or near the time of record creation rather than limiting description to post-accession processing.
-- **Evidence-supported claim:** Page 34 contrasts his approach with ICA description after arrangement and argues that earlier involvement can improve evidential context and efficiency.
-- **Researcher inference:** For historical DDR material, much contextual information is already lost because the archive inherits records after creation; this makes retrospective reconstruction necessarily bounded.
-- **Evidence (quote/paraphrase + page):** Bearman says documentation methods often involve archivists “at the point, and often at the time, of records creation.” [@Bearman1992DocumentingDocumentation, p. 34]
-- **Warrant (my words):** Context omitted at creation may not be recoverable later from surviving documents.
-- **Boundary:** This life-cycle prescription cannot be retroactively applied to the 1965–85 DDR record.
-- **Consequence:** Missing contextual relations should be recorded as limits of the surviving evidence surface.
-- **Practice cross-check:** Use scoped missingness for absent management decisions, undocumented roles or unclear provenance.
 
+**Claim.** Archival information systems should capture context early in the records life cycle, not only after transfer. **Author claim.** Bearman presents documentation principles as involving archivists at or near the time of record creation rather than limiting description to post-accession processing. **Evidence.** Page 34 contrasts his approach with ICA description after arrangement and argues that earlier involvement can improve evidential context and efficiency. **Evidence-supported claim.** Page 34 contrasts his approach with ICA description after arrangement and argues that earlier involvement can improve evidential context and efficiency. **Researcher inference.** For historical DDR material, much contextual information is already lost because the archive inherits records after creation; this makes retrospective reconstruction necessarily bounded. **Warrant.** Context omitted at creation may not be recoverable later from surviving documents. **Boundary.** This life-cycle prescription cannot be retroactively applied to the 1965–85 DDR record. **Consequence.** Missing contextual relations should be recorded as limits of the surviving evidence surface. **Practice cross-check.** Use scoped missingness for absent management decisions, undocumented roles or unclear provenance.
 ## Claim 5
-- **Claim (plain):** Users should be able to enter archival systems through the historical contexts they know.
-- **Author claim:** Bearman argues that researchers often search through functions, people, subjects, forms and activities rather than fonds names or archival terminology.
-- **Evidence-supported claim:** Pages 43–46 propose that users should enter through the historical context of activity and that user inquiry should shape system presentation.
-- **Researcher inference:** DDR interfaces can validly offer entry through projects, people, concepts and time periods while maintaining links back to archival provenance.
-- **Evidence (quote/paraphrase + page):** Bearman makes user methods of inquiry one of the principles guiding documentation-system data values and presentation. [@Bearman1992DocumentingDocumentation, pp. 43–46]
-- **Warrant (my words):** Research access improves when system language maps onto the questions users bring rather than requiring prior knowledge of archival organisation.
-- **Boundary:** User-centred entry points may conceal archival structure unless provenance remains visible.
-- **Consequence:** Research navigation should supplement, not replace, archival hierarchy.
-- **Practice cross-check:** Semantic atlas and named-person/project routes should always expose source repository and record context.
 
+**Claim.** Users should be able to enter archival systems through the historical contexts they know. **Author claim.** Bearman argues that researchers often search through functions, people, subjects, forms and activities rather than fonds names or archival terminology. **Evidence.** Pages 43–46 propose that users should enter through the historical context of activity and that user inquiry should shape system presentation. **Evidence-supported claim.** Pages 43–46 propose that users should enter through the historical context of activity and that user inquiry should shape system presentation. **Researcher inference.** DDR interfaces can validly offer entry through projects, people, concepts and time periods while maintaining links back to archival provenance. **Warrant.** Research access improves when system language maps onto the questions users bring rather than requiring prior knowledge of archival organisation. **Boundary.** User-centred entry points may conceal archival structure unless provenance remains visible. **Consequence.** Research navigation should supplement, not replace, archival hierarchy. **Practice cross-check.** Semantic atlas and named-person/project routes should always expose source repository and record context.
 ## Claim 6
-- **Claim (plain):** A relational archival system can support multiple views without declaring one descriptive representation authoritative.
-- **Author claim:** Bearman proposes linked databases of activities and documentary materials with relations among them and no privileged view at the centre.
-- **Evidence-supported claim:** Page 34 explicitly contrasts this relational architecture with catalogue systems organised around one unit-surrogate record.
-- **Researcher inference:** Multiple DDR visualisations — semantic neighbourhood, temporal view, project/person view — can be treated as partial analytical projections over the same evidence base.
-- **Evidence (quote/paraphrase + page):** Bearman's documentation model distributes information across linked files and relationships instead of one central record type. [@Bearman1992DocumentingDocumentation, p. 34]
-- **Warrant (my words):** Different research questions legitimately require different projections of archival relationships.
-- **Boundary:** Multiple views can produce conflicting impressions if derivation and scope are hidden.
-- **Consequence:** Each visual/ML view should disclose what it computes and what it does not establish.
-- **Practice cross-check:** Keep the five frozen UMAP views explicitly scoped and tied to the same PID-backed corpus.
 
+**Claim.** A relational archival system can support multiple views without declaring one descriptive representation authoritative. **Author claim.** Bearman proposes linked databases of activities and documentary materials with relations among them and no privileged view at the centre. **Evidence.** Page 34 explicitly contrasts this relational architecture with catalogue systems organised around one unit-surrogate record. **Evidence-supported claim.** Page 34 explicitly contrasts this relational architecture with catalogue systems organised around one unit-surrogate record. **Researcher inference.** Multiple DDR visualisations — semantic neighbourhood, temporal view, project/person view — can be treated as partial analytical projections over the same evidence base. **Warrant.** Different research questions legitimately require different projections of archival relationships. **Boundary.** Multiple views can produce conflicting impressions if derivation and scope are hidden. **Consequence.** Each visual/ML view should disclose what it computes and what it does not establish. **Practice cross-check.** Keep the five frozen UMAP views explicitly scoped and tied to the same PID-backed corpus.
 # Definitions / terms this changes
 
 - **Description:** record-centred representation producing surrogates such as finding aids or catalogue records. [@Bearman1992DocumentingDocumentation, p. 34]
