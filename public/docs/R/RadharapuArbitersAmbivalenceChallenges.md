@@ -11,7 +11,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "02 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -42,14 +42,16 @@ project_tags:
 **Source type:** Methodological anchor
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
 - Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
-- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
 - Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -71,74 +73,26 @@ Radharapu et al. write from contemporary NLP and model-evaluation research. Thei
 
 The authors show that model behaviour is role-dependent: systems that can generate nuanced or balanced answers become markedly more decisive when asked to judge or debate, and explicit affordances for neutrality materially change the rate at which ambiguity survives. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4685]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Nuanced generation does not imply nuanced judging.
-- **Author claim:** Radharapu et al. find that LLM neutrality is generally highest in answer-generation mode and drops substantially in judging and debate modes.
-- **Evidence-supported claim:** Across models and datasets, pairwise judging produces the largest reductions in neutrality relative to direct answer generation, with pointwise judging and debate also often reducing neutrality. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4684]
-- **Researcher inference:** A DDR model that can articulate several plausible readings should not automatically be trusted to rank those readings responsibly.
-- **Evidence (quote/paraphrase + page):** The authors state that models provide nuanced assessments as generators but tend to take a stance when used as judges or debaters. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4679]
-- **Warrant (my words):** Generation and adjudication are distinct computational operations with different failure modes.
-- **Boundary:** Neutrality is an operational metric in a benchmark, not a universal measure of good historical interpretation.
-- **Consequence:** Comparative DDR interpretations should remain separately evidenced before any human or model adjudication.
-- **Practice cross-check:** Keep comparative views able to display competing trace families side by side without requiring a ranked winner.
 
+**Claim.** Nuanced generation does not imply nuanced judging. **Author claim.** Radharapu et al. find that LLM neutrality is generally highest in answer-generation mode and drops substantially in judging and debate modes. **Evidence.** Across models and datasets, pairwise judging produces the largest reductions in neutrality relative to direct answer generation, with pointwise judging and debate also often reducing neutrality. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4684] **Evidence-supported claim.** Across models and datasets, pairwise judging produces the largest reductions in neutrality relative to direct answer generation, with pointwise judging and debate also often reducing neutrality. [@RadharapuArbitersAmbivalenceChallenges, pp. 4677–4684] **Researcher inference.** A DDR model that can articulate several plausible readings should not automatically be trusted to rank those readings responsibly. **Warrant.** Generation and adjudication are distinct computational operations with different failure modes. **Boundary.** Neutrality is an operational metric in a benchmark, not a universal measure of good historical interpretation. **Consequence.** Comparative DDR interpretations should remain separately evidenced before any human or model adjudication. **Practice cross-check.** Keep comparative views able to display competing trace families side by side without requiring a ranked winner.
 ## Claim 2
-- **Claim (plain):** Persuasive argument quality is not a proxy for evidential warrant.
-- **Author claim:** The authors show that models are steerable enough to construct strong arguments for opposing positions.
-- **Evidence-supported claim:** Pointwise judges often rate both opposing responses highly, and the reported mean absolute score difference between winning and losing stances is small; qualitative examples show similarly fluent arguments on both sides. [@RadharapuArbitersAmbivalenceChallenges, p. 4696; pp. 4727–4731]
-- **Researcher inference:** In archival synthesis, fluency and completeness must not determine which historical interpretation appears better supported.
-- **Evidence (quote/paraphrase + page):** The steerability analysis finds that models can produce comparably persuasive arguments for contrasting perspectives. [@RadharapuArbitersAmbivalenceChallenges, p. 4696]
-- **Warrant (my words):** Language-model rhetoric is generated independently of whether one side has stronger source evidence.
-- **Boundary:** The benchmark does not test archival provenance or historical source criticism directly.
-- **Consequence:** DDR interpretation quality should be assessed against trace provenance, chronology and contradiction, not prose quality.
-- **Practice cross-check:** Compare claim-to-source bindings before accepting any synthesized interpretation as stronger.
 
+**Claim.** Persuasive argument quality is not a proxy for evidential warrant. **Author claim.** The authors show that models are steerable enough to construct strong arguments for opposing positions. **Evidence.** Pointwise judges often rate both opposing responses highly, and the reported mean absolute score difference between winning and losing stances is small; qualitative examples show similarly fluent arguments on both sides. [@RadharapuArbitersAmbivalenceChallenges, p. 4696; pp. 4727–4731] **Evidence-supported claim.** Pointwise judges often rate both opposing responses highly, and the reported mean absolute score difference between winning and losing stances is small; qualitative examples show similarly fluent arguments on both sides. [@RadharapuArbitersAmbivalenceChallenges, p. 4696; pp. 4727–4731] **Researcher inference.** In archival synthesis, fluency and completeness must not determine which historical interpretation appears better supported. **Warrant.** Language-model rhetoric is generated independently of whether one side has stronger source evidence. **Boundary.** The benchmark does not test archival provenance or historical source criticism directly. **Consequence.** DDR interpretation quality should be assessed against trace provenance, chronology and contradiction, not prose quality. **Practice cross-check.** Compare claim-to-source bindings before accepting any synthesized interpretation as stronger.
 ## Claim 3
-- **Claim (plain):** Ambiguity often must be represented explicitly in the output schema.
-- **Author claim:** Radharapu et al. find that models do not reliably choose neutrality in open-ended settings but do so much more often when a neutral/both option is explicitly available.
-- **Evidence-supported claim:** Constrained generation with an explicit neutral outcome substantially increases neutrality relative to open-ended generation across multiple tasks. [@RadharapuArbitersAmbivalenceChallenges, pp. 4681, 4700]
-- **Researcher inference:** “Unresolved,” “multiple supported readings,” and “corpus-insufficient” should be first-class DDR outcomes rather than rare fallback phrases.
-- **Evidence (quote/paraphrase + page):** The ablation shows neutrality rising when the prompt explicitly permits it. [@RadharapuArbitersAmbivalenceChallenges, p. 4700]
-- **Warrant (my words):** Output structure influences whether a model preserves uncertainty or converts it into selection.
-- **Boundary:** Making neutrality available can also encourage unnecessary hedging.
-- **Consequence:** Ambiguity states need explicit criteria tied to evidence rather than generic caution.
-- **Practice cross-check:** Add structured outputs for conflicting evidence, multiple plausible readings and scoped missingness.
 
+**Claim.** Ambiguity often must be represented explicitly in the output schema. **Author claim.** Radharapu et al. find that models do not reliably choose neutrality in open-ended settings but do so much more often when a neutral/both option is explicitly available. **Evidence.** Constrained generation with an explicit neutral outcome substantially increases neutrality relative to open-ended generation across multiple tasks. [@RadharapuArbitersAmbivalenceChallenges, pp. 4681, 4700] **Evidence-supported claim.** Constrained generation with an explicit neutral outcome substantially increases neutrality relative to open-ended generation across multiple tasks. [@RadharapuArbitersAmbivalenceChallenges, pp. 4681, 4700] **Researcher inference.** “Unresolved,” “multiple supported readings,” and “corpus-insufficient” should be first-class DDR outcomes rather than rare fallback phrases. **Warrant.** Output structure influences whether a model preserves uncertainty or converts it into selection. **Boundary.** Making neutrality available can also encourage unnecessary hedging. **Consequence.** Ambiguity states need explicit criteria tied to evidence rather than generic caution. **Practice cross-check.** Add structured outputs for conflicting evidence, multiple plausible readings and scoped missingness.
 ## Claim 4
-- **Claim (plain):** Neutrality is not a stable property of a model; it changes with role, model choice and task.
-- **Author claim:** The authors report substantial heterogeneity across model families and evaluation roles.
-- **Evidence-supported claim:** Open-source and closed-source models differ in answer-generation neutrality, different models are more or less neutral as pointwise judges or debaters, and task categories show different patterns. [@RadharapuArbitersAmbivalenceChallenges, pp. 4683–4684]
-- **Researcher inference:** DDR should not treat a model-level benchmark score as a guarantee that ambiguity will be preserved in every workflow state.
-- **Evidence (quote/paraphrase + page):** The results show role- and task-specific neutrality differences rather than one consistent model ordering. [@RadharapuArbitersAmbivalenceChallenges, pp. 4683–4684]
-- **Warrant (my words):** Behaviour emerges from the interaction of model, prompt, role and task.
-- **Boundary:** The tested models and benchmark reflect 2025 systems and do not generalise mechanically to every future model.
-- **Consequence:** UAT must test the actual DDR pipeline in its actual roles rather than rely on generic model reputation.
-- **Practice cross-check:** Test the same contested DDR question under answer, comparison and adjudication prompts and compare evidential behaviour.
 
+**Claim.** Neutrality is not a stable property of a model; it changes with role, model choice and task. **Author claim.** The authors report substantial heterogeneity across model families and evaluation roles. **Evidence.** Open-source and closed-source models differ in answer-generation neutrality, different models are more or less neutral as pointwise judges or debaters, and task categories show different patterns. [@RadharapuArbitersAmbivalenceChallenges, pp. 4683–4684] **Evidence-supported claim.** Open-source and closed-source models differ in answer-generation neutrality, different models are more or less neutral as pointwise judges or debaters, and task categories show different patterns. [@RadharapuArbitersAmbivalenceChallenges, pp. 4683–4684] **Researcher inference.** DDR should not treat a model-level benchmark score as a guarantee that ambiguity will be preserved in every workflow state. **Warrant.** Behaviour emerges from the interaction of model, prompt, role and task. **Boundary.** The tested models and benchmark reflect 2025 systems and do not generalise mechanically to every future model. **Consequence.** UAT must test the actual DDR pipeline in its actual roles rather than rely on generic model reputation. **Practice cross-check.** Test the same contested DDR question under answer, comparison and adjudication prompts and compare evidential behaviour.
 ## Claim 5
-- **Claim (plain):** Greater decisiveness can make LLM judgments less representative of genuinely distributed human disagreement.
-- **Author claim:** Radharapu et al. compare model label distributions with known human distributions and find that more decisive pairwise judges align less well with high-entropy human disagreement.
-- **Evidence-supported claim:** Page 4684 reports that pairwise judges are generally more decisive and less neutral and that lower-entropy judge distributions align less well with high-entropy human distributions. [@RadharapuArbitersAmbivalenceChallenges, p. 4684]
-- **Researcher inference:** A single decisive historical answer can be less faithful to the evidential situation than an explicitly plural output.
-- **Evidence (quote/paraphrase + page):** The authors use Jensen-Shannon divergence to show poorer alignment where judges collapse distributed disagreement. [@RadharapuArbitersAmbivalenceChallenges, p. 4684]
-- **Warrant (my words):** Consistency is not automatically epistemic quality when the underlying phenomenon is genuinely plural.
-- **Boundary:** Historical archival disagreement is not equivalent to crowdsourced human label distributions.
-- **Consequence:** Evaluation should reward preserved evidential plurality when the record supports it, rather than rewarding decisiveness alone.
-- **Practice cross-check:** Add a plurality-preservation UAT family for questions known to have competing DDR formulations.
 
+**Claim.** Greater decisiveness can make LLM judgments less representative of genuinely distributed human disagreement. **Author claim.** Radharapu et al. compare model label distributions with known human distributions and find that more decisive pairwise judges align less well with high-entropy human disagreement. **Evidence.** Page 4684 reports that pairwise judges are generally more decisive and less neutral and that lower-entropy judge distributions align less well with high-entropy human distributions. [@RadharapuArbitersAmbivalenceChallenges, p. 4684] **Evidence-supported claim.** Page 4684 reports that pairwise judges are generally more decisive and less neutral and that lower-entropy judge distributions align less well with high-entropy human distributions. [@RadharapuArbitersAmbivalenceChallenges, p. 4684] **Researcher inference.** A single decisive historical answer can be less faithful to the evidential situation than an explicitly plural output. **Warrant.** Consistency is not automatically epistemic quality when the underlying phenomenon is genuinely plural. **Boundary.** Historical archival disagreement is not equivalent to crowdsourced human label distributions. **Consequence.** Evaluation should reward preserved evidential plurality when the record supports it, rather than rewarding decisiveness alone. **Practice cross-check.** Add a plurality-preservation UAT family for questions known to have competing DDR formulations.
 ## Claim 6
-- **Claim (plain):** “No consensus” does not mean a model should always remain neutral.
-- **Author claim:** The authors explicitly caution that some disputed questions may still warrant a system taking a position and that task-level “no agreement” labels can themselves be too coarse.
-- **Evidence-supported claim:** Pages 4684–4685 state that disagreement alone is not a sufficient reason for neutrality and discuss meta-disagreement about whether examples should count as no-consensus cases in the first place. [@RadharapuArbitersAmbivalenceChallenges, pp. 4684–4685]
-- **Researcher inference:** DDR interpretive plurality should preserve asymmetries in evidence: several readings may remain visible without being treated as equally supported.
-- **Evidence (quote/paraphrase + page):** The limitations section warns that designating entire tasks as “no agreement” can obscure disagreement about the designation itself. [@RadharapuArbitersAmbivalenceChallenges, p. 4685]
-- **Warrant (my words):** Responsible ambiguity preservation requires discriminating among contested, weakly supported and unsupported claims.
-- **Boundary:** The article’s binary stance structure is simpler than multi-source historical interpretation.
-- **Consequence:** The DDR system should preserve plural readings while still attaching differentiated evidential strength and source status.
-- **Practice cross-check:** Render interpretations as supported / partially supported / unresolved rather than “both sides equally valid.”
 
+**Claim.** “No consensus” does not mean a model should always remain neutral. **Author claim.** The authors explicitly caution that some disputed questions may still warrant a system taking a position and that task-level “no agreement” labels can themselves be too coarse. **Evidence.** Pages 4684–4685 state that disagreement alone is not a sufficient reason for neutrality and discuss meta-disagreement about whether examples should count as no-consensus cases in the first place. [@RadharapuArbitersAmbivalenceChallenges, pp. 4684–4685] **Evidence-supported claim.** Pages 4684–4685 state that disagreement alone is not a sufficient reason for neutrality and discuss meta-disagreement about whether examples should count as no-consensus cases in the first place. [@RadharapuArbitersAmbivalenceChallenges, pp. 4684–4685] **Researcher inference.** DDR interpretive plurality should preserve asymmetries in evidence: several readings may remain visible without being treated as equally supported. **Warrant.** Responsible ambiguity preservation requires discriminating among contested, weakly supported and unsupported claims. **Boundary.** The article’s binary stance structure is simpler than multi-source historical interpretation. **Consequence.** The DDR system should preserve plural readings while still attaching differentiated evidential strength and source status. **Practice cross-check.** Render interpretations as supported / partially supported / unresolved rather than “both sides equally valid.”
 # Definitions / terms this changes
 
 - **No-consensus question:** a question for which multiple answers may be valid and human annotators are likely to disagree. [@RadharapuArbitersAmbivalenceChallenges, p. 4680]
