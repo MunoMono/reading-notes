@@ -13,7 +13,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026"
-last_updated: "01 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 
@@ -41,11 +41,15 @@ project_tags:
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- At least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
-- Separate author claim, evidence-supported claim and researcher inference
-- Practice cross-check or TODO for each claim
-- Final synthesis required
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -67,74 +71,26 @@ Ortolja-Baird and Nyhan write from digital humanities and cultural-heritage rese
 
 They argue that digitisation and encoding are situated interpretative acts that can amplify archival silence, but computational analysis, contextual knowledge systems and plural representation can instead make those absences visible without pretending to fill them. [@Ortolja-Baird2022EncodingHauntingObject, pp. 845–862]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Digitisation can reproduce and amplify historical absence.
-- **Author claim:** The authors argue that cultural scripts, power asymmetries and subjectivities can become embedded in apparently neutral digital tools and datasets.
-- **Evidence-supported claim:** Pages 845–846 and 854 warn that machine-readable encoding can perpetuate historical absences and amplify them when datasets are recombined.
-- **Researcher inference:** Richly documented DDR actors may gain further computational prominence while poorly documented labour remains difficult to retrieve.
-- **Evidence (quote/paraphrase + page):** The authors explicitly warn of “further perpetuation of historical absences” through encoding. [@Ortolja-Baird2022EncodingHauntingObject, pp. 845–846, 854]
-- **Warrant (my words):** Computation cannot supply information that historical recordkeeping did not preserve.
-- **Boundary:** Digital methods can also expose bias rather than only amplify it.
-- **Consequence:** Missingness must be modelled as part of the dataset's structure.
-- **Practice cross-check:** Include low-density/sparse evidence as an analytical outcome rather than forcing an answer.
 
+**Claim.** Digitisation can reproduce and amplify historical absence. **Author claim.** The authors argue that cultural scripts, power asymmetries and subjectivities can become embedded in apparently neutral digital tools and datasets. **Evidence.** Pages 845–846 and 854 warn that machine-readable encoding can perpetuate historical absences and amplify them when datasets are recombined. **Evidence-supported claim.** Pages 845–846 and 854 warn that machine-readable encoding can perpetuate historical absences and amplify them when datasets are recombined. **Researcher inference.** Richly documented DDR actors may gain further computational prominence while poorly documented labour remains difficult to retrieve. **Warrant.** Computation cannot supply information that historical recordkeeping did not preserve. **Boundary.** Digital methods can also expose bias rather than only amplify it. **Consequence.** Missingness must be modelled as part of the dataset's structure. **Practice cross-check.** Include low-density/sparse evidence as an analytical outcome rather than forcing an answer.
 ## Claim 2
-- **Claim (plain):** Digital collections can create an illusion of completeness.
-- **Author claim:** Ortolja-Baird and Nyhan argue that interfaces and structured data may foreground what is present while making absent information disappear from users' awareness.
-- **Evidence-supported claim:** Page 849 discusses calls to replace the illusion of completeness with meaningful representations of inevitable absence.
-- **Researcher inference:** The DDR corpus interface must state that PID-backed digitised material is a bounded evidence surface, not the whole archive.
-- **Evidence (quote/paraphrase + page):** The article treats absence communication as a design problem rather than merely a scholarly footnote. [@Ortolja-Baird2022EncodingHauntingObject, p. 849]
-- **Warrant (my words):** Searchability can be mistaken for comprehensiveness when exclusions are not visible.
-- **Boundary:** A bounded digital collection can still support strong claims within its scope.
-- **Consequence:** Scope statements should travel with computational results.
-- **Practice cross-check:** Each missingness answer states what the defined corpus cannot establish.
 
+**Claim.** Digital collections can create an illusion of completeness. **Author claim.** Ortolja-Baird and Nyhan argue that interfaces and structured data may foreground what is present while making absent information disappear from users' awareness. **Evidence.** Page 849 discusses calls to replace the illusion of completeness with meaningful representations of inevitable absence. **Evidence-supported claim.** Page 849 discusses calls to replace the illusion of completeness with meaningful representations of inevitable absence. **Researcher inference.** The DDR corpus interface must state that PID-backed digitised material is a bounded evidence surface, not the whole archive. **Warrant.** Searchability can be mistaken for comprehensiveness when exclusions are not visible. **Boundary.** A bounded digital collection can still support strong claims within its scope. **Consequence.** Scope statements should travel with computational results. **Practice cross-check.** Each missingness answer states what the defined corpus cannot establish.
 ## Claim 3
-- **Claim (plain):** Absence can be computationally analysed without speculative recovery.
-- **Author claim:** The authors propose reading catalogues for what they do not say by examining patterns of names, places, attributions and omissions.
-- **Evidence-supported claim:** Pages 855–857 explicitly say this cannot recover identities never recorded but can reveal patterns through which absence becomes interpretable.
-- **Researcher inference:** DDR scoped missingness can return nearby traces and asymmetries while refusing to name an unsupported actor or relation.
-- **Evidence (quote/paraphrase + page):** They advocate “reading the catalogues for what they do not say, as much as what they do say.” [@Ortolja-Baird2022EncodingHauntingObject, pp. 855–857]
-- **Warrant (my words):** The distribution of recorded presence can provide evidence about documentation practices even when the missing content itself is unknowable.
-- **Boundary:** Structural absence is not evidence of a particular missing person's identity.
-- **Consequence:** Computational missingness should remain inferentially modest.
-- **Practice cross-check:** Return nearest documentary traces and provenance rather than synthetic completion.
 
+**Claim.** Absence can be computationally analysed without speculative recovery. **Author claim.** The authors propose reading catalogues for what they do not say by examining patterns of names, places, attributions and omissions. **Evidence.** Pages 855–857 explicitly say this cannot recover identities never recorded but can reveal patterns through which absence becomes interpretable. **Evidence-supported claim.** Pages 855–857 explicitly say this cannot recover identities never recorded but can reveal patterns through which absence becomes interpretable. **Researcher inference.** DDR scoped missingness can return nearby traces and asymmetries while refusing to name an unsupported actor or relation. **Warrant.** The distribution of recorded presence can provide evidence about documentation practices even when the missing content itself is unknowable. **Boundary.** Structural absence is not evidence of a particular missing person's identity. **Consequence.** Computational missingness should remain inferentially modest. **Practice cross-check.** Return nearest documentary traces and provenance rather than synthetic completion.
 ## Claim 4
-- **Claim (plain):** Encoding choices are themselves situated scholarly interpretations.
-- **Author claim:** Reflecting on TEI and data preparation, the authors reject the idea that structured data neutrally transcribes the source.
-- **Evidence-supported claim:** Around pp. 853–855 they describe machine-readable representation as selective and shaped by scholarly/technical decisions.
-- **Researcher inference:** DDR chunking, metadata mapping and entity extraction should be treated as interpretative transformations.
-- **Evidence (quote/paraphrase + page):** The article frames encoded resources as situated digital artefacts whose structure reflects choices about what to model. [@Ortolja-Baird2022EncodingHauntingObject, pp. 853–855]
-- **Warrant (my words):** Formalisation makes some relations computationally explicit while leaving others outside the schema.
-- **Boundary:** Interpretation in encoding does not make structured data invalid.
-- **Consequence:** Data-model choices should be documented and revisable.
-- **Practice cross-check:** Preserve raw metadata/source text separately from derived chunks, entities and embeddings.
 
+**Claim.** Encoding choices are themselves situated scholarly interpretations. **Author claim.** Reflecting on TEI and data preparation, the authors reject the idea that structured data neutrally transcribes the source. **Evidence.** Around pp. 853–855 they describe machine-readable representation as selective and shaped by scholarly/technical decisions. **Evidence-supported claim.** Around pp. 853–855 they describe machine-readable representation as selective and shaped by scholarly/technical decisions. **Researcher inference.** DDR chunking, metadata mapping and entity extraction should be treated as interpretative transformations. **Warrant.** Formalisation makes some relations computationally explicit while leaving others outside the schema. **Boundary.** Interpretation in encoding does not make structured data invalid. **Consequence.** Data-model choices should be documented and revisable. **Practice cross-check.** Preserve raw metadata/source text separately from derived chunks, entities and embeddings.
 ## Claim 5
-- **Claim (plain):** Contextual knowledge systems can counter textual atomisation.
-- **Author claim:** The authors propose richer contextual ontologies and linked knowledge systems that reconnect objects to people, places, histories and communities.
-- **Evidence-supported claim:** Pages 858–861 discuss contextualised ontologies and plural information systems rather than isolated catalogue entries.
-- **Researcher inference:** DDR computational relations should reconnect documents to institutional, project and human context rather than only rank textual similarity.
-- **Evidence (quote/paraphrase + page):** The paper advocates information systems that accommodate multiple contexts and voices around collection objects. [@Ortolja-Baird2022EncodingHauntingObject, pp. 858–861]
-- **Warrant (my words):** Context can expose relationships and histories obscured by isolated record descriptions.
-- **Boundary:** Ontologies can themselves encode new exclusions and require maintenance.
-- **Consequence:** Contextual relations should retain their source and evidential status.
-- **Practice cross-check:** Evidence cards bind person/project/document relations to source passages rather than only vector proximity.
 
+**Claim.** Contextual knowledge systems can counter textual atomisation. **Author claim.** The authors propose richer contextual ontologies and linked knowledge systems that reconnect objects to people, places, histories and communities. **Evidence.** Pages 858–861 discuss contextualised ontologies and plural information systems rather than isolated catalogue entries. **Evidence-supported claim.** Pages 858–861 discuss contextualised ontologies and plural information systems rather than isolated catalogue entries. **Researcher inference.** DDR computational relations should reconnect documents to institutional, project and human context rather than only rank textual similarity. **Warrant.** Context can expose relationships and histories obscured by isolated record descriptions. **Boundary.** Ontologies can themselves encode new exclusions and require maintenance. **Consequence.** Contextual relations should retain their source and evidential status. **Practice cross-check.** Evidence cards bind person/project/document relations to source passages rather than only vector proximity.
 ## Claim 6
-- **Claim (plain):** Subjectivities and absences should travel with digital data.
-- **Author claim:** The conclusion recommends bundling contextual information, communicating absences meaningfully and accommodating plural voices.
-- **Evidence-supported claim:** Pages 861–862 give explicit recommendations on communicating subjectivities and missingness in digital resources.
-- **Researcher inference:** Provenance should include limitations of the evidence surface, not only identifiers for retrieved documents.
-- **Evidence (quote/paraphrase + page):** The authors call for digital methods that focalise absences and enable plural perspectives rather than hide them. [@Ortolja-Baird2022EncodingHauntingObject, pp. 861–862]
-- **Warrant (my words):** Users cannot evaluate computational interpretation if source limitations are stripped away at the interface.
-- **Boundary:** No interface can fully represent every historical subjectivity.
-- **Consequence:** Uncertainty and missingness become first-class output fields.
-- **Practice cross-check:** Source citations, source-type metadata and scoped-missingness statements travel with DDR synthesis.
 
+**Claim.** Subjectivities and absences should travel with digital data. **Author claim.** The conclusion recommends bundling contextual information, communicating absences meaningfully and accommodating plural voices. **Evidence.** Pages 861–862 give explicit recommendations on communicating subjectivities and missingness in digital resources. **Evidence-supported claim.** Pages 861–862 give explicit recommendations on communicating subjectivities and missingness in digital resources. **Researcher inference.** Provenance should include limitations of the evidence surface, not only identifiers for retrieved documents. **Warrant.** Users cannot evaluate computational interpretation if source limitations are stripped away at the interface. **Boundary.** No interface can fully represent every historical subjectivity. **Consequence.** Uncertainty and missingness become first-class output fields. **Practice cross-check.** Source citations, source-type metadata and scoped-missingness statements travel with DDR synthesis.
 # Definitions / terms this changes
 
 - **Textual haunting:** indirect presence of unrecorded or unnamed agency through the relations and objects that survive. [@Ortolja-Baird2022EncodingHauntingObject, p. 853]
