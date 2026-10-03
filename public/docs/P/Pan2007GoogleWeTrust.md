@@ -54,11 +54,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -78,68 +82,26 @@ Pan et al. write across HCI, information retrieval, communication and machine le
 
 They isolate position effects by manipulating result order and measuring gaze, scrutiny and click behaviour. [@Pan2007GoogleWeTrust, pp. 806–818]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Display position independently influences result selection.
-- **Author claim:** Users disproportionately choose highly displayed results even when relevance is experimentally decoupled from position.
-- **Evidence-supported claim:** In the swapped condition, the item shown first was clicked nearly three times as often as Google's original top result after it moved to second position. [@Pan2007GoogleWeTrust, pp. 806–815]
-- **Researcher inference:** Top-ranked DDR traces can acquire interpretative priority before historical judgement.
-- **Warrant:** The evidence set is unchanged while choice changes with position.
-- **Boundary:** Web search is not archival research.
-- **Consequence:** Rank order should be treated as a methodological intervention.
-- **Practice cross-check:** Turin top-k and nearest-neighbour displays should not imply historical importance.
 
+**Claim.** Display position independently influences result selection. **Author claim.** Users disproportionately choose highly displayed results even when relevance is experimentally decoupled from position. **Evidence.** In the swapped condition, the item shown first was clicked nearly three times as often as Google's original top result after it moved to second position. [@Pan2007GoogleWeTrust, pp. 806–815] **Evidence-supported claim.** In the swapped condition, the item shown first was clicked nearly three times as often as Google's original top result after it moved to second position. [@Pan2007GoogleWeTrust, pp. 806–815] **Researcher inference.** Top-ranked DDR traces can acquire interpretative priority before historical judgement. **Warrant.** The evidence set is unchanged while choice changes with position. **Boundary.** Web search is not archival research. **Consequence.** Rank order should be treated as a methodological intervention. **Practice cross-check.** Turin top-k and nearest-neighbour displays should not imply historical importance.
 ## Claim 2
-- **Claim:** Visual rank concentrates attention as well as clicks.
-- **Author claim:** Higher positions receive disproportionate views and scrutiny.
-- **Evidence-supported claim:** Figure 3 shows strong concentration of views and clicks toward the top across conditions. [@Pan2007GoogleWeTrust, p. 814]
-- **Researcher inference:** Semantic result order shapes which DDR evidence enters the user's active evidential field.
-- **Warrant:** Attention allocation affects what evidence is encountered and compared.
-- **Boundary:** Eye-tracking patterns vary by interface and task.
-- **Consequence:** Retrieval evaluation should consider exposure, not only relevance scores.
-- **Practice cross-check:** Turin can compare which records remain visible under changes to k and ranking.
 
+**Claim.** Visual rank concentrates attention as well as clicks. **Author claim.** Higher positions receive disproportionate views and scrutiny. **Evidence.** Figure 3 shows strong concentration of views and clicks toward the top across conditions. [@Pan2007GoogleWeTrust, p. 814] **Evidence-supported claim.** Figure 3 shows strong concentration of views and clicks toward the top across conditions. [@Pan2007GoogleWeTrust, p. 814] **Researcher inference.** Semantic result order shapes which DDR evidence enters the user's active evidential field. **Warrant.** Attention allocation affects what evidence is encountered and compared. **Boundary.** Eye-tracking patterns vary by interface and task. **Consequence.** Retrieval evaluation should consider exposure, not only relevance scores. **Practice cross-check.** Turin can compare which records remain visible under changes to k and ranking.
 ## Claim 3
-- **Claim:** Users can detect poor rankings without fully overcoming position bias.
-- **Author claim:** Reversed rankings trigger more scrutiny but still impair performance.
-- **Evidence-supported claim:** Participants inspected more results and revisited items more often in the reversed condition, yet task success fell and high positions remained influential. [@Pan2007GoogleWeTrust, pp. 812–816]
-- **Researcher inference:** Researcher awareness of computational mediation does not automatically neutralise interface authority.
-- **Warrant:** More scrutiny and less bias are not equivalent outcomes.
-- **Boundary:** The study involved highly Google-familiar undergraduates.
-- **Consequence:** Critical literacy should be supported structurally, not assumed.
-- **Practice cross-check:** Turin should expose similarity scores/provenance and allow comparative views beyond ranked lists.
 
+**Claim.** Users can detect poor rankings without fully overcoming position bias. **Author claim.** Reversed rankings trigger more scrutiny but still impair performance. **Evidence.** Participants inspected more results and revisited items more often in the reversed condition, yet task success fell and high positions remained influential. [@Pan2007GoogleWeTrust, pp. 812–816] **Evidence-supported claim.** Participants inspected more results and revisited items more often in the reversed condition, yet task success fell and high positions remained influential. [@Pan2007GoogleWeTrust, pp. 812–816] **Researcher inference.** Researcher awareness of computational mediation does not automatically neutralise interface authority. **Warrant.** More scrutiny and less bias are not equivalent outcomes. **Boundary.** The study involved highly Google-familiar undergraduates. **Consequence.** Critical literacy should be supported structurally, not assumed. **Practice cross-check.** Turin should expose similarity scores/provenance and allow comparative views beyond ranked lists.
 ## Claim 4
-- **Claim:** Rank communicates an implicit judgement of relevance.
-- **Author claim:** Users appear to infer quality from Google's ordering.
-- **Evidence-supported claim:** Selection patterns persist even where experimentally manipulated order conflicts with independently judged relevance. [@Pan2007GoogleWeTrust, pp. 814–816]
-- **Researcher inference:** A numbered semantic ranking may be read as evidential strength even when it only expresses vector proximity.
-- **Warrant:** Interface order carries semantic authority beyond the retrieval calculation.
-- **Boundary:** The paper studies branded Google search, where prior trust may intensify the effect.
-- **Consequence:** DDR interfaces should label ranking semantics explicitly.
-- **Practice cross-check:** Semantic proximity should be described as computational similarity, not historical significance.
 
+**Claim.** Rank communicates an implicit judgement of relevance. **Author claim.** Users appear to infer quality from Google's ordering. **Evidence.** Selection patterns persist even where experimentally manipulated order conflicts with independently judged relevance. [@Pan2007GoogleWeTrust, pp. 814–816] **Evidence-supported claim.** Selection patterns persist even where experimentally manipulated order conflicts with independently judged relevance. [@Pan2007GoogleWeTrust, pp. 814–816] **Researcher inference.** A numbered semantic ranking may be read as evidential strength even when it only expresses vector proximity. **Warrant.** Interface order carries semantic authority beyond the retrieval calculation. **Boundary.** The paper studies branded Google search, where prior trust may intensify the effect. **Consequence.** DDR interfaces should label ranking semantics explicitly. **Practice cross-check.** Semantic proximity should be described as computational similarity, not historical significance.
 ## Claim 5
-- **Claim:** Ranking can create a feedback loop between visibility and future attention.
-- **Author claim:** The paper discusses how privileged position can reinforce itself through user behaviour and click data.
-- **Evidence-supported claim:** The authors connect position-driven selection to the wider dynamics of search visibility. [@Pan2007GoogleWeTrust, pp. 816–818]
-- **Researcher inference:** Metadata-rich or frequently retrieved DDR records could become increasingly dominant in exploratory research.
-- **Warrant:** Visibility influences use, and use can influence later system or researcher choices.
-- **Boundary:** The DDR research instrument does not necessarily retrain ranking from clicks.
-- **Consequence:** Repeated prominence should not be mistaken for historical centrality.
-- **Practice cross-check:** Turin should compare recurring top results against metadata density and corpus structure.
 
+**Claim.** Ranking can create a feedback loop between visibility and future attention. **Author claim.** The paper discusses how privileged position can reinforce itself through user behaviour and click data. **Evidence.** The authors connect position-driven selection to the wider dynamics of search visibility. [@Pan2007GoogleWeTrust, pp. 816–818] **Evidence-supported claim.** The authors connect position-driven selection to the wider dynamics of search visibility. [@Pan2007GoogleWeTrust, pp. 816–818] **Researcher inference.** Metadata-rich or frequently retrieved DDR records could become increasingly dominant in exploratory research. **Warrant.** Visibility influences use, and use can influence later system or researcher choices. **Boundary.** The DDR research instrument does not necessarily retrain ranking from clicks. **Consequence.** Repeated prominence should not be mistaken for historical centrality. **Practice cross-check.** Turin should compare recurring top results against metadata density and corpus structure.
 ## Claim 6
-- **Claim:** Position bias can be tested by deliberate perturbation.
-- **Author claim:** The experiment's methodological contribution is to manipulate ranking while holding documents constant.
-- **Evidence-supported claim:** Normal, swapped and reversed conditions separate interface order from underlying document relevance. [@Pan2007GoogleWeTrust, pp. 806–815]
-- **Researcher inference:** DDR semantic interfaces can use rank perturbation as a robustness test.
-- **Warrant:** Controlled reordering exposes whether interpretation depends on display order.
-- **Boundary:** Historical inquiry also contains legitimate ordering by chronology or provenance.
-- **Consequence:** UAT should vary arbitrary rank while preserving meaningful historical sequence.
-- **Practice cross-check:** Turin can perturb top-k/display order and record whether the same actors and relationships remain dominant.
 
+**Claim.** Position bias can be tested by deliberate perturbation. **Author claim.** The experiment's methodological contribution is to manipulate ranking while holding documents constant. **Evidence.** Normal, swapped and reversed conditions separate interface order from underlying document relevance. [@Pan2007GoogleWeTrust, pp. 806–815] **Evidence-supported claim.** Normal, swapped and reversed conditions separate interface order from underlying document relevance. [@Pan2007GoogleWeTrust, pp. 806–815] **Researcher inference.** DDR semantic interfaces can use rank perturbation as a robustness test. **Warrant.** Controlled reordering exposes whether interpretation depends on display order. **Boundary.** Historical inquiry also contains legitimate ordering by chronology or provenance. **Consequence.** UAT should vary arbitrary rank while preserving meaningful historical sequence. **Practice cross-check.** Turin can perturb top-k/display order and record whether the same actors and relationships remain dominant.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Rank:** the original sequence in which Google ordered results according to its algorithmic estimate of relevance. `[@Pan2007GoogleWeTrust, pp. 805–806]`
