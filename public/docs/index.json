@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T08:36:19.642Z",
+  "updatedAt": "2026-10-03T05:11:47.250Z",
   "entries": [
     {
       "letter": "A",
@@ -204,26 +204,23 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
       "citation_key": "Arzomand2026HARFHumanAI",
       "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering — Digital Applications in Archaeology and Cultural Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Context / supporting",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory",
-        "05 Archival partiality, silence and absence",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 15:39",
       "noteDateMs": 1789396740000,
       "mtimeMs": 1789553676538.2966,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "A",
@@ -237,24 +234,24 @@
       "url": "",
       "citation_key": "asaiSynthesizingScientificLiterature2026",
       "displayTitle": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh (2026). Synthesizing scientific literature with retrieval-augmented language models — Nature",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency",
-        "03 RAG, retrieval and source attribution"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "15 Sep 2026, 00:00",
       "noteDateMs": 1789426800000,
       "mtimeMs": 1789553676542.0374,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "A",
@@ -268,26 +265,24 @@
       "url": "https://link.springer.com/10.1007/s00766-026-00457-w",
       "citation_key": "Axetorn2026AddressingTrustRequirements",
       "displayTitle": "Axetorn, Jonatan and Edholm, Felix and Dobslaw, Felix and Gren, Lucas (2026). Addressing trust requirements in the design of an open-source multiagent LLM-based domain-specific chatbot — Requirements Engineering",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "03 RAG, retrieval and source attribution",
-        "09 Human judgement and practice-led computational research",
-        "10 Conversational AI and completion norms",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1789553676542.805,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "B",
@@ -389,26 +384,24 @@
       "url": "https://dipp.math.bas.bg/dipp/article/view/dipp.2025.15.20",
       "citation_key": "Boruvkova2025EthicalAspectsDigital",
       "displayTitle": "Borůvková, Barbora (2025). Ethical aspects of digital reconstruction of the historical cultural heritage — Digital Presentation and Preservation of Cultural and Scientific Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory",
-        "05 Archival partiality, silence and absence",
-        "11 Uncertainty and provenance display in interfaces",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1789553676544.5898,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "B",
@@ -589,22 +582,23 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804925010548",
       "citation_key": "Carl2026EnhancingCliniciansTrust",
       "displayTitle": "Carl, Nicolas and Hetz, Martin Joachim and Wies, Christoph and Haggenmüller, Sarah and Winterstein, Jana Theres and Mangold, Maurin Helen and Maywald, Lasse and Worst, Thomas Stefan and Westhoff, Niklas and Michel, Maurice Stephan and Wessels, Frederik and Brinker, Titus Josef (2026). Enhancing clinicians’ trust in large language models via transparent source attribution: A randomized controlled evaluation in uro-oncology — European Journal of Cancer",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Methodological anchor",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1789553676546.1787,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "C",
@@ -702,24 +696,24 @@
       "url": "https://www.mdpi.com/1995-8692/19/4/89",
       "citation_key": "Cho2026HowSourceAttribution",
       "displayTitle": "Cho, Junho and Lim, Dokshin (2026). How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts — Journal of Eye Movement Research",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1789553676547.9849,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "C",
@@ -896,26 +890,24 @@
       "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00687/124262/Do-Multi-Document-Summarization-Models-Synthesize",
       "citation_key": "DeYoung2024MultiDocumentSummarizationModels",
       "displayTitle": "DeYoung, Jay and Martinez, Stephanie C. and Marshall, Iain J. and Wallace, Byron C. (2024). Do multi-document summarization models synthesize? — Transactions of the Association for Computational Linguistics",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency",
-        "03 RAG, retrieval and source attribution",
-        "09 Human judgement and practice-led computational research",
-        "10 Conversational AI and completion norms"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1789557280266.4006,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "D",
@@ -1061,26 +1053,24 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1296207426001767",
       "citation_key": "Galindo-Duran2026MethodologicalProtocolGeneration",
       "displayTitle": "Galindo-Durán, Alejandro and Prego de Oliver-López, Cristina and Bernal-Bravo, César (2026). A methodological protocol for the generation and evaluation of AI-generated cultural heritage content — Journal of Cultural Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Bridge text",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1789553676550.3447,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "G",
@@ -1144,24 +1134,24 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
       "citation_key": "Grimes2021MentalModelsExpectation",
       "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental models and expectation violations in conversational AI interactions — Decision Support Systems",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "10 Conversational AI and completion norms",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1789553676550.7773,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "H",
@@ -1229,26 +1219,24 @@
       "url": "https://www.nature.com/articles/s41562-026-02553-x",
       "citation_key": "Isch2026QuantifyingPrevalenceImpact",
       "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the prevalence and impact of overreaching causal claims in social science — Nature Human Behaviour",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency",
-        "03 RAG, retrieval and source attribution",
-        "10 Conversational AI and completion norms",
-        "11 Uncertainty and provenance display in interfaces"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1789553676551.274,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "J",
@@ -1675,27 +1663,24 @@
       "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
       "citation_key": "NietoMcAvoy2024SyntheticHeritageOnline",
       "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic heritage: online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind & Media",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Bridge text",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "01 Synthetic heritage and cultural memory",
-        "05 Archival partiality, silence and absence",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces",
-        "12 Digitisation, reconstruction and archival completion"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1790843642952.499,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "O",
@@ -1765,24 +1750,24 @@
       "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
       "citation_key": "Pan2007GoogleWeTrust",
       "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In Google we trust: users’ decisions on rank, position, and relevance — Journal of Computer-Mediated Communication",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Canon + intellectual lineage",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias",
-        "11 Uncertainty and provenance display in interfaces"
+        "a) Canon + intellectual lineage"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1789553676554.7686,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "P",
@@ -1796,24 +1781,24 @@
       "url": "",
       "citation_key": "PaschLLMContentModeration",
       "displayTitle": "Pasch, Stefan (2025). LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Counterpoint / tension",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "10 Conversational AI and completion norms",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1789553676554.9836,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "P",
@@ -1879,25 +1864,24 @@
       "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
       "citation_key": "Qian2024TakeItLeave",
       "displayTitle": "Qian, Crystal and Wexler, James (2024). Take it, leave it, or fix it: measuring productivity and trust in human-AI collaboration — Proceedings of the 29th International Conference on Intelligent User Interfaces",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Context / supporting",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1790843642965.7214,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "R",
@@ -2165,25 +2149,24 @@
       "url": "",
       "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
       "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: enhancing retrieval-augmented generation with application-aware reasoning — arXiv",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency",
-        "03 RAG, retrieval and source attribution",
-        "09 Human judgement and practice-led computational research"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "15 Sep 2026, 00:00",
       "noteDateMs": 1789426800000,
       "mtimeMs": 1789553676558.0308,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "X",
@@ -2197,25 +2180,24 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
       "citation_key": "Xu2025ConfrontingVerbalizedUncertainty",
       "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making — International Journal of Human-Computer Studies",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "07 Interface authority, ranking and retrieval bias",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:30",
       "noteDateMs": 1789399800000,
       "mtimeMs": 1789553676558.3154,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "Y",
@@ -2229,26 +2211,24 @@
       "url": "http://arxiv.org/abs/2405.07437",
       "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
       "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of retrieval-augmented generation: a survey",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "03 RAG, retrieval and source attribution",
-        "07 Interface authority, ranking and retrieval bias",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "27 May 2026, 09:19",
       "noteDateMs": 1779869940000,
       "mtimeMs": 1789553676558.6733,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "Z",
@@ -2293,26 +2273,24 @@
       "url": "",
       "citation_key": "zhuArgRAGExplainableRetrieval2025",
       "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation — Proceedings of Machine Learning Research",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "02 LLM epistemic risk and persuasive fluency",
-        "03 RAG, retrieval and source attribution",
-        "09 Human judgement and practice-led computational research",
-        "11 Uncertainty and provenance display in interfaces"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "15 Sep 2026, 00:00",
       "noteDateMs": 1789426800000,
       "mtimeMs": 1789553676559.3464,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "L",
@@ -2326,25 +2304,24 @@
       "url": "https://arxiv.org/abs/2601.14460",
       "citation_key": "Lajewska2026TrustMeThis",
       "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust me on this: a user study of trustworthiness for RAG responses — Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Methodological anchor",
       "project_tags": [
         "Turin",
-        "Thesis"
+        "Thesis",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "03 RAG, retrieval and source attribution",
-        "07 Interface authority, ranking and retrieval bias",
-        "11 Uncertainty and provenance display in interfaces"
+        "b) Operational literature"
       ],
       "noteDate": "14 Sept 2026, 16:31",
       "noteDateMs": 1789399860000,
       "mtimeMs": 1790843643092.8533,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     }
   ],
   "grouped": {
@@ -2527,26 +2504,23 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212054826000615",
         "citation_key": "Arzomand2026HARFHumanAI",
         "displayTitle": "Arzomand, Kawsar and Kalganova, Tatiana and Rustell, Michael (2026). HARF: A human–AI collaborative framework for cultural heritage reconstruction with expert-guided multi-platform generative AI and systematic prompt engineering — Digital Applications in Archaeology and Cultural Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Context / supporting",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory",
-          "05 Archival partiality, silence and absence",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 15:39",
         "noteDateMs": 1789396740000,
         "mtimeMs": 1789553676538.2966,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "A",
@@ -2560,24 +2534,24 @@
         "url": "",
         "citation_key": "asaiSynthesizingScientificLiterature2026",
         "displayTitle": "Asai, Akari and He, Jacqueline and Shao, Rulin and Shi, Weijia and Singh, Amanpreet and Chang, Joseph Chee and Lo, Kyle and Soldaini, Luca and Feldman, Sergey and D'Arcy, Mike and Wadden, David and Latzke, Matt and Sparks, Jenna and Hwang, Jena D. and Kishore, Varsha and Tian, Minyang and Ji, Pan and Liu, Shengyan and Tong, Hao and Wu, Bohao and Xiong, Yanyu and Zettlemoyer, Luke and Neubig, Graham and Weld, Daniel S. and Downey, Doug and Yih, Wen-tau and Koh, Pang Wei and Hajishirzi, Hannaneh (2026). Synthesizing scientific literature with retrieval-augmented language models — Nature",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency",
-          "03 RAG, retrieval and source attribution"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "15 Sep 2026, 00:00",
         "noteDateMs": 1789426800000,
         "mtimeMs": 1789553676542.0374,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "A",
@@ -2591,26 +2565,24 @@
         "url": "https://link.springer.com/10.1007/s00766-026-00457-w",
         "citation_key": "Axetorn2026AddressingTrustRequirements",
         "displayTitle": "Axetorn, Jonatan and Edholm, Felix and Dobslaw, Felix and Gren, Lucas (2026). Addressing trust requirements in the design of an open-source multiagent LLM-based domain-specific chatbot — Requirements Engineering",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "03 RAG, retrieval and source attribution",
-          "09 Human judgement and practice-led computational research",
-          "10 Conversational AI and completion norms",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1789553676542.805,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "B": [
@@ -2739,26 +2711,24 @@
         "url": "https://dipp.math.bas.bg/dipp/article/view/dipp.2025.15.20",
         "citation_key": "Boruvkova2025EthicalAspectsDigital",
         "displayTitle": "Borůvková, Barbora (2025). Ethical aspects of digital reconstruction of the historical cultural heritage — Digital Presentation and Preservation of Cultural and Scientific Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory",
-          "05 Archival partiality, silence and absence",
-          "11 Uncertainty and provenance display in interfaces",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1789553676544.5898,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "B",
@@ -2941,22 +2911,23 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804925010548",
         "citation_key": "Carl2026EnhancingCliniciansTrust",
         "displayTitle": "Carl, Nicolas and Hetz, Martin Joachim and Wies, Christoph and Haggenmüller, Sarah and Winterstein, Jana Theres and Mangold, Maurin Helen and Maywald, Lasse and Worst, Thomas Stefan and Westhoff, Niklas and Michel, Maurice Stephan and Wessels, Frederik and Brinker, Titus Josef (2026). Enhancing clinicians’ trust in large language models via transparent source attribution: A randomized controlled evaluation in uro-oncology — European Journal of Cancer",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Methodological anchor",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1789553676546.1787,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "C",
@@ -3054,24 +3025,24 @@
         "url": "https://www.mdpi.com/1995-8692/19/4/89",
         "citation_key": "Cho2026HowSourceAttribution",
         "displayTitle": "Cho, Junho and Lim, Dokshin (2026). How source attribution visualization shapes user attention and preference: an eye-tracking study of four AI chatbot layouts — Journal of Eye Movement Research",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1789553676547.9849,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "C",
@@ -3250,26 +3221,24 @@
         "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00687/124262/Do-Multi-Document-Summarization-Models-Synthesize",
         "citation_key": "DeYoung2024MultiDocumentSummarizationModels",
         "displayTitle": "DeYoung, Jay and Martinez, Stephanie C. and Marshall, Iain J. and Wallace, Byron C. (2024). Do multi-document summarization models synthesize? — Transactions of the Association for Computational Linguistics",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency",
-          "03 RAG, retrieval and source attribution",
-          "09 Human judgement and practice-led computational research",
-          "10 Conversational AI and completion norms"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1789557280266.4006,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "D",
@@ -3419,26 +3388,24 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1296207426001767",
         "citation_key": "Galindo-Duran2026MethodologicalProtocolGeneration",
         "displayTitle": "Galindo-Durán, Alejandro and Prego de Oliver-López, Cristina and Bernal-Bravo, César (2026). A methodological protocol for the generation and evaluation of AI-generated cultural heritage content — Journal of Cultural Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Bridge text",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1789553676550.3447,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "G",
@@ -3502,24 +3469,24 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923621000257",
         "citation_key": "Grimes2021MentalModelsExpectation",
         "displayTitle": "Grimes, G. Mark and Schuetzler, Ryan M. and Giboney, Justin Scott (2021). Mental models and expectation violations in conversational AI interactions — Decision Support Systems",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "10 Conversational AI and completion norms",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1789553676550.7773,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "H": [
@@ -3591,26 +3558,24 @@
         "url": "https://www.nature.com/articles/s41562-026-02553-x",
         "citation_key": "Isch2026QuantifyingPrevalenceImpact",
         "displayTitle": "Isch, Calvin and Dörr, Timothy and Fasching, Neil and Jennings, Grace and Watts, Duncan J. (2026). Quantifying the prevalence and impact of overreaching causal claims in social science — Nature Human Behaviour",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency",
-          "03 RAG, retrieval and source attribution",
-          "10 Conversational AI and completion norms",
-          "11 Uncertainty and provenance display in interfaces"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1789553676551.274,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "J": [
@@ -4020,25 +3985,24 @@
         "url": "https://arxiv.org/abs/2601.14460",
         "citation_key": "Lajewska2026TrustMeThis",
         "displayTitle": "Łajewska, Weronika and Balog, Krisztian (2026). Trust me on this: a user study of trustworthiness for RAG responses — Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "03 RAG, retrieval and source attribution",
-          "07 Interface authority, ranking and retrieval bias",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1790843643092.8533,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "N": [
@@ -4079,27 +4043,24 @@
         "url": "https://www.cambridge.org/core/product/identifier/S2635023824000109/type/journal_article",
         "citation_key": "NietoMcAvoy2024SyntheticHeritageOnline",
         "displayTitle": "Nieto McAvoy, Eva and Kidd, Jenny (2024). Synthetic heritage: online platforms, deceptive genealogy and the ethics of algorithmically generated memory — Memory, Mind & Media",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Bridge text",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "01 Synthetic heritage and cultural memory",
-          "05 Archival partiality, silence and absence",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces",
-          "12 Digitisation, reconstruction and archival completion"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1790843642952.499,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "O": [
@@ -4173,24 +4134,24 @@
         "url": "https://academic.oup.com/jcmc/article/12/3/801-823/4582975",
         "citation_key": "Pan2007GoogleWeTrust",
         "displayTitle": "Pan, Bing and Hembrooke, Helene and Joachims, Thorsten and Lorigo, Lori and Gay, Geri and Granka, Laura (2007). In Google we trust: users’ decisions on rank, position, and relevance — Journal of Computer-Mediated Communication",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Canon + intellectual lineage",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias",
-          "11 Uncertainty and provenance display in interfaces"
+          "a) Canon + intellectual lineage"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1789553676554.7686,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "P",
@@ -4204,24 +4165,24 @@
         "url": "",
         "citation_key": "PaschLLMContentModeration",
         "displayTitle": "Pasch, Stefan (2025). LLM content moderation and user satisfaction: evidence from response refusals in chatbot arena",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Counterpoint / tension",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "10 Conversational AI and completion norms",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:31",
         "noteDateMs": 1789399860000,
         "mtimeMs": 1789553676554.9836,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "P",
@@ -4289,25 +4250,24 @@
         "url": "https://dl.acm.org/doi/10.1145/3640543.3645198",
         "citation_key": "Qian2024TakeItLeave",
         "displayTitle": "Qian, Crystal and Wexler, James (2024). Take it, leave it, or fix it: measuring productivity and trust in human-AI collaboration — Proceedings of the 29th International Conference on Intelligent User Interfaces",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Context / supporting",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1790843642965.7214,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "R": [
@@ -4585,25 +4545,24 @@
         "url": "",
         "citation_key": "wangRAGEnhancingRetrievalAugmented2025",
         "displayTitle": "Wang, Yu and Zhao, Shiwan and Wang, Zhihu and Fan, Ming and Zhang, Xicheng and Zhang, Yubo and Wang, Zhengfan and Huang, Heyuan and Liu, Ting (2025). RAG+: enhancing retrieval-augmented generation with application-aware reasoning — arXiv",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency",
-          "03 RAG, retrieval and source attribution",
-          "09 Human judgement and practice-led computational research"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "15 Sep 2026, 00:00",
         "noteDateMs": 1789426800000,
         "mtimeMs": 1789553676558.0308,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "X": [
@@ -4619,25 +4578,24 @@
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1071581925000126",
         "citation_key": "Xu2025ConfrontingVerbalizedUncertainty",
         "displayTitle": "Xu, Zhengtao and Song, Tianqi and Lee, Yi-Chieh (2025). Confronting verbalized uncertainty: understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making — International Journal of Human-Computer Studies",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "07 Interface authority, ranking and retrieval bias",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "14 Sept 2026, 16:30",
         "noteDateMs": 1789399800000,
         "mtimeMs": 1789553676558.3154,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "Y": [
@@ -4653,26 +4611,24 @@
         "url": "http://arxiv.org/abs/2405.07437",
         "citation_key": "Yu2025EvaluationRetrievalAugmentedGeneration",
         "displayTitle": "Yu, Hao and Gan, Aoran and Zhang, Kai and Tong, Shiwei and Liu, Qi and Liu, Zhaofeng (2025). Evaluation of retrieval-augmented generation: a survey",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "03 RAG, retrieval and source attribution",
-          "07 Interface authority, ranking and retrieval bias",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces"
+          "b) Operational literature"
         ],
         "noteDate": "27 May 2026, 09:19",
         "noteDateMs": 1779869940000,
         "mtimeMs": 1789553676558.6733,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "Z": [
@@ -4719,26 +4675,24 @@
         "url": "",
         "citation_key": "zhuArgRAGExplainableRetrieval2025",
         "displayTitle": "Zhu, Yuqicheng and Potyka, Nico and Hernández, Daniel and He, Yuan and Ding, Zifeng and Xiong, Bo and Zhou, Dongzhuoran and Kharlamov, Evgeny and Staab, Steffen (2025). ArgRAG: explainable retrieval augmented generation using quantitative bipolar argumentation — Proceedings of Machine Learning Research",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Methodological anchor",
         "project_tags": [
           "Turin",
-          "Thesis"
+          "Thesis",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "02 LLM epistemic risk and persuasive fluency",
-          "03 RAG, retrieval and source attribution",
-          "09 Human judgement and practice-led computational research",
-          "11 Uncertainty and provenance display in interfaces"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "15 Sep 2026, 00:00",
         "noteDateMs": 1789426800000,
         "mtimeMs": 1789553676559.3464,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ]
   }
