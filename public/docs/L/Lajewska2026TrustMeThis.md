@@ -55,11 +55,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -79,68 +83,26 @@ constraints_source: "project/constraints.md"
 
 They test whether evidential explanations help users distinguish more reliable from less reliable generated responses. [@Lajewska2026TrustMeThis, pp. 4–7]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Explanations can move users toward better-supported responses.
-- **Author claim:** Showing explanation cues changes trustworthiness judgements.
-- **Evidence-supported claim:** Reliable responses were chosen much more often after explanations were revealed. [@Lajewska2026TrustMeThis, p. 6]
-- **Researcher inference:** DDR provenance can materially affect user judgement when it is visible.
-- **Warrant:** Evidential quality must be perceptible before it can calibrate reliance.
-- **Boundary:** The study uses a small non-expert sample.
-- **Consequence:** Provenance should be evaluated as a user-facing method.
-- **Practice cross-check:** Turin shows linked passages beneath synthesis.
 
+**Claim.** Explanations can move users toward better-supported responses. **Author claim.** Showing explanation cues changes trustworthiness judgements. **Evidence.** Reliable responses were chosen much more often after explanations were revealed. [@Lajewska2026TrustMeThis, p. 6] **Evidence-supported claim.** Reliable responses were chosen much more often after explanations were revealed. [@Lajewska2026TrustMeThis, p. 6] **Researcher inference.** DDR provenance can materially affect user judgement when it is visible. **Warrant.** Evidential quality must be perceptible before it can calibrate reliance. **Boundary.** The study uses a small non-expert sample. **Consequence.** Provenance should be evaluated as a user-facing method. **Practice cross-check.** Turin shows linked passages beneath synthesis.
 ## Claim 2
-- **Claim:** Source attribution is one explanation type, not a complete trust solution.
-- **Author claim:** The study compares source attribution with grounding and coverage rather than treating citation alone as sufficient.
-- **Evidence-supported claim:** All three strategies expose different aspects of response quality. [@Lajewska2026TrustMeThis, pp. 4–5]
-- **Researcher inference:** DDR should distinguish where a source came from, what claim it supports and what relevant material may be omitted.
-- **Warrant:** Provenance, entailment and coverage answer different questions.
-- **Boundary:** Explanation effects vary by task.
-- **Consequence:** Interface design should combine rather than conflate these dimensions.
-- **Practice cross-check:** Turin can show source identity, passage support and omitted/conflicting evidence separately.
 
+**Claim.** Source attribution is one explanation type, not a complete trust solution. **Author claim.** The study compares source attribution with grounding and coverage rather than treating citation alone as sufficient. **Evidence.** All three strategies expose different aspects of response quality. [@Lajewska2026TrustMeThis, pp. 4–5] **Evidence-supported claim.** All three strategies expose different aspects of response quality. [@Lajewska2026TrustMeThis, pp. 4–5] **Researcher inference.** DDR should distinguish where a source came from, what claim it supports and what relevant material may be omitted. **Warrant.** Provenance, entailment and coverage answer different questions. **Boundary.** Explanation effects vary by task. **Consequence.** Interface design should combine rather than conflate these dimensions. **Practice cross-check.** Turin can show source identity, passage support and omitted/conflicting evidence separately.
 ## Claim 3
-- **Claim:** Claim-level grounding is especially important for generated synthesis.
-- **Author claim:** Factual grounding links statements to supporting passages.
-- **Evidence-supported claim:** The explanation design explicitly operates at statement level. [@Lajewska2026TrustMeThis, pp. 4–5]
-- **Researcher inference:** DDR paragraphs with multiple historical propositions require proposition-level evidence mapping.
-- **Warrant:** Answer-level citations can hide unsupported statements within otherwise sourced prose.
-- **Boundary:** Historical support may involve several traces with different statuses.
-- **Consequence:** One claim may need multiple supporting, qualifying or conflicting passages.
-- **Practice cross-check:** Turin should map individual interpretative claims to specific evidence.
 
+**Claim.** Claim-level grounding is especially important for generated synthesis. **Author claim.** Factual grounding links statements to supporting passages. **Evidence.** The explanation design explicitly operates at statement level. [@Lajewska2026TrustMeThis, pp. 4–5] **Evidence-supported claim.** The explanation design explicitly operates at statement level. [@Lajewska2026TrustMeThis, pp. 4–5] **Researcher inference.** DDR paragraphs with multiple historical propositions require proposition-level evidence mapping. **Warrant.** Answer-level citations can hide unsupported statements within otherwise sourced prose. **Boundary.** Historical support may involve several traces with different statuses. **Consequence.** One claim may need multiple supporting, qualifying or conflicting passages. **Practice cross-check.** Turin should map individual interpretative claims to specific evidence.
 ## Claim 4
-- **Claim:** Information coverage is a distinct evidential property.
-- **Author claim:** The study includes explanations about important facets omitted from the response.
-- **Evidence-supported claim:** Coverage is evaluated separately from attribution and grounding. [@Lajewska2026TrustMeThis, pp. 4–5]
-- **Researcher inference:** DDR retrieval should expose materially relevant counter-evidence or omitted perspectives where known.
-- **Warrant:** A grounded answer can still be selectively incomplete.
-- **Boundary:** No finite retrieval can guarantee historical completeness.
-- **Consequence:** Coverage should be framed as bounded adequacy rather than completeness.
-- **Practice cross-check:** Turin can flag conflicting or adjacent traces excluded from the synthesis.
 
+**Claim.** Information coverage is a distinct evidential property. **Author claim.** The study includes explanations about important facets omitted from the response. **Evidence.** Coverage is evaluated separately from attribution and grounding. [@Lajewska2026TrustMeThis, pp. 4–5] **Evidence-supported claim.** Coverage is evaluated separately from attribution and grounding. [@Lajewska2026TrustMeThis, pp. 4–5] **Researcher inference.** DDR retrieval should expose materially relevant counter-evidence or omitted perspectives where known. **Warrant.** A grounded answer can still be selectively incomplete. **Boundary.** No finite retrieval can guarantee historical completeness. **Consequence.** Coverage should be framed as bounded adequacy rather than completeness. **Practice cross-check.** Turin can flag conflicting or adjacent traces excluded from the synthesis.
 ## Claim 5
-- **Claim:** Clear, detailed or actionable prose can outcompete better evidential quality.
-- **Author claim:** Participants sometimes preferred objectively weaker responses because they were rhetorically more useful.
-- **Evidence-supported claim:** Clarity, detail, actionability and concrete examples influenced trust independently of factual quality. [@Lajewska2026TrustMeThis, pp. 6–7]
-- **Researcher inference:** Fluent DDR narrative can acquire authority beyond its sources.
-- **Warrant:** Users judge form and evidence simultaneously.
-- **Boundary:** The study's quality manipulation is not historical interpretation.
-- **Consequence:** UAT should separate rhetorical preference from evidential judgement.
-- **Practice cross-check:** Turin should preserve a messier conflicting answer when that better represents the archive.
 
+**Claim.** Clear, detailed or actionable prose can outcompete better evidential quality. **Author claim.** Participants sometimes preferred objectively weaker responses because they were rhetorically more useful. **Evidence.** Clarity, detail, actionability and concrete examples influenced trust independently of factual quality. [@Lajewska2026TrustMeThis, pp. 6–7] **Evidence-supported claim.** Clarity, detail, actionability and concrete examples influenced trust independently of factual quality. [@Lajewska2026TrustMeThis, pp. 6–7] **Researcher inference.** Fluent DDR narrative can acquire authority beyond its sources. **Warrant.** Users judge form and evidence simultaneously. **Boundary.** The study's quality manipulation is not historical interpretation. **Consequence.** UAT should separate rhetorical preference from evidential judgement. **Practice cross-check.** Turin should preserve a messier conflicting answer when that better represents the archive.
 ## Claim 6
-- **Claim:** Explanation usefulness depends on query type and prior knowledge.
-- **Author claim:** Attribution mattered more for factual questions and users sometimes ignored explanations when they believed they already knew the topic.
-- **Evidence-supported claim:** Task and prior knowledge shaped how explanation cues were used. [@Lajewska2026TrustMeThis, p. 7]
-- **Researcher inference:** DDR factual, interpretative and missingness queries may need different provenance displays.
-- **Warrant:** Explanations are interpreted through task and user context.
-- **Boundary:** The study does not define an archival interface taxonomy.
-- **Consequence:** Provenance should be adaptive to epistemic task rather than one-size-fits-all.
-- **Practice cross-check:** Turin can foreground exact passages for factual attribution and multiple trace types for contested interpretation.
 
+**Claim.** Explanation usefulness depends on query type and prior knowledge. **Author claim.** Attribution mattered more for factual questions and users sometimes ignored explanations when they believed they already knew the topic. **Evidence.** Task and prior knowledge shaped how explanation cues were used. [@Lajewska2026TrustMeThis, p. 7] **Evidence-supported claim.** Task and prior knowledge shaped how explanation cues were used. [@Lajewska2026TrustMeThis, p. 7] **Researcher inference.** DDR factual, interpretative and missingness queries may need different provenance displays. **Warrant.** Explanations are interpreted through task and user context. **Boundary.** The study does not define an archival interface taxonomy. **Consequence.** Provenance should be adaptive to epistemic task rather than one-size-fits-all. **Practice cross-check.** Turin can foreground exact passages for factual attribution and multiple trace types for contested interpretation.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Source attribution:** explanation showing the supporting passages or source documents from which a response derives. `[@Lajewska2026TrustMeThis, pp. 4–5]`
