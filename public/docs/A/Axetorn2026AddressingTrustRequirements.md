@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ Axetorn et al. write from requirements engineering and design science, translati
 
 They turn reliability and transparency requirements into separable retrieval, generation, checking and refusal functions, then evaluate whether those functions meet users’ stated needs. [@Axetorn2026AddressingTrustRequirements, pp. 13–20, 28–29]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** A RAG system can intentionally withhold an answer when relevant evidence is insufficient.
-- **Author claim:** Reliability includes refusal where relevant support cannot be retrieved.
-- **Evidence-supported claim:** Workshop participants preferred no answer to a wrong answer, and the judge agent refuses when no retrieved segment exceeds its relevance threshold. [@Axetorn2026AddressingTrustRequirements, pp. 13–16]
-- **Researcher inference:** Evidential insufficiency can be treated as a valid DDR result.
-- **Warrant:** Non-completion is explicitly designed rather than treated as failure.
-- **Boundary:** Their knowledge base is bounded and treated as ground truth.
-- **Consequence:** DDR refusal must be phrased as corpus-bounded missingness, not historical non-existence.
-- **Practice cross-check:** Turin scoped-missingness cases return nearest traces and state what the corpus does not establish.
 
+**Claim.** A RAG system can intentionally withhold an answer when relevant evidence is insufficient. **Author claim.** Reliability includes refusal where relevant support cannot be retrieved. **Evidence.** Workshop participants preferred no answer to a wrong answer, and the judge agent refuses when no retrieved segment exceeds its relevance threshold. [@Axetorn2026AddressingTrustRequirements, pp. 13–16] **Evidence-supported claim.** Workshop participants preferred no answer to a wrong answer, and the judge agent refuses when no retrieved segment exceeds its relevance threshold. [@Axetorn2026AddressingTrustRequirements, pp. 13–16] **Researcher inference.** Evidential insufficiency can be treated as a valid DDR result. **Warrant.** Non-completion is explicitly designed rather than treated as failure. **Boundary.** Their knowledge base is bounded and treated as ground truth. **Consequence.** DDR refusal must be phrased as corpus-bounded missingness, not historical non-existence. **Practice cross-check.** Turin scoped-missingness cases return nearest traces and state what the corpus does not establish.
 ## Claim 2
-- **Claim:** Trust requirements can be translated into architecture rather than left as abstract principles.
-- **Author claim:** The study derives reliability and transparency requirements and implements components to satisfy them.
-- **Evidence-supported claim:** The architecture assigns relevance filtering, answer generation, grounding/citation checks and refusal to explicit system functions. [@Axetorn2026AddressingTrustRequirements, pp. 13–17]
-- **Researcher inference:** Provenance and bounded synthesis should be treated as functional requirements of the DDR instrument.
-- **Warrant:** Requirements become testable when they correspond to observable system behaviour.
-- **Boundary:** The specific multi-agent design is not necessary to reproduce the underlying requirement.
-- **Consequence:** The thesis can evaluate evidential safeguards as designed behaviours.
-- **Practice cross-check:** Turin UAT checks retrieval, citation, synthesis and scoped-missingness separately.
 
+**Claim.** Trust requirements can be translated into architecture rather than left as abstract principles. **Author claim.** The study derives reliability and transparency requirements and implements components to satisfy them. **Evidence.** The architecture assigns relevance filtering, answer generation, grounding/citation checks and refusal to explicit system functions. [@Axetorn2026AddressingTrustRequirements, pp. 13–17] **Evidence-supported claim.** The architecture assigns relevance filtering, answer generation, grounding/citation checks and refusal to explicit system functions. [@Axetorn2026AddressingTrustRequirements, pp. 13–17] **Researcher inference.** Provenance and bounded synthesis should be treated as functional requirements of the DDR instrument. **Warrant.** Requirements become testable when they correspond to observable system behaviour. **Boundary.** The specific multi-agent design is not necessary to reproduce the underlying requirement. **Consequence.** The thesis can evaluate evidential safeguards as designed behaviours. **Practice cross-check.** Turin UAT checks retrieval, citation, synthesis and scoped-missingness separately.
 ## Claim 3
-- **Claim:** Separating retrieval, generation and verification makes failure modes more inspectable.
-- **Author claim:** The authors argue that architectural separation improves controllability, testability, observability and auditability.
-- **Evidence-supported claim:** Judge, generator and checker components expose evidence selection, composition and validation as distinct stages. [@Axetorn2026AddressingTrustRequirements, pp. 15–17, 29]
-- **Researcher inference:** DDR inference should preserve the difference between retrieval error, synthesis error and provenance error.
-- **Warrant:** A single opaque generation step makes those failure sources difficult to distinguish.
-- **Boundary:** Component separation does not itself guarantee evidential correctness.
-- **Consequence:** Evaluation should diagnose errors by stage.
-- **Practice cross-check:** Turin separates retrieval, evidence typing, bounded synthesis and quotation/provenance validation.
 
+**Claim.** Separating retrieval, generation and verification makes failure modes more inspectable. **Author claim.** The authors argue that architectural separation improves controllability, testability, observability and auditability. **Evidence.** Judge, generator and checker components expose evidence selection, composition and validation as distinct stages. [@Axetorn2026AddressingTrustRequirements, pp. 15–17, 29] **Evidence-supported claim.** Judge, generator and checker components expose evidence selection, composition and validation as distinct stages. [@Axetorn2026AddressingTrustRequirements, pp. 15–17, 29] **Researcher inference.** DDR inference should preserve the difference between retrieval error, synthesis error and provenance error. **Warrant.** A single opaque generation step makes those failure sources difficult to distinguish. **Boundary.** Component separation does not itself guarantee evidential correctness. **Consequence.** Evaluation should diagnose errors by stage. **Practice cross-check.** Turin separates retrieval, evidence typing, bounded synthesis and quotation/provenance validation.
 ## Claim 4
-- **Claim:** Source citation alone does not fully communicate system transparency.
-- **Author claim:** Participants wanted more than citations; they also wanted visible statements about capabilities, sources and update status.
-- **Evidence-supported claim:** The evaluation found provenance helpful but insufficient to satisfy transparency requirements by itself. [@Axetorn2026AddressingTrustRequirements, pp. 20, 28]
-- **Researcher inference:** A cited DDR answer can still imply completeness unless scope and limitations are separately stated.
-- **Warrant:** Provenance explains basis; limitation disclosure explains boundary.
-- **Boundary:** User preferences in an HR chatbot do not directly establish archival interface requirements.
-- **Consequence:** Provenance and scoped missingness should be represented as complementary interface functions.
-- **Practice cross-check:** Turin combines source citations with explicit statements of what the evidence surface cannot establish.
 
+**Claim.** Source citation alone does not fully communicate system transparency. **Author claim.** Participants wanted more than citations; they also wanted visible statements about capabilities, sources and update status. **Evidence.** The evaluation found provenance helpful but insufficient to satisfy transparency requirements by itself. [@Axetorn2026AddressingTrustRequirements, pp. 20, 28] **Evidence-supported claim.** The evaluation found provenance helpful but insufficient to satisfy transparency requirements by itself. [@Axetorn2026AddressingTrustRequirements, pp. 20, 28] **Researcher inference.** A cited DDR answer can still imply completeness unless scope and limitations are separately stated. **Warrant.** Provenance explains basis; limitation disclosure explains boundary. **Boundary.** User preferences in an HR chatbot do not directly establish archival interface requirements. **Consequence.** Provenance and scoped missingness should be represented as complementary interface functions. **Practice cross-check.** Turin combines source citations with explicit statements of what the evidence surface cannot establish.
 ## Claim 5
-- **Claim:** Verification can be made iterative rather than purely post-hoc.
-- **Author claim:** Failed checker tests return answers for revision before release.
-- **Evidence-supported claim:** The checker evaluates grounding, source citation and relevance and can send a response back for correction. [@Axetorn2026AddressingTrustRequirements, pp. 15–17]
-- **Researcher inference:** DDR synthesis can be gated by deterministic or researcher checks before being treated as an admissible result.
-- **Warrant:** Validation is more effective when it changes output behaviour rather than merely annotating defects.
-- **Boundary:** Automated checking may reproduce the limitations of its own criteria.
-- **Consequence:** Verification should not be confused with historical adjudication.
-- **Practice cross-check:** Turin uses deterministic fallback when generated synthesis exceeds the permitted evidence structure.
 
+**Claim.** Verification can be made iterative rather than purely post-hoc. **Author claim.** Failed checker tests return answers for revision before release. **Evidence.** The checker evaluates grounding, source citation and relevance and can send a response back for correction. [@Axetorn2026AddressingTrustRequirements, pp. 15–17] **Evidence-supported claim.** The checker evaluates grounding, source citation and relevance and can send a response back for correction. [@Axetorn2026AddressingTrustRequirements, pp. 15–17] **Researcher inference.** DDR synthesis can be gated by deterministic or researcher checks before being treated as an admissible result. **Warrant.** Validation is more effective when it changes output behaviour rather than merely annotating defects. **Boundary.** Automated checking may reproduce the limitations of its own criteria. **Consequence.** Verification should not be confused with historical adjudication. **Practice cross-check.** Turin uses deterministic fallback when generated synthesis exceeds the permitted evidence structure.
 ## Claim 6
-- **Claim:** Reliability is framed as appropriate behaviour under uncertainty, not simply answer production.
-- **Author claim:** Reliability combines accurate responses, verifiable sources and refusal when support is insufficient.
-- **Evidence-supported claim:** The requirements explicitly connect reliability with evidence and abstention rather than response completeness alone. [@Axetorn2026AddressingTrustRequirements, pp. 13–14]
-- **Researcher inference:** A historically responsible system may be more reliable when it declines to synthesise.
-- **Warrant:** Completion pressure and evidential reliability can conflict.
-- **Boundary:** Their evaluation does not test historically contested evidence.
-- **Consequence:** DDR success criteria should reward bounded non-answering where warranted.
-- **Practice cross-check:** Scoped missingness is evaluated as a positive evidential outcome in Turin.
 
+**Claim.** Reliability is framed as appropriate behaviour under uncertainty, not simply answer production. **Author claim.** Reliability combines accurate responses, verifiable sources and refusal when support is insufficient. **Evidence.** The requirements explicitly connect reliability with evidence and abstention rather than response completeness alone. [@Axetorn2026AddressingTrustRequirements, pp. 13–14] **Evidence-supported claim.** The requirements explicitly connect reliability with evidence and abstention rather than response completeness alone. [@Axetorn2026AddressingTrustRequirements, pp. 13–14] **Researcher inference.** A historically responsible system may be more reliable when it declines to synthesise. **Warrant.** Completion pressure and evidential reliability can conflict. **Boundary.** Their evaluation does not test historically contested evidence. **Consequence.** DDR success criteria should reward bounded non-answering where warranted. **Practice cross-check.** Scoped missingness is evaluated as a positive evidential outcome in Turin.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Refusal:** an intentional system response triggered when sufficiently relevant supporting information cannot be retrieved, used to prevent unsupported completion. `[@Axetorn2026AddressingTrustRequirements, pp. 14–16]`
