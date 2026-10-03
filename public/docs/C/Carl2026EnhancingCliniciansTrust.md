@@ -52,11 +52,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -76,68 +80,26 @@ Carl et al. write from clinical oncology and medical AI, comparing GPT-4o with a
 
 They shift attention from opaque internal model reasoning toward external verification through traceable references and source previews. [@Carl2026EnhancingCliniciansTrust, pp. 2–5]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Provenance can be a direct user-facing property of generated text.
-- **Author claim:** UroBot embeds references in answers and links them to source previews.
-- **Evidence-supported claim:** Users can open the retrieved guideline segment associated with a generated statement. [@Carl2026EnhancingCliniciansTrust, p. 2]
-- **Researcher inference:** DDR researchers should be able to move directly from interpretation to archival passage.
-- **Warrant:** Provenance is actionable when it supports immediate inspection.
-- **Boundary:** Clinical source passages come from a curated authoritative corpus.
-- **Consequence:** Passage-level access should be built into archival synthesis interfaces.
-- **Practice cross-check:** Turin citations reopen underlying DDR passages.
 
+**Claim.** Provenance can be a direct user-facing property of generated text. **Author claim.** UroBot embeds references in answers and links them to source previews. **Evidence.** Users can open the retrieved guideline segment associated with a generated statement. [@Carl2026EnhancingCliniciansTrust, p. 2] **Evidence-supported claim.** Users can open the retrieved guideline segment associated with a generated statement. [@Carl2026EnhancingCliniciansTrust, p. 2] **Researcher inference.** DDR researchers should be able to move directly from interpretation to archival passage. **Warrant.** Provenance is actionable when it supports immediate inspection. **Boundary.** Clinical source passages come from a curated authoritative corpus. **Consequence.** Passage-level access should be built into archival synthesis interfaces. **Practice cross-check.** Turin citations reopen underlying DDR passages.
 ## Claim 2
-- **Claim:** Citation presence and citation verifiability are different properties.
-- **Author claim:** The study distinguishes source attribution from the ability to verify content against those sources.
-- **Evidence-supported claim:** UroBot substantially outperformed ChatGPT on full verifiability and full attribution. [@Carl2026EnhancingCliniciansTrust, pp. 3–4]
-- **Researcher inference:** A DDR answer should not count as sourced merely because document names appear.
-- **Warrant:** A citation can look authoritative while failing to support the claim.
-- **Boundary:** Their verifiability criteria rely on contemporary clinical guidelines.
-- **Consequence:** Provenance UAT should test whether cited passages genuinely warrant generated claims.
-- **Practice cross-check:** Turin should test claim-to-passage entailment, not only citation existence.
 
+**Claim.** Citation presence and citation verifiability are different properties. **Author claim.** The study distinguishes source attribution from the ability to verify content against those sources. **Evidence.** UroBot substantially outperformed ChatGPT on full verifiability and full attribution. [@Carl2026EnhancingCliniciansTrust, pp. 3–4] **Evidence-supported claim.** UroBot substantially outperformed ChatGPT on full verifiability and full attribution. [@Carl2026EnhancingCliniciansTrust, pp. 3–4] **Researcher inference.** A DDR answer should not count as sourced merely because document names appear. **Warrant.** A citation can look authoritative while failing to support the claim. **Boundary.** Their verifiability criteria rely on contemporary clinical guidelines. **Consequence.** Provenance UAT should test whether cited passages genuinely warrant generated claims. **Practice cross-check.** Turin should test claim-to-passage entailment, not only citation existence.
 ## Claim 3
-- **Claim:** Generic or fabricated citations create false authority.
-- **Author claim:** The authors report problems in ChatGPT source attribution.
-- **Evidence-supported claim:** Their qualitative analysis found non-existent attributions and valid citations lacking specific sections. [@Carl2026EnhancingCliniciansTrust, pp. 4–5]
-- **Researcher inference:** Bibliographic-looking references in historical synthesis require verification against real records and passages.
-- **Warrant:** Formal citation style can mask weak or invented provenance.
-- **Boundary:** The study tests one clinical comparison and one model configuration.
-- **Consequence:** Citation integrity should be independently checked.
-- **Practice cross-check:** Turin provenance validation checks cited passages and record identity.
 
+**Claim.** Generic or fabricated citations create false authority. **Author claim.** The authors report problems in ChatGPT source attribution. **Evidence.** Their qualitative analysis found non-existent attributions and valid citations lacking specific sections. [@Carl2026EnhancingCliniciansTrust, pp. 4–5] **Evidence-supported claim.** Their qualitative analysis found non-existent attributions and valid citations lacking specific sections. [@Carl2026EnhancingCliniciansTrust, pp. 4–5] **Researcher inference.** Bibliographic-looking references in historical synthesis require verification against real records and passages. **Warrant.** Formal citation style can mask weak or invented provenance. **Boundary.** The study tests one clinical comparison and one model configuration. **Consequence.** Citation integrity should be independently checked. **Practice cross-check.** Turin provenance validation checks cited passages and record identity.
 ## Claim 4
-- **Claim:** Source previews lower the cost of evidential scrutiny.
-- **Author claim:** Their interface exposes original retrieved text beside generated recommendations.
-- **Evidence-supported claim:** Figure 1 and the system description show citation-linked source text previews. [@Carl2026EnhancingCliniciansTrust, p. 2]
-- **Researcher inference:** DDR interfaces should support in-context evidence inspection before full-record navigation.
-- **Warrant:** Verification is more practical when users need not independently search for the relevant passage.
-- **Boundary:** Easy access does not ensure correct interpretation.
-- **Consequence:** Preview should complement, not replace, access to full archival context.
-- **Practice cross-check:** Turin should pair passage preview with full record metadata and source context.
 
+**Claim.** Source previews lower the cost of evidential scrutiny. **Author claim.** Their interface exposes original retrieved text beside generated recommendations. **Evidence.** Figure 1 and the system description show citation-linked source text previews. [@Carl2026EnhancingCliniciansTrust, p. 2] **Evidence-supported claim.** Figure 1 and the system description show citation-linked source text previews. [@Carl2026EnhancingCliniciansTrust, p. 2] **Researcher inference.** DDR interfaces should support in-context evidence inspection before full-record navigation. **Warrant.** Verification is more practical when users need not independently search for the relevant passage. **Boundary.** Easy access does not ensure correct interpretation. **Consequence.** Preview should complement, not replace, access to full archival context. **Practice cross-check.** Turin should pair passage preview with full record metadata and source context.
 ## Claim 5
-- **Claim:** External verification is a practical alternative to claiming internal model explainability.
-- **Author claim:** The paper explicitly shifts from interpreting opaque model dynamics to verification through traceable references.
-- **Evidence-supported claim:** The authors describe “external verification through traceable references” as their operative transparency strategy. [@Carl2026EnhancingCliniciansTrust, p. 5]
-- **Researcher inference:** DDR accountability should centre evidence inspection rather than model self-explanation.
-- **Warrant:** A model narrative of its own reasoning does not independently validate historical claims.
-- **Boundary:** External verification validates grounding, not a unique historical interpretation.
-- **Consequence:** Explanation should mean inspectable evidence route, not chain-of-thought disclosure.
-- **Practice cross-check:** Turin exposes evidence and provenance rather than model-internal reasoning.
 
+**Claim.** External verification is a practical alternative to claiming internal model explainability. **Author claim.** The paper explicitly shifts from interpreting opaque model dynamics to verification through traceable references. **Evidence.** The authors describe “external verification through traceable references” as their operative transparency strategy. [@Carl2026EnhancingCliniciansTrust, p. 5] **Evidence-supported claim.** The authors describe “external verification through traceable references” as their operative transparency strategy. [@Carl2026EnhancingCliniciansTrust, p. 5] **Researcher inference.** DDR accountability should centre evidence inspection rather than model self-explanation. **Warrant.** A model narrative of its own reasoning does not independently validate historical claims. **Boundary.** External verification validates grounding, not a unique historical interpretation. **Consequence.** Explanation should mean inspectable evidence route, not chain-of-thought disclosure. **Practice cross-check.** Turin exposes evidence and provenance rather than model-internal reasoning.
 ## Claim 6
-- **Claim:** Increased user trust should not be confused with appropriate historical reliance.
-- **Author claim:** Clinicians preferred the provenance-rich system on trust and verifiability measures.
-- **Evidence-supported claim:** Trust differences accompany improvements in source attribution and verifiability. [@Carl2026EnhancingCliniciansTrust, pp. 4–5]
-- **Researcher inference:** DDR design should aim to calibrate scrutiny, not maximise trust.
-- **Warrant:** A trustworthy interface is one that helps users challenge as well as accept outputs.
-- **Boundary:** The intervention bundles retrieval, curated sources, citations and previews, so individual causal effects are not isolated.
-- **Consequence:** Evaluate evidence use separately from confidence.
-- **Practice cross-check:** Turin UAT should ask whether users can confirm, qualify or reject generated interpretations from the sources.
 
+**Claim.** Increased user trust should not be confused with appropriate historical reliance. **Author claim.** Clinicians preferred the provenance-rich system on trust and verifiability measures. **Evidence.** Trust differences accompany improvements in source attribution and verifiability. [@Carl2026EnhancingCliniciansTrust, pp. 4–5] **Evidence-supported claim.** Trust differences accompany improvements in source attribution and verifiability. [@Carl2026EnhancingCliniciansTrust, pp. 4–5] **Researcher inference.** DDR design should aim to calibrate scrutiny, not maximise trust. **Warrant.** A trustworthy interface is one that helps users challenge as well as accept outputs. **Boundary.** The intervention bundles retrieval, curated sources, citations and previews, so individual causal effects are not isolated. **Consequence.** Evaluate evidence use separately from confidence. **Practice cross-check.** Turin UAT should ask whether users can confirm, qualify or reject generated interpretations from the sources.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Source attribution:** explicit connection between a generated statement and the source document from which supporting evidence was retrieved. `[@Carl2026EnhancingCliniciansTrust, p. 7]`
