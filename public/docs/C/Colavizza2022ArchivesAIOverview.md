@@ -8,7 +8,7 @@ doi: "10.1145/3479010"
 bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
-last_updated: "01 Oct 2026"
+last_updated: "03 Oct 2026"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_working: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
 project_rq_secondary: "To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?"
@@ -19,6 +19,7 @@ model_subcluster: "S3.2 Interpretability, provenance, and retrieval"
 source_type: "Core text"
 project_tags:
   - "Theoretical framework"
+  - "Turin"
 theoretical_framework_area_id: "3"
 theoretical_framework_area: "Critical computational approaches"
 literature_cluster_id: "c"
