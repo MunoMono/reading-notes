@@ -12,7 +12,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sept 2026, 00:00"
-last_updated: "02 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -43,14 +43,16 @@ project_tags:
 **Source type:** Context / supporting
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
 - Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
-- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
 - Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -72,74 +74,26 @@ Jaillant, Mitchell, Ewoh-Opu and Hidalgo Urbaneja draw on interviews with twenty
 
 The authors argue that AI can improve metadata and discoverability at scale, but its value for archival diversity depends on human judgement, professional and source-community participation, transparent tools and cultural-heritage control over system design and use. [@jaillantHowCanWe2025, pp. 4451–4457]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Archival underrepresentation is produced through several linked mechanisms, not only through missing records.
-- **Author claim:** Interviewees identify historical under-collection, lack of workforce diversity and contested ownership/interpretation as interconnected causes of diversity problems.
-- **Evidence-supported claim:** Pages 4450–4452 distinguish records that were never foregrounded or collected, professional priorities shaped by a predominantly white archival workforce, and metadata that can preserve racist or otherwise problematic terminology. [@jaillantHowCanWe2025, pp. 4450–4452]
-- **Researcher inference:** DDR missingness should include descriptive and institutional invisibility as well as documentary non-survival.
-- **Evidence (quote/paraphrase + page):** The paper stresses that archives may contain different voices without those voices necessarily being heard or made accessible. [@jaillantHowCanWe2025, pp. 4450–4452]
-- **Warrant (my words):** Presence in a collection and practical legibility to researchers are different conditions.
-- **Boundary:** The paper's empirical framing focuses mainly on race and ethnicity; DDR feminist analysis also concerns gender, role, authorship and labour.
-- **Consequence:** The thesis should diagnose whether an apparent absence arises from record creation, collection, description or retrieval.
-- **Practice cross-check:** Separate “not in corpus,” “present but weakly described,” and “present but not retrieved” in scoped missingness.
 
+**Claim.** Archival underrepresentation is produced through several linked mechanisms, not only through missing records. **Author claim.** Interviewees identify historical under-collection, lack of workforce diversity and contested ownership/interpretation as interconnected causes of diversity problems. **Evidence.** Pages 4450–4452 distinguish records that were never foregrounded or collected, professional priorities shaped by a predominantly white archival workforce, and metadata that can preserve racist or otherwise problematic terminology. [@jaillantHowCanWe2025, pp. 4450–4452] **Evidence-supported claim.** Pages 4450–4452 distinguish records that were never foregrounded or collected, professional priorities shaped by a predominantly white archival workforce, and metadata that can preserve racist or otherwise problematic terminology. [@jaillantHowCanWe2025, pp. 4450–4452] **Researcher inference.** DDR missingness should include descriptive and institutional invisibility as well as documentary non-survival. **Warrant.** Presence in a collection and practical legibility to researchers are different conditions. **Boundary.** The paper's empirical framing focuses mainly on race and ethnicity; DDR feminist analysis also concerns gender, role, authorship and labour. **Consequence.** The thesis should diagnose whether an apparent absence arises from record creation, collection, description or retrieval. **Practice cross-check.** Separate “not in corpus,” “present but weakly described,” and “present but not retrieved” in scoped missingness.
 ## Claim 2
-- **Claim (plain):** AI can increase discoverability by creating new descriptive layers and processing previously inaccessible material.
-- **Author claim:** Jaillant et al. describe AI uses including metadata generation, tagging, linking, speech/handwriting recognition and computer vision.
-- **Evidence-supported claim:** Pages 4451–4453 give examples of adding contextual metadata to problematic colonial descriptions, accelerating catalogue-level description, enriching Sami-language speech recognition through community annotation, and using computer vision to locate neglected or sensitive collection material. [@jaillantHowCanWe2025, pp. 4451–4453]
-- **Researcher inference:** Computational methods can make weak DDR traces more findable without changing their original evidential status.
-- **Evidence (quote/paraphrase + page):** Interviewees describe AI as helping create new metadata at scale while retaining a need for human inputs and community knowledge. [@jaillantHowCanWe2025, pp. 4452–4453]
-- **Warrant (my words):** New descriptive layers can improve access to records that already exist but are hard to retrieve.
-- **Boundary:** Improved discoverability is not the same as a more representative historical archive.
-- **Consequence:** AI-generated descriptors should supplement rather than overwrite original archival description.
-- **Practice cross-check:** Preserve catalogue metadata separately from derived semantic tags/embeddings.
 
+**Claim.** AI can increase discoverability by creating new descriptive layers and processing previously inaccessible material. **Author claim.** Jaillant et al. describe AI uses including metadata generation, tagging, linking, speech/handwriting recognition and computer vision. **Evidence.** Pages 4451–4453 give examples of adding contextual metadata to problematic colonial descriptions, accelerating catalogue-level description, enriching Sami-language speech recognition through community annotation, and using computer vision to locate neglected or sensitive collection material. [@jaillantHowCanWe2025, pp. 4451–4453] **Evidence-supported claim.** Pages 4451–4453 give examples of adding contextual metadata to problematic colonial descriptions, accelerating catalogue-level description, enriching Sami-language speech recognition through community annotation, and using computer vision to locate neglected or sensitive collection material. [@jaillantHowCanWe2025, pp. 4451–4453] **Researcher inference.** Computational methods can make weak DDR traces more findable without changing their original evidential status. **Warrant.** New descriptive layers can improve access to records that already exist but are hard to retrieve. **Boundary.** Improved discoverability is not the same as a more representative historical archive. **Consequence.** AI-generated descriptors should supplement rather than overwrite original archival description. **Practice cross-check.** Preserve catalogue metadata separately from derived semantic tags/embeddings.
 ## Claim 3
-- **Claim (plain):** AI can reproduce and amplify the biases of the archival data on which it is trained.
-- **Author claim:** Interviewees repeatedly warn that cultural-heritage models are not neutral and may encode the prejudices of historical collections and dominant regions.
-- **Evidence-supported claim:** Page 4454 describes black-box systems, opaque training data, newspaper-trained models reproducing prejudice against Indigenous communities, and concern that Global North training data misrepresent other cultures. [@jaillantHowCanWe2025, p. 4454]
-- **Researcher inference:** DDR computational visibility may amplify already dominant staff, projects or vocabularies unless retrieval behaviour is explicitly tested.
-- **Evidence (quote/paraphrase + page):** Javier de la Rosa describes models as “biased machines” that exploit patterns in the text rather than neutral artefacts. [@jaillantHowCanWe2025, p. 4454]
-- **Warrant (my words):** Machine learning operationalises the distribution of evidence it receives.
-- **Boundary:** The interview evidence identifies plausible and observed risks but does not quantify bias across one controlled archival benchmark.
-- **Consequence:** Diversity/visibility claims should be validated against source distributions and alternative retrieval routes.
-- **Practice cross-check:** Test whether senior or heavily documented DDR figures systematically dominate results.
 
+**Claim.** AI can reproduce and amplify the biases of the archival data on which it is trained. **Author claim.** Interviewees repeatedly warn that cultural-heritage models are not neutral and may encode the prejudices of historical collections and dominant regions. **Evidence.** Page 4454 describes black-box systems, opaque training data, newspaper-trained models reproducing prejudice against Indigenous communities, and concern that Global North training data misrepresent other cultures. [@jaillantHowCanWe2025, p. 4454] **Evidence-supported claim.** Page 4454 describes black-box systems, opaque training data, newspaper-trained models reproducing prejudice against Indigenous communities, and concern that Global North training data misrepresent other cultures. [@jaillantHowCanWe2025, p. 4454] **Researcher inference.** DDR computational visibility may amplify already dominant staff, projects or vocabularies unless retrieval behaviour is explicitly tested. **Warrant.** Machine learning operationalises the distribution of evidence it receives. **Boundary.** The interview evidence identifies plausible and observed risks but does not quantify bias across one controlled archival benchmark. **Consequence.** Diversity/visibility claims should be validated against source distributions and alternative retrieval routes. **Practice cross-check.** Test whether senior or heavily documented DDR figures systematically dominate results.
 ## Claim 4
-- **Claim (plain):** AI systems can create new historical absences through filtering and safety decisions.
-- **Author claim:** The paper presents an example where an LLM refused to transcribe nineteenth-century correspondence concerning slavery because its safety settings classified passages as harmful.
-- **Evidence-supported claim:** Page 4455 reports that Gemini stopped the transcription task and quotes Nicole Coleman arguing that engineering decisions can “remake our understanding of content, potentially of the past.” [@jaillantHowCanWe2025, p. 4455]
-- **Researcher inference:** Computational absence may be introduced after digitisation even when the underlying source exists.
-- **Evidence (quote/paraphrase + page):** The example transfers control from researcher to model at the point of access/transcription. [@jaillantHowCanWe2025, p. 4455]
-- **Warrant (my words):** A system-level refusal can make evidence functionally unavailable without any archival loss.
-- **Boundary:** This is one interview-reported case and should not be generalised to all safety systems.
-- **Consequence:** Scoped missingness must include filtering/refusal as a distinct computational state.
-- **Practice cross-check:** Log model refusals, retrieval failures and post-retrieval filters separately.
 
+**Claim.** AI systems can create new historical absences through filtering and safety decisions. **Author claim.** The paper presents an example where an LLM refused to transcribe nineteenth-century correspondence concerning slavery because its safety settings classified passages as harmful. **Evidence.** Page 4455 reports that Gemini stopped the transcription task and quotes Nicole Coleman arguing that engineering decisions can “remake our understanding of content, potentially of the past.” [@jaillantHowCanWe2025, p. 4455] **Evidence-supported claim.** Page 4455 reports that Gemini stopped the transcription task and quotes Nicole Coleman arguing that engineering decisions can “remake our understanding of content, potentially of the past.” [@jaillantHowCanWe2025, p. 4455] **Researcher inference.** Computational absence may be introduced after digitisation even when the underlying source exists. **Warrant.** A system-level refusal can make evidence functionally unavailable without any archival loss. **Boundary.** This is one interview-reported case and should not be generalised to all safety systems. **Consequence.** Scoped missingness must include filtering/refusal as a distinct computational state. **Practice cross-check.** Log model refusals, retrieval failures and post-retrieval filters separately.
 ## Claim 5
-- **Claim (plain):** Cultural-heritage professionals need control over AI tools rather than dependence on opaque vendor systems.
-- **Author claim:** Interviewees argue that closed systems fragment professional work, that under-resourced institutions over-rely on profit-driven generic models and that archivists/librarians should help direct tool design.
-- **Evidence-supported claim:** Pages 4455–4456 describe mistrust of tech giants, resource-driven dependence on off-the-shelf models and calls for “power tools for librarians” developed through collaboration with technologists. [@jaillantHowCanWe2025, pp. 4455–4456]
-- **Researcher inference:** DDR research infrastructure should preserve researcher/archivist agency over corpus, retrieval and evidence policy.
-- **Evidence (quote/paraphrase + page):** Coleman argues that technology should be directed by librarians rather than by tool manufacturers. [@jaillantHowCanWe2025, p. 4456]
-- **Warrant (my words):** Domain expertise is needed to define what counts as adequate description, context and evidence.
-- **Boundary:** Local control alone does not guarantee ethical or accurate systems.
-- **Consequence:** The project should document and govern model behaviour rather than outsource methodological decisions to default platform settings.
-- **Practice cross-check:** Keep corpus boundary, source policy, retrieval settings and UAT under researcher control.
 
+**Claim.** Cultural-heritage professionals need control over AI tools rather than dependence on opaque vendor systems. **Author claim.** Interviewees argue that closed systems fragment professional work, that under-resourced institutions over-rely on profit-driven generic models and that archivists/librarians should help direct tool design. **Evidence.** Pages 4455–4456 describe mistrust of tech giants, resource-driven dependence on off-the-shelf models and calls for “power tools for librarians” developed through collaboration with technologists. [@jaillantHowCanWe2025, pp. 4455–4456] **Evidence-supported claim.** Pages 4455–4456 describe mistrust of tech giants, resource-driven dependence on off-the-shelf models and calls for “power tools for librarians” developed through collaboration with technologists. [@jaillantHowCanWe2025, pp. 4455–4456] **Researcher inference.** DDR research infrastructure should preserve researcher/archivist agency over corpus, retrieval and evidence policy. **Warrant.** Domain expertise is needed to define what counts as adequate description, context and evidence. **Boundary.** Local control alone does not guarantee ethical or accurate systems. **Consequence.** The project should document and govern model behaviour rather than outsource methodological decisions to default platform settings. **Practice cross-check.** Keep corpus boundary, source policy, retrieval settings and UAT under researcher control.
 ## Claim 6
-- **Claim (plain):** Responsible archival AI requires interdisciplinary training, developer education and shared professional guidelines.
-- **Author claim:** The conclusion identifies lack of collaboration as a major obstacle and proposes three concrete forms of response.
-- **Evidence-supported claim:** Page 4457 recommends interdisciplinary AI training for archivists, education of developers about archival data and professional guidelines for applying AI to diversity problems; it also states that human judgement remains essential for context, ethics, provenance and authenticity. [@jaillantHowCanWe2025, p. 4457]
-- **Researcher inference:** Feminist computational accountability is institutional and procedural, not merely a model property.
-- **Evidence (quote/paraphrase + page):** The authors call for co-design between AI professionals and cultural-heritage workers so technology works for humans rather than the reverse. [@jaillantHowCanWe2025, p. 4457]
-- **Warrant (my words):** Responsible system behaviour depends on expertise, governance and collaborative practice around the model.
-- **Boundary:** Recommendations reflect professional interviews and argument rather than experimental proof of one optimal governance structure.
-- **Consequence:** The thesis should frame UAT, archival expertise and documentation as part of the method itself.
-- **Practice cross-check:** Retain human evaluation of evidence quality, ambiguity and missingness after model output.
 
+**Claim.** Responsible archival AI requires interdisciplinary training, developer education and shared professional guidelines. **Author claim.** The conclusion identifies lack of collaboration as a major obstacle and proposes three concrete forms of response. **Evidence.** Page 4457 recommends interdisciplinary AI training for archivists, education of developers about archival data and professional guidelines for applying AI to diversity problems; it also states that human judgement remains essential for context, ethics, provenance and authenticity. [@jaillantHowCanWe2025, p. 4457] **Evidence-supported claim.** Page 4457 recommends interdisciplinary AI training for archivists, education of developers about archival data and professional guidelines for applying AI to diversity problems; it also states that human judgement remains essential for context, ethics, provenance and authenticity. [@jaillantHowCanWe2025, p. 4457] **Researcher inference.** Feminist computational accountability is institutional and procedural, not merely a model property. **Warrant.** Responsible system behaviour depends on expertise, governance and collaborative practice around the model. **Boundary.** Recommendations reflect professional interviews and argument rather than experimental proof of one optimal governance structure. **Consequence.** The thesis should frame UAT, archival expertise and documentation as part of the method itself. **Practice cross-check.** Retain human evaluation of evidence quality, ambiguity and missingness after model output.
 # Definitions / terms this changes
 
 - **Archival diversity:** representation and accessibility of communities within collections and descriptive systems; empirically the paper focuses mainly on race/ethnicity. [@jaillantHowCanWe2025, pp. 4447–4449]
