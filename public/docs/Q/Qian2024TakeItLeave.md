@@ -55,11 +55,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -79,68 +83,26 @@ Qian and Wexler study 76 software engineers using Bard and conventional document
 
 They measure how conversational AI changes behaviour, perceived productivity and trust across task types and expertise levels. [@Qian2024TakeItLeave, pp. 373–379]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Perceived productivity can diverge from measured efficiency.
-- **Author claim:** Participants reported feeling faster and less cognitively burdened with Bard.
-- **Evidence-supported claim:** They often spent more time using Bard than conventional resources despite reporting reduced effort and search time. [@Qian2024TakeItLeave, pp. 374–375]
-- **Researcher inference:** Fluency and convenience in DDR should not be treated as evidence of methodological efficiency or quality.
-- **Warrant:** Subjective ease and objective task performance are different outcomes.
-- **Boundary:** Programming assessment tasks differ from archival research.
-- **Consequence:** Turin evaluation should include evidential quality, not only user satisfaction.
-- **Practice cross-check:** Generated answers should still require citation and provenance checking.
 
+**Claim.** Perceived productivity can diverge from measured efficiency. **Author claim.** Participants reported feeling faster and less cognitively burdened with Bard. **Evidence.** They often spent more time using Bard than conventional resources despite reporting reduced effort and search time. [@Qian2024TakeItLeave, pp. 374–375] **Evidence-supported claim.** They often spent more time using Bard than conventional resources despite reporting reduced effort and search time. [@Qian2024TakeItLeave, pp. 374–375] **Researcher inference.** Fluency and convenience in DDR should not be treated as evidence of methodological efficiency or quality. **Warrant.** Subjective ease and objective task performance are different outcomes. **Boundary.** Programming assessment tasks differ from archival research. **Consequence.** Turin evaluation should include evidential quality, not only user satisfaction. **Practice cross-check.** Generated answers should still require citation and provenance checking.
 ## Claim 2
-- **Claim:** Reduced cognitive effort can encourage effort substitution.
-- **Author claim:** Participants delegated more search and problem-solving work to the AI.
-- **Evidence-supported claim:** The authors connect lower perceived effort with greater use of Bard during tasks. [@Qian2024TakeItLeave, pp. 374, 377]
-- **Researcher inference:** Frictionless archival synthesis can discourage direct source inspection.
-- **Warrant:** Convenience changes how much active reasoning the user performs.
-- **Boundary:** Lower effort is not inherently harmful when the delegated task is reliable.
-- **Consequence:** DDR interfaces should retain productive friction around evidential checking.
-- **Practice cross-check:** Turin should make passage inspection easy but still explicit.
 
+**Claim.** Reduced cognitive effort can encourage effort substitution. **Author claim.** Participants delegated more search and problem-solving work to the AI. **Evidence.** The authors connect lower perceived effort with greater use of Bard during tasks. [@Qian2024TakeItLeave, pp. 374, 377] **Evidence-supported claim.** The authors connect lower perceived effort with greater use of Bard during tasks. [@Qian2024TakeItLeave, pp. 374, 377] **Researcher inference.** Frictionless archival synthesis can discourage direct source inspection. **Warrant.** Convenience changes how much active reasoning the user performs. **Boundary.** Lower effort is not inherently harmful when the delegated task is reliable. **Consequence.** DDR interfaces should retain productive friction around evidential checking. **Practice cross-check.** Turin should make passage inspection easy but still explicit.
 ## Claim 3
-- **Claim:** Reported distrust does not guarantee cautious behaviour.
-- **Author claim:** Participants increasingly relied on Bard despite reporting lower trust after the task.
-- **Evidence-supported claim:** Demonstrated dependence rose while self-reported trust declined. [@Qian2024TakeItLeave, pp. 375–376]
-- **Researcher inference:** Critical awareness alone is not a sufficient safeguard against AI overreliance.
-- **Warrant:** Stated attitude and observed behaviour can diverge.
-- **Boundary:** Reliance patterns may change in expert historical work.
-- **Consequence:** Evaluation should measure verification behaviour, not just trust ratings.
-- **Practice cross-check:** Turin UAT should record whether users inspect sources before accepting a relation.
 
+**Claim.** Reported distrust does not guarantee cautious behaviour. **Author claim.** Participants increasingly relied on Bard despite reporting lower trust after the task. **Evidence.** Demonstrated dependence rose while self-reported trust declined. [@Qian2024TakeItLeave, pp. 375–376] **Evidence-supported claim.** Demonstrated dependence rose while self-reported trust declined. [@Qian2024TakeItLeave, pp. 375–376] **Researcher inference.** Critical awareness alone is not a sufficient safeguard against AI overreliance. **Warrant.** Stated attitude and observed behaviour can diverge. **Boundary.** Reliance patterns may change in expert historical work. **Consequence.** Evaluation should measure verification behaviour, not just trust ratings. **Practice cross-check.** Turin UAT should record whether users inspect sources before accepting a relation.
 ## Claim 4
-- **Claim:** Expertise changes reliance patterns.
-- **Author claim:** Experts were more likely than novices to use conventional documentation and distrust Bard in some task types.
-- **Evidence-supported claim:** Expertise affected resource choice, especially for search-oriented questions. [@Qian2024TakeItLeave, pp. 373, 375–376]
-- **Researcher inference:** Researcher expertise matters to how DDR AI support is used.
-- **Warrant:** Prior knowledge changes when users seek or reject automation.
-- **Boundary:** Expertise effects were task-specific rather than uniform.
-- **Consequence:** One interaction design may not suit all research tasks.
-- **Practice cross-check:** Turin should distinguish direct source lookup from interpretative synthesis.
 
+**Claim.** Expertise changes reliance patterns. **Author claim.** Experts were more likely than novices to use conventional documentation and distrust Bard in some task types. **Evidence.** Expertise affected resource choice, especially for search-oriented questions. [@Qian2024TakeItLeave, pp. 373, 375–376] **Evidence-supported claim.** Expertise affected resource choice, especially for search-oriented questions. [@Qian2024TakeItLeave, pp. 373, 375–376] **Researcher inference.** Researcher expertise matters to how DDR AI support is used. **Warrant.** Prior knowledge changes when users seek or reject automation. **Boundary.** Expertise effects were task-specific rather than uniform. **Consequence.** One interaction design may not suit all research tasks. **Practice cross-check.** Turin should distinguish direct source lookup from interpretative synthesis.
 ## Claim 5
-- **Claim:** Expertise does not eliminate susceptibility to misleading AI.
-- **Author claim:** Both experts and novices could be led astray.
-- **Evidence-supported claim:** Participants at different expertise levels sometimes changed correct answers to incorrect ones after consulting Bard. [@Qian2024TakeItLeave, pp. 375–376]
-- **Researcher inference:** Expert oversight must itself be supported by evidence transparency.
-- **Warrant:** Domain knowledge reduces some risks without eliminating automation influence.
-- **Boundary:** The magnitude of this effect may differ in archival research.
-- **Consequence:** Provenance should support rejection as well as acceptance.
-- **Practice cross-check:** Turin source previews should make it easy to contest generated synthesis.
 
+**Claim.** Expertise does not eliminate susceptibility to misleading AI. **Author claim.** Both experts and novices could be led astray. **Evidence.** Participants at different expertise levels sometimes changed correct answers to incorrect ones after consulting Bard. [@Qian2024TakeItLeave, pp. 375–376] **Evidence-supported claim.** Participants at different expertise levels sometimes changed correct answers to incorrect ones after consulting Bard. [@Qian2024TakeItLeave, pp. 375–376] **Researcher inference.** Expert oversight must itself be supported by evidence transparency. **Warrant.** Domain knowledge reduces some risks without eliminating automation influence. **Boundary.** The magnitude of this effect may differ in archival research. **Consequence.** Provenance should support rejection as well as acceptance. **Practice cross-check.** Turin source previews should make it easy to contest generated synthesis.
 ## Claim 6
-- **Claim:** Appropriate reliance is a better objective than greater trust.
-- **Author claim:** The authors explicitly recommend designing for appropriate trust.
-- **Evidence-supported claim:** Their conclusion distinguishes correct use of useful assistance from indiscriminate confidence. [@Qian2024TakeItLeave, p. 378]
-- **Researcher inference:** DDR should aim for evidence-proportionate reliance rather than persuasive confidence.
-- **Warrant:** Trust is useful only when calibrated to output quality.
-- **Boundary:** Appropriate reliance remains difficult to measure in contested interpretation.
-- **Consequence:** UAT should reward acceptance of supported outputs and rejection of unsupported ones.
-- **Practice cross-check:** Turin can test whether users preserve uncertainty and reject unwarranted claims.
 
+**Claim.** Appropriate reliance is a better objective than greater trust. **Author claim.** The authors explicitly recommend designing for appropriate trust. **Evidence.** Their conclusion distinguishes correct use of useful assistance from indiscriminate confidence. [@Qian2024TakeItLeave, p. 378] **Evidence-supported claim.** Their conclusion distinguishes correct use of useful assistance from indiscriminate confidence. [@Qian2024TakeItLeave, p. 378] **Researcher inference.** DDR should aim for evidence-proportionate reliance rather than persuasive confidence. **Warrant.** Trust is useful only when calibrated to output quality. **Boundary.** Appropriate reliance remains difficult to measure in contested interpretation. **Consequence.** UAT should reward acceptance of supported outputs and rejection of unsupported ones. **Practice cross-check.** Turin can test whether users preserve uncertainty and reject unwarranted claims.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Appropriate trust:** accepting correct automated assistance and rejecting incorrect advice rather than maximising general confidence in the system. `[@Qian2024TakeItLeave, p. 378]`
