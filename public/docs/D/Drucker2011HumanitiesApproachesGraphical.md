@@ -13,7 +13,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
-last_updated: "01 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 
@@ -30,6 +30,7 @@ zotero_filing_path: "Theoretical framework / 3. Critical computational approache
 source_type: "Core text"
 project_tags:
   - "Theoretical framework"
+  - "Turin"
 ---
 
 **Page-reference note:** The Zotero PDF is an online *Digital Humanities Quarterly* article without conventional journal page numbering. References below use the **22-page PDF pagination**.
