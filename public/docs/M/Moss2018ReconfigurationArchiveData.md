@@ -41,11 +41,15 @@ project_tags:
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- At least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
-- Separate author claim, evidence-supported claim and researcher inference
-- Practice cross-check or TODO for each claim
-- Final synthesis required
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -67,74 +71,26 @@ Moss, Thomas and Gollins write from archival science, digital preservation and U
 
 They argue that digital abundance requires archives to be reconceived as data to be mined through distant reading, linked data and computational tools, while appraisal, cataloguing, ethics, user practice and multimodal media must all be rethought in response. [@Moss2018ReconfigurationArchiveData, pp. 118–151]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Digital scale changes the archive from a collection of texts to a corpus of data.
-- **Author claim:** The authors say huge volumes of digital records alter how historians can read and require archives to regard content as data to be mined.
-- **Evidence-supported claim:** Pages 118–120 frame the shift from close textual reading toward corpus-level computational analysis.
-- **Researcher inference:** The DDR corpus can legitimately be explored through embeddings, retrieval and visualisation rather than only document-by-document reading.
-- **Evidence (quote/paraphrase + page):** The paper states that archives will increasingly be conceived as data to be made sense of rather than solely texts to be read. [@Moss2018ReconfigurationArchiveData, pp. 118–120]
-- **Warrant (my words):** Scale creates research questions about patterns and relationships that cannot practically be addressed through sequential reading alone.
-- **Boundary:** Corpus analysis is a view over the archive, not a replacement for source-level interpretation.
-- **Consequence:** Computational findings must remain traceable to documents.
-- **Practice cross-check:** Semantic atlas and RAI outputs retain passage-level provenance.
 
+**Claim.** Digital scale changes the archive from a collection of texts to a corpus of data. **Author claim.** The authors say huge volumes of digital records alter how historians can read and require archives to regard content as data to be mined. **Evidence.** Pages 118–120 frame the shift from close textual reading toward corpus-level computational analysis. **Evidence-supported claim.** Pages 118–120 frame the shift from close textual reading toward corpus-level computational analysis. **Researcher inference.** The DDR corpus can legitimately be explored through embeddings, retrieval and visualisation rather than only document-by-document reading. **Warrant.** Scale creates research questions about patterns and relationships that cannot practically be addressed through sequential reading alone. **Boundary.** Corpus analysis is a view over the archive, not a replacement for source-level interpretation. **Consequence.** Computational findings must remain traceable to documents. **Practice cross-check.** Semantic atlas and RAI outputs retain passage-level provenance.
 ## Claim 2
-- **Claim (plain):** Online catalogues and digital access reproduce descriptive bias rather than neutralise it.
-- **Author claim:** The authors stress that catalogues are incomplete, interest-laden constructions and that historical indexing conventions have excluded or obscured groups.
-- **Evidence-supported claim:** Pages 122–124 and 137–142 discuss weak representation, catalogue omissions and the mismatch between metadata and what users later find significant.
-- **Researcher inference:** DDR retrieval inherits descriptive asymmetries from repository systems before ML ranking begins.
-- **Evidence (quote/paraphrase + page):** Moss, Thomas and Gollins explicitly say online catalogues are neither objective nor complete. [@Moss2018ReconfigurationArchiveData, pp. 122–124]
-- **Warrant (my words):** Computational systems built on catalogue metadata inherit its visibility structure.
-- **Boundary:** Full text can sometimes expose material that catalogue description does not.
-- **Consequence:** Metadata and full-text retrieval should be treated as distinct evidence routes.
-- **Practice cross-check:** Compare catalogue associations with text-level evidence in UAT rather than treating metadata as action.
 
+**Claim.** Online catalogues and digital access reproduce descriptive bias rather than neutralise it. **Author claim.** The authors stress that catalogues are incomplete, interest-laden constructions and that historical indexing conventions have excluded or obscured groups. **Evidence.** Pages 122–124 and 137–142 discuss weak representation, catalogue omissions and the mismatch between metadata and what users later find significant. **Evidence-supported claim.** Pages 122–124 and 137–142 discuss weak representation, catalogue omissions and the mismatch between metadata and what users later find significant. **Researcher inference.** DDR retrieval inherits descriptive asymmetries from repository systems before ML ranking begins. **Warrant.** Computational systems built on catalogue metadata inherit its visibility structure. **Boundary.** Full text can sometimes expose material that catalogue description does not. **Consequence.** Metadata and full-text retrieval should be treated as distinct evidence routes. **Practice cross-check.** Compare catalogue associations with text-level evidence in UAT rather than treating metadata as action.
 ## Claim 3
-- **Claim (plain):** Digital research demand destabilises traditional appraisal assumptions.
-- **Author claim:** The authors argue that appraisal policies were shaped by expectations of future use that may no longer hold when users have powerful linked-data and computational tools.
-- **Evidence-supported claim:** Pages 139–142 examine appraisal, macro-appraisal and how prior assumptions about research value may be challenged by new analytical capabilities.
-- **Researcher inference:** What appears peripheral in DDR could acquire new research value when relational or semantic methods can connect it at scale.
-- **Evidence (quote/paraphrase + page):** The article asks how appraisal can anticipate users equipped with radically different analytical tools. [@Moss2018ReconfigurationArchiveData, pp. 139–142]
-- **Warrant (my words):** Selection decisions embed forecasts about future significance that technology can later disrupt.
-- **Boundary:** Computational discoverability cannot recover records that were never preserved.
-- **Consequence:** The thesis should recognise survival/appraisal as an upstream limit on what mining can reveal.
-- **Practice cross-check:** Scoped missingness distinguishes low retrieval from non-survival/non-digitisation.
 
+**Claim.** Digital research demand destabilises traditional appraisal assumptions. **Author claim.** The authors argue that appraisal policies were shaped by expectations of future use that may no longer hold when users have powerful linked-data and computational tools. **Evidence.** Pages 139–142 examine appraisal, macro-appraisal and how prior assumptions about research value may be challenged by new analytical capabilities. **Evidence-supported claim.** Pages 139–142 examine appraisal, macro-appraisal and how prior assumptions about research value may be challenged by new analytical capabilities. **Researcher inference.** What appears peripheral in DDR could acquire new research value when relational or semantic methods can connect it at scale. **Warrant.** Selection decisions embed forecasts about future significance that technology can later disrupt. **Boundary.** Computational discoverability cannot recover records that were never preserved. **Consequence.** The thesis should recognise survival/appraisal as an upstream limit on what mining can reveal. **Practice cross-check.** Scoped missingness distinguishes low retrieval from non-survival/non-digitisation.
 ## Claim 4
-- **Claim (plain):** Distant reading and the “macroscope” change the historian's epistemic relation to the archive.
-- **Author claim:** The authors argue that large digital corpora require methods for identifying signal above noise and relationships beyond human reading scale.
-- **Evidence-supported claim:** Pages 142–145 introduce the emerging macroscope, distant reading and linked-data approaches as new ways of making sense of archive-scale information.
-- **Researcher inference:** UMAP and semantic-neighbourhood analysis can be justified as exploratory macro-views over DDR, provided they do not become final historical explanations.
-- **Evidence (quote/paraphrase + page):** The paper says reconfiguring the archive as data requires understanding distant reading and emerging analytical tools. [@Moss2018ReconfigurationArchiveData, pp. 142–145]
-- **Warrant (my words):** Macro-patterns can direct researchers toward relationships invisible at item scale.
-- **Boundary:** Pattern detection can obscure local context and documentary nuance.
-- **Consequence:** Macro-analysis should loop back to close reading.
-- **Practice cross-check:** Each semantic cluster or neighbourhood question returns to source documents before claims are written.
 
+**Claim.** Distant reading and the “macroscope” change the historian's epistemic relation to the archive. **Author claim.** The authors argue that large digital corpora require methods for identifying signal above noise and relationships beyond human reading scale. **Evidence.** Pages 142–145 introduce the emerging macroscope, distant reading and linked-data approaches as new ways of making sense of archive-scale information. **Evidence-supported claim.** Pages 142–145 introduce the emerging macroscope, distant reading and linked-data approaches as new ways of making sense of archive-scale information. **Researcher inference.** UMAP and semantic-neighbourhood analysis can be justified as exploratory macro-views over DDR, provided they do not become final historical explanations. **Warrant.** Macro-patterns can direct researchers toward relationships invisible at item scale. **Boundary.** Pattern detection can obscure local context and documentary nuance. **Consequence.** Macro-analysis should loop back to close reading. **Practice cross-check.** Each semantic cluster or neighbourhood question returns to source documents before claims are written.
 ## Claim 5
-- **Claim (plain):** Computational archives create new ethical and trust problems that require transdisciplinary work.
-- **Author claim:** The authors discuss linked data, algorithmic analysis and the need for archivists, users and engineers to collaborate.
-- **Evidence-supported claim:** Pages 143–149 connect computational analysis to ethical questions, trust in underlying algorithms and a “recursive trans-disciplinary curatorial conversation.”
-- **Researcher inference:** DDR computational methods should be co-designed around archival/historical requirements rather than treated as purely technical optimisation.
-- **Evidence (quote/paraphrase + page):** The authors say advanced techniques can transform research but require users to trust algorithms and institutions to collaborate around them. [@Moss2018ReconfigurationArchiveData, pp. 143–149]
-- **Warrant (my words):** Tools encode archival and interpretative assumptions that no technical discipline can evaluate alone.
-- **Boundary:** Collaboration does not automatically solve bias or trust.
-- **Consequence:** Computational systems need explainable evidence routes and documented assumptions.
-- **Practice cross-check:** UAT tests evidential status and provenance, not just retrieval precision.
 
+**Claim.** Computational archives create new ethical and trust problems that require transdisciplinary work. **Author claim.** The authors discuss linked data, algorithmic analysis and the need for archivists, users and engineers to collaborate. **Evidence.** Pages 143–149 connect computational analysis to ethical questions, trust in underlying algorithms and a “recursive trans-disciplinary curatorial conversation.” **Evidence-supported claim.** Pages 143–149 connect computational analysis to ethical questions, trust in underlying algorithms and a “recursive trans-disciplinary curatorial conversation.” **Researcher inference.** DDR computational methods should be co-designed around archival/historical requirements rather than treated as purely technical optimisation. **Warrant.** Tools encode archival and interpretative assumptions that no technical discipline can evaluate alone. **Boundary.** Collaboration does not automatically solve bias or trust. **Consequence.** Computational systems need explainable evidence routes and documented assumptions. **Practice cross-check.** UAT tests evidential status and provenance, not just retrieval precision.
 ## Claim 6
-- **Claim (plain):** Archive datafication must account for sound and vision, not only text.
-- **Author claim:** The conclusion argues that digital archival change includes large bodies of audiovisual material whose meaning cannot be reduced to textual metadata.
-- **Evidence-supported claim:** Pages 149–151 foreground sound, images and multimodal digital records as central to future archives.
-- **Researcher inference:** DDR computational work currently centred on text should acknowledge the evidential material excluded by that modality choice.
-- **Evidence (quote/paraphrase + page):** The article ends by stressing that contemporary records increasingly cross boundaries among text, sound and image. [@Moss2018ReconfigurationArchiveData, pp. 149–151]
-- **Warrant (my words):** A text-only corpus can systematically miss visual, spatial, aural and material design knowledge.
-- **Boundary:** The current DDR research question may still justify a deliberately text-bounded computational corpus.
-- **Consequence:** Modality should be declared as a scope limit, not mistaken for archival completeness.
-- **Practice cross-check:** State that text chunks are the vector scope while images/objects remain outside the current semantic model unless separately analysed.
 
+**Claim.** Archive datafication must account for sound and vision, not only text. **Author claim.** The conclusion argues that digital archival change includes large bodies of audiovisual material whose meaning cannot be reduced to textual metadata. **Evidence.** Pages 149–151 foreground sound, images and multimodal digital records as central to future archives. **Evidence-supported claim.** Pages 149–151 foreground sound, images and multimodal digital records as central to future archives. **Researcher inference.** DDR computational work currently centred on text should acknowledge the evidential material excluded by that modality choice. **Warrant.** A text-only corpus can systematically miss visual, spatial, aural and material design knowledge. **Boundary.** The current DDR research question may still justify a deliberately text-bounded computational corpus. **Consequence.** Modality should be declared as a scope limit, not mistaken for archival completeness. **Practice cross-check.** State that text chunks are the vector scope while images/objects remain outside the current semantic model unless separately analysed.
 # Definitions / terms this changes
 
 - **Archive as data to be mined:** archive understood as a corpus supporting computational filtering, linking and pattern analysis. [@Moss2018ReconfigurationArchiveData, pp. 118–120]
