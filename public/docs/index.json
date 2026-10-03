@@ -509,20 +509,23 @@
       "url": "https://doi.org/10.1080/03080188.2021.1872874",
       "citation_key": "BoydDavis2021CanBelieveWhat",
       "displayTitle": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian (2021). Can I believe what I see? Data visualization and trust in the humanities — Interdisciplinary Science Reviews",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642965.782,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "B",
@@ -1427,23 +1430,23 @@
       "url": "",
       "citation_key": "JaillantNavigatingArtificialIntelligence",
       "displayTitle": "Lise Jaillant, Katherine Aske, and Annalina Caputo (2025). Navigating artificial intelligence for cultural heritage organisations — UCL Press",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
       "source_type": "Core text",
       "project_tags": [
-        "Turin"
+        "Turin",
+        "Theoretical framework"
       ],
       "literature_clusters": [
-        "03 RAG, retrieval and source attribution",
-        "09 Human judgement and practice-led computational research"
+        "c) Contemporary bridge literature"
       ],
       "noteDate": "27 May 2026, 08:52",
       "noteDateMs": 1779868320000,
       "mtimeMs": 1790843642965.5024,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "M",
@@ -2856,20 +2859,23 @@
         "url": "https://doi.org/10.1080/03080188.2021.1872874",
         "citation_key": "BoydDavis2021CanBelieveWhat",
         "displayTitle": "Boyd Davis, Stephen; Vane, Olivia; Kräutli, Florian (2021). Can I believe what I see? Data visualization and trust in the humanities — Interdisciplinary Science Reviews",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Operational literature",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642965.782,
-        "category": ""
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "B",
@@ -3734,23 +3740,23 @@
         "url": "",
         "citation_key": "JaillantNavigatingArtificialIntelligence",
         "displayTitle": "Lise Jaillant, Katherine Aske, and Annalina Caputo (2025). Navigating artificial intelligence for cultural heritage organisations — UCL Press",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / Critical computational approaches / Contemporary bridge literature",
         "source_type": "Core text",
         "project_tags": [
-          "Turin"
+          "Turin",
+          "Theoretical framework"
         ],
         "literature_clusters": [
-          "03 RAG, retrieval and source attribution",
-          "09 Human judgement and practice-led computational research"
+          "c) Contemporary bridge literature"
         ],
         "noteDate": "27 May 2026, 08:52",
         "noteDateMs": 1779868320000,
         "mtimeMs": 1790843642965.5024,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       }
     ],
     "K": [
