@@ -54,11 +54,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -78,68 +82,26 @@ Cho and Lim write from visual communication design, HCI and eye-tracking researc
 
 They test how source-attribution layout shapes the visual preconditions of verification and then derive interface principles for more usable provenance. [@Cho2026HowSourceAttribution, pp. 16–32]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Source layout changes how quickly provenance cues are noticed.
-- **Author claim:** Different attribution formats produce different discovery latency.
-- **Evidence-supported claim:** Card lists were discovered far earlier than raw hyperlinks, with statistically significant layout effects. [@Cho2026HowSourceAttribution, pp. 16–18]
-- **Researcher inference:** DDR provenance must sit within the normal reading path rather than in a remote secondary panel.
-- **Warrant:** Unnoticed provenance cannot support verification.
-- **Boundary:** Time to first fixation measures attention, not understanding.
-- **Consequence:** Discoverability should be a separate provenance UAT criterion.
-- **Practice cross-check:** Turin source cues should remain adjacent to generated interpretations.
 
+**Claim.** Source layout changes how quickly provenance cues are noticed. **Author claim.** Different attribution formats produce different discovery latency. **Evidence.** Card lists were discovered far earlier than raw hyperlinks, with statistically significant layout effects. [@Cho2026HowSourceAttribution, pp. 16–18] **Evidence-supported claim.** Card lists were discovered far earlier than raw hyperlinks, with statistically significant layout effects. [@Cho2026HowSourceAttribution, pp. 16–18] **Researcher inference.** DDR provenance must sit within the normal reading path rather than in a remote secondary panel. **Warrant.** Unnoticed provenance cannot support verification. **Boundary.** Time to first fixation measures attention, not understanding. **Consequence.** Discoverability should be a separate provenance UAT criterion. **Practice cross-check.** Turin source cues should remain adjacent to generated interpretations.
 ## Claim 2
-- **Claim:** Visual prominence is not equivalent to successful verification.
-- **Author claim:** Some layouts attracted substantially more fixation time than others.
-- **Evidence-supported claim:** Side-panel and card-list formats drew more dwell time, but this did not translate into significant trust differences. [@Cho2026HowSourceAttribution, pp. 18–19, 24]
-- **Researcher inference:** More source-panel use should not be treated as proof that DDR provenance works.
-- **Warrant:** Attention can reflect effort, friction or confusion.
-- **Boundary:** The study does not directly test claim correctness checking.
-- **Consequence:** UAT should distinguish visibility, use and verification.
-- **Practice cross-check:** Turin should test whether users can identify the evidential passage supporting a claim, not merely whether they click a source.
 
+**Claim.** Visual prominence is not equivalent to successful verification. **Author claim.** Some layouts attracted substantially more fixation time than others. **Evidence.** Side-panel and card-list formats drew more dwell time, but this did not translate into significant trust differences. [@Cho2026HowSourceAttribution, pp. 18–19, 24] **Evidence-supported claim.** Side-panel and card-list formats drew more dwell time, but this did not translate into significant trust differences. [@Cho2026HowSourceAttribution, pp. 18–19, 24] **Researcher inference.** More source-panel use should not be treated as proof that DDR provenance works. **Warrant.** Attention can reflect effort, friction or confusion. **Boundary.** The study does not directly test claim correctness checking. **Consequence.** UAT should distinguish visibility, use and verification. **Practice cross-check.** Turin should test whether users can identify the evidential passage supporting a claim, not merely whether they click a source.
 ## Claim 3
-- **Claim:** Trust and attention can dissociate.
-- **Author claim:** The authors identify an attention–preference dissociation.
-- **Evidence-supported claim:** Discovery latency and dwell time did not significantly track self-reported trust. [@Cho2026HowSourceAttribution, pp. 19, 27–28]
-- **Researcher inference:** DDR interface evaluation should avoid using engagement metrics as proxies for epistemic confidence.
-- **Warrant:** Behavioural attention and evaluative judgement are different constructs.
-- **Boundary:** Self-reported trust is itself an imperfect measure.
-- **Consequence:** Provenance design should optimise scrutiny rather than trust maximisation.
-- **Practice cross-check:** Turin evaluation should prioritise evidence mapping and correct source interpretation over confidence ratings.
 
+**Claim.** Trust and attention can dissociate. **Author claim.** The authors identify an attention–preference dissociation. **Evidence.** Discovery latency and dwell time did not significantly track self-reported trust. [@Cho2026HowSourceAttribution, pp. 19, 27–28] **Evidence-supported claim.** Discovery latency and dwell time did not significantly track self-reported trust. [@Cho2026HowSourceAttribution, pp. 19, 27–28] **Researcher inference.** DDR interface evaluation should avoid using engagement metrics as proxies for epistemic confidence. **Warrant.** Behavioural attention and evaluative judgement are different constructs. **Boundary.** Self-reported trust is itself an imperfect measure. **Consequence.** Provenance design should optimise scrutiny rather than trust maximisation. **Practice cross-check.** Turin evaluation should prioritise evidence mapping and correct source interpretation over confidence ratings.
 ## Claim 4
-- **Claim:** Pre-click source identity helps provenance function as evidence rather than as a credibility badge.
-- **Author claim:** Participants wanted source titles or institutional identities visible before navigation.
-- **Evidence-supported claim:** Interviews repeatedly requested identifiable provenance before clicking. [@Cho2026HowSourceAttribution, pp. 25–26]
-- **Researcher inference:** DDR citations should identify document/source type before the user follows them.
-- **Warrant:** A bare link signals authority without telling the user what kind of evidence it points to.
-- **Boundary:** Recognisable institutional identity does not establish evidential relevance.
-- **Consequence:** Source identity and source relevance should remain distinct interface properties.
-- **Practice cross-check:** Turin should display named DDR records and archival source type alongside citation links.
 
+**Claim.** Pre-click source identity helps provenance function as evidence rather than as a credibility badge. **Author claim.** Participants wanted source titles or institutional identities visible before navigation. **Evidence.** Interviews repeatedly requested identifiable provenance before clicking. [@Cho2026HowSourceAttribution, pp. 25–26] **Evidence-supported claim.** Interviews repeatedly requested identifiable provenance before clicking. [@Cho2026HowSourceAttribution, pp. 25–26] **Researcher inference.** DDR citations should identify document/source type before the user follows them. **Warrant.** A bare link signals authority without telling the user what kind of evidence it points to. **Boundary.** Recognisable institutional identity does not establish evidential relevance. **Consequence.** Source identity and source relevance should remain distinct interface properties. **Practice cross-check.** Turin should display named DDR records and archival source type alongside citation links.
 ## Claim 5
-- **Claim:** Claim–source mapping is central to usable provenance.
-- **Author claim:** Participants requested explicit mapping between individual claims and their supporting material.
-- **Evidence-supported claim:** The authors turn this into a sentence-level mapping design principle. [@Cho2026HowSourceAttribution, pp. 25–26, 29–32]
-- **Researcher inference:** Historical synthesis may require one claim to map to several supporting, qualifying or conflicting traces.
-- **Warrant:** Document-level citation is too coarse where a paragraph contains several evidential moves.
-- **Boundary:** The paper focuses largely on one-to-one mapping.
-- **Consequence:** DDR provenance should support claim-to-multiple-trace relationships.
-- **Practice cross-check:** Turin synthesis should preserve which passage supports, qualifies or conflicts with each interpretative proposition.
 
+**Claim.** Claim–source mapping is central to usable provenance. **Author claim.** Participants requested explicit mapping between individual claims and their supporting material. **Evidence.** The authors turn this into a sentence-level mapping design principle. [@Cho2026HowSourceAttribution, pp. 25–26, 29–32] **Evidence-supported claim.** The authors turn this into a sentence-level mapping design principle. [@Cho2026HowSourceAttribution, pp. 25–26, 29–32] **Researcher inference.** Historical synthesis may require one claim to map to several supporting, qualifying or conflicting traces. **Warrant.** Document-level citation is too coarse where a paragraph contains several evidential moves. **Boundary.** The paper focuses largely on one-to-one mapping. **Consequence.** DDR provenance should support claim-to-multiple-trace relationships. **Practice cross-check.** Turin synthesis should preserve which passage supports, qualifies or conflicts with each interpretative proposition.
 ## Claim 6
-- **Claim:** In-situ source preview reduces the cost of evidential checking.
-- **Author claim:** The authors recommend previewing source material within the answer context.
-- **Evidence-supported claim:** In-situ preview appears among their three final design principles. [@Cho2026HowSourceAttribution, pp. 29–32]
-- **Researcher inference:** DDR users should be able to inspect the relevant passage without losing the interpretative context of the generated answer.
-- **Warrant:** Verification becomes less likely when it requires excessive navigation.
-- **Boundary:** Easy preview still does not guarantee correct source interpretation.
-- **Consequence:** Provenance affordances should support quick inspection while retaining access to full archival context.
-- **Practice cross-check:** Turin should keep previewable passages linked to full source records and metadata.
 
+**Claim.** In-situ source preview reduces the cost of evidential checking. **Author claim.** The authors recommend previewing source material within the answer context. **Evidence.** In-situ preview appears among their three final design principles. [@Cho2026HowSourceAttribution, pp. 29–32] **Evidence-supported claim.** In-situ preview appears among their three final design principles. [@Cho2026HowSourceAttribution, pp. 29–32] **Researcher inference.** DDR users should be able to inspect the relevant passage without losing the interpretative context of the generated answer. **Warrant.** Verification becomes less likely when it requires excessive navigation. **Boundary.** Easy preview still does not guarantee correct source interpretation. **Consequence.** Provenance affordances should support quick inspection while retaining access to full archival context. **Practice cross-check.** Turin should keep previewable passages linked to full source records and metadata.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Discoverability:** how rapidly a source cue enters the user's visual attention, operationalised through time to first fixation. `[@Cho2026HowSourceAttribution, pp. 13, 16–17]`
