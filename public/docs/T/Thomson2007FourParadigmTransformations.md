@@ -13,7 +13,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "18 Mar 2026"
-last_updated: "01 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 
@@ -30,6 +30,7 @@ zotero_filing_path: "Theoretical framework / 2. Critical archival theory / b) Op
 source_type: "Supporting"
 project_tags:
   - "Theoretical framework"
+  - "Turin"
 ---
 
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
