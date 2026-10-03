@@ -54,11 +54,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -78,68 +82,26 @@ The authors write from information systems and HCI before widespread generative-
 
 They show experimentally that users evaluate conversational systems through prior expectations, and that violations of those expectations influence judgement beyond underlying capability alone. [@Grimes2021MentalModelsExpectation, pp. 4–7]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** Users approach conversational AI through mental models of capability.
-- **Author claim:** Mental models help users predict what a system can do.
-- **Evidence-supported claim:** The authors argue that varying AI capability makes accurate user models difficult to form. [@Grimes2021MentalModelsExpectation, p. 1]
-- **Researcher inference:** DDR users will infer capabilities from interface form unless scope is stated.
-- **Warrant:** Interaction begins with prior expectations rather than a blank slate.
-- **Boundary:** The study predates current LLM interfaces.
-- **Consequence:** Scope communication is part of method, not cosmetic UX.
-- **Practice cross-check:** Turin should state that answers derive from a bounded DDR evidence surface.
 
+**Claim.** Users approach conversational AI through mental models of capability. **Author claim.** Mental models help users predict what a system can do. **Evidence.** The authors argue that varying AI capability makes accurate user models difficult to form. [@Grimes2021MentalModelsExpectation, p. 1] **Evidence-supported claim.** The authors argue that varying AI capability makes accurate user models difficult to form. [@Grimes2021MentalModelsExpectation, p. 1] **Researcher inference.** DDR users will infer capabilities from interface form unless scope is stated. **Warrant.** Interaction begins with prior expectations rather than a blank slate. **Boundary.** The study predates current LLM interfaces. **Consequence.** Scope communication is part of method, not cosmetic UX. **Practice cross-check.** Turin should state that answers derive from a bounded DDR evidence surface.
 ## Claim 2
-- **Claim:** Users can overestimate or underestimate AI capability.
-- **Author claim:** Inaccurate mental models can produce expectations above or below what a system can actually do.
-- **Evidence-supported claim:** The paper explicitly describes both over- and underestimation as consequences of unstable mental models. [@Grimes2021MentalModelsExpectation, p. 1]
-- **Researcher inference:** A fluent DDR chatbot may invite overestimation of historical knowledge.
-- **Warrant:** Conversational form can hide the narrowness of an underlying evidence base.
-- **Boundary:** The paper does not study generative fluency.
-- **Consequence:** Backend constraints should be surfaced in user-facing language.
-- **Practice cross-check:** Turin labels should distinguish corpus-bounded research assistance from general historical knowledge.
 
+**Claim.** Users can overestimate or underestimate AI capability. **Author claim.** Inaccurate mental models can produce expectations above or below what a system can actually do. **Evidence.** The paper explicitly describes both over- and underestimation as consequences of unstable mental models. [@Grimes2021MentalModelsExpectation, p. 1] **Evidence-supported claim.** The paper explicitly describes both over- and underestimation as consequences of unstable mental models. [@Grimes2021MentalModelsExpectation, p. 1] **Researcher inference.** A fluent DDR chatbot may invite overestimation of historical knowledge. **Warrant.** Conversational form can hide the narrowness of an underlying evidence base. **Boundary.** The paper does not study generative fluency. **Consequence.** Backend constraints should be surfaced in user-facing language. **Practice cross-check.** Turin labels should distinguish corpus-bounded research assistance from general historical knowledge.
 ## Claim 3
-- **Claim:** Interface framing changes expectations before system performance is observed.
-- **Author claim:** Participants given human versus chatbot framing formed significantly different expectations.
-- **Evidence-supported claim:** The experimental manipulation created measurable expectation differences before interaction. [@Grimes2021MentalModelsExpectation, pp. 4–5]
-- **Researcher inference:** Naming and presentation of the DDR tool will shape perceived authority.
-- **Warrant:** Expectations are partly produced by design cues.
-- **Boundary:** Human-versus-chatbot framing is simpler than current AI branding.
-- **Consequence:** Interface language should accurately signal system role and limits.
-- **Practice cross-check:** Turin should avoid labels that imply oracle-like historical competence.
 
+**Claim.** Interface framing changes expectations before system performance is observed. **Author claim.** Participants given human versus chatbot framing formed significantly different expectations. **Evidence.** The experimental manipulation created measurable expectation differences before interaction. [@Grimes2021MentalModelsExpectation, pp. 4–5] **Evidence-supported claim.** The experimental manipulation created measurable expectation differences before interaction. [@Grimes2021MentalModelsExpectation, pp. 4–5] **Researcher inference.** Naming and presentation of the DDR tool will shape perceived authority. **Warrant.** Expectations are partly produced by design cues. **Boundary.** Human-versus-chatbot framing is simpler than current AI branding. **Consequence.** Interface language should accurately signal system role and limits. **Practice cross-check.** Turin should avoid labels that imply oracle-like historical competence.
 ## Claim 4
-- **Claim:** The same capability can be evaluated differently under different expectations.
-- **Author claim:** User evaluation depends on expectation as well as actual system behaviour.
-- **Evidence-supported claim:** The same low-capability system was rated more favourably when users expected a chatbot than when they expected a human. [@Grimes2021MentalModelsExpectation, p. 6]
-- **Researcher inference:** Apparent user satisfaction is not a clean measure of evidential quality.
-- **Warrant:** Evaluation is relational to expected capability.
-- **Boundary:** The outcome measured engagement/evaluation, not factual verification.
-- **Consequence:** DDR UAT should test epistemic tasks rather than satisfaction alone.
-- **Practice cross-check:** Turin success criteria should focus on evidence identification, provenance and bounded conclusions.
 
+**Claim.** The same capability can be evaluated differently under different expectations. **Author claim.** User evaluation depends on expectation as well as actual system behaviour. **Evidence.** The same low-capability system was rated more favourably when users expected a chatbot than when they expected a human. [@Grimes2021MentalModelsExpectation, p. 6] **Evidence-supported claim.** The same low-capability system was rated more favourably when users expected a chatbot than when they expected a human. [@Grimes2021MentalModelsExpectation, p. 6] **Researcher inference.** Apparent user satisfaction is not a clean measure of evidential quality. **Warrant.** Evaluation is relational to expected capability. **Boundary.** The outcome measured engagement/evaluation, not factual verification. **Consequence.** DDR UAT should test epistemic tasks rather than satisfaction alone. **Practice cross-check.** Turin success criteria should focus on evidence identification, provenance and bounded conclusions.
 ## Claim 5
-- **Claim:** Negative expectation violations matter strongly.
-- **Author claim:** Systems that fell below expectations produced significant negative violations.
-- **Evidence-supported claim:** Users penalised unmet expectations more strongly than they rewarded exceeded expectations. [@Grimes2021MentalModelsExpectation, pp. 6–7]
-- **Researcher inference:** If the DDR interface implies complete answering, scoped missingness may feel like failure rather than responsible method.
-- **Warrant:** Users judge non-answering against the promise the interface has implicitly made.
-- **Boundary:** The study does not test refusal as a designed research behaviour.
-- **Consequence:** Missingness should be introduced as a normal capability from the outset.
-- **Practice cross-check:** Turin should explain “does not establish” as a research outcome, not an error state.
 
+**Claim.** Negative expectation violations matter strongly. **Author claim.** Systems that fell below expectations produced significant negative violations. **Evidence.** Users penalised unmet expectations more strongly than they rewarded exceeded expectations. [@Grimes2021MentalModelsExpectation, pp. 6–7] **Evidence-supported claim.** Users penalised unmet expectations more strongly than they rewarded exceeded expectations. [@Grimes2021MentalModelsExpectation, pp. 6–7] **Researcher inference.** If the DDR interface implies complete answering, scoped missingness may feel like failure rather than responsible method. **Warrant.** Users judge non-answering against the promise the interface has implicitly made. **Boundary.** The study does not test refusal as a designed research behaviour. **Consequence.** Missingness should be introduced as a normal capability from the outset. **Practice cross-check.** Turin should explain “does not establish” as a research outcome, not an error state.
 ## Claim 6
-- **Claim:** Expectation management should aim at calibration, not reduced ambition.
-- **Author claim:** The study demonstrates that expectation–capability alignment affects evaluation.
-- **Evidence-supported claim:** Their results show matched, exceeded and unmet expectations producing different responses above and beyond capability alone. [@Grimes2021MentalModelsExpectation, pp. 6–7]
-- **Researcher inference:** The thesis should design for accurate expectations of evidential scope rather than simply lower expectations.
-- **Warrant:** Epistemic calibration requires the user’s model to correspond reasonably to actual system boundaries.
-- **Boundary:** This calibration goal is my extension, not the study’s archival objective.
-- **Consequence:** Interface design becomes part of accountable computational method.
-- **Practice cross-check:** Turin capability statements, provenance and scoped-missingness responses should reinforce the same bounded mental model.
 
+**Claim.** Expectation management should aim at calibration, not reduced ambition. **Author claim.** The study demonstrates that expectation–capability alignment affects evaluation. **Evidence.** Their results show matched, exceeded and unmet expectations producing different responses above and beyond capability alone. [@Grimes2021MentalModelsExpectation, pp. 6–7] **Evidence-supported claim.** Their results show matched, exceeded and unmet expectations producing different responses above and beyond capability alone. [@Grimes2021MentalModelsExpectation, pp. 6–7] **Researcher inference.** The thesis should design for accurate expectations of evidential scope rather than simply lower expectations. **Warrant.** Epistemic calibration requires the user’s model to correspond reasonably to actual system boundaries. **Boundary.** This calibration goal is my extension, not the study’s archival objective. **Consequence.** Interface design becomes part of accountable computational method. **Practice cross-check.** Turin capability statements, provenance and scoped-missingness responses should reinforce the same bounded mental model.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Mental model:** the user's working understanding of how a system operates and what it is capable of doing, used to anticipate future behaviour. `[@Grimes2021MentalModelsExpectation, p. 1]`
