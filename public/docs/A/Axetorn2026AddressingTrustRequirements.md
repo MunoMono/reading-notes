@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,15 +25,23 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Scoped missingness"
 source_type: "Counterpoint / tension"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
   - "10 Conversational AI and completion norms"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -47,66 +55,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Axetorn et al. show that refusal, provenance, verification and limitation disclosure can be specified as system requirements rather than left to user interpretation. This gives scoped missingness a concrete computational-design precedent.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It helps frame contemporary reuse of DDR material as accountable inquiry in which the system states both what its evidence supports and where its evidence stops.
 
-**Why I’m reading this now (1 sentence):**  
-I need evidence that refusal, source provenance and explicit communication of evidential limits can be designed into retrieval-augmented systems as positive system behaviours rather than treated as failures to answer.
+**Where it sits in my argument:** Critical computational approaches / operational literature, especially retrieval control, refusal and evidential scope.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.2 scoped missingness and the Turin discussion of conversational completion norms. It supports the methodological claim that a trustworthy system should withhold an answer when retrieved evidence is insufficient and should tell the user what its evidence and limitations are.
+**My benchmark for using it:** Transfer only the architectural principles of bounded answering, inspectability and limitation disclosure; do not equate enterprise knowledge-base absence with historical absence.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *scoped missingness* rather than refusal or abstention because the DDR problem is historical and corpus-bound. The system is not claiming that an answer does not exist; it identifies what a specified evidence surface does not establish.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use the paper where refusal and provenance are explicitly implemented as design requirements. Keep its enterprise notion of reliability separate from historical warrant, where absence from the available corpus cannot establish absence from the past.
+Axetorn et al. write from requirements engineering and design science, translating empirically elicited trust requirements into a multi-agent HR chatbot architecture. Their study is useful because trust-related requirements are operationalised through retrieval, generation, checking and refusal. [@Axetorn2026AddressingTrustRequirements, pp. 13–17]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Axetorn et al. write from requirements engineering and design science rather than archival or heritage research. Their 2026 study investigates how trust requirements can be translated into the architecture of a domain-specific multi-agent HR chatbot. The paper is valuable because it treats reliability, transparency and refusal as requirements that can be operationalised through system design rather than left to prompting or user interpretation.
+They turn reliability and transparency requirements into separable retrieval, generation, checking and refusal functions, then evaluate whether those functions meet users’ stated needs. [@Axetorn2026AddressingTrustRequirements, pp. 13–20, 28–29]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-The study assumes a bounded knowledge base whose contents can function as ground truth. That assumption does not transfer intact to historical archives, where digitisation, description, survival and access determine what is available and where corpus absence must remain distinct from historical absence.
-
-# The author’s main move (1 sentence)
-
-They try to engineer user trust into an LLM system by translating empirically elicited trust requirements into specialised retrieval, generation, verification and refusal mechanisms and then evaluating whether those mechanisms satisfy the requirements.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** A retrieval-augmented system can be explicitly designed to withhold an answer when its evidence is insufficient.
-- **Evidence (quote/paraphrase + page):** The authors specify reliability as a requirement that includes refusal when relevant information cannot be retrieved and report workshop agreement that “it is better to give no answer than a wrong one”. `[@Axetorn2026AddressingTrustRequirements, pp. 13–14]` Their implemented judge agent applies a relevance threshold and returns a refusal when no retrieved segment exceeds it. `[@Axetorn2026AddressingTrustRequirements, pp. 15–16]`
-- **Warrant (my words):** Non-completion is implemented as intended behaviour. The system therefore treats insufficient evidence as an outcome that should be communicated rather than a gap that generation must fill.
-- **So what for my thesis (a reusable sentence):** A retrieval-augmented research system can treat evidential insufficiency as a valid result, withholding synthesis when the available material does not warrant an answer.
-- **Practice cross-check:** Turin scoped-missingness cases: closure, reception and attribution questions return the nearest relevant traces and state what the defined DDR corpus does not establish rather than generating a plausible historical completion.
+- **Claim:** A RAG system can intentionally withhold an answer when relevant evidence is insufficient.
+- **Author claim:** Reliability includes refusal where relevant support cannot be retrieved.
+- **Evidence-supported claim:** Workshop participants preferred no answer to a wrong answer, and the judge agent refuses when no retrieved segment exceeds its relevance threshold. [@Axetorn2026AddressingTrustRequirements, pp. 13–16]
+- **Researcher inference:** Evidential insufficiency can be treated as a valid DDR result.
+- **Warrant:** Non-completion is explicitly designed rather than treated as failure.
+- **Boundary:** Their knowledge base is bounded and treated as ground truth.
+- **Consequence:** DDR refusal must be phrased as corpus-bounded missingness, not historical non-existence.
+- **Practice cross-check:** Turin scoped-missingness cases return nearest traces and state what the corpus does not establish.
 
 ## Claim 2
-
-- **Claim (plain):** Separating retrieval, generation and verification makes evidential control more inspectable than a single-pass RAG interaction.
-- **Evidence (quote/paraphrase + page):** The implemented architecture separates a judge that filters retrieved segments, a generator constrained to use the retained evidence and a checker that tests grounding, source citation and relevance before release. Failed checks return the answer for revision. `[@Axetorn2026AddressingTrustRequirements, pp. 15–17]` In their discussion, the authors argue that separation improves controllability, testability, observability and auditability because evidence selection, composition and checking occur in distinct components. `[@Axetorn2026AddressingTrustRequirements, p. 29]`
-- **Warrant (my words):** Decomposing the pipeline exposes decisions that a conventional chatbot can collapse into one opaque generation step. It becomes possible to identify whether failure occurred in evidence selection, synthesis or validation.
-- **So what for my thesis:** Archival inference becomes more accountable when retrieval, evidential selection, synthesis and validation remain distinguishable operations whose outputs can be inspected separately.
-- **Practice cross-check:** Turin workflow: retrieval → evidence/source typing → bounded inference or deterministic compilation → quotation/provenance validation → statement of limit. The DDR implementation performs a related separation without requiring that each stage be an autonomous LLM agent.
+- **Claim:** Trust requirements can be translated into architecture rather than left as abstract principles.
+- **Author claim:** The study derives reliability and transparency requirements and implements components to satisfy them.
+- **Evidence-supported claim:** The architecture assigns relevance filtering, answer generation, grounding/citation checks and refusal to explicit system functions. [@Axetorn2026AddressingTrustRequirements, pp. 13–17]
+- **Researcher inference:** Provenance and bounded synthesis should be treated as functional requirements of the DDR instrument.
+- **Warrant:** Requirements become testable when they correspond to observable system behaviour.
+- **Boundary:** The specific multi-agent design is not necessary to reproduce the underlying requirement.
+- **Consequence:** The thesis can evaluate evidential safeguards as designed behaviours.
+- **Practice cross-check:** Turin UAT checks retrieval, citation, synthesis and scoped-missingness separately.
 
 ## Claim 3
+- **Claim:** Separating retrieval, generation and verification makes failure modes more inspectable.
+- **Author claim:** The authors argue that architectural separation improves controllability, testability, observability and auditability.
+- **Evidence-supported claim:** Judge, generator and checker components expose evidence selection, composition and validation as distinct stages. [@Axetorn2026AddressingTrustRequirements, pp. 15–17, 29]
+- **Researcher inference:** DDR inference should preserve the difference between retrieval error, synthesis error and provenance error.
+- **Warrant:** A single opaque generation step makes those failure sources difficult to distinguish.
+- **Boundary:** Component separation does not itself guarantee evidential correctness.
+- **Consequence:** Evaluation should diagnose errors by stage.
+- **Practice cross-check:** Turin separates retrieval, evidence typing, bounded synthesis and quotation/provenance validation.
 
-- **Claim (plain):** Source citation alone does not communicate the limits of a system's knowledge.
-- **Evidence (quote/paraphrase + page):** Evaluation participants valued citations, but the authors found that provenance did not fully satisfy their transparency requirement. Users also wanted visible statements explaining what the chatbot could and could not do, its data sources and when they were last updated. `[@Axetorn2026AddressingTrustRequirements, p. 20]` The discussion consequently distinguishes provenance transparency from explicit communication of partial or limited information. `[@Axetorn2026AddressingTrustRequirements, p. 28]`
-- **Warrant (my words):** A cited answer can still imply completeness. Transparency therefore requires communication of both the basis of a claim and the boundary beyond which the system cannot responsibly speak.
-- **So what for my thesis:** Evidential provenance should be paired with an explicit account of evidential scope: showing where a claim comes from does not by itself show what the available corpus cannot establish.
-- **Practice cross-check:** Turin interface: source citations make generated claims reopenable, while scoped missingness separately states the limits of the retrieved and digitised evidence surface.
+## Claim 4
+- **Claim:** Source citation alone does not fully communicate system transparency.
+- **Author claim:** Participants wanted more than citations; they also wanted visible statements about capabilities, sources and update status.
+- **Evidence-supported claim:** The evaluation found provenance helpful but insufficient to satisfy transparency requirements by itself. [@Axetorn2026AddressingTrustRequirements, pp. 20, 28]
+- **Researcher inference:** A cited DDR answer can still imply completeness unless scope and limitations are separately stated.
+- **Warrant:** Provenance explains basis; limitation disclosure explains boundary.
+- **Boundary:** User preferences in an HR chatbot do not directly establish archival interface requirements.
+- **Consequence:** Provenance and scoped missingness should be represented as complementary interface functions.
+- **Practice cross-check:** Turin combines source citations with explicit statements of what the evidence surface cannot establish.
+
+## Claim 5
+- **Claim:** Verification can be made iterative rather than purely post-hoc.
+- **Author claim:** Failed checker tests return answers for revision before release.
+- **Evidence-supported claim:** The checker evaluates grounding, source citation and relevance and can send a response back for correction. [@Axetorn2026AddressingTrustRequirements, pp. 15–17]
+- **Researcher inference:** DDR synthesis can be gated by deterministic or researcher checks before being treated as an admissible result.
+- **Warrant:** Validation is more effective when it changes output behaviour rather than merely annotating defects.
+- **Boundary:** Automated checking may reproduce the limitations of its own criteria.
+- **Consequence:** Verification should not be confused with historical adjudication.
+- **Practice cross-check:** Turin uses deterministic fallback when generated synthesis exceeds the permitted evidence structure.
+
+## Claim 6
+- **Claim:** Reliability is framed as appropriate behaviour under uncertainty, not simply answer production.
+- **Author claim:** Reliability combines accurate responses, verifiable sources and refusal when support is insufficient.
+- **Evidence-supported claim:** The requirements explicitly connect reliability with evidence and abstention rather than response completeness alone. [@Axetorn2026AddressingTrustRequirements, pp. 13–14]
+- **Researcher inference:** A historically responsible system may be more reliable when it declines to synthesise.
+- **Warrant:** Completion pressure and evidential reliability can conflict.
+- **Boundary:** Their evaluation does not test historically contested evidence.
+- **Consequence:** DDR success criteria should reward bounded non-answering where warranted.
+- **Practice cross-check:** Scoped missingness is evaluated as a positive evidential outcome in Turin.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -143,6 +177,10 @@ They try to engineer user trust into an LLM system by translating empirically el
 
 - **Boundary (1 sentence):** The study evaluates a small enterprise chatbot against synthetic HR documents whose contents are known to the researchers, so its notion of “no answer” does not model the archival problem of partial survival, uneven digitisation or contested historical evidence.
 - **Risk if misused (1 sentence):** Importing its refusal logic without qualification could turn failure to retrieve from the DDR evidence surface into an unjustified claim that the information or event itself did not exist.
+
+# Cross-source / cross-lens synthesis
+
+Axetorn et al. strengthen the operational side of the computational lens by turning refusal, provenance and verification into testable system behaviours. Read with Asai, Wang and Zhu, the paper supports decomposing retrieval and synthesis into inspectable stages; read with archival missingness literature, it also exposes a crucial limit: technical failure to retrieve cannot be converted into a claim about the past. DDR therefore needs both system-level refusal and an archival language of scoped missingness.
 
 # Methods spine tags (tick what it actually touches)
 
