@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,13 +25,21 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Scoped missingness"
 source_type: "Counterpoint / tension"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "10 Conversational AI and completion norms"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -45,67 +53,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Grimes, Schuetzler and Giboney show that users approach conversational systems through mental models of capability and evaluate outputs relative to those expectations. This gives the DDR interface a reason to make evidential scope and missingness explicit.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It helps ensure that contemporary conversational access to DDR does not imply a wider or more authoritative historical capability than the bounded corpus can support.
 
-**Why I’m reading this now (1 sentence):**  
-I need empirical support for the proposition that conversational interfaces shape users’ mental models of system capability and that mismatches between those expectations and actual capability affect how outputs are interpreted and evaluated.
+**Where it sits in my argument:** Critical computational approaches / operational literature, especially conversational interface authority and expectation management.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.2 scoped missingness and the Turin discussion of conversational AI as a research interface. It helps explain why evidential limits need to be communicated explicitly: a fluent conversational form can encourage expectations of capability that exceed what a bounded archival corpus can responsibly establish.
+**My benchmark for using it:** Use for the expectation mechanism; do not cite it as evidence about modern LLM hallucination, RAG or refusal.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *expectation management* for the interface problem identified here. I reserve *completion norm* for the stronger claim that conversational AI encourages users to expect an answer to every query; Grimes et al. support the underlying expectation mechanism but do not directly study generative completion.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use the paper to establish that interface cues and system framing shape expectations independently of actual performance. Do not use it as evidence about contemporary LLM hallucination, RAG behaviour or refusal unless paired with later generative-AI research.
+The authors write from information systems and HCI before widespread generative-LLM chat interfaces. Their experiment uses scripted conversational agents to test how expectations interact with actual capability in user evaluation. [@Grimes2021MentalModelsExpectation, pp. 1–7]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Grimes, Schuetzler and Giboney write from information systems and human–computer interaction before the widespread adoption of generative LLM chat interfaces. Their experiment uses scripted conversational agents to test Expectation Violation Theory in human–computer interaction. The paper is therefore valuable less for its specific chatbot technology than for its empirical demonstration that perceived system performance is mediated by the expectations users bring into an interaction.
+They show experimentally that users evaluate conversational systems through prior expectations, and that violations of those expectations influence judgement beyond underlying capability alone. [@Grimes2021MentalModelsExpectation, pp. 4–7]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-Their model assumes comparatively legible differences in chatbot capability and evaluates engagement rather than epistemic reliability. Contemporary LLM systems complicate this because fluent language can obscure capability boundaries precisely where evidential competence is uncertain.
-
-# The author’s main move (1 sentence)
-
-They try to explain evaluations of conversational AI by showing experimentally that user expectations interact with actual system capability, so that expectation violations alter perceptions beyond the system’s performance alone.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Users approach conversational AI through mental models that generate expectations about what the system can do.
-- **Evidence (quote/paraphrase + page):** The authors define mental models as frameworks used to predict the world and argue that the widely varying capabilities of AI systems make it difficult for users to form models that accurately represent what a system can actually do. Users may consequently either underestimate or overestimate AI capability. `[@Grimes2021MentalModelsExpectation, p. 1]`
-- **Warrant (my words):** Users do not encounter an AI interface without assumptions. Labels, conversational form and prior experience establish an anticipated capability against which subsequent behaviour is interpreted.
-- **So what for my thesis (a reusable sentence):** An archive-facing conversational interface must actively communicate the scope of its evidential capability because users otherwise construct their own expectations about what the system can know and establish.
-- **Practice cross-check:** Turin interface: the research environment should state that answers are derived from a bounded DDR evidence surface and distinguish interpretative synthesis from claims the corpus cannot establish.
+- **Claim:** Users approach conversational AI through mental models of capability.
+- **Author claim:** Mental models help users predict what a system can do.
+- **Evidence-supported claim:** The authors argue that varying AI capability makes accurate user models difficult to form. [@Grimes2021MentalModelsExpectation, p. 1]
+- **Researcher inference:** DDR users will infer capabilities from interface form unless scope is stated.
+- **Warrant:** Interaction begins with prior expectations rather than a blank slate.
+- **Boundary:** The study predates current LLM interfaces.
+- **Consequence:** Scope communication is part of method, not cosmetic UX.
+- **Practice cross-check:** Turin should state that answers derive from a bounded DDR evidence surface.
 
 ## Claim 2
-
-- **Claim (plain):** Expectations can change how users evaluate the same underlying conversational capability.
-- **Evidence (quote/paraphrase + page):** Participants were told they would interact either with a human or with a chatbot, creating significantly different expectations before interaction. `[@Grimes2021MentalModelsExpectation, pp. 4–5]` The same low-capability system was subsequently evaluated more favourably when users expected a chatbot (M = 4.82) than when they expected a human (M = 4.33). `[@Grimes2021MentalModelsExpectation, p. 6]`
-- **Warrant (my words):** Evaluation does not depend only on system performance. The frame through which the user encounters the system changes the standard against which that performance is judged.
-- **So what for my thesis:** The perceived authority of a research chatbot is partly produced by its interface and framing, so evidential modesty must be communicated through design rather than assumed from backend constraints.
-- **Practice cross-check:** Turin: a fluent answer box can look like a general-purpose historical oracle even when retrieval is restricted to specified DDR material; labels, source visibility and scoped-missingness responses should correct that mental model.
+- **Claim:** Users can overestimate or underestimate AI capability.
+- **Author claim:** Inaccurate mental models can produce expectations above or below what a system can actually do.
+- **Evidence-supported claim:** The paper explicitly describes both over- and underestimation as consequences of unstable mental models. [@Grimes2021MentalModelsExpectation, p. 1]
+- **Researcher inference:** A fluent DDR chatbot may invite overestimation of historical knowledge.
+- **Warrant:** Conversational form can hide the narrowness of an underlying evidence base.
+- **Boundary:** The paper does not study generative fluency.
+- **Consequence:** Backend constraints should be surfaced in user-facing language.
+- **Practice cross-check:** Turin labels should distinguish corpus-bounded research assistance from general historical knowledge.
 
 ## Claim 3
+- **Claim:** Interface framing changes expectations before system performance is observed.
+- **Author claim:** Participants given human versus chatbot framing formed significantly different expectations.
+- **Evidence-supported claim:** The experimental manipulation created measurable expectation differences before interaction. [@Grimes2021MentalModelsExpectation, pp. 4–5]
+- **Researcher inference:** Naming and presentation of the DDR tool will shape perceived authority.
+- **Warrant:** Expectations are partly produced by design cues.
+- **Boundary:** Human-versus-chatbot framing is simpler than current AI branding.
+- **Consequence:** Interface language should accurately signal system role and limits.
+- **Practice cross-check:** Turin should avoid labels that imply oracle-like historical competence.
 
-- **Claim (plain):** Capability–expectation mismatch produces stronger reactions than capability alone and negative expectation violations are especially consequential.
-- **Evidence (quote/paraphrase + page):** Users whose experience matched expectations showed no significant violation, those whose system exceeded expectations showed a positive violation, and those whose system fell below expectations showed a significant negative violation. `[@Grimes2021MentalModelsExpectation, p. 6]` The authors conclude that expectation violations influence evaluations “above and beyond” actual system capability and observe that users penalised failure to meet expectations more strongly than they rewarded exceeding them. `[@Grimes2021MentalModelsExpectation, pp. 6–7]`
-- **Warrant (my words):** Misalignment between apparent and actual capability becomes part of the user experience. A system that appears capable of resolving every question creates its own failure condition when it encounters genuinely insufficient evidence.
-- **So what for my thesis:** Scoped missingness should be presented as an expected capability of the research system rather than as an exceptional failure, allowing evidential limits to confirm the system’s stated research behaviour rather than violate an implied promise of completeness.
-- **Practice cross-check:** Turin scoped-missingness UAT: “the available corpus does not establish this” should appear as a designed research outcome with supporting nearest evidence, not as a generic error or fallback message.
+## Claim 4
+- **Claim:** The same capability can be evaluated differently under different expectations.
+- **Author claim:** User evaluation depends on expectation as well as actual system behaviour.
+- **Evidence-supported claim:** The same low-capability system was rated more favourably when users expected a chatbot than when they expected a human. [@Grimes2021MentalModelsExpectation, p. 6]
+- **Researcher inference:** Apparent user satisfaction is not a clean measure of evidential quality.
+- **Warrant:** Evaluation is relational to expected capability.
+- **Boundary:** The outcome measured engagement/evaluation, not factual verification.
+- **Consequence:** DDR UAT should test epistemic tasks rather than satisfaction alone.
+- **Practice cross-check:** Turin success criteria should focus on evidence identification, provenance and bounded conclusions.
+
+## Claim 5
+- **Claim:** Negative expectation violations matter strongly.
+- **Author claim:** Systems that fell below expectations produced significant negative violations.
+- **Evidence-supported claim:** Users penalised unmet expectations more strongly than they rewarded exceeded expectations. [@Grimes2021MentalModelsExpectation, pp. 6–7]
+- **Researcher inference:** If the DDR interface implies complete answering, scoped missingness may feel like failure rather than responsible method.
+- **Warrant:** Users judge non-answering against the promise the interface has implicitly made.
+- **Boundary:** The study does not test refusal as a designed research behaviour.
+- **Consequence:** Missingness should be introduced as a normal capability from the outset.
+- **Practice cross-check:** Turin should explain “does not establish” as a research outcome, not an error state.
+
+## Claim 6
+- **Claim:** Expectation management should aim at calibration, not reduced ambition.
+- **Author claim:** The study demonstrates that expectation–capability alignment affects evaluation.
+- **Evidence-supported claim:** Their results show matched, exceeded and unmet expectations producing different responses above and beyond capability alone. [@Grimes2021MentalModelsExpectation, pp. 6–7]
+- **Researcher inference:** The thesis should design for accurate expectations of evidential scope rather than simply lower expectations.
+- **Warrant:** Epistemic calibration requires the user’s model to correspond reasonably to actual system boundaries.
+- **Boundary:** This calibration goal is my extension, not the study’s archival objective.
+- **Consequence:** Interface design becomes part of accountable computational method.
+- **Practice cross-check:** Turin capability statements, provenance and scoped-missingness responses should reinforce the same bounded mental model.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -142,6 +175,10 @@ They try to explain evaluations of conversational AI by showing experimentally t
 
 - **Boundary (1 sentence):** The study concerns scripted 2021 conversational agents, manipulates expectations through a human-versus-chatbot framing and measures engagement rather than factual accuracy, evidential verification or historical reasoning.
 - **Risk if misused (1 sentence):** Treating it as evidence that LLMs create a universal “completion norm” would overextend the study; it supports the more limited claim that conversational cues shape expectations of capability and that mismatches alter user evaluation.
+
+# Cross-source / cross-lens synthesis
+
+Grimes, Schuetzler and Giboney provide the HCI mechanism behind the thesis's concern with interface authority: users form capability expectations before they can judge evidence. Read with Pan and Boyd Davis, this shows why ranking, conversational fluency and visual framing can produce authority effects independent of evidential quality. For DDR, scoped missingness must therefore be designed as an expected research behaviour so that conversational form does not imply unlimited historical knowledge.
 
 # Methods spine tags (tick what it actually touches)
 
