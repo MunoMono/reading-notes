@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,15 +25,23 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.2 Scoped missingness"
 source_type: "Counterpoint / tension"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "01 Synthetic heritage and cultural memory"
   - "05 Archival partiality, silence and absence"
   - "11 Uncertainty and provenance display in interfaces"
   - "12 Digitisation, reconstruction and archival completion"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -47,67 +55,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Borůvková provides a heritage ethics precedent for separating surviving evidence from interpretative reconstruction and for keeping inferred additions visibly distinguishable from what the historical record establishes.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It supports revisiting DDR ideas through contemporary computational representation without collapsing historical plurality into a single reconstructed account.
 
-**Why I’m reading this now (1 sentence):**  
-I need cultural-heritage scholarship that distinguishes surviving evidence from interpretative reconstruction and gives me an ethical basis for keeping computationally inferred completion visibly separate from what the historical record actually establishes.
+**Where it sits in my argument:** Critical computational approaches / contemporary bridge literature, especially synthetic heritage, provenance and scoped missingness.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.2 scoped missingness and the Turin discussion of synthetic heritage. It supports the argument that computational activation should preserve the distinction between documented trace, interpretation and inferred completion, particularly where evidence is incomplete.
+**My benchmark for using it:** Use where the source explicitly distinguishes documented material from inferred reconstruction or argues for visible uncertainty and intervention; do not transfer physical-reconstruction claims directly to institutional relationships or intentions.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *scoped missingness* rather than *reconstruction* for the DDR because my aim is not to restore a lost historical whole. The method identifies what a defined evidence surface can support and preserves unresolved gaps rather than automatically completing them.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use Borůvková where she distinguishes documented material from inferred reconstruction and argues for transparent representation of uncertainty and intervention. Do not transfer claims about restoration of physical form directly to historical relationships, intentions or institutional narratives.
+Borůvková writes from digital heritage and historical sciences, drawing on 3D reconstruction, conservation practice and established cultural-heritage charters. The article brings principles of authenticity, documentation and expert validation into contact with AI-assisted reconstruction. [@Boruvkova2025EthicalAspectsDigital, pp. 217–224]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Borůvková writes from digital heritage practice and the digital historical sciences, drawing on 3D scanning, photogrammetry, reconstruction practice and established cultural-heritage charters. Her argument sits within a conservation tradition concerned with authenticity, documentation and the ethics of intervention. The article brings these principles into contact with emerging AI-assisted reconstruction, although its AI discussion is principally normative and prospective rather than experimentally evaluated.
+She establishes ethical limits for digital reconstruction by treating reconstruction as interpretation and requiring documentation, expert validation and visible differentiation between surviving and inferred material. [@Boruvkova2025EthicalAspectsDigital, pp. 219, 223–224]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-The restoration tradition often begins from an artefact presumed to possess a recoverable material form. A contested institutional archive presents a different problem: historical relations may remain plural, contradictory or genuinely unknowable, so fidelity can require preserving incompletion rather than reconstructing towards a single coherent state.
-
-# The author’s main move (1 sentence)
-
-She tries to establish ethical limits for digital heritage reconstruction by connecting practical 3D intervention to principles of authenticity, documentation, expert validation and explicit differentiation between surviving and inferred material.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Digital reconstruction is an interpretation of available evidence and should not be presented as recovered historical fact.
-- **Evidence (quote/paraphrase + page):** In discussing the Seville Charter, Borůvková states that digital reconstruction should be clearly identified as an interpretation based on available scientific knowledge rather than as unquestionable historical fact. `[@Boruvkova2025EthicalAspectsDigital, p. 219]`
-- **Warrant (my words):** Reconstruction necessarily introduces judgement where evidence is incomplete. Its authority therefore depends on keeping the interpretative act visible rather than allowing the reconstructed result to inherit the evidential status of the surviving object.
-- **So what for my thesis (a reusable sentence):** Computationally inferred relationships between archival traces should remain identifiable as interpretations of available evidence rather than being presented as recovered historical facts.
-- **Practice cross-check:** Turin answers distinguish retrieved documentary evidence from AI-mediated synthesis, while scoped-missingness outputs explicitly withhold claims that the available DDR corpus cannot establish.
+- **Claim:** Digital reconstruction is an interpretation, not recovered historical fact.
+- **Author claim:** Reconstruction should be clearly identified as interpretation based on available knowledge.
+- **Evidence-supported claim:** In discussing the Seville Charter, Borůvková states that reconstruction should not be presented as unquestionable historical fact. [@Boruvkova2025EthicalAspectsDigital, p. 219]
+- **Researcher inference:** DDR computationally inferred relationships must remain identifiable as interpretations.
+- **Warrant:** Reconstruction introduces judgement where evidence is incomplete.
+- **Boundary:** The article concerns heritage reconstruction rather than archival inference.
+- **Consequence:** Generated historical relations should not inherit the evidential status of source records.
+- **Practice cross-check:** Turin separates retrieved documentary evidence from generated synthesis.
 
 ## Claim 2
-
-- **Claim (plain):** Original evidence and algorithmically inferred completion should remain distinguishable in the resulting representation.
-- **Evidence (quote/paraphrase + page):** Borůvková argues that AI-generated elements should undergo expert validation and that metadata, colour coding or layered files should distinguish original data from algorithmically inferred content. She also calls for open documentation of the reconstruction process. `[@Boruvkova2025EthicalAspectsDigital, p. 223]`
-- **Warrant (my words):** Provenance is not merely a record of where material came from; it must also reveal changes in evidential status introduced through computational intervention.
-- **So what for my thesis:** An archive-facing AI system should expose the boundary between archival trace and computational inference so that users can inspect where documentary evidence ends and interpretation begins.
-- **Practice cross-check:** Turin citation system: generated answers link back to source passages, while source types, evidence provenance and deterministic fallback allow the researcher to separate retrieved material from subsequent synthesis.
+- **Claim:** Surviving evidence and inferred completion should remain visually or structurally distinguishable.
+- **Author claim:** Original and reconstructed material should be differentiated.
+- **Evidence-supported claim:** Borůvková recommends metadata, colour coding or layered files to distinguish original data from inferred content. [@Boruvkova2025EthicalAspectsDigital, p. 223]
+- **Researcher inference:** DDR interfaces should mark archival trace, retrospective testimony and computational inference as different evidential states.
+- **Warrant:** Users need to see where evidential status changes.
+- **Boundary:** Visual colour-coding does not translate directly into textual historical interfaces.
+- **Consequence:** Evidential-state distinctions should be explicit in interface and prose.
+- **Practice cross-check:** Turin keeps source types and synthesis stages separate.
 
 ## Claim 3
+- **Claim:** Documentation of intervention is part of authenticity.
+- **Author claim:** Reconstruction processes should be openly documented.
+- **Evidence-supported claim:** The paper calls for transparent documentation of the reconstruction process and inferred additions. [@Boruvkova2025EthicalAspectsDigital, p. 223]
+- **Researcher inference:** DDR computational transformations require inspectable provenance and paradata-like records.
+- **Warrant:** Historical accountability depends on knowing not only the source but what was done to it.
+- **Boundary:** Documentation does not itself validate an intervention.
+- **Consequence:** Provenance must record source and interpretative transformation.
+- **Practice cross-check:** Turin records source passage, metadata and generated synthesis separately.
 
-- **Claim (plain):** Historical authenticity can be layered rather than singular, and digital reconstruction risks flattening that complexity into an idealised version.
-- **Evidence (quote/paraphrase + page):** Borůvková introduces “layered authenticity” as the need to recognise artefacts as multi-temporal objects shaped by successive modifications or restorations. She argues that digital systems should enable different historical states to be visualised and compared rather than collapsing them into one “ideal” version. `[@Boruvkova2025EthicalAspectsDigital, p. 224]`
-- **Warrant (my words):** Historical objects and records accrue temporal and interpretative layers. Selecting one coherent reconstruction can erase the very difference and contingency that historical inquiry needs to examine.
-- **So what for my thesis:** Computational activation of the DDR archive should preserve competing temporal and testimonial layers rather than resolving them into a single authoritative narrative.
-- **Practice cross-check:** DDR archival material, retrospective oral histories and later historiography can describe the same institutional episode differently; the research model should retain these temporal positions rather than synthesising them into false consensus.
+## Claim 4
+- **Claim:** Expert validation remains necessary for AI-generated reconstruction.
+- **Author claim:** AI-generated additions should undergo expert scrutiny.
+- **Evidence-supported claim:** Borůvková explicitly recommends expert validation of algorithmically inferred elements. [@Boruvkova2025EthicalAspectsDigital, p. 223]
+- **Researcher inference:** Model-supported DDR interpretation must remain researcher-reviewed.
+- **Warrant:** Automated generation cannot establish historical adequacy on its own.
+- **Boundary:** Expert judgement can itself be contested.
+- **Consequence:** Human review is a methodological control, not a guarantee of singular truth.
+- **Practice cross-check:** Turin requires researcher corroboration before accepting synthesis.
+
+## Claim 5
+- **Claim:** Authenticity can be layered rather than singular.
+- **Author claim:** Heritage objects may embody multiple historical states and interventions.
+- **Evidence-supported claim:** Her concept of layered authenticity argues against collapsing successive states into one ideal version. [@Boruvkova2025EthicalAspectsDigital, p. 224]
+- **Researcher inference:** DDR archive, oral history and later historiography may preserve different temporal positions that should remain distinct.
+- **Warrant:** Historical integrity can depend on retaining difference across time.
+- **Boundary:** Material layers and testimonial plurality are analogous, not identical.
+- **Consequence:** Temporal and evidential layers should not be synthesised into false consensus.
+- **Practice cross-check:** Turin separates contemporary records from retrospective testimony.
+
+## Claim 6
+- **Claim:** Preserving incompletion can be ethically preferable to reconstructing a single coherent past.
+- **Author claim:** Her framework warns against idealised reconstruction that erases historical layers and uncertainty.
+- **Evidence-supported claim:** The article argues for differentiated representation of historical states and inferred intervention rather than seamless completion. [@Boruvkova2025EthicalAspectsDigital, pp. 223–224]
+- **Researcher inference:** DDR missingness may have analytical value and should sometimes remain unresolved.
+- **Warrant:** Seamless completion can hide the limits of surviving evidence.
+- **Boundary:** The paper does not theorise archival silence directly.
+- **Consequence:** Scoped missingness should be represented as part of historical interpretation.
+- **Practice cross-check:** Turin reports what the defined corpus cannot establish instead of filling gaps.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +177,10 @@ She tries to establish ethical limits for digital heritage reconstruction by con
 
 - **Boundary (1 sentence):** Borůvková's cases concern material 3D reconstruction in which missing geometry can sometimes be inferred from comparable objects and physical form, whereas archival historical relationships may have no recoverable singular state.
 - **Risk if misused (1 sentence):** Treating historical missingness as analogous to a damaged polygon mesh could imply that every archival absence is a technical defect awaiting reconstruction rather than a potentially meaningful limit of the surviving record.
+
+# Cross-source / cross-lens synthesis
+
+Borůvková connects critical computational approaches to heritage ethics by insisting that interpretation, intervention and historical layers remain visible. Read with HARF, this supports evidence-bounded generation; read with archival-silence literature, it also needs extension because archival gaps may reflect survival, power or description rather than damage awaiting reconstruction. For DDR, the productive move is to preserve evidential layers and incompletion rather than pursue seamless restoration.
 
 # Methods spine tags (tick what it actually touches)
 
