@@ -41,11 +41,15 @@ project_tags:
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- At least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
-- Separate author claim, evidence-supported claim and researcher inference
-- Practice cross-check or TODO for each claim
-- Final synthesis required
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -67,74 +71,26 @@ Carter writes in *Archivaria* in 2006, drawing on Foucault, Derrida, Lyotard, fe
 
 Carter argues that archival silence can be produced by exclusion and unequal power, but silence can also be chosen by marginalised groups as resistance; archivists therefore need to identify, contextualise and sometimes combat silence without assuming every silence should be filled. [@CarterThingsSaidUnsaid, pp. 215–233]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** The power of archives includes the power to exclude.
-- **Author claim:** Carter says archives are not representative of all society and that selection gives some voices durable visibility while denying others entry.
-- **Evidence-supported claim:** Pages 216–217 explicitly describe archival power as both inclusion and exclusion and state that distortions, omissions, erasures and silences are inevitable.
-- **Researcher inference:** DDR visibility is partly produced by what records were accepted, retained and described, not simply by the historical importance of actors or activities.
-- **Evidence (quote/paraphrase + page):** Carter says the “power to exclude is a fundamental aspect of the archive.” [@CarterThingsSaidUnsaid, pp. 216–217]
-- **Warrant (my words):** What is absent from archival representation cannot participate equally in later institutional memory.
-- **Boundary:** A gap does not by itself reveal whether exclusion was deliberate, accidental or structural.
-- **Consequence:** The thesis should identify the mechanism of absence before describing it as silencing.
-- **Practice cross-check:** Distinguish non-creation, non-survival, sparse description and retrieval failure in the scoped-missingness workbench.
 
+**Claim.** The power of archives includes the power to exclude. **Author claim.** Carter says archives are not representative of all society and that selection gives some voices durable visibility while denying others entry. **Evidence.** Pages 216–217 explicitly describe archival power as both inclusion and exclusion and state that distortions, omissions, erasures and silences are inevitable. **Evidence-supported claim.** Pages 216–217 explicitly describe archival power as both inclusion and exclusion and state that distortions, omissions, erasures and silences are inevitable. **Researcher inference.** DDR visibility is partly produced by what records were accepted, retained and described, not simply by the historical importance of actors or activities. **Warrant.** What is absent from archival representation cannot participate equally in later institutional memory. **Boundary.** A gap does not by itself reveal whether exclusion was deliberate, accidental or structural. **Consequence.** The thesis should identify the mechanism of absence before describing it as silencing. **Practice cross-check.** Distinguish non-creation, non-survival, sparse description and retrieval failure in the scoped-missingness workbench.
 ## Claim 2
-- **Claim (plain):** Dominant recordkeeping traditions can silence other epistemologies even without explicit destruction.
-- **Author claim:** Carter argues that oral and non-Western recordkeeping traditions may not be recognised as records within dominant archival frameworks.
-- **Evidence-supported claim:** Pages 218–219 describe speech acts and Indigenous/oral traditions being denied archival recognition because they do not conform to the dominant Western frame.
-- **Researcher inference:** DDR knowledge that was tacit, performed, taught or discussed orally may be structurally underrepresented even if no one intended to erase it.
-- **Evidence (quote/paraphrase + page):** Carter notes that voices outside dominant documentary forms can be ignored through institutional assumptions about what counts as a record. [@CarterThingsSaidUnsaid, pp. 218–219]
-- **Warrant (my words):** Archival absence can arise from epistemic standards, not only from physical loss.
-- **Boundary:** The DDR archive cannot be equated with Indigenous archival contexts; the relevant transfer is the question of record-recognition.
-- **Consequence:** Oral history and material/visual traces should supplement text-centred archival analysis.
-- **Practice cross-check:** Preserve diagrams, images, prototypes and testimony as distinct evidence forms rather than reducing all evidence to prose.
 
+**Claim.** Dominant recordkeeping traditions can silence other epistemologies even without explicit destruction. **Author claim.** Carter argues that oral and non-Western recordkeeping traditions may not be recognised as records within dominant archival frameworks. **Evidence.** Pages 218–219 describe speech acts and Indigenous/oral traditions being denied archival recognition because they do not conform to the dominant Western frame. **Evidence-supported claim.** Pages 218–219 describe speech acts and Indigenous/oral traditions being denied archival recognition because they do not conform to the dominant Western frame. **Researcher inference.** DDR knowledge that was tacit, performed, taught or discussed orally may be structurally underrepresented even if no one intended to erase it. **Warrant.** Archival absence can arise from epistemic standards, not only from physical loss. **Boundary.** The DDR archive cannot be equated with Indigenous archival contexts; the relevant transfer is the question of record-recognition. **Consequence.** Oral history and material/visual traces should supplement text-centred archival analysis. **Practice cross-check.** Preserve diagrams, images, prototypes and testimony as distinct evidence forms rather than reducing all evidence to prose.
 ## Claim 3
-- **Claim (plain):** Archival silence can deprive groups of the means to establish history and accountability.
-- **Author claim:** Carter uses Lyotard's “differend” to describe situations in which people lack the recognised evidence or language through which a wrong can be stated.
-- **Evidence-supported claim:** Pages 220–223 connect absent records to impaired memory, historical narration and the ability to demonstrate wrongdoing.
-- **Researcher inference:** Sparse DDR documentation can limit what the thesis can establish about labour, decision-making or attribution even where later testimony suggests a different story.
-- **Evidence (quote/paraphrase + page):** Carter argues that where records are destroyed, excluded or unrecognised, narratives may fail to transmit across time. [@CarterThingsSaidUnsaid, pp. 217, 220–223]
-- **Warrant (my words):** Historical claims require evidential forms that institutions and later researchers can access and recognise.
-- **Boundary:** Lack of conventional evidence does not make testimony meaningless, but it limits specific factual claims.
-- **Consequence:** The thesis should state evidential limits rather than manufacture certainty.
-- **Practice cross-check:** Use scoped missingness for management decisions or role claims that the surviving corpus cannot establish.
 
+**Claim.** Archival silence can deprive groups of the means to establish history and accountability. **Author claim.** Carter uses Lyotard's “differend” to describe situations in which people lack the recognised evidence or language through which a wrong can be stated. **Evidence.** Pages 220–223 connect absent records to impaired memory, historical narration and the ability to demonstrate wrongdoing. **Evidence-supported claim.** Pages 220–223 connect absent records to impaired memory, historical narration and the ability to demonstrate wrongdoing. **Researcher inference.** Sparse DDR documentation can limit what the thesis can establish about labour, decision-making or attribution even where later testimony suggests a different story. **Warrant.** Historical claims require evidential forms that institutions and later researchers can access and recognise. **Boundary.** Lack of conventional evidence does not make testimony meaningless, but it limits specific factual claims. **Consequence.** The thesis should state evidential limits rather than manufacture certainty. **Practice cross-check.** Use scoped missingness for management decisions or role claims that the surviving corpus cannot establish.
 ## Claim 4
-- **Claim (plain):** Reading against the grain can make archival silences visible, but recovery is interpretatively risky.
-- **Author claim:** Carter advocates examining records for traces of people and experiences not represented by the dominant archival voice.
-- **Evidence-supported claim:** Pages 224–226 discuss reading “against the grain” and warn that giving voice to the silenced is difficult and contentious.
-- **Researcher inference:** DDR marginality can sometimes be reconstructed from acknowledgements, staff lists, references and indirect traces rather than only from authored project reports.
-- **Evidence (quote/paraphrase + page):** Carter describes reading records against their intended grain to flag silences and recover traces of marginalised actors. [@CarterThingsSaidUnsaid, pp. 224–226]
-- **Warrant (my words):** Records created by dominant actors can inadvertently preserve evidence of relationships and labour they did not centre.
-- **Boundary:** Indirect traces are not equivalent to first-person evidence and can be overinterpreted.
-- **Consequence:** Reconstructed participation should carry explicit evidence status and uncertainty.
-- **Practice cross-check:** Feminist UAT cases should distinguish named authorship, acknowledgements, staff-list presence and inferred participation.
 
+**Claim.** Reading against the grain can make archival silences visible, but recovery is interpretatively risky. **Author claim.** Carter advocates examining records for traces of people and experiences not represented by the dominant archival voice. **Evidence.** Pages 224–226 discuss reading “against the grain” and warn that giving voice to the silenced is difficult and contentious. **Evidence-supported claim.** Pages 224–226 discuss reading “against the grain” and warn that giving voice to the silenced is difficult and contentious. **Researcher inference.** DDR marginality can sometimes be reconstructed from acknowledgements, staff lists, references and indirect traces rather than only from authored project reports. **Warrant.** Records created by dominant actors can inadvertently preserve evidence of relationships and labour they did not centre. **Boundary.** Indirect traces are not equivalent to first-person evidence and can be overinterpreted. **Consequence.** Reconstructed participation should carry explicit evidence status and uncertainty. **Practice cross-check.** Feminist UAT cases should distinguish named authorship, acknowledgements, staff-list presence and inferred participation.
 ## Claim 5
-- **Claim (plain):** Not all silence is imposed; chosen silence can be a form of power.
-- **Author claim:** Carter distinguishes “natural” silence entered into by choice from “unnatural” silence imposed through power and argues that archivists should respect the former.
-- **Evidence-supported claim:** Pages 227–230 develop silence as nonsubmission, resistance and strategic withholding.
-- **Researcher inference:** Absence from DDR archives should not automatically be treated as a deficit to be repaired or a voice awaiting extraction.
-- **Evidence (quote/paraphrase + page):** Carter says unnatural silences should be combated while natural silences through which marginalised people exercise agency should be respected. [@CarterThingsSaidUnsaid, pp. 227–230]
-- **Warrant (my words):** Refusal to enter an archive can itself be an assertion of control over memory and representation.
-- **Boundary:** It is dangerous to reinterpret undocumented absence as intentional refusal without evidence.
-- **Consequence:** The thesis should preserve the category “unknown reason for absence” where motive cannot be established.
-- **Practice cross-check:** Do not infer consent, refusal or intentional non-documentation from corpus gaps.
 
+**Claim.** Not all silence is imposed; chosen silence can be a form of power. **Author claim.** Carter distinguishes “natural” silence entered into by choice from “unnatural” silence imposed through power and argues that archivists should respect the former. **Evidence.** Pages 227–230 develop silence as nonsubmission, resistance and strategic withholding. **Evidence-supported claim.** Pages 227–230 develop silence as nonsubmission, resistance and strategic withholding. **Researcher inference.** Absence from DDR archives should not automatically be treated as a deficit to be repaired or a voice awaiting extraction. **Warrant.** Refusal to enter an archive can itself be an assertion of control over memory and representation. **Boundary.** It is dangerous to reinterpret undocumented absence as intentional refusal without evidence. **Consequence.** The thesis should preserve the category “unknown reason for absence” where motive cannot be established. **Practice cross-check.** Do not infer consent, refusal or intentional non-documentation from corpus gaps.
 ## Claim 6
-- **Claim (plain):** Archivists can respond to silences through transparency, outreach and support for alternative archives.
-- **Author claim:** Carter proposes flagging silences, reading against the grain, documentation strategies, oral-history initiatives and support for communities establishing their own memory institutions.
-- **Evidence-supported claim:** Pages 231–233 outline practical responses while retaining respect for groups that choose silence.
-- **Researcher inference:** DDR activation can make archival unevenness legible and widen routes to testimony without claiming to complete the archive.
-- **Evidence (quote/paraphrase + page):** Carter presents community archives and targeted documentation as alternatives to inevitable archival oblivion. [@CarterThingsSaidUnsaid, pp. 231–233]
-- **Warrant (my words):** Critical archival practice can change conditions of visibility while acknowledging that representation remains negotiated.
-- **Boundary:** A PhD project cannot repair historical archival inequalities at institutional scale.
-- **Consequence:** The thesis should claim bounded interventions: surfacing, contextualising and marking missingness.
-- **Practice cross-check:** Interface and thesis prose should explicitly expose absent evidence and invite future research rather than generate synthetic completion.
 
+**Claim.** Archivists can respond to silences through transparency, outreach and support for alternative archives. **Author claim.** Carter proposes flagging silences, reading against the grain, documentation strategies, oral-history initiatives and support for communities establishing their own memory institutions. **Evidence.** Pages 231–233 outline practical responses while retaining respect for groups that choose silence. **Evidence-supported claim.** Pages 231–233 outline practical responses while retaining respect for groups that choose silence. **Researcher inference.** DDR activation can make archival unevenness legible and widen routes to testimony without claiming to complete the archive. **Warrant.** Critical archival practice can change conditions of visibility while acknowledging that representation remains negotiated. **Boundary.** A PhD project cannot repair historical archival inequalities at institutional scale. **Consequence.** The thesis should claim bounded interventions: surfacing, contextualising and marking missingness. **Practice cross-check.** Interface and thesis prose should explicitly expose absent evidence and invite future research rather than generate synthetic completion.
 # Definitions / terms this changes
 
 - **Archival silence:** absence or suppression shaped by archival power, recordkeeping conditions or intentional refusal. [@CarterThingsSaidUnsaid, pp. 216–217]
