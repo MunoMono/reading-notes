@@ -13,7 +13,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "02 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -44,14 +44,16 @@ project_tags:
 **Source type:** Context / supporting
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
 - Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
-- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
 - Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -73,74 +75,26 @@ Bernard and Balog systematically review 75 studies on fairness, accountability, 
 
 The review argues that FATE concepts in information retrieval remain multidimensional, inconsistently defined and unevenly evaluated; it therefore builds taxonomies for fairness, accountability and transparency and identifies unresolved trade-offs among them. [@Bernard2025SystematicReviewFairness, pp. 10–24]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Retrieval is fundamentally a ranking operation, and ranking allocates visibility.
-- **Author claim:** Bernard and Balog define information retrieval as finding items relevant to an information need and ranking them according to estimated relevance.
-- **Evidence-supported claim:** They stress that even increasingly complex information-access systems still address a ranking problem at their core and cite evidence that search-result composition can affect user perceptions. [@Bernard2025SystematicReviewFairness, p. 2]
-- **Researcher inference:** In DDR retrieval-augmented inference, ranking establishes the evidential field from which later interpretation proceeds.
-- **Evidence (quote/paraphrase + page):** The review states that modern information-access systems still reduce to an IR ranking problem at their core. [@Bernard2025SystematicReviewFairness, p. 2]
-- **Warrant (my words):** Items ranked outside the visible or retrieved set are less likely to enter subsequent human or model reasoning.
-- **Boundary:** Ranking position does not by itself establish historical importance or injustice.
-- **Consequence:** Retrieval configuration must be treated as part of method, not hidden implementation detail.
-- **Practice cross-check:** Vary top-k, similarity thresholds and retrieval routes in UAT and observe which DDR traces disappear or recur.
 
+**Claim.** Retrieval is fundamentally a ranking operation, and ranking allocates visibility. **Author claim.** Bernard and Balog define information retrieval as finding items relevant to an information need and ranking them according to estimated relevance. **Evidence.** They stress that even increasingly complex information-access systems still address a ranking problem at their core and cite evidence that search-result composition can affect user perceptions. [@Bernard2025SystematicReviewFairness, p. 2] **Evidence-supported claim.** They stress that even increasingly complex information-access systems still address a ranking problem at their core and cite evidence that search-result composition can affect user perceptions. [@Bernard2025SystematicReviewFairness, p. 2] **Researcher inference.** In DDR retrieval-augmented inference, ranking establishes the evidential field from which later interpretation proceeds. **Warrant.** Items ranked outside the visible or retrieved set are less likely to enter subsequent human or model reasoning. **Boundary.** Ranking position does not by itself establish historical importance or injustice. **Consequence.** Retrieval configuration must be treated as part of method, not hidden implementation detail. **Practice cross-check.** Vary top-k, similarity thresholds and retrieval routes in UAT and observe which DDR traces disappear or recur.
 ## Claim 2
-- **Claim (plain):** Transparency needs to explain relationships among query, system operation and returned results.
-- **Author claim:** The review identifies transparency with communicating how a system works, why particular outputs occur and which trade-offs govern those outputs.
-- **Evidence-supported claim:** Bernard and Balog distinguish global, local and causal transparency and several communication modalities, including user interfaces, articles and open resources. [@Bernard2025SystematicReviewFairness, pp. 19–21]
-- **Researcher inference:** Source citations alone are not sufficient transparency if users cannot understand how those sources were selected.
-- **Evidence (quote/paraphrase + page):** Their transparency taxonomy distinguishes the system as a whole, specific input-output relationships and causal links between system operation and output. [@Bernard2025SystematicReviewFairness, pp. 20–21]
-- **Warrant (my words):** Provenance is stronger when it covers both source identity and the route by which a source entered the evidence set.
-- **Boundary:** Full technical disclosure may conflict with security, privacy or usability and is not always necessary for every user.
-- **Consequence:** The DDR interface should expose enough retrieval context for researchers to scrutinise why evidence surfaced.
-- **Practice cross-check:** Preserve retrieval rank/similarity, query, evidence route and source PID alongside synthesis where feasible.
 
+**Claim.** Transparency needs to explain relationships among query, system operation and returned results. **Author claim.** The review identifies transparency with communicating how a system works, why particular outputs occur and which trade-offs govern those outputs. **Evidence.** Bernard and Balog distinguish global, local and causal transparency and several communication modalities, including user interfaces, articles and open resources. [@Bernard2025SystematicReviewFairness, pp. 19–21] **Evidence-supported claim.** Bernard and Balog distinguish global, local and causal transparency and several communication modalities, including user interfaces, articles and open resources. [@Bernard2025SystematicReviewFairness, pp. 19–21] **Researcher inference.** Source citations alone are not sufficient transparency if users cannot understand how those sources were selected. **Warrant.** Provenance is stronger when it covers both source identity and the route by which a source entered the evidence set. **Boundary.** Full technical disclosure may conflict with security, privacy or usability and is not always necessary for every user. **Consequence.** The DDR interface should expose enough retrieval context for researchers to scrutinise why evidence surfaced. **Practice cross-check.** Preserve retrieval rank/similarity, query, evidence route and source PID alongside synthesis where feasible.
 ## Claim 3
-- **Claim (plain):** Fairness is multidimensional and cannot be inferred from simple proxies such as diversity or exposure.
-- **Author claim:** Bernard and Balog find multiple competing fairness definitions across individual/group, consumer/producer and single/multiple-output dimensions.
-- **Evidence-supported claim:** The review warns that diversity, exposure and absence of obvious bias are not equivalent to fairness and notes tensions among fairness definitions. [@Bernard2025SystematicReviewFairness, pp. 10–11, 17–19]
-- **Researcher inference:** Surfacing more women or marginal roles in DDR does not by itself establish that a retrieval system is historiographically fair.
-- **Evidence (quote/paraphrase + page):** The article explicitly separates fairness from related proxies and shows that optimising one fairness dimension may not optimise another. [@Bernard2025SystematicReviewFairness, pp. 17–19]
-- **Warrant (my words):** Representational variety is a measurable output property; historical fairness is a normative interpretation that requires context-specific criteria.
-- **Boundary:** The review’s fairness literature concerns IR systems, not historical justice or archival reparative practice.
-- **Consequence:** Feminist retrieval evaluation needs explicit historical criteria rather than generic diversity metrics.
-- **Practice cross-check:** Treat counts of surfaced women/roles as descriptive diagnostics, not as proof of fairness.
 
+**Claim.** Fairness is multidimensional and cannot be inferred from simple proxies such as diversity or exposure. **Author claim.** Bernard and Balog find multiple competing fairness definitions across individual/group, consumer/producer and single/multiple-output dimensions. **Evidence.** The review warns that diversity, exposure and absence of obvious bias are not equivalent to fairness and notes tensions among fairness definitions. [@Bernard2025SystematicReviewFairness, pp. 10–11, 17–19] **Evidence-supported claim.** The review warns that diversity, exposure and absence of obvious bias are not equivalent to fairness and notes tensions among fairness definitions. [@Bernard2025SystematicReviewFairness, pp. 10–11, 17–19] **Researcher inference.** Surfacing more women or marginal roles in DDR does not by itself establish that a retrieval system is historiographically fair. **Warrant.** Representational variety is a measurable output property; historical fairness is a normative interpretation that requires context-specific criteria. **Boundary.** The review’s fairness literature concerns IR systems, not historical justice or archival reparative practice. **Consequence.** Feminist retrieval evaluation needs explicit historical criteria rather than generic diversity metrics. **Practice cross-check.** Treat counts of surfaced women/roles as descriptive diagnostics, not as proof of fairness.
 ## Claim 4
-- **Claim (plain):** Accountability requires identifying rules, complaint mechanisms and responsibility rather than merely publishing an explanation.
-- **Author claim:** Bernard and Balog propose an accountability taxonomy covering applicable rules, independent complaint mechanisms and responsible actors.
-- **Evidence-supported claim:** Pages 19–20 show that responsibility may be attributed to user, algorithm or designer, while some deployed systems disclaim responsibility without clearly designating another accountable party. [@Bernard2025SystematicReviewFairness, pp. 19–20]
-- **Researcher inference:** In a research system, accountability means that corpus decisions, retrieval behaviour and synthesis choices must remain attributable to identifiable human and technical processes.
-- **Evidence (quote/paraphrase + page):** The review’s taxonomy distinguishes regulation/policy/standards, independent complaints and who is responsible for system actions. [@Bernard2025SystematicReviewFairness, pp. 19–20]
-- **Warrant (my words):** A system cannot be meaningfully audited if responsibility disappears into an undifferentiated “AI” actor.
-- **Boundary:** The taxonomy is a research synthesis, not a legal allocation of liability.
-- **Consequence:** Method reporting should identify researcher decisions and system components instead of attributing claims vaguely to “the model.”
-- **Practice cross-check:** Maintain release receipts, source policies and model/version records with named researcher decisions.
 
+**Claim.** Accountability requires identifying rules, complaint mechanisms and responsibility rather than merely publishing an explanation. **Author claim.** Bernard and Balog propose an accountability taxonomy covering applicable rules, independent complaint mechanisms and responsible actors. **Evidence.** Pages 19–20 show that responsibility may be attributed to user, algorithm or designer, while some deployed systems disclaim responsibility without clearly designating another accountable party. [@Bernard2025SystematicReviewFairness, pp. 19–20] **Evidence-supported claim.** Pages 19–20 show that responsibility may be attributed to user, algorithm or designer, while some deployed systems disclaim responsibility without clearly designating another accountable party. [@Bernard2025SystematicReviewFairness, pp. 19–20] **Researcher inference.** In a research system, accountability means that corpus decisions, retrieval behaviour and synthesis choices must remain attributable to identifiable human and technical processes. **Warrant.** A system cannot be meaningfully audited if responsibility disappears into an undifferentiated “AI” actor. **Boundary.** The taxonomy is a research synthesis, not a legal allocation of liability. **Consequence.** Method reporting should identify researcher decisions and system components instead of attributing claims vaguely to “the model.” **Practice cross-check.** Maintain release receipts, source policies and model/version records with named researcher decisions.
 ## Claim 5
-- **Claim (plain):** FATE evaluation is uneven: fairness is metric-rich, while accountability, transparency and ethics remain harder to benchmark.
-- **Author claim:** The review finds many automatic fairness metrics but far fewer standardised evaluation protocols for accountability, transparency and ethics.
-- **Evidence-supported claim:** Pages 21–24 note that fairness benchmarks exist, while no equivalent benchmarks were identified for accountability, transparency and ethics; accountability lacks established metrics and ethics is sparsely studied. [@Bernard2025SystematicReviewFairness, pp. 21–24]
-- **Researcher inference:** A single performance score cannot validate the epistemic responsibility of DDR retrieval-augmented inference.
-- **Evidence (quote/paraphrase + page):** The authors call benchmark development a critical enabler while acknowledging that several FATE notions are not yet sufficiently formalised for standard metrics. [@Bernard2025SystematicReviewFairness, p. 22]
-- **Warrant (my words):** Different normative properties require different forms of evidence and evaluation.
-- **Boundary:** Lack of a benchmark does not mean a property cannot be assessed qualitatively.
-- **Consequence:** DDR UAT should combine retrieval diagnostics with qualitative checks on evidential status, ambiguity, provenance and limits.
-- **Practice cross-check:** Keep the four UAT criteria—relevant traces, evidential status, ambiguity, limits—alongside quantitative retrieval measures.
 
+**Claim.** FATE evaluation is uneven: fairness is metric-rich, while accountability, transparency and ethics remain harder to benchmark. **Author claim.** The review finds many automatic fairness metrics but far fewer standardised evaluation protocols for accountability, transparency and ethics. **Evidence.** Pages 21–24 note that fairness benchmarks exist, while no equivalent benchmarks were identified for accountability, transparency and ethics; accountability lacks established metrics and ethics is sparsely studied. [@Bernard2025SystematicReviewFairness, pp. 21–24] **Evidence-supported claim.** Pages 21–24 note that fairness benchmarks exist, while no equivalent benchmarks were identified for accountability, transparency and ethics; accountability lacks established metrics and ethics is sparsely studied. [@Bernard2025SystematicReviewFairness, pp. 21–24] **Researcher inference.** A single performance score cannot validate the epistemic responsibility of DDR retrieval-augmented inference. **Warrant.** Different normative properties require different forms of evidence and evaluation. **Boundary.** Lack of a benchmark does not mean a property cannot be assessed qualitatively. **Consequence.** DDR UAT should combine retrieval diagnostics with qualitative checks on evidential status, ambiguity, provenance and limits. **Practice cross-check.** Keep the four UAT criteria—relevant traces, evidential status, ambiguity, limits—alongside quantitative retrieval measures.
 ## Claim 6
-- **Claim (plain):** Trustworthy retrieval involves trade-offs that cannot be optimised away.
-- **Author claim:** Bernard and Balog ask whether one system can be fair, transparent, accountable and ethical simultaneously and explicitly identify tensions among FATE notions and system performance.
-- **Evidence-supported claim:** Pages 22–24 discuss conflicts between fairness types, transparency and confidentiality, and the need to make trade-offs clear to users and experts. [@Bernard2025SystematicReviewFairness, pp. 22–24]
-- **Researcher inference:** DDR interface design should state which epistemic priorities it optimises—for example provenance and ambiguity preservation—even when those priorities reduce brevity or apparent certainty.
-- **Evidence (quote/paraphrase + page):** The conclusion recommends clearly defining the notion being optimised and making trade-offs visible so users can understand system behaviour. [@Bernard2025SystematicReviewFairness, p. 24]
-- **Warrant (my words):** Responsible design is partly the explicit governance of incompatible objectives.
-- **Boundary:** The article does not prescribe which trade-offs are appropriate for archival research.
-- **Consequence:** The thesis should justify its own priorities rather than borrowing “responsible AI” as an undifferentiated label.
-- **Practice cross-check:** Treat preservation of provenance, ambiguity and scoped missingness as design priorities even where they make answers less frictionless.
 
+**Claim.** Trustworthy retrieval involves trade-offs that cannot be optimised away. **Author claim.** Bernard and Balog ask whether one system can be fair, transparent, accountable and ethical simultaneously and explicitly identify tensions among FATE notions and system performance. **Evidence.** Pages 22–24 discuss conflicts between fairness types, transparency and confidentiality, and the need to make trade-offs clear to users and experts. [@Bernard2025SystematicReviewFairness, pp. 22–24] **Evidence-supported claim.** Pages 22–24 discuss conflicts between fairness types, transparency and confidentiality, and the need to make trade-offs clear to users and experts. [@Bernard2025SystematicReviewFairness, pp. 22–24] **Researcher inference.** DDR interface design should state which epistemic priorities it optimises—for example provenance and ambiguity preservation—even when those priorities reduce brevity or apparent certainty. **Warrant.** Responsible design is partly the explicit governance of incompatible objectives. **Boundary.** The article does not prescribe which trade-offs are appropriate for archival research. **Consequence.** The thesis should justify its own priorities rather than borrowing “responsible AI” as an undifferentiated label. **Practice cross-check.** Treat preservation of provenance, ambiguity and scoped missingness as design priorities even where they make answers less frictionless.
 # Definitions / terms this changes
 
 - **Information retrieval:** ranked selection of material in response to an information need. [@Bernard2025SystematicReviewFairness, pp. 1–2]
