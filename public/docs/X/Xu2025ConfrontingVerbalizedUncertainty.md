@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,14 +25,22 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Methodological anchor"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "07 Interface authority, ranking and retrieval bias"
   - "09 Human judgement and practice-led computational research"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -46,67 +54,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Xu, Song and Lee show that the wording of uncertainty changes user trust, compliance and decision behaviour. This supports evidential uncertainty in DDR as both a source-critical state and an interface-design responsibility.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It helps contemporary computational revisiting of DDR preserve proportional historical qualification rather than defaulting to either certainty or generic hedging.
 
-**Why I’m reading this now (1 sentence):**  
-I need empirical evidence that the linguistic presentation of uncertainty changes how users trust, interpret and act upon LLM output, so that uncertainty in the Turin interface can be treated as an interaction-design problem as well as an evidential one.
+**Where it sits in my argument:** Critical computational approaches / operational literature, especially uncertainty communication and appropriate reliance.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin discussion of evidential uncertainty. It helps establish that uncertainty must be communicated deliberately: excessive certainty can imply unwarranted authority, while indiscriminate hedging can reduce comprehension, confidence and effective researcher engagement.
+**My benchmark for using it:** Use to establish that uncertainty wording affects users; do not infer that a generic “medium uncertainty” style is historically correct.
 
-**Why this term, not alternatives (1–2 lines):**  
-I distinguish *verbalized uncertainty* from *evidential uncertainty*. Xu et al. study linguistic markers through which an LLM sounds more or less certain; my concern is how the interface communicates the actual evidential state of an archival claim.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use Xu et al. to establish that wording and degree of expressed uncertainty materially affect users. Do not infer that generic “medium uncertainty” is the correct historical design: Turin uncertainty statements should be grounded in identifiable evidential conditions rather than stylistic hedging.
+Xu, Song and Lee independently manipulate model accuracy and three levels of verbalised uncertainty in a controlled human–AI decision task. Their experiment measures reported trust, satisfaction, behavioural reliance and decision time. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 5–12]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Xu, Song and Lee write from human–computer interaction at the National University of Singapore, studying AI-assisted decision-making rather than model accuracy alone. Their 2025 controlled experiment separates LLM accuracy from three levels of verbalized uncertainty and evaluates subjective trust and satisfaction alongside behavioural reliance, correctness and decision time. The paper therefore shifts uncertainty from a purely technical calibration problem towards a human–AI communication problem.
+They test how linguistic uncertainty affects human judgement separately from model accuracy. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 5–12]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-Making uncertainty visible is not automatically beneficial. The form, intensity and context of its expression affect interpretation, and linguistic uncertainty should not be assumed to correspond faithfully to either model uncertainty or the evidential uncertainty of the underlying sources.
-
-# The author’s main move (1 sentence)
-
-They try to determine how different linguistic levels of expressed uncertainty influence human trust, satisfaction and decision performance by independently manipulating LLM accuracy and verbalized uncertainty in an AI-assisted task.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** The way an LLM verbalizes uncertainty materially changes how users trust and respond to its suggestions.
-- **Evidence (quote/paraphrase + page):** In a six-condition experiment with 156 participants, verbalized uncertainty had a statistically significant main effect on reported trust and behavioural compliance. Trust was highest in the medium condition (M = 4.776), compared with high uncertainty (M = 4.484) and low uncertainty/high certainty (M = 4.345); compliance after seeing the AI suggestion followed the same pattern. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 8–9]` Figure 4 on p. 9 summarises the effects across trust, satisfaction and performance.
-- **Warrant (my words):** Evidential communication is performative as well as descriptive: changing the wording surrounding a claim can change how readily users accept or act upon that claim even when the substantive task remains the same.
-- **So what for my thesis (a reusable sentence):** Uncertainty in an archive-facing AI system is an interface property as well as an evidential property, because its linguistic presentation influences how researchers interpret and rely upon generated claims.
-- **Practice cross-check:** Turin Research Query: statements such as “the corpus establishes”, “the evidence suggests”, “sources conflict”, and “the available corpus does not establish” should communicate distinct evidential states rather than applying a generic hedging style across all outputs.
+- **Claim:** Verbalised uncertainty changes user trust.
+- **Author claim:** Trust differs significantly across uncertainty conditions.
+- **Evidence-supported claim:** Reported trust was highest in the medium condition and lower under both stronger certainty and stronger hesitation. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 8–9]
+- **Researcher inference:** Wording of DDR evidential states will affect perceived authority.
+- **Warrant:** Linguistic presentation is behaviourally consequential.
+- **Boundary:** The task was low-stakes and non-historical.
+- **Consequence:** Uncertainty language should be deliberately designed.
+- **Practice cross-check:** Turin should use distinct language for supported, contested and insufficient states.
 
 ## Claim 2
-
-- **Claim (plain):** Both excessive certainty and excessive hesitation can undermine effective human–AI judgement.
-- **Evidence (quote/paraphrase + page):** Qualitative responses show that strongly certain language was sometimes interpreted as overconfidence and prompted scepticism, while high verbalized uncertainty caused users to doubt the system and rely more heavily on their own intuition. Participants described the medium condition as balancing confidence and caution. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 9–11]` Satisfaction was significantly highest under medium verbalized uncertainty (M = 5.404), and decision times were also significantly shorter than in both high- and low-uncertainty conditions. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 10–11]`
-- **Warrant (my words):** A research interface can miscommunicate evidential status in two directions: categorical prose can make a contingent inference appear settled, while excessive hedging can make a well-supported claim appear less usable than the evidence warrants.
-- **So what for my thesis:** Historical uncertainty should be proportionate to the evidence: responsible synthesis requires neither artificial confidence nor indiscriminate hesitation, but language matched to the strength and character of the available traces.
-- **Practice cross-check:** Turin should distinguish a strongly documented date or quotation from a plausible interpretative relation, contradictory testimony and scoped missingness rather than giving all four the same linguistic confidence profile.
+- **Claim:** Verbalised uncertainty changes behavioural reliance as well as attitudes.
+- **Author claim:** Compliance with AI suggestions varied across conditions.
+- **Evidence-supported claim:** Behavioural compliance followed the same broad pattern as trust. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 8–9]
+- **Researcher inference:** DDR uncertainty cues can affect whether users act on generated interpretations.
+- **Warrant:** Uncertainty is not merely decorative wording.
+- **Boundary:** Compliance in a word-association task differs from historical judgement.
+- **Consequence:** Interface evaluation should test user decisions, not just comprehension.
+- **Practice cross-check:** Turin UAT can ask whether users accept, qualify or reject a proposed relation after seeing its evidential state.
 
 ## Claim 3
+- **Claim:** Strong certainty can be read as overconfidence.
+- **Author claim:** Some participants reacted sceptically to strongly certain language.
+- **Evidence-supported claim:** Qualitative responses show categorical phrasing can undermine trust. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 9–11]
+- **Researcher inference:** Declarative DDR prose can create unwarranted authority even where evidence is qualified.
+- **Warrant:** Tone can overstate epistemic status.
+- **Boundary:** Individual reactions varied.
+- **Consequence:** Well-supported claims still need language matched to their actual evidence.
+- **Practice cross-check:** Turin should reserve categorical wording for directly documented facts.
 
-- **Claim (plain):** Verbalized uncertainty is not equivalent to calibrated evidential uncertainty.
-- **Evidence (quote/paraphrase + page):** The study's medium condition was generated using plain expressions without explicit strengtheners or weakeners, whereas low uncertainty inserted strong certainty markers and high uncertainty inserted explicit weakeners such as “I’m not sure” or “I cannot say for certain”. `[@Xu2025ConfrontingVerbalizedUncertainty, pp. 5, 14–15]` The authors subsequently found that participants often perceived the nominally medium condition as confident language and note that current LLMs struggle to use epistemic markers in calibrated ways. `[@Xu2025ConfrontingVerbalizedUncertainty, p. 12]`
-- **Warrant (my words):** Linguistic tone can create an impression of confidence without reliably encoding the actual epistemic status of a claim. Surface hedging therefore cannot substitute for a method that determines what the evidence supports.
-- **So what for my thesis:** Retrieval-augmented historical inference should derive uncertainty from the state of the evidence and then communicate that state linguistically; it should not infer evidential status from how confident or hesitant the generated prose sounds.
-- **Practice cross-check:** Turin scoped missingness: the distinction between supported, qualified, conflicting and unsupported claims should be computed from retrieved evidence and provenance before being rendered into appropriate language in the interface.
+## Claim 4
+- **Claim:** Strong hesitation can also reduce usability.
+- **Author claim:** High uncertainty increased doubt and reliance on personal intuition.
+- **Evidence-supported claim:** Participants reported lower satisfaction and longer decision times under high uncertainty. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 9–11]
+- **Researcher inference:** Generic hedging across all DDR outputs can make strong evidence appear needlessly weak.
+- **Warrant:** Over-qualification can distort evidence in the opposite direction.
+- **Boundary:** Faster decisions are not automatically better decisions.
+- **Consequence:** Historical qualification should be proportionate rather than uniformly cautious.
+- **Practice cross-check:** A dated quotation should not be expressed with the same uncertainty as a speculative relationship.
+
+## Claim 5
+- **Claim:** Verbal style is not equivalent to calibrated epistemic uncertainty.
+- **Author claim:** The study's uncertainty levels are created through linguistic strengtheners and weakeners.
+- **Evidence-supported claim:** Participants sometimes perceived the nominal medium condition as confident, and the authors note difficulties in calibrated use of epistemic markers. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 5, 12, 14–15]
+- **Researcher inference:** DDR uncertainty should be derived from evidence state first and rendered linguistically second.
+- **Warrant:** Surface wording can misrepresent actual evidential status.
+- **Boundary:** The study does not provide an archival calibration method.
+- **Consequence:** Model self-confidence should not determine historical qualification.
+- **Practice cross-check:** Turin derives supported/conflicting/insufficient states from evidence and provenance.
+
+## Claim 6
+- **Claim:** Proportional uncertainty is an interaction-design problem as well as an evidential one.
+- **Author claim:** Trust, satisfaction and decision behaviour all respond to uncertainty presentation.
+- **Evidence-supported claim:** Figure 4 and related analyses show significant effects across several user outcomes. [@Xu2025ConfrontingVerbalizedUncertainty, pp. 8–11]
+- **Researcher inference:** Evidence-state wording should be tested with users for intelligibility and reliance.
+- **Warrant:** A technically correct uncertainty label can still fail if users misread it.
+- **Boundary:** User preference must not override historical warrant.
+- **Consequence:** UAT should test both evidence correctness and interpretation of the label.
+- **Practice cross-check:** Turin can test whether users understand the difference between documented, inferred, conflicting and corpus-insufficient claims.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +177,10 @@ They try to determine how different linguistic levels of expressed uncertainty i
 
 - **Boundary (1 sentence):** The experiment uses a low-stakes word-association game, pre-generated responses and US participants, while its uncertainty conditions manipulate linguistic style rather than the evidential status of real historical claims.
 - **Risk if misused (1 sentence):** Treating “medium uncertainty is best” as a universal design rule would confuse stylistic preference with epistemic calibration; in historical research, the appropriate expression should depend on what the underlying evidence actually warrants.
+
+# Cross-source / cross-lens synthesis
+
+Xu, Song and Lee show that uncertainty is not only an epistemic property but a communicated interface condition. Read with Qian and Cho, how evidence is presented changes reliance; read with archival theory, however, the uncertainty state must originate in the evidence rather than in model tone. For DDR, the correct sequence is evidential assessment first, calibrated language second.
 
 # Methods spine tags (tick what it actually touches)
 
