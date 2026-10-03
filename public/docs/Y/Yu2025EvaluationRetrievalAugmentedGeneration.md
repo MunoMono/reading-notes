@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ Yu et al. survey twelve RAG evaluation frameworks and propose Auepora as a unifi
 
 They separate retrieval, generation and whole-system assessment and map each to distinct evaluable relationships and robustness criteria. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 3–12]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** RAG cannot be evaluated from the final answer alone.
-- **Author claim:** Retrieval, generation and the complete system require separate assessment.
-- **Evidence-supported claim:** The survey decomposes indexing, search, prompting and inferencing into distinct evaluable stages. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 2–4]
-- **Researcher inference:** DDR failures should be diagnosed by stage rather than labelled generically as AI error.
-- **Warrant:** Irrelevant retrieval, poor grounding and overreaching synthesis require different remedies.
-- **Boundary:** The framework is technical rather than historical.
-- **Consequence:** Turin evaluation logs should retain retrieval and synthesis outputs separately.
-- **Practice cross-check:** Query → retrieved traces/ranks → synthesis → source-grounding → historical judgement.
 
+**Claim.** RAG cannot be evaluated from the final answer alone. **Author claim.** Retrieval, generation and the complete system require separate assessment. **Evidence.** The survey decomposes indexing, search, prompting and inferencing into distinct evaluable stages. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 2–4] **Evidence-supported claim.** The survey decomposes indexing, search, prompting and inferencing into distinct evaluable stages. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 2–4] **Researcher inference.** DDR failures should be diagnosed by stage rather than labelled generically as AI error. **Warrant.** Irrelevant retrieval, poor grounding and overreaching synthesis require different remedies. **Boundary.** The framework is technical rather than historical. **Consequence.** Turin evaluation logs should retain retrieval and synthesis outputs separately. **Practice cross-check.** Query → retrieved traces/ranks → synthesis → source-grounding → historical judgement.
 ## Claim 2
-- **Claim:** Retrieval relevance and retrieval accuracy are different evaluation targets.
-- **Author claim:** The survey distinguishes matching the query from selecting/ranking relevant documents effectively.
-- **Evidence-supported claim:** Auepora separates these retrieval relationships explicitly. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]
-- **Researcher inference:** A relevant DDR source set can still be incomplete or badly ranked.
-- **Warrant:** Relevance does not ensure adequate coverage or exposure.
-- **Boundary:** The paper does not define archival representational adequacy.
-- **Consequence:** DDR needs retrieval adequacy in addition to standard relevance.
-- **Practice cross-check:** Turin should inspect omitted contradictory or poorly indexed traces, not only top-k relevance.
 
+**Claim.** Retrieval relevance and retrieval accuracy are different evaluation targets. **Author claim.** The survey distinguishes matching the query from selecting/ranking relevant documents effectively. **Evidence.** Auepora separates these retrieval relationships explicitly. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5] **Evidence-supported claim.** Auepora separates these retrieval relationships explicitly. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5] **Researcher inference.** A relevant DDR source set can still be incomplete or badly ranked. **Warrant.** Relevance does not ensure adequate coverage or exposure. **Boundary.** The paper does not define archival representational adequacy. **Consequence.** DDR needs retrieval adequacy in addition to standard relevance. **Practice cross-check.** Turin should inspect omitted contradictory or poorly indexed traces, not only top-k relevance.
 ## Claim 3
-- **Claim:** Answer relevance and faithfulness are not the same thing.
-- **Author claim:** Generation relevance measures response–query fit, while faithfulness measures response–retrieved-document consistency.
-- **Evidence-supported claim:** Figure 2 distinguishes these pairwise relationships. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]
-- **Researcher inference:** A DDR answer can address the question while misrepresenting its sources, or faithfully summarise an inadequate retrieval set.
-- **Warrant:** Different evidential relationships can fail independently.
-- **Boundary:** Faithfulness to retrieved sources does not establish historical sufficiency.
-- **Consequence:** Historical warrant must be a further evaluation layer.
-- **Practice cross-check:** Turin should score answer relevance and claim-to-source faithfulness separately.
 
+**Claim.** Answer relevance and faithfulness are not the same thing. **Author claim.** Generation relevance measures response–query fit, while faithfulness measures response–retrieved-document consistency. **Evidence.** Figure 2 distinguishes these pairwise relationships. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5] **Evidence-supported claim.** Figure 2 distinguishes these pairwise relationships. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5] **Researcher inference.** A DDR answer can address the question while misrepresenting its sources, or faithfully summarise an inadequate retrieval set. **Warrant.** Different evidential relationships can fail independently. **Boundary.** Faithfulness to retrieved sources does not establish historical sufficiency. **Consequence.** Historical warrant must be a further evaluation layer. **Practice cross-check.** Turin should score answer relevance and claim-to-source faithfulness separately.
 ## Claim 4
-- **Claim:** Reference-answer correctness can be inappropriate for contested historical questions.
-- **Author claim:** Correctness compares generated responses with designated sample or ground-truth answers.
-- **Evidence-supported claim:** Correctness is treated as one generation metric in Auepora. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5]
-- **Researcher inference:** DDR often requires warrant rather than one canonical reference answer.
-- **Warrant:** Several interpretations may remain supportable from differently situated evidence.
-- **Boundary:** This limitation is my historical adaptation, not Yu et al.'s critique.
-- **Consequence:** Replace singular correctness with historical warrant where necessary.
-- **Practice cross-check:** Turin UAT should preserve competing readings instead of marking one reference wording as uniquely correct.
 
+**Claim.** Reference-answer correctness can be inappropriate for contested historical questions. **Author claim.** Correctness compares generated responses with designated sample or ground-truth answers. **Evidence.** Correctness is treated as one generation metric in Auepora. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5] **Evidence-supported claim.** Correctness is treated as one generation metric in Auepora. [@Yu2025EvaluationRetrievalAugmentedGeneration, p. 5] **Researcher inference.** DDR often requires warrant rather than one canonical reference answer. **Warrant.** Several interpretations may remain supportable from differently situated evidence. **Boundary.** This limitation is my historical adaptation, not Yu et al.'s critique. **Consequence.** Replace singular correctness with historical warrant where necessary. **Practice cross-check.** Turin UAT should preserve competing readings instead of marking one reference wording as uniquely correct.
 ## Claim 5
-- **Claim:** RAG evaluation should test behaviour under noisy or misleading retrieval.
-- **Author claim:** Noise and counterfactual robustness are whole-system requirements.
-- **Evidence-supported claim:** The survey includes robustness to irrelevant, misleading and incorrect retrieved material. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12]
-- **Researcher inference:** DDR should deliberately test misleading proximity, irrelevant co-occurrence and contradictory traces.
-- **Warrant:** Real archive retrieval is not a clean evidence channel.
-- **Boundary:** Benchmark noise differs from historically meaningful contradiction.
-- **Consequence:** Robustness tests should distinguish noise from genuine counter-evidence.
-- **Practice cross-check:** Turin can inject irrelevant and counterfactual traces separately from authentic conflicting evidence.
 
+**Claim.** RAG evaluation should test behaviour under noisy or misleading retrieval. **Author claim.** Noise and counterfactual robustness are whole-system requirements. **Evidence.** The survey includes robustness to irrelevant, misleading and incorrect retrieved material. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12] **Evidence-supported claim.** The survey includes robustness to irrelevant, misleading and incorrect retrieved material. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 11–12] **Researcher inference.** DDR should deliberately test misleading proximity, irrelevant co-occurrence and contradictory traces. **Warrant.** Real archive retrieval is not a clean evidence channel. **Boundary.** Benchmark noise differs from historically meaningful contradiction. **Consequence.** Robustness tests should distinguish noise from genuine counter-evidence. **Practice cross-check.** Turin can inject irrelevant and counterfactual traces separately from authentic conflicting evidence.
 ## Claim 6
-- **Claim:** Negative rejection is a positive system capability.
-- **Author claim:** Systems should refrain from answering when information is insufficient or too ambiguous.
-- **Evidence-supported claim:** Negative rejection appears as an explicit RAG requirement. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12]
-- **Researcher inference:** Scoped missingness belongs inside technical evaluation rather than outside it as a narrative caveat.
-- **Warrant:** Responsible system behaviour includes knowing when not to complete.
-- **Boundary:** Technical negative rejection does not explain archival causes of missingness.
-- **Consequence:** DDR evaluation should reward warranted non-answering.
-- **Practice cross-check:** Turin includes unanswerable, ambiguous and conflicting cases in UAT.
 
+**Claim.** Negative rejection is a positive system capability. **Author claim.** Systems should refrain from answering when information is insufficient or too ambiguous. **Evidence.** Negative rejection appears as an explicit RAG requirement. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12] **Evidence-supported claim.** Negative rejection appears as an explicit RAG requirement. [@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 7, 12] **Researcher inference.** Scoped missingness belongs inside technical evaluation rather than outside it as a narrative caveat. **Warrant.** Responsible system behaviour includes knowing when not to complete. **Boundary.** Technical negative rejection does not explain archival causes of missingness. **Consequence.** DDR evaluation should reward warranted non-answering. **Practice cross-check.** Turin includes unanswerable, ambiguous and conflicting cases in UAT.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Auepora:** “A Unified Evaluation Process of RAG”, structured around *What to Evaluate?*, *How to Evaluate?* and *How to Measure?*, corresponding to target, dataset and metric. `[@Yu2025EvaluationRetrievalAugmentedGeneration, pp. 4–5]`
