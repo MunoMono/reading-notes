@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,14 +25,22 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Methodological anchor"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Operational literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "03 RAG, retrieval and source attribution"
   - "07 Interface authority, ranking and retrieval bias"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -46,67 +54,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Łajewska and Balog show that provenance and grounding explanations can move user judgement toward better-supported RAG responses, while fluency and actionability can still compete with evidential quality.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It supports contemporary DDR interfaces that help users scrutinise evidence rather than simply trust a coherent synthetic account.
 
-**Why I’m reading this now (1 sentence):**  
-I need empirical evidence about whether source attribution, claim-level grounding and disclosure of omitted information actually change how users judge the trustworthiness of retrieval-augmented responses.
+**Where it sits in my argument:** Critical computational approaches / operational literature, especially trust calibration, grounding and evidential coverage.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin provenance/interface discussion. It supports the argument that provenance cues can improve users’ ability to distinguish better-supported responses, while also showing that those cues compete with textual qualities such as clarity, detail and actionability.
+**My benchmark for using it:** Use as user-centred evidence that explanations can recalibrate judgement; do not treat attribution as sufficient or universally effective.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *trust calibration* rather than simply *trust*. The methodological objective is not to make researchers trust AI-mediated interpretations more; it is to help their confidence track the quality and evidential support of the response more closely.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use this study where I need user-centred evidence that explanation design can shift judgement towards better-supported RAG outputs. Do not treat its results as showing that attribution guarantees appropriate trust or that one explanation type works uniformly across tasks and users.
+Łajewska and Balog test source attribution, factual grounding and information-coverage explanations in a controlled comparison of higher- and lower-quality RAG responses. [@Lajewska2026TrustMeThis, pp. 1–7]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Łajewska and Balog write from information retrieval and explainable information-access research. Their 2026 ECIR study addresses a specific weakness of RAG systems: users typically see a synthesised answer without sufficient information to judge retrieval quality, grounding, omissions or limitations. They therefore test three post-hoc explanation strategies—source attribution, factual grounding and information coverage—through a controlled two-stage user study.
+They test whether evidential explanations help users distinguish more reliable from less reliable generated responses. [@Lajewska2026TrustMeThis, pp. 4–7]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-Objective response quality does not translate automatically into perceived trustworthiness. Users evaluate generated answers through evidential cues alongside rhetorical and usability cues, meaning that even technically superior RAG can lose to a clearer or more actionable but less reliable answer.
-
-# The author’s main move (1 sentence)
-
-They try to test whether explanations can calibrate user trust by revealing differences in source attribution, statement-level grounding and information coverage between objectively higher- and lower-quality RAG responses.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Explanations can shift users towards more reliable RAG responses.
-- **Evidence (quote/paraphrase + page):** Across 300 comparisons, participants selected the reliable response as more trustworthy in 84 cases without explanations and 165 cases once explanations were shown. Explanations also shifted preference from the unreliable to the reliable response in 69 cases. `[@Lajewska2026TrustMeThis, p. 6]`
-- **Warrant (my words):** Making evidential quality visible changes user judgement. The support structure surrounding a generated response therefore affects whether users can distinguish a well-grounded answer from one that merely appears convincing.
-- **So what for my thesis (a reusable sentence):** Provenance and grounding cues can help researchers distinguish better-supported AI-mediated interpretations, making evidential visibility part of the research method rather than a cosmetic interface feature.
-- **Practice cross-check:** Turin citation architecture: generated answers expose linked archival passages beneath the synthesis so that users can judge support rather than relying solely on the fluency of the generated text.
+- **Claim:** Explanations can move users toward better-supported responses.
+- **Author claim:** Showing explanation cues changes trustworthiness judgements.
+- **Evidence-supported claim:** Reliable responses were chosen much more often after explanations were revealed. [@Lajewska2026TrustMeThis, p. 6]
+- **Researcher inference:** DDR provenance can materially affect user judgement when it is visible.
+- **Warrant:** Evidential quality must be perceptible before it can calibrate reliance.
+- **Boundary:** The study uses a small non-expert sample.
+- **Consequence:** Provenance should be evaluated as a user-facing method.
+- **Practice cross-check:** Turin shows linked passages beneath synthesis.
 
 ## Claim 2
-
-- **Claim (plain):** Trust in a generated response is influenced by textual qualities that may compete with objective evidential quality.
-- **Evidence (quote/paraphrase + page):** The authors report that participants often preferred objectively limited-quality responses when those responses were clearer, more detailed or more actionable; concrete examples could also increase perceived trust regardless of factual quality. `[@Lajewska2026TrustMeThis, pp. 6–7]`
-- **Warrant (my words):** Fluency, specificity and usefulness act as trust cues independently of provenance. A weakly supported answer can therefore appear preferable because its rhetorical form makes it easier to understand or act upon.
-- **So what for my thesis:** Evidential traceability is necessary precisely because persuasive textual qualities can make an unsupported historical synthesis appear more authoritative than its sources warrant.
-- **Practice cross-check:** Turin: a fluent account connecting DDR actors or ideas should never be treated as stronger evidence than a less polished output that accurately preserves contradiction, uncertainty or missingness.
+- **Claim:** Source attribution is one explanation type, not a complete trust solution.
+- **Author claim:** The study compares source attribution with grounding and coverage rather than treating citation alone as sufficient.
+- **Evidence-supported claim:** All three strategies expose different aspects of response quality. [@Lajewska2026TrustMeThis, pp. 4–5]
+- **Researcher inference:** DDR should distinguish where a source came from, what claim it supports and what relevant material may be omitted.
+- **Warrant:** Provenance, entailment and coverage answer different questions.
+- **Boundary:** Explanation effects vary by task.
+- **Consequence:** Interface design should combine rather than conflate these dimensions.
+- **Practice cross-check:** Turin can show source identity, passage support and omitted/conflicting evidence separately.
 
 ## Claim 3
+- **Claim:** Claim-level grounding is especially important for generated synthesis.
+- **Author claim:** Factual grounding links statements to supporting passages.
+- **Evidence-supported claim:** The explanation design explicitly operates at statement level. [@Lajewska2026TrustMeThis, pp. 4–5]
+- **Researcher inference:** DDR paragraphs with multiple historical propositions require proposition-level evidence mapping.
+- **Warrant:** Answer-level citations can hide unsupported statements within otherwise sourced prose.
+- **Boundary:** Historical support may involve several traces with different statuses.
+- **Consequence:** One claim may need multiple supporting, qualifying or conflicting passages.
+- **Practice cross-check:** Turin should map individual interpretative claims to specific evidence.
 
-- **Claim (plain):** The usefulness of provenance explanations depends on the task and on what the user already believes they know.
-- **Evidence (quote/paraphrase + page):** Source attribution influenced trust particularly in fact-based contexts, where participants valued the ability to verify claims, but was often dismissed for subjective questions. Users also relied on prior knowledge when assessing competing answers, sometimes disregarding explanations when they believed they already knew the topic. `[@Lajewska2026TrustMeThis, p. 7]`
-- **Warrant (my words):** Explanations are interpreted rather than mechanically consumed. Their epistemic effect depends on whether users consider verification relevant and whether their own prior knowledge overrides the evidential cues provided by the interface.
-- **So what for my thesis:** Provenance design should respond to the epistemic character of the research question: factual, attributional, interpretative and missingness queries may require different forms of explanation and different levels of evidential visibility.
-- **Practice cross-check:** Turin interface: factual questions may foreground exact source passages, while contested or interpretative questions should expose multiple traces, differing source types and evidential limits rather than presenting one citation as dispositive.
+## Claim 4
+- **Claim:** Information coverage is a distinct evidential property.
+- **Author claim:** The study includes explanations about important facets omitted from the response.
+- **Evidence-supported claim:** Coverage is evaluated separately from attribution and grounding. [@Lajewska2026TrustMeThis, pp. 4–5]
+- **Researcher inference:** DDR retrieval should expose materially relevant counter-evidence or omitted perspectives where known.
+- **Warrant:** A grounded answer can still be selectively incomplete.
+- **Boundary:** No finite retrieval can guarantee historical completeness.
+- **Consequence:** Coverage should be framed as bounded adequacy rather than completeness.
+- **Practice cross-check:** Turin can flag conflicting or adjacent traces excluded from the synthesis.
+
+## Claim 5
+- **Claim:** Clear, detailed or actionable prose can outcompete better evidential quality.
+- **Author claim:** Participants sometimes preferred objectively weaker responses because they were rhetorically more useful.
+- **Evidence-supported claim:** Clarity, detail, actionability and concrete examples influenced trust independently of factual quality. [@Lajewska2026TrustMeThis, pp. 6–7]
+- **Researcher inference:** Fluent DDR narrative can acquire authority beyond its sources.
+- **Warrant:** Users judge form and evidence simultaneously.
+- **Boundary:** The study's quality manipulation is not historical interpretation.
+- **Consequence:** UAT should separate rhetorical preference from evidential judgement.
+- **Practice cross-check:** Turin should preserve a messier conflicting answer when that better represents the archive.
+
+## Claim 6
+- **Claim:** Explanation usefulness depends on query type and prior knowledge.
+- **Author claim:** Attribution mattered more for factual questions and users sometimes ignored explanations when they believed they already knew the topic.
+- **Evidence-supported claim:** Task and prior knowledge shaped how explanation cues were used. [@Lajewska2026TrustMeThis, p. 7]
+- **Researcher inference:** DDR factual, interpretative and missingness queries may need different provenance displays.
+- **Warrant:** Explanations are interpreted through task and user context.
+- **Boundary:** The study does not define an archival interface taxonomy.
+- **Consequence:** Provenance should be adaptive to epistemic task rather than one-size-fits-all.
+- **Practice cross-check:** Turin can foreground exact passages for factual attribution and multiple trace types for contested interpretation.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +177,10 @@ They try to test whether explanations can calibrate user trust by revealing diff
 
 - **Boundary (1 sentence):** The study uses 21 Mechanical Turk workers, 30 TREC information-seeking queries and deliberately manipulated high- versus limited-quality responses, so its findings should not be assumed to transfer directly to expert historians evaluating contested archival interpretations.
 - **Risk if misused (1 sentence):** Treating the study as evidence that displaying sources automatically produces trustworthy judgement would ignore its central finding that clarity, actionability, query type and prior knowledge continue to shape trust even when explanations are present.
+
+# Cross-source / cross-lens synthesis
+
+Łajewska and Balog strengthen the provenance-interface cluster by showing that explanations can recalibrate judgement while rhetorical qualities still exert independent authority. Read with Carl and Cho, source visibility must become claim-level grounding and usable inspection; read with archival missingness work, coverage can never mean total historical completeness. DDR therefore needs evidential coverage as a bounded, contestable property rather than a claim that the archive has been exhaustively represented.
 
 # Methods spine tags (tick what it actually touches)
 
