@@ -13,7 +13,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:31"
-last_updated: "02 Oct 2026"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 project_rq_verbatim: "How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?"
@@ -44,14 +44,16 @@ project_tags:
 **Source type:** Counterpoint / tension
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
 - Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
 - Each claim must include a practice cross-check (or TODO)
-- End each substantive note with a cross-source / cross-lens synthesis paragraph
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
 - Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -73,74 +75,26 @@ Zaagsma writes from digital history within the “critical turn” in digital hu
 
 Zaagsma argues that digitised heritage is constituted through political decisions about what is selected, who controls digitisation, how materials are classified and described, and how access is mediated; these decisions shape what historians can know and research. [@Zaagsma2023DigitalHistoryPolitics, pp. 830–845]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Digitised archives are selections of an already selected historical record.
-- **Author claim:** Zaagsma argues that increased digital access does not imply completeness and that many materials are not, and never will be, digitised.
-- **Evidence-supported claim:** The introduction states that digitisation is a selection from collections already shaped by earlier archival selection, and the later discussion describes retro-digitised resources as “re-selections” of the human record. [@Zaagsma2023DigitalHistoryPolitics, pp. 830–831, 840]
-- **Researcher inference:** Absence from the DDR digital corpus cannot establish absence from the archive or from the historical world.
-- **Evidence (quote/paraphrase + page):** Digitisation entails selecting from materials that are themselves products of prior archival selection. [@Zaagsma2023DigitalHistoryPolitics, pp. 830–831]
-- **Warrant (my words):** Every successive selection narrows the evidential universe available to computational methods.
-- **Boundary:** The article does not show that every omission is politically motivated; resource, legal and technical constraints also shape digitisation.
-- **Consequence:** Missingness claims must be scoped to the defined digitised corpus unless stronger evidence supports a broader conclusion.
-- **Practice cross-check:** Keep “not in indexed corpus,” “not digitised,” “not described” and “historically absent” as separate statuses.
 
+**Claim.** Digitised archives are selections of an already selected historical record. **Author claim.** Zaagsma argues that increased digital access does not imply completeness and that many materials are not, and never will be, digitised. **Evidence.** The introduction states that digitisation is a selection from collections already shaped by earlier archival selection, and the later discussion describes retro-digitised resources as “re-selections” of the human record. [@Zaagsma2023DigitalHistoryPolitics, pp. 830–831, 840] **Evidence-supported claim.** The introduction states that digitisation is a selection from collections already shaped by earlier archival selection, and the later discussion describes retro-digitised resources as “re-selections” of the human record. [@Zaagsma2023DigitalHistoryPolitics, pp. 830–831, 840] **Researcher inference.** Absence from the DDR digital corpus cannot establish absence from the archive or from the historical world. **Warrant.** Every successive selection narrows the evidential universe available to computational methods. **Boundary.** The article does not show that every omission is politically motivated; resource, legal and technical constraints also shape digitisation. **Consequence.** Missingness claims must be scoped to the defined digitised corpus unless stronger evidence supports a broader conclusion. **Practice cross-check.** Keep “not in indexed corpus,” “not digitised,” “not described” and “historically absent” as separate statuses.
 ## Claim 2
-- **Claim (plain):** Metadata, OCR, classification, search and interface design determine digital visibility.
-- **Author claim:** Zaagsma treats description and access mechanisms as political and epistemic mediators of digitised heritage.
-- **Evidence-supported claim:** Pages 841–844 explain that materials may be digitised but poorly described, non-OCRed or inaccessible through weak metadata, and that search/interface choices shape what researchers find. [@Zaagsma2023DigitalHistoryPolitics, pp. 841–844]
-- **Researcher inference:** A DDR trace can be digitally present yet computationally invisible because description, transcription, embedding or interface design prevents it from surfacing.
-- **Evidence (quote/paraphrase + page):** The article moves from cataloguing and OCR to metadata schemas, search and interface design as successive mediators of access. [@Zaagsma2023DigitalHistoryPolitics, pp. 841–844]
-- **Warrant (my words):** Presence in storage is not equivalent to intellectual or computational accessibility.
-- **Boundary:** Zaagsma does not evaluate embedding-based retrieval or LLM search directly.
-- **Consequence:** Retrieval failure should be diagnosed at the level of metadata/transcription/indexing/interface before it is interpreted historically.
-- **Practice cross-check:** Compare keyword, semantic-neighbourhood and metadata routes for the same DDR query and record where one route hides material another reveals.
 
+**Claim.** Metadata, OCR, classification, search and interface design determine digital visibility. **Author claim.** Zaagsma treats description and access mechanisms as political and epistemic mediators of digitised heritage. **Evidence.** Pages 841–844 explain that materials may be digitised but poorly described, non-OCRed or inaccessible through weak metadata, and that search/interface choices shape what researchers find. [@Zaagsma2023DigitalHistoryPolitics, pp. 841–844] **Evidence-supported claim.** Pages 841–844 explain that materials may be digitised but poorly described, non-OCRed or inaccessible through weak metadata, and that search/interface choices shape what researchers find. [@Zaagsma2023DigitalHistoryPolitics, pp. 841–844] **Researcher inference.** A DDR trace can be digitally present yet computationally invisible because description, transcription, embedding or interface design prevents it from surfacing. **Warrant.** Presence in storage is not equivalent to intellectual or computational accessibility. **Boundary.** Zaagsma does not evaluate embedding-based retrieval or LLM search directly. **Consequence.** Retrieval failure should be diagnosed at the level of metadata/transcription/indexing/interface before it is interpreted historically. **Practice cross-check.** Compare keyword, semantic-neighbourhood and metadata routes for the same DDR query and record where one route hides material another reveals.
 ## Claim 3
-- **Claim (plain):** Corpus provenance must include how the digital resource itself was constituted.
-- **Author claim:** Zaagsma calls for digital cultural heritage transparency guidelines documenting funding, selection, metadata, classification, access, search/interface choices and relevant offline sources.
-- **Evidence-supported claim:** Pages 844–845 explicitly recommend making those factors visible and warn that not knowing what sources exist introduces fundamental epistemological bias. [@Zaagsma2023DigitalHistoryPolitics, pp. 844–845]
-- **Researcher inference:** Provenance in retrieval-augmented historical research must describe the evidence surface, not only cite individual passages.
-- **Evidence (quote/paraphrase + page):** The article asks who funded the project, what was selected, what metadata/classification was used, how access and search were designed and what relevant sources remain offline. [@Zaagsma2023DigitalHistoryPolitics, p. 844]
-- **Warrant (my words):** A researcher cannot assess evidential adequacy without knowing the boundaries and construction of the searchable corpus.
-- **Boundary:** Transparency does not remove bias; it makes the conditions of interpretation inspectable.
-- **Consequence:** The thesis should document corpus boundaries, transcription/indexing processes and excluded source classes alongside passage-level provenance.
-- **Practice cross-check:** Publish corpus version, PID boundary, excluded non-PID text and transformation steps as method metadata.
 
+**Claim.** Corpus provenance must include how the digital resource itself was constituted. **Author claim.** Zaagsma calls for digital cultural heritage transparency guidelines documenting funding, selection, metadata, classification, access, search/interface choices and relevant offline sources. **Evidence.** Pages 844–845 explicitly recommend making those factors visible and warn that not knowing what sources exist introduces fundamental epistemological bias. [@Zaagsma2023DigitalHistoryPolitics, pp. 844–845] **Evidence-supported claim.** Pages 844–845 explicitly recommend making those factors visible and warn that not knowing what sources exist introduces fundamental epistemological bias. [@Zaagsma2023DigitalHistoryPolitics, pp. 844–845] **Researcher inference.** Provenance in retrieval-augmented historical research must describe the evidence surface, not only cite individual passages. **Warrant.** A researcher cannot assess evidential adequacy without knowing the boundaries and construction of the searchable corpus. **Boundary.** Transparency does not remove bias; it makes the conditions of interpretation inspectable. **Consequence.** The thesis should document corpus boundaries, transcription/indexing processes and excluded source classes alongside passage-level provenance. **Practice cross-check.** Publish corpus version, PID boundary, excluded non-PID text and transformation steps as method metadata.
 ## Claim 4
-- **Claim (plain):** Control over digitisation is unevenly distributed across institutions, countries and commercial platforms.
-- **Author claim:** Zaagsma argues that the politics of digitisation includes who has resources to digitise and who controls resulting digital collections.
-- **Evidence-supported claim:** Pages 838–840 contrast Global North mass-digitisation capacity with more selective digitisation elsewhere and identify private actors such as Google and Ancestry as major gatekeepers in digital historical knowledge. [@Zaagsma2023DigitalHistoryPolitics, pp. 838–840]
-- **Researcher inference:** Computational heritage corpora reflect institutional capacity and platform power before any model begins analysing them.
-- **Evidence (quote/paraphrase + page):** The article notes that retro-digitisation can be a luxury, that global political/economic inequality shapes both content and access, and that private companies can control large historical information infrastructures. [@Zaagsma2023DigitalHistoryPolitics, pp. 838–840]
-- **Warrant (my words):** What becomes machine-readable depends on who can fund, host and govern digitisation.
-- **Boundary:** The DDR corpus is institutionally bounded and should not be treated as a direct example of Global North/South inequality.
-- **Consequence:** Claims about computational “coverage” should remain local to the RCA/V&A corpus and its documented digitisation history.
-- **Practice cross-check:** Treat repository and rights provenance as part of the evidence route rather than background metadata.
 
+**Claim.** Control over digitisation is unevenly distributed across institutions, countries and commercial platforms. **Author claim.** Zaagsma argues that the politics of digitisation includes who has resources to digitise and who controls resulting digital collections. **Evidence.** Pages 838–840 contrast Global North mass-digitisation capacity with more selective digitisation elsewhere and identify private actors such as Google and Ancestry as major gatekeepers in digital historical knowledge. [@Zaagsma2023DigitalHistoryPolitics, pp. 838–840] **Evidence-supported claim.** Pages 838–840 contrast Global North mass-digitisation capacity with more selective digitisation elsewhere and identify private actors such as Google and Ancestry as major gatekeepers in digital historical knowledge. [@Zaagsma2023DigitalHistoryPolitics, pp. 838–840] **Researcher inference.** Computational heritage corpora reflect institutional capacity and platform power before any model begins analysing them. **Warrant.** What becomes machine-readable depends on who can fund, host and govern digitisation. **Boundary.** The DDR corpus is institutionally bounded and should not be treated as a direct example of Global North/South inequality. **Consequence.** Claims about computational “coverage” should remain local to the RCA/V&A corpus and its documented digitisation history. **Practice cross-check.** Treat repository and rights provenance as part of the evidence route rather than background metadata.
 ## Claim 5
-- **Claim (plain):** Digitisation can reproduce dominant canons or create counter-archives; its political direction is not fixed.
-- **Author claim:** Zaagsma presents digitisation as capable of reinforcing official narratives while also enabling community and counter-archival work.
-- **Evidence-supported claim:** Pages 839–841 discuss national and commercial projects that reproduce inherited cultural bias alongside community archives and projects designed to resist erasure or reclaim historical representation. [@Zaagsma2023DigitalHistoryPolitics, pp. 839–841]
-- **Researcher inference:** Computational activation of DDR can either reinforce existing prominence or make overlooked relations more legible depending on selection, modelling and interface choices.
-- **Evidence (quote/paraphrase + page):** The article contrasts mass digitisation and canon reproduction with community-led and counter-archival initiatives. [@Zaagsma2023DigitalHistoryPolitics, pp. 839–841]
-- **Warrant (my words):** Digital mediation changes visibility but does not determine in advance whose histories will become more legible.
-- **Boundary:** A counter-archival intention does not guarantee accurate or equitable representation.
-- **Consequence:** DDR feminist and obscurity analyses should test whether computational views merely reproduce known central figures or genuinely expose weaker traces.
-- **Practice cross-check:** Use controlled queries for marginal roles and compare ranked visibility with catalogue prominence.
 
+**Claim.** Digitisation can reproduce dominant canons or create counter-archives; its political direction is not fixed. **Author claim.** Zaagsma presents digitisation as capable of reinforcing official narratives while also enabling community and counter-archival work. **Evidence.** Pages 839–841 discuss national and commercial projects that reproduce inherited cultural bias alongside community archives and projects designed to resist erasure or reclaim historical representation. [@Zaagsma2023DigitalHistoryPolitics, pp. 839–841] **Evidence-supported claim.** Pages 839–841 discuss national and commercial projects that reproduce inherited cultural bias alongside community archives and projects designed to resist erasure or reclaim historical representation. [@Zaagsma2023DigitalHistoryPolitics, pp. 839–841] **Researcher inference.** Computational activation of DDR can either reinforce existing prominence or make overlooked relations more legible depending on selection, modelling and interface choices. **Warrant.** Digital mediation changes visibility but does not determine in advance whose histories will become more legible. **Boundary.** A counter-archival intention does not guarantee accurate or equitable representation. **Consequence.** DDR feminist and obscurity analyses should test whether computational views merely reproduce known central figures or genuinely expose weaker traces. **Practice cross-check.** Use controlled queries for marginal roles and compare ranked visibility with catalogue prominence.
 ## Claim 6
-- **Claim (plain):** Search convenience can reduce contextual awareness.
-- **Author claim:** Zaagsma draws on work describing “surgical discovery,” where direct item retrieval can bypass collection-level context and reduce serendipitous browsing.
-- **Evidence-supported claim:** Page 844 discusses single-search-box paradigms, loss of meso/macro context, reduced chance discovery and the possibility that easy retrieval can itself become a methodological problem. [@Zaagsma2023DigitalHistoryPolitics, p. 844]
-- **Researcher inference:** Retrieval-augmented systems should not let fluent answers replace the contextual work of understanding how records sit within collections and projects.
-- **Evidence (quote/paraphrase + page):** The article argues that targeted digital discovery can compound selection bias through loss of context. [@Zaagsma2023DigitalHistoryPolitics, p. 844]
-- **Warrant (my words):** Fast access to fragments can create an illusion of completeness while obscuring the wider documentary environment.
-- **Boundary:** Digital search can also enable questions impossible through physical browsing; the problem is not search itself but unexamined context loss.
-- **Consequence:** Interfaces should retain routes from retrieved passages back to document, project, collection and neighbouring evidence.
-- **Practice cross-check:** Make Semantic Atlas and source cards complementary to direct query answering rather than treating generated synthesis as the terminal view.
 
+**Claim.** Search convenience can reduce contextual awareness. **Author claim.** Zaagsma draws on work describing “surgical discovery,” where direct item retrieval can bypass collection-level context and reduce serendipitous browsing. **Evidence.** Page 844 discusses single-search-box paradigms, loss of meso/macro context, reduced chance discovery and the possibility that easy retrieval can itself become a methodological problem. [@Zaagsma2023DigitalHistoryPolitics, p. 844] **Evidence-supported claim.** Page 844 discusses single-search-box paradigms, loss of meso/macro context, reduced chance discovery and the possibility that easy retrieval can itself become a methodological problem. [@Zaagsma2023DigitalHistoryPolitics, p. 844] **Researcher inference.** Retrieval-augmented systems should not let fluent answers replace the contextual work of understanding how records sit within collections and projects. **Warrant.** Fast access to fragments can create an illusion of completeness while obscuring the wider documentary environment. **Boundary.** Digital search can also enable questions impossible through physical browsing; the problem is not search itself but unexamined context loss. **Consequence.** Interfaces should retain routes from retrieved passages back to document, project, collection and neighbouring evidence. **Practice cross-check.** Make Semantic Atlas and source cards complementary to direct query answering rather than treating generated synthesis as the terminal view.
 # Definitions / terms this changes
 
 - **Digital selectivity:** awareness that digitised resources represent selections rather than complete documentary records. [@Zaagsma2023DigitalHistoryPolitics, p. 840]
