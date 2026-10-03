@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "14 Sept 2026, 16:30"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "14 Sep 2026, 16:11"
 north_star_sha1: "9df80fcd2e16"
@@ -25,15 +25,23 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Methodological anchor"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "02 LLM epistemic risk and persuasive fluency"
   - "03 RAG, retrieval and source attribution"
   - "10 Conversational AI and completion norms"
   - "11 Uncertainty and provenance display in interfaces"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -47,67 +55,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Isch et al. provide direct experimental evidence that LLM summarisation can strengthen claims beyond the source material, remove hedging and therefore alter evidential meaning during synthesis.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It cautions against using contemporary AI to revisit DDR ideas in ways that silently convert qualified historical traces into stronger claims of influence, intention or causation.
 
-**Why I’m reading this now (1 sentence):**  
-I need empirical evidence that LLM-mediated textual synthesis can strengthen claims beyond what the underlying source material warrants, and that this distortion can occur through apparently ordinary summarisation.
+**Where it sits in my argument:** Critical computational approaches / contemporary bridge literature, especially inferential overreach and bounded synthesis.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference and the Turin discussion of bounded synthesis. It supports the claim that retrieving relevant evidence does not by itself ensure evidentially faithful interpretation because the synthesis stage can alter the strength, certainty and implied relationships contained in that evidence.
+**My benchmark for using it:** Use as direct evidence for claim-strength transformation in LLM summarisation; extend to archival relations only as an explicit methodological analogy.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *inferential overreach* for the wider archival problem. Isch et al. study causal overclaiming specifically; my concern additionally includes generated claims of influence, responsibility, intention, consensus or historical connection that exceed what retrieved traces establish.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use the paper as direct evidence that LLM summarisation can intensify inferential claims and remove qualification. Extend from causal claims to historical relations only as an explicitly stated methodological analogy, not as an empirical finding of their study.
+Isch et al. combine large-scale computational analysis, a preregistered human experiment and tests across multiple contemporary LLMs to study causal overstatement in social-science communication. [@Isch2026QuantifyingPrevalenceImpact, pp. 1–8]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Isch et al. write from computational social science and science-of-science research, examining the relationship between empirical evidence and the language through which findings are communicated. Their 2026 study combines large-scale computational analysis, a preregistered human experiment and experiments across multiple contemporary LLMs. The paper therefore addresses both an existing scholarly tendency towards causal overstatement and the possibility that generative systems amplify that tendency when mediating research.
+They quantify narrative overreach and test whether human and model summaries preserve, amplify or correct the inferential force of source claims. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–8, 13]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-Summarisation cannot be treated as epistemically neutral compression. LLMs may modify claim strength during synthesis, making the language of the derivative account more definite than the evidence in the material being summarised.
-
-# The author’s main move (1 sentence)
-
-They try to quantify narrative overreach and its consequences by detecting causal language at scale and experimentally testing whether human readers and LLM summaries preserve, amplify or correct the inferential strength of source claims.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** LLM summarisation can introduce stronger causal claims than the source material supports.
-- **Evidence (quote/paraphrase + page):** Across model experiments, summaries frequently converted associational evidence into unhedged causal language. Under basic, simplified and practical prompts, models often produced more direct causal claims than appeared in the source abstracts; Fig. 6 shows explicit examples such as “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances”. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]`
-- **Warrant (my words):** The synthesis operation changes epistemic force. The model does not merely shorten the source; it can transform the relationship asserted by the source into a stronger proposition.
-- **So what for my thesis (a reusable sentence):** AI-mediated synthesis can alter the evidential status of a relationship during generation, making an inference appear more historically settled than the traces from which it was produced.
-- **Practice cross-check:** Turin: semantic proximity, co-occurrence or sequential appearance across DDR records must not be rendered automatically as influence, collaboration, responsibility or causation unless those stronger relationships are explicitly supported by the retrieved evidence.
+- **Claim:** LLM summarisation can strengthen the relationship asserted by source material.
+- **Author claim:** Model summaries sometimes convert associational evidence into direct causal language.
+- **Evidence-supported claim:** Examples include “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances.” [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]
+- **Researcher inference:** DDR synthesis can similarly overstate association as influence, collaboration or responsibility.
+- **Warrant:** The synthesis changes epistemic force rather than merely shortening text.
+- **Boundary:** Their experiments concern causal language in social science.
+- **Consequence:** Relation type should be checked before generated historical claims are accepted.
+- **Practice cross-check:** Turin UAT should compare source relation language with generated relation language.
 
 ## Claim 2
-
-- **Claim (plain):** Qualification and hedging are vulnerable to being lost during synthesis.
-- **Evidence (quote/paraphrase + page):** The authors find that conditional causal claims containing qualification are frequently transformed into unhedged causal statements in model-generated summaries. Figure 6 tracks the movement between descriptive, conditional and direct causal categories and shows conditional claims dropping substantially during ordinary summarisation. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]`
-- **Warrant (my words):** Hedges such as *may*, *suggests* or *is associated with* encode genuine limits on what evidence permits. Removing them changes the proposition rather than merely simplifying its wording.
-- **So what for my thesis:** Uncertainty language is evidential content: retrieval-augmented historical synthesis must preserve qualifications, contradiction and provisionality rather than smoothing them away in the pursuit of fluent narrative.
-- **Practice cross-check:** Turin answers should preserve distinctions such as “the record suggests”, “X recalls”, “these documents are associated”, and “the available corpus does not establish” rather than normalising them into declarative historical statements.
+- **Claim:** Hedging is evidential content rather than disposable style.
+- **Author claim:** Conditional and qualified causal claims are frequently transformed into unhedged statements.
+- **Evidence-supported claim:** Figure 6 shows conditional claims declining during ordinary summarisation. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]
+- **Researcher inference:** Words such as may, suggests, recalls and appears must be preserved where they encode DDR uncertainty.
+- **Warrant:** Removing a hedge changes what proposition is being asserted.
+- **Boundary:** Not every lexical hedge carries the same evidential function.
+- **Consequence:** Modality preservation should be a synthesis criterion.
+- **Practice cross-check:** Turin should retain “the record suggests,” “X recalls,” and “the corpus does not establish” where warranted.
 
 ## Claim 3
+- **Claim:** Richer retrieval does not automatically prevent inferential overreach.
+- **Author claim:** Full-text access did not significantly change causal-language distributions relative to title/abstract conditions across tested configurations.
+- **Evidence-supported claim:** More source context did not by itself eliminate overclaiming. [@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13]
+- **Researcher inference:** Increasing top-k or supplying full DDR documents is not sufficient protection against overinterpretation.
+- **Warrant:** Retrieval breadth and inferential discipline are separate problems.
+- **Boundary:** Other retrieval architectures may behave differently.
+- **Consequence:** Post-retrieval synthesis needs its own controls.
+- **Practice cross-check:** Turin combines retrieval with inference rules, scoped missingness and provenance checks.
 
-- **Claim (plain):** More source context does not by itself prevent inferential overreach, whereas explicit caution materially changes model behaviour.
-- **Evidence (quote/paraphrase + page):** In the second LLM experiment, the authors found no significant difference in causal-language distributions between summaries generated from full texts and those generated from titles and abstracts across model–prompt configurations. `[@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13]` By contrast, a prompt explicitly requesting methodological caution reduced unhedged causal language across the tested models, with a mean causal rate of about 5% in the careful condition. `[@Isch2026QuantifyingPrevalenceImpact, pp. 6–7]`
-- **Warrant (my words):** Retrieval breadth and inferential discipline are separate problems. Giving a model more evidence does not guarantee that it will represent the evidential relationship accurately; the synthesis procedure itself requires constraint.
-- **So what for my thesis:** Retrieval augmentation cannot be assumed to solve epistemic overreach: bounded inference requires explicit instructions and validation governing how retrieved evidence may be connected and expressed.
-- **Practice cross-check:** Turin: expanding top-k retrieval or including full source text should not be treated as sufficient protection against overinterpretation; inference rules, scoped missingness and provenance checks remain necessary after retrieval.
+## Claim 4
+- **Claim:** Explicit caution instructions can materially reduce overclaiming.
+- **Author claim:** A careful prompting condition reduced unhedged causal language.
+- **Evidence-supported claim:** The cautious condition produced a much lower mean causal rate across tested models. [@Isch2026QuantifyingPrevalenceImpact, pp. 6–7]
+- **Researcher inference:** Prompting can be one layer of DDR evidential control.
+- **Warrant:** Generation behaviour responds to explicit epistemic instruction.
+- **Boundary:** Prompting does not guarantee compliance and is not a substitute for validation.
+- **Consequence:** Caution instructions should be paired with structural safeguards.
+- **Practice cross-check:** Turin uses prompt constraints alongside deterministic fallback and researcher review.
+
+## Claim 5
+- **Claim:** Summarisation should be evaluated for inferential preservation, not only semantic similarity.
+- **Author claim:** The study treats changes in causal category as substantive distortions.
+- **Evidence-supported claim:** Their analysis tracks descriptive, conditional and direct causal categories across source and summary. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]
+- **Researcher inference:** DDR evaluation should compare modality, certainty and relation type between evidence and synthesis.
+- **Warrant:** A semantically similar sentence can still be epistemically stronger.
+- **Boundary:** Their category scheme is domain-specific.
+- **Consequence:** Historical synthesis needs relation-strength preservation tests.
+- **Practice cross-check:** Turin can test association→influence, testimony→fact and possibility→certainty transformations.
+
+## Claim 6
+- **Claim:** Narrative overreach is partly a communication problem, not merely a retrieval problem.
+- **Author claim:** The authors place model behaviour within a broader account of narrative license and overclaiming.
+- **Evidence-supported claim:** They define narrative practices that make research claims more compelling at the expense of evidential accuracy. [@Isch2026QuantifyingPrevalenceImpact, p. 8]
+- **Researcher inference:** Archival AI can produce persuasive historical narratives even when source retrieval is technically correct.
+- **Warrant:** The final wording mediates how evidence is understood.
+- **Boundary:** The study does not directly measure archival narrative persuasion.
+- **Consequence:** Generated prose itself is part of the evidential risk surface.
+- **Practice cross-check:** Turin should treat synthesis wording as a research object subject to UAT, not merely a delivery layer.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -144,6 +177,10 @@ They try to quantify narrative overreach and its consequences by detecting causa
 
 - **Boundary (1 sentence):** Isch et al. study causal language in social-science research summaries, so they do not empirically establish how often LLMs misassign historical agency, influence or responsibility in archival synthesis.
 - **Risk if misused (1 sentence):** Generalising their results into a claim that all LLM synthesis necessarily distorts evidence would overstate the study, particularly because careful prompting substantially reduced overclaiming and model behaviour varied across systems.
+
+# Cross-source / cross-lens synthesis
+
+Isch et al. provide the experimental bridge between retrieval and historical warrant by showing that synthesis itself can alter epistemic force. Read with DeYoung, the implication is that multi-source generation must preserve composition and modality; read with Selyshcheva, the same problem becomes one of historical source criticism and citation integrity. For DDR, retrieval accuracy is therefore necessary but insufficient: relation type, hedging and certainty must survive the move from trace to synthesis.
 
 # Methods spine tags (tick what it actually touches)
 
