@@ -10,7 +10,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "15 Sep 2026, 00:00"
-last_updated: "16 Sept 2026, 11:14"
+last_updated: "03 Oct 2026"
 north_star_source: "project/north-star.yml"
 north_star_mtime: "15 Sep 2026, 00:00"
 north_star_sha1: "placeholder"
@@ -25,14 +25,22 @@ model_strand: "S3"
 model_strand_label: "Surfacing and reactivating traces computationally"
 model_subcluster: "S3.3 Retrieval-augmented inference"
 source_type: "Methodological anchor"
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / Critical computational approaches / Contemporary bridge literature"
 project_tags:
   - "Turin"
   - "Thesis"
+  - "Theoretical framework"
 literature_clusters:
   - "02 LLM epistemic risk and persuasive fluency"
   - "03 RAG, retrieval and source attribution"
   - "09 Human judgement and practice-led computational research"
-constraints_source: "project/constraints.md"---
+constraints_source: "project/constraints.md"
+---
+
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **RQ (working):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
@@ -46,67 +54,92 @@ constraints_source: "project/constraints.md"---
 **Seam to watch:** When computational methods clarify or distort contested traces
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page)
-- Max 3 claims: Claim → Evidence → Warrant → So-what
-- Each claim must include a practice cross-check (or TODO)
-- No antithesis lists: write Boundary + Risk
-- If it doesn’t serve the RQ/model: OUT OF SCOPE (why)
-(Full rules: project/constraints.md)
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims
+- Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Practice cross-check required for each claim
+- Final cross-source / cross-lens synthesis required
 
----
+# Thesis job
 
-# Thesis job (do this first)
+**How this source moves the primary research question forward:** Wang et al. make explicit that retrieval and application are distinct stages. This supports retrieval-augmented inference as a method in which DDR evidence is retrieved first and then subjected to separate rules governing what relations it may support.
 
-**Project research question(s) this serves (paste verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**How this source bears on the secondary question:** It helps prevent contemporary reasoning machinery from smuggling one preferred interpretative pattern into historical DDR material.
 
-**Why I’m reading this now (1 sentence):**  
-I need recent technical evidence that retrieval alone does not determine how retrieved material should be used and that a distinct application-oriented stage can materially affect downstream reasoning.
+**Where it sits in my argument:** Critical computational approaches / contemporary bridge literature, especially post-retrieval application.
 
-**Where it sits in my argument (chapter/section + what it helps me say):**  
-S3.3 retrieval-augmented inference. It supports the distinction between retrieving archival evidence and performing a subsequent operation that determines how that evidence may be applied to the research question.
+**My benchmark for using it:** Use to establish that post-retrieval reasoning is a distinct stage; do not treat application examples as self-validating historical reasoning templates.
 
-**Why this term, not alternatives (1–2 lines):**  
-I use *retrieval-augmented inference* rather than simply *enhanced RAG* because the methodological issue is what happens after evidence retrieval. Wang et al. call this *application-aware reasoning*: retrieved information is supplemented with guidance about how it may be used in task-specific inference.
+# Position + moment
 
-**My benchmark for using it (1–2 criteria I will apply):**  
-Use the paper to establish that post-retrieval application is a distinct and consequential stage. Do not treat application examples as automatically valid reasoning rules: historical inference requires independent provenance, uncertainty handling and researcher judgement.
+Wang et al. address a limitation of RAG systems that retrieve relevant facts but underperform on reasoning-intensive tasks. RAG+ therefore pairs retrieved knowledge with examples of how that knowledge has been applied. [@wangRAGEnhancingRetrievalAugmented2025, pp. 1–4]
 
-# Position + moment (2–4 lines)
+# The author’s main move
 
-Wang et al. write from contemporary NLP and RAG systems research, with authors from Xi’an Jiaotong University, Nankai University and Huawei. Their 2025 intervention addresses a limitation in RAG systems that perform well at retrieving facts but less reliably on tasks requiring procedural or domain-specific reasoning. Their response is architectural rather than historiographic: pair retrieved knowledge with examples demonstrating how that knowledge has previously been applied.
+They separate knowledge retrieval from application-aware reasoning and show that adding aligned application examples can improve downstream task performance. [@wangRAGEnhancingRetrievalAugmented2025, pp. 2–9]
 
-**Canon assumptions to problematise / update for 2026 (1–2 lines):**  
-The paper treats successful application primarily as improved task accuracy against determinate answers. Historical interpretation presents a harder problem because there may be several warranted applications of the same evidence, or no warranted application at all.
-
-# The author’s main move (1 sentence)
-
-They try to bridge the gap between retrieval and task-specific reasoning by pairing retrieved knowledge with aligned application examples that demonstrate how that knowledge can be used during inference.
-
-# Three-claim evidence ledger (max 3 claims)
+# Six-claim evidence ledger
 
 ## Claim 1
-
-- **Claim (plain):** Standard RAG can retrieve relevant knowledge without adequately guiding how that knowledge should be used.
-- **Evidence (quote/paraphrase + page):** Wang et al. argue that existing RAG paradigms often overlook “the cognitive step of applying knowledge”, leaving a gap between retrieved facts and task-specific reasoning. They distinguish fact-centric retrieval from reasoning-intensive tasks in which a model must understand how retrieved information contributes to a solution. `[@wangRAGEnhancingRetrievalAugmented2025, pp. 1–3]`
-- **Warrant (my words):** Relevant evidence does not determine its own interpretation. A downstream process still has to decide what relation the evidence bears to the question and what operation may legitimately be performed with it.
-- **So what for my thesis (a reusable sentence):** Retrieval supplies an evidential surface; historical inquiry still requires a subsequent inferential operation that determines how, and whether, those traces can be related to the question being asked.
-- **Practice cross-check:** Turin Research Query: retrieving DDR passages concerning two actors, ideas or events does not itself establish influence, collaboration, causation or attribution; the system must evaluate what relationship the retrieved traces actually warrant.
+- **Claim:** Relevant knowledge does not determine its own application.
+- **Author claim:** Existing RAG often overlooks “the cognitive step of applying knowledge.”
+- **Evidence-supported claim:** The paper distinguishes fact-centric retrieval from tasks requiring task-specific reasoning. [@wangRAGEnhancingRetrievalAugmented2025, pp. 1–3]
+- **Researcher inference:** Retrieved DDR traces do not by themselves establish influence, attribution or causation.
+- **Warrant:** Evidence still has to be related to the research question.
+- **Boundary:** Their target tasks have comparatively determinate answers.
+- **Consequence:** DDR requires an explicit post-retrieval inference stage.
+- **Practice cross-check:** Turin separates retrieval from source/evidence typing and bounded synthesis.
 
 ## Claim 2
-
-- **Claim (plain):** Pairing knowledge with examples of its application can materially improve task-specific reasoning.
-- **Evidence (quote/paraphrase + page):** RAG+ constructs separate knowledge and application corpora and retrieves both during inference. Across mathematical, legal and medical tasks, application augmentation generally improves performance over the corresponding non-augmented RAG method; the paper reports typical gains of several percentage points, including substantially larger gains in particular model/task combinations. `[@wangRAGEnhancingRetrievalAugmented2025, pp. 2, 5–9]` Figure 2 on p. 4 makes the architecture explicit: knowledge retrieval is followed by retrieval of its pre-aligned application before final answer generation.
-- **Warrant (my words):** The results show that downstream performance depends not only on what information is retrieved but on whether the model receives task-relevant guidance about how that information has been used.
-- **So what for my thesis:** Retrieval-augmented inference should distinguish the source evidence from the interpretative procedure through which that evidence is mobilised; improving retrieval alone cannot guarantee appropriate historical use.
-- **Practice cross-check:** Turin could encode research-specific application constraints rather than generic worked examples: documentary testimony may support attribution, comparison or contextualisation while remaining insufficient to support causation or historical closure.
+- **Claim:** Application can be represented as a separate resource.
+- **Author claim:** RAG+ maintains distinct knowledge and application corpora.
+- **Evidence-supported claim:** Figure 2 shows retrieval of knowledge followed by retrieval of aligned application examples before answer generation. [@wangRAGEnhancingRetrievalAugmented2025, pp. 2–4]
+- **Researcher inference:** DDR can encode methodological application rules separately from the archival sources themselves.
+- **Warrant:** Separating evidence from use prevents interpretative procedure from being mistaken for source content.
+- **Boundary:** Worked examples can themselves encode bias.
+- **Consequence:** Application logic should remain inspectable and revisable.
+- **Practice cross-check:** Turin can keep source typing and permissible relation rules outside the source corpus.
 
 ## Claim 3
+- **Claim:** Application augmentation can materially improve reasoning performance.
+- **Author claim:** RAG+ generally outperforms corresponding non-augmented RAG methods.
+- **Evidence-supported claim:** Gains appear across mathematical, legal and medical tasks, with larger improvements in some combinations. [@wangRAGEnhancingRetrievalAugmented2025, pp. 5–9]
+- **Researcher inference:** Post-retrieval guidance is consequential enough to require methodological scrutiny in DDR.
+- **Warrant:** Downstream output changes when application guidance changes.
+- **Boundary:** Accuracy gains do not establish interpretative validity in history.
+- **Consequence:** The thesis should evaluate inference logic, not just retrieval quality.
+- **Practice cross-check:** Turin UAT should test whether relation classifications change under different application constraints.
 
-- **Claim (plain):** Application-aware reasoning introduces its own error surface and therefore does not remove the need for verification.
-- **Evidence (quote/paraphrase + page):** The authors acknowledge that automatically generated application examples may introduce errors or oversimplify complex reasoning and that misalignment between retrieved knowledge and applications can produce incorrect or misleading reasoning. They also state that RAG+ does not directly solve retrieval quality and identify uncertainty and ambiguity as unresolved future work. `[@wangRAGEnhancingRetrievalAugmented2025, p. 9]` Their mathematics case study similarly concludes that even when a correct method is retrieved, execution can fail and that verification mechanisms are still required. `[@wangRAGEnhancingRetrievalAugmented2025, pp. 8–9]`
-- **Warrant (my words):** Adding an application layer shifts rather than eliminates epistemic risk. The retrieved evidence may be sound while the demonstration of how to use it is itself inappropriate, generated or mismatched.
-- **So what for my thesis:** Post-retrieval reasoning should itself be treated as an evidentially constrained stage: guidance about how archival traces may be connected requires validation and must permit ambiguity, contradiction and non-inference as legitimate outcomes.
-- **Practice cross-check:** Turin bounded inference and scoped missingness: where retrieved traces do not warrant a relation, the workflow should stop at evidence presentation rather than following an available interpretative pattern simply because one resembles the current query.
+## Claim 4
+- **Claim:** Application examples can introduce new errors.
+- **Author claim:** Automatically generated examples may be wrong or oversimplified.
+- **Evidence-supported claim:** The authors acknowledge errors and misalignment between knowledge and application as a limitation. [@wangRAGEnhancingRetrievalAugmented2025, p. 9]
+- **Researcher inference:** Historical reasoning templates can become a second source of overreach after retrieval.
+- **Warrant:** Adding guidance shifts rather than removes epistemic risk.
+- **Boundary:** The study does not measure archival interpretative error.
+- **Consequence:** Application rules need independent validation.
+- **Practice cross-check:** Turin should not reuse precedent patterns without checking source type, chronology and provenance.
+
+## Claim 5
+- **Claim:** Correct method retrieval does not guarantee correct execution.
+- **Author claim:** Their case analysis shows reasoning can fail even when an appropriate method is available.
+- **Evidence-supported claim:** The mathematics example concludes that execution errors persist and verification remains necessary. [@wangRAGEnhancingRetrievalAugmented2025, pp. 8–9]
+- **Researcher inference:** Even valid DDR inference rules do not guarantee a warranted final claim.
+- **Warrant:** Procedure and execution are separate error surfaces.
+- **Boundary:** Mathematical verification is easier to formalise than historical warrant.
+- **Consequence:** Researcher and provenance checks remain necessary after application.
+- **Practice cross-check:** Turin validates quotation, source relation and conclusion after synthesis.
+
+## Claim 6
+- **Claim:** Uncertainty and ambiguity remain unresolved by application-aware RAG.
+- **Author claim:** The authors identify ambiguity and uncertainty as future-work limitations.
+- **Evidence-supported claim:** RAG+ does not directly solve retrieval quality or uncertainty handling. [@wangRAGEnhancingRetrievalAugmented2025, p. 9]
+- **Researcher inference:** A DDR application layer must permit multiple readings and no-relation outcomes.
+- **Warrant:** Reasoning assistance can otherwise turn ambiguity into a single task-oriented answer.
+- **Boundary:** This is a limitation acknowledged rather than experimentally resolved.
+- **Consequence:** Scoped missingness and plurality must sit alongside application-aware reasoning.
+- **Practice cross-check:** Turin distinguishes supported relation, competing readings, conflicting evidence and insufficient evidence.
 
 # Definitions / terms this changes (only the ones that matter)
 
@@ -145,6 +178,10 @@ They try to bridge the gap between retrieval and task-specific reasoning by pair
 
 - **Boundary (1 sentence):** RAG+ is evaluated on mathematics, medical QA and legal sentencing tasks with comparatively determinate target answers, so its accuracy gains do not establish that application examples improve contested historical interpretation.
 - **Risk if misused (1 sentence):** Importing RAG+ directly into archival research could allow generated or precedent-based application patterns to become unexamined interpretative templates, replacing one form of retrieval error with a more persuasive form of reasoning error.
+
+# Cross-source / cross-lens synthesis
+
+Wang et al. provide the technical hinge between retrieval and inference by showing that application is a distinct stage. Read after Asai, the paper strengthens the case for post-retrieval reasoning; read with Isch and Radharapu, it also makes clear that application guidance can itself create overreach or collapse ambiguity. DDR therefore needs evidence-aware application rules that remain inspectable, revisable and capable of returning no relation.
 
 # Methods spine tags (tick what it actually touches)
 
