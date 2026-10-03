@@ -31,6 +31,8 @@ project_tags:
   - "Turin"
   - "Theoretical framework"
 last_updated: "03 Oct 2026"
+north_star_source: "project/north-star.yml"
+constraints_source: "project/constraints.md"
 ---
 
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
@@ -46,12 +48,15 @@ last_updated: "03 Oct 2026"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
 - Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Each claim must include a practice cross-check
-- End with a cross-source / cross-lens synthesis paragraph
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
 - No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -73,74 +78,26 @@ The authors write from design research, research software engineering and digita
 
 They rethink trust in humanities data visualisation by tracing omission and bias, naming and classification, and certainty and precision across source data, digitisation/computation and visualisation, before arguing for interrogability and an ethical commitment to eliciting scepticism. [@BoydDavis2021CanBelieveWhat, pp. 524, 535–538]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Trust problems in humanities visualisation begin before the final graphic.
-- **Author claim:** The authors organise trust problems across source data, digitisation/computation and visualisation rather than locating them only in display.
-- **Evidence-supported claim:** Their Table 1 distributes omission and bias, naming and classification, and certainty and precision across all three stages. [@BoydDavis2021CanBelieveWhat, pp. 523–524]
-- **Researcher inference:** DDR visual outputs should be evaluated as chains of transformation from archival record to representation, not as isolated final interfaces.
-- **Evidence (quote/paraphrase + page):** They argue that cultural-historical data are marked by subjectivity, imprecision and conflicting interpretations, and that transformation can preserve or intensify those conditions. [@BoydDavis2021CanBelieveWhat, pp. 523–524]
-- **Warrant (my words):** A polished interface can inherit uncertainty or bias from earlier stages while making it less visible.
-- **Boundary:** The article offers a general humanities framework rather than a DDR-specific pipeline model.
-- **Consequence:** The thesis should document source, transformation and display stages separately.
-- **Practice cross-check:** Semantic Atlas, Semantic Neighbourhoods and Comparative Views should retain inspectable links back to the records and transformations they visualise.
 
+**Claim.** Trust problems in humanities visualisation begin before the final graphic. **Author claim.** The authors organise trust problems across source data, digitisation/computation and visualisation rather than locating them only in display. **Evidence.** Their Table 1 distributes omission and bias, naming and classification, and certainty and precision across all three stages. [@BoydDavis2021CanBelieveWhat, pp. 523–524] **Evidence-supported claim.** Their Table 1 distributes omission and bias, naming and classification, and certainty and precision across all three stages. [@BoydDavis2021CanBelieveWhat, pp. 523–524] **Researcher inference.** DDR visual outputs should be evaluated as chains of transformation from archival record to representation, not as isolated final interfaces. **Warrant.** A polished interface can inherit uncertainty or bias from earlier stages while making it less visible. **Boundary.** The article offers a general humanities framework rather than a DDR-specific pipeline model. **Consequence.** The thesis should document source, transformation and display stages separately. **Practice cross-check.** Semantic Atlas, Semantic Neighbourhoods and Comparative Views should retain inspectable links back to the records and transformations they visualise.
 ## Claim 2
-- **Claim (plain):** Omission and bias are representational problems as well as archival-data problems.
-- **Author claim:** The authors show that what is absent or selectively represented in source collections can be compounded through digitisation and visualisation.
-- **Evidence-supported claim:** Omission and bias are one of the three recurrent problem families the paper traces across the visualisation pipeline. [@BoydDavis2021CanBelieveWhat, pp. 524–535]
-- **Researcher inference:** A DDR map that displays only retrievable or well-described material risks converting archival visibility into apparent historical importance.
-- **Evidence (quote/paraphrase + page):** The paper repeatedly treats incompleteness and selection as conditions that should be made visible rather than silently normalised in the interface. [@BoydDavis2021CanBelieveWhat, pp. 524–535]
-- **Warrant (my words):** Visual prominence can easily be mistaken for historical prevalence when the underlying evidence surface is uneven.
-- **Boundary:** Visualisation cannot by itself establish why material is absent.
-- **Consequence:** Interface-level absence cues should be tied to archival and corpus provenance rather than interpreted as historical non-existence.
-- **Practice cross-check:** Pair visual outputs with scoped-missingness statements where the corpus or metadata cannot establish a complete relation.
 
+**Claim.** Omission and bias are representational problems as well as archival-data problems. **Author claim.** The authors show that what is absent or selectively represented in source collections can be compounded through digitisation and visualisation. **Evidence.** Omission and bias are one of the three recurrent problem families the paper traces across the visualisation pipeline. [@BoydDavis2021CanBelieveWhat, pp. 524–535] **Evidence-supported claim.** Omission and bias are one of the three recurrent problem families the paper traces across the visualisation pipeline. [@BoydDavis2021CanBelieveWhat, pp. 524–535] **Researcher inference.** A DDR map that displays only retrievable or well-described material risks converting archival visibility into apparent historical importance. **Warrant.** Visual prominence can easily be mistaken for historical prevalence when the underlying evidence surface is uneven. **Boundary.** Visualisation cannot by itself establish why material is absent. **Consequence.** Interface-level absence cues should be tied to archival and corpus provenance rather than interpreted as historical non-existence. **Practice cross-check.** Pair visual outputs with scoped-missingness statements where the corpus or metadata cannot establish a complete relation.
 ## Claim 3
-- **Claim (plain):** Naming and classification are interpretative operations that shape what users can see.
-- **Author claim:** The paper treats naming and classification as a distinct trust problem rather than as neutral metadata maintenance.
-- **Evidence-supported claim:** Examples across pp. 524–535 show that categories and labels can encode assumptions and create disagreement between domain experts and digital practitioners. [@BoydDavis2021CanBelieveWhat, pp. 524–535]
-- **Researcher inference:** DDR machine-generated labels, catalogue terms and researcher-defined categories should be shown as different classificatory layers.
-- **Evidence (quote/paraphrase + page):** The authors connect classificatory choices to the interpretation and trustworthiness of cultural-data visualisations. [@BoydDavis2021CanBelieveWhat, pp. 524–535]
-- **Warrant (my words):** Classification does not merely organise evidence; it structures possible readings of it.
-- **Boundary:** The paper does not prescribe a universal classification scheme.
-- **Consequence:** The thesis should preserve the provenance of archival, researcher and computational labels rather than flattening them into one vocabulary.
-- **Practice cross-check:** Distinguish catalogue description, controlled metadata and generated cluster labels in the Semantic Atlas.
 
+**Claim.** Naming and classification are interpretative operations that shape what users can see. **Author claim.** The paper treats naming and classification as a distinct trust problem rather than as neutral metadata maintenance. **Evidence.** Examples across pp. 524–535 show that categories and labels can encode assumptions and create disagreement between domain experts and digital practitioners. [@BoydDavis2021CanBelieveWhat, pp. 524–535] **Evidence-supported claim.** Examples across pp. 524–535 show that categories and labels can encode assumptions and create disagreement between domain experts and digital practitioners. [@BoydDavis2021CanBelieveWhat, pp. 524–535] **Researcher inference.** DDR machine-generated labels, catalogue terms and researcher-defined categories should be shown as different classificatory layers. **Warrant.** Classification does not merely organise evidence; it structures possible readings of it. **Boundary.** The paper does not prescribe a universal classification scheme. **Consequence.** The thesis should preserve the provenance of archival, researcher and computational labels rather than flattening them into one vocabulary. **Practice cross-check.** Distinguish catalogue description, controlled metadata and generated cluster labels in the Semantic Atlas.
 ## Claim 4
-- **Claim (plain):** Apparent precision can overstate what humanities evidence can support.
-- **Author claim:** Certainty and precision form the third recurrent trust problem in the paper’s framework.
-- **Evidence-supported claim:** The authors argue that humanities evidence may be conflicting, imprecise or incomplete and that visualisation should not erase those qualities. [@BoydDavis2021CanBelieveWhat, pp. 524, 535–538]
-- **Researcher inference:** Semantic proximity, cluster placement and visual distance in DDR interfaces should be treated as heuristic representations, not exact historical measurements.
-- **Evidence (quote/paraphrase + page):** Their conclusion asks visualisations to reveal uncertainty and transformation rather than maximise confidence in apparently exact outputs. [@BoydDavis2021CanBelieveWhat, pp. 535–538]
-- **Warrant (my words):** Graphical exactness can lend methodological authority to relationships that remain interpretative.
-- **Boundary:** The article does not evaluate UMAP or embedding-based visualisation specifically.
-- **Consequence:** The thesis should describe computational positions and distances as model-dependent analytical aids.
-- **Practice cross-check:** UMAP views should include explanatory text that semantic proximity does not itself establish historical relation.
 
+**Claim.** Apparent precision can overstate what humanities evidence can support. **Author claim.** Certainty and precision form the third recurrent trust problem in the paper’s framework. **Evidence.** The authors argue that humanities evidence may be conflicting, imprecise or incomplete and that visualisation should not erase those qualities. [@BoydDavis2021CanBelieveWhat, pp. 524, 535–538] **Evidence-supported claim.** The authors argue that humanities evidence may be conflicting, imprecise or incomplete and that visualisation should not erase those qualities. [@BoydDavis2021CanBelieveWhat, pp. 524, 535–538] **Researcher inference.** Semantic proximity, cluster placement and visual distance in DDR interfaces should be treated as heuristic representations, not exact historical measurements. **Warrant.** Graphical exactness can lend methodological authority to relationships that remain interpretative. **Boundary.** The article does not evaluate UMAP or embedding-based visualisation specifically. **Consequence.** The thesis should describe computational positions and distances as model-dependent analytical aids. **Practice cross-check.** UMAP views should include explanatory text that semantic proximity does not itself establish historical relation.
 ## Claim 5
-- **Claim (plain):** Trust is situated because different users bring different purposes and thresholds of evidence.
-- **Author claim:** The authors emphasise that museum, archive and library users occupy different roles and judge trustworthy visualisation differently.
-- **Evidence-supported claim:** They discuss public visitors, curators, educators, historians, researchers and administrators, alongside cases where professional groups disagree about colour, ranking and relevance. [@BoydDavis2021CanBelieveWhat, pp. 522, 526–530]
-- **Researcher inference:** The DDR instrument can support exploratory discovery and scholarly interpretation, but those uses should not be evaluated by one undifferentiated trust criterion.
-- **Evidence (quote/paraphrase + page):** User role and purpose materially shape expectations of what a visualisation should explain or preserve. [@BoydDavis2021CanBelieveWhat, pp. 522, 526–530]
-- **Warrant (my words):** A representation adequate for orientation may be insufficient as evidence for a historical claim.
-- **Boundary:** The article does not supply a user-study protocol for the DDR project.
-- **Consequence:** Research-readiness evaluation should ask whether provenance, uncertainty and interpretative limits are intelligible for the specific task.
-- **Practice cross-check:** Keep exploratory visual browsing distinct from source-linked claim checking in evaluation scenarios.
 
+**Claim.** Trust is situated because different users bring different purposes and thresholds of evidence. **Author claim.** The authors emphasise that museum, archive and library users occupy different roles and judge trustworthy visualisation differently. **Evidence.** They discuss public visitors, curators, educators, historians, researchers and administrators, alongside cases where professional groups disagree about colour, ranking and relevance. [@BoydDavis2021CanBelieveWhat, pp. 522, 526–530] **Evidence-supported claim.** They discuss public visitors, curators, educators, historians, researchers and administrators, alongside cases where professional groups disagree about colour, ranking and relevance. [@BoydDavis2021CanBelieveWhat, pp. 522, 526–530] **Researcher inference.** The DDR instrument can support exploratory discovery and scholarly interpretation, but those uses should not be evaluated by one undifferentiated trust criterion. **Warrant.** A representation adequate for orientation may be insufficient as evidence for a historical claim. **Boundary.** The article does not supply a user-study protocol for the DDR project. **Consequence.** Research-readiness evaluation should ask whether provenance, uncertainty and interpretative limits are intelligible for the specific task. **Practice cross-check.** Keep exploratory visual browsing distinct from source-linked claim checking in evaluation scenarios.
 ## Claim 6
-- **Claim (plain):** Humanities visualisation should be interrogable and should encourage informed scepticism.
-- **Author claim:** The authors recommend interdisciplinary practice, interrogable data/processes/systems and an ethical commitment to eliciting scepticism.
-- **Evidence-supported claim:** Their conclusion explicitly argues that the task is often to reveal how data and transformations may be untrustworthy, and that design contributes throughout the process rather than merely styling the output. [@BoydDavis2021CanBelieveWhat, pp. 535–538]
-- **Researcher inference:** Interface authority in the DDR project should be countered by visible provenance, inspectable transformations and routes back to source records.
-- **Evidence (quote/paraphrase + page):** The paper places interrogability and scepticism at the centre of trustworthy humanities visualisation. [@BoydDavis2021CanBelieveWhat, pp. 535–538]
-- **Warrant (my words):** Trustworthy systems need to support questioning rather than demand confidence.
-- **Boundary:** More visible methodological detail can also burden users if it is poorly designed.
-- **Consequence:** Provenance and uncertainty should be available at the point of interpretation without overwhelming the primary research task.
-- **Practice cross-check:** Turin provenance controls and the Semantic Atlas should make source inspection and methodological explanation accessible from the interface.
 
+**Claim.** Humanities visualisation should be interrogable and should encourage informed scepticism. **Author claim.** The authors recommend interdisciplinary practice, interrogable data/processes/systems and an ethical commitment to eliciting scepticism. **Evidence.** Their conclusion explicitly argues that the task is often to reveal how data and transformations may be untrustworthy, and that design contributes throughout the process rather than merely styling the output. [@BoydDavis2021CanBelieveWhat, pp. 535–538] **Evidence-supported claim.** Their conclusion explicitly argues that the task is often to reveal how data and transformations may be untrustworthy, and that design contributes throughout the process rather than merely styling the output. [@BoydDavis2021CanBelieveWhat, pp. 535–538] **Researcher inference.** Interface authority in the DDR project should be countered by visible provenance, inspectable transformations and routes back to source records. **Warrant.** Trustworthy systems need to support questioning rather than demand confidence. **Boundary.** More visible methodological detail can also burden users if it is poorly designed. **Consequence.** Provenance and uncertainty should be available at the point of interpretation without overwhelming the primary research task. **Practice cross-check.** Turin provenance controls and the Semantic Atlas should make source inspection and methodological explanation accessible from the interface.
 # Definitions / terms this changes (only the ones that matter)
 - **Trust in visualization:** not blind confidence in output, but a situated judgement shaped by the user, the purpose, and the transformations applied to data; I will use this relationally rather than as a fixed property of a graphic. `[@BoydDavis2021CanBelieveWhat, pp. 522–523, 529–530]`
 - **Interrogability:** the ability to question data, processes, models, filters, and outputs, including provenance and transformation steps; I will use this as a central design criterion for S3 systems. `[@BoydDavis2021CanBelieveWhat, pp. 532, 537–538]`
