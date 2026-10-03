@@ -56,11 +56,15 @@ constraints_source: "project/constraints.md"
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- Substantive source → at least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
 - Keep author claim, evidence-supported claim, and researcher inference distinct
-- Practice cross-check required for each claim
-- Final cross-source / cross-lens synthesis required
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -80,68 +84,26 @@ Isch et al. combine large-scale computational analysis, a preregistered human ex
 
 They quantify narrative overreach and test whether human and model summaries preserve, amplify or correct the inferential force of source claims. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–8, 13]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim:** LLM summarisation can strengthen the relationship asserted by source material.
-- **Author claim:** Model summaries sometimes convert associational evidence into direct causal language.
-- **Evidence-supported claim:** Examples include “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances.” [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]
-- **Researcher inference:** DDR synthesis can similarly overstate association as influence, collaboration or responsibility.
-- **Warrant:** The synthesis changes epistemic force rather than merely shortening text.
-- **Boundary:** Their experiments concern causal language in social science.
-- **Consequence:** Relation type should be checked before generated historical claims are accepted.
-- **Practice cross-check:** Turin UAT should compare source relation language with generated relation language.
 
+**Claim.** LLM summarisation can strengthen the relationship asserted by source material. **Author claim.** Model summaries sometimes convert associational evidence into direct causal language. **Evidence.** Examples include “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances.” [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7] **Evidence-supported claim.** Examples include “was associated with” becoming “positively impacted” and “was related to” becoming “lowers your chances.” [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7] **Researcher inference.** DDR synthesis can similarly overstate association as influence, collaboration or responsibility. **Warrant.** The synthesis changes epistemic force rather than merely shortening text. **Boundary.** Their experiments concern causal language in social science. **Consequence.** Relation type should be checked before generated historical claims are accepted. **Practice cross-check.** Turin UAT should compare source relation language with generated relation language.
 ## Claim 2
-- **Claim:** Hedging is evidential content rather than disposable style.
-- **Author claim:** Conditional and qualified causal claims are frequently transformed into unhedged statements.
-- **Evidence-supported claim:** Figure 6 shows conditional claims declining during ordinary summarisation. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]
-- **Researcher inference:** Words such as may, suggests, recalls and appears must be preserved where they encode DDR uncertainty.
-- **Warrant:** Removing a hedge changes what proposition is being asserted.
-- **Boundary:** Not every lexical hedge carries the same evidential function.
-- **Consequence:** Modality preservation should be a synthesis criterion.
-- **Practice cross-check:** Turin should retain “the record suggests,” “X recalls,” and “the corpus does not establish” where warranted.
 
+**Claim.** Hedging is evidential content rather than disposable style. **Author claim.** Conditional and qualified causal claims are frequently transformed into unhedged statements. **Evidence.** Figure 6 shows conditional claims declining during ordinary summarisation. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7] **Evidence-supported claim.** Figure 6 shows conditional claims declining during ordinary summarisation. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7] **Researcher inference.** Words such as may, suggests, recalls and appears must be preserved where they encode DDR uncertainty. **Warrant.** Removing a hedge changes what proposition is being asserted. **Boundary.** Not every lexical hedge carries the same evidential function. **Consequence.** Modality preservation should be a synthesis criterion. **Practice cross-check.** Turin should retain “the record suggests,” “X recalls,” and “the corpus does not establish” where warranted.
 ## Claim 3
-- **Claim:** Richer retrieval does not automatically prevent inferential overreach.
-- **Author claim:** Full-text access did not significantly change causal-language distributions relative to title/abstract conditions across tested configurations.
-- **Evidence-supported claim:** More source context did not by itself eliminate overclaiming. [@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13]
-- **Researcher inference:** Increasing top-k or supplying full DDR documents is not sufficient protection against overinterpretation.
-- **Warrant:** Retrieval breadth and inferential discipline are separate problems.
-- **Boundary:** Other retrieval architectures may behave differently.
-- **Consequence:** Post-retrieval synthesis needs its own controls.
-- **Practice cross-check:** Turin combines retrieval with inference rules, scoped missingness and provenance checks.
 
+**Claim.** Richer retrieval does not automatically prevent inferential overreach. **Author claim.** Full-text access did not significantly change causal-language distributions relative to title/abstract conditions across tested configurations. **Evidence.** More source context did not by itself eliminate overclaiming. [@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13] **Evidence-supported claim.** More source context did not by itself eliminate overclaiming. [@Isch2026QuantifyingPrevalenceImpact, pp. 5, 13] **Researcher inference.** Increasing top-k or supplying full DDR documents is not sufficient protection against overinterpretation. **Warrant.** Retrieval breadth and inferential discipline are separate problems. **Boundary.** Other retrieval architectures may behave differently. **Consequence.** Post-retrieval synthesis needs its own controls. **Practice cross-check.** Turin combines retrieval with inference rules, scoped missingness and provenance checks.
 ## Claim 4
-- **Claim:** Explicit caution instructions can materially reduce overclaiming.
-- **Author claim:** A careful prompting condition reduced unhedged causal language.
-- **Evidence-supported claim:** The cautious condition produced a much lower mean causal rate across tested models. [@Isch2026QuantifyingPrevalenceImpact, pp. 6–7]
-- **Researcher inference:** Prompting can be one layer of DDR evidential control.
-- **Warrant:** Generation behaviour responds to explicit epistemic instruction.
-- **Boundary:** Prompting does not guarantee compliance and is not a substitute for validation.
-- **Consequence:** Caution instructions should be paired with structural safeguards.
-- **Practice cross-check:** Turin uses prompt constraints alongside deterministic fallback and researcher review.
 
+**Claim.** Explicit caution instructions can materially reduce overclaiming. **Author claim.** A careful prompting condition reduced unhedged causal language. **Evidence.** The cautious condition produced a much lower mean causal rate across tested models. [@Isch2026QuantifyingPrevalenceImpact, pp. 6–7] **Evidence-supported claim.** The cautious condition produced a much lower mean causal rate across tested models. [@Isch2026QuantifyingPrevalenceImpact, pp. 6–7] **Researcher inference.** Prompting can be one layer of DDR evidential control. **Warrant.** Generation behaviour responds to explicit epistemic instruction. **Boundary.** Prompting does not guarantee compliance and is not a substitute for validation. **Consequence.** Caution instructions should be paired with structural safeguards. **Practice cross-check.** Turin uses prompt constraints alongside deterministic fallback and researcher review.
 ## Claim 5
-- **Claim:** Summarisation should be evaluated for inferential preservation, not only semantic similarity.
-- **Author claim:** The study treats changes in causal category as substantive distortions.
-- **Evidence-supported claim:** Their analysis tracks descriptive, conditional and direct causal categories across source and summary. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7]
-- **Researcher inference:** DDR evaluation should compare modality, certainty and relation type between evidence and synthesis.
-- **Warrant:** A semantically similar sentence can still be epistemically stronger.
-- **Boundary:** Their category scheme is domain-specific.
-- **Consequence:** Historical synthesis needs relation-strength preservation tests.
-- **Practice cross-check:** Turin can test association→influence, testimony→fact and possibility→certainty transformations.
 
+**Claim.** Summarisation should be evaluated for inferential preservation, not only semantic similarity. **Author claim.** The study treats changes in causal category as substantive distortions. **Evidence.** Their analysis tracks descriptive, conditional and direct causal categories across source and summary. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7] **Evidence-supported claim.** Their analysis tracks descriptive, conditional and direct causal categories across source and summary. [@Isch2026QuantifyingPrevalenceImpact, pp. 5–7] **Researcher inference.** DDR evaluation should compare modality, certainty and relation type between evidence and synthesis. **Warrant.** A semantically similar sentence can still be epistemically stronger. **Boundary.** Their category scheme is domain-specific. **Consequence.** Historical synthesis needs relation-strength preservation tests. **Practice cross-check.** Turin can test association→influence, testimony→fact and possibility→certainty transformations.
 ## Claim 6
-- **Claim:** Narrative overreach is partly a communication problem, not merely a retrieval problem.
-- **Author claim:** The authors place model behaviour within a broader account of narrative license and overclaiming.
-- **Evidence-supported claim:** They define narrative practices that make research claims more compelling at the expense of evidential accuracy. [@Isch2026QuantifyingPrevalenceImpact, p. 8]
-- **Researcher inference:** Archival AI can produce persuasive historical narratives even when source retrieval is technically correct.
-- **Warrant:** The final wording mediates how evidence is understood.
-- **Boundary:** The study does not directly measure archival narrative persuasion.
-- **Consequence:** Generated prose itself is part of the evidential risk surface.
-- **Practice cross-check:** Turin should treat synthesis wording as a research object subject to UAT, not merely a delivery layer.
 
+**Claim.** Narrative overreach is partly a communication problem, not merely a retrieval problem. **Author claim.** The authors place model behaviour within a broader account of narrative license and overclaiming. **Evidence.** They define narrative practices that make research claims more compelling at the expense of evidential accuracy. [@Isch2026QuantifyingPrevalenceImpact, p. 8] **Evidence-supported claim.** They define narrative practices that make research claims more compelling at the expense of evidential accuracy. [@Isch2026QuantifyingPrevalenceImpact, p. 8] **Researcher inference.** Archival AI can produce persuasive historical narratives even when source retrieval is technically correct. **Warrant.** The final wording mediates how evidence is understood. **Boundary.** The study does not directly measure archival narrative persuasion. **Consequence.** Generated prose itself is part of the evidential risk surface. **Practice cross-check.** Turin should treat synthesis wording as a research object subject to UAT, not merely a delivery layer.
 # Definitions / terms this changes (only the ones that matter)
 
 - **Overreaching causal claim:** a causal proposition whose strength exceeds what the empirical design under consideration can directly establish. `[@Isch2026QuantifyingPrevalenceImpact, pp. 1–2]`
