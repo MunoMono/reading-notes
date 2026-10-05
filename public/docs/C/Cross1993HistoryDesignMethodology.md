@@ -57,7 +57,7 @@ project_tags:
 
 **Why I’m reading this now:** It is a compact historiography written thirty years after the 1962 conference, close enough to include first-generation participants yet retrospective enough to register rejection, divergence and renewal.
 
-**Where it sits in my argument:** Operational literature because it historicises the methodological field in which DDR worked and supplies terminology needed to distinguish different claims about science and design.
+**Where it sits in my argument:** Canon + intellectual lineage because Cross is both a participant in and a retrospective historian of the design-methods movement, providing a field-defining account of its origins, crisis, renewal and distinctions among design, methodology and science.
 
 **My benchmark for using it:** I will use Cross's map as a secondary historiographic framework and test DDR-specific chronology and influence against primary traces rather than importing his generational narrative wholesale.
 
