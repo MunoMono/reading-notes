@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T08:00:00.000Z",
+  "updatedAt": "2026-10-05T09:16:00.000Z",
   "entries": [
     {
       "letter": "A",
@@ -883,6 +883,35 @@
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
       "mtimeMs": 1790843642965.6145,
+      "category": "1. Critical design historiography"
+    },
+    {
+      "letter": "C",
+      "slug": "Cross1993HistoryDesignMethodology",
+      "path": "/docs/C/Cross1993HistoryDesignMethodology.md",
+      "title": "A history of design methodology",
+      "authors": "Cross, Nigel",
+      "year": "1993",
+      "journal": "Design Methodology and Relationships with Science",
+      "doi": "10.1007/978-94-015-8220-9_2",
+      "url": "http://link.springer.com/10.1007/978-94-015-8220-9_2",
+      "citation_key": "Cross1993HistoryDesignMethodology",
+      "displayTitle": "Cross, Nigel (1993). A history of design methodology — Design Methodology and Relationships with Science",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / Critical design historiography / Canon + intellectual lineage",
+      "source_type": "Core / historiographic bridge",
+      "project_tags": [
+        "Theoretical framework"
+      ],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
+      "noteDate": "05 Oct 2026",
+      "noteDateMs": 1791158400000,
+      "mtimeMs": 1791191760000,
       "category": "1. Critical design historiography"
     },
     {
