@@ -13,7 +13,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "01 Oct 2026"
-last_updated: "01 Oct 2026"
+last_updated: "05 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 
@@ -27,7 +27,7 @@ theoretical_framework_area: "Critical archival theory"
 literature_cluster_id: "c"
 literature_cluster: "Contemporary bridge literature"
 zotero_filing_path: "Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature"
-source_type: "Core / bridge text"
+source_type: "Contemporary archival-AI bridge"
 project_tags:
   - "Theoretical framework"
 ---
@@ -37,132 +37,101 @@ project_tags:
 **Primary theoretical-framework area:** 2. Critical archival theory  
 **Literature cluster:** c) Contemporary bridge literature  
 **Zotero filing path:** Theoretical framework / 2. Critical archival theory / c) Contemporary bridge literature  
-**Source type:** Core / bridge text
+**Source type:** Contemporary archival-AI bridge
 
 # Constraints (anti-bloat / anti-hallucination)
 - No page cite → TODO (needs page / verification)
-- At least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
-- Separate author claim, evidence-supported claim and researcher inference
-- Practice cross-check or TODO for each claim
-- Final synthesis required
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
-**How this source moves the primary research question forward:** Jaillant and Rees show that AI archive access is not primarily a technical optimisation problem: it depends on trust, ethics and collaboration across record creators, archivists and users. This gives the DDR computational strand an explicitly archival governance frame.
+**How this source moves the primary research question forward:** Jaillant and Rees show that computational access to archives is governed by human trust, professional ethics, rights, institutional responsibility and explainability as much as by technical capability, giving the DDR research instrument a contemporary archival-governance benchmark.
 
-**How this source bears on the secondary question:** Responsible computational revisiting of historical ideas requires institutions and researchers to negotiate access, sensitivity, interpretability and professional responsibility rather than treating AI as frictionless discovery.
+**How this source bears on the secondary question:** It provides a present-day test for revisiting DDR-period ideas about systematic method and computing: useful computational practice must now answer to accountability, bias, transparency, domain knowledge and collaborative governance.
 
-**Why I’m reading this now:** It is the direct contemporary bridge between critical archival theory and the thesis's retrieval/AI practice.
+**Why I’m reading this now:** It sits directly between critical archival theory and the thesis’s AI-enabled activation work.
 
-**Where it sits in my argument:** Contemporary bridge literature. It moves from archival access barriers to a human-centred model of trustworthy AI implementation.
+**Where it sits in my argument:** Contemporary bridge literature because it translates archival values into current conditions of AI access and implementation.
 
-**My benchmark for using it:** I will use the paper to justify collaborative and explainable archival AI, not to claim that AI automatically improves access or trust.
+**Why this theoretical-framework area + literature cluster is the right filing location:** The article’s principal problem is archival access and governance rather than model architecture. AI is examined through archival responsibilities, stakeholder relations and ethical obligations.
+
+**My benchmark for using it:** I will treat AI-assisted archival access as defensible only when the system’s role can be explained, source and access constraints remain visible, and human stakeholders retain responsibility for consequential decisions.
 
 # Position + moment
 
-Jaillant and Rees write in 2023 from research on born-digital government archives. Their study is based on thirty semi-structured interviews with government professionals, archivists, historians, digital humanists and computer scientists and deliberately follows the “archival circle” from record creators through custodians to users. [@jaillantApplyingAIDigital2023, pp. 571–573]
+Jaillant and Rees write from research on born-digital archives at a point when AI was increasingly proposed as a response to scale, sensitivity review and weak keyword search. Their study draws on thirty semi-structured interviews spanning government professionals, archivists, historians, digital humanists and computer scientists, deliberately following the “archival circle” from record creators to custodians and users. [@jaillantApplyingAIDigital2023, pp. 571–574]
 
 # The author’s main move
 
-They argue that AI can help unlock born-digital archives, but that skills, legal constraints and technology are secondary to a deeper governance problem: mistrust and poor communication among archival stakeholders; shared professional ethics and human collaboration are prerequisites for trustworthy AI. [@jaillantApplyingAIDigital2023, pp. 571–583]
+The paper shifts the problem of archival AI from technical possibility to socio-professional conditions of use. It argues that mistrust among record creators, archivists and researchers, together with mistrust of opaque technologies, can prevent access even where AI could technically help; shared professional ethics, collaboration and explainability are therefore prerequisites for trustworthy implementation. [@jaillantApplyingAIDigital2023, pp. 571–581]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Access to born-digital archives is constrained before AI enters the problem.
-- **Author claim:** Jaillant and Rees identify data protection, sensitivity, national security and copyright as major access barriers.
-- **Evidence-supported claim:** The abstract and opening pages state that many digital collections remain difficult to release despite decades of preservation work. [@jaillantApplyingAIDigital2023, pp. 571–573]
-- **Researcher inference:** Computational capability cannot override source rights or repository access conditions in the DDR project.
-- **Evidence (quote/paraphrase + page):** The authors describe access as complicated by legal, ethical and sensitivity constraints independent of model performance. [@jaillantApplyingAIDigital2023, pp. 571–573]
-- **Warrant (my words):** A technically searchable collection can remain archivally inaccessible.
-- **Boundary:** DDR's digitised historical collection differs from government born-digital records in sensitivity profile.
-- **Consequence:** Access and rights remain upstream constraints in the computational workflow.
-- **Practice cross-check:** Preserve RCA/V&A rights and source-access rules separately from model retrieval permissions.
+
+**Claim.** Archival access problems exist upstream of AI and cannot be solved by retrieval performance alone. **Author claim.** Jaillant and Rees identify data protection, sensitivity, national security, copyright and institutional risk as reasons born-digital archives remain difficult to access. **Evidence.** Their opening argument distinguishes long-established preservation work from slower progress on access and explains that legal and sensitivity constraints shape whether records can be released at all. [@jaillantApplyingAIDigital2023, pp. 571–574] **Evidence-supported claim.** A technically processable collection may still be archivally inaccessible or conditionally accessible. **Researcher inference.** DDR retrieval permissions, rights and source-access status must remain distinct from what the model is technically capable of retrieving. **Warrant.** Technical search cannot legitimately override institutional or rights-based conditions. **Boundary.** Government born-digital records present sensitivity risks different from the historical DDR corpus. **Consequence.** Access and rights belong in the research instrument’s provenance layer, not as afterthoughts to model output. **Practice cross-check.** TODO (map RCA/V&A rights and access status to the source/provenance layer used in retrieval).
 
 ## Claim 2
-- **Claim (plain):** AI has genuine access potential but remains experimental and context-dependent.
-- **Author claim:** The paper discusses sensitivity classification, enhanced search and recommendation/discovery as possible uses.
-- **Evidence-supported claim:** Pages 571–574 present AI as potentially useful where keyword search fails or review scale is too large, while repeatedly stressing experimental status.
-- **Researcher inference:** DDR retrieval/RAI should be framed as an evaluated research instrument rather than a mature archival replacement.
-- **Evidence (quote/paraphrase + page):** Jaillant and Rees describe AI as a route to increased accessibility while stating that archival use remains experimental. [@jaillantApplyingAIDigital2023, pp. 571–574]
-- **Warrant (my words):** Potential benefit requires task-specific validation rather than generic confidence in AI.
-- **Boundary:** Their examples are mainly born-digital access/review tasks, not historical synthesis.
-- **Consequence:** The thesis needs UAT and provenance controls for its own retrieval/synthesis tasks.
-- **Practice cross-check:** Full UAT separates relevant traces, evidential status, ambiguity and limits.
+
+**Claim.** At archival scale, automation may become necessary without becoming sufficient. **Author claim.** Interviewees describe manual review and keyword search as inadequate for very large digital collections, while the paper also warns that AI-assisted search can miss relevant material. **Evidence.** The discussion of hundreds of millions of emails and large web-archive result sets leads interviewees to describe computational methods as necessary, but the authors explicitly note that AI-assisted search is imperfect. [@jaillantApplyingAIDigital2023, pp. 575–576] **Evidence-supported claim.** Scale can justify computational assistance while leaving recall, relevance and omission as evidential problems. **Researcher inference.** DDR semantic retrieval should be presented as a way of navigating a defined evidence surface, not as exhaustive discovery of everything historically relevant. **Warrant.** Necessity under scale does not imply completeness. **Boundary.** The DDR corpus is smaller and more bounded than national born-digital holdings. **Consequence.** Retrieval evaluation and scoped missingness remain necessary even when computation materially improves access. **Practice cross-check.** Compare UAT cases where the system retrieves relevant traces with cases where it correctly withholds or states corpus limits.
 
 ## Claim 3
-- **Claim (plain):** Skills gaps alone do not explain why archives remain “dark.”
-- **Author claim:** The authors argue that mistrust and miscommunication are at least as important as technical capability.
-- **Evidence-supported claim:** Across pp. 571–573 and the interview findings, they explicitly reject a purely skills-based diagnosis.
-- **Researcher inference:** Improving the DDR model does not by itself establish confidence in its outputs; researcher/archivist understanding of behaviour and limits matters.
-- **Evidence (quote/paraphrase + page):** The paper states that skills gaps contribute to darkness but urges attention to mistrust among stakeholders and toward technology. [@jaillantApplyingAIDigital2023, pp. 571–573, 578–581]
-- **Warrant (my words):** Adoption depends on social confidence in who controls the system and how decisions are made.
-- **Boundary:** Interview perceptions do not measure technical system accuracy.
-- **Consequence:** Evaluation should include interpretability and operator understanding as well as retrieval quality.
-- **Practice cross-check:** Expose evidence cards, source usage and failure modes in the DDR interface.
+
+**Claim.** Explainability is an archival accountability requirement, not merely a model-quality preference. **Author claim.** The authors report that opaque “black box” systems conflict with professional expectations that actions affecting public records can be understood, justified and challenged. **Evidence.** Interviewees connect explainable AI to accountability and trust; one sensitivity-review project deliberately favours predictable, repeatable technologies and intuitive explanations over unexplainable systems. [@jaillantApplyingAIDigital2023, pp. 577–578] **Evidence-supported claim.** In archival settings, inability to explain computational intervention can undermine the legitimacy of decisions and research findings. **Researcher inference.** DDR outputs should expose source usage, retrieval paths and the status of synthesis rather than ask users to trust generated prose. **Warrant.** Archival interpretation becomes more contestable when the path from source to output can be inspected. **Boundary.** Explainability does not guarantee correctness or fairness. **Consequence.** Provenance and inspectability should be evaluated as research requirements in their own right. **Practice cross-check.** Use source-linked evidence cards and explicit source/testimony/synthesis separation as the inspectable path behind generated claims.
 
 ## Claim 4
-- **Claim (plain):** Record creators, archivists and researchers share more ethical commitments than their mistrust suggests.
-- **Author claim:** Jaillant and Rees compare professional codes and interview responses across the archival circle.
-- **Evidence-supported claim:** Pages 574–577 identify overlapping commitments such as integrity, objectivity/impartiality, privacy, safety and cooperative working.
-- **Researcher inference:** Shared principles can form governance requirements for DDR computational work even where disciplinary languages differ.
-- **Evidence (quote/paraphrase + page):** The authors argue that professional ethics are often similar but insufficiently communicated across sectors. [@jaillantApplyingAIDigital2023, pp. 574–577]
-- **Warrant (my words):** Collaboration is easier when stakeholders can translate concerns into shared normative commitments.
-- **Boundary:** Codes of ethics do not guarantee ethical outcomes by themselves.
-- **Consequence:** The thesis should operationalise principles through concrete controls, not merely cite them.
-- **Practice cross-check:** Provenance, scoped missingness and no-forced-answer behaviour are operational controls tied to shared integrity/transparency goals.
+
+**Claim.** Control is a central archival concern because access decisions can be consequential and irreversible. **Author claim.** Jaillant and Rees show that civil servants, archivists and researchers worry about loss of control over what is released, described, included and excluded when AI enters archival processes. **Evidence.** Interviewees discuss irreversible access decisions, privacy and sensitivity responsibilities, and the tendency to keep material in controlled reading-room environments where risk can be more tightly managed. [@jaillantApplyingAIDigital2023, pp. 578–579] **Evidence-supported claim.** AI changes not only search efficiency but the distribution of control over archival decision-making. **Researcher inference.** The DDR instrument should not silently convert model outputs into authoritative descriptive or historical decisions. **Warrant.** When automated actions affect visibility or interpretation, control itself becomes part of the archival method. **Boundary.** Research retrieval within an already digitised corpus is less consequential than releasing closed personal or government records. **Consequence.** Generated labels, summaries and inferred relations should remain provisional and reversible. **Practice cross-check.** Preserve human review of generated classifications and allow research outputs to be revised without changing underlying source records.
 
 ## Claim 5
-- **Claim (plain):** Trustworthy archival AI begins with trust among humans, not blind trust in technology.
-- **Author claim:** The paper repeatedly says that restoring communication and trust among stakeholders is the first step and AI comes afterward.
-- **Evidence-supported claim:** The authors state that “trust in other humans can lead to trust in technology” and explicitly reject unquestioning trust in AI. [@jaillantApplyingAIDigital2023, pp. 572–573, 581–583]
-- **Researcher inference:** DDR interface authority should be deliberately limited so users can inspect evidence rather than defer to model fluency.
-- **Evidence (quote/paraphrase + page):** Jaillant and Rees propose collectively developed and explainable tools rather than opaque systems demanding confidence. [@jaillantApplyingAIDigital2023, pp. 572–573, 581–583]
-- **Warrant (my words):** Trustworthiness derives from accountable relationships, procedures and evidence, not from an AI system's persuasive output.
-- **Boundary:** Human collaboration can still reproduce institutional blind spots.
-- **Consequence:** The system should support scrutiny rather than automate authority.
-- **Practice cross-check:** Render citations/provenance and make unsupported historical claims harder to produce.
+
+**Claim.** Bias should be surfaced and contextualised rather than treated as a defect that can simply be engineered away. **Author claim.** Interviewees caution that attempts to remove one bias can introduce another and argue for explicit awareness of biases embedded in technologies and results. **Evidence.** The paper’s discussion of bias stresses acknowledgement, contextualisation and critical understanding rather than claims of neutral AI. [@jaillantApplyingAIDigital2023, pp. 579–580] **Evidence-supported claim.** Responsible archival AI requires visibility of selection and modelling effects. **Researcher inference.** DDR semantic neighbourhoods and generated synthesis should be treated as model-dependent representations whose exclusions and emphases require interpretation. **Warrant.** Computational mediation necessarily reflects training, corpus and modelling choices. **Boundary.** The article does not provide a quantitative bias-audit method for embeddings or RAG. **Consequence.** The thesis should document corpus boundaries, model versions and known failure patterns rather than claiming neutrality. **Practice cross-check.** Relate UMAP/retrieval findings back to corpus construction, embedding model and failed UAT cases.
 
 ## Claim 6
-- **Claim (plain):** Archival AI requires collaboration across the whole record lifecycle.
-- **Author claim:** Jaillant and Rees say earlier work often focused on preservation or archivists alone, while their approach includes record creators, archivists and users.
-- **Evidence-supported claim:** The study explicitly presents AI access as a problem spanning the entire archival circle and recommends cross-sector, cross-disciplinary dialogue. [@jaillantApplyingAIDigital2023, pp. 571–573, 581–583]
-- **Researcher inference:** DDR computational design should be accountable to archival provenance, historical research needs and technical implementation simultaneously.
-- **Evidence (quote/paraphrase + page):** Their conclusion recommends surfacing shared ethics through collaboration before scaling AI use. [@jaillantApplyingAIDigital2023, pp. 581–583]
-- **Warrant (my words):** Archive AI changes practices across institutional roles, so no single technical team can define trustworthy behaviour alone.
-- **Boundary:** The thesis is one researcher-led project and cannot reproduce a full institutional governance structure.
-- **Consequence:** Claims should remain bounded to the tested DDR system while incorporating archivally informed controls.
-- **Practice cross-check:** Use supervisors/archive staff/UAT as external checks on computational assumptions and source interpretation.
+
+**Claim.** Trustworthy archival AI depends on shared professional ethics being made operational through collaboration. **Author claim.** Jaillant and Rees find substantial overlap in the values of civil servants, archivists and researchers but argue that these common principles are poorly communicated. **Evidence.** The paper compares professional commitments to transparency, responsibility, privacy, impartiality and cooperation, then recommends cross-sector dialogue because shared ethics can support trust in collectively developed tools. [@jaillantApplyingAIDigital2023, pp. 574–575, 580–581] **Evidence-supported claim.** Ethical compatibility can become a practical basis for collaboration when it is surfaced and translated into system requirements. **Researcher inference.** DDR controls such as provenance, bounded claims and explicit uncertainty should be framed as operationalisations of research and archival responsibilities, not merely interface features. **Warrant.** Values have methodological force only when they constrain action. **Boundary.** Professional codes do not guarantee ethical outcomes or resolve conflicts among values. **Consequence.** The thesis should show which design decisions instantiate accountability rather than merely citing ethical principles. **Practice cross-check.** Map provenance, no-forced-answer behaviour and scoped missingness to specific integrity/transparency requirements.
+
+## Claim 7
+
+**Claim.** Domain knowledge and interdisciplinary collaboration are part of the epistemic infrastructure of archival AI. **Author claim.** The conclusion argues that applying AI to archives requires computational skills together with knowledge of the entities and archival contexts being processed. **Evidence.** Jaillant and Rees conclude that disciplinary silos hinder archival AI and position Digital Humanities as a bridge among record creators, archivists, researchers and technologists. [@jaillantApplyingAIDigital2023, p. 581] **Evidence-supported claim.** Technical implementation without archival and domain expertise is insufficient for accountable interpretation. **Researcher inference.** The DDR instrument’s value depends on keeping design-history knowledge, archival context and computational method in active relation. **Warrant.** Models do not supply the domain-specific criteria needed to judge whether a relation is historically meaningful. **Boundary.** Interdisciplinarity can still conceal unequal authority among collaborators. **Consequence.** Researcher interpretation and archival provenance should remain explicit layers alongside computation. **Practice cross-check.** Use the four evidence routes and UAT criteria to distinguish model retrieval from historian judgement.
 
 # Definitions / terms this changes
 
-- **Archival circle:** record creators → archivists/custodians → researchers/users as an interdependent system. [@jaillantApplyingAIDigital2023, pp. 571–573]
-- **Shared professional ethics:** overlapping normative commitments that can support trust and collaboration across archival roles. [@jaillantApplyingAIDigital2023, pp. 574–577]
-- **Trustworthy archival AI:** not blind reliance but confidence grounded in collaboration, explanation and accountable professional practice. [@jaillantApplyingAIDigital2023, pp. 581–583]
+- **Trustworthy archival AI →** computational archival work whose operation, responsibilities and limits are sufficiently visible that stakeholders can scrutinise consequential decisions. [@jaillantApplyingAIDigital2023, pp. 577–581]
+- **Archival circle →** the connected sequence of record creators, archival custodians and users whose responsibilities shape access and computational use. [@jaillantApplyingAIDigital2023, pp. 571–572]
+- **Explainability →** the capacity to give an intelligible account of how computational decisions or results were produced, especially where archival accountability is at stake. [@jaillantApplyingAIDigital2023, pp. 577–578]
 
 # My response
 
-Jaillant and Rees are important because they reverse the usual AI-first framing. The difficult problem is not “which model unlocks the archive?” but “what social, professional and evidential conditions make computational access legitimate?” That aligns strongly with the DDR system's development: provenance and failure boundaries are not add-ons after retrieval quality; they are part of what makes the system archivally credible.
+The important shift for my thesis is that “trust” cannot be treated as a cosmetic user-experience outcome. In an archival system it is generated—or lost—through evidence, rights, responsibility, interpretability and institutional relations. That makes provenance and bounded synthesis part of the archival argument, not simply the computational one.
+
+**Reusable thesis sentence:** Computational activation of an archive becomes defensible not when AI is persuasive, but when the institutional, evidential and technical conditions of its intervention remain open to scrutiny.
 
 # Integration hooks
 
-**Where I will cite it:** AI/archive governance; human-in-the-loop rationale; provenance and interface authority; collaboration.
-
-**Link to my practice evidence:** UAT, evidence cards, provenance bindings and scoped missingness are concrete mechanisms for building confidence without demanding trust in model output.
-
-**Workstreams →** Critical archival theory; RAI; responsible AI; provenance.  
-**Deliverables →** Theoretical framework; research design; ethics/limitations.
+- **Where I will cite it:** Chapter 5 on accountable computational activation; Chapter 7 where archival access, AI and institutional trust are opened toward wider implications.
+- **Where I will name the title in running text:** First use in the section establishing why archival AI is a governance and professional-ethics problem as well as a technical one.
+- **Link to my practice evidence:** UAT evidence packets, source usage, provenance controls, scoped missingness and failure logging.
+- **Workstreams →** Critical archival theory; computational activation; provenance; access; trust.
+- **Deliverables →** Theoretical framework; research-instrument chapter; discussion.
 
 # Boundary + risk
 
-**Boundary:** The article focuses on born-digital government archives and access/review rather than retrieval-augmented historical inference over a digitised design archive.
+**Boundary:** The empirical study concerns born-digital government and cultural-heritage records, so its specific risk environment cannot be transferred wholesale to the DDR archive.
 
-**Risk if misused:** The language of trust could be allowed to substitute for measured system performance and source criticism.
+**Risk:** “Trust” could become a vague substitute for evaluation. In this thesis it is useful only where tied to inspectable evidence, explainability, governance and bounded claims.
 
 # Cross-source / cross-lens synthesis
 
-Jaillant and Rees translate the critical-archival insight that archives are institutional infrastructures into AI governance. Bearman and Cook show that contextual information and archival process matter; Caswell et al. reject neutrality; Jaillant and Rees add that computational systems must be negotiated across human roles before they can be trusted. For DDR, this supports a bounded RAI architecture in which archival provenance, human judgement and inspectable evidence constrain model synthesis.
+Read beside ISAD(G), Jaillant and Rees reveal what changes when archival description and access move into contemporary computational environments. ISAD(G) formalises context, hierarchy, provenance and description control; Jaillant and Rees show that these archival commitments now encounter questions of algorithmic opacity, distributed responsibility and institutional trust. Aske and Giardinetti further complicate the picture by showing that the metadata on which AI depends already contains historical and descriptive bias. Together the sources strengthen critical archival theory as a lens on computational activation: the archive is not raw input to a model but a governed and historically mediated evidence system. What remains to be demonstrated against DDR practice is whether the research instrument makes those mediations more inspectable rather than merely adding another authoritative layer.
 
 # Methods spine tags
 
@@ -175,18 +144,18 @@ Jaillant and Rees translate the critical-archival insight that archives are inst
 
 # Chicago NB payload
 
-- **Key pages to reuse:** 571–583
-- **First full note:** Lise Jaillant and Arran Rees, “Applying AI to Digital Archives: Trust, Collaboration and Shared Professional Ethics,” *Digital Scholarship in the Humanities* 38, no. 2 (2023): 571–585, https://doi.org/10.1093/llc/fqac073.
-- **Short note form:** Jaillant and Rees, “Applying AI to Digital Archives,” 571–583.
+- **Key pages to reuse:** 571–581
+- **First full note:** Lise Jaillant and Arran Rees, “Applying AI to Digital Archives: Trust, Collaboration and Shared Professional Ethics,” *Digital Scholarship in the Humanities* 38, no. 2 (2023): 571–585.
+- **Short note form:** Jaillant and Rees, “Applying AI to Digital Archives,” 577–81.
 - **One quote worth lifting:** “Trust in other humans can lead to trust in technology.” (p. 572)
-- **One paraphrase worth keeping:** Jaillant and Rees argue that archival AI adoption depends less on technical capability alone than on trust, communication and shared ethical commitments across record creators, archivists and researchers. [@jaillantApplyingAIDigital2023, pp. 571–583]
+- **One paraphrase worth keeping:** Archival AI depends on cross-sector trust, explainability and domain knowledge as well as technical performance. [@jaillantApplyingAIDigital2023, pp. 577–581]
 
 # Related works
 
-- Jaillant and Aske, “Are Users of Digital Archives Ready for the AI Era?”
-- Caswell, Punzalan, and Sangwand, “Critical Archival Studies.”
-- Moss, Thomas, and Gollins, “The Reconfiguration of the Archive as Data to Be Mined.”
+- Committee on Descriptive Standards, *ISAD(G): General International Standard Archival Description* — uploaded in the current reading batch.
+- Aske and Giardinetti, “(Mis)Matching Metadata” — uploaded in the current reading batch.
 
 # Follow-ups
 
-- **What I will test next:** Map each DDR RAI control to the professional/archival trust problem it addresses.
+- **What I will read next:** Compare this governance account with the descriptive-control logic in ISAD(G).
+- **What I will test or write next:** Identify which DDR interface controls can be defended as archival-accountability mechanisms rather than generic AI safeguards.
