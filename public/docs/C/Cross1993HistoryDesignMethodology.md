@@ -11,7 +11,7 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 generated_at: "01 Oct 2026"
-last_updated: "01 Oct 2026"
+last_updated: "05 Oct 2026"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 
@@ -38,12 +38,16 @@ project_tags:
 **Source type:** Core / historiographic bridge
 
 # Constraints (anti-bloat / anti-hallucination)
-- No page cite → write TODO (needs page / verification)
-- At least 6 critical claims
-- Claim → Evidence → Warrant → Boundary → Consequence
-- Separate author claim, evidence-supported claim and researcher inference
-- Practice cross-check or TODO for each claim
-- Final cross-source synthesis
+- No page cite → TODO (needs page / verification)
+- Substantive source → at least 6 critical claims; major canonical source → normally 6–8 or more where warranted
+- Critical claims are analytical paragraphs: Claim → Evidence → Warrant → Boundary → Consequence
+- Keep author claim, evidence-supported claim, and researcher inference distinct
+- Each claim must include a practice cross-check (or TODO)
+- End each substantive note with a cross-source / cross-lens synthesis paragraph (or TODO)
+- Every source gets one primary theoretical-framework area + one Zotero literature cluster
+- No antithesis lists: write Boundary + Risk
+- If it doesn’t serve the RQ/theoretical framework: OUT OF SCOPE (why)
+(Full rules: project/constraints.md)
 
 # Thesis job
 
@@ -65,74 +69,26 @@ Cross writes in 1993 on the thirtieth anniversary of the 1962 Conference on Desi
 
 Cross reconstructs design methodology as a field that moved from first-generation scientific-systematic methods through 1970s rejection and second-generation participation toward a more differentiated 1980s–90s research landscape, while arguing that design/science relations require finer distinctions than the early dichotomies allowed. [@Cross1993HistoryDesignMethodology, pp. 15–23]
 
-# Six-claim evidence ledger
+# Critical-reading claims
 
 ## Claim 1
-- **Claim (plain):** Cross locates modern design methodology in a post-war transfer of scientific and managerial techniques into design.
-- **Author claim:** He traces the 1950s–60s emergence of new methods to wartime operational research and management decision techniques, alongside creativity methods, and identifies the 1962 London conference as the first substantial academic recognition of design methods.
-- **Evidence-supported claim:** Pages 15–16 explicitly frame the 1962 conference as the conventional launch while naming OR, management decision-making and creativity techniques as antecedents.
-- **Researcher inference:** DDR's systematic-methods work should be historicised within this broader transfer of techniques rather than presented as an autonomous invention.
-- **Evidence (quote/paraphrase + page):** Cross states that the origins of new design methods lay in applying novel “scientific” methods to wartime problems and then traces the conference/book network of the 1960s. [@Cross1993HistoryDesignMethodology, pp. 15–16]
-- **Warrant (my words):** Intellectual lineage is established here through the circulation and repurposing of methods across domains, not through a single founder.
-- **Boundary:** Cross gives a high-level field history rather than documentary proof of how particular OR techniques entered specific DDR projects.
-- **Consequence:** The thesis should treat operational-research influence as a claim requiring project-level evidence when applied to DDR.
-- **Practice cross-check:** TODO (identify explicit OR/management-science references in Archer or DDR project documents).
 
+**Claim.** Cross locates modern design methodology in a post-war transfer of scientific and managerial techniques into design. **Author claim.** He traces the 1950s–60s emergence of new methods to wartime operational research and management decision techniques, alongside creativity methods, and identifies the 1962 London conference as the first substantial academic recognition of design methods. **Evidence.** Pages 15–16 explicitly frame the 1962 conference as the conventional launch while naming OR, management decision-making and creativity techniques as antecedents. **Evidence-supported claim.** Pages 15–16 explicitly frame the 1962 conference as the conventional launch while naming OR, management decision-making and creativity techniques as antecedents. **Researcher inference.** DDR's systematic-methods work should be historicised within this broader transfer of techniques rather than presented as an autonomous invention. **Warrant.** Intellectual lineage is established here through the circulation and repurposing of methods across domains, not through a single founder. **Boundary.** Cross gives a high-level field history rather than documentary proof of how particular OR techniques entered specific DDR projects. **Consequence.** The thesis should treat operational-research influence as a claim requiring project-level evidence when applied to DDR. **Practice cross-check.** TODO (identify explicit OR/management-science references in Archer or DDR project documents).
 ## Claim 2
-- **Claim (plain):** The 1970s crisis was not a simple disappearance of methods but a critique of first-generation assumptions about rationality, optimisation and problem structure.
-- **Author claim:** Cross foregrounds Alexander's and Jones's rejection of “design methods,” acknowledges weak practical success of scientific approaches and invokes Rittel and Webber's wicked-problem critique.
-- **Evidence-supported claim:** Page 16 records both pioneer repudiations and the argument that many design/planning problems were not amenable to techniques devised for tame scientific/engineering problems.
-- **Researcher inference:** Later DDR revisions should be read against a broader crisis of confidence in method, while retaining evidence for what Archer himself changed and why.
-- **Evidence (quote/paraphrase + page):** Cross quotes Alexander disassociating himself from the field and Jones rejecting its machine language and attempts to force life into a logical framework. [@Cross1993HistoryDesignMethodology, p. 16]
-- **Warrant (my words):** Critique from founding participants shows that contestation arose inside the methods movement as well as from external opposition.
-- **Boundary:** Cross's narrative compresses diverse 1970s debates into a short overview and should not be used to infer identical reasons for every participant's change of position.
-- **Consequence:** The thesis should preserve multiple, possibly incompatible accounts of why systematic methods were revised or rejected.
-- **Practice cross-check:** TODO (compare Cross's retrospective account with Archer 1979 and contemporaneous DDR records).
 
+**Claim.** The 1970s crisis was not a simple disappearance of methods but a critique of first-generation assumptions about rationality, optimisation and problem structure. **Author claim.** Cross foregrounds Alexander's and Jones's rejection of “design methods,” acknowledges weak practical success of scientific approaches and invokes Rittel and Webber's wicked-problem critique. **Evidence.** Page 16 records both pioneer repudiations and the argument that many design/planning problems were not amenable to techniques devised for tame scientific/engineering problems. **Evidence-supported claim.** Page 16 records both pioneer repudiations and the argument that many design/planning problems were not amenable to techniques devised for tame scientific/engineering problems. **Researcher inference.** Later DDR revisions should be read against a broader crisis of confidence in method, while retaining evidence for what Archer himself changed and why. **Warrant.** Critique from founding participants shows that contestation arose inside the methods movement as well as from external opposition. **Boundary.** Cross's narrative compresses diverse 1970s debates into a short overview and should not be used to infer identical reasons for every participant's change of position. **Consequence.** The thesis should preserve multiple, possibly incompatible accounts of why systematic methods were revised or rejected. **Practice cross-check.** TODO (compare Cross's retrospective account with Archer 1979 and contemporaneous DDR records).
 ## Claim 3
-- **Claim (plain):** Rittel's generational model allows Cross to describe a substantive shift from optimisation and designer omnipotence toward participation and satisficing.
-- **Author claim:** Cross characterises first-generation methods as systematic, rational and scientific, and second-generation methods as accepting wickedness, satisfactory rather than optimal solutions, and argumentative processes involving clients, users and communities.
-- **Evidence-supported claim:** Page 17 explicitly contrasts these generations and notes that second-generation developments diverged between architecture/planning and engineering/industrial design.
-- **Researcher inference:** “Design methodology” in the DDR period should not be treated as one stable method family; the archive may contain contemporaneous variants and sector-specific trajectories.
-- **Evidence (quote/paraphrase + page):** Cross describes second-generation designers as partners with problem “owners” rather than omnipotent optimisers. [@Cross1993HistoryDesignMethodology, p. 17]
-- **Warrant (my words):** A generational account makes changes in assumptions about agency and problem ownership visible, not merely changes in technique.
-- **Boundary:** Cross acknowledges disciplinary divergence, so the generational schema is a broad map rather than a universal sequence.
-- **Consequence:** The thesis should identify which version of method is present in a specific DDR trace before making claims about “the” methods movement.
-- **Practice cross-check:** TODO (classify one DDR project by the assumptions it makes about problem ownership, participation and optimisation).
 
+**Claim.** Rittel's generational model allows Cross to describe a substantive shift from optimisation and designer omnipotence toward participation and satisficing. **Author claim.** Cross characterises first-generation methods as systematic, rational and scientific, and second-generation methods as accepting wickedness, satisfactory rather than optimal solutions, and argumentative processes involving clients, users and communities. **Evidence.** Page 17 explicitly contrasts these generations and notes that second-generation developments diverged between architecture/planning and engineering/industrial design. **Evidence-supported claim.** Page 17 explicitly contrasts these generations and notes that second-generation developments diverged between architecture/planning and engineering/industrial design. **Researcher inference.** “Design methodology” in the DDR period should not be treated as one stable method family; the archive may contain contemporaneous variants and sector-specific trajectories. **Warrant.** A generational account makes changes in assumptions about agency and problem ownership visible, not merely changes in technique. **Boundary.** Cross acknowledges disciplinary divergence, so the generational schema is a broad map rather than a universal sequence. **Consequence.** The thesis should identify which version of method is present in a specific DDR trace before making claims about “the” methods movement. **Practice cross-check.** TODO (classify one DDR project by the assumptions it makes about problem ownership, participation and optimisation).
 ## Claim 4
-- **Claim (plain):** By the early 1990s Cross sees renewed methodology as potentially integrating problem and solution rather than reinstating the first-generation linear model.
-- **Author claim:** He suggests a possible third generation combining divergent architectural and engineering trajectories and explicitly cites Archer's “commutative” relation between problem and solution.
-- **Evidence-supported claim:** Page 17 proposes that a third generation might be built around understanding the commutative nature of problem and solution; the same passage notes renewed interest through AI and design automation.
-- **Researcher inference:** Archer's 1979 commutative model belongs to a wider methodological afterlife and can be treated as one bridge from first-generation systematisation toward later iterative formulations.
-- **Evidence (quote/paraphrase + page):** Cross proposes a possible third generation based on the “commutative” nature of problem and solution in design. [@Cross1993HistoryDesignMethodology, p. 17]
-- **Warrant (my words):** The historical continuity is not the survival of one procedure but the reworking of the problem of how design inquiry can be made explicit.
-- **Boundary:** The “third generation” is speculative language in this paper, not a demonstrated consensus or completed historical phase.
-- **Consequence:** The thesis can trace conceptual persistence through revision without claiming an unbroken or uniform lineage.
-- **Practice cross-check:** TODO (compare Archer 1963, Archer 1979 and a later DDR/DEU trace for changing problem–solution relations).
 
+**Claim.** By the early 1990s Cross sees renewed methodology as potentially integrating problem and solution rather than reinstating the first-generation linear model. **Author claim.** He suggests a possible third generation combining divergent architectural and engineering trajectories and explicitly cites Archer's “commutative” relation between problem and solution. **Evidence.** Page 17 proposes that a third generation might be built around understanding the commutative nature of problem and solution; the same passage notes renewed interest through AI and design automation. **Evidence-supported claim.** Page 17 proposes that a third generation might be built around understanding the commutative nature of problem and solution; the same passage notes renewed interest through AI and design automation. **Researcher inference.** Archer's 1979 commutative model belongs to a wider methodological afterlife and can be treated as one bridge from first-generation systematisation toward later iterative formulations. **Warrant.** The historical continuity is not the survival of one procedure but the reworking of the problem of how design inquiry can be made explicit. **Boundary.** The “third generation” is speculative language in this paper, not a demonstrated consensus or completed historical phase. **Consequence.** The thesis can trace conceptual persistence through revision without claiming an unbroken or uniform lineage. **Practice cross-check.** TODO (compare Archer 1963, Archer 1979 and a later DDR/DEU trace for changing problem–solution relations).
 ## Claim 5
-- **Claim (plain):** Cross distinguishes three often-confused relationships between design and science.
-- **Author claim:** He defines scientific design as industrial design informed by scientific knowledge while still mixing intuitive and non-intuitive methods; design science as an explicitly organised, rational and systematic approach to designing; and the science of design as systematic investigation of design itself.
-- **Evidence-supported claim:** Pages 19–21 explicitly separate these terms, culminating in the claim that a science of design studies principles, practices, procedures and design knowledge using systematic, reliable methods of investigation.
-- **Researcher inference:** This terminology can prevent the thesis from collapsing DDR claims about scientific input, systematic design activity and research *on* design into one vague label of “scientific design.”
-- **Evidence (quote/paraphrase + page):** Cross defines scientific design on p. 20, design science across pp. 20–21, and the science of design on p. 21. [@Cross1993HistoryDesignMethodology, pp. 19–21]
-- **Warrant (my words):** These concepts differ in the location of science: knowledge used in designing, the organisation of designing itself, or the method by which designing is studied.
-- **Boundary:** Cross is proposing terminological clarification within a contested literature; the definitions are analytically useful but not universally accepted.
-- **Consequence:** DDR texts should be coded according to the specific science/design relation they actually claim rather than grouped under an undifferentiated “design science” category.
-- **Practice cross-check:** TODO (apply the three distinctions to a small sample of DDR texts and record ambiguous cases rather than forcing classification).
 
+**Claim.** Cross distinguishes three often-confused relationships between design and science. **Author claim.** He defines scientific design as industrial design informed by scientific knowledge while still mixing intuitive and non-intuitive methods; design science as an explicitly organised, rational and systematic approach to designing; and the science of design as systematic investigation of design itself. **Evidence.** Pages 19–21 explicitly separate these terms, culminating in the claim that a science of design studies principles, practices, procedures and design knowledge using systematic, reliable methods of investigation. **Evidence-supported claim.** Pages 19–21 explicitly separate these terms, culminating in the claim that a science of design studies principles, practices, procedures and design knowledge using systematic, reliable methods of investigation. **Researcher inference.** This terminology can prevent the thesis from collapsing DDR claims about scientific input, systematic design activity and research *on* design into one vague label of “scientific design.” **Warrant.** These concepts differ in the location of science: knowledge used in designing, the organisation of designing itself, or the method by which designing is studied. **Boundary.** Cross is proposing terminological clarification within a contested literature; the definitions are analytically useful but not universally accepted. **Consequence.** DDR texts should be coded according to the specific science/design relation they actually claim rather than grouped under an undifferentiated “design science” category. **Practice cross-check.** TODO (apply the three distinctions to a small sample of DDR texts and record ambiguous cases rather than forcing classification).
 ## Claim 6
-- **Claim (plain):** Cross concludes that design methodology survived by diversifying into methods, process management, problem theory, empirical design studies and philosophy.
-- **Author claim:** His review of 1980s developments spans systematic methods and automation, design-process models, problem structure, protocol/case studies and epistemological or praxeological reflection.
-- **Evidence-supported claim:** Pages 22–23 list these five areas and conclude that methodology had matured academically despite continuing weak practitioner confidence and little acknowledged practical application.
-- **Researcher inference:** A DDR-centred thesis should assess both intellectual production and uptake: disciplinary growth cannot be inferred from publication volume alone.
-- **Evidence (quote/paraphrase + page):** Cross calls design methodology a more mature academic field while noting lack of confidence among practitioners and little acknowledged practical application. [@Cross1993HistoryDesignMethodology, pp. 22–23]
-- **Warrant (my words):** Academic institutionalisation and practical adoption are different historical phenomena and require different evidence.
-- **Boundary:** Cross's conclusion is based on his overview of published developments and does not quantify practitioner use.
-- **Consequence:** The thesis should keep publication, institutional legitimacy, teaching and reception as separate evidential routes.
-- **Practice cross-check:** TODO (compare DDR publication/project density with surviving evidence of external reception or use).
 
+**Claim.** Cross concludes that design methodology survived by diversifying into methods, process management, problem theory, empirical design studies and philosophy. **Author claim.** His review of 1980s developments spans systematic methods and automation, design-process models, problem structure, protocol/case studies and epistemological or praxeological reflection. **Evidence.** Pages 22–23 list these five areas and conclude that methodology had matured academically despite continuing weak practitioner confidence and little acknowledged practical application. **Evidence-supported claim.** Pages 22–23 list these five areas and conclude that methodology had matured academically despite continuing weak practitioner confidence and little acknowledged practical application. **Researcher inference.** A DDR-centred thesis should assess both intellectual production and uptake: disciplinary growth cannot be inferred from publication volume alone. **Warrant.** Academic institutionalisation and practical adoption are different historical phenomena and require different evidence. **Boundary.** Cross's conclusion is based on his overview of published developments and does not quantify practitioner use. **Consequence.** The thesis should keep publication, institutional legitimacy, teaching and reception as separate evidential routes. **Practice cross-check.** TODO (compare DDR publication/project density with surviving evidence of external reception or use).
 # Definitions / terms this changes
 
 - **First-generation methods:** systematic, rational, “scientific” approaches associated with the 1960s. [@Cross1993HistoryDesignMethodology, pp. 16–17]
