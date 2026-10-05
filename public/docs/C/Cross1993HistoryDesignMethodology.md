@@ -22,9 +22,9 @@ project_rq_purpose: "Use the DDR archive to identify, interpret, and reactivate 
 model_title: "Mobilising contested design knowledge in the DDR archive"
 theoretical_framework_area_id: "1"
 theoretical_framework_area: "Critical design historiography"
-literature_cluster_id: "b"
-literature_cluster: "Operational literature"
-zotero_filing_path: "Theoretical framework / 1. Critical design historiography / b) Operational literature"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / 1. Critical design historiography / a) Canon + intellectual lineage"
 source_type: "Core / historiographic bridge"
 project_tags:
   - "Theoretical framework"
@@ -33,8 +33,8 @@ project_tags:
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
 **Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
 **Primary theoretical-framework area:** 1. Critical design historiography  
-**Literature cluster:** b) Operational literature  
-**Zotero filing path:** Theoretical framework / 1. Critical design historiography / b) Operational literature  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 1. Critical design historiography / a) Canon + intellectual lineage  
 **Source type:** Core / historiographic bridge
 
 # Constraints (anti-bloat / anti-hallucination)
