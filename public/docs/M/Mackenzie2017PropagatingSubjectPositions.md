@@ -36,7 +36,7 @@ source_completeness: "Complete for this chapter; printed page 196 is a full-page
 ---
 
 **RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
-**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period be for design and design research today?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
 **Primary theoretical-framework area:** 3. Critical computational approaches  
 **Literature cluster:** a) Canon + intellectual lineage  
 **Zotero filing path:** Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage  
