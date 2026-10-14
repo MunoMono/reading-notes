@@ -1,4 +1,9 @@
 ---
+theoretical_framework_area_id: "1"
+theoretical_framework_area: "Critical design historiography"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 1. Critical design historiography / b) Operational literature"
 title: "Electrohome lectures"
 authors: "Archer, L. Bruce"
 year: 1973
