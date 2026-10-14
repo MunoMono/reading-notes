@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:06:10.702Z",
+  "updatedAt": "2026-10-14T10:06:41.206Z",
   "entries": [
     {
       "letter": "A",
@@ -98,18 +98,20 @@
       "url": "",
       "citation_key": "Electrohome",
       "displayTitle": "Archer, L. Bruce (1973). Electrohome lectures",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / b) Operational literature",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.1946,
-      "category": "S1: Historicising contested design knowledge"
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "A",
@@ -2773,18 +2775,20 @@
         "url": "",
         "citation_key": "Electrohome",
         "displayTitle": "Archer, L. Bruce (1973). Electrohome lectures",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / b) Operational literature",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.1946,
-        "category": "S1: Historicising contested design knowledge"
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "A",
