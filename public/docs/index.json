@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:18:30.761Z",
+  "updatedAt": "2026-10-14T10:06:10.702Z",
   "entries": [
     {
       "letter": "A",
@@ -71,18 +71,20 @@
       "url": "",
       "citation_key": "Archer1978TimeRevolutionArt",
       "displayTitle": "Archer, L. Bruce (1978). Time for a revolution in art and design education",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / b) Operational literature",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "17 Mar 2026",
       "noteDateMs": 1773705600000,
       "mtimeMs": 1790843642963.1753,
-      "category": "S1: Historicising contested design knowledge"
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "A",
@@ -150,18 +152,20 @@
       "url": "",
       "citation_key": "Baynes1978DesignGeneralEducation",
       "displayTitle": "Archer, L. Bruce; Baynes, Ken; Langdon, Richard (1978). Design in general education — Royal College of Art",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / b) Operational literature",
       "source_type": "Primary historical source",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642965.7532,
-      "category": ""
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "A",
@@ -622,18 +626,20 @@
       "url": "",
       "citation_key": "Brothman2001PastArchivesKeep",
       "displayTitle": "Brothman, Brien (2001). The past that archives keep: memory, history, and the preservation of archival records — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
       "source_type": "Bridge text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642965.9243,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "B",
@@ -647,18 +653,20 @@
       "url": "http://www.jstor.org/stable/1511480",
       "citation_key": "Buckley1986MadePatriarchy",
       "displayTitle": "Buckley, Cheryl (1986). Made in patriarchy: toward a feminist analysis of women and design — Design Issues",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "1",
+      "theoretical_framework_area": "Critical design historiography",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / a) Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642965.9172,
-      "category": ""
+      "category": "1. Critical design historiography"
     },
     {
       "letter": "C",
@@ -761,18 +769,20 @@
       "url": "https://journals.sagepub.com/doi/10.1177/14738716261434908",
       "citation_key": "Chen2026DemystifyingUMAPArtifacts",
       "displayTitle": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver (2026). Demystifying UMAP artifacts: an interactive study on diagnosis and steering using 3D probes — Information Visualization",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
       "source_type": "Methodological anchor",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "27 May 2026, 10:24",
       "noteDateMs": 1779873840000,
       "mtimeMs": 1790843642965.6355,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "C",
@@ -846,18 +856,20 @@
       "url": "",
       "citation_key": "CilettiRetrievalAugmentedGenerationSystems",
       "displayTitle": "Ciletti, Michele (). Retrieval-augmented generation systems",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / b) Operational literature",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "27 May 2026, 09:14",
       "noteDateMs": 1779869640000,
       "mtimeMs": 1790843642965.5862,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "C",
@@ -901,18 +913,20 @@
       "url": "",
       "citation_key": "Cook1997WhatIsPastPrologue",
       "displayTitle": "Cook, Terry (1997). What is past is prologue: a history of archival ideas since 1898, and the future paradigm shift — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642965.6528,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "C",
@@ -1013,18 +1027,20 @@
       "url": "https://doi.org/10.1145/3429458",
       "citation_key": "Davis2021LinkedDataCulturalHeritage",
       "displayTitle": "Davis, Edie; Heravi, Bahareh (2021). Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation — Journal on Computing and Cultural Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642965.6921,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "D",
@@ -1187,18 +1203,20 @@
       "url": "",
       "citation_key": "Foka2024AICulturalHeritageBias",
       "displayTitle": "Foka, Anna; Griffin, Gabriele (2024). AI, cultural heritage, and bias: some key queries that arise from the use of GenAI — Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "4",
+      "theoretical_framework_area": "Feminist + situated knowledge",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature",
       "source_type": "Supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.256,
-      "category": ""
+      "category": "4. Feminist + situated knowledge"
     },
     {
       "letter": "F",
@@ -1237,18 +1255,20 @@
       "url": "https://www.mdpi.com/2079-9292/13/18/3741",
       "citation_key": "Gagliardi2024ExploringVisualizingMultilingual",
       "displayTitle": "Gagliardi, Isabella and Artese, Maria Teresa (2024). Exploring and visualizing multilingual cultural heritage data using multi-layer semantic graphs and transformers — Electronics",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / b) Operational literature",
       "source_type": "Context / supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "27 May 2026, 10:10",
       "noteDateMs": 1779873000000,
       "mtimeMs": 1790843686293.6816,
-      "category": "S3.1 Visual analytics"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "G",
@@ -1293,18 +1313,20 @@
       "url": "",
       "citation_key": "Gilliland2016RecordsImaginaries",
       "displayTitle": "Gilliland, Anne J.; Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.0547,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "G",
@@ -1318,18 +1340,20 @@
       "url": "https://doi.org/10.2307/2078095",
       "citation_key": "Grigg1991ArchivalPracticeFoundations",
       "displayTitle": "Grigg, Susan (1991). Archival practice and the foundations of historical method — The Journal of American History",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
       "source_type": "Bridge text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642958.5847,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "G",
@@ -1432,18 +1456,20 @@
       "url": "https://doi.org/10.1145/3495004",
       "citation_key": "Hedges2022IntroductionComputationalArchivalScience",
       "displayTitle": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini (2022). Introduction to the special issue on computational archival science — Journal on Computing and Cultural Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage",
       "source_type": "Bridge text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642963.2769,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "I",
@@ -1631,18 +1657,20 @@
       "url": "",
       "citation_key": "Kizhner2025EthnicMinoritiesCollections",
       "displayTitle": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe (2025). Ethnic minorities in online museum collections: skews and bias in digital material culture — Digital Scholarship in the Humanities",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "4",
+      "theoretical_framework_area": "Feminist + situated knowledge",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature",
       "source_type": "Supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843643082.894,
-      "category": ""
+      "category": "4. Feminist + situated knowledge"
     },
     {
       "letter": "L",
@@ -1775,18 +1803,20 @@
       "url": "https://doi.org/10.1007/s00146-021-01373-z",
       "citation_key": "McKenna2022NAISCLInterlinkingFramework",
       "displayTitle": "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan (2022). Using linked data to create provenance-rich metadata interlinks: the design and evaluation of the NAISC-L interlinking framework for libraries, archives and museums — AI & SOCIETY",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / b) Operational literature",
       "source_type": "Bridge text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642963.295,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "M",
@@ -1829,18 +1859,20 @@
       "url": "",
       "citation_key": "Leon2026MultiliteracyModelInteractive",
       "displayTitle": "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas (2026). A multiliteracy model for interactive visualization literacy: definitions, literacies, and steps for future research — Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
       "source_type": "Supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843643092.9626,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "M",
@@ -1854,18 +1886,20 @@
       "url": "",
       "citation_key": "Mordell2019CriticalQuestionsArchivesData",
       "displayTitle": "Mordell, Devon (2019). Critical questions for archives as (big) data — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "b",
+      "literature_cluster": "Operational literature",
+      "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / b) Operational literature",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "b) Operational literature"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642963.3032,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "M",
@@ -1968,18 +2002,20 @@
       "url": "",
       "citation_key": "Nesmith2015ArchivalStageHistoryKnowledge",
       "displayTitle": "Nesmith, Tom (2015). Toward the archival stage in the history of knowledge — Archivaria",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "2",
+      "theoretical_framework_area": "Critical archival theory",
+      "literature_cluster_id": "a",
+      "literature_cluster": "Canon + intellectual lineage",
+      "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
       "source_type": "Core text",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "a) Canon + intellectual lineage"
+      ],
       "noteDate": "19 Mar 2026",
       "noteDateMs": 1773878400000,
       "mtimeMs": 1790843642936.1145,
-      "category": ""
+      "category": "2. Critical archival theory"
     },
     {
       "letter": "N",
@@ -2055,18 +2091,20 @@
       "url": "https://dl.acm.org/doi/10.1145/3746658",
       "citation_key": "Ozdemir2025EnhancingCulturalHeritage",
       "displayTitle": "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim (2025). Enhancing cultural heritage archive analysis via automated entity extraction and graph-based representation learning — Journal on Computing and Cultural Heritage",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
       "source_type": "Supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.2683,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "P",
@@ -2288,18 +2326,20 @@
       "url": "https://github.com/sebischair/Exploring-NLP-Research",
       "citation_key": "SchopfExploringLandscapeNatural",
       "displayTitle": "Schopf, Tim and Arabi, Karim and Matthes, Florian (2023). Exploring the landscape of natural language processing research",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
       "source_type": "Context / supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "28 May 2026, 11:36",
       "noteDateMs": 1779964560000,
       "mtimeMs": 1790843642963.118,
-      "category": "S3: Surfacing and reactivating traces computationally"
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "S",
@@ -2374,18 +2414,20 @@
       "url": "https://doi.org/10.1016/j.sheji.2025.06.002",
       "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
       "displayTitle": "Siddharth, L.; Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-      "theoretical_framework_area_id": "",
-      "theoretical_framework_area": "",
-      "literature_cluster_id": "",
-      "literature_cluster": "",
-      "zotero_filing_path": "",
+      "theoretical_framework_area_id": "3",
+      "theoretical_framework_area": "Critical computational approaches",
+      "literature_cluster_id": "c",
+      "literature_cluster": "Contemporary bridge literature",
+      "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
       "source_type": "Supporting",
       "project_tags": [],
-      "literature_clusters": [],
+      "literature_clusters": [
+        "c) Contemporary bridge literature"
+      ],
       "noteDate": "18 Mar 2026",
       "noteDateMs": 1773792000000,
       "mtimeMs": 1790843642963.142,
-      "category": ""
+      "category": "3. Critical computational approaches"
     },
     {
       "letter": "S",
@@ -2704,18 +2746,20 @@
         "url": "",
         "citation_key": "Archer1978TimeRevolutionArt",
         "displayTitle": "Archer, L. Bruce (1978). Time for a revolution in art and design education",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / b) Operational literature",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "17 Mar 2026",
         "noteDateMs": 1773705600000,
         "mtimeMs": 1790843642963.1753,
-        "category": "S1: Historicising contested design knowledge"
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "A",
@@ -2993,18 +3037,20 @@
         "url": "",
         "citation_key": "Baynes1978DesignGeneralEducation",
         "displayTitle": "Archer, L. Bruce; Baynes, Ken; Langdon, Richard (1978). Design in general education — Royal College of Art",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / b) Operational literature",
         "source_type": "Primary historical source",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642965.7532,
-        "category": ""
+        "category": "1. Critical design historiography"
       },
       {
         "letter": "B",
@@ -3257,18 +3303,20 @@
         "url": "",
         "citation_key": "Brothman2001PastArchivesKeep",
         "displayTitle": "Brothman, Brien (2001). The past that archives keep: memory, history, and the preservation of archival records — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
         "source_type": "Bridge text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642965.9243,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "B",
@@ -3282,18 +3330,20 @@
         "url": "http://www.jstor.org/stable/1511480",
         "citation_key": "Buckley1986MadePatriarchy",
         "displayTitle": "Buckley, Cheryl (1986). Made in patriarchy: toward a feminist analysis of women and design — Design Issues",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "1",
+        "theoretical_framework_area": "Critical design historiography",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 1. Critical design historiography / a) Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642965.9172,
-        "category": ""
+        "category": "1. Critical design historiography"
       }
     ],
     "C": [
@@ -3398,18 +3448,20 @@
         "url": "https://journals.sagepub.com/doi/10.1177/14738716261434908",
         "citation_key": "Chen2026DemystifyingUMAPArtifacts",
         "displayTitle": "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver (2026). Demystifying UMAP artifacts: an interactive study on diagnosis and steering using 3D probes — Information Visualization",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
         "source_type": "Methodological anchor",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "27 May 2026, 10:24",
         "noteDateMs": 1779873840000,
         "mtimeMs": 1790843642965.6355,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "C",
@@ -3483,18 +3535,20 @@
         "url": "",
         "citation_key": "CilettiRetrievalAugmentedGenerationSystems",
         "displayTitle": "Ciletti, Michele (). Retrieval-augmented generation systems",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / b) Operational literature",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "27 May 2026, 09:14",
         "noteDateMs": 1779869640000,
         "mtimeMs": 1790843642965.5862,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "C",
@@ -3538,18 +3592,20 @@
         "url": "",
         "citation_key": "Cook1997WhatIsPastPrologue",
         "displayTitle": "Cook, Terry (1997). What is past is prologue: a history of archival ideas since 1898, and the future paradigm shift — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642965.6528,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "C",
@@ -3652,18 +3708,20 @@
         "url": "https://doi.org/10.1145/3429458",
         "citation_key": "Davis2021LinkedDataCulturalHeritage",
         "displayTitle": "Davis, Edie; Heravi, Bahareh (2021). Linked data and cultural heritage: a systematic review of participation, collaboration, and motivation — Journal on Computing and Cultural Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642965.6921,
-        "category": ""
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "D",
@@ -3828,18 +3886,20 @@
         "url": "",
         "citation_key": "Foka2024AICulturalHeritageBias",
         "displayTitle": "Foka, Anna; Griffin, Gabriele (2024). AI, cultural heritage, and bias: some key queries that arise from the use of GenAI — Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "4",
+        "theoretical_framework_area": "Feminist + situated knowledge",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 4. Feminist + situated knowledge / c) Contemporary bridge literature",
         "source_type": "Supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.256,
-        "category": ""
+        "category": "4. Feminist + situated knowledge"
       },
       {
         "letter": "F",
@@ -3880,18 +3940,20 @@
         "url": "https://www.mdpi.com/2079-9292/13/18/3741",
         "citation_key": "Gagliardi2024ExploringVisualizingMultilingual",
         "displayTitle": "Gagliardi, Isabella and Artese, Maria Teresa (2024). Exploring and visualizing multilingual cultural heritage data using multi-layer semantic graphs and transformers — Electronics",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / b) Operational literature",
         "source_type": "Context / supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "27 May 2026, 10:10",
         "noteDateMs": 1779873000000,
         "mtimeMs": 1790843686293.6816,
-        "category": "S3.1 Visual analytics"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "G",
@@ -3936,18 +3998,20 @@
         "url": "",
         "citation_key": "Gilliland2016RecordsImaginaries",
         "displayTitle": "Gilliland, Anne J.; Caswell, Michelle (2016). Records and their imaginaries: imagining the impossible, making possible the imagined — Archival Science",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.0547,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "G",
@@ -3961,18 +4025,20 @@
         "url": "https://doi.org/10.2307/2078095",
         "citation_key": "Grigg1991ArchivalPracticeFoundations",
         "displayTitle": "Grigg, Susan (1991). Archival practice and the foundations of historical method — The Journal of American History",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
         "source_type": "Bridge text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642958.5847,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "G",
@@ -4077,18 +4143,20 @@
         "url": "https://doi.org/10.1145/3495004",
         "citation_key": "Hedges2022IntroductionComputationalArchivalScience",
         "displayTitle": "Hedges, Mark; Marciano, Richard; Goudarouli, Eirini (2022). Introduction to the special issue on computational archival science — Journal on Computing and Cultural Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / a) Canon + intellectual lineage",
         "source_type": "Bridge text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642963.2769,
-        "category": ""
+        "category": "3. Critical computational approaches"
       }
     ],
     "I": [
@@ -4312,18 +4380,20 @@
         "url": "",
         "citation_key": "Kizhner2025EthnicMinoritiesCollections",
         "displayTitle": "Kizhner, Inna; Skorinkin, Daniil; Terras, Melissa; Netzer, Yael; Lavee, Moshe (2025). Ethnic minorities in online museum collections: skews and bias in digital material culture — Digital Scholarship in the Humanities",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "4",
+        "theoretical_framework_area": "Feminist + situated knowledge",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 4. Feminist + situated knowledge / b) Operational literature",
         "source_type": "Supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843643082.894,
-        "category": ""
+        "category": "4. Feminist + situated knowledge"
       }
     ],
     "L": [
@@ -4370,18 +4440,20 @@
         "url": "",
         "citation_key": "Leon2026MultiliteracyModelInteractive",
         "displayTitle": "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas (2026). A multiliteracy model for interactive visualization literacy: definitions, literacies, and steps for future research — Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
         "source_type": "Supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843643092.9626,
-        "category": ""
+        "category": "3. Critical computational approaches"
       }
     ],
     "M": [
@@ -4455,18 +4527,20 @@
         "url": "https://doi.org/10.1007/s00146-021-01373-z",
         "citation_key": "McKenna2022NAISCLInterlinkingFramework",
         "displayTitle": "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan (2022). Using linked data to create provenance-rich metadata interlinks: the design and evaluation of the NAISC-L interlinking framework for libraries, archives and museums — AI & SOCIETY",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / b) Operational literature",
         "source_type": "Bridge text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642963.295,
-        "category": ""
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "M",
@@ -4509,18 +4583,20 @@
         "url": "",
         "citation_key": "Mordell2019CriticalQuestionsArchivesData",
         "displayTitle": "Mordell, Devon (2019). Critical questions for archives as (big) data — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "b",
+        "literature_cluster": "Operational literature",
+        "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / b) Operational literature",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "b) Operational literature"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642963.3032,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "M",
@@ -4625,18 +4701,20 @@
         "url": "",
         "citation_key": "Nesmith2015ArchivalStageHistoryKnowledge",
         "displayTitle": "Nesmith, Tom (2015). Toward the archival stage in the history of knowledge — Archivaria",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "2",
+        "theoretical_framework_area": "Critical archival theory",
+        "literature_cluster_id": "a",
+        "literature_cluster": "Canon + intellectual lineage",
+        "zotero_filing_path": "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage",
         "source_type": "Core text",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "a) Canon + intellectual lineage"
+        ],
         "noteDate": "19 Mar 2026",
         "noteDateMs": 1773878400000,
         "mtimeMs": 1790843642936.1145,
-        "category": ""
+        "category": "2. Critical archival theory"
       },
       {
         "letter": "N",
@@ -4714,18 +4792,20 @@
         "url": "https://dl.acm.org/doi/10.1145/3746658",
         "citation_key": "Ozdemir2025EnhancingCulturalHeritage",
         "displayTitle": "Ozdemir, Anil; Odaci, Berke; Tanatar Baruh, Lorans; Varol, Onur; Balcisoy, Selim (2025). Enhancing cultural heritage archive analysis via automated entity extraction and graph-based representation learning — Journal on Computing and Cultural Heritage",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
         "source_type": "Supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.2683,
-        "category": ""
+        "category": "3. Critical computational approaches"
       }
     ],
     "P": [
@@ -4955,18 +5035,20 @@
         "url": "https://github.com/sebischair/Exploring-NLP-Research",
         "citation_key": "SchopfExploringLandscapeNatural",
         "displayTitle": "Schopf, Tim and Arabi, Karim and Matthes, Florian (2023). Exploring the landscape of natural language processing research",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
         "source_type": "Context / supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "28 May 2026, 11:36",
         "noteDateMs": 1779964560000,
         "mtimeMs": 1790843642963.118,
-        "category": "S3: Surfacing and reactivating traces computationally"
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "S",
@@ -5041,18 +5123,20 @@
         "url": "https://doi.org/10.1016/j.sheji.2025.06.002",
         "citation_key": "Siddharth2025DataDrivenInnovationTrustworthy",
         "displayTitle": "Siddharth, L.; Luo, Jianxi (2025). Data-driven innovation for trustworthy AI — She Ji: The Journal of Design, Economics, and Innovation",
-        "theoretical_framework_area_id": "",
-        "theoretical_framework_area": "",
-        "literature_cluster_id": "",
-        "literature_cluster": "",
-        "zotero_filing_path": "",
+        "theoretical_framework_area_id": "3",
+        "theoretical_framework_area": "Critical computational approaches",
+        "literature_cluster_id": "c",
+        "literature_cluster": "Contemporary bridge literature",
+        "zotero_filing_path": "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature",
         "source_type": "Supporting",
         "project_tags": [],
-        "literature_clusters": [],
+        "literature_clusters": [
+          "c) Contemporary bridge literature"
+        ],
         "noteDate": "18 Mar 2026",
         "noteDateMs": 1773792000000,
         "mtimeMs": 1790843642963.142,
-        "category": ""
+        "category": "3. Critical computational approaches"
       },
       {
         "letter": "S",
