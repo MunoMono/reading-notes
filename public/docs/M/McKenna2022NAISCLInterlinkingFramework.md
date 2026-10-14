@@ -1,4 +1,9 @@
 ---
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "b"
+literature_cluster: "Operational literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / b) Operational literature"
 title: "Using linked data to create provenance-rich metadata interlinks: the design and evaluation of the NAISC-L interlinking framework for libraries, archives and museums"
 authors: "McKenna, Lucy; Debruyne, Christophe; O’Sullivan, Declan"
 year: 2022
