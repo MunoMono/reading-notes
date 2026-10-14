@@ -1,4 +1,9 @@
 ---
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
 title: "Data-driven innovation for trustworthy AI"
 authors: "Siddharth, L.; Luo, Jianxi"
 year: 2025
