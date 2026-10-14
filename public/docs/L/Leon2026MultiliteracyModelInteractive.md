@@ -1,4 +1,9 @@
 ---
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
 title: "A multiliteracy model for interactive visualization literacy: definitions, literacies, and steps for future research"
 authors: "Molina León, Gabriela; Bach, Benjamin; Valentim, Matheus; Elmqvist, Niklas"
 year: 2026
