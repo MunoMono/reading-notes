@@ -1,4 +1,9 @@
 ---
+theoretical_framework_area_id: "2"
+theoretical_framework_area: "Critical archival theory"
+literature_cluster_id: "a"
+literature_cluster: "Canon + intellectual lineage"
+zotero_filing_path: "Theoretical framework / 2. Critical archival theory / a) Canon + intellectual lineage"
 title: "The past that archives keep: memory, history, and the preservation of archival records"
 authors: "Brothman, Brien"
 year: 2001
