@@ -1,4 +1,9 @@
 ---
+theoretical_framework_area_id: "3"
+theoretical_framework_area: "Critical computational approaches"
+literature_cluster_id: "c"
+literature_cluster: "Contemporary bridge literature"
+zotero_filing_path: "Theoretical framework / 3. Critical computational approaches / c) Contemporary bridge literature"
 title: "Demystifying UMAP artifacts: an interactive study on diagnosis and steering using 3D probes"
 authors: "Chen, Bin and Xue, Yumeng and Paetzold, Patrick and Deussen, Oliver"
 year: 2026
