@@ -21,6 +21,14 @@ bibliography: ../../refs/library.bib
 csl: "https://www.zotero.org/styles/chicago-fullnote-bibliography"
 link-citations: true
 ---
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 4. Feminist + situated knowledge  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage  
+**Project/output tag:** Theoretical framework  
+**Source:** Chapter World-Travelling, printed pages 77–98; supplied scan with OCR.  
+
 # Thesis job
 
 **Primary RQ:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?
@@ -32,6 +40,18 @@ link-citations: true
 **Secondary question:** Historic DDR propositions about systematic inquiry and design knowledge can be re-examined for what forms of practice and agency they render visible; relevance remains an interpretation to test, not Lugones's own historical claim.
 
 **Position / source:** María Lugones, *Pilgrimages/Peregrinajes* (2003), chapter 4, pp. 77–98. This is a reading of the supplied scanned/OCR chapter; image page numbers take precedence over imperfect OCR. The political context of Lugones's argument must remain explicit in any later adaptation.
+
+# Position and context
+
+Lugones situates this discussion in her experience as a daughter and woman of colour (p. 77). She develops a critique of arrogant perception through Marilyn Frye and her own painful relation to her mother (pp. 78–83), before questioning homogenised coalition and articulating situated 'worlds', travel and being at ease (pp. 84–93). The closing sections are crucial: she contrasts agonistic, competence-driven play with openness to surprise, and then returns to loving perception and the possibility of travelling non-arrogantly across the worlds of others (pp. 94–98). The later argument matters; 'playfulness' is not a casual synonym for creativity.
+
+# The author's main move
+
+Her argument is that another person cannot be adequately known by using them to confirm the observer's own categories. Identification requires attentive movement into the ways the other becomes a subject in particular, lived worlds (pp. 78–86). A world may be a small, incomplete construction inhabited by flesh-and-blood people, not just a worldview or ideal future (pp. 86–88). The plurality of selves across worlds is not merely role-playing; the worlds make distinct capacities and positions possible (pp. 88–93). In the final movement, non-agonistic play supplies an attitude of surprise opposed to competitive mastery (pp. 94–96).
+
+# My benchmark
+
+I will use this source only where a discrete historical interpretation, interview prompt, catalogue decision or computational treatment changes as a consequence; and where any resulting assertion about DDR can be independently supported by identified source records. Conceptual suggestiveness is not historical proof.
 
 # Critical-reading claims
 
@@ -86,3 +106,28 @@ Together with Chapter 3's demand for structurally plural theorizing, Chapter 7's
 - **Short passage for checking (not a substitute for context):** “The loving eye is a contrary of the arrogant eye” (p. 79).
 - **Paraphrase:** Reading across archival and oral-historical accounts requires attentiveness to the worlds in which people became intelligible, while retaining the limits of historical access.
 - **Evidence status:** Page-referenced source claims checked against uploaded chapter; DDR applications explicitly conditional pending practice cross-checks. Citation-key parity with live Zotero export: TODO (verify after next Zotero/BibTeX synchronization).
+
+
+# My response and assessment
+
+This is arguably the most fertile chapter for oral-history interpretation, but also the easiest to misuse. 'World'-travelling is a practice of living across structures of unequal racialized experience; reading two archival documents is not literally equivalent. Equally, an interviewer cannot simply become an earlier DDR actor or retrieve an inaccessible experience by empathy. Its strongest methodological use is an injunction to reconstruct an interlocutor's situated terms before imposing institutional categories, to keep disagreements intelligible, and to make explicit what cannot be recovered. Lugones's critique of Huizinga and Gadamer's agonistic conceptions (pp. 94–95) shows that a designer's joyful iteration is not necessarily the loving playfulness she means.
+
+**Additional critical distinction:** On pp. 90–93 Lugones demonstrates that a person may be fluently competent in a world yet not humanly bonded or able to act as they wish; the four kinds of ease are not interchangeable. This prevents me from reading institutional fluency as evidence of belonging. The archive may show someone delivering a formal role impeccably while offering no record of how that person inhabited its norms. A credible note must keep this uncertainty, not convert it into an invisible interior life.
+
+# Integration hooks and a practical test
+
+**Where to cite:** the review's situated-knowledge section and the methods discussion of oral history, testimony and interpretative positionality. **Conceptual-framework connection:** the recursive transition between archival inquiry and design-led experimentation may reopen an earlier reading, but it does not confer lived access to historical worlds. **Practical design consequence:** comparative interfaces should keep source language, period and witness position inspectable rather than presenting one model-generated voice.
+
+**Testable proposition:** Take two conflicting accounts of a DDR practice, one contemporary and one retrospective. Reconstruct the setting, vocabulary, role expectations and intended audience of each, then test which claims are genuinely contradictory, which describe different contexts and which are unverifiable. Compare this with a forced unified answer. Track whether the richer account retains source/time distinctions and avoids attributing a stable private motive. **TODO:** choose an oral history and contemporary counterpart with verified pages/transcript lines.
+
+# Boundary and risk
+
+**Boundary:** The source's political and experiential claims arise from Lugones's arguments about racialized, gendered and colonial oppression and resistance, not from investigation of the Royal College of Art. Evidence for DDR must come from independently reviewed records and testimonies.
+
+**Risk:** An academically polished analogy could conceal the difference between (i) absence of a description, (ii) non-retrieval of a surviving record, (iii) limited or suppressed credit, and (iv) a historically established act of exclusion. The design and evaluation of the instrument must distinguish them.
+
+# Page-led capture and reading verification
+
+**Short source quotation:** “The loving eye is a contrary of the arrogant eye” (p. 79, Frye quoted by Lugones).
+
+**Verification discipline:** These claims were developed from the scanned chapter and its printed pagination. OCR artefacts can affect exact spelling; quotation text and final bibliography should be checked against page images before submission. Exact DDR archive and UAT cross-references remain marked TODO where the record was not independently inspected.
