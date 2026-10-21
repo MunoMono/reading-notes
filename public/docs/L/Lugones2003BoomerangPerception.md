@@ -16,6 +16,14 @@ generated_at: "21 Oct 2026, 10:07"
 north_star_source: "project/north-star.yml"
 constraints_source: "project/constraints.md"
 ---
+**RQ (supervisor verbatim):** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?  
+**Secondary question:** To what extent ought the ideas that were current at the time to be revisited, and what can the lessons of that period tell us about how we should be thinking about design and design research today?  
+**Primary theoretical-framework area:** 4. Feminist + situated knowledge  
+**Literature cluster:** a) Canon + intellectual lineage  
+**Zotero filing path:** Theoretical framework / 4. Feminist + situated knowledge / a) Canon + intellectual lineage  
+**Project/output tag:** Theoretical framework  
+**Source:** Chapter Boomerang Perception, printed pages 151–163; supplied scan with OCR.  
+
 # Thesis job
 
 Lugones' account of boomerang perception critically informs how I examine existing classifications and stories in the DDR archive. The historical application is my inference, not Lugones' position. This note sits in the canonical feminist and situated-knowledge framework, with bounded cross-over to archival and computational interpretation.
@@ -23,6 +31,18 @@ Lugones' account of boomerang perception critically informs how I examine existi
 **Primary RQ:** How might testamentary traces of contested design knowledge be mobilised to activate the RCA’s DDR archive?
 
 **Secondary RQ relevance:** The chapter permits a critical re-reading of what historic design-research categories make visible or marginal, but supplies no facts about DDR.
+
+# Position and context
+
+This chapter addresses people of colour directly, and its account of public speaking under racial domination is essential to its politics (p. 151). Lugones reconstructs the insecure boundaries of belonging for mixed, immigrant and otherwise culturally displaced people (pp. 152–155). She then draws on Elizabeth Spelman and Edward Said to explain the self-confirming logic of the racist/colonizing gaze (pp. 156–158); the aircraft episode exposes its capacity to profess sameness while producing frightening difference (pp. 158–159). The closing critique focuses on horizontal hostility: the defensive circle of an oppressed community can exclude those it deems inauthentic (pp. 159–163).
+
+# The author's main move
+
+The main intervention is not merely 'classification is biased'. Lugones analyses a political relation in which people rendered unreal by the dominant gaze may encounter an echo of that gaze within their own potential communities, through tests of real and fake identity (pp. 154–155, 160–162). She refuses the claim that there is only one authentic resistance and proposes a more complex double vision across different resistant logics (pp. 160–163). Her specificity and the paradox of defensive belonging must remain central.
+
+# My benchmark
+
+I will use this source only where a discrete historical interpretation, interview prompt, catalogue decision or computational treatment changes as a consequence; and where any resulting assertion about DDR can be independently supported by identified source records. Conceptual suggestiveness is not historical proof.
 
 # Critical-reading claims
 
@@ -67,3 +87,28 @@ Chapter 7 complicates Chapter 3's interactive pluralism and Chapter 4's loving p
 **Paraphrase:** The logic of apparently recognizing someone may leave their independent history unrecognized.
 
 **Citation key:** TODO verify against Zotero-exported bibliography.
+
+
+# My response and assessment
+
+The analytical value lies in the distinction between *recognition* and *recognition as the seer already imagines*. This bears on archival interfaces insofar as catalogues and machine summaries can repeat an inherited canon; however, it would be conceptually careless to equate every metadata hierarchy with colonial violence. The airplane anecdote is an exemplary lived encounter, not a survey or an empirical evaluation of computational classification (pp. 158–159). The most demanding lesson for DDR is the need to test whether alternative voices are made legible on their own source terms rather than treated as variants of an established storyline.
+
+**Further challenge from the chapter:** A protective alternative perception is not simply bad. Lugones credits homeplace and shared historical belonging as sources of resilience and survival (pp. 156, 158–159). Her criticism is aimed at the closure of those circles when their internal legitimacy tests re-enact the oppressor's terms (pp. 160–163). A DDR reading must therefore hold both the explanatory necessity of bounded institutional history and the dangers of mistaking the category's edges for the whole distribution of contributions.
+
+# Integration hooks and a practical test
+
+**Where to cite:** feminist and critical historiography on canons and exclusions; critical archival description; limitations section for computational authority. **Conceptual-framework connection:** representation moves recursively from archived record to structured data to visual/computational finding to historical interpretation; each mediation creates an opportunity for boomerang-like projection. **Critical boundary:** this is a methodological analogy, not Lugones's claim about machine learning.
+
+**Testable proposition:** Build a paired corpus audit: for selected lesser-described DDR and adjacent DEU participants, compare original catalogue metadata, original source documents, named authority fields, retrieval hits and generated summaries. Ask whether an unfamiliar actor remains independently described or is repeatedly narrated by proximity to a recognized leader. Record false exclusions and false attributions separately. **TODO:** select IDs and calculate coverage within the strictly PID-backed corpus; never infer a missing actor from silence alone.
+
+# Boundary and risk
+
+**Boundary:** The source's political and experiential claims arise from Lugones's arguments about racialized, gendered and colonial oppression and resistance, not from investigation of the Royal College of Art. Evidence for DDR must come from independently reviewed records and testimonies.
+
+**Risk:** An academically polished analogy could conceal the difference between (i) absence of a description, (ii) non-retrieval of a surviving record, (iii) limited or suppressed credit, and (iv) a historically established act of exclusion. The design and evaluation of the instrument must distinguish them.
+
+# Page-led capture and reading verification
+
+**Short source quotation:** “I look at you and come right back to myself” (p. 157, quoting Spelman).
+
+**Verification discipline:** These claims were developed from the scanned chapter and its printed pagination. OCR artefacts can affect exact spelling; quotation text and final bibliography should be checked against page images before submission. Exact DDR archive and UAT cross-references remain marked TODO where the record was not independently inspected.
